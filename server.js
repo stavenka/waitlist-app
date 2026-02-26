@@ -48,16 +48,26 @@ app.post('/api/waitlist', async (req, res) => {
     return res.status(400).json({ ok: false, error: 'Please enter a valid email address.' });
   }
 
-  const credPath = getCredentialsPath();
-  if (!fs.existsSync(credPath)) {
-    console.error('Credentials file not found. Tried:', credPath);
-    return res.status(503).json({ ok: false, error: 'Waitlist is not configured yet. Please try again later.' });
+  let credentials = null;
+  if (process.env.GOOGLE_CREDENTIALS_JSON) {
+    try {
+      credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS_JSON);
+    } catch (e) {
+      console.error('Invalid GOOGLE_CREDENTIALS_JSON');
+      return res.status(503).json({ ok: false, error: 'Waitlist is not configured yet. Please try again later.' });
+    }
+  } else {
+    const credPath = getCredentialsPath();
+    if (!fs.existsSync(credPath)) {
+      console.error('Credentials file not found. Tried:', credPath);
+      return res.status(503).json({ ok: false, error: 'Waitlist is not configured yet. Please try again later.' });
+    }
+    credentials = JSON.parse(fs.readFileSync(credPath, 'utf8'));
   }
 
   try {
-    const keyContent = fs.readFileSync(credPath, 'utf8');
     const auth = new google.auth.GoogleAuth({
-      credentials: JSON.parse(keyContent),
+      credentials,
       scopes: ['https://www.googleapis.com/auth/spreadsheets'],
     });
     const sheets = google.sheets({ version: 'v4', auth });
@@ -91,7 +101,8 @@ app.post('/api/waitlist', async (req, res) => {
     const msg = err.message || '';
     console.error('Sheets API error:', code, msg);
     console.error('Spreadsheet ID used:', SPREADSHEET_ID);
-    console.error('Credentials path:', credPath);
+    const credPath = getCredentialsPath();
+    console.error('Credentials path:', process.env.GOOGLE_CREDENTIALS_JSON ? '(from env)' : credPath);
     if (err.response && err.response.data) console.error('Response body:', JSON.stringify(err.response.data));
     let message = 'We couldn’t save your place right now. Please try again in a moment.';
     if (code === 404 || msg.includes('Unable to parse range')) {
@@ -105,11 +116,13 @@ app.post('/api/waitlist', async (req, res) => {
 
 app.listen(PORT, async () => {
   console.log(`Server running at http://localhost:${PORT}`);
-  const credExists = fs.existsSync(CREDENTIALS_PATH);
-  if (credExists) {
-    console.log('Credentials file found:', CREDENTIALS_PATH);
+  const hasEnvCreds = !!process.env.GOOGLE_CREDENTIALS_JSON;
+  const credExists = !hasEnvCreds && fs.existsSync(CREDENTIALS_PATH);
+  if (hasEnvCreds || credExists) {
+    if (hasEnvCreds) console.log('Credentials: from GOOGLE_CREDENTIALS_JSON env');
+    else console.log('Credentials file found:', CREDENTIALS_PATH);
     try {
-      const keyContent = fs.readFileSync(CREDENTIALS_PATH, 'utf8');
+      const keyContent = hasEnvCreds ? process.env.GOOGLE_CREDENTIALS_JSON : fs.readFileSync(CREDENTIALS_PATH, 'utf8');
       const auth = new google.auth.GoogleAuth({
         credentials: JSON.parse(keyContent),
         scopes: ['https://www.googleapis.com/auth/spreadsheets'],
@@ -122,7 +135,6 @@ app.listen(PORT, async () => {
       console.error('Startup sheet check failed:', e.response && e.response.status, e.message);
     }
   } else {
-    console.log('Credentials file NOT FOUND at:', CREDENTIALS_PATH);
-    console.log('Put google-credentials.json in:', __dirname);
+    console.log('Credentials NOT FOUND. Set GOOGLE_CREDENTIALS_JSON (env) or put google-credentials.json in:', __dirname);
   }
 });

@@ -79,7 +79,7 @@ The app needs a **service account key file** (JSON) so it can write to your Goog
    ```bash
    npm start
    ```
-3. Open http://localhost:3000 and submit an email. It should save to your sheet and show the queue number.
+3. Open https://judicious-ostrich-949.convex.site or http://localhost:3000 (if running locally) and submit an email. It should save to your sheet and show the queue number.
 
 ---
 

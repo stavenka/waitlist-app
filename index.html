@@ -636,6 +636,7 @@
       var queueNumberEl = document.getElementById('waitlistQueueNumber');
       var errorEl = document.getElementById('waitlistError');
       var submitBtn = document.getElementById('waitlistSubmitBtn');
+      var DEPLOYED_APP_URL = 'https://mygambit.ai';
       var STORAGE_KEY = 'gambit_waitlist_next_queue';
       var QUEUE_START = 2000;
       function getNextQueueNumber() {
@@ -657,8 +658,8 @@
           var email = emailInput.value.trim();
           if (errorEl) { errorEl.setAttribute('hidden', ''); errorEl.textContent = ''; }
           if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Saving…'; }
-          var apiBase = (window.location.protocol === 'file:' || window.location.hostname !== 'localhost') ? 'http://localhost:3000' : '';
-          fetch(apiBase + '/api/waitlist', {
+          var apiUrl = (window.location.protocol === 'file:') ? (DEPLOYED_APP_URL + '/api/waitlist') : (window.location.origin + '/api/waitlist');
+          fetch(apiUrl, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email: email }),
@@ -671,7 +672,7 @@
               return res.json().then(function (data) { return { ok: res.ok, data: data || {} }; });
             })
             .catch(function () {
-              return { ok: false, data: { error: 'Couldn’t connect. Run the server (npm start) and open http://localhost:3000' } };
+              return { ok: false, data: { error: 'Couldn’t connect. Please check your connection and try again, or open ' + DEPLOYED_APP_URL + ' in your browser' } };
             })
             .then(function (result) {
               if (result.ok) {
