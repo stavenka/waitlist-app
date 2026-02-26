@@ -657,12 +657,22 @@
           var email = emailInput.value.trim();
           if (errorEl) { errorEl.setAttribute('hidden', ''); errorEl.textContent = ''; }
           if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Saving…'; }
-          fetch('/api/waitlist', {
+          var apiBase = (window.location.protocol === 'file:' || window.location.hostname !== 'localhost') ? 'http://localhost:3000' : '';
+          fetch(apiBase + '/api/waitlist', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email: email }),
           })
-            .then(function (res) { return res.json().then(function (data) { return { ok: res.ok, data: data }; }); })
+            .then(function (res) {
+              var contentType = res.headers.get('Content-Type') || '';
+              if (!contentType.includes('application/json')) {
+                return { ok: false, data: { error: 'Something went wrong. Please try again.' } };
+              }
+              return res.json().then(function (data) { return { ok: res.ok, data: data || {} }; });
+            })
+            .catch(function () {
+              return { ok: false, data: { error: 'Couldn’t connect. Run the server (npm start) and open http://localhost:3000' } };
+            })
             .then(function (result) {
               if (result.ok) {
                 var queueNum = getNextQueueNumber();
@@ -671,18 +681,11 @@
                 confirmation.removeAttribute('hidden');
               } else {
                 if (errorEl) {
-                  errorEl.textContent = result.data && result.data.error ? result.data.error : 'Something went wrong. Please try again.';
+                  errorEl.textContent = (result.data && result.data.error) ? result.data.error : 'Something went wrong. Please try again.';
                   errorEl.removeAttribute('hidden');
                 }
                 if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = 'Claim your place for free'; }
               }
-            })
-            .catch(function (err) {
-              if (errorEl) {
-                errorEl.textContent = 'Something went wrong. Please try again.';
-                errorEl.removeAttribute('hidden');
-              }
-              if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = 'Claim your place for free'; }
             });
         });
       }
