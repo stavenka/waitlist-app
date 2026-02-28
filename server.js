@@ -36,6 +36,13 @@ function isValidEmail(str) {
 
 app.use(cors());
 app.use(express.json());
+// Prevent aggressive caching of HTML so deploys show up on the live domain
+app.use((req, res, next) => {
+  if (req.path === '/' || /\.html?$/i.test(req.path)) {
+    res.set('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0');
+  }
+  next();
+});
 app.use(express.static(__dirname));
 
 app.post('/api/waitlist', async (req, res) => {
