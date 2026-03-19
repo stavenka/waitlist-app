@@ -76,6 +76,56 @@
       .hero-right .testimonials-wrap { background-color: transparent; }
       .step-item:first-child .step-content { background: var(--white); }
       .step-item:last-child .step-content { background: var(--white); }
+      /* Hero right panel — white card goes dark */
+      .hero-right { background: #2c1a10; }
+
+      /* COMING SOON badge — light text/border on dark bg */
+      .coming-soon-badge { color: rgba(255, 248, 240, 0.88); border-color: rgba(255, 248, 240, 0.6); }
+
+      /* Logo — lighter blue so it reads on dark bg */
+      .logo { color: #b0c4e8; }
+
+      /* Email input — dark background, visible border */
+      .hero-left .hero-cta-block input[type="email"] {
+        background: #1a0f08;
+        border-color: #5a3f2a;
+        color: var(--text);
+      }
+      .hero-left .hero-cta-block input[type="email"]::placeholder { color: var(--text-muted); }
+      .hero-left .hero-cta-block input[type="email"]:focus { border-color: var(--accent); }
+
+      /* CTA button — use accent colour so it pops on dark */
+      .hero-left .btn-primary { background: var(--accent); color: #ffffff; border-color: rgba(255,255,255,0.12); }
+      .hero-left .btn-primary:hover { background: var(--accent-hover); transform: translateY(-1px); }
+
+      /* Inline error message */
+      .hero-cta-error { background: #2c0f0f; border-color: #7c2020; color: #f87171; }
+
+      /* Queue modal */
+      .queue-modal { background: #2c1810; box-shadow: 0 8px 48px rgba(0,0,0,0.65); }
+      .queue-modal-title { color: var(--text); }
+      .queue-modal-text { color: var(--text-muted); }
+      .queue-modal-text strong { color: var(--text); }
+      .queue-modal-close { background: var(--accent); color: #ffffff; }
+      .queue-modal-close:hover { background: var(--accent-hover); }
+
+      /* Press logos — invert + brighten so they're visible on dark bg */
+      .press-section .press-logo img[src] { filter: grayscale(1) brightness(2); opacity: 0.6; }
+      .press-section .press-logo img[src]:hover { filter: grayscale(0) brightness(1.6); opacity: 0.9; }
+
+      /* Step number circles */
+      .step-item .step-num { background: #1a0f08; }
+
+      /* Highlight underline — keep readable on dark bg */
+      .hero-left .highlight-after {
+        background: linear-gradient(to bottom, transparent 50%, rgba(230, 81, 0, 0.4) 50%, rgba(230, 81, 0, 0.4) 92%, transparent 92%);
+      }
+
+      /* Menu-toggle hamburger lines */
+      .menu-toggle span { background: var(--text); }
+
+      /* Footer border */
+      .footer-wrap { border-top-color: #4a3020; }
     }
     html { font-size: 16px; scroll-behavior: smooth; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
