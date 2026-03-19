@@ -696,6 +696,12 @@
       .hero-left h1 .hero-m4,
       .hero-left h1 .hero-m5,
       .hero-left h1 .hero-m6 { display: block; }
+      /* Video overlay on mobile: tighter gap, no scale, smaller padding */
+      .hero-right .testimonials-wrap { transform: none; }
+      .hero-right .hero-video-overlay { gap: var(--space-2); padding: var(--space-3) var(--space-3); }
+      .hero-right .see-it-play-circle { width: 64px; height: 64px; }
+      .hero-right .see-it-play-triangle { border-left-width: 14px; border-top-width: 9px; border-bottom-width: 9px; margin-left: 4px; }
+      .hero-right .see-it-heading { font-size: 1rem; }
       .section { padding: var(--space-6) var(--space-2); }
       #how-it-works { padding-left: var(--space-2); padding-right: var(--space-2); }
       .step-item { flex-direction: column; gap: var(--space-4); }
