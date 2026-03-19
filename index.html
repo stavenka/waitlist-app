@@ -873,21 +873,25 @@
       var btn = document.getElementById('waitlistSubmitBtn');
       if (btn) { btn.disabled = true; btn.textContent = 'Recording your entry…'; }
 
+      function done(num) {
+        if (btn) { btn.disabled = false; btn.textContent = 'Claim your place for free'; }
+        gambitShowModal(num);
+      }
+
       var backendReady = APPS_SCRIPT_URL.indexOf('PASTE_') === -1;
 
       if (!backendReady) {
-        gambitShowModal(gambitGetQueue());
+        done(gambitGetQueue());
         return;
       }
 
       fetch(APPS_SCRIPT_URL + '?email=' + encodeURIComponent(email))
         .then(function(r) { return r.json(); })
         .then(function(d) {
-          var num = (d && d.queue_number) ? d.queue_number : gambitGetQueue();
-          gambitShowModal(num);
+          done((d && d.queue_number) ? d.queue_number : gambitGetQueue());
         })
         .catch(function() {
-          gambitShowModal(gambitGetQueue());
+          done(gambitGetQueue());
         });
     }
 
