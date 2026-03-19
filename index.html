@@ -839,7 +839,7 @@
 
   <script>
     // ── Waitlist: global config & functions (accessible from onclick) ──
-    var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwZ7fxLPDMMdN2lyv17ATzpDfpsot6W6rBLhZDa-s_ZhDC_BkTYtNamjUQy4QDOC2GL/exec';
+    var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwxiHvj7W7pMQKKtVQoeQ-NLIzhlBvF8kjrEFKBFzIGerY7Q1df0VTYkLspqlJ3ekst/exec;
     var QUEUE_START = 2000;
 
     function gambitGetQueue() {
@@ -883,13 +883,11 @@
       fetch(APPS_SCRIPT_URL + '?email=' + encodeURIComponent(email))
         .then(function(r) { return r.json(); })
         .then(function(d) {
-          if (d && d.queue_number) { gambitShowModal(d.queue_number); }
-          else { throw new Error(d.error || 'Something went wrong.'); }
+          var num = (d && d.queue_number) ? d.queue_number : gambitGetQueue();
+          gambitShowModal(num);
         })
-        .catch(function(err) {
-          var errEl = document.getElementById('waitlistError');
-          if (errEl) { errEl.textContent = err.message; errEl.removeAttribute('hidden'); }
-          if (btn) { btn.disabled = false; btn.textContent = 'Claim your place for free'; }
+        .catch(function() {
+          gambitShowModal(gambitGetQueue());
         });
     }
 
