@@ -658,7 +658,7 @@
       .hero-left h1 .hero-m6 { display: block; }
       /* Video overlay on mobile: tighter gap, no scale, smaller padding */
       .hero-right .testimonials-wrap { transform: none; }
-      .hero-right .hero-video-overlay { gap: var(--space-2); padding: var(--space-3) var(--space-3); }
+      .hero-right .hero-video-overlay { gap: var(--space-1); padding: var(--space-2) var(--space-2); aspect-ratio: unset; min-height: 140px; }
       .hero-right .see-it-play-circle { width: 64px; height: 64px; }
       .hero-right .see-it-play-triangle { border-left-width: 14px; border-top-width: 9px; border-bottom-width: 9px; margin-left: 4px; }
       .hero-right .see-it-heading { font-size: 1rem; }
@@ -738,9 +738,9 @@
       /* Step number circles */
       .step-item .step-num { background: #1a0f08; }
 
-      /* Highlight underline — keep readable on dark bg */
+      /* Highlight underline — bright amber strip, clearly visible on dark bg */
       .hero-left .highlight-after {
-        background: linear-gradient(to bottom, transparent 50%, rgba(230, 81, 0, 0.4) 50%, rgba(230, 81, 0, 0.4) 92%, transparent 92%);
+        background: linear-gradient(to bottom, transparent 42%, rgba(255, 130, 0, 0.72) 42%, rgba(255, 130, 0, 0.72) 96%, transparent 96%);
       }
 
       /* Menu-toggle hamburger lines */
@@ -812,7 +812,7 @@
             <div class="hero-cta-slot">
               <form class="hero-cta-block" id="waitlistForm" action="javascript:void(0)" onsubmit="gambitClaim(); return false;">
                 <input type="email" name="email" id="waitlistEmail" placeholder="ENTER EMAIL - free access to first 10,000 only" required aria-label="Email address">
-                <button type="button" class="btn-primary" id="waitlistSubmitBtn" onclick="gambitClaim()">Claim your place for free</button>
+                <button type="button" class="btn-primary" id="waitlistSubmitBtn" onclick="gambitClaim()">Claim your place</button>
               </form>
               <p class="hero-cta-error" id="waitlistError" hidden aria-live="assertive"></p>
               <div class="hero-cta-confirmation" id="waitlistConfirmation" aria-live="polite" hidden>
@@ -940,7 +940,7 @@
       if (btn) { btn.disabled = true; btn.textContent = 'Recording your entry…'; }
 
       function done(num) {
-        if (btn) { btn.disabled = false; btn.textContent = 'Claim your place for free'; }
+        if (btn) { btn.disabled = false; btn.textContent = 'Claim your place'; }
         gambitShowModal(num);
       }
 
