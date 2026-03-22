@@ -36,6 +36,15 @@ function isValidEmail(str) {
 
 app.use(cors());
 app.use(express.json());
+// Redirect draft/duplicate pages so Google never indexes them as separate URLs
+const REDIRECT_TO_HOME = ['/index.html', '/hero-option-a.html', '/hero-option-b.html', '/hero-option-c.html'];
+app.use((req, res, next) => {
+  if (REDIRECT_TO_HOME.includes(req.path)) {
+    return res.redirect(301, '/');
+  }
+  next();
+});
+
 // Prevent aggressive caching of HTML so deploys show up on the live domain
 app.use((req, res, next) => {
   if (req.path === '/' || /\.html?$/i.test(req.path)) {

@@ -1,5 +1,9 @@
 User-agent: *
 Allow: /
 Disallow: /signin.html
+Disallow: /index.html
+Disallow: /hero-option-a.html
+Disallow: /hero-option-b.html
+Disallow: /hero-option-c.html
 
 Sitemap: https://mygambit.ai/sitemap.xml
