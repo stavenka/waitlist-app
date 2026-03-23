@@ -67,7 +67,8 @@
         --accent-light: #2c1810;
         --logo-color: #D4A5A5;
       }
-      body { background: var(--white); color: var(--text); }
+      body { background: transparent; color: var(--text); }
+      .page-bg { background: #1a0f08; }
       .header { background: rgba(26, 15, 8, 0.95); border-bottom-color: var(--gray-100); box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25); }
       .nav a { color: var(--accent); }
       .about-hero { background: linear-gradient(135deg, #1a0f08 0%, #2c1810 50%, #4a3020 100%); }
@@ -82,7 +83,11 @@
     a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     html { font-size: 16px; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; color: var(--text); background: var(--white); font-size: var(--text-base); line-height: var(--leading-snug); overflow-x: hidden; }
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; color: var(--text); background: transparent; font-size: var(--text-base); line-height: var(--leading-snug); overflow-x: hidden; position: relative; min-height: 100vh; }
+    .page-bg { position: fixed; inset: 0; z-index: 0; background: #ffffff; opacity: 1; }
+    .page-bg::after { content: ""; position: absolute; inset: 0; background-image: linear-gradient(to right, rgba(0,0,0,0.06) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,0,0,0.06) 1px, transparent 1px); background-size: 128px 128px; opacity: 1; pointer-events: none; }
+    main { position: relative; z-index: 1; }
+    .header { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); }
     a { color: inherit; text-decoration: none; }
     .header {
       position: sticky; top: 0; z-index: 100;
@@ -92,8 +97,8 @@
       padding: var(--space-2) var(--space-3);
     }
     .header-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; position: relative; }
-    .logo { display: inline-flex; align-items: center; gap: var(--space-1); font-family: 'Outfit', sans-serif; font-weight: 700; font-size: var(--text-lg); line-height: var(--leading-tight); color: var(--logo-color); }
-    .logo img { height: 28px; width: auto; display: block; filter: hue-rotate(130deg) saturate(1.15) brightness(1.02); }
+    .logo { display: inline-flex; align-items: center; gap: 10px; font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.25rem; line-height: var(--leading-tight); color: #163a72; letter-spacing: 0.01em; }
+    .logo svg { flex-shrink: 0; }
     .nav { display: flex; align-items: center; gap: var(--space-5); margin-left: auto; }
     .nav a {
       font-weight: 600;
@@ -247,10 +252,14 @@
   </style>
 </head>
 <body>
+  <div class="page-bg" aria-hidden="true"></div>
   <header class="header">
     <div class="header-inner">
       <a href="index.html" class="logo">
-        <img src="assets/logo.png" alt="Gambit">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="38" height="38" aria-hidden="true">
+          <rect width="44" height="44" rx="10" fill="#0f1f3d"/>
+          <text x="22" y="22" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="31" fill="white" dominant-baseline="central" text-anchor="middle">G</text>
+        </svg>
         Gambit
       </a>
       <nav class="nav" id="nav">
