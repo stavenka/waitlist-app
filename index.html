@@ -253,25 +253,19 @@
     .hero-left .hero-rotate-1 { animation: hero-show-1 9s ease-in-out infinite; }
     .hero-left .hero-rotate-2 { animation: hero-show-2 9s ease-in-out infinite; }
     .hero-left .hero-rotate-3 { animation: hero-show-3 9s ease-in-out infinite; }
-    .hero-left .hero-ai-signs {
+    .hero-ai-signs {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
-      width: fit-content;
-      min-width: min(100%, 26rem);
       gap: clamp(3rem, 6vw, 6rem);
-      margin-bottom: calc(var(--space-4) + 0.75rem - 16px);
-      margin-left: -1.1rem;
+      margin-bottom: var(--space-3);
     }
-    .hero-left .hero-ai-signs .ai-sign {
+    .hero-ai-signs .ai-sign {
       height: 36px;
       width: auto;
       object-fit: contain;
       flex-shrink: 0;
       display: block;
-    }
-    .hero-left .hero-ai-signs .ai-sign:last-child {
-      margin-left: -1.8rem;
     }
     .hero-cta-slot {
       margin-top: calc(var(--space-3) - 4px);
@@ -646,7 +640,7 @@
       .hero-left { max-width: none; }
       /* Mobile above-the-fold order: 1) AI signs, 2) Headline, 3) CTA, 4) See it in action */
       .hero-left, .hero-right { display: contents; }
-      .hero-left .hero-ai-signs { order: -2; }
+      .hero-ai-signs { order: -2; }
       .hero-row .hero-left h1 { order: -1; }
       .hero-row .hero-cta-slot { order: 0; }
       .hero-row .testimonials-wrap { order: 1; }
@@ -657,8 +651,8 @@
       /* Bring CTA closer to the headline on mobile */
       .hero-left h1 { margin-bottom: var(--space-2); padding-top: 4px; font-size: 1rem; }
 
-      /* AI signs — match Version A mobile behaviour */
-      .hero-left .hero-ai-signs {
+      /* AI signs — mobile: left-align within the stacked layout */
+      .hero-ai-signs {
         justify-content: flex-start;
         gap: clamp(1.5rem, 5vw, 3rem);
         min-width: 0;
@@ -668,8 +662,8 @@
       }
 
       .hero-left .btn-primary { min-height: 48px; width: 100%; }
-      .hero-left .hero-ai-signs .ai-sign { height: 28px; }
-      .hero-left .hero-ai-signs .ai-sign:last-child { margin-left: 0; }
+      .hero-ai-signs .ai-sign { height: 28px; }
+      .hero-ai-signs .ai-sign:last-child { margin-left: 0; }
       /* Headline: exactly 4 lines on mobile */
       .hero-left h1 br { display: none; }
       .mob-when { display: inline; }
@@ -827,12 +821,12 @@
   <main>
     <section class="hero-above-the-fold">
       <section class="hero-wrap">
+        <div class="hero-ai-signs">
+          <img src="AI-2.png" alt="AI — Idea of the Year" class="ai-sign" fetchpriority="high" width="120" height="50">
+          <img src="AI.png" alt="AI — Future of AI 2025" class="ai-sign" fetchpriority="high" width="120" height="50">
+        </div>
         <div class="hero-row">
           <div class="hero-left">
-            <div class="hero-ai-signs">
-              <img src="AI-2.png" alt="AI — Idea of the Year" class="ai-sign" fetchpriority="high" width="120" height="50">
-              <img src="AI.png" alt="AI — Future of AI 2025" class="ai-sign" fetchpriority="high" width="120" height="50">
-            </div>
             <h1><span class="hero-m1">People get <span class="highlight-after">different</span> prices<span class="mob-when"> when</span></span><br><span class="hero-m2"><span class="desk-when">when </span>they search from <span class="highlight-after">different</span> countries.</span><br><span class="hero-para-break" aria-hidden="true"></span><span class="hero-m3">Our AI searches from 200</span><br><span class="hero-m4">countries at the same time</span><br><span class="hero-m5">to find you <span class="highlight-after">hidden prices</span>.</span><br><span class="hero-para-break" aria-hidden="true"></span><span class="hero-m6">Up to $5000/year, for free</span></h1>
             <div class="hero-cta-slot">
               <form class="hero-cta-block" id="waitlistForm" action="javascript:void(0)" onsubmit="gambitClaim(); return false;">
