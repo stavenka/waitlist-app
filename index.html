@@ -411,11 +411,13 @@
       z-index: 1;
       isolation: isolate;
       overflow: hidden;
+      /* height is set dynamically by JS to match h1 */
     }
-    /* Video — always in the DOM, drives the container height */
+    /* Video — fills the box exactly, cropped if needed */
     .hero-right .hero-video {
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: cover;
       display: block;
       border-radius: var(--radius-outer);
     }
@@ -984,6 +986,19 @@
         if (e.target && (e.target.id === 'queueModalClose' || e.target.id === 'queueModalOverlay')) gambitCloseModal();
       });
       document.addEventListener('keydown', function(e) { if (e.key === 'Escape') gambitCloseModal(); });
+      // Match hero video box height to h1 headline height (desktop only)
+      function matchVideoToHeadline() {
+        var h1 = document.querySelector('.hero-left h1');
+        var wrap = document.querySelector('.hero-right .testimonials-wrap');
+        var heroRight = document.querySelector('.hero-right');
+        if (!h1 || !wrap || !heroRight) return;
+        if (window.innerWidth < 768) { wrap.style.height = ''; return; }
+        var h1Height = h1.offsetHeight;
+        wrap.style.height = h1Height + 'px';
+      }
+      matchVideoToHeadline();
+      window.addEventListener('resize', matchVideoToHeadline);
+
       // Hero video box: overlay → looping inline video
       var heroVideoPlayBtn = document.getElementById('heroVideoPlayBtn');
       var heroVideoOverlay = document.getElementById('heroVideoOverlay');
@@ -991,7 +1006,6 @@
       if (heroVideoPlayBtn && heroVideoOverlay && heroVideo) {
         heroVideoPlayBtn.addEventListener('click', function () {
           heroVideoOverlay.classList.add('hidden');
-          heroVideo.classList.add('playing');
           heroVideo.currentTime = 0;
           heroVideo.play();
         });
