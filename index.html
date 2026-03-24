@@ -413,11 +413,11 @@
       overflow: hidden;
       /* height is set dynamically by JS to match h1 */
     }
-    /* Video — fills the box exactly, cropped if needed */
+    /* Video — fits fully inside the box, no cropping */
     .hero-right .hero-video {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       display: block;
       border-radius: var(--radius-outer);
     }
@@ -986,18 +986,19 @@
         if (e.target && (e.target.id === 'queueModalClose' || e.target.id === 'queueModalOverlay')) gambitCloseModal();
       });
       document.addEventListener('keydown', function(e) { if (e.key === 'Escape') gambitCloseModal(); });
-      // Match hero video box height to h1 headline height (desktop only)
-      function matchVideoToHeadline() {
-        var h1 = document.querySelector('.hero-left h1');
+      // Size video box: top stays fixed, bottom aligns to "to find you hidden prices." line
+      function sizeVideoBox() {
+        var heroM5 = document.querySelector('.hero-left h1 .hero-m5');
         var wrap = document.querySelector('.hero-right .testimonials-wrap');
-        var heroRight = document.querySelector('.hero-right');
-        if (!h1 || !wrap || !heroRight) return;
+        if (!heroM5 || !wrap) return;
         if (window.innerWidth < 768) { wrap.style.height = ''; return; }
-        var h1Height = h1.offsetHeight;
-        wrap.style.height = h1Height + 'px';
+        var m5Rect = heroM5.getBoundingClientRect();
+        var wrapRect = wrap.getBoundingClientRect();
+        var newHeight = m5Rect.bottom - wrapRect.top;
+        if (newHeight > 50) wrap.style.height = newHeight + 'px';
       }
-      matchVideoToHeadline();
-      window.addEventListener('resize', matchVideoToHeadline);
+      sizeVideoBox();
+      window.addEventListener('resize', sizeVideoBox);
 
       // Hero video box: overlay → looping inline video
       var heroVideoPlayBtn = document.getElementById('heroVideoPlayBtn');
