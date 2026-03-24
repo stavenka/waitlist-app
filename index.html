@@ -403,44 +403,39 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
     }
     .hero-right .testimonials-wrap {
-      display: flex;
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0;
-      padding: 0;
+      display: block;
+      position: relative;
       border-radius: var(--radius-outer);
       background-color: var(--accent-light);
       box-shadow: 0 4px 32px rgba(0, 0, 0, 0.13);
-      position: relative;
       z-index: 1;
       isolation: isolate;
       overflow: hidden;
     }
-    /* Overlay — the beige poster shown before video plays */
+    /* Video — always in the DOM, drives the container height */
+    .hero-right .hero-video {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: var(--radius-outer);
+    }
+    /* Overlay — absolutely covers the video, shown by default */
     .hero-right .hero-video-overlay {
+      position: absolute;
+      inset: 0;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       gap: var(--space-5);
       padding: var(--space-6) var(--space-5);
-      width: 100%;
       box-sizing: border-box;
+      background-color: var(--accent-light);
       transition: opacity 0.3s ease;
-      aspect-ratio: 4 / 3;
+      border-radius: var(--radius-outer);
     }
     .hero-right .hero-video-overlay.hidden {
       display: none;
-    }
-    /* Video — hidden until play is clicked */
-    .hero-right .hero-video {
-      width: 100%;
-      height: auto;
-      display: none;
-      border-radius: var(--radius-outer);
-    }
-    .hero-right .hero-video.playing {
-      display: block;
     }
     .hero-right .testimonials-wrap::before { display: none; }
     .split-screen-caption {
@@ -672,7 +667,7 @@
       .hero-left h1 .hero-m6 { display: block; }
       /* Video overlay on mobile: tighter gap, no scale, smaller padding */
       .hero-right .testimonials-wrap { transform: none; }
-      .hero-right .hero-video-overlay { gap: var(--space-1); padding: var(--space-2) var(--space-2); aspect-ratio: unset; min-height: 140px; }
+      .hero-right .hero-video-overlay { gap: var(--space-1); padding: var(--space-2) var(--space-2); }
       .hero-right .see-it-play-circle { width: 64px; height: 64px; }
       .hero-right .see-it-play-triangle { border-left-width: 14px; border-top-width: 9px; border-bottom-width: 9px; margin-left: 4px; }
       .hero-right .see-it-heading { font-size: 1rem; }
@@ -837,7 +832,9 @@
           </div>
           <div class="hero-right">
             <div class="testimonials-wrap">
-              <!-- Overlay: shown by default, hidden when video plays -->
+              <!-- Video: always present, drives the container height -->
+              <video class="hero-video" id="heroVideo" src="Video How It Works For Hotels.mp4?v=3" playsinline preload="metadata" loop></video>
+              <!-- Overlay: absolutely positioned on top, hidden when video plays -->
               <div class="hero-video-overlay" id="heroVideoOverlay">
                 <p class="see-it-heading">See it in action<br>for hotels</p>
                 <button type="button" class="see-it-in-action" id="heroVideoPlayBtn" aria-label="Play video">
@@ -846,8 +843,6 @@
                   </span>
                 </button>
               </div>
-              <!-- Video: hidden until play is clicked -->
-              <video class="hero-video" id="heroVideo" src="Video How It Works For Hotels.mp4?v=3" playsinline preload="none" loop></video>
             </div>
           </div>
         </div>
