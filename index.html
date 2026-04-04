@@ -3,13 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="google-site-verification" content="eCaAaFQq8D8D3cV7U_Za6y9yJSKrk_49pAAFfq2Hoqw" />
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMMXH83411"></script>
+  <!-- Google Analytics — deferred after page load to avoid blocking LCP -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-ZMMXH83411');
+    window.addEventListener('load', function() {
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-ZMMXH83411';
+      s.async = true;
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      gtag('config', 'G-ZMMXH83411');
+    });
   </script>
   <meta name="description" content="Arbitrica AI finds hidden hotel prices by searching from 200 countries simultaneously. Save up to $5,000/year on hotels and flights. Free access for first 10,000 users." />
   <meta name="robots" content="index, follow" />
@@ -23,7 +28,7 @@
   <meta name="twitter:description" content="AI that searches 200 countries to find hidden hotel prices. Save up to $5,000/year for free." />
   <link rel="icon" href="Arbitrica_logo_transparent.png" />
   <meta name="theme-color" content="#0f1f3d" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
   <title>Arbitrica – Find Hidden Hotel Prices & Save</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -504,7 +509,7 @@
     }
 
     .press-section { max-width: 1200px; margin: 0 auto; padding: var(--space-6) var(--space-3) var(--space-8); margin-bottom: var(--space-5); background: #ffffff; position: relative; z-index: 1; }
-    .press-section .press-heading { font-family: 'Inter', sans-serif; font-size: var(--text-sm); font-weight: 500; color: rgba(0,0,0,0.55); text-transform: uppercase; letter-spacing: 0.06em; text-align: center; margin-bottom: var(--space-4); line-height: var(--leading-tight); }
+    .press-section .press-heading { font-family: 'Inter', sans-serif; font-size: var(--text-sm); font-weight: 500; color: rgba(0,0,0,0.65); text-transform: uppercase; letter-spacing: 0.06em; text-align: center; margin-bottom: var(--space-4); line-height: var(--leading-tight); }
     .press-section .press-logos { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-5) var(--space-6); }
     .press-section .press-logo { display: flex; align-items: center; justify-content: center; min-width: 144px; height: 58px; }
     .press-section .press-logo img[src] { max-height: 38px; max-width: 168px; width: auto; height: auto; object-fit: contain; filter: grayscale(1); opacity: 0.8; }
@@ -568,7 +573,7 @@
     }
 
     .footer-wrap { max-width: 1200px; margin: 0 auto; padding: var(--space-4) var(--space-3); text-align: center; border-top: 1px solid rgba(0,0,0,0.08); }
-    .footer-wrap p { font-size: var(--text-sm); color: rgba(0,0,0,0.4); line-height: var(--leading-snug); letter-spacing: -0.01em; }
+    .footer-wrap p { font-size: var(--text-sm); color: rgba(0,0,0,0.6); line-height: var(--leading-snug); letter-spacing: -0.01em; }
     .footer-wrap a { color: #000000; font-weight: 500; }
     .footer-wrap a:hover { text-decoration: underline; }
 
@@ -626,7 +631,7 @@
       .hero-left .hero-cta-slot { margin-top: 0; }
       .hero-left .hero-cta-block { gap: 0; }
       /* Bring CTA closer to the headline on mobile */
-      .hero-left h1 { margin-bottom: var(--space-2); padding-top: 4px; font-size: 1rem; }
+      .hero-left h1 { margin-bottom: var(--space-2); padding-top: 4px; font-size: clamp(1.1rem, 4.5vw, 1.35rem); }
 
       /* AI signs — mobile: left-align within the stacked layout */
       .hero-ai-signs {
@@ -638,7 +643,9 @@
         margin-bottom: 0;
       }
 
-      .hero-left .btn-primary { min-height: 48px; width: 100%; }
+      .hero-left .btn-primary { min-height: 52px; width: 100%; font-size: 1rem; }
+      .hero-cta-slot { max-width: none; width: 100%; }
+      .hero-left .hero-cta-block input[type="email"] { font-size: 1rem; padding: 14px 16px; min-height: 52px; }
       .hero-ai-signs .ai-sign { height: 28px; }
       .hero-ai-signs .ai-sign:last-child { margin-left: 0; }
       /* Headline: exactly 4 lines on mobile */
@@ -708,7 +715,7 @@
       .step-item .step-num { background: #BC002D; border: none; color: #ffffff; }
       .step-item .step-video { background: #1a1a1a; border-color: rgba(255,255,255,0.06); }
       .footer-wrap { border-top-color: rgba(255,255,255,0.08); }
-      .footer-wrap p { color: rgba(255,255,255,0.35); }
+      .footer-wrap p { color: rgba(255,255,255,0.65); }
       .footer-wrap a { color: #ffffff; }
       .queue-modal { background: #141414; border-color: rgba(255,255,255,0.1); }
       .queue-modal-title { color: #ffffff; }
@@ -797,7 +804,7 @@
           <div class="hero-right">
             <div class="testimonials-wrap">
               <!-- Video: always present, drives the container height -->
-              <video class="hero-video" id="heroVideo" src="Video How It Works For Hotels.mp4?v=3" playsinline preload="metadata" loop></video>
+              <video class="hero-video" id="heroVideo" src="Video How It Works For Hotels.mp4?v=3" playsinline preload="metadata" loop><track kind="captions" srclang="en" label="English"></video>
               <!-- Overlay: absolutely positioned on top, hidden when video plays -->
               <div class="hero-video-overlay" id="heroVideoOverlay">
                 <p class="see-it-heading">See it in action<br>for hotels</p>
@@ -835,7 +842,7 @@
             </div>
           </div>
           <div class="step-video">
-            <video src="videos/Step 1.mp4?v=3" controls playsinline muted preload="none" loop></video>
+            <video src="videos/Step 1.mp4?v=3" controls playsinline muted preload="none" loop><track kind="captions" srclang="en" label="English"></video>
           </div>
         </div>
         <div class="step-item">
@@ -847,7 +854,7 @@
             </div>
           </div>
           <div class="step-video">
-            <video src="videos/Step 2.mp4?v=3" controls playsinline muted preload="none" loop></video>
+            <video src="videos/Step 2.mp4?v=3" controls playsinline muted preload="none" loop><track kind="captions" srclang="en" label="English"></video>
           </div>
         </div>
       </div>
@@ -861,7 +868,7 @@
   <div class="video-modal-overlay" id="videoModalOverlay">
     <div class="video-modal">
       <button type="button" class="video-modal-close" id="videoModalClose" aria-label="Close">&times;</button>
-      <video id="videoModalPlayer" src="videos/Step 1.mp4?v=3" controls playsinline preload="none"></video>
+      <video id="videoModalPlayer" src="videos/Step 1.mp4?v=3" controls playsinline preload="none"><track kind="captions" srclang="en" label="English"></video>
     </div>
   </div>
 
@@ -959,7 +966,7 @@
         var newHeight = m5Rect.bottom - wrapRect.top;
         if (newHeight > 50) wrap.style.height = newHeight + 'px';
       }
-      sizeVideoBox();
+      requestAnimationFrame(sizeVideoBox);
       window.addEventListener('resize', sizeVideoBox);
 
       // Hero video box: overlay → looping inline video
