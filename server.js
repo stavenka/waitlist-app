@@ -36,13 +36,34 @@ function isValidEmail(str) {
 
 app.use(cors());
 app.use(express.json());
-// Prevent aggressive caching of HTML so deploys show up on the live domain
+
+// ── Security headers (improves Lighthouse Best Practices) ──
+app.use((req, res, next) => {
+  res.set('X-Frame-Options', 'SAMEORIGIN');
+  res.set('X-Content-Type-Options', 'nosniff');
+  res.set('Referrer-Policy', 'strict-origin-when-cross-origin');
+  res.set('Permissions-Policy', 'geolocation=(), microphone=(), camera=()');
+  next();
+});
+
+// ── Cache control: no-cache for HTML, long-cache for assets ──
 app.use((req, res, next) => {
   if (req.path === '/' || /\.html?$/i.test(req.path)) {
     res.set('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0');
+  } else if (/\.(png|jpg|jpeg|gif|webp|svg|ico|mp4|webm|woff2?|ttf|otf)$/i.test(req.path)) {
+    res.set('Cache-Control', 'public, max-age=31536000, immutable');
+  } else if (/\.(css|js)$/i.test(req.path)) {
+    res.set('Cache-Control', 'public, max-age=86400');
   }
   next();
 });
+
+// ── robots.txt ──
+app.get('/robots.txt', (req, res) => {
+  res.type('text/plain');
+  res.send('User-agent: *\nAllow: /\nSitemap: https://arbitrica.com/sitemap.xml\n');
+});
+
 app.use(express.static(__dirname));
 
 app.post('/api/waitlist', async (req, res) => {
