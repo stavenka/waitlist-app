@@ -211,6 +211,11 @@
     }
     /* "different" × 2 — warm amber gold */
     .hero-m1 .highlight-after,
+    /* "overpaying" highlight */
+    .hero-m1 .highlight-after {
+      background: linear-gradient(to bottom, transparent 55%, rgba(188,0,45,0.38) 55%, rgba(188,0,45,0.38) 93%, transparent 93%);
+    }
+    /* "hotel" highlight */
     .hero-m2 .highlight-after {
       background: linear-gradient(to bottom, transparent 55%, rgba(188,0,45,0.38) 55%, rgba(188,0,45,0.38) 93%, transparent 93%);
     }
@@ -631,8 +636,8 @@
       .hero-right .testimonials-wrap { margin-left: 0; margin-top: var(--space-2); margin-bottom: var(--space-3); }
       .hero-left .hero-cta-slot { margin-top: 0; }
       .hero-left .hero-cta-block { gap: 0; }
-      /* Copy sits close to AI signs, more space before CTA — centered toward AI signs */
-      .hero-left h1 { margin-bottom: var(--space-5); padding-top: 4px; font-size: clamp(1.44rem, 5.175vw, 1.73rem); line-height: 28px; }
+      /* Copy sits between AI signs and CTA */
+      .hero-left h1 { margin-bottom: var(--space-4); padding-top: 4px; font-size: clamp(1.66rem, 5.95vw, 1.99rem); line-height: 28px; }
 
       /* AI signs — mobile: left-align within the stacked layout */
       .hero-ai-signs {
@@ -641,7 +646,7 @@
         min-width: 0;
         width: 100%;
         margin-left: 0;
-        margin-bottom: var(--space-2);
+        margin-bottom: var(--space-3);
       }
 
       .hero-left .btn-primary { min-height: 52px; width: 100%; font-size: 1rem; }
