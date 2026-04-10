@@ -14,6 +14,7 @@
       document.head.appendChild(s);
       gtag('js', new Date());
       gtag('config', 'G-ZMMXH83411');
+      gtag('config', 'AW-18057434040');
     });
   </script>
   <meta name="description" content="Arbitrica AI finds hidden hotel prices by searching from 200 countries simultaneously. Save up to $5,000/year on hotels and flights. Free access for first 10,000 users." />
@@ -757,6 +758,23 @@
     "sameAs": []
   }
   </script>
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '833906155738781');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=833906155738781&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
 </head>
 <body>
   <div class="page-bg" aria-hidden="true"></div>
@@ -927,6 +945,18 @@
       if (btn) { btn.disabled = true; btn.textContent = 'Recording your entry…'; }
 
       function done(num) {
+        // Fire GA4 and Google Ads conversion events
+        gtag('event', 'conversion', {'send_to': 'AW-18057434040/DQayCPrv0JUcELinuqJD'});
+        gtag('event', 'generate_lead', {'event_category': 'waitlist', 'event_label': 'claim_button', 'value': 1});
+        // Fire Meta Pixel Lead event
+        if (window.fbq) {
+          fbq('track', 'Lead', {
+            content_name: 'Arbitrica Waitlist',
+            content_category: 'Waitlist Signup',
+            value: 0.00,
+            currency: 'USD'
+          });
+        }
         if (btn) { btn.disabled = false; btn.textContent = 'Claim your place'; }
         arbitricaShowModal(num);
       }
