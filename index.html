@@ -592,15 +592,15 @@
     .video-modal video { width: 100%; height: auto; display: block; vertical-align: middle; }
 
     @media (max-width: 768px) {
-      /* ── Mobile header: sticky at top, logo-left | COMING SOON centre | About right ── */
-      .header { position: sticky; top: 0; z-index: 100; padding: 0 var(--space-2); padding-left: max(var(--space-2), env(safe-area-inset-left)); padding-right: max(var(--space-2), env(safe-area-inset-right)); }
-      .header-inner { height: 80px; min-height: 80px; align-items: center; justify-content: space-between; }
-      /* Logo: left edge, shrunk to match header height */
+      /* ── Mobile header: logo-left | COMING SOON centre | About right ── */
+      .header { position: sticky; top: 0; z-index: 100; padding: var(--space-1) var(--space-2); padding-left: max(var(--space-2), env(safe-area-inset-left)); padding-right: max(var(--space-2), env(safe-area-inset-right)); }
+      .header-inner { height: auto; min-height: auto; align-items: center; justify-content: space-between; }
+      /* Logo: left edge, sized to fit header */
       .logo { position: static; flex-shrink: 0; }
-      .logo picture, .logo picture img { height: 128px !important; max-height: 128px !important; width: auto !important; margin-left: 0 !important; }
+      .logo picture, .logo picture img { height: 44px !important; max-height: 44px !important; width: auto !important; margin-left: 0 !important; }
       /* Coming Soon: centred between logo and About */
-      .header-coming-soon { position: static; flex: 1; transform: none; display: flex; align-items: center; justify-content: center; }
-      .coming-soon-badge { font-size: 0.62rem; padding: 0.2em 0.55em; border-width: 1.5px; letter-spacing: 0.07em; line-height: 1.2; white-space: nowrap; }
+      .header-coming-soon { position: static; flex: 1; transform: none; display: flex; align-items: center; justify-content: center; pointer-events: none; }
+      .coming-soon-badge { font-size: clamp(0.6rem, 2.8vw, 0.75rem); padding: 0.28em 0.65em; border-width: 1.5px; letter-spacing: 0.06em; line-height: 1.4; white-space: nowrap; }
 
       /* Reduce empty space between header and hero on mobile */
       .hero-above-the-fold { padding: var(--space-2) 0 var(--space-5); }
