@@ -596,10 +596,10 @@
       .header { position: sticky; top: 0; z-index: 100; padding: var(--space-1) var(--space-2); padding-left: max(var(--space-2), env(safe-area-inset-left)); padding-right: max(var(--space-2), env(safe-area-inset-right)); }
       .header-inner { height: auto; min-height: auto; align-items: center; justify-content: space-between; }
       /* Logo: left edge, sized to fit header — pull into left corner */
-      .logo { position: static; flex-shrink: 0; margin-left: -10px; }
+      .logo { position: static; flex-shrink: 0; }
       .logo picture, .logo picture img { height: 86px !important; max-height: 86px !important; width: auto !important; margin-left: 0 !important; }
       /* Coming Soon: perfectly centred between logo and About */
-      .header-coming-soon { position: static; flex: 1; transform: none; display: flex; align-items: center; justify-content: center; pointer-events: none; }
+      .header-coming-soon { position: static; flex: 1; transform: none; display: flex; align-items: center; justify-content: center; pointer-events: none; margin-right: 18px; }
       .coming-soon-badge { font-size: clamp(0.6rem, 2.8vw, 0.75rem); padding: 0.28em 0.65em; border-width: 1.5px; letter-spacing: 0.06em; line-height: 1.4; white-space: nowrap; }
 
       /* Reduce empty space between header and hero on mobile */
