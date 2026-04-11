@@ -582,13 +582,12 @@
 
     @media (max-width: 768px) {
       .header { padding: var(--space-2) var(--space-2); padding-left: max(var(--space-2), env(safe-area-inset-left)); padding-right: max(var(--space-2), env(safe-area-inset-right)); }
-      /* Keep header compact on mobile */
-      .header-inner { min-height: 90px; }
-      /* Lift the header bottom border up a little on mobile */
+      /* Mobile header: logo left · coming soon centre · about right (matches desktop) */
+      .header-inner { min-height: auto; }
       .header { padding-bottom: var(--space-1); }
-      /* Make the Coming Soon sign more readable on mobile */
-      .header-coming-soon img { max-height: 90px; max-width: 300px; }
-      .coming-soon-badge { font-size: 0.64rem; padding: 0.18em 0.4em; border-width: 2px; letter-spacing: 0.08em; }
+      .logo { font-size: 1rem; gap: 7px; }
+      .nav a { padding: 8px 14px; }
+      .coming-soon-badge { font-size: clamp(0.7rem, 3.5vw, 0.85rem); padding: 0.28em 0.75em; border-width: 1.5px; letter-spacing: 0.04em; }
 
       /* Reduce empty space between header and hero on mobile */
       .hero-above-the-fold { padding: var(--space-2) 0 var(--space-5); }
