@@ -118,8 +118,7 @@
       position: relative;
     }
     .logo {
-      position: absolute;
-      left: 0;
+      flex-shrink: 0;
       display: inline-flex;
       align-items: center;
       gap: 10px;
@@ -131,7 +130,7 @@
       letter-spacing: -0.03em;
     }
     .logo svg { flex-shrink: 0; }
-    .nav { display: flex; align-items: center; gap: var(--space-5); margin-left: auto; }
+    .nav { display: flex; align-items: center; gap: var(--space-5); flex-shrink: 0; }
     .nav a {
       font-weight: 500;
       font-size: var(--text-sm);
@@ -147,11 +146,7 @@
       background: #333333;
     }
     .header-coming-soon {
-      position: absolute;
-      left: 50%;
-      top: 0;
-      bottom: 0;
-      transform: translateX(-50%);
+      flex: 1;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -587,11 +582,7 @@
 
     @media (max-width: 768px) {
       .header { padding: var(--space-2) var(--space-2); padding-left: max(var(--space-2), env(safe-area-inset-left)); padding-right: max(var(--space-2), env(safe-area-inset-right)); }
-      .header-inner { justify-content: flex-start; }
-      /* Make logo & coming-soon normal flex children so badge centers perfectly between them */
-      .logo { position: static; }
-      .header-coming-soon { position: static; flex: 1; transform: none; }
-      /* Keep Coming Soon sign above the header border on mobile */
+      /* Keep header compact on mobile */
       .header-inner { min-height: 90px; }
       /* Lift the header bottom border up a little on mobile */
       .header { padding-bottom: var(--space-1); }
@@ -904,6 +895,7 @@
         if (btn) { btn.disabled = false; btn.textContent = 'Claim your place'; }
         gambitShowModal(num);
         gtag('event', 'conversion', {'send_to': 'AW-18057434040/DQayCPrv0JUcELinuqJD'});
+        gtag('event', 'generate_lead', {'event_category': 'waitlist', 'event_label': 'claim_button', 'value': 1});
       }
 
       var backendReady = APPS_SCRIPT_URL.indexOf('PASTE_') === -1;
