@@ -121,10 +121,13 @@
       align-items: center;
       justify-content: space-between;
       position: relative;
+      min-height: 120px;
     }
     .logo {
       position: absolute;
       left: 0;
+      top: 50%;
+      transform: translateY(-50%);
       display: inline-flex;
       align-items: center;
       gap: var(--space-1);
@@ -780,7 +783,7 @@
       <a href="index.html" class="logo">
         <picture>
           <source srcset="Arbitrica_logo_transparent.webp" type="image/webp">
-          <img src="Arbitrica_logo_transparent.png" alt="Arbitrica" width="484" height="384" fetchpriority="high" style="height:40px;width:auto;display:block;">
+          <img src="Arbitrica_logo_transparent.png" alt="Arbitrica" width="484" height="384" fetchpriority="high" style="height:120px;width:auto;display:block;">
         </picture>
       </a>
       <div class="header-coming-soon" aria-hidden="true">
