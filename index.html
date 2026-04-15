@@ -760,7 +760,7 @@ fbq('track','PageView');
         idleTimer = setTimeout(function() {
           try { video.pause(); video.currentTime = 0; } catch(e) {}
           show();
-        }, 5000);
+        }, 20000);
       }
       playBtn.addEventListener('click', function(e) { e.stopPropagation(); video.play(); hide(); });
       overlay.addEventListener('click', function() { video.play(); hide(); });
