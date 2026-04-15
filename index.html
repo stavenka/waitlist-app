@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="google-site-verification" content="eCaAaFQq8D8D3cV7U_Za6y9yJSKrk_49pAAFfq2Hoqw" />
-  <!-- Google Analytics — deferred after page load to avoid blocking LCP -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -17,7 +16,7 @@
       gtag('config', 'AW-18057434040');
     });
   </script>
-  <meta name="description" content="Arbitrica AI finds hidden hotel prices by searching from 200 countries simultaneously. Save up to $5,000/year on hotels and flights. Free access for first 10,000 users." />
+  <meta name="description" content="Arbitrica AI finds hidden hotel prices by searching from 200 countries simultaneously. Save up to $5,000/year on hotels. Free access for first 10,000 users." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://arbitrica.com/" />
   <meta property="og:type" content="website" />
@@ -28,1039 +27,758 @@
   <meta name="twitter:title" content="Arbitrica – Find Hidden Hotel Prices & Save" />
   <meta name="twitter:description" content="AI that searches 200 countries to find hidden hotel prices. Save up to $5,000/year for free." />
   <link rel="icon" href="Arbitrica_logo_transparent.png" />
-  <meta name="theme-color" content="#0f1f3d" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
   <title>Arbitrica – Find Hidden Hotel Prices & Save</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@700&family=Plus+Jakarta+Sans:wght@700&family=Outfit:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@700&family=Plus+Jakarta+Sans:wght@700&family=Outfit:wght@600;700&display=swap" rel="stylesheet"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
   <style>
     :root {
-      --accent: #000000;
-      --accent-hover: #222222;
-      --accent-light: #f5f5f5;
-      --text: #000000;
-      --text-muted: #737373;
-      --white: #FFFFFF;
-      --gray-50: #fafafa;
-      --gray-100: #e5e5e5;
-      --dark: #111111;
-      --logo-color: #111111;
-      --btn-warm: #000000;
-      --btn-warm-hover: #222222;
-      --radius: 12px;
-      --radius-lg: 16px;
-      --radius-outer: 20px;
-      --radius-gap: 12px;
-      --radius-inner: 12px;
-      --radius-gap-md: 16px;
-      --radius-inner-md: 8px;
-      --transition: 0.2s ease;
-      --space-1: 8px;
-      --space-2: 16px;
-      --space-3: 24px;
-      --space-4: 32px;
-      --space-5: 40px;
-      --space-6: 48px;
-      --space-8: 64px;
-      --text-xs: 0.75rem;    /* 12px */
-      --text-sm: 0.75rem;    /* 12px — reserved for micro labels if needed */
-      --text-base: 1rem;     /* 16px */
-      --text-lg: 1.25rem;    /* 20px */
-      --text-xl: 1.5rem;     /* 24px */
-      --text-2xl: 2rem;      /* 32px */
-      --text-3xl: 2.25rem;   /* 36px — h1 (4px-grid × 9) */
-      --leading-tight: 1.25; /* 1.25 × 16px = 20px (4px grid) */
-      --leading-snug: 1.5;   /* 1.5  × 16px = 24px (8px grid) */
-      --leading-relaxed: 1.75; /* 1.75 × 16px = 28px (4px grid) */
-      --tracking-none: -0.02em;
-      --tracking-tight: -0.03em;
-      --tracking-tighter: -0.04em;
+      --bg:            hsl(220 30% 97%);
+      --fg:            hsl(0 0% 9%);
+      --muted:         hsl(0 0% 38%);
+      --border:        hsl(0 0% 83%);
+      --primary:       hsl(243 75% 58%);
+      --card-bg:       hsl(0 0% 100%);
+      --radius:        1.25rem;
+      --radius-sm:     0.75rem;
+      --grad-primary:  linear-gradient(135deg, hsl(320 80% 55%), hsl(280 70% 50%));
+      --grad-hero-bg:  linear-gradient(180deg, hsl(260 50% 94%) 0%, hsl(240 35% 96%) 45%, hsl(220 30% 97%) 100%);
+      --shadow-sm:     0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
+      --shadow-md:     0 4px 24px rgba(0,0,0,0.09), 0 2px 8px rgba(0,0,0,0.05);
+      --font-display:  'Space Grotesk', system-ui, sans-serif;
+      --font-body:     'Inter', system-ui, sans-serif;
     }
 
-
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { font-size: 16px; scroll-behavior: smooth; }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-      font-size: var(--text-base);
-      color: var(--text);
-      background: #ffffff;
-      line-height: var(--leading-snug);
-      letter-spacing: -0.025em;
+      font-family: var(--font-body);
+      font-size: 1rem;
+      color: var(--fg);
+      background: var(--bg);
+      line-height: 1.6;
       overflow-x: hidden;
-      position: relative;
       min-height: 100vh;
     }
-    main { position: relative; z-index: 1; }
-    .page-bg {
-      position: fixed;
-      inset: 0;
-      z-index: 0;
-      background: #ffffff;
+    img, video { display: block; max-width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    button { font-family: inherit; }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
     }
 
-
-    a { color: inherit; text-decoration: none; }
-    a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
+    /* ── HEADER — 9: reduced height, 2: AI signs centred ─────────────────── */
     .header {
       position: relative;
-      z-index: 1;
-      background: rgba(255,255,255,0.92);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(0,0,0,0.08);
-      padding: 0 var(--space-3);
+      width: 100%;
+      z-index: 100;
+      background: hsl(260 50% 94%);
     }
     .header-inner {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;  /* logo | centre | right */
+      align-items: center;
+      padding: 0.65rem 2rem;
       max-width: 1200px;
       margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: relative;
-      min-height: 130px;
     }
-    .logo {
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
+    .header-left  { display: flex; align-items: center; }
+    .header-center { display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    .header-right  { display: flex; align-items: center; justify-content: flex-end; }
+
+    /* #9: logo smaller */
+    .logo-link { display: flex; align-items: center; }
+    .logo-link img { height: 150px; width: auto; display: block; }
+
+    /* #2: AI signs in centre */
+    .ai-sign { height: 31px; width: auto; }
+
+    .nav-about-btn {
       display: inline-flex;
       align-items: center;
-      gap: var(--space-1);
-      font-family: 'Outfit', sans-serif;
-      font-weight: 700;
-      font-size: 1.25rem;
-      line-height: var(--leading-tight);
-      color: #000000;
-      letter-spacing: -0.03em;
-    }
-    .logo svg { flex-shrink: 0; }
-    .nav { display: flex; align-items: center; gap: var(--space-5); margin-left: auto; }
-    .nav a {
-      font-weight: 500;
-      font-size: var(--text-base);
+      padding: 0.45rem 1.1rem;
+      background: var(--fg);
+      color: hsl(225 100% 96%);
+      font-family: var(--font-body);
+      font-size: 0.875rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
       letter-spacing: -0.01em;
-      text-transform: uppercase;
-      color: #ffffff;
-      background: #000000;
-      padding: var(--space-1) var(--space-3);
-      border-radius: 9999px;
-      transition: background var(--transition), opacity var(--transition);
-    }
-    .nav a:hover {
-      background: #333333;
-    }
-    .header-coming-soon {
-      position: absolute;
-      left: 50%;
-      top: 0;
-      bottom: 0;
-      transform: translateX(-50%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      pointer-events: none;
-    }
-    .coming-soon-badge {
-      font-family: 'Inter', sans-serif;
-      font-size: clamp(1.25rem, 2.2vw, 2rem);
-      font-weight: 500;
-      letter-spacing: -0.02em;
-      text-transform: uppercase;
-      color: #000000;
-      background: transparent;
-      border: 1.5px solid rgba(0,0,0,0.25);
-      border-radius: 9999px;
-      padding: var(--space-1) var(--space-3);
-      display: inline-block;
-      line-height: 40px;
+      transition: opacity 0.18s ease;
       white-space: nowrap;
     }
-    .menu-toggle { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; position: absolute; right: 0; top: 50%; transform: translateY(-50%); }
-    .menu-toggle span { display: block; width: 22px; height: 2px; background: var(--text); margin: var(--space-1) 0; border-radius: 1px; }
+    .nav-about-btn:hover { opacity: 0.82; }
 
-    .hero-above-the-fold {
-      width: 100%;
-      padding: 0 0 var(--space-6);
-      background-color: transparent;
-      position: relative;
-      z-index: 1;
+    /* ── HERO ─────────────────────────────────────────────────────────────── */
+    .hero {
+      background: var(--grad-hero-bg);
+      padding: 1.5rem 0 4rem;
     }
-    .hero-wrap {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: var(--space-3) var(--space-3) var(--space-8);
-      transform: scale(1.02);
-      transform-origin: top center;
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;    /* #7: symmetrical vertical alignment */
     }
-    .hero-row { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-6); align-items: start; }
-    .hero-right { background: #ffffff; border-radius: var(--radius-outer); padding: var(--space-3); display: flex; flex-direction: column; }
-    .hero-left { max-width: 95%; }
-    .hero-left h1 { font-size: clamp(1.25rem, 3.2vw, var(--text-3xl)); font-weight: 600; color: #000000; line-height: 44px; letter-spacing: -0.035em; margin-bottom: var(--space-5); background: #ffffff; display: inline-block; padding: var(--space-2) var(--space-3) var(--space-2) 0; }
-    .hero-m1 { white-space: nowrap; }
-    .mob-when { display: none; }
-    .desk-when { display: inline; }
-    .hero-line-gap { display: block; height: 0.5em; }
-    .hero-para-break { display: block; height: 0.75em; }
-    /* Base highlight — overridden per-word below */
-    .hero-left .highlight-after {
-      position: relative;
-      font-weight: 600;
-      padding: 0 2px;
-      border-radius: 2px;
-    }
-    /* "different" × 2 — warm amber gold */
-    .hero-m1 .highlight-after,
-    /* "overpaying" highlight */
-    .hero-m1 .highlight-after {
-      background: linear-gradient(to bottom, transparent 55%, rgba(188,0,45,0.38) 55%, rgba(188,0,45,0.38) 93%, transparent 93%);
-    }
-    /* "hotel" highlight */
-    .hero-m2 .highlight-after {
-      background: linear-gradient(to bottom, transparent 55%, rgba(188,0,45,0.38) 55%, rgba(188,0,45,0.38) 93%, transparent 93%);
-    }
-    /* "hidden prices" — matches CTA green */
-    .hero-m5 .highlight-after {
-      background: linear-gradient(to bottom, transparent 55%, rgba(188,0,45,0.38) 55%, rgba(188,0,45,0.38) 93%, transparent 93%);
-    }
-    .hero-left .hero-rotate-wrap {
-      display: inline-block;
-      position: relative;
-      min-width: 6em;
-      vertical-align: baseline;
-    }
-    .hero-left .hero-rotate-item {
-      position: absolute;
-      left: 0;
-      top: 0;
-      line-height: 1.3em;
-      font-weight: 600;
-      color: #000000;
-      white-space: nowrap;
-    }
-    .hero-left .hero-amount { color: #000000; font-weight: 600; }
-    .hero-left .hero-rotate-wrap::after {
-      content: 'hotels and flights';
-      visibility: hidden;
-      white-space: nowrap;
-    }
-    .hero-left .hero-rotate-1 { animation: hero-show-1 9s ease-in-out infinite; }
-    .hero-left .hero-rotate-2 { animation: hero-show-2 9s ease-in-out infinite; }
-    .hero-left .hero-rotate-3 { animation: hero-show-3 9s ease-in-out infinite; }
-    .hero-ai-signs {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: clamp(3rem, 6vw, 6rem);
-      margin-bottom: var(--space-3);
-    }
-    .hero-ai-signs .ai-sign {
-      height: 36px;
-      width: auto;
-      object-fit: contain;
-      flex-shrink: 0;
-      display: block;
-    }
-    .hero-cta-slot {
-      margin-top: var(--space-2);
-      max-width: 400px;
-      min-height: 120px;
-    }
-    .hero-left .hero-cta-block {
+
+    .hero-left {
       display: flex;
       flex-direction: column;
-      gap: 0;
+      gap: 1.75rem;
     }
-    .hero-left .hero-cta-block input[type="email"] {
-      width: 100%;
-      padding: var(--space-2) var(--space-3) var(--space-2) var(--space-2);
-      border: 1px solid rgba(0,0,0,0.15);
-      border-bottom: none;
-      border-radius: var(--radius) var(--radius) 0 0;
-      font-size: var(--text-base);
-      letter-spacing: -0.02em;
-      line-height: var(--leading-snug);
-      font-family: inherit;
-      background: #ffffff;
-      color: #000000;
-      transition: border-color var(--transition);
-    }
-    .hero-left .hero-cta-block input[type="email"]::placeholder { color: rgba(0,0,0,0.6); font-weight: 500; }
-    .hero-left .hero-cta-block input[type="email"]:focus { border-color: rgba(0,0,0,0.4); outline: none; }
-    .hero-cta-confirmation[hidden] { display: none !important; }
 
-    /* ── Queue-number success modal ── */
-    .queue-modal-overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.55);
-      z-index: 9999;
-      align-items: center;
-      justify-content: center;
-      padding: var(--space-3);
-    }
-    .queue-modal-overlay.open { display: flex; }
-    .queue-modal {
-      background: #ffffff;
-      border-radius: var(--radius-outer);
-      padding: var(--space-6) var(--space-5);
-      max-width: 480px;
-      width: 100%;
-      text-align: center;
-      border: 1px solid rgba(0,0,0,0.1);
-      box-shadow: 0 8px 40px rgba(0,0,0,0.12);
-      position: relative;
-      animation: queue-modal-pop 0.32s cubic-bezier(0.34,1.56,0.64,1);
-    }
-    @keyframes queue-modal-pop {
-      from { opacity: 0; transform: scale(0.85); }
-      to   { opacity: 1; transform: scale(1); }
-    }
-    .queue-modal-emoji { font-size: 3rem; margin-bottom: var(--space-3); line-height: 1; }
-    .queue-modal-title {
-      font-family: 'Inter', sans-serif;
-      font-size: clamp(1.5rem, 3.5vw, 2rem);
-      font-weight: 600;
-      color: #000000;
-      letter-spacing: -0.03em;
-      line-height: 40px;
-      margin: 0 0 var(--space-1);
-    }
-    .queue-modal-label {
-      font-size: var(--text-base);
-      color: rgba(0,0,0,0.45);
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      font-weight: 500;
-      margin: 0 0 4px;
-    }
-    .queue-modal-number {
-      font-family: 'Inter', sans-serif;
-      font-size: 3rem;
+    /* #10: main headline */
+    .hero-h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 3.5vw, 2.625rem);
       font-weight: 700;
-      color: #000000;
-      margin: 0 0 var(--space-3);
-      letter-spacing: -0.04em;
-      line-height: 56px;
+      line-height: 1.1;
+      letter-spacing: -0.025em;
+      color: var(--fg);
     }
-    .queue-modal-text {
-      font-size: var(--text-base);
-      color: rgba(0,0,0,0.55);
-      letter-spacing: -0.02em;
-      line-height: var(--leading-relaxed);
-      margin: 0 0 var(--space-5);
+    .hero-h1 .grad-text {
+      background: var(--grad-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
-    .queue-modal-text strong { color: #000000; font-weight: 600; }
-    .queue-modal-close {
-      display: inline-block;
-      padding: var(--space-2) var(--space-6);
-      background: #000000;
-      color: #ffffff;
-      font-family: 'Inter', sans-serif;
-      font-size: var(--text-base);
-      font-weight: 500;
-      letter-spacing: -0.01em;
-      text-transform: none;
-      border: none;
-      border-radius: 9999px;
-      cursor: pointer;
-      transition: background var(--transition);
+
+    /* #11: sub-message */
+    .hero-p {
+      font-size: 1.125rem;
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 460px;
     }
-    .queue-modal-close:hover { background: #222222; }
-    .hero-cta-error {
-      margin-top: var(--space-2);
-      padding: var(--space-2) var(--space-3);
-      background: #fef2f2;
-      border: 1px solid #fecaca;
-      border-radius: var(--radius);
-      font-size: var(--text-base);
-      color: #b91c1c;
-      line-height: var(--leading-snug);
-    }
-    .hero-cta-error[hidden] { display: none !important; }
-    .hero-left .btn-primary {
-      display: inline-block;
-      padding: var(--space-2) var(--space-3);
-      background: #BC002D;
-      color: #ffffff;
-      font-weight: 500;
-      border-radius: 0 0 var(--radius) var(--radius);
-      border: none;
-      font-size: var(--text-base);
-      letter-spacing: -0.02em;
-      line-height: var(--leading-snug);
-      font-family: inherit;
-      cursor: pointer;
-      transition: background var(--transition);
-    }
-    .hero-left .btn-primary:hover {
-      background: #8A0020;
-    }
-    .hero-right .testimonials-wrap {
-      display: block;
-      position: relative;
-      border-radius: var(--radius-outer);
-      background-color: #f5f5f5;
-      border: 1px solid rgba(0,0,0,0.08);
-      z-index: 1;
-      isolation: isolate;
-      overflow: hidden;
-      /* height is set dynamically by JS to match h1 */
-    }
-    /* Video — fits fully inside the box, no cropping */
-    .hero-right .hero-video {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      display: block;
-      border-radius: var(--radius-outer);
-    }
-    /* Overlay — absolutely covers the video, shown by default */
-    .hero-right .hero-video-overlay {
-      position: absolute;
-      inset: 0;
+
+    /* ── CTA — stacked email + button ────────────────────────────────────── */
+    .cta-pill {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: var(--space-5);
-      padding: var(--space-6) var(--space-5);
+      gap: 0.6rem;
+      max-width: 420px;
+      margin-top: 0.75rem;
+    }
+    .cta-email {
+      width: 100%;
+      padding: 0.875rem 1.1rem;
+      border: 1.5px solid hsl(0 0% 83%);
+      border-radius: 10px;
+      outline: none;
+      font-family: var(--font-body);
+      font-size: 0.9375rem;
+      color: var(--fg);
+      background: white;
       box-sizing: border-box;
-      background-color: #f5f5f5;
-      transition: opacity 0.3s ease;
-      border-radius: var(--radius-outer);
+      transition: border-color 0.18s, box-shadow 0.18s;
     }
-    .hero-right .hero-video-overlay.hidden {
-      display: none;
+    .cta-email:focus {
+      border-color: hsl(243 75% 58%);
+      box-shadow: 0 0 0 3px hsl(243 75% 58% / 0.12);
     }
-    .hero-right .testimonials-wrap::before { display: none; }
-    .split-screen-caption {
-      text-align: left;
-      padding-left: 55%;
-      font-family: 'Outfit', sans-serif;
-      font-size: var(--text-lg);
-      font-weight: 700;
-      font-style: normal;
-      color: #1a0a00;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      margin: var(--space-3) 0 0;
-      padding: 0;
-    }
-    .hero-right .split-screen-img {
+    .cta-email::placeholder { color: hsl(0 0% 55%); }
+    .btn-claim {
       width: 100%;
-      height: auto;
-      display: block;
-      border-radius: var(--radius-outer);
-    }
-    .hero-right .see-it-heading {
-      font-family: 'Inter', sans-serif;
-      font-size: var(--text-lg);
-      font-weight: 500;
-      letter-spacing: -0.02em;
-      color: rgba(0,0,0,0.65);
-      line-height: 24px;
-      text-transform: none;
-      text-align: center;
-      margin: 0;
-    }
-    .hero-right .see-it-in-action {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0;
+      padding: 0.875rem;
+      background: linear-gradient(to right, hsl(243 75% 56%), hsl(243 75% 44%));
+      color: hsl(225 100% 96%);
       border: none;
-      background: none;
+      border-radius: 10px;
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 600;
       cursor: pointer;
-      transition: transform var(--transition);
+      letter-spacing: -0.01em;
+      transition: opacity 0.18s, transform 0.12s;
+      box-shadow: 0 4px 16px hsl(243 75% 58% / 0.3);
     }
-    .hero-right .see-it-in-action:hover {
-      transform: scale(1.05);
+    .btn-claim:hover  { opacity: 0.9; transform: translateY(-1px); }
+    .btn-claim:active { transform: translateY(0); }
+    .btn-claim:disabled { opacity: 0.55; cursor: not-allowed; transform: none; }
+
+    /* ── Trust — #3 removed 2 items, #4 renamed ──────────────────────────── */
+    .trust-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 1.5rem;
     }
-    .hero-right .see-it-in-action:focus-visible {
-      outline: 2px solid #000000;
-      outline-offset: 4px;
-      border-radius: 50%;
-    }
-    .hero-right .see-it-play-circle {
-      width: 72px;
-      height: 72px;
-      border-radius: 50%;
-      background: #BC002D;
+    .trust-item {
       display: flex;
       align-items: center;
+      gap: 0.4rem;
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+    .trust-check {
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      background: hsl(143 55% 42%);
+      display: inline-flex;
+      align-items: center;
       justify-content: center;
-      transition: background var(--transition);
-    }
-    .hero-right .see-it-in-action:hover .see-it-play-circle {
-      background: #8A0020;
-    }
-    .hero-right .see-it-play-triangle {
-      width: 0;
-      height: 0;
-      border-left: 18px solid #ffffff;
-      border-top: 11px solid transparent;
-      border-bottom: 11px solid transparent;
-      margin-left: 5px;
-    }
-    @keyframes hero-show-1 {
-      0%, 33% { opacity: 1; } 34%, 100% { opacity: 0; }
-    }
-    @keyframes hero-show-2 {
-      0%, 33% { opacity: 0; } 34%, 66% { opacity: 1; } 67%, 100% { opacity: 0; }
-    }
-    @keyframes hero-show-3 {
-      0%, 66% { opacity: 0; } 67%, 100% { opacity: 1; }
-    }
-
-    .press-section { max-width: 1200px; margin: 0 auto; padding: var(--space-6) var(--space-3) var(--space-8); margin-bottom: var(--space-5); background: #ffffff; position: relative; z-index: 1; }
-    .press-section .press-heading { font-family: 'Inter', sans-serif; font-size: var(--text-base); font-weight: 500; color: rgba(0,0,0,0.65); text-transform: uppercase; letter-spacing: 0.06em; text-align: center; margin-bottom: var(--space-4); line-height: var(--leading-tight); }
-    .press-section .press-logos { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-5) var(--space-6); }
-    .press-section .press-logo { display: flex; align-items: center; justify-content: center; min-width: 144px; height: 58px; }
-    .press-section .press-logo img[src] { max-height: 38px; max-width: 168px; width: auto; height: auto; object-fit: contain; filter: grayscale(1); opacity: 0.8; }
-    .press-section .press-logo img[src]:hover { filter: grayscale(0); opacity: 1; }
-    .press-section .press-logos .press-logo:first-child img { transform: scale(0.86); }
-
-    .section { max-width: 1200px; margin: 0 auto; padding: var(--space-8) var(--space-3); background: transparent; }
-    #how-it-works { max-width: none; width: 100%; padding-left: var(--space-3); padding-right: var(--space-3); background: transparent; padding-top: var(--space-8); }
-    #how-it-works h2 { margin-bottom: var(--space-8); }
-    .section h2 { font-size: var(--text-2xl); font-weight: 600; color: #000000; line-height: 40px; letter-spacing: -0.03em; margin-bottom: var(--space-5); text-align: center; }
-    .steps-vertical { width: 100%; max-width: 1600px; margin: 0 auto; display: flex; flex-direction: column; gap: var(--space-8); }
-    .step-item { display: flex; gap: var(--space-5); align-items: flex-start; }
-    .step-item:last-child { margin-bottom: 0; }
-    .step-item .step-left {
-      flex: 0 0 420px;
-      max-width: 480px;
-      display: flex;
-      flex-direction: row;
-      gap: var(--space-2);
-      align-items: flex-start;
-      padding-right: var(--space-2);
-    }
-    .step-item .step-num {
       flex-shrink: 0;
-      width: 52px;
-      height: 52px;
-      border-radius: 999px;
-      background: #BC002D;
-      color: #ffffff;
-      font-weight: 500;
-      font-size: var(--text-base);
-      letter-spacing: -0.02em;
-      line-height: var(--leading-tight);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: none;
     }
-    .step-item .step-content { flex: 1; min-width: 0; max-width: 34em; }
-    .step-item:first-child .step-content { background: #ffffff; display: inline-block; padding: var(--space-2) var(--space-3) var(--space-2) 0; position: relative; z-index: 1; }
-    .step-item:last-child .step-content { background: #ffffff; display: inline-block; padding: var(--space-2) var(--space-3) var(--space-2) 0; position: relative; z-index: 1; }
-    .step-item .step-title { font-size: var(--text-lg); font-weight: 600; color: #000000; margin-bottom: var(--space-2); line-height: 24px; letter-spacing: -0.025em; }
-    .step-item .step-desc { font-size: var(--text-base); color: rgba(0,0,0,0.65); line-height: var(--leading-relaxed); letter-spacing: -0.015em; }
-    .step-item .step-video {
-      flex: 1;
-      min-width: 0;
-      max-width: 869px;
-      border-radius: var(--radius-outer);
+    .trust-check svg { width: 10px; height: 10px; }
+
+    /* ── Video card — #7: better overlay ─────────────────────────────────── */
+    .hero-right {
+      position: relative;
+      /* match left column height for symmetry */
+    }
+    .video-card {
+      background: #111;
+      border-radius: var(--radius);
       overflow: hidden;
-      background: #f0f0f0;
-      border: 1px solid rgba(0,0,0,0.06);
-      aspect-ratio: 16/9;
-      min-height: 362px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      box-shadow: var(--shadow-md), 0 0 0 1px rgba(0,0,0,0.08);
+      position: relative;
+      aspect-ratio: 584 / 370;
     }
-    .step-item .step-video video {
+    .hero-video {
       width: 100%;
       height: 100%;
-      object-fit: contain;
+      object-fit: cover;
       display: block;
     }
-
-    .footer-wrap { max-width: 1200px; margin: 0 auto; padding: var(--space-4) var(--space-3); text-align: center; border-top: 1px solid rgba(0,0,0,0.08); }
-    .footer-wrap p { font-size: var(--text-base); color: rgba(0,0,0,0.6); line-height: var(--leading-snug); letter-spacing: -0.01em; }
-    .footer-wrap a { color: #000000; font-weight: 500; }
-    .footer-wrap a:hover { text-decoration: underline; }
-
-    .video-modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 201; display: none; align-items: center; justify-content: center; padding: var(--space-4); }
-    .video-modal-overlay.open { display: flex; }
-    .video-modal { position: relative; max-width: 90vw; max-height: 90vh; width: 900px; background: #000; border-radius: var(--radius-outer); overflow: hidden; box-shadow: 0 24px 48px rgba(0,0,0,0.5); }
-    .video-modal .video-modal-close { position: absolute; top: var(--space-2); right: var(--space-2); z-index: 2; width: 40px; height: 40px; border-radius: 50%; background: rgba(0,0,0,0.6); border: none; color: #fff; font-size: 1.5rem; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; }
-    .video-modal .video-modal-close:hover { background: rgba(0,0,0,0.8); }
-    .video-modal video { width: 100%; height: auto; display: block; vertical-align: middle; }
-
-    @media (max-width: 768px) {
-      /* ── Mobile header: logo-left | COMING SOON centre | About right ── */
-      .header { position: sticky; top: 0; z-index: 100; padding: var(--space-1) var(--space-2); padding-left: max(var(--space-2), env(safe-area-inset-left)); padding-right: max(var(--space-2), env(safe-area-inset-right)); }
-      .header-inner { height: auto; min-height: auto; align-items: center; justify-content: space-between; }
-      /* Logo: left edge, sized to fit header — pull into left corner */
-      .logo { position: static; flex-shrink: 0; }
-      .logo picture, .logo picture img { height: 86px !important; max-height: 86px !important; width: auto !important; margin-left: 0 !important; }
-      /* Coming Soon: perfectly centred between logo and About */
-      .header-coming-soon { position: static; flex: 1; transform: none; display: flex; align-items: center; justify-content: center; pointer-events: none; margin-right: 18px; }
-      .coming-soon-badge { font-size: clamp(0.6rem, 2.8vw, 0.75rem); padding: 0.28em 0.65em; border-width: 1.5px; letter-spacing: 0.06em; line-height: 1.4; white-space: nowrap; }
-
-      /* Reduce empty space between header and hero on mobile */
-      .hero-above-the-fold { padding: var(--space-2) 0 var(--space-5); }
-      .hero-wrap { transform: none; padding: var(--space-2) var(--space-2) var(--space-6); padding-left: max(var(--space-2), env(safe-area-inset-left)); padding-right: max(var(--space-2), env(safe-area-inset-right)); }
-
-      .press-section { padding-left: var(--space-2); padding-right: var(--space-2); }
-      .press-section .press-logo { min-width: 120px; height: 52px; flex: 1 1 40%; }
-      .press-section .press-logo img[src] { max-height: 32px; max-width: 140px; }
-      .nav {
-        display: flex;
-        position: static;
-        margin-left: auto;
-        background: none;
-        padding: 0;
-        border-bottom: none;
-        gap: 0;
-      }
-      .nav.open { display: flex; }
-      .nav a { min-height: 40px; display: inline-flex; align-items: center; }
-      .menu-toggle { display: none; }
-
-      .hero-row { grid-template-columns: 1fr; min-height: auto; gap: var(--space-4); }
-      .hero-left { max-width: none; }
-      /* Mobile above-the-fold order: 1) AI signs, 2) Headline, 3) CTA, 4) See it in action */
-      .hero-left, .hero-right { display: contents; }
-      .hero-ai-signs { order: -2; }
-      .hero-row .hero-left h1 { order: -1; }
-      .hero-row .hero-cta-slot { order: 0; }
-      .hero-row .testimonials-wrap { order: 1; }
-      /* Space between See it in action and headline; keep email + button tight */
-      .hero-right .testimonials-wrap { margin-left: 0; margin-top: var(--space-2); margin-bottom: var(--space-3); }
-      .hero-left .hero-cta-slot { margin-top: 0; }
-      .hero-left .hero-cta-block { gap: 0; }
-      /* Copy sits between AI signs and CTA */
-      .hero-left h1 { margin-bottom: var(--space-3); padding-top: 4px; font-size: 1.52rem; line-height: 1.3; }
-
-      /* AI signs — mobile: left-align within the stacked layout */
-      .hero-ai-signs {
-        justify-content: flex-start;
-        gap: clamp(1.5rem, 5vw, 3rem);
-        min-width: 0;
-        width: 100%;
-        margin-left: 0;
-        margin-bottom: var(--space-4);
-      }
-
-      .hero-left .btn-primary { min-height: 48px; width: 100%; font-size: 0.875rem; }
-      .hero-cta-slot { max-width: none; width: 100%; }
-      .hero-left .hero-cta-block input[type="email"] { font-size: 0.875rem; padding: 12px 14px; min-height: 48px; }
-      .hero-ai-signs .ai-sign { height: 28px; }
-      .hero-ai-signs .ai-sign:last-child { margin-left: 0; }
-      /* Headline: exactly 4 lines on mobile */
-      .hero-left h1 br { display: none; }
-      .mob-when { display: inline; }
-      .desk-when { display: none; }
-      .hero-left h1 .hero-m1,
-      .hero-left h1 .hero-m2,
-      .hero-left h1 .hero-m3,
-      .hero-left h1 .hero-m4,
-      .hero-left h1 .hero-m5,
-      .hero-left h1 .hero-m6 { display: block; }
-      /* Video overlay on mobile: tighter gap, no scale, smaller padding */
-      .hero-right .testimonials-wrap { transform: none; }
-      .hero-right .hero-video-overlay { gap: var(--space-1); padding: var(--space-2) var(--space-2); }
-      .hero-right .see-it-play-circle { width: 64px; height: 64px; }
-      .hero-right .see-it-play-triangle { border-left-width: 14px; border-top-width: 9px; border-bottom-width: 9px; margin-left: 4px; }
-      .hero-right .see-it-heading { font-size: 1rem; line-height: 1.3; }
-      .section { padding: var(--space-6) var(--space-2); }
-      #how-it-works { padding-left: var(--space-2); padding-right: var(--space-2); }
-      .step-item { flex-direction: column; gap: var(--space-4); }
-      .step-item + .step-item { margin-top: var(--space-6); }
-      .step-item .step-left { flex: 1 1 auto; max-width: none; padding-right: 0; padding-left: 0; }
-      .step-item .step-content { max-width: none; }
-      .step-item .step-video { min-height: 200px; max-width: none; }
-      .footer-wrap { padding: var(--space-4) var(--space-2); padding-left: max(var(--space-2), env(safe-area-inset-left)); padding-right: max(var(--space-2), env(safe-area-inset-right)); }
+    /* #7: stronger blur + readable text colour */
+    .video-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.25rem;
+      background: rgba(8, 4, 20, 0.62);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      cursor: pointer;
+      transition: opacity 0.28s ease;
     }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --text: #f5f5f5;
-        --text-muted: #999999;
-        --white: #111111;
-        --gray-50: #1a1a1a;
-        --gray-100: #2a2a2a;
-        --accent-light: #1a1a1a;
-        --dark: #f5f5f5;
-      }
-      body { background: #0a0a0a; color: #f5f5f5; }
-      .page-bg { background: #0a0a0a; }
-      .header { background: rgba(10,10,10,0.92); border-bottom-color: rgba(255,255,255,0.08); }
-      .logo { color: #ffffff; }
-      .nav a { background: #ffffff; color: #000000; }
-      .nav a:hover { background: #e0e0e0; }
-      .coming-soon-badge { color: rgba(255,255,255,0.8); border-color: rgba(255,255,255,0.25); }
-      .hero-left h1 { background: #0a0a0a; color: #ffffff; }
-      .hero-right { background: #0a0a0a; }
-      .hero-right .testimonials-wrap { background-color: #1a1a1a; border-color: rgba(255,255,255,0.08); }
-      .hero-right .hero-video-overlay { background-color: #1a1a1a; }
-      .hero-right .see-it-heading { color: rgba(255,255,255,0.5); }
-      .hero-right .see-it-play-circle { background: #BC002D; }
-      .hero-right .see-it-play-triangle { border-left-color: #ffffff; }
-      .hero-right .see-it-in-action:hover .see-it-play-circle { background: #8A0020; }
-      .hero-m1 .highlight-after, .hero-m2 .highlight-after { background: linear-gradient(to bottom, transparent 55%, rgba(188,0,45,0.38) 55%, rgba(188,0,45,0.38) 93%, transparent 93%); }
-      .hero-m5 .highlight-after { background: linear-gradient(to bottom, transparent 55%, rgba(188,0,45,0.38) 55%, rgba(188,0,45,0.38) 93%, transparent 93%); }
-      .hero-left .hero-cta-block input[type="email"] { background: #1a1a1a; border-color: rgba(255,255,255,0.15); color: #f5f5f5; }
-      .hero-left .hero-cta-block input[type="email"]::placeholder { color: rgba(255,255,255,0.65); font-weight: 500; }
-      .hero-left .btn-primary { background: #BC002D; color: #ffffff; }
-      .hero-left .btn-primary:hover { background: #8A0020; }
-      .press-section { background: #0a0a0a; }
-      .press-section .press-logo img[src] { filter: grayscale(1) brightness(2.5); opacity: 0.5; }
-      .press-section .press-heading { color: rgba(255,255,255,0.3); }
-      .section h2 { color: #ffffff; }
-      .step-item .step-title { color: #f5f5f5; }
-      .step-item .step-desc { color: rgba(255,255,255,0.5); }
-      .step-item:first-child .step-content { background: #0a0a0a; }
-      .step-item:last-child .step-content { background: #0a0a0a; }
-      .step-item .step-num { background: #BC002D; border: none; color: #ffffff; }
-      .step-item .step-video { background: #1a1a1a; border-color: rgba(255,255,255,0.06); }
-      .footer-wrap { border-top-color: rgba(255,255,255,0.08); }
-      .footer-wrap p { color: rgba(255,255,255,0.65); }
-      .footer-wrap a { color: #ffffff; }
-      .queue-modal { background: #141414; border-color: rgba(255,255,255,0.1); }
-      .queue-modal-title { color: #ffffff; }
-      .queue-modal-number { color: #ffffff; }
-      .queue-modal-text { color: rgba(255,255,255,0.5); }
-      .queue-modal-text strong { color: #ffffff; }
-      .queue-modal-label { color: rgba(255,255,255,0.35); }
-      .queue-modal-close { background: #ffffff; color: #000000; }
-      .queue-modal-close:hover { background: #e0e0e0; }
-      .menu-toggle span { background: #f5f5f5; }
+    .video-overlay.hidden { opacity: 0; pointer-events: none; }
+    .overlay-label {
+      font-family: var(--font-display);
+      font-size: 1.75rem;
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.3;
+      pointer-events: none;
+      color: rgba(255,255,255,0.92);
+      -webkit-text-fill-color: rgba(255,255,255,0.92);
+      filter: drop-shadow(0 1px 6px rgba(0,0,0,0.6));
+    }
+    .play-btn {
+      width: 58px; height: 58px;
+      border-radius: 50%;
+      background: white;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+      transition: transform 0.2s;
+    }
+    .play-btn:hover { transform: scale(1.08); }
+    .play-tri {
+      width: 0; height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 18px solid hsl(280 70% 50%);
+      margin-left: 4px;
     }
 
+    /* ── PRESS — #8: spread logos across full width ───────────────────────── */
+    .press {
+      background: white;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 0;
+    }
+    .press-label {
+      text-align: center;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.75rem;
+    }
+    /* #8: justify-content: space-between spreads across full row width */
+    .press-logos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: 3.5rem;
+      padding: 0 1rem;
+    }
+    .press-logos img {
+      height: 30px;
+      width: auto;
+      filter: grayscale(1);
+      opacity: 0.5;
+      transition: opacity 0.2s;
+      flex-shrink: 0;
+    }
+    .press-logos img:hover { opacity: 0.8; }
+
+    /* ── HOW IT WORKS ────────────────────────────────────────────────────── */
+    .how-it-works {
+      padding: 5.5rem 0 5rem;
+      background: var(--bg);
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.875rem, 3.5vw, 2.625rem);
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      color: var(--fg);
+      margin-bottom: 4rem;
+    }
+    .steps { display: flex; flex-direction: column; gap: 4.5rem; }
+    .step {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 3.5rem;
+      align-items: start;
+    }
+    .step-left { display: flex; flex-direction: column; gap: 1rem; }
+    .step-num {
+      display: inline-flex;
+      width: 42px; height: 42px;
+      border-radius: 50%;
+      background: var(--grad-primary);
+      color: white;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.875rem;
+      flex-shrink: 0;
+      margin-bottom: 0.25rem;
+      box-shadow: 0 2px 10px hsl(300 80% 50% / 0.25);
+    }
+    .step-title {
+      font-family: var(--font-display);
+      font-size: 1.1875rem;
+      font-weight: 600;
+      color: var(--fg);
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+    }
+    .step-desc { font-size: 1rem; color: var(--muted); line-height: 1.7; }
+    .step-video-wrap {
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: #0c0c0c;
+      box-shadow: var(--shadow-md);
+      line-height: 0;
+    }
+    .step-video-wrap video { width: 100%; height: auto; display: block; }
+
+    /* ── FOOTER ──────────────────────────────────────────────────────────── */
+    .footer { background: var(--fg); color: hsl(0 0% 88%); padding: 3.5rem 2rem 2rem; }
+    .footer-inner { max-width: 1200px; margin: 0 auto; }
+    .footer-grid {
+      display: grid; grid-template-columns: 2fr repeat(3, 1fr); gap: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+    .footer-brand {
+      font-family: var(--font-display); font-size: 1.375rem; font-weight: 700;
+      background: var(--grad-primary); -webkit-background-clip: text;
+      background-clip: text; -webkit-text-fill-color: transparent;
+      margin-bottom: 0.75rem;
+    }
+    .footer-brand-desc { font-size: 0.95rem; line-height: 1.55; color: rgba(255,255,255,0.72); max-width: 320px; }
+    .footer-col h4 {
+      font-family: var(--font-display); font-size: 0.8rem; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      color: rgba(255,255,255,0.92); margin-bottom: 1rem;
+    }
+    .footer-col a {
+      display: block; font-size: 0.95rem; color: rgba(255,255,255,0.7);
+      margin-bottom: 0.5rem; transition: color 0.18s;
+    }
+    .footer-col a:hover { color: var(--primary); }
+    .footer-bottom {
+      padding-top: 1.75rem; border-top: 1px solid rgba(255,255,255,0.12);
+      display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;
+    }
+    .footer-bottom p, .footer-bottom a { font-size: 0.85rem; color: rgba(255,255,255,0.55); }
+    .footer-bottom a { transition: color 0.18s; }
+    .footer-bottom a:hover { color: var(--primary); }
+    .footer-legal-links { display: flex; gap: 1.25rem; }
+
+    /* ── QUEUE MODAL ─────────────────────────────────────────────────────── */
+    .queue-overlay {
+      position: fixed; inset: 0; z-index: 1000;
+      background: rgba(0,0,0,0.52);
+      backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px);
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0; pointer-events: none; transition: opacity 0.25s ease;
+    }
+    .queue-overlay.open { opacity: 1; pointer-events: all; }
+    .queue-modal {
+      background: white; border-radius: var(--radius);
+      padding: 2.5rem 2.25rem; max-width: 380px; width: 90%;
+      text-align: center; box-shadow: 0 24px 64px rgba(0,0,0,0.22);
+      transform: translateY(20px) scale(0.98); transition: transform 0.25s ease;
+    }
+    .queue-overlay.open .queue-modal { transform: translateY(0) scale(1); }
+    .queue-emoji  { font-size: 2.5rem; margin-bottom: 0.75rem; }
+    .queue-title  { font-family: var(--font-display); font-size: 1.75rem; font-weight: 700; color: var(--fg); margin-bottom: 0.375rem; }
+    .queue-label  { font-size: 0.875rem; color: var(--muted); margin-bottom: 0.375rem; }
+    .queue-number {
+      font-family: var(--font-display); font-size: 2.75rem; font-weight: 700;
+      background: var(--grad-primary); -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 1rem;
+    }
+    .queue-text { font-size: 0.9375rem; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; }
+    .queue-close {
+      padding: 0.75rem 2rem; background: var(--fg); color: white; border: none;
+      border-radius: var(--radius-sm); font-family: var(--font-body);
+      font-size: 0.9375rem; font-weight: 600; cursor: pointer; transition: opacity 0.18s;
+    }
+    .queue-close:hover { opacity: 0.82; }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────────────────── */
+    @media (max-width: 940px) {
+      .hero { padding: 1rem 0 2.5rem; }
+      .hero-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .hero-right { order: 2; }
+      .hero-left { order: 1; text-align: center; align-items: center; }
+      .step { grid-template-columns: 1fr; gap: 1.75rem; }
+      .press-logos { flex-wrap: wrap; justify-content: center; gap: 1.5rem 2rem; }
+      .logo-link img { height: 110px; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 1.75rem; }
+      .footer-brand-desc { max-width: 100%; }
+    }
+    @media (max-width: 640px) {
+      .header-inner { grid-template-columns: auto 1fr auto; padding: 0.4rem 0.85rem; }
+      .header-center { gap: 0.4rem; }
+      .logo-link img { height: 70px; }
+      .ai-sign { height: 22px; }
+      .hero { padding: 0.5rem 0 2.5rem; }
+      .container { padding: 0 1.25rem; }
+      .hero-h1 { font-size: 2rem; line-height: 1.15; }
+      .hero-p { font-size: 1rem; }
+      .cta-pill { max-width: 100%; margin-top: 0.5rem; }
+      .cta-email, .btn-claim { width: 100%; font-size: 0.95rem; padding: 0.75rem 1rem; }
+      .video-card { aspect-ratio: 16/10; }
+      .press-logos img { height: 22px; }
+      .press-logos { gap: 1rem 1.75rem; }
+      .how-it-works { padding: 3rem 0; }
+      .section-title { margin-bottom: 2rem; font-size: 1.6rem; }
+      .step { padding: 0 0.25rem; }
+      .step-title { font-size: 1.15rem; }
+      .step-desc { font-size: 0.95rem; }
+      .nav-about-btn { padding: 0.4rem 0.85rem; font-size: 0.8rem; }
+      .footer { padding: 2.5rem 1.25rem 1.5rem; }
+      .footer-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+      .footer-bottom { justify-content: center; text-align: center; }
+      .queue-modal { padding: 1.75rem 1.25rem; }
+      .overlay-label { font-size: 1.15rem; }
+    }
   </style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Arbitrica",
-    "legalName": "Arbitrica Limited",
-    "url": "https://arbitrica.com",
-    "logo": "https://arbitrica.com/Arbitrica_logo_transparent.png",
-    "description": "Arbitrica AI searches from 200 countries simultaneously to find you hidden hotel prices. Save up to $5,000/year, for free.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "London",
-      "addressCountry": "GB"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "email": "support@arbitrica.com",
-      "contactType": "customer support"
-    },
-    "sameAs": []
-  }
-  </script>
-  <!-- Meta Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1805547713128833');
-  fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1805547713128833&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
 </head>
 <body>
-  <div class="page-bg" aria-hidden="true"></div>
-  <header class="header">
-    <div class="header-inner">
-      <a href="index.html" class="logo">
+
+<!-- ── HEADER ── logo left | AI signs centre | About right ─────────────── -->
+<header class="header">
+  <div class="header-inner">
+
+    <div class="header-left">
+      <a href="index.html" class="logo-link">
         <picture>
           <source srcset="Arbitrica_logo_transparent.webp" type="image/webp">
-          <img src="Arbitrica_logo_transparent.png" alt="Arbitrica" width="484" height="384" fetchpriority="high" style="height:130px;width:auto;display:block;">
+          <img src="Arbitrica_logo_transparent.png" alt="Arbitrica" width="484" height="384" fetchpriority="high">
         </picture>
       </a>
-      <div class="header-coming-soon" aria-hidden="true">
-        <span class="coming-soon-badge">COMING SOON</span>
-      </div>
-      <nav class="nav" id="nav">
-        <a href="about.html">About</a>
-      </nav>
-      <button type="button" class="menu-toggle" id="menuToggle" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
     </div>
-  </header>
 
-  <main>
-    <section class="hero-above-the-fold">
-      <section class="hero-wrap">
-        <div class="hero-ai-signs">
-          <picture>
-            <source srcset="AI-2.webp" type="image/webp">
-            <img src="AI-2.png" alt="AI — Idea of the Year" class="ai-sign" fetchpriority="high" width="120" height="50">
-          </picture>
-          <picture>
-            <source srcset="AI.webp" type="image/webp">
-            <img src="AI.png" alt="AI — Future of AI 2025" class="ai-sign" fetchpriority="high" width="120" height="50">
-          </picture>
-        </div>
-        <div class="hero-row">
-          <div class="hero-left">
-            <h1><span class="hero-m1">You're <span class="highlight-after">overpaying</span> for your</span><br><span class="hero-m2">next <span class="highlight-after">hotel</span>.</span><br><span class="hero-para-break" aria-hidden="true"></span><span class="hero-m3">Our AI searches from 200</span><br><span class="hero-m4">countries at once to find</span><br><span class="hero-m5">you <span class="highlight-after">hidden prices</span>.</span><br><span class="hero-para-break" aria-hidden="true"></span><span class="hero-m6">Up to $5000/year, for free</span></h1>
-            <div class="hero-cta-slot">
-              <form class="hero-cta-block" id="waitlistForm" action="javascript:void(0)" onsubmit="arbitricaClaim(); return false;">
-                <input type="email" name="email" id="waitlistEmail" placeholder="ENTER EMAIL - free access to first 10,000 only" required aria-label="Email address">
-                <button type="button" class="btn-primary" id="waitlistSubmitBtn" onclick="arbitricaClaim()">Claim your place</button>
-              </form>
-              <p class="hero-cta-error" id="waitlistError" hidden aria-live="assertive"></p>
-              <div class="hero-cta-confirmation" id="waitlistConfirmation" aria-live="polite" hidden>
-                <p class="hero-cta-confirmation-text">Your queue number is <strong id="waitlistQueueNumber">—</strong>.<br>Stay tuned for our email with access prior to the <strong>launch</strong>.</p>
-              </div>
-            </div>
-          </div>
-          <div class="hero-right">
-            <div class="testimonials-wrap">
-              <!-- Video: always present, drives the container height -->
-              <video class="hero-video" id="heroVideo" src="Video How It Works For Hotels.mp4?v=3" playsinline preload="metadata" loop><track kind="captions" srclang="en" label="English"></video>
-              <!-- Overlay: absolutely positioned on top, hidden when video plays -->
-              <div class="hero-video-overlay" id="heroVideoOverlay">
-                <p class="see-it-heading">See it in action<br>for hotels</p>
-                <button type="button" class="see-it-in-action" id="heroVideoPlayBtn" aria-label="Play video">
-                  <span class="see-it-play-circle">
-                    <span class="see-it-play-triangle"></span>
-                  </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
+    <!-- #2: AI signs in the centre of the header -->
+    <div class="header-center">
+      <picture>
+        <source srcset="AI-2.webp?v=fresh20260415" type="image/webp">
+        <img src="AI-2.png?v=fresh20260415" alt="AI — Idea of the Year" class="ai-sign">
+      </picture>
+      <picture>
+        <source srcset="AI.webp?v=fresh20260415" type="image/webp">
+        <img src="AI.png?v=fresh20260415" alt="AI — Future of AI 2025" class="ai-sign">
+      </picture>
+    </div>
 
-    <section class="press-section" aria-label="As seen in">
-      <p class="press-heading">As seen in</p>
-      <div class="press-logos">
-        <div class="press-logo"><picture><source srcset="Images/Media1.webp" type="image/webp"><img src="Images/Media1.png" alt="Media 1" loading="lazy" width="1435" height="362"></picture></div>
-        <div class="press-logo"><img src="Images/Media2.png" alt="Media 2" loading="lazy" width="2400" height="1147"></div>
-        <div class="press-logo"><picture><source srcset="Images/Media3.webp" type="image/webp"><img src="Images/Media3.png" alt="Media 3" loading="lazy" width="2400" height="1438"></picture></div>
-        <div class="press-logo"><picture><source srcset="Images/Media4.webp" type="image/webp"><img src="Images/Media4.png" alt="Media 4" loading="lazy" width="2400" height="2400"></picture></div>
+    <div class="header-right">
+      <a href="about.html" class="nav-about-btn">About</a>
+    </div>
+
+  </div>
+</header>
+
+<!-- ── HERO ─────────────────────────────────────────────────────────────── -->
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <!-- Left: heading + form -->
+      <div class="hero-left">
+
+        <!-- #10: new main headline — same Fidero style (dark + gradient accent) -->
+        <h1 class="hero-h1">
+          The new AI that finds<br>
+          <span class="grad-text">hidden prices</span>
+        </h1>
+
+        <!-- #11: new sub-message -->
+        <p class="hero-p">You're overpaying for hotels. Arbitrica searches from 200 countries at the same time – to hand you up to $5,000/year, for free.</p>
+
+        <!-- #6: unified pill CTA, #5: placeholder is just "Enter your email" -->
+        <form class="cta-pill" id="waitlistForm" action="javascript:void(0)" onsubmit="arbitricaClaim(); return false;">
+          <input class="cta-email" type="email" name="email" id="waitlistEmail"
+                 placeholder="Enter your email for waitlist"
+                 required aria-label="Email address">
+          <button type="button" class="btn-claim" id="waitlistSubmitBtn" onclick="arbitricaClaim()">
+            Claim for free
+          </button>
+        </form>
+
+        <!-- #3: only one trust item remains, #4: renamed -->
+        <div class="trust-row">
+          <div class="trust-item">
+            <span class="trust-check">
+              <svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            Free for first 10,000 people
+          </div>
+        </div>
+
       </div>
-    </section>
 
-    <section class="section" id="how-it-works">
-      <h2>Works in two simple ways</h2>
-      <div class="steps-vertical">
-        <div class="step-item">
+      <!-- Right: hero video — #7: blurred overlay with gradient text -->
+      <div class="hero-right">
+        <div class="video-card">
+          <video class="hero-video" id="heroVideo"
+                 src="Video How It Works For Hotels.mp4?v=3"
+                 playsinline preload="metadata" muted controls>
+            <track kind="captions" srclang="en" label="English">
+          </video>
+          <div class="video-overlay" id="heroVideoOverlay">
+            <p class="overlay-label">See it in action<br>for hotels</p>
+            <button type="button" class="play-btn" id="heroVideoPlayBtn" aria-label="Play video">
+              <span class="play-tri"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── PRESS — #8: logos spread across full width ──────────────────────── -->
+  <section class="press" aria-label="As seen in">
+    <div class="container">
+      <p class="press-label">As seen in</p>
+      <div class="press-logos">
+        <picture>
+          <source srcset="Images/Media1.webp" type="image/webp">
+          <img src="Images/Media1.png" alt="Media 1" loading="lazy" width="1435" height="362">
+        </picture>
+        <img src="Images/Media2.png" alt="Media 2" loading="lazy" width="2400" height="1147">
+        <picture>
+          <source srcset="Images/Media3.webp" type="image/webp">
+          <img src="Images/Media3.png" alt="Media 3" loading="lazy" width="2400" height="1438">
+        </picture>
+        <picture>
+          <source srcset="Images/Media4.webp" type="image/webp">
+          <img src="Images/Media4.png" alt="Media 4" loading="lazy" width="2400" height="2400">
+        </picture>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HOW IT WORKS ─────────────────────────────────────────────────────── -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title">Works in two ways</h2>
+      <div class="steps">
+
+        <div class="step">
           <div class="step-left">
             <div class="step-num">01</div>
-            <div class="step-content">
-              <h3 class="step-title">Arbitrica detects you're about to pay &amp; searches from 200 countries for a lower price</h3>
-              <p class="step-desc">Then it prepares your whole booking.<br>You only review &amp; make the payment.</p>
-            </div>
+            <h3 class="step-title">Arbitrica detects you're about to pay and searches from 200 countries for a lower price</h3>
+            <p class="step-desc">Then it prepares your whole booking.<br>You only review &amp; make the payment.</p>
           </div>
-          <div class="step-video">
-            <video src="videos/Step 1.mp4?v=3" controls playsinline muted preload="none" loop><track kind="captions" srclang="en" label="English"></video>
+          <div class="step-video-wrap">
+            <video src="videos/Step 1.mp4?v=3" controls playsinline muted preload="none" loop>
+              <track kind="captions" srclang="en" label="English">
+            </video>
           </div>
         </div>
-        <div class="step-item">
+
+        <div class="step">
           <div class="step-left">
             <div class="step-num">02</div>
-            <div class="step-content">
-              <h3 class="step-title">After you pay, Arbitrica keeps searching for the same thing every day</h3>
-              <p class="step-desc">When the price drops, it emails you &amp; prepares re-booking at a better price</p>
-            </div>
+            <h3 class="step-title">After you pay, Arbitrica keeps searching for the same hotel every day</h3>
+            <p class="step-desc">When the price drops, it emails you &amp; prepares re-booking at a better price.</p>
           </div>
-          <div class="step-video">
-            <video src="videos/Step 2.mp4?v=3" controls playsinline muted preload="none" loop><track kind="captions" srclang="en" label="English"></video>
+          <div class="step-video-wrap">
+            <video src="videos/Step 2.mp4?v=3" controls playsinline muted preload="none" loop>
+              <track kind="captions" srclang="en" label="English">
+            </video>
           </div>
         </div>
+
       </div>
-    </section>
+    </div>
+  </section>
+</main>
 
-    <footer class="footer-wrap">
-      <p>By using Arbitrica Ltd, you agree to our <a href="https://arbitrica.com/assets/terms-of-service.html" target="_blank">Terms</a> and have read our <a href="https://arbitrica.com/assets/privacy-policy.html" target="_blank">Privacy Policy</a>.</p>
-    </footer>
-  </main>
-
-  <div class="video-modal-overlay" id="videoModalOverlay">
-    <div class="video-modal">
-      <button type="button" class="video-modal-close" id="videoModalClose" aria-label="Close">&times;</button>
-      <video id="videoModalPlayer" src="videos/Step 1.mp4?v=3" controls playsinline preload="none"><track kind="captions" srclang="en" label="English"></video>
+<!-- ── FOOTER ───────────────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">Arbitrica</p>
+        <p class="footer-brand-desc">The new AI that finds hidden prices and earns you money after you pay. For free.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="#how-it-works">How it works</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="#">Careers</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="https://arbitrica.com/assets/privacy-policy.html" target="_blank" rel="noopener">Privacy</a>
+        <a href="https://arbitrica.com/assets/terms-of-service.html" target="_blank" rel="noopener">Terms</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Arbitrica<sup style="font-size:0.7em;color:rgba(255,255,255,0.85);">TM</sup> All rights reserved.</p>
     </div>
   </div>
+</footer>
 
-  <!-- Queue-number success modal -->
-  <div class="queue-modal-overlay" id="queueModalOverlay" role="dialog" aria-modal="true" aria-labelledby="queueModalTitle">
-    <div class="queue-modal">
-      <div class="queue-modal-emoji">🎉</div>
-      <p class="queue-modal-title" id="queueModalTitle">You're in!</p>
-      <p class="queue-modal-label">Your queue number</p>
-      <div class="queue-modal-number" id="queueModalNumber">#2000</div>
-      <p class="queue-modal-text">Stay tuned for our email with access<br>prior to the <strong>launch</strong>.</p>
-      <button type="button" class="queue-modal-close" id="queueModalClose">Got it</button>
-    </div>
+<!-- ── QUEUE MODAL ───────────────────────────────────────────────────────── -->
+<div class="queue-overlay" id="queueModalOverlay" role="dialog" aria-modal="true" aria-labelledby="queueModalTitle">
+  <div class="queue-modal">
+    <div class="queue-emoji">🎉</div>
+    <p class="queue-title" id="queueModalTitle">You're in!</p>
+    <p class="queue-label">Your queue number</p>
+    <div class="queue-number" id="queueModalNumber">#2000</div>
+    <p class="queue-text">Stay tuned for our email with access<br>prior to the <strong>launch</strong>.</p>
+    <button type="button" class="queue-close" id="queueModalClose">Got it</button>
   </div>
+</div>
 
-  <script>
-    // ── Waitlist: global config & functions (accessible from onclick) ──
-    var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwLEYW5koQGdH6tZmHqfQ9g3EYhMqkhnUI7uJSVjhlMQJVwZyiSRvncpzRypcFaKdI6/exec';
-    var QUEUE_START = 2000;
+<!--
+  ═══════════════════════════════════════════════════════════════════════════
+  REMOVED FROM LIVE PAGE — assets remain in Version B folder
+  ═══════════════════════════════════════════════════════════════════════════
 
-    function arbitricaGetQueue() {
-      try {
-        var k = 'arb_q';
-        var n = parseInt(localStorage.getItem(k), 10);
-        if (!n || n < QUEUE_START) n = QUEUE_START;
-        localStorage.setItem(k, String(n + 1));
-        return n;
-      } catch(e) { return QUEUE_START; }
+  Coming Soon badge (Images/Coming Soon.png / coming-soon-header.png / coming-soon-transparent.png):
+  <div class="header-coming-soon" aria-hidden="true">
+    <span class="coming-soon-badge">COMING SOON</span>
+  </div>
+  ═══════════════════════════════════════════════════════════════════════════
+-->
+
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1805547713128833');
+fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1805547713128833&ev=PageView&noscript=1"/></noscript>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Arbitrica","url":"https://arbitrica.com","logo":"https://arbitrica.com/Arbitrica_logo_transparent.png","description":"AI hotel price finder that searches from 200 countries to find hidden prices","address":{"@type":"PostalAddress","addressLocality":"London","addressCountry":"GB"},"contactPoint":{"@type":"ContactPoint","email":"support@arbitrica.com","contactType":"customer support"}}
+</script>
+
+<script>
+  var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwLEYW5koQGdH6tZmHqfQ9g3EYhMqkhnUI7uJSVjhlMQJVwZyiSRvncpzRypcFaKdI6/exec';
+  var QUEUE_START = 2000;
+
+  function arbitricaGetQueue() {
+    try {
+      var k = 'arb_q', n = parseInt(localStorage.getItem(k), 10);
+      if (!n || n < QUEUE_START) n = QUEUE_START;
+      localStorage.setItem(k, String(n + 1)); return n;
+    } catch(e) { return QUEUE_START; }
+  }
+  function arbitricaShowModal(num) {
+    var el = document.getElementById('queueModalNumber');
+    if (el) el.textContent = '#' + num;
+    var ov = document.getElementById('queueModalOverlay');
+    if (ov) { ov.classList.add('open'); document.body.style.overflow = 'hidden'; }
+  }
+  function arbitricaCloseModal() {
+    var ov = document.getElementById('queueModalOverlay');
+    if (ov) { ov.classList.remove('open'); document.body.style.overflow = ''; }
+  }
+  function arbitricaClaim() {
+    var emailInput = document.getElementById('waitlistEmail');
+    if (!emailInput) return;
+    var email = emailInput.value.trim();
+    if (!email || email.indexOf('@') === -1) { emailInput.focus(); return; }
+    var btn = document.getElementById('waitlistSubmitBtn');
+    if (btn) { btn.disabled = true; btn.textContent = 'Recording…'; }
+    function done(num) {
+      gtag('event','conversion',{'send_to':'AW-18057434040/DQayCPrv0JUcELinuqJD'});
+      gtag('event','generate_lead',{'event_category':'waitlist','event_label':'claim_button','value':1});
+      if (window.fbq) fbq('track','Lead',{content_name:'Arbitrica Waitlist',content_category:'Waitlist Signup',value:0.00,currency:'USD'});
+      if (btn) { btn.disabled = false; btn.textContent = 'Claim for free'; }
+      arbitricaShowModal(num);
     }
+    if (APPS_SCRIPT_URL.indexOf('PASTE_') !== -1) { done(arbitricaGetQueue()); return; }
+    fetch(APPS_SCRIPT_URL + '?email=' + encodeURIComponent(email))
+      .then(function(r) { return r.json(); })
+      .then(function(d) { done((d && d.queue_number) ? d.queue_number : arbitricaGetQueue()); })
+      .catch(function() { done(arbitricaGetQueue()); });
+  }
 
-    function arbitricaShowModal(num) {
-      var el = document.getElementById('queueModalNumber');
-      if (el) el.textContent = '#' + num;
-      var overlay = document.getElementById('queueModalOverlay');
-      if (overlay) { overlay.classList.add('open'); document.body.style.overflow = 'hidden'; }
-    }
-
-    function arbitricaCloseModal() {
-      var overlay = document.getElementById('queueModalOverlay');
-      if (overlay) { overlay.classList.remove('open'); document.body.style.overflow = ''; }
-    }
-
-    function arbitricaClaim() {
-      var emailInput = document.getElementById('waitlistEmail');
-      if (!emailInput) return;
-      var email = emailInput.value.trim();
-      if (!email || email.indexOf('@') === -1) { emailInput.focus(); return; }
-
-      var btn = document.getElementById('waitlistSubmitBtn');
-      if (btn) { btn.disabled = true; btn.textContent = 'Recording your entry…'; }
-
-      function done(num) {
-        // Fire GA4 and Google Ads conversion events
-        gtag('event', 'conversion', {'send_to': 'AW-18057434040/DQayCPrv0JUcELinuqJD'});
-        gtag('event', 'generate_lead', {'event_category': 'waitlist', 'event_label': 'claim_button', 'value': 1});
-        // Fire Meta Pixel Lead event
-        if (window.fbq) {
-          fbq('track', 'Lead', {
-            content_name: 'Arbitrica Waitlist',
-            content_category: 'Waitlist Signup',
-            value: 0.00,
-            currency: 'USD'
-          });
-        }
-        if (btn) { btn.disabled = false; btn.textContent = 'Claim your place'; }
-        arbitricaShowModal(num);
+  document.addEventListener('DOMContentLoaded', function () {
+    var playBtn = document.getElementById('heroVideoPlayBtn');
+    var video   = document.getElementById('heroVideo');
+    var overlay = document.getElementById('heroVideoOverlay');
+    if (playBtn && video && overlay) {
+      var idleTimer = null;
+      function hide() { overlay.classList.add('hidden'); }
+      function show() { overlay.classList.remove('hidden'); }
+      function clearIdle() { if (idleTimer) { clearTimeout(idleTimer); idleTimer = null; } }
+      function startIdle() {
+        clearIdle();
+        idleTimer = setTimeout(function() {
+          try { video.pause(); video.currentTime = 0; } catch(e) {}
+          show();
+        }, 5000);
       }
-
-      var backendReady = APPS_SCRIPT_URL.indexOf('PASTE_') === -1;
-
-      if (!backendReady) {
-        done(arbitricaGetQueue());
-        return;
-      }
-
-      fetch(APPS_SCRIPT_URL + '?email=' + encodeURIComponent(email))
-        .then(function(r) { return r.json(); })
-        .then(function(d) {
-          done((d && d.queue_number) ? d.queue_number : arbitricaGetQueue());
-        })
-        .catch(function() {
-          done(arbitricaGetQueue());
-        });
-    }
-
-    (function () {
-      var menuToggle = document.getElementById('menuToggle');
-      var nav = document.getElementById('nav');
-      if (menuToggle && nav) {
-        menuToggle.addEventListener('click', function () {
-          nav.classList.toggle('open');
-          document.body.style.overflow = nav.classList.contains('open') ? 'hidden' : '';
-        });
-      }
-      document.addEventListener('click', function(e) {
-        if (e.target && (e.target.id === 'queueModalClose' || e.target.id === 'queueModalOverlay')) arbitricaCloseModal();
+      playBtn.addEventListener('click', function(e) { e.stopPropagation(); video.play(); hide(); });
+      overlay.addEventListener('click', function() { video.play(); hide(); });
+      video.addEventListener('play',  function() { hide(); clearIdle(); });
+      video.addEventListener('pause', function() { startIdle(); });
+      video.addEventListener('seeking', clearIdle);
+      video.addEventListener('seeked',  function() { if (video.paused) startIdle(); });
+      video.addEventListener('ended', function() {
+        clearIdle();
+        try { video.currentTime = 0; } catch(e) {}
+        show();
       });
-      document.addEventListener('keydown', function(e) { if (e.key === 'Escape') arbitricaCloseModal(); });
-      // Size video box: top stays fixed, bottom aligns to "to find you hidden prices." line
-      function sizeVideoBox() {
-        var heroM5 = document.querySelector('.hero-left h1 .hero-m5');
-        var wrap = document.querySelector('.hero-right .testimonials-wrap');
-        if (!heroM5 || !wrap) return;
-        if (window.innerWidth < 768) { wrap.style.height = ''; return; }
-        var m5Rect = heroM5.getBoundingClientRect();
-        var wrapRect = wrap.getBoundingClientRect();
-        var newHeight = m5Rect.bottom - wrapRect.top;
-        if (newHeight > 50) wrap.style.height = newHeight + 'px';
-      }
-      requestAnimationFrame(sizeVideoBox);
-      window.addEventListener('resize', sizeVideoBox);
-
-      // Hero video box: overlay → looping inline video
-      var heroVideoPlayBtn = document.getElementById('heroVideoPlayBtn');
-      var heroVideoOverlay = document.getElementById('heroVideoOverlay');
-      var heroVideo = document.getElementById('heroVideo');
-      if (heroVideoPlayBtn && heroVideoOverlay && heroVideo) {
-        heroVideoPlayBtn.addEventListener('click', function () {
-          heroVideoOverlay.classList.add('hidden');
-          heroVideo.currentTime = 0;
-          heroVideo.play();
-        });
-      }
-      var seeItInAction = document.getElementById('seeItInAction');
-      var videoModalOverlay = document.getElementById('videoModalOverlay');
-      var videoModalClose = document.getElementById('videoModalClose');
-      var videoModalPlayer = document.getElementById('videoModalPlayer');
-      if (seeItInAction && videoModalOverlay && videoModalPlayer) {
-        function openVideoModal() {
-          videoModalOverlay.classList.add('open');
-          document.body.style.overflow = 'hidden';
-          videoModalPlayer.currentTime = 0;
-          videoModalPlayer.play();
-        }
-        function closeVideoModal() {
-          videoModalOverlay.classList.remove('open');
-          document.body.style.overflow = '';
-          videoModalPlayer.pause();
-        }
-        seeItInAction.addEventListener('click', openVideoModal);
-        seeItInAction.addEventListener('keydown', function (e) {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            openVideoModal();
-          }
-        });
-        if (videoModalClose) videoModalClose.addEventListener('click', closeVideoModal);
-        videoModalOverlay.addEventListener('click', function (e) {
-          if (e.target === videoModalOverlay) closeVideoModal();
-        });
-      }
-      document.querySelectorAll('a[href^="#"]').forEach(function (a) {
-        var id = a.getAttribute('href');
-        if (id && id !== '#') {
-          a.addEventListener('click', function (e) {
-            var el = document.querySelector(id);
-            if (el) {
-              e.preventDefault();
-              el.scrollIntoView({ behavior: 'smooth' });
-              if (nav && nav.classList.contains('open')) {
-                nav.classList.remove('open');
-                document.body.style.overflow = '';
-              }
-            }
-          });
-        }
-      });
-    })();
-  </script>
+    }
+    document.addEventListener('click', function(e) {
+      if (e.target && (e.target.id === 'queueModalClose' || e.target.id === 'queueModalOverlay')) arbitricaCloseModal();
+    });
+    document.addEventListener('keydown', function(e) { if (e.key === 'Escape') arbitricaCloseModal(); });
+  });
+</script>
 </body>
 </html>
