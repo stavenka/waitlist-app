@@ -48,7 +48,7 @@
     .header-right { display: flex; align-items: center; justify-content: flex-end; }
     .logo-link { display: flex; align-items: center; }
     .logo-link img { height: 150px; width: auto; display: block; }
-    .ai-sign { height: 31px; width: auto; }
+    .ai-sign { height: 31px; width: auto; max-width: none; object-fit: contain; }
     .nav-about-btn { display: inline-flex; align-items: center; padding: 0.45rem 1.1rem; background: var(--fg); color: hsl(225 100% 96%); font-family: var(--font-body); font-size: 0.875rem; font-weight: 600; border-radius: var(--radius-sm); letter-spacing: -0.01em; transition: opacity 0.18s ease; white-space: nowrap; }
     .nav-about-btn:hover { opacity: 0.82; }
 
@@ -100,7 +100,7 @@
     .footer-grid { display: grid; grid-template-columns: 2fr repeat(3, 1fr); gap: 2.5rem; margin-bottom: 2.5rem; }
     .footer-brand { font-family: var(--font-display); font-size: 1.375rem; font-weight: 700; background: var(--grad-primary); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.75rem; }
     .footer-brand-desc { font-size: 0.95rem; line-height: 1.55; color: rgba(255,255,255,0.72); max-width: 320px; }
-    .footer-col h4 { font-family: var(--font-display); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: rgba(255,255,255,0.92); margin-bottom: 1rem; }
+    .footer-col h3 { font-family: var(--font-display); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: rgba(255,255,255,0.92); margin-bottom: 1rem; }
     .footer-col a { display: block; font-size: 0.95rem; color: rgba(255,255,255,0.85); margin-bottom: 0.5rem; transition: color 0.18s; }
     .footer-col a:hover { color: var(--primary); }
     .footer-bottom { padding-top: 1.75rem; border-top: 1px solid rgba(255,255,255,0.12); display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
@@ -125,7 +125,7 @@
       .header-inner { grid-template-columns: auto 1fr auto; padding: 0.4rem 1rem; }
       .header-center { gap: 0.4rem; justify-content: flex-start; padding-left: 0.5rem; }
       .logo-link img { height: 70px; }
-      .ai-sign { height: 22px; }
+      .ai-sign { height: auto; width: clamp(70px, 14vw, 110px); }
       .page-top { padding-top: 0.5rem; padding-bottom: 1rem; }
       .section { padding: 2.5rem 0; }
       .leader-card { padding: 1.25rem; }
@@ -177,7 +177,7 @@
             <div class="leader-photo">
               <picture>
                 <source srcset="Images/Photo10.webp" type="image/webp">
-                <img src="Images/Photo10.png" alt="Art Stavenka, co-founder and CEO of Arbitrica" class="leader-photo-zoom" width="1035" height="690" loading="lazy" decoding="async">
+                <img src="Images/Photo10.png" alt="Art Stavenka, co-founder and CEO of Arbitrica" class="leader-photo-zoom" width="480" height="320" loading="lazy" decoding="async">
               </picture>
             </div>
             <div class="leader-info">
@@ -194,7 +194,7 @@
             <div class="leader-photo">
               <picture>
                 <source srcset="Images/Andres photo.webp" type="image/webp">
-                <img src="Images/Andres photo.jpeg" alt="Andrés Pérez Torres, co-founder and CTO of Arbitrica" width="800" height="800" loading="lazy" decoding="async">
+                <img src="Images/Andres photo.jpeg" alt="Andrés Pérez Torres, co-founder and CTO of Arbitrica" width="480" height="480" loading="lazy" decoding="async">
               </picture>
             </div>
             <div class="leader-info">
@@ -223,7 +223,7 @@
           <div class="mission-image-wrap">
             <picture>
               <source srcset="Images/Photo9.webp" type="image/webp">
-              <img src="Images/Photo9.png" alt="The Arbitrica team at work" width="1320" height="740" loading="lazy" decoding="async">
+              <img src="Images/Photo9.png" alt="The Arbitrica team at work" width="900" height="504" fetchpriority="high" decoding="async">
             </picture>
           </div>
         </div>
@@ -242,7 +242,7 @@
           <div class="careers-image-wrap">
             <picture>
               <source srcset="Images/Photo7.webp" type="image/webp">
-              <img src="Images/Photo7.png" alt="Arbitrica team members collaborating" width="2014" height="1180" loading="lazy" decoding="async">
+              <img src="Images/Photo7.png" alt="Arbitrica team members collaborating" width="900" height="527" loading="lazy" decoding="async">
             </picture>
           </div>
         </div>
@@ -258,16 +258,16 @@
           <p class="footer-brand-desc">The new AI that finds hidden prices and earns you money after you pay. For free.</p>
         </div>
         <div class="footer-col">
-          <h4>Product</h4>
+          <h3>Product</h3>
           <a href="index.html#how-it-works">How it works</a>
         </div>
         <div class="footer-col">
-          <h4>Company</h4>
+          <h3>Company</h3>
           <a href="about.html">About</a>
           <a href="about.html#careers">Careers</a>
         </div>
         <div class="footer-col">
-          <h4>Legal</h4>
+          <h3>Legal</h3>
           <a href="https://arbitrica.com/assets/privacy-policy.html" target="_blank" rel="noopener">Privacy</a>
           <a href="https://arbitrica.com/assets/terms-of-service.html" target="_blank" rel="noopener">Terms</a>
         </div>

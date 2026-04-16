@@ -121,7 +121,7 @@
     .logo-link img { height: 150px; width: auto; display: block; }
 
     /* #2: AI signs in centre */
-    .ai-sign { height: 31px; width: auto; }
+    .ai-sign { height: 31px; width: auto; max-width: none; object-fit: contain; }
 
     .nav-about-btn {
       display: inline-flex;
@@ -420,7 +420,7 @@
       margin-bottom: 0.75rem;
     }
     .footer-brand-desc { font-size: 0.95rem; line-height: 1.55; color: rgba(255,255,255,0.72); max-width: 320px; }
-    .footer-col h4 {
+    .footer-col h3 {
       font-family: var(--font-display); font-size: 0.8rem; font-weight: 600;
       text-transform: uppercase; letter-spacing: 0.06em;
       color: rgba(255,255,255,0.92); margin-bottom: 1rem;
@@ -487,7 +487,7 @@
       .header-inner { grid-template-columns: auto 1fr auto; padding: 0.4rem 0.85rem; }
       .header-center { gap: 0.35rem; justify-content: center; padding-right: 1.375rem; }
       .logo-link img { height: 70px; }
-      .ai-sign { height: 22px; }
+      .ai-sign { height: auto; width: clamp(70px, 14vw, 110px); }
       .hero { padding: 0.5rem 0 2.5rem; }
       .container { padding: 0 1.25rem; }
       .hero-h1 { font-size: 2rem; line-height: 1.15; }
@@ -677,16 +677,16 @@
         <p class="footer-brand-desc">The new AI that finds hidden prices and earns you money after you pay. For free.</p>
       </div>
       <div class="footer-col">
-        <h4>Product</h4>
+        <h3>Product</h3>
         <a href="#how-it-works">How it works</a>
       </div>
       <div class="footer-col">
-        <h4>Company</h4>
+        <h3>Company</h3>
         <a href="about.html">About</a>
         <a href="about.html#careers">Careers</a>
       </div>
       <div class="footer-col">
-        <h4>Legal</h4>
+        <h3>Legal</h3>
         <a href="https://arbitrica.com/assets/privacy-policy.html" target="_blank" rel="noopener">Privacy</a>
         <a href="https://arbitrica.com/assets/terms-of-service.html" target="_blank" rel="noopener">Terms</a>
       </div>
