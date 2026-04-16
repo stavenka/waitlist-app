@@ -49,7 +49,8 @@ app.use((req, res, next) => {
 // ── Cache control: no-cache for HTML, long-cache for assets ──
 app.use((req, res, next) => {
   if (req.path === '/' || /\.html?$/i.test(req.path)) {
-    res.set('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0');
+    // Allow bf-cache: omit no-store; must-revalidate forces freshness check on every navigation.
+    res.set('Cache-Control', 'public, max-age=0, must-revalidate');
   } else if (/\.(png|jpg|jpeg|gif|webp|svg|ico|mp4|webm|woff2?|ttf|otf)$/i.test(req.path)) {
     res.set('Cache-Control', 'public, max-age=31536000, immutable');
   } else if (/\.(css|js)$/i.test(req.path)) {

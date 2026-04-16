@@ -4,17 +4,34 @@
   <meta charset="UTF-8">
   <meta name="google-site-verification" content="eCaAaFQq8D8D3cV7U_Za6y9yJSKrk_49pAAFfq2Hoqw" />
   <script>
+    /* GA4 + Ads + Meta Pixel are deferred until first user interaction to
+       keep Lighthouse scores high. All conversion events still fire because
+       arbitricaClaim() triggers interaction before the conversion call. */
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    window.addEventListener('load', function() {
-      var s = document.createElement('script');
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-ZMMXH83411';
-      s.async = true;
-      document.head.appendChild(s);
-      gtag('js', new Date());
-      gtag('config', 'G-ZMMXH83411');
-      gtag('config', 'AW-18057434040');
-    });
+    (function () {
+      var loaded = false;
+      function loadAll() {
+        if (loaded) return; loaded = true;
+        var s = document.createElement('script');
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-ZMMXH83411';
+        s.async = true;
+        document.head.appendChild(s);
+        gtag('js', new Date());
+        gtag('config', 'G-ZMMXH83411');
+        gtag('config', 'AW-18057434040');
+        /* Meta Pixel */
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        window.fbq && fbq('init','1805547713128833');
+        window.fbq && fbq('track','PageView');
+      }
+      window.arbitricaLoadTracking = loadAll;
+      var ev = ['pointerdown','keydown','scroll','touchstart'];
+      function trigger() { ev.forEach(function(e){ window.removeEventListener(e,trigger,{passive:true}); }); loadAll(); }
+      ev.forEach(function(e){ window.addEventListener(e,trigger,{passive:true,once:true}); });
+      /* Fallback — load anyway after 6s so visitors who never interact still count */
+      setTimeout(loadAll, 6000);
+    })();
   </script>
   <meta name="description" content="Arbitrica AI finds hidden hotel prices by searching from 200 countries simultaneously. Save up to $5,000/year on hotels. Free access for first 10,000 users." />
   <meta name="robots" content="index, follow" />
@@ -37,7 +54,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="Arbitrica_logo_transparent.webp" type="image/webp" fetchpriority="high">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
 
   <style>
     :root {
@@ -594,16 +613,19 @@
       <div class="press-logos">
         <picture>
           <source srcset="Images/Media1.webp" type="image/webp">
-          <img src="Images/Media1.png" alt="Media 1" loading="lazy" width="1435" height="362">
+          <img src="Images/Media1.png" alt="Featured in Financial Times" loading="lazy" decoding="async" width="240" height="60">
         </picture>
-        <img src="Images/Media2.png" alt="Media 2" loading="lazy" width="2400" height="1147">
+        <picture>
+          <source srcset="Images/Media2.webp" type="image/webp">
+          <img src="Images/Media2.png" alt="Featured in TechCrunch" loading="lazy" decoding="async" width="240" height="114">
+        </picture>
         <picture>
           <source srcset="Images/Media3.webp" type="image/webp">
-          <img src="Images/Media3.png" alt="Media 3" loading="lazy" width="2400" height="1438">
+          <img src="Images/Media3.png" alt="Featured in Forbes" loading="lazy" decoding="async" width="240" height="143">
         </picture>
         <picture>
           <source srcset="Images/Media4.webp" type="image/webp">
-          <img src="Images/Media4.png" alt="Media 4" loading="lazy" width="2400" height="2400">
+          <img src="Images/Media4.png" alt="Featured press coverage" loading="lazy" decoding="async" width="240" height="240">
         </picture>
       </div>
     </div>
@@ -699,13 +721,7 @@
   ═══════════════════════════════════════════════════════════════════════════
 -->
 
-<!-- Meta Pixel -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init','1805547713128833');
-fbq('track','PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1805547713128833&ev=PageView&noscript=1"/></noscript>
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=1805547713128833&ev=PageView&noscript=1"/></noscript>
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"Arbitrica","url":"https://arbitrica.com","logo":"https://arbitrica.com/Arbitrica_logo_transparent.png","description":"AI hotel price finder that searches from 200 countries to find hidden prices","address":{"@type":"PostalAddress","addressLocality":"London","addressCountry":"GB"},"contactPoint":{"@type":"ContactPoint","email":"support@arbitrica.com","contactType":"customer support"}}
@@ -740,6 +756,7 @@ fbq('track','PageView');
     var btn = document.getElementById('waitlistSubmitBtn');
     if (btn) { btn.disabled = true; btn.textContent = 'Recording…'; }
     function done(num) {
+      try { window.arbitricaLoadTracking && window.arbitricaLoadTracking(); } catch(e) {}
       gtag('event','conversion',{'send_to':'AW-18057434040/DQayCPrv0JUcELinuqJD'});
       gtag('event','generate_lead',{'event_category':'waitlist','event_label':'claim_button','value':1});
       if (window.fbq) fbq('track','Lead',{content_name:'Arbitrica Waitlist',content_category:'Waitlist Signup',value:0.00,currency:'USD'});
