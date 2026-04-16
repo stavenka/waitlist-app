@@ -30,7 +30,7 @@
       function trigger() { ev.forEach(function(e){ window.removeEventListener(e,trigger,{passive:true}); }); loadAll(); }
       ev.forEach(function(e){ window.addEventListener(e,trigger,{passive:true,once:true}); });
       /* Fallback — load anyway after 6s so visitors who never interact still count */
-      setTimeout(loadAll, 6000);
+      setTimeout(loadAll, 15000);
     })();
   </script>
   <meta name="description" content="Arbitrica AI finds hidden hotel prices by searching from 200 countries simultaneously. Save up to $5,000/year on hotels. Free access for first 10,000 users." />
