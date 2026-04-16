@@ -52,14 +52,26 @@
     .nav-about-btn { display: inline-flex; align-items: center; padding: 0.45rem 1.1rem; background: var(--fg); color: hsl(225 100% 96%); font-family: var(--font-body); font-size: 0.875rem; font-weight: 600; border-radius: var(--radius-sm); letter-spacing: -0.01em; transition: opacity 0.18s ease; white-space: nowrap; }
     .nav-about-btn:hover { opacity: 0.82; }
 
-    /* PAGE TOP */
-    .page-top { background: var(--grad-hero-bg); padding-top: 1rem; padding-bottom: 1.5rem; }
-    .page-title { font-family: var(--font-display); font-weight: 700; font-size: clamp(2rem, 4vw, 3rem); letter-spacing: -0.02em; line-height: 1.15; max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+    /* PAGE */
     .grad-text { background: var(--grad-primary); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
     main { padding-bottom: 4rem; }
     .section { padding: 4rem 0; }
     main > .section:first-child { padding-top: 3rem; }
     .section-heading { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.75rem, 3vw, 2.25rem); letter-spacing: -0.015em; line-height: 1.2; margin-bottom: 2.5rem; text-align: center; }
+
+    /* SECTION CONTENT — consistent prose blocks */
+    .section-prose { max-width: 760px; margin: 0 auto; }
+    .section-prose p { font-size: 1.02rem; line-height: 1.7; color: var(--muted); margin-bottom: 1rem; }
+    .section-prose p:last-child { margin-bottom: 0; }
+
+    /* MISSION CARD (used in "What we do" section) */
+    .mission-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-md); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; max-width: 1000px; margin: 0 auto; }
+    .mission-text { padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; }
+    .mission-text h3 { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.5rem, 2.5vw, 2rem); letter-spacing: -0.015em; line-height: 1.2; margin-bottom: 1rem; }
+    .mission-text p { font-size: 1rem; color: var(--muted); line-height: 1.65; margin-bottom: 0.75rem; }
+    .mission-text p.mission-main { color: var(--fg); font-weight: 500; }
+    .mission-image-wrap { min-height: 300px; }
+    .mission-image-wrap img { width: 100%; height: 100%; display: block; object-fit: cover; }
 
     /* LEADERSHIP */
     .leaders-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem; }
@@ -74,15 +86,6 @@
     .leader-linkedin { color: var(--muted); display: inline-flex; transition: color 0.18s; }
     .leader-linkedin:hover { color: var(--primary); }
     .leader-bio { font-size: 0.95rem; color: var(--muted); line-height: 1.6; }
-
-    /* MISSION */
-    .mission-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-md); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; max-width: 1000px; margin: 0 auto; }
-    .mission-text { padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; }
-    .mission-text h3 { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.5rem, 2.5vw, 2rem); letter-spacing: -0.015em; line-height: 1.2; margin-bottom: 1rem; }
-    .mission-text p { font-size: 1rem; color: var(--muted); line-height: 1.65; margin-bottom: 0.75rem; }
-    .mission-text p.mission-main { color: var(--fg); font-weight: 500; }
-    .mission-image-wrap { min-height: 300px; }
-    .mission-image-wrap img { width: 100%; height: 100%; display: block; object-fit: cover; }
 
     /* CAREERS */
     .careers-block { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; max-width: 1100px; margin: 0 auto; }
@@ -121,12 +124,10 @@
     }
     @media (max-width: 640px) {
       .container { padding-left: 1rem; padding-right: 1rem; }
-      .page-title { padding: 0 1rem; }
       .header-inner { grid-template-columns: auto 1fr auto; padding: 0.4rem 1rem; }
       .header-center { gap: 0.4rem; justify-content: flex-start; padding-left: 0.5rem; }
       .logo-link img { height: 70px; }
       .ai-sign { height: auto; width: clamp(70px, 14vw, 110px); }
-      .page-top { padding-top: 0.5rem; padding-bottom: 1rem; }
       .section { padding: 2.5rem 0; }
       .leader-card { padding: 1.25rem; }
       .leader-photo { width: 160px; min-width: 160px; }
@@ -167,18 +168,14 @@
     </div>
   </header>
 
-
-  <div class="page-top">
-    <h1 class="page-title">About <span class="grad-text">Arbitrica</span></h1>
-  </div>
-
   <main>
+    <!-- SECTION 1: What we do at Arbitrica -->
     <section class="section">
       <div class="container">
-        <h2 class="section-heading">Our <span class="grad-text">mission</span></h2>
+        <h1 class="section-heading">What we do <span class="grad-text">at Arbitrica</span></h1>
         <div class="mission-card">
           <div class="mission-text">
-            <h3>What we do <span class="grad-text">at Arbitrica</span></h3>
+            <h3>AI that earns you <span class="grad-text">money back</span></h3>
             <p class="mission-main">We're the team behind the new AI that spots your every checkout and purchase email confirmations. Then it hunts better prices across all markets for you &amp; re-purchases when prices drop.</p>
             <p>It does all the job from finding hidden rates to preparing the bookings. People just review &amp; enjoy the money recovered.</p>
           </div>
@@ -189,20 +186,10 @@
             </picture>
           </div>
         </div>
-        <div style="max-width:760px;margin:2.5rem auto 0;font-size:1.02rem;line-height:1.7;color:var(--muted);">
-          <h3 style="font-family:var(--font-display);font-size:1.25rem;font-weight:700;color:var(--fg);margin-bottom:1rem;">The problem we solve</h3>
-          <p style="margin-bottom:1rem;">The same hotel room costs different amounts depending on which country you book from. A room listed at $300 in the US can appear at $180 when browsed from Poland, $210 from Japan, or $195 from Brazil. This is geographic price discrimination, and it affects every major booking platform.</p>
-          <p style="margin-bottom:1rem;">Until now, the only way to exploit these differences was to manually connect to VPNs one country at a time, clear cookies, switch currencies, and compare results. It works, but it takes hours and most people give up after checking two or three countries. Arbitrica eliminates that entire process.</p>
-          <h3 style="font-family:var(--font-display);font-size:1.25rem;font-weight:700;color:var(--fg);margin:2rem 0 1rem;">How we do it</h3>
-          <p style="margin-bottom:1rem;">Our AI searches from 200 countries simultaneously. When you reach a checkout page, Arbitrica detects it and runs a global price scan in the background. If a lower price exists anywhere, it prepares the entire booking for you. You review the savings and decide whether to proceed.</p>
-          <p style="margin-bottom:1rem;">After you book, Arbitrica keeps working. It monitors your reservation daily, scanning for price drops across all 200 countries. When rates fall, it alerts you and prepares a rebooking at the better price. The average user saves between $500 and $5,000 per year depending on how frequently they travel.</p>
-          <h3 style="font-family:var(--font-display);font-size:1.25rem;font-weight:700;color:var(--fg);margin:2rem 0 1rem;">Where we're headed</h3>
-          <p style="margin-bottom:1rem;">We started with international hotel bookings because the price gaps are largest there. But geographic price arbitrage applies to far more than hotels. Subscriptions, online courses, e-commerce, insurance, and dozens of other categories show the same pattern of location-based pricing. Arbitrica is building the autonomous layer that finds the real lowest price for everything you buy.</p>
-          <p>Our patented technology handles the entire lifecycle: detection, global search, validation, and transaction execution. People deserve the absolute lowest price that exists for everything they buy. Automatically.</p>
-        </div>
       </div>
     </section>
 
+    <!-- SECTION 2: Leadership team -->
     <section class="section">
       <div class="container">
         <h2 class="section-heading">Leadership <span class="grad-text">team</span></h2>
@@ -245,6 +232,40 @@
       </div>
     </section>
 
+    <!-- SECTION 3: The problem we solve -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-heading">The problem <span class="grad-text">we solve</span></h2>
+        <div class="section-prose">
+          <p>The same hotel room costs different amounts depending on which country you book from. A room listed at $300 in the US can appear at $180 when browsed from Poland, $210 from Japan, or $195 from Brazil. This is geographic price discrimination, and it affects every major booking platform.</p>
+          <p>Until now, the only way to exploit these differences was to manually connect to VPNs one country at a time, clear cookies, switch currencies, and compare results. It works, but it takes hours and most people give up after checking two or three countries. Arbitrica eliminates that entire process.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: How we do it -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-heading">How <span class="grad-text">we do it</span></h2>
+        <div class="section-prose">
+          <p>Our AI searches from 200 countries simultaneously. When you reach a checkout page, Arbitrica detects it and runs a global price scan in the background. If a lower price exists anywhere, it prepares the entire booking for you. You review the savings and decide whether to proceed.</p>
+          <p>After you book, Arbitrica keeps working. It monitors your reservation daily, scanning for price drops across all 200 countries. When rates fall, it alerts you and prepares a rebooking at the better price. The average user saves between $500 and $5,000 per year depending on how frequently they travel.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: Our mission -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-heading">Our <span class="grad-text">mission</span></h2>
+        <div class="section-prose">
+          <p>We started with international hotel bookings because the price gaps are largest there. But geographic price arbitrage applies to far more than hotels. Subscriptions, online courses, e-commerce, insurance, and dozens of other categories show the same pattern of location-based pricing. Arbitrica is building the autonomous layer that finds the real lowest price for everything you buy.</p>
+          <p>Our patented technology handles the entire lifecycle: detection, global search, validation, and transaction execution. People deserve the absolute lowest price that exists for everything they buy. Automatically.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: Careers -->
     <section class="section">
       <div class="container">
         <div class="careers-block">
