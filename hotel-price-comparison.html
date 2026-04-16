@@ -45,13 +45,14 @@ img { max-width: 100%; height: auto; display: block; }
 
 .header { background: hsla(0 0% 100% / 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
 .header-inner { max-width: 1200px; margin: 0 auto; padding: 0.75rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
-.header-left .logo-link img { height: 38px; width: auto; }
+.header-left .logo-link img { height: 150px; width: auto; }
 .header-center { display: flex; gap: 1rem; align-items: center; }
 .ai-sign { height: 28px; width: auto; }
 .header-right .nav-about-btn { font-family: var(--font-display); font-weight: 600; font-size: 0.95rem; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius: 10px; transition: background 0.15s; }
 .header-right .nav-about-btn:hover { background: hsl(240 20% 96%); }
 @media (max-width: 768px) {
   .header-center { display: none; }
+      .header-left .logo-link img { height: 110px; }
 }
 
 .footer { background: var(--fg); color: hsl(0 0% 85%); padding: 3.5rem 0 1.5rem; margin-top: 4rem; }
@@ -183,7 +184,9 @@ img { max-width: 100%; height: auto; display: block; }
         <h3>Product</h3>
         <a href="/index.html#how-it-works">How it works</a>
         <a href="/hotel-price-tracker.html">Price tracker</a>
-        <a href="/pricing.html">Pricing</a>
+              <a href="/how-it-works.html">How it works (detail)</a>
+              <a href="/faq.html">FAQ</a>
+        
       </div>
       <div class="footer-col">
         <h3>Company</h3>
