@@ -59,10 +59,10 @@
     main > .section:first-child { padding-top: 3rem; }
     .section-heading { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.75rem, 3vw, 2.25rem); letter-spacing: -0.015em; line-height: 1.2; margin-bottom: 2.5rem; text-align: center; }
 
-    /* SECTION CONTENT — consistent prose blocks */
-    .section-prose { max-width: 760px; margin: 0 auto; }
-    .section-prose p { font-size: 1.02rem; line-height: 1.7; color: var(--muted); margin-bottom: 1rem; }
-    .section-prose p:last-child { margin-bottom: 0; }
+    /* CONTENT CARD — consistent box style for all content sections */
+    .content-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-md); padding: 2.5rem; max-width: 760px; margin: 0 auto; }
+    .content-card p { font-size: 1.02rem; line-height: 1.7; color: var(--muted); margin-bottom: 1rem; }
+    .content-card p:last-child { margin-bottom: 0; }
 
     /* MISSION CARD (used in "What we do" section) */
     .mission-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-md); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; max-width: 1000px; margin: 0 auto; }
@@ -175,7 +175,7 @@
         <h1 class="section-heading">What we do <span class="grad-text">at Arbitrica</span></h1>
         <div class="mission-card">
           <div class="mission-text">
-            <h3>AI that earns you <span class="grad-text">money back</span></h3>
+            <h3>AI that earns you <span class="grad-text">money</span></h3>
             <p class="mission-main">We're the team behind the new AI that spots your every checkout and purchase email confirmations. Then it hunts better prices across all markets for you &amp; re-purchases when prices drop.</p>
             <p>It does all the job from finding hidden rates to preparing the bookings. People just review &amp; enjoy the money recovered.</p>
           </div>
@@ -236,7 +236,7 @@
     <section class="section">
       <div class="container">
         <h2 class="section-heading">The problem <span class="grad-text">we solve</span></h2>
-        <div class="section-prose">
+        <div class="content-card">
           <p>The same hotel room costs different amounts depending on which country you book from. A room listed at $300 in the US can appear at $180 when browsed from Poland, $210 from Japan, or $195 from Brazil. This is geographic price discrimination, and it affects every major booking platform.</p>
           <p>Until now, the only way to exploit these differences was to manually connect to VPNs one country at a time, clear cookies, switch currencies, and compare results. It works, but it takes hours and most people give up after checking two or three countries. Arbitrica eliminates that entire process.</p>
         </div>
@@ -247,7 +247,7 @@
     <section class="section">
       <div class="container">
         <h2 class="section-heading">How <span class="grad-text">we do it</span></h2>
-        <div class="section-prose">
+        <div class="content-card">
           <p>Our AI searches from 200 countries simultaneously. When you reach a checkout page, Arbitrica detects it and runs a global price scan in the background. If a lower price exists anywhere, it prepares the entire booking for you. You review the savings and decide whether to proceed.</p>
           <p>After you book, Arbitrica keeps working. It monitors your reservation daily, scanning for price drops across all 200 countries. When rates fall, it alerts you and prepares a rebooking at the better price. The average user saves between $500 and $5,000 per year depending on how frequently they travel.</p>
         </div>
@@ -258,7 +258,7 @@
     <section class="section">
       <div class="container">
         <h2 class="section-heading">Our <span class="grad-text">mission</span></h2>
-        <div class="section-prose">
+        <div class="content-card">
           <p>We started with international hotel bookings because the price gaps are largest there. But geographic price arbitrage applies to far more than hotels. Subscriptions, online courses, e-commerce, insurance, and dozens of other categories show the same pattern of location-based pricing. Arbitrica is building the autonomous layer that finds the real lowest price for everything you buy.</p>
           <p>Our patented technology handles the entire lifecycle: detection, global search, validation, and transaction execution. People deserve the absolute lowest price that exists for everything they buy. Automatically.</p>
         </div>
