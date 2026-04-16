@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How Hotel Dynamic Pricing Works | Arbitrica Blog</title>
+    <meta name="description" content="Inside look at hotel dynamic pricing: yield management, demand-based adjustments, OTA commissions, and geographic pricing. Learn how prices are set and how to beat the system.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://arbitrica.com/blog/how-hotel-dynamic-pricing-works.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="How Hotel Dynamic Pricing Works | Arbitrica Blog">
+    <meta property="og:description" content="Inside look at hotel dynamic pricing: yield management, demand-based adjustments, OTA commissions, and geographic pricing. Learn how prices are set and how to beat the system.">
+    <meta property="og:url" content="https://arbitrica.com/blog/how-hotel-dynamic-pricing-works.html">
+    <meta property="og:site_name" content="Arbitrica">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How Hotel Dynamic Pricing Works | Arbitrica Blog">
+    <meta name="twitter:description" content="Inside look at hotel dynamic pricing: yield management, demand-based adjustments, OTA commissions, and geographic pricing. Learn how prices are set and how to beat the system.">    <link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/spacegrotesk-700.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How Hotel Dynamic Pricing Works", "description": "Inside look at hotel dynamic pricing: yield management, demand-based adjustments, OTA commissions, and geographic pricing. Learn how prices are set and how to beat the system.", "author": {"@type": "Organization", "name": "Arbitrica"}, "publisher": {"@type": "Organization", "name": "Arbitrica"}, "datePublished": "2026-03-15", "url": "https://arbitrica.com/blog/how-hotel-dynamic-pricing-works.html"}</script>
+    <style>
+@font-face { font-family: 'Inter'; src: url('/fonts/inter-var.woff2') format('woff2'); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: 'Space Grotesk'; src: url('/fonts/spacegrotesk-700.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+
+:root {
+  --bg: hsl(220 30% 97%); --fg: hsl(0 0% 9%); --muted: hsl(0 0% 38%);
+  --border: hsl(0 0% 83%); --primary: hsl(243 75% 58%); --card-bg: hsl(0 0% 100%);
+  --radius: 1.25rem; --radius-sm: 0.75rem;
+  --grad-primary: linear-gradient(135deg, hsl(320 80% 55%), hsl(280 70% 50%));
+  --grad-hero-bg: linear-gradient(180deg, hsl(260 50% 94%) 0%, hsl(240 35% 96%) 45%, hsl(220 30% 97%) 100%);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 24px rgba(0,0,0,0.09), 0 2px 8px rgba(0,0,0,0.05);
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-body); background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.grad-text { background: var(--grad-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.page-top { padding: 4rem 0 2rem; text-align: center; background: var(--grad-hero-bg); }
+.page-title { font-family: var(--font-display); font-size: 2.5rem; font-weight: 700; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+.page-subtitle { font-size: 1.15rem; color: var(--muted); max-width: 640px; margin: 0 auto; }
+.section-heading { font-family: var(--font-display); font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; margin: 3rem 0 1.25rem; text-align: center; }
+
+.header { background: hsla(0 0% 100% / 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+.header-inner { max-width: 1200px; margin: 0 auto; padding: 0.75rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+.header-left .logo-link img { height: 38px; width: auto; }
+.header-center { display: flex; gap: 1rem; align-items: center; }
+.ai-sign { height: 28px; width: auto; }
+.header-right .nav-about-btn { font-family: var(--font-display); font-weight: 600; font-size: 0.95rem; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius: 10px; transition: background 0.15s; }
+.header-right .nav-about-btn:hover { background: hsl(240 20% 96%); }
+@media (max-width: 768px) {
+  .header-center { display: none; }
+}
+
+.footer { background: var(--fg); color: hsl(0 0% 85%); padding: 3.5rem 0 1.5rem; margin-top: 4rem; }
+.footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2rem; margin-bottom: 2.5rem; }
+.footer-brand { font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; color: #fff; margin-bottom: 0.5rem; }
+.footer-brand-desc { font-size: 0.9rem; line-height: 1.6; color: hsl(0 0% 65%); }
+.footer-col h3 { font-family: var(--font-display); font-size: 0.85rem; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+.footer-col a { display: block; font-size: 0.9rem; color: hsl(0 0% 65%); padding: 0.25rem 0; transition: color 0.15s; }
+.footer-col a:hover { color: #fff; }
+.footer-bottom { border-top: 1px solid hsl(0 0% 22%); padding-top: 1.25rem; text-align: center; font-size: 0.8rem; color: hsl(0 0% 50%); }
+@media (max-width: 768px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .footer-grid { grid-template-columns: 1fr; }
+}
+
+.article-content { max-width: 760px; margin: 0 auto; }
+.article-content p { font-size: 1.05rem; line-height: 1.75; color: var(--muted); margin-bottom: 1.25rem; }
+.article-content h2 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--fg); margin: 2.5rem 0 1rem; letter-spacing: -0.02em; }
+.article-content h3 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; color: var(--fg); margin: 2rem 0 0.75rem; }
+.article-content ul, .article-content ol { margin: 0 0 1.25rem 1.5rem; color: var(--muted); }
+.article-content li { margin-bottom: 0.5rem; line-height: 1.65; }
+.article-content a { color: var(--primary); text-decoration: underline; }
+.article-meta { font-size: 0.875rem; color: var(--muted); margin-bottom: 2rem; }
+.cta-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; text-align: center; margin: 3rem 0; }
+.cta-box h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; margin-bottom: 0.5rem; }
+.cta-box p { color: var(--muted); margin-bottom: 1rem; }
+.cta-box .btn-cta { display: inline-flex; padding: 0.75rem 1.5rem; background: linear-gradient(to right, hsl(243 75% 56%), hsl(243 75% 44%)); color: white; border-radius: 10px; font-weight: 600; font-size: 0.95rem; box-shadow: 0 4px 16px rgba(76,68,228,0.28); transition: opacity 0.18s; }
+.cta-box .btn-cta:hover { opacity: 0.9; text-decoration: none; }
+.comparison-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+.comparison-table th, .comparison-table td { padding: 0.75rem 1rem; border: 1px solid var(--border); text-align: left; font-size: 0.95rem; }
+.comparison-table th { background: hsl(240 20% 96%); font-weight: 600; font-family: var(--font-display); }
+.comparison-table td { color: var(--muted); }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+.feature-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 1.5rem; }
+.feature-card h3 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; }
+.feature-card p { font-size: 0.95rem; color: var(--muted); line-height: 1.6; }
+@media (max-width: 640px) {
+  .comparison-table { font-size: 0.85rem; }
+  .comparison-table th, .comparison-table td { padding: 0.5rem; }
+}
+
+
+    </style>
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="/index.html" class="logo-link">
+        <picture>
+          <source srcset="/Arbitrica_logo_transparent.webp" type="image/webp">
+          <img src="/Arbitrica_logo_transparent.png" alt="Arbitrica" width="484" height="384">
+        </picture>
+      </a>
+    </div>
+    <div class="header-center">
+      <picture>
+        <source srcset="/AI-2.webp?v=r20260416" type="image/webp">
+        <img src="/AI-2.png?v=r20260416" alt="Idea of the Year 2025 AI award" class="ai-sign" width="260" height="42" loading="lazy" decoding="async">
+      </picture>
+      <picture>
+        <source srcset="/AI.webp?v=r20260416" type="image/webp">
+        <img src="/AI.png?v=r20260416" alt="Future of AI 2025 award" class="ai-sign" width="260" height="42" loading="lazy" decoding="async">
+      </picture>
+    </div>
+    <div class="header-right">
+      <a href="/about.html" class="nav-about-btn">About</a>
+    </div>
+  </div>
+</header>
+<div class="page-top">
+  <div class="container">
+    <h1 class="page-title">How Hotel Dynamic Pricing Works</h1>
+  </div>
+</div>
+
+<div class="container">
+  <article class="article-content">
+    <p class="article-meta">March 22, 2026 &middot; Arbitrica Team</p>
+    <p>Every time you search for a hotel room, the price you see is the output of a complex algorithm that weighs dozens of variables in real time. Understanding how this system works gives you a significant advantage as a traveler.</p>
+
+    <h2>The Basics of Yield Management</h2>
+    <p>Hotels operate with a fixed inventory of rooms and a perishable product. An unsold room tonight generates zero revenue forever. This fundamental constraint drives hotels to use yield management: adjusting prices dynamically to maximize total revenue across all rooms and all dates.</p>
+    <p>Revenue management systems (RMS) forecast demand for each future date based on historical booking patterns, current pace of bookings, local events, day-of-week trends, and seasonal factors. If bookings for a future date are running ahead of forecast, the system raises prices. If bookings are lagging, it lowers prices to stimulate demand.</p>
+
+    <h2>Demand-Based Price Adjustments</h2>
+    <p>The most visible form of dynamic pricing is demand-based adjustment. A hotel room that costs $180 on a quiet Tuesday in November may cost $380 on a Saturday during a major conference. The room is identical. The demand is not.</p>
+    <p>RMS platforms like Duetto, IDeaS, and Atomize process booking data in real time. They analyze not just confirmed bookings but also search queries, shopping data from OTAs, and competitor pricing. A surge in searches for hotels in a city (perhaps triggered by a concert announcement or sports event) can trigger price increases within hours, well before actual bookings materialize.</p>
+
+    <h2>OTA Commission Structures</h2>
+    <p>Online travel agencies charge hotels a commission on every booking, typically 15-25% of the room rate. These commissions vary by market, by platform, and by the hotel's negotiating power. A large chain may pay 15% on Booking.com while a boutique hotel pays 22%.</p>
+    <p>Commission differences influence the price you see. Hotels sometimes offer lower rates on platforms where they pay lower commissions, or they adjust their base rate to maintain margin across platforms. This creates price differences between OTAs for the same room on the same night.</p>
+
+    <h2>Geographic Pricing: The Hidden Layer</h2>
+    <p>On top of demand-based and commission-driven pricing sits geographic pricing. OTAs detect the user's country through IP geolocation and display prices adjusted for that market. The adjustments reflect regional purchasing power, competitive dynamics, and market-specific promotions.</p>
+    <p>A hotel room in Barcelona may show $220 to a user in the US, $180 to a user in Poland, and $155 to a user in Indonesia. All three prices are available simultaneously. The hotel and OTA optimize revenue by extracting the maximum each market will pay.</p>
+    <p>Geographic pricing creates the largest price variations in the hotel industry. While demand shifts may change a price by 10-20%, geographic differences routinely reach 30-60% for the same room.</p>
+
+    <h2>Currency and Tax Variations</h2>
+    <p>Hotels and OTAs also adjust pricing based on the display currency and applicable tax structures. Rates shown in local currencies are often rounded to psychologically appealing numbers, which can create small pricing differences. Tax-inclusive vs. tax-exclusive display also varies by market, affecting the perceived price even when the base rate is similar.</p>
+
+    <h2>What This Means for Travelers</h2>
+    <p>Dynamic pricing means the price you see is optimized against you. It reflects what the hotel and OTA believe you are willing to pay based on when you search, where you search from, and what device you use. The only defense is information: knowing that cheaper rates exist and having the tools to find them.</p>
+    <p>Arbitrica directly counteracts geographic pricing by searching from 200 countries simultaneously. It neutralizes the location-based markup and presents you with the lowest available rate globally, regardless of where you actually are.</p>
+
+    <div class="cta-box">
+      <h3>Start Saving on Hotels Today</h3>
+      <p>Arbitrica is free for the first 10,000 users. Join the waitlist and never overpay again.</p>
+      <a href="/index.html" class="btn-cta">Join the waitlist &mdash; free for first 10,000</a>
+    </div>
+  </article>
+</div>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">Arbitrica</p>
+        <p class="footer-brand-desc">The new AI that finds hidden prices and earns you money after you pay. For free.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Product</h3>
+        <a href="/index.html#how-it-works">How it works</a>
+        <a href="/hotel-price-tracker.html">Price tracker</a>
+        <a href="/pricing.html">Pricing</a>
+      </div>
+      <div class="footer-col">
+        <h3>Company</h3>
+        <a href="/about.html">About</a>
+        <a href="/about.html#careers">Careers</a>
+        <a href="/blog/">Blog</a>
+      </div>
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <a href="/assets/privacy-policy.html">Privacy</a>
+        <a href="/assets/terms-of-service.html">Terms</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Arbitrica<sup style="font-size:0.7em;color:rgba(255,255,255,0.85);">TM</sup> All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
