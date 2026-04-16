@@ -59,10 +59,25 @@
     main > .section:first-child { padding-top: 3rem; }
     .section-heading { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.75rem, 3vw, 2.25rem); letter-spacing: -0.015em; line-height: 1.2; margin-bottom: 2.5rem; text-align: center; }
 
-    /* CONTENT CARD — consistent box style for all content sections */
-    .content-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-md); padding: 2.5rem; max-width: 760px; margin: 0 auto; }
-    .content-card p { font-size: 1.02rem; line-height: 1.7; color: var(--muted); margin-bottom: 1rem; }
-    .content-card p:last-child { margin-bottom: 0; }
+    /* SPLIT CARD — text + image side by side (reused for problem & mission) */
+    .split-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-md); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; max-width: 1000px; margin: 0 auto; }
+    .split-card--reverse { direction: rtl; }
+    .split-card--reverse > * { direction: ltr; }
+    .split-card-text { padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; }
+    .split-card-text p { font-size: 1rem; color: var(--muted); line-height: 1.65; margin-bottom: 0.75rem; }
+    .split-card-text p:last-child { margin-bottom: 0; }
+    .split-card-image { min-height: 300px; }
+    .split-card-image img { width: 100%; height: 100%; display: block; object-fit: cover; }
+
+    /* FEATURE GRID — icon + stat cards for "How we do it" */
+    .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; max-width: 1000px; margin: 0 auto; }
+    .feature-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem 1.5rem; box-shadow: var(--shadow-sm); text-align: center; transition: box-shadow 0.2s ease, transform 0.2s ease; }
+    .feature-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    .feature-icon { width: 56px; height: 56px; margin: 0 auto 1.25rem; border-radius: 50%; background: var(--grad-hero-bg); display: flex; align-items: center; justify-content: center; }
+    .feature-icon svg { width: 28px; height: 28px; color: hsl(280 70% 50%); }
+    .feature-stat { font-family: var(--font-display); font-weight: 700; font-size: 2rem; letter-spacing: -0.02em; margin-bottom: 0.35rem; background: var(--grad-primary); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+    .feature-label { font-family: var(--font-display); font-weight: 700; font-size: 0.95rem; margin-bottom: 0.5rem; }
+    .feature-desc { font-size: 0.92rem; color: var(--muted); line-height: 1.55; }
 
     /* MISSION CARD (used in "What we do" section) */
     .mission-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-md); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; max-width: 1000px; margin: 0 auto; }
@@ -117,6 +132,10 @@
       .leader-role { justify-content: center; }
       .mission-card { grid-template-columns: 1fr; }
       .mission-image-wrap { min-height: 220px; order: -1; }
+      .split-card { grid-template-columns: 1fr; }
+      .split-card--reverse { direction: ltr; }
+      .split-card-image { min-height: 220px; order: -1; }
+      .features-grid { grid-template-columns: 1fr; max-width: 400px; }
       .careers-block { grid-template-columns: 1fr; gap: 2rem; text-align: center; }
       .careers-image-wrap { height: 240px; order: -1; }
       .footer-grid { grid-template-columns: 1fr 1fr; gap: 1.75rem; }
@@ -236,9 +255,17 @@
     <section class="section">
       <div class="container">
         <h2 class="section-heading">The problem <span class="grad-text">we solve</span></h2>
-        <div class="content-card">
-          <p>The same hotel room costs different amounts depending on which country you book from. A room listed at $300 in the US can appear at $180 when browsed from Poland, $210 from Japan, or $195 from Brazil. This is geographic price discrimination, and it affects every major booking platform.</p>
-          <p>Until now, the only way to exploit these differences was to manually connect to VPNs one country at a time, clear cookies, switch currencies, and compare results. It works, but it takes hours and most people give up after checking two or three countries. Arbitrica eliminates that entire process.</p>
+        <div class="split-card">
+          <div class="split-card-text">
+            <p>The same hotel room costs different amounts depending on which country you book from. A room listed at $300 in the US can appear at $180 from Poland, $210 from Japan, or $195 from Brazil. This is geographic price discrimination — and it affects every major booking platform.</p>
+            <p>Until now, the only way to exploit these differences was to manually connect to VPNs one country at a time, clear cookies, switch currencies, and compare results. Most people give up after two or three countries. Arbitrica eliminates that entire process.</p>
+          </div>
+          <div class="split-card-image">
+            <picture>
+              <source srcset="Images/Photo 2.webp" type="image/webp">
+              <img src="Images/Photo 2.jpeg" alt="Geographic price differences across hotel booking platforms" width="900" height="600" loading="lazy" decoding="async">
+            </picture>
+          </div>
         </div>
       </div>
     </section>
@@ -247,9 +274,31 @@
     <section class="section">
       <div class="container">
         <h2 class="section-heading">How <span class="grad-text">we do it</span></h2>
-        <div class="content-card">
-          <p>Our AI searches from 200 countries simultaneously. When you reach a checkout page, Arbitrica detects it and runs a global price scan in the background. If a lower price exists anywhere, it prepares the entire booking for you. You review the savings and decide whether to proceed.</p>
-          <p>After you book, Arbitrica keeps working. It monitors your reservation daily, scanning for price drops across all 200 countries. When rates fall, it alerts you and prepares a rebooking at the better price. The average user saves between $500 and $5,000 per year depending on how frequently they travel.</p>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div class="feature-stat">200</div>
+            <div class="feature-label">Countries scanned</div>
+            <p class="feature-desc">When you reach checkout, our AI runs a simultaneous price scan across 200 countries. If a lower price exists anywhere, it prepares the booking for you to review.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+            <div class="feature-stat">24/7</div>
+            <div class="feature-label">Post-booking monitoring</div>
+            <p class="feature-desc">After you book, Arbitrica monitors your reservation daily. When rates fall across any of the 200 countries, it alerts you and prepares a rebooking at the better price.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div class="feature-stat">$5,000</div>
+            <div class="feature-label">Average annual savings</div>
+            <p class="feature-desc">Frequent travellers save between $500 and $5,000 per year. The AI handles detection, global search, validation, and transaction execution — you just review and approve.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -258,9 +307,17 @@
     <section class="section">
       <div class="container">
         <h2 class="section-heading">Our <span class="grad-text">mission</span></h2>
-        <div class="content-card">
-          <p>We started with international hotel bookings because the price gaps are largest there. But geographic price arbitrage applies to far more than hotels. Subscriptions, online courses, e-commerce, insurance, and dozens of other categories show the same pattern of location-based pricing. Arbitrica is building the autonomous layer that finds the real lowest price for everything you buy.</p>
-          <p>Our patented technology handles the entire lifecycle: detection, global search, validation, and transaction execution. People deserve the absolute lowest price that exists for everything they buy. Automatically.</p>
+        <div class="split-card split-card--reverse">
+          <div class="split-card-text">
+            <p>We started with international hotel bookings because the price gaps are largest there. But geographic price arbitrage applies to far more than hotels. Subscriptions, online courses, e-commerce, insurance, and dozens of other categories show the same pattern of location-based pricing.</p>
+            <p>Arbitrica is building the autonomous layer that finds the real lowest price for everything you buy. Our patented technology handles the entire lifecycle: detection, global search, validation, and transaction execution. People deserve the lowest price that exists. Automatically.</p>
+          </div>
+          <div class="split-card-image">
+            <picture>
+              <source srcset="Images/Photo 5.webp" type="image/webp">
+              <img src="Images/Photo 5.jpg" alt="Arbitrica vision for autonomous price optimization across all categories" width="900" height="600" loading="lazy" decoding="async">
+            </picture>
+          </div>
         </div>
       </div>
     </section>
