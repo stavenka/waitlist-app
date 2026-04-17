@@ -126,22 +126,16 @@
       margin: 0 auto;
     }
     .header-left  { display: flex; align-items: center; }
-    /* Category nav — centered with equal spacing */
+    /* Category nav — Fidero-style */
     .header-nav {
-      display: flex; align-items: center; justify-content: center; gap: 1.75rem;
+      display: flex; align-items: center; justify-content: center; gap: 0;
     }
     .nav-cat {
       font-family: var(--font-body); font-size: 0.875rem; font-weight: 500;
-      color: var(--fg); padding: 0.3rem 0; white-space: nowrap;
-      transition: color 0.15s; text-decoration: none;
-      display: flex; flex-direction: column; align-items: center; gap: 0.2rem;
-      position: relative;
+      color: #171717; padding: 0.5rem 1rem; line-height: 1.43;
+      white-space: nowrap; transition: color 0.15s; text-decoration: none;
     }
-    .nav-cat:hover { color: var(--accent, #7c3aed); }
-    .coming-soon-label {
-      font-size: 0.55rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
-      color: var(--muted, #888); opacity: 0.7; line-height: 1;
-    }
+    .nav-cat:hover { color: #6b21a8; }
     .header-right  { display: flex; align-items: center; justify-content: flex-end; }
 
     /* #9: logo smaller */
@@ -189,7 +183,7 @@
     /* #10: main headline */
     .hero-h1 {
       font-family: var(--font-display);
-      font-size: clamp(2.25rem, 4vw, 3.5rem);
+      font-size: clamp(1.75rem, 3.5vw, 2.75rem);
       font-weight: 700;
       line-height: 1.1;
       letter-spacing: -0.025em;
@@ -514,14 +508,13 @@
     }
     @media (max-width: 640px) {
       .header-inner { grid-template-columns: auto 1fr auto; padding: 0.4rem 0.85rem; }
-      .header-nav { gap: 1rem; }
-      .nav-cat { font-size: 0.7rem; }
-      .coming-soon-label { font-size: 0.45rem; }
+      .header-nav { gap: 0; }
+      .nav-cat { font-size: 0.7rem; padding: 0.35rem 0.5rem; }
       .logo-link img { height: 70px; }
       .ai-sign { height: auto; width: clamp(70px, 14vw, 110px); }
       .hero { padding: 0.5rem 0 2.5rem; }
       .container { padding: 0 1.25rem; }
-      .hero-h1 { font-size: 2rem; line-height: 1.15; }
+      .hero-h1 { font-size: 1.75rem; line-height: 1.15; }
       .hero-p { font-size: 1rem; }
       .cta-pill { max-width: 100%; margin-top: 0.5rem; }
       .cta-email, .btn-claim { width: 100%; font-size: 0.95rem; padding: 0.75rem 1rem; }
@@ -559,9 +552,9 @@
 
     <nav class="header-nav" aria-label="Product categories">
       <a href="index.html" class="nav-cat">Hotels</a>
-      <a href="#" class="nav-cat" onclick="return false">Amazon purchases<span class="coming-soon-label">coming soon</span></a>
-      <a href="#" class="nav-cat" onclick="return false">Events tickets<span class="coming-soon-label">coming soon</span></a>
-      <a href="#" class="nav-cat" onclick="return false">Flights<span class="coming-soon-label">coming soon</span></a>
+      <a href="#" class="nav-cat" onclick="return false">Amazon purchases</a>
+      <a href="#" class="nav-cat" onclick="return false">Events tickets</a>
+      <a href="#" class="nav-cat" onclick="return false">Flights</a>
     </nav>
 
     <div class="header-right">
