@@ -135,6 +135,7 @@
 
     /* #2: AI signs in centre */
     .ai-sign { height: 31px; width: auto; max-width: none; object-fit: contain; }
+    .ai-signs-row { display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-bottom: 1rem; }
 
     .nav-about-btn {
       display: inline-flex;
@@ -539,17 +540,7 @@
       </a>
     </div>
 
-    <!-- #2: AI signs in the centre of the header -->
-    <div class="header-center">
-      <picture>
-        <source srcset="AI-2.webp?v=r20260416" type="image/webp">
-        <img src="AI-2.png?v=r20260416" alt="Idea of the Year 2025 AI award" class="ai-sign" width="260" height="42" decoding="async">
-      </picture>
-      <picture>
-        <source srcset="AI.webp?v=r20260416" type="image/webp">
-        <img src="AI.png?v=r20260416" alt="Future of AI 2025 award" class="ai-sign" width="260" height="42" decoding="async">
-      </picture>
-    </div>
+    <div class="header-center"></div>
 
     <div class="header-right">
       <a href="about.html" class="nav-about-btn">About</a>
@@ -599,6 +590,16 @@
 
       <!-- Right: hero video — #7: blurred overlay with gradient text -->
       <div class="hero-right">
+        <div class="ai-signs-row">
+          <picture>
+            <source srcset="AI-2.webp?v=r20260416" type="image/webp">
+            <img src="AI-2.png?v=r20260416" alt="Idea of the Year 2025 AI award" class="ai-sign" width="260" height="42" decoding="async">
+          </picture>
+          <picture>
+            <source srcset="AI.webp?v=r20260416" type="image/webp">
+            <img src="AI.png?v=r20260416" alt="Future of AI 2025 award" class="ai-sign" width="260" height="42" decoding="async">
+          </picture>
+        </div>
         <div class="video-card">
           <video class="hero-video" id="heroVideo"
                  src="Video How It Works For Hotels.mp4?v=3"
