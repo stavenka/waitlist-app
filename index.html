@@ -131,17 +131,17 @@
       display: flex; align-items: center; justify-content: center; gap: 0.25rem;
     }
     .nav-cat {
-      font-family: var(--font-body); font-size: 0.95rem; font-weight: 500;
+      font-family: var(--font-display); font-size: 0.95rem; font-weight: 500;
       color: #171717; padding: 0.5rem 1rem; line-height: 1.43;
       white-space: nowrap; transition: color 0.15s; text-decoration: none;
-      position: relative;
+      position: relative; letter-spacing: -0.01em;
     }
     .nav-cat:hover { color: #6b21a8; }
     .nav-cat.current { color: #171717; }
     .nav-cat.current::after {
-      content: ''; position: absolute; bottom: 0.15rem; left: 1rem; right: 1rem;
-      height: 2px; border-radius: 1px;
-      background: linear-gradient(90deg, #7c3aed, #a855f7);
+      content: ''; position: absolute; bottom: 0.1rem; left: 0.75rem; right: 0.75rem;
+      height: 3px; border-radius: 3px;
+      background: #7c3aed;
     }
     .nav-cat .cs-chip {
       position: absolute; top: -0.4rem; left: 50%; transform: translateX(-50%);
