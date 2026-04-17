@@ -126,21 +126,21 @@
       margin: 0 auto;
     }
     .header-left  { display: flex; align-items: center; }
-    /* Category nav */
-    .header-nav { display: flex; align-items: center; gap: 0.25rem; }
+    /* Category nav — centered with equal spacing */
+    .header-nav {
+      display: flex; align-items: center; justify-content: center; gap: 1.75rem;
+    }
     .nav-cat {
       font-family: var(--font-body); font-size: 0.875rem; font-weight: 500;
-      color: var(--muted); padding: 0.4rem 0.75rem; border-radius: 8px;
-      transition: color 0.15s, background 0.15s; white-space: nowrap;
-      display: inline-flex; align-items: center; gap: 0.35rem;
+      color: var(--fg); padding: 0.3rem 0; white-space: nowrap;
+      transition: color 0.15s; text-decoration: none;
+      display: flex; flex-direction: column; align-items: center; gap: 0.2rem;
+      position: relative;
     }
-    .nav-cat:hover { color: var(--fg); background: hsla(0 0% 0% / 0.04); }
-    .nav-cat.active { color: var(--fg); font-weight: 600; background: hsla(0 0% 100% / 0.7); }
-    .soon-badge {
-      font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
-      padding: 0.15rem 0.4rem; border-radius: 6px;
-      background: linear-gradient(135deg, hsl(45 95% 55%), hsl(35 95% 50%));
-      color: #fff; line-height: 1; vertical-align: middle;
+    .nav-cat:hover { color: var(--accent, #7c3aed); }
+    .coming-soon-label {
+      font-size: 0.55rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
+      color: var(--muted, #888); opacity: 0.7; line-height: 1;
     }
     .header-right  { display: flex; align-items: center; justify-content: flex-end; }
 
@@ -189,7 +189,7 @@
     /* #10: main headline */
     .hero-h1 {
       font-family: var(--font-display);
-      font-size: clamp(2.5rem, 5vw, 3.75rem);
+      font-size: clamp(2.25rem, 4vw, 3.5rem);
       font-weight: 700;
       line-height: 1.1;
       letter-spacing: -0.025em;
@@ -514,14 +514,14 @@
     }
     @media (max-width: 640px) {
       .header-inner { grid-template-columns: auto 1fr auto; padding: 0.4rem 0.85rem; }
-      .header-nav { gap: 0.15rem; }
-      .nav-cat { font-size: 0.75rem; padding: 0.3rem 0.5rem; }
-      .soon-badge { font-size: 0.5rem; padding: 0.1rem 0.3rem; }
+      .header-nav { gap: 1rem; }
+      .nav-cat { font-size: 0.7rem; }
+      .coming-soon-label { font-size: 0.45rem; }
       .logo-link img { height: 70px; }
       .ai-sign { height: auto; width: clamp(70px, 14vw, 110px); }
       .hero { padding: 0.5rem 0 2.5rem; }
       .container { padding: 0 1.25rem; }
-      .hero-h1 { font-size: 2.25rem; line-height: 1.1; }
+      .hero-h1 { font-size: 2rem; line-height: 1.15; }
       .hero-p { font-size: 1rem; }
       .cta-pill { max-width: 100%; margin-top: 0.5rem; }
       .cta-email, .btn-claim { width: 100%; font-size: 0.95rem; padding: 0.75rem 1rem; }
@@ -558,10 +558,10 @@
     </div>
 
     <nav class="header-nav" aria-label="Product categories">
-      <a href="index.html" class="nav-cat active">Hotels</a>
-      <a href="#" class="nav-cat" onclick="return false">Amazon purchases <span class="soon-badge">Soon</span></a>
-      <a href="#" class="nav-cat" onclick="return false">Events tickets <span class="soon-badge">Soon</span></a>
-      <a href="#" class="nav-cat" onclick="return false">Flights <span class="soon-badge">Soon</span></a>
+      <a href="index.html" class="nav-cat">Hotels</a>
+      <a href="#" class="nav-cat" onclick="return false">Amazon purchases<span class="coming-soon-label">coming soon</span></a>
+      <a href="#" class="nav-cat" onclick="return false">Events tickets<span class="coming-soon-label">coming soon</span></a>
+      <a href="#" class="nav-cat" onclick="return false">Flights<span class="coming-soon-label">coming soon</span></a>
     </nav>
 
     <div class="header-right">
