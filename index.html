@@ -128,14 +128,24 @@
     .header-left  { display: flex; align-items: center; }
     /* Category nav — Fidero-style */
     .header-nav {
-      display: flex; align-items: center; justify-content: center; gap: 0;
+      display: flex; align-items: center; justify-content: center; gap: 0.15rem;
     }
     .nav-cat {
       font-family: var(--font-body); font-size: 0.875rem; font-weight: 500;
-      color: #171717; padding: 0.5rem 1rem; line-height: 1.43;
-      white-space: nowrap; transition: color 0.15s; text-decoration: none;
+      color: #171717; padding: 0.5rem 1rem; line-height: 1.43; border-radius: 20px;
+      white-space: nowrap; transition: color 0.15s, background 0.15s; text-decoration: none;
+      position: relative;
     }
-    .nav-cat:hover { color: #6b21a8; }
+    .nav-cat:hover { color: #6b21a8; background: hsla(0, 0%, 63%, 0.15); }
+    .nav-cat.current { background: hsla(0, 0%, 63%, 0.18); }
+    .nav-cat .cs-chip {
+      position: absolute; top: -0.45rem; left: 50%; transform: translateX(-50%);
+      font-size: 0.5rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase;
+      color: #92700c; background: linear-gradient(135deg, #fef3c7, #fde68a);
+      padding: 0.1rem 0.4rem; border-radius: 10px; line-height: 1.2;
+      white-space: nowrap; pointer-events: none;
+      box-shadow: 0 1px 3px rgba(180, 140, 20, 0.15);
+    }
     .header-right  { display: flex; align-items: center; justify-content: flex-end; }
 
     /* #9: logo smaller */
@@ -508,8 +518,9 @@
     }
     @media (max-width: 640px) {
       .header-inner { grid-template-columns: auto 1fr auto; padding: 0.4rem 0.85rem; }
-      .header-nav { gap: 0; }
+      .header-nav { gap: 0.1rem; }
       .nav-cat { font-size: 0.7rem; padding: 0.35rem 0.5rem; }
+      .nav-cat .cs-chip { font-size: 0.4rem; top: -0.35rem; padding: 0.08rem 0.3rem; }
       .logo-link img { height: 70px; }
       .ai-sign { height: auto; width: clamp(70px, 14vw, 110px); }
       .hero { padding: 0.5rem 0 2.5rem; }
@@ -551,10 +562,10 @@
     </div>
 
     <nav class="header-nav" aria-label="Product categories">
-      <a href="index.html" class="nav-cat">Hotels</a>
-      <a href="#" class="nav-cat" onclick="return false">Amazon purchases</a>
-      <a href="#" class="nav-cat" onclick="return false">Events tickets</a>
-      <a href="#" class="nav-cat" onclick="return false">Flights</a>
+      <a href="index.html" class="nav-cat current">Hotels</a>
+      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">coming soon</span>Amazon purchases</a>
+      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">coming soon</span>Events tickets</a>
+      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">coming soon</span>Flights</a>
     </nav>
 
     <div class="header-right">
