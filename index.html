@@ -140,7 +140,7 @@
     .nav-cat.current { background: hsla(0, 0%, 63%, 0.18); }
     .nav-cat .cs-chip {
       position: absolute; top: -0.45rem; left: 50%; transform: translateX(-50%);
-      font-size: 0.5rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase;
+      font-size: 0.55rem; font-weight: 600; letter-spacing: 0.03em;
       color: #92700c; background: linear-gradient(135deg, #fef3c7, #fde68a);
       padding: 0.1rem 0.4rem; border-radius: 10px; line-height: 1.2;
       white-space: nowrap; pointer-events: none;
@@ -563,9 +563,9 @@
 
     <nav class="header-nav" aria-label="Product categories">
       <a href="index.html" class="nav-cat current">Hotels</a>
-      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">coming soon</span>Amazon purchases</a>
-      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">coming soon</span>Events tickets</a>
-      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">coming soon</span>Flights</a>
+      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">Coming soon</span>Amazon purchases</a>
+      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">Coming soon</span>Events tickets</a>
+      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">Coming soon</span>Flights</a>
     </nav>
 
     <div class="header-right">
@@ -612,20 +612,16 @@
           </div>
         </div>
 
+        <div class="ai-signs-row" style="justify-content: flex-start; margin-top: 1.25rem; margin-bottom: 0;">
+            <img src="AI-2.png?v=r20260416" alt="Idea of the Year 2025 AI award" class="ai-sign" width="260" height="42" decoding="async">
+            <img src="AI.png?v=r20260416" alt="Future of AI 2025 award" class="ai-sign" width="260" height="42" decoding="async">
+        </div>
+
       </div>
 
       <!-- Right: hero video — #7: blurred overlay with gradient text -->
       <div class="hero-right">
-        <div class="ai-signs-row">
-          <picture>
-            <source srcset="AI-2.webp?v=r20260416" type="image/webp">
-            <img src="AI-2.png?v=r20260416" alt="Idea of the Year 2025 AI award" class="ai-sign" width="260" height="42" decoding="async">
-          </picture>
-          <picture>
-            <source srcset="AI.webp?v=r20260416" type="image/webp">
-            <img src="AI.png?v=r20260416" alt="Future of AI 2025 award" class="ai-sign" width="260" height="42" decoding="async">
-          </picture>
-        </div>
+          
         <div class="video-card">
           <video class="hero-video" id="heroVideo"
                  src="Video How It Works For Hotels.mp4?v=3"
