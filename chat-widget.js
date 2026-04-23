@@ -214,7 +214,7 @@
   // Launcher pill
   var launcher = document.createElement('button');
   launcher.id = 'arb-launcher';
-  launcher.innerHTML = '<span style="font-size:11px;opacity:0.75;line-height:1.35;">Found what you\'re looking for?</span><span style="font-weight:600;font-size:11px;color:#ffffff;">Chat with us 👋</span>';
+  launcher.innerHTML = '<span style="font-size:11px;font-weight:400;color:rgba(235,240,255,0.68);line-height:1.35;">Found what you\'re looking for?</span><span style="font-size:11px;font-weight:400;color:#ffffff;">Chat with us 👋</span>';
 
   // Emoji panel (floats above everything)
   var emojiPanel = document.createElement('div');
