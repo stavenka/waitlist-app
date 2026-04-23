@@ -50,14 +50,15 @@
   var css = `
     #arb-launcher {
       position:fixed; bottom:24px; right:24px; z-index:9998;
-      display:flex; align-items:center; gap:8px;
-      background:linear-gradient(to right,#433BE3,#241CC4);
+      display:flex; flex-direction:column; align-items:center; gap:3px;
+      background:linear-gradient(to bottom,#433BE3,#241CC4);
       color:#EBF0FF; font-family:'Inter',system-ui,sans-serif;
-      font-size:14px; font-weight:500; padding:12px 20px;
-      border-radius:100px; cursor:pointer; border:none;
-      box-shadow:0 4px 24px rgba(67,59,227,0.4),0 2px 8px rgba(0,0,0,0.15);
+      font-size:11px; font-weight:400; padding:10px 14px;
+      border-radius:14px; cursor:pointer; border:none;
+      box-shadow:0 3px 16px rgba(67,59,227,0.35),0 2px 6px rgba(0,0,0,0.12);
       transition:transform .2s ease,box-shadow .2s ease,opacity .25s ease;
-      white-space:nowrap; user-select:none;
+      text-align:center; user-select:none; min-width:110px; max-width:140px;
+      opacity:0.88;
     }
     #arb-launcher:hover { transform:translateY(-2px);
       box-shadow:0 8px 32px rgba(67,59,227,0.5),0 4px 12px rgba(0,0,0,0.2); }
@@ -213,7 +214,7 @@
   // Launcher pill
   var launcher = document.createElement('button');
   launcher.id = 'arb-launcher';
-  launcher.innerHTML = '<span class="arb-wave">👋</span> Found what you\'re looking for? <span style="color:#fff;font-weight:600;">Chat with us</span>';
+  launcher.innerHTML = '<span style="font-size:10px;opacity:0.8;line-height:1.35;">Found what you\'re looking for?</span><span style="font-weight:600;font-size:12px;">Chat with us 👋</span>';
 
   // Emoji panel (floats above everything)
   var emojiPanel = document.createElement('div');
