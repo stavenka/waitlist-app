@@ -24,6 +24,11 @@
         !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
         window.fbq && fbq('init','1805547713128833');
         window.fbq && fbq('track','PageView');
+        /* Arbitrica headline test: tag this Pixel session with the variant label */
+        if (window.fbq) {
+          var __av = document.documentElement.getAttribute('data-arbitrica-variant') || 'control';
+          fbq('trackCustom', 'VariantView', { variant: __av });
+        }
       }
       window.arbitricaLoadTracking = loadAll;
       var ev = ['pointerdown','keydown','scroll','touchstart'];
@@ -51,6 +56,54 @@
   <meta name="twitter:image" content="https://arbitrica.com/Arbitrica_logo_transparent.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
   <title>Arbitrica | AI Hidden Price Finder – Save Up to $5,000/Year</title>
+
+  <!-- ── PostHog (eager load — needed for feature flags + accurate first-visit attribution) ── -->
+  <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init bs ws ge fs capture De calculateEventProperties Ai $s register register_once register_for_session unregister unregister_for_session jn getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty xs Ss createPersonProfile Es gs opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing Cs debug I Os getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_Dagaie9RvoEcsXYUut8GbZbmYgxCws2bjDXASSgbHEKh', {
+        api_host: 'https://us.i.posthog.com',
+        defaults: '2025-05-24',
+        person_profiles: 'identified_only',
+        capture_pageview: true,
+        capture_pageleave: true,
+        autocapture: true
+    });
+  </script>
+
+  <!-- ── PostHog event hooks: cta_click + scroll_75 (waitlist_signup is wired inside arbitricaClaim) ── -->
+  <script>
+    (function () {
+      'use strict';
+      function variant() {
+        return document.documentElement.getAttribute('data-arbitrica-variant') || 'control';
+      }
+      // cta_click — delegated so it survives any DOM rebuild
+      document.addEventListener('click', function (ev) {
+        var t = ev.target.closest && ev.target.closest('#waitlistSubmitBtn, .btn-claim');
+        if (!t) return;
+        if (window.posthog && typeof posthog.capture === 'function') {
+          posthog.capture('cta_click', { variant: variant(), location: 'hero' });
+        }
+      }, true);
+
+      // scroll_75 — fires once when user scrolls past 75% of page height
+      var scrollFired = false;
+      function onScroll() {
+        if (scrollFired) return;
+        var docH = document.documentElement.scrollHeight - window.innerHeight;
+        if (docH <= 0) return;
+        var pct = (window.scrollY || window.pageYOffset) / docH;
+        if (pct >= 0.75) {
+          scrollFired = true;
+          window.removeEventListener('scroll', onScroll, { passive: true });
+          if (window.posthog && typeof posthog.capture === 'function') {
+            posthog.capture('scroll_75', { variant: variant() });
+          }
+        }
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+    })();
+  </script>
   <meta name="keywords" content="hotel price tracker, AI hotel booking, hidden hotel prices, hotel price comparison, save on hotels, hotel price drop alert, geographic price arbitrage" />
 
   <link rel="preload" as="image" href="Arbitrica_logo_transparent.webp" type="image/webp" fetchpriority="high">
@@ -551,6 +604,14 @@
       .overlay-label { font-size: 1.15rem; }
     }
   </style>
+
+  <!-- ── Arbitrica headline test: FOUC guard for variant swap ── -->
+  <style id="arbitrica-variant-fouc-guard">
+    /* Hide hero H1 + subhead until variant swap (or control fallback) completes.
+       The variant script removes this rule by setting [data-arbitrica-variant] on <html>. */
+    html:not([data-arbitrica-variant]) h1.hero-h1,
+    html:not([data-arbitrica-variant]) p.hero-p { visibility: hidden; }
+  </style>
 </head>
 <body>
 
@@ -813,6 +874,14 @@
       gtag('event','conversion',{'send_to':'AW-18057434040/DQayCPrv0JUcELinuqJD'});
       gtag('event','generate_lead',{'event_category':'waitlist','event_label':'claim_button','value':1});
       if (window.fbq) fbq('track','Lead',{content_name:'Arbitrica Waitlist',content_category:'Waitlist Signup',value:0.00,currency:'USD'});
+      // PostHog — primary metric for headline test experiment
+      try {
+        if (window.posthog && typeof posthog.capture === 'function') {
+          var __av = document.documentElement.getAttribute('data-arbitrica-variant') || 'control';
+          posthog.identify(email, { email: email, arbitrica_variant: __av });
+          posthog.capture('waitlist_signup', { variant: __av, queue_number: num });
+        }
+      } catch (e) {}
       if (btn) { btn.disabled = false; btn.textContent = 'Claim for free'; }
       arbitricaShowModal(num);
     }
@@ -856,6 +925,98 @@
     });
     document.addEventListener('keydown', function(e) { if (e.key === 'Escape') arbitricaCloseModal(); });
   });
+</script>
+
+<!-- ── Arbitrica headline test: variant swap (T1/T2/T3/T4) ── -->
+<script id="arbitrica-variant-swap">
+(function () {
+  'use strict';
+
+  // Variant table — h1[0] = plain prefix, h1[1] = gradient accent (matches existing .grad-text style)
+  var VARIANTS = {
+    t1: {
+      h1: ['Millions use VPN to find ', 'cheaper hotels.'],
+      sub: 'Our AI finds the lowest hotel price on Earth — automatically, for free.',
+      label: 't1_vpn'
+    },
+    t2: {
+      h1: ['Hotels shouldn\u2019t cost more because of ', 'where you live.'],
+      sub: 'Our AI searches from 200 countries so you always get the lowest price on Earth.',
+      label: 't2_fairness'
+    },
+    t3: {
+      h1: ['There\u2019s a much lower price for ', 'your hotel.'],
+      sub: 'Most people never find it. Our AI searches from 200 countries to hand you up to $5,000/year — for free.',
+      label: 't3_curiosity'
+    },
+    t4: {
+      h1: ['Save hundreds on hotels by booking from ', 'the right country.'],
+      sub: 'Our AI searches 200 countries simultaneously to find you the lowest price on Earth.',
+      label: 't4_benefit'
+    },
+    // Aliases — match the playbook's utm_content values so Meta ad URLs work as-is
+    t1_vpn:       't1',
+    t2_fairness:  't2',
+    t3_curiosity: 't3',
+    t4_benefit:   't4'
+  };
+
+  function resolve(key) {
+    var v = VARIANTS[key];
+    while (typeof v === 'string') v = VARIANTS[v];
+    return v;
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  // Read ?variant= or ?utm_content= from URL
+  var params = new URLSearchParams(window.location.search);
+  var key = (params.get('variant') || params.get('utm_content') || '').toLowerCase().trim();
+  var v = resolve(key);
+  var label = v ? v.label : 'control';
+
+  function applyAndTrack() {
+    if (v) {
+      var h1 = document.querySelector('h1.hero-h1');
+      if (h1) {
+        h1.innerHTML = escapeHtml(v.h1[0]) + '<br><span class="grad-text">' + escapeHtml(v.h1[1]) + '</span>';
+      }
+      var sub = document.querySelector('p.hero-p');
+      if (sub) sub.textContent = v.sub;
+    }
+
+    // Set the attribute that removes the FOUC guard CSS
+    document.documentElement.setAttribute('data-arbitrica-variant', label);
+
+    // dataLayer event for GA4 / Google Tag
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'homepage_view', arbitrica_variant: label });
+
+    // PostHog (no-op until installed)
+    if (typeof window.posthog !== 'undefined' && typeof window.posthog.capture === 'function') {
+      try {
+        if (typeof window.posthog.register === 'function') {
+          window.posthog.register({ arbitrica_variant: label });
+        }
+        window.posthog.capture('homepage_view', { arbitrica_variant: label });
+      } catch (e) {}
+    }
+
+    // Meta Pixel — only if Pixel is already loaded (it's lazy-loaded on first interaction).
+    // The lazy-load init in <head> also fires VariantView once it loads, reading the same data attribute.
+    if (typeof window.fbq === 'function') {
+      try { window.fbq('trackCustom', 'VariantView', { variant: label }); } catch (e) {}
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', applyAndTrack);
+  } else {
+    applyAndTrack();
+  }
+})();
 </script>
 
 <!-- ── Arbitrica Customer Support Chat Widget ── -->
