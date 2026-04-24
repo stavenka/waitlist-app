@@ -28,9 +28,11 @@
     /* ── Mobile: compact launcher + full-width bottom drawer ── */
     @media (max-width: 768px) {
       #arb-launcher {
-        bottom:16px; right:16px; min-width:90px; max-width:110px;
-        padding:8px 10px; font-size:10px; border-radius:12px;
+        bottom:16px; right:16px; min-width:unset; max-width:unset;
+        padding:7px 13px; font-size:11px; border-radius:20px;
+        flex-direction:row; gap:4px;
       }
+      #arb-launcher-top { display:none; }
       #arb-window {
         width:100vw !important; max-width:100vw !important;
         right:0 !important; bottom:0 !important;
@@ -201,7 +203,7 @@
   // Launcher pill
   var launcher = document.createElement('button');
   launcher.id = 'arb-launcher';
-  launcher.innerHTML = '<span style="font-size:11px;font-weight:400;font-family:\'Inter\',system-ui,sans-serif;line-height:1.35;color:#EBF0FF;">Found what you\'re looking for?</span><span style="font-size:11px;font-weight:400;font-family:\'Inter\',system-ui,sans-serif;line-height:1.35;color:#c4b5fd;">Chat with us 👋</span>';
+  launcher.innerHTML = '<span id="arb-launcher-top" style="font-size:11px;font-weight:400;font-family:\'Inter\',system-ui,sans-serif;line-height:1.35;color:#EBF0FF;">Found what you\'re looking for?</span><span style="font-size:11px;font-weight:400;font-family:\'Inter\',system-ui,sans-serif;line-height:1.35;color:#c4b5fd;">Chat with us 👋</span>';
 
   // Emoji panel (floats above everything)
   var emojiPanel = document.createElement('div');
