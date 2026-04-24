@@ -663,6 +663,11 @@
           <input class="cta-email" type="email" name="email" id="waitlistEmail"
                  placeholder="Enter email for waitlist"
                  required aria-label="Email address">
+          <!-- Honeypot anti-spam field — invisible to humans, irresistible to bots.
+               If filled in, arbitricaClaim() silently fakes success without saving. -->
+          <input type="text" name="company_website" id="waitlistHoney"
+                 tabindex="-1" autocomplete="off" aria-hidden="true"
+                 style="position:absolute; left:-9999px; top:-9999px; height:0; width:0; opacity:0; pointer-events:none;">
           <button type="button" class="btn-claim" id="waitlistSubmitBtn" onclick="arbitricaClaim()">
             Claim for free
           </button>
@@ -867,6 +872,13 @@
     if (!emailInput) return;
     var email = emailInput.value.trim();
     if (!email || email.indexOf('@') === -1) { emailInput.focus(); return; }
+    // Honeypot anti-spam check — if filled, this is a bot.
+    // Show fake success (so bot doesn't retry) but skip backend save and all tracking.
+    var honey = document.getElementById('waitlistHoney');
+    if (honey && honey.value) {
+      arbitricaShowModal(arbitricaGetQueue());
+      return;
+    }
     var btn = document.getElementById('waitlistSubmitBtn');
     if (btn) { btn.disabled = true; btn.textContent = 'Recording…'; }
     function done(num) {
