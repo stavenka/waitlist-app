@@ -1,33 +1,10 @@
 /**
  * Arbitrica Customer Support Chat Widget
- * ─────────────────────────────────────────────────────────────────────────────
- * SETUP INSTRUCTIONS (one-time, 5 minutes):
- *
- * 1. Go to https://www.emailjs.com/ and create a free account
- * 2. Add a Gmail/SMTP service → copy the Service ID into CFG.serviceId below
- * 3. Create Template 1 (question notification) with these variables:
- *      Subject:  New question from Arbitrica visitor
- *      Body:     Question: {{question}}  |  Attachment: {{attach_name}}
- *    Copy the Template ID into CFG.template1
- * 4. Create Template 2 (email + question) with these variables:
- *      Subject:  Arbitrica visitor left email: {{user_email}}
- *      Body:     Email: {{user_email}}\n\nOriginal question:\n{{question}}
- *    Copy the Template ID into CFG.template2
- * 5. Go to Account → Public Key and paste it into CFG.publicKey
- * 6. Save this file and push to GitHub — done!
- * ─────────────────────────────────────────────────────────────────────────────
+ * Sends notifications to team@arbitrica.com via the server /api/chat-notify endpoint.
+ * No third-party email service required — just set SMTP_USER + SMTP_PASS on the server.
  */
 (function () {
   'use strict';
-
-  /* ── CONFIGURATION ─────────────────────────────────────────────────────── */
-  var CFG = {
-    publicKey:  'YOUR_EMAILJS_PUBLIC_KEY',   // EmailJS > Account > Public Key
-    serviceId:  'YOUR_SERVICE_ID',            // EmailJS > Email Services
-    template1:  'template_arb_question',      // Template: question only
-    template2:  'template_arb_email',         // Template: question + user email
-    toEmail:    'team@arbitrica.com',
-  };
 
   /* ── EMOJI LIST ─────────────────────────────────────────────────────────── */
   var EMOJIS = [
@@ -48,6 +25,10 @@
 
   /* ── STYLES ─────────────────────────────────────────────────────────────── */
   var css = `
+    /* ── Hide entirely on mobile ── */
+    @media (max-width: 768px) {
+      #arb-launcher, #arb-window, #arb-emoji-panel { display: none !important; }
+    }
     #arb-launcher {
       position:fixed; bottom:24px; right:24px; z-index:9998;
       display:flex; flex-direction:column; align-items:center; gap:3px;
@@ -199,10 +180,6 @@
       transition:background .1s; line-height:1.3;
     }
     .arb-emo:hover { background:rgba(67,59,227,.1); }
-    @media(max-width:440px){
-      #arb-window{width:calc(100vw - 32px);right:16px;bottom:80px;}
-      #arb-launcher{right:16px;bottom:16px;}
-    }
   `;
 
   var styleEl = document.createElement('style');
@@ -223,6 +200,7 @@
     EMOJIS.map(function(e){return '<button class="arb-emo" data-e="'+e+'">'+e+'</button>';}).join('') + '</div>';
 
   // Chat window
+  // NOTE: greeting — emoji 👋 is AFTER "Hi there," and BEFORE "Did you find..."
   var win = document.createElement('div');
   win.id = 'arb-window';
   win.className = 'arb-hidden';
@@ -238,7 +216,7 @@
     '<div id="arb-body">' +
       '<div class="arb-msg bot">' +
         '<div class="arb-msg-av">✦</div>' +
-        '<div class="arb-bubble">Hi there<br><br>👋 Did you find what you\'re looking for? Ask us anything — we\'d love to help.</div>' +
+        '<div class="arb-bubble">Hi there, 👋<br><br>Did you find what you\'re looking for? Ask us anything — we\'d love to help.</div>' +
       '</div>' +
     '</div>' +
     '<div id="arb-success">✉️ <span id="arb-success-txt">We\'ll get back to you shortly!</span></div>' +
@@ -298,55 +276,35 @@
     ta.style.height = Math.min(ta.scrollHeight, 100) + 'px';
   }
 
-  function fileToBase64(file) {
-    return new Promise(function(res, rej){
-      var r = new FileReader();
-      r.onload = function(e){ res(e.target.result.split(',')[1]); };
-      r.onerror = rej;
-      r.readAsDataURL(file);
-    });
-  }
-
   function fmtSize(bytes) {
     if (bytes < 1024) return bytes + ' B';
     if (bytes < 1048576) return (bytes/1024).toFixed(1) + ' KB';
     return (bytes/1048576).toFixed(1) + ' MB';
   }
 
-  /* ── EMAILJS LOADER ─────────────────────────────────────────────────────── */
-  function loadEJS(cb) {
-    if (window.emailjs) { window.emailjs.init(CFG.publicKey); cb(); return; }
-    var s = document.createElement('script');
-    s.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
-    s.onload = function(){ window.emailjs.init(CFG.publicKey); cb(); };
-    s.onerror = function(){ cb(new Error('EmailJS failed to load')); };
-    document.head.appendChild(s);
-  }
-
-  /* ── SEND EMAILS ────────────────────────────────────────────────────────── */
-  // Email 1: question arrives (immediately on send)
-  function sendQuestion(question, attachName, attachB64, cb) {
-    loadEJS(function(err){
-      if (err) { cb(err); return; }
-      window.emailjs.send(CFG.serviceId, CFG.template1, {
-        to_email:    CFG.toEmail,
-        question:    question,
-        attach_name: attachName || '—',
-        attach_data: attachB64  || '',
-      }).then(function(){ cb(null); }, cb);
-    });
+  /* ── SERVER-SIDE EMAIL SENDING ──────────────────────────────────────────── */
+  // Email 1: question arrives (sent immediately when user submits message)
+  function sendQuestion(question, attachName, cb) {
+    fetch('/api/chat-notify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type: 'question', question: question, attachName: attachName || '' })
+    })
+    .then(function(r){ return r.json(); })
+    .then(function(d){ if (d.ok) cb(null); else cb(new Error(d.error || 'Send failed')); })
+    .catch(function(e){ cb(e); });
   }
 
   // Email 2: user provides their email (sent with original question as context)
   function sendEmailCapture(userEmail, question, cb) {
-    loadEJS(function(err){
-      if (err) { cb(err); return; }
-      window.emailjs.send(CFG.serviceId, CFG.template2, {
-        to_email:   CFG.toEmail,
-        user_email: userEmail,
-        question:   question,
-      }).then(function(){ cb(null); }, cb);
-    });
+    fetch('/api/chat-notify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type: 'email', question: question, userEmail: userEmail })
+    })
+    .then(function(r){ return r.json(); })
+    .then(function(d){ if (d.ok) cb(null); else cb(new Error(d.error || 'Send failed')); })
+    .catch(function(e){ cb(e); });
   }
 
   /* ── OPEN / CLOSE ───────────────────────────────────────────────────────── */
@@ -369,7 +327,6 @@
   /* ── EMOJI PANEL ────────────────────────────────────────────────────────── */
   g('arb-emoji-btn').addEventListener('click', function(e) {
     e.stopPropagation();
-    // Position panel just above the footer
     var footerRect = g('arb-footer').getBoundingClientRect();
     emojiPanel.style.bottom = (window.innerHeight - footerRect.top + 8) + 'px';
     emojiPanel.style.right = '24px';
@@ -403,7 +360,7 @@
     g('arb-attach-bar').classList.remove('arb-show');
   });
 
-  /* ── TEXTAREA AUTO-RESIZE ────────────────────────────────────────────────── */
+  /* ── TEXTAREA AUTO-RESIZE ───────────────────────────────────────────────── */
   g('arb-ta').addEventListener('input', autoResize);
   g('arb-ta').addEventListener('keydown', function(e){
     if (e.key==='Enter' && !e.shiftKey){ e.preventDefault(); g('arb-send').click(); }
@@ -430,33 +387,26 @@
     g('arb-emoji-btn').disabled = true;
     setStatus('Sending…');
 
-    function dispatch(b64) {
-      sendQuestion(S.question, attachName, b64, function(err){
-        if (err) {
-          // Unlock on error
-          g('arb-send').disabled = false; ta.disabled = false;
-          g('arb-emoji-btn').disabled = false;
-          setStatus('Could not send. Please try again.', true);
-          return;
-        }
-        setStatus('');
-        S.step = 'email-capture';
-        S.file = null;
-        g('arb-attach-bar').classList.remove('arb-show');
-        g('arb-footer').style.display = 'none';
+    sendQuestion(S.question, attachName, function(err){
+      if (err) {
+        // Unlock on error
+        g('arb-send').disabled = false; ta.disabled = false;
+        g('arb-emoji-btn').disabled = false;
+        setStatus('Could not send. Please try again.', true);
+        return;
+      }
+      setStatus('');
+      S.step = 'email-capture';
+      S.file = null;
+      g('arb-attach-bar').classList.remove('arb-show');
+      g('arb-footer').style.display = 'none';
 
-        // Bot reply + email prompt
-        addMsg('Thanks! Please leave your email below so we can send you our answer.', 'bot');
-        g('arb-email-zone').style.display = 'block';
-        setTimeout(function(){ g('arb-email-in').focus(); }, 80);
-      });
-    }
+      // Bot reply asking for email
+      addMsg('Please leave your email to send the answer to.', 'bot');
+      g('arb-email-zone').style.display = 'block';
+      setTimeout(function(){ g('arb-email-in').focus(); }, 80);
+    });
 
-    if (S.file) {
-      fileToBase64(S.file).then(dispatch).catch(function(){ dispatch(null); });
-    } else {
-      dispatch(null);
-    }
     S.file = null;
   });
 

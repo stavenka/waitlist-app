@@ -4,6 +4,7 @@ const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
 const { google } = require('googleapis');
+const nodemailer = require('nodemailer');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -140,6 +141,52 @@ app.post('/api/waitlist', async (req, res) => {
       message = 'Waitlist is temporarily unavailable. Please try again later.';
     }
     return res.status(500).json({ ok: false, error: message });
+  }
+});
+
+// ── Chat widget notification endpoint ──────────────────────────────────────
+app.post('/api/chat-notify', async (req, res) => {
+  const { type, question, userEmail, attachName } = req.body || {};
+  if (!type || !question) {
+    return res.status(400).json({ ok: false, error: 'Missing fields' });
+  }
+
+  const smtpUser = process.env.SMTP_USER;
+  const smtpPass = process.env.SMTP_PASS;
+  if (!smtpUser || !smtpPass) {
+    console.error('[chat-notify] SMTP not configured. Set SMTP_USER and SMTP_PASS env vars.');
+    return res.status(503).json({ ok: false, error: 'Email service not configured' });
+  }
+
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: { user: smtpUser, pass: smtpPass },
+  });
+
+  try {
+    if (type === 'question') {
+      await transporter.sendMail({
+        from: `"Arbitrica Chat" <${smtpUser}>`,
+        to: 'team@arbitrica.com',
+        subject: 'New question from Arbitrica visitor',
+        text: `A visitor asked:\n\n${question}${attachName ? '\n\nAttachment: ' + attachName : ''}`,
+        html: `<p><strong>A visitor asked:</strong></p><blockquote style="border-left:3px solid #433BE3;padding-left:12px;color:#333">${question.replace(/\n/g, '<br>')}</blockquote>${attachName ? `<p>📎 Attachment: ${attachName}</p>` : ''}`,
+      });
+    } else if (type === 'email') {
+      await transporter.sendMail({
+        from: `"Arbitrica Chat" <${smtpUser}>`,
+        to: 'team@arbitrica.com',
+        subject: `Arbitrica visitor email: ${userEmail}`,
+        text: `Visitor email: ${userEmail}\n\nOriginal question:\n${question}`,
+        html: `<p><strong>Visitor email:</strong> <a href="mailto:${userEmail}">${userEmail}</a></p><p><strong>Their question:</strong></p><blockquote style="border-left:3px solid #433BE3;padding-left:12px;color:#333">${question.replace(/\n/g, '<br>')}</blockquote>`,
+      });
+    } else {
+      return res.status(400).json({ ok: false, error: 'Unknown type' });
+    }
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('[chat-notify] Mail error:', err.message);
+    res.status(500).json({ ok: false, error: 'Failed to send email' });
   }
 });
 
