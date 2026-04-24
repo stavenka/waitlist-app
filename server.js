@@ -150,45 +150,12 @@ app.post('/api/chat-notify', async (req, res) => {
   if (!type || !question) {
     return res.status(400).json({ ok: false, error: 'Missing fields' });
   }
-
-  const smtpUser = process.env.SMTP_USER;
-  const smtpPass = process.env.SMTP_PASS;
-
-  // ── Path 1: SMTP email (if configured) ───────────────────────────────────
-  if (smtpUser && smtpPass) {
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: { user: smtpUser, pass: smtpPass },
-    });
-    try {
-      if (type === 'question') {
-        await transporter.sendMail({
-          from: `"Arbitrica Chat" <${smtpUser}>`,
-          to: 'team@arbitrica.com',
-          subject: 'New question from Arbitrica visitor',
-          text: `A visitor asked:\n\n${question}${attachName ? '\n\nAttachment: ' + attachName : ''}`,
-          html: `<p><strong>A visitor asked:</strong></p><blockquote style="border-left:3px solid #433BE3;padding-left:12px;color:#333">${question.replace(/\n/g, '<br>')}</blockquote>${attachName ? `<p>📎 Attachment: ${attachName}</p>` : ''}`,
-        });
-      } else if (type === 'email') {
-        await transporter.sendMail({
-          from: `"Arbitrica Chat" <${smtpUser}>`,
-          to: 'team@arbitrica.com',
-          subject: `Arbitrica visitor email: ${userEmail}`,
-          text: `Visitor email: ${userEmail}\n\nOriginal question:\n${question}`,
-          html: `<p><strong>Visitor email:</strong> <a href="mailto:${userEmail}">${userEmail}</a></p><p><strong>Their question:</strong></p><blockquote style="border-left:3px solid #433BE3;padding-left:12px;color:#333">${question.replace(/\n/g, '<br>')}</blockquote>`,
-        });
-      } else {
-        return res.status(400).json({ ok: false, error: 'Unknown type' });
-      }
-      return res.json({ ok: true });
-    } catch (err) {
-      console.error('[chat-notify] Mail error:', err.message);
-      return res.status(500).json({ ok: false, error: 'Failed to send email' });
-    }
+  if (type !== 'question' && type !== 'email') {
+    return res.status(400).json({ ok: false, error: 'Unknown type' });
   }
 
-  // ── Path 2: Google Sheets fallback (no SMTP configured) ──────────────────
-  // Saves all chat messages to a "Chat" tab in the existing waitlist spreadsheet.
+  // ── Primary: always save to Google Sheets "Chat" tab ─────────────────────
+  // This is the guaranteed record — runs whether or not SMTP is configured.
   try {
     let credentials = null;
     if (process.env.GOOGLE_CREDENTIALS_JSON) {
@@ -196,7 +163,7 @@ app.post('/api/chat-notify', async (req, res) => {
     } else {
       const credPath = getCredentialsPath();
       if (!fs.existsSync(credPath)) {
-        console.error('[chat-notify] No SMTP and no Google credentials. Cannot save chat message.');
+        console.error('[chat-notify] No Google credentials. Cannot save chat message.');
         return res.status(503).json({ ok: false, error: 'Chat service not configured' });
       }
       credentials = JSON.parse(fs.readFileSync(credPath, 'utf8'));
@@ -222,25 +189,101 @@ app.post('/api/chat-notify', async (req, res) => {
         spreadsheetId: SPREADSHEET_ID,
         range: `'${CHAT_SHEET}'!A1:E1`,
         valueInputOption: 'USER_ENTERED',
-        requestBody: { values: [['Timestamp', 'Type', 'Question', 'UserEmail', 'Attachment']] },
+        requestBody: { values: [['Timestamp', 'Type', 'Question / Message', 'User Email', 'Attachment']] },
       });
     }
 
-    const row = [timestamp, type, question, type === 'email' ? (userEmail || '') : '', attachName || ''];
-    await sheets.spreadsheets.values.append({
-      spreadsheetId: SPREADSHEET_ID,
-      range: `'${CHAT_SHEET}'!A:E`,
-      valueInputOption: 'USER_ENTERED',
-      insertDataOption: 'INSERT_ROWS',
-      requestBody: { values: [row] },
-    });
-
-    console.log(`[chat-notify] Saved to Sheets: type=${type}, question="${question.slice(0, 60)}"`);
-    return res.json({ ok: true });
+    // For type=email rows, update the most recent question row from this session instead of adding a new row,
+    // so each conversation is a single clean record. If no recent question row exists, append a new one.
+    if (type === 'email' && userEmail) {
+      // Read recent rows to find the last question row without an email (same session, last 10 rows)
+      const readRes = await sheets.spreadsheets.values.get({
+        spreadsheetId: SPREADSHEET_ID,
+        range: `'${CHAT_SHEET}'!A:E`,
+      });
+      const rows = readRes.data.values || [];
+      // Find last row where Type=question and UserEmail is empty (header row is row index 0)
+      let lastQuestionRowIdx = -1;
+      for (let i = rows.length - 1; i >= 1; i--) {
+        if (rows[i][1] === 'question' && (!rows[i][3] || rows[i][3] === '')) {
+          lastQuestionRowIdx = i + 1; // 1-based sheet row number
+          break;
+        }
+      }
+      if (lastQuestionRowIdx > 0) {
+        // Update that row's UserEmail column (D) in place
+        await sheets.spreadsheets.values.update({
+          spreadsheetId: SPREADSHEET_ID,
+          range: `'${CHAT_SHEET}'!D${lastQuestionRowIdx}`,
+          valueInputOption: 'USER_ENTERED',
+          requestBody: { values: [[userEmail]] },
+        });
+        console.log(`[chat-notify] Updated email on row ${lastQuestionRowIdx}: ${userEmail}`);
+        // Fall through to also attempt SMTP below
+      } else {
+        // No matching question row — append a standalone email row
+        const row = [timestamp, type, question, userEmail, attachName || ''];
+        await sheets.spreadsheets.values.append({
+          spreadsheetId: SPREADSHEET_ID,
+          range: `'${CHAT_SHEET}'!A:E`,
+          valueInputOption: 'USER_ENTERED',
+          insertDataOption: 'INSERT_ROWS',
+          requestBody: { values: [row] },
+        });
+        console.log(`[chat-notify] Appended email row: ${userEmail}`);
+      }
+    } else {
+      // type=question: always append a new row
+      const row = [timestamp, type, question, '', attachName || ''];
+      await sheets.spreadsheets.values.append({
+        spreadsheetId: SPREADSHEET_ID,
+        range: `'${CHAT_SHEET}'!A:E`,
+        valueInputOption: 'USER_ENTERED',
+        insertDataOption: 'INSERT_ROWS',
+        requestBody: { values: [row] },
+      });
+      console.log(`[chat-notify] Saved question to Sheets: "${question.slice(0, 60)}"`);
+    }
   } catch (err) {
     console.error('[chat-notify] Sheets error:', err.message);
     return res.status(500).json({ ok: false, error: 'Failed to save message' });
   }
+
+  // ── Secondary: also send SMTP email notification if credentials are set ───
+  // Optional bonus alert — does not affect the response if it fails.
+  const smtpUser = process.env.SMTP_USER;
+  const smtpPass = process.env.SMTP_PASS;
+  if (smtpUser && smtpPass) {
+    try {
+      const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: { user: smtpUser, pass: smtpPass },
+      });
+      if (type === 'question') {
+        await transporter.sendMail({
+          from: `"Arbitrica Chat" <${smtpUser}>`,
+          to: 'team@arbitrica.com',
+          subject: 'New question from Arbitrica visitor',
+          text: `A visitor asked:\n\n${question}${attachName ? '\n\nAttachment: ' + attachName : ''}`,
+          html: `<p><strong>A visitor asked:</strong></p><blockquote style="border-left:3px solid #433BE3;padding-left:12px;color:#333">${question.replace(/\n/g, '<br>')}</blockquote>${attachName ? `<p>📎 Attachment: ${attachName}</p>` : ''}`,
+        });
+      } else if (type === 'email') {
+        await transporter.sendMail({
+          from: `"Arbitrica Chat" <${smtpUser}>`,
+          to: 'team@arbitrica.com',
+          subject: `Arbitrica visitor email: ${userEmail}`,
+          text: `Visitor email: ${userEmail}\n\nOriginal question:\n${question}`,
+          html: `<p><strong>Visitor email:</strong> <a href="mailto:${userEmail}">${userEmail}</a></p><p><strong>Their question:</strong></p><blockquote style="border-left:3px solid #433BE3;padding-left:12px;color:#333">${question.replace(/\n/g, '<br>')}</blockquote>`,
+        });
+      }
+      console.log(`[chat-notify] Email notification sent for type=${type}`);
+    } catch (err) {
+      console.error('[chat-notify] Mail error (non-fatal):', err.message);
+      // Don't fail the request — data is already saved to Sheets
+    }
+  }
+
+  return res.json({ ok: true });
 });
 
 app.listen(PORT, async () => {
