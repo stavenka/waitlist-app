@@ -231,7 +231,6 @@
     '</div>' +
     '<div id="arb-success">✉️ <span id="arb-success-txt">We\'ll get back to you shortly!</span></div>' +
     '<div id="arb-email-zone">' +
-      '<p>Please leave your email so we can send you the answer:</p>' +
       '<div id="arb-email-row">' +
         '<input id="arb-email-in" type="email" placeholder="you@example.com" autocomplete="email">' +
         '<button id="arb-email-go">Send ✓</button>' +
