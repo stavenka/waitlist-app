@@ -2,3 +2,4 @@ node_modules/
 .env
 waitlist-*-*.json
 google-credentials.json
+ga-key.json
