@@ -25,9 +25,19 @@
 
   /* ── STYLES ─────────────────────────────────────────────────────────────── */
   var css = `
-    /* ── Hide entirely on mobile ── */
+    /* ── Mobile: compact launcher + full-width bottom drawer ── */
     @media (max-width: 768px) {
-      #arb-launcher, #arb-window, #arb-emoji-panel { display: none !important; }
+      #arb-launcher {
+        bottom:16px; right:16px; min-width:90px; max-width:110px;
+        padding:8px 10px; font-size:10px; border-radius:12px;
+      }
+      #arb-window {
+        width:100vw !important; max-width:100vw !important;
+        right:0 !important; bottom:0 !important;
+        border-radius:20px 20px 0 0 !important;
+        max-height:85vh !important;
+      }
+      #arb-emoji-panel { right:8px !important; width:260px !important; }
     }
     #arb-launcher {
       position:fixed; bottom:24px; right:24px; z-index:9998;

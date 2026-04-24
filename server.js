@@ -153,40 +153,93 @@ app.post('/api/chat-notify', async (req, res) => {
 
   const smtpUser = process.env.SMTP_USER;
   const smtpPass = process.env.SMTP_PASS;
-  if (!smtpUser || !smtpPass) {
-    console.error('[chat-notify] SMTP not configured. Set SMTP_USER and SMTP_PASS env vars.');
-    return res.status(503).json({ ok: false, error: 'Email service not configured' });
+
+  // ── Path 1: SMTP email (if configured) ───────────────────────────────────
+  if (smtpUser && smtpPass) {
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: { user: smtpUser, pass: smtpPass },
+    });
+    try {
+      if (type === 'question') {
+        await transporter.sendMail({
+          from: `"Arbitrica Chat" <${smtpUser}>`,
+          to: 'team@arbitrica.com',
+          subject: 'New question from Arbitrica visitor',
+          text: `A visitor asked:\n\n${question}${attachName ? '\n\nAttachment: ' + attachName : ''}`,
+          html: `<p><strong>A visitor asked:</strong></p><blockquote style="border-left:3px solid #433BE3;padding-left:12px;color:#333">${question.replace(/\n/g, '<br>')}</blockquote>${attachName ? `<p>📎 Attachment: ${attachName}</p>` : ''}`,
+        });
+      } else if (type === 'email') {
+        await transporter.sendMail({
+          from: `"Arbitrica Chat" <${smtpUser}>`,
+          to: 'team@arbitrica.com',
+          subject: `Arbitrica visitor email: ${userEmail}`,
+          text: `Visitor email: ${userEmail}\n\nOriginal question:\n${question}`,
+          html: `<p><strong>Visitor email:</strong> <a href="mailto:${userEmail}">${userEmail}</a></p><p><strong>Their question:</strong></p><blockquote style="border-left:3px solid #433BE3;padding-left:12px;color:#333">${question.replace(/\n/g, '<br>')}</blockquote>`,
+        });
+      } else {
+        return res.status(400).json({ ok: false, error: 'Unknown type' });
+      }
+      return res.json({ ok: true });
+    } catch (err) {
+      console.error('[chat-notify] Mail error:', err.message);
+      return res.status(500).json({ ok: false, error: 'Failed to send email' });
+    }
   }
 
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: { user: smtpUser, pass: smtpPass },
-  });
-
+  // ── Path 2: Google Sheets fallback (no SMTP configured) ──────────────────
+  // Saves all chat messages to a "Chat" tab in the existing waitlist spreadsheet.
   try {
-    if (type === 'question') {
-      await transporter.sendMail({
-        from: `"Arbitrica Chat" <${smtpUser}>`,
-        to: 'team@arbitrica.com',
-        subject: 'New question from Arbitrica visitor',
-        text: `A visitor asked:\n\n${question}${attachName ? '\n\nAttachment: ' + attachName : ''}`,
-        html: `<p><strong>A visitor asked:</strong></p><blockquote style="border-left:3px solid #433BE3;padding-left:12px;color:#333">${question.replace(/\n/g, '<br>')}</blockquote>${attachName ? `<p>📎 Attachment: ${attachName}</p>` : ''}`,
-      });
-    } else if (type === 'email') {
-      await transporter.sendMail({
-        from: `"Arbitrica Chat" <${smtpUser}>`,
-        to: 'team@arbitrica.com',
-        subject: `Arbitrica visitor email: ${userEmail}`,
-        text: `Visitor email: ${userEmail}\n\nOriginal question:\n${question}`,
-        html: `<p><strong>Visitor email:</strong> <a href="mailto:${userEmail}">${userEmail}</a></p><p><strong>Their question:</strong></p><blockquote style="border-left:3px solid #433BE3;padding-left:12px;color:#333">${question.replace(/\n/g, '<br>')}</blockquote>`,
-      });
+    let credentials = null;
+    if (process.env.GOOGLE_CREDENTIALS_JSON) {
+      credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS_JSON);
     } else {
-      return res.status(400).json({ ok: false, error: 'Unknown type' });
+      const credPath = getCredentialsPath();
+      if (!fs.existsSync(credPath)) {
+        console.error('[chat-notify] No SMTP and no Google credentials. Cannot save chat message.');
+        return res.status(503).json({ ok: false, error: 'Chat service not configured' });
+      }
+      credentials = JSON.parse(fs.readFileSync(credPath, 'utf8'));
     }
-    res.json({ ok: true });
+
+    const auth = new google.auth.GoogleAuth({
+      credentials,
+      scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+    });
+    const sheets = google.sheets({ version: 'v4', auth });
+    const CHAT_SHEET = 'Chat';
+    const timestamp = new Date().toISOString();
+
+    // Ensure "Chat" tab exists; create with headers if not
+    const meta = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
+    const tabTitles = (meta.data.sheets || []).map(s => s.properties && s.properties.title).filter(Boolean);
+    if (!tabTitles.includes(CHAT_SHEET)) {
+      await sheets.spreadsheets.batchUpdate({
+        spreadsheetId: SPREADSHEET_ID,
+        requestBody: { requests: [{ addSheet: { properties: { title: CHAT_SHEET } } }] },
+      });
+      await sheets.spreadsheets.values.update({
+        spreadsheetId: SPREADSHEET_ID,
+        range: `'${CHAT_SHEET}'!A1:E1`,
+        valueInputOption: 'USER_ENTERED',
+        requestBody: { values: [['Timestamp', 'Type', 'Question', 'UserEmail', 'Attachment']] },
+      });
+    }
+
+    const row = [timestamp, type, question, type === 'email' ? (userEmail || '') : '', attachName || ''];
+    await sheets.spreadsheets.values.append({
+      spreadsheetId: SPREADSHEET_ID,
+      range: `'${CHAT_SHEET}'!A:E`,
+      valueInputOption: 'USER_ENTERED',
+      insertDataOption: 'INSERT_ROWS',
+      requestBody: { values: [row] },
+    });
+
+    console.log(`[chat-notify] Saved to Sheets: type=${type}, question="${question.slice(0, 60)}"`);
+    return res.json({ ok: true });
   } catch (err) {
-    console.error('[chat-notify] Mail error:', err.message);
-    res.status(500).json({ ok: false, error: 'Failed to send email' });
+    console.error('[chat-notify] Sheets error:', err.message);
+    return res.status(500).json({ ok: false, error: 'Failed to save message' });
   }
 });
 
