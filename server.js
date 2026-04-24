@@ -66,6 +66,8 @@ app.get('/robots.txt', (req, res) => {
   res.send('User-agent: *\nAllow: /\nSitemap: https://arbitrica.com/sitemap.xml\n');
 });
 
+// ── SEO: redirect /index.html → / to avoid duplicate content ──
+app.get("/index.html", (req, res) => res.redirect(301, "/"));
 app.use(express.static(__dirname));
 
 app.post('/api/waitlist', async (req, res) => {
