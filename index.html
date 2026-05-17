@@ -29,6 +29,10 @@
           var __av = document.documentElement.getAttribute('data-arbitrica-variant') || 'control';
           fbq('trackCustom', 'VariantView', { variant: __av });
         }
+        /* Reddit Pixel */
+        !function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js";t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);
+        rdt('init','a2_izom4j0ou030');
+        rdt('track','PageVisit');
       }
       window.arbitricaLoadTracking = loadAll;
       var ev = ['pointerdown','keydown','scroll','touchstart'];
@@ -886,6 +890,7 @@
       gtag('event','conversion',{'send_to':'AW-18057434040/DQayCPrv0JUcELinuqJD'});
       gtag('event','generate_lead',{'event_category':'waitlist','event_label':'claim_button','value':1});
       if (window.fbq) fbq('track','Lead',{content_name:'Arbitrica Waitlist',content_category:'Waitlist Signup',value:0.00,currency:'USD'});
+      if (window.rdt) rdt('track','SignUp');
       // PostHog — primary metric for headline test experiment
       try {
         if (window.posthog && typeof posthog.capture === 'function') {
