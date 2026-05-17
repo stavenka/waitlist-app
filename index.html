@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="google-site-verification" content="eCaAaFQq8D8D3cV7U_Za6y9yJSKrk_49pAAFfq2Hoqw" />
+  <!-- Reddit Pixel — loads eagerly so Reddit can verify installation -->
+  <script>
+    !function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js";t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);
+    rdt('init','a2_izom4j0ou030');
+    rdt('track','PageVisit');
+  </script>
   <script>
     /* GA4 + Ads + Meta Pixel are deferred until first user interaction to
        keep Lighthouse scores high. All conversion events still fire because
@@ -29,10 +35,7 @@
           var __av = document.documentElement.getAttribute('data-arbitrica-variant') || 'control';
           fbq('trackCustom', 'VariantView', { variant: __av });
         }
-        /* Reddit Pixel */
-        !function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js";t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);
-        rdt('init','a2_izom4j0ou030');
-        rdt('track','PageVisit');
+        /* Reddit Pixel — loaded inside deferred block; SignUp event fires below */
       }
       window.arbitricaLoadTracking = loadAll;
       var ev = ['pointerdown','keydown','scroll','touchstart'];
