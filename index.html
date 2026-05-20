@@ -64,6 +64,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
   <title>Arbitrica | AI Hidden Price Finder – Save Up to $5,000/Year</title>
 
+  <!-- Organization schema markup — distinguishes "Arbitrica" the brand from "arbitrage" the financial term for Google Knowledge Graph -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Arbitrica",
+    "alternateName": ["Arbitrica AI", "ARBITRICA LTD"],
+    "legalName": "ARBITRICA LTD",
+    "url": "https://arbitrica.com",
+    "logo": "https://arbitrica.com/Arbitrica_logo_transparent.png",
+    "image": "https://arbitrica.com/Arbitrica_logo_transparent.png",
+    "description": "Arbitrica is an AI-powered Chrome extension that finds hidden hotel prices by searching across 200 countries simultaneously, then auto-rebooks at the lower price. Saves users up to $5,000/year on international hotel bookings.",
+    "foundingDate": "2024",
+    "founders": [
+      {
+        "@type": "Person",
+        "name": "Art Stavenka",
+        "jobTitle": "Co-founder and CEO",
+        "sameAs": "https://www.linkedin.com/in/artstavenka/"
+      },
+      {
+        "@type": "Person",
+        "name": "Andrés Pérez Torres",
+        "jobTitle": "Co-founder and CTO",
+        "sameAs": "https://www.linkedin.com/in/andrespereztorres/"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "GB",
+      "addressLocality": "London"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "careers@arbitrica.com",
+      "contactType": "customer support"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/arbitrica",
+      "https://www.crunchbase.com/organization/arbitrica-ai",
+      "https://find-and-update.company-information.service.gov.uk/company/ARBITRICA",
+      "https://x.com/arbitrica"
+    ],
+    "knowsAbout": [
+      "hotel price arbitrage",
+      "geographic price discrimination",
+      "international hotel booking",
+      "AI price optimization",
+      "post-payment price rebooking"
+    ],
+    "areaServed": "Worldwide"
+  }
+  </script>
+
+  <!-- WebSite schema markup — helps Google show a search box for the site in SERPs -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Arbitrica",
+    "alternateName": "Arbitrica AI",
+    "url": "https://arbitrica.com",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Arbitrica"
+    }
+  }
+  </script>
+
   <!-- ── PostHog (eager load — needed for feature flags + accurate first-visit attribution) ── -->
   <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init bs ws ge fs capture De calculateEventProperties Ai $s register register_once register_for_session unregister unregister_for_session jn getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty xs Ss createPersonProfile Es gs opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing Cs debug I Os getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -905,10 +974,22 @@
       if (btn) { btn.disabled = false; btn.textContent = 'Claim for free'; }
       arbitricaShowModal(num);
     }
-    if (APPS_SCRIPT_URL.indexOf('PASTE_') !== -1) { done(arbitricaGetQueue()); return; }
-    fetch(APPS_SCRIPT_URL + '?email=' + encodeURIComponent(email))
+    // Collect UTM parameters from the landing URL so we can attribute signups
+    var urlParams = new URLSearchParams(window.location.search);
+    var utmData = {
+      email: email,
+      utm_source:   urlParams.get('utm_source')   || '',
+      utm_medium:   urlParams.get('utm_medium')   || '',
+      utm_campaign: urlParams.get('utm_campaign') || '',
+      utm_content:  urlParams.get('utm_content')  || ''
+    };
+    fetch('/api/waitlist', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(utmData)
+    })
       .then(function(r) { return r.json(); })
-      .then(function(d) { done((d && d.queue_number) ? d.queue_number : arbitricaGetQueue()); })
+      .then(function() { done(arbitricaGetQueue()); })
       .catch(function() { done(arbitricaGetQueue()); });
   }
 
