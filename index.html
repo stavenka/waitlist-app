@@ -347,6 +347,15 @@
       line-height: 1.7;
       max-width: 460px;
     }
+    .hero-highlight {
+      color: var(--fg);
+      font-weight: 600;
+      background-image: linear-gradient(120deg, hsl(280 70% 50% / 0.18) 0%, hsl(320 80% 55% / 0.18) 100%);
+      background-repeat: no-repeat;
+      background-size: 100% 40%;
+      background-position: 0 85%;
+      padding: 0 0.1em;
+    }
 
     /* ── CTA — stacked email + button ────────────────────────────────────── */
     .cta-pill {
@@ -732,7 +741,7 @@
         </h1>
 
         <!-- #11: new sub-message -->
-        <p class="hero-p">There's a hidden price for every hotel. This AI<br>searches from 200 countries &amp; finds the lowest<br>price on Earth — to recover you up to $5,000/year.<br>For free.</p>
+        <p class="hero-p">There's a hidden price for every hotel. This AI<br>searches from <span class="hero-highlight">200 countries</span> &amp; finds the <span class="hero-highlight">lowest<br>price on Earth</span> — to recover you up to $5,000/year.<br>For free.</p>
 
         <!-- #6: unified pill CTA, #5: placeholder is just "Enter your email" -->
         <form class="cta-pill" id="waitlistForm" action="javascript:void(0)" onsubmit="arbitricaClaim(); return false;">
