@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Option C – Elegant Minimal Price Story</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #f0e6dc; display: flex; align-items: center; justify-content: center; min-height: 100vh; font-family: 'Inter', sans-serif; padding: 24px; box-sizing: border-box; }
+
+  .preview-wrapper {
+    width: 100%;
+    max-width: 640px;
+  }
+  .option-label {
+    text-align: center;
+    margin-bottom: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2c1810;
+  }
+  .option-desc {
+    text-align: center;
+    font-size: 13px;
+    color: #7a6a5a;
+    margin-bottom: 20px;
+  }
+
+  /* OUTER CARD */
+  .comparison-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    width: 100%;
+    padding: 0;
+  }
+
+  /* HOTEL BANNER at top */
+  .hotel-banner {
+    background: linear-gradient(135deg, #c8b4a0 0%, #a09080 50%, #887060 100%);
+    height: 72px;
+    display: flex;
+    align-items: flex-end;
+    padding: 12px 20px;
+    position: relative;
+  }
+  .hotel-banner-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 60%);
+  }
+  .hotel-banner-info {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .hotel-banner-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  }
+  .hotel-banner-stars { font-size: 12px; color: #f5c842; margin-top: 2px; }
+  .hotel-banner-dates {
+    font-size: 10px;
+    color: rgba(255,255,255,0.85);
+    text-align: right;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+  }
+
+  /* PRICE COMPARISON AREA */
+  .price-comparison {
+    display: grid;
+    grid-template-columns: 1fr 56px 1fr;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 0;
+    background: #fff;
+  }
+
+  /* Price panel shared styles */
+  .price-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 12px;
+    border-radius: 14px;
+    text-align: center;
+  }
+  .price-panel-left {
+    background: #fff8f5;
+    border: 1.5px solid #ffd0b0;
+  }
+  .price-panel-right {
+    background: #f0fdf5;
+    border: 2px solid #16a34a;
+  }
+
+  .panel-source {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #aaa;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .source-dot { width: 6px; height: 6px; border-radius: 50%; }
+  .dot-blue { background: #003580; }
+  .dot-green { background: #22c55e; }
+
+  .price-big-left {
+    font-family: 'Outfit', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1a1a1a;
+    line-height: 1;
+    margin: 0;
+  }
+  .price-big-right {
+    font-family: 'Outfit', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #15803d;
+    line-height: 1;
+    margin: 0;
+  }
+  .price-night-label {
+    font-size: 10px;
+    color: #aaa;
+    font-weight: 500;
+    margin-top: -4px;
+  }
+  .price-total-label {
+    font-size: 11px;
+    color: #888;
+    font-weight: 600;
+    background: #f5f0eb;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  .price-total-label-green {
+    font-size: 11px;
+    color: #15803d;
+    font-weight: 600;
+    background: #bbf7d0;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+
+  /* NZ badge */
+  .nz-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #14532d;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 999px;
+  }
+  .hidden-label {
+    font-size: 9px;
+    color: #15803d;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  /* CENTER arrow and savings */
+  .price-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+  .center-arrow {
+    font-size: 22px;
+    color: #E65100;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  /* SAVINGS BANNER at bottom */
+  .savings-banner {
+    margin: 0 16px 16px;
+    background: linear-gradient(135deg, #E65100 0%, #FF9800 100%);
+    border-radius: 12px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .savings-main {
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 1;
+  }
+  .savings-sub {
+    color: rgba(255,255,255,0.9);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 1.4;
+  }
+  .savings-divider {
+    width: 1px;
+    height: 32px;
+    background: rgba(255,255,255,0.4);
+  }
+  .savings-usd {
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  /* FOOTER */
+  .card-footer {
+    padding: 10px 20px;
+    background: #1a0a00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .footer-gambit {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    color: #FF8C00;
+    letter-spacing: 0.04em;
+  }
+  .footer-tagline {
+    font-size: 11px;
+    color: rgba(255,255,255,0.7);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+  }
+  .footer-dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+  }
+</style>
+</head>
+<body>
+<div class="preview-wrapper">
+  <p class="option-label">Option C — Elegant Minimal Story</p>
+  <p class="option-desc">Clean, story-driven. Hotel at top, big price numbers, savings banner at bottom.</p>
+
+  <div class="comparison-card">
+
+    <!-- Hotel banner -->
+    <div class="hotel-banner">
+      <div class="hotel-banner-overlay"></div>
+      <div class="hotel-banner-info">
+        <div>
+          <div class="hotel-banner-name">Grand Plaza Hotel, Sydney</div>
+          <div class="hotel-banner-stars">★★★★☆ &nbsp;·&nbsp; CBD Location</div>
+        </div>
+        <div class="hotel-banner-dates">Apr 15 – Apr 18<br>3 nights</div>
+      </div>
+    </div>
+
+    <!-- Price comparison -->
+    <div class="price-comparison">
+
+      <!-- Left: Booking.com -->
+      <div class="price-panel price-panel-left">
+        <div class="panel-source"><span class="source-dot dot-blue"></span>booking.com</div>
+        <div class="price-big-left">$189</div>
+        <div class="price-night-label">per night</div>
+        <div class="price-total-label">Total $567</div>
+      </div>
+
+      <!-- Center -->
+      <div class="price-center">
+        <div class="center-arrow">→</div>
+      </div>
+
+      <!-- Right: Hidden NZ price -->
+      <div class="price-panel price-panel-right">
+        <div class="panel-source"><span class="source-dot dot-green"></span>agoda.com</div>
+        <div class="nz-pill">🇳🇿 New Zealand</div>
+        <div class="price-big-right">$147</div>
+        <div class="price-night-label" style="color: #15803d;">per night</div>
+        <div class="price-total-label-green">Total $441</div>
+        <div class="hidden-label">🔒 hidden price</div>
+      </div>
+
+    </div>
+
+    <!-- Savings banner -->
+    <div class="savings-banner">
+      <div>
+        <div class="savings-main">22% cheaper</div>
+        <div class="savings-sub">Same hotel · Same dates<br>New Zealand hidden price</div>
+      </div>
+      <div class="savings-divider"></div>
+      <div>
+        <div class="savings-usd">$126 saved</div>
+        <div class="savings-sub">on this booking alone</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="card-footer">
+      <span class="footer-gambit">Gambit</span>
+      <span class="footer-dot"></span>
+      <span class="footer-tagline">finds hidden prices automatically</span>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

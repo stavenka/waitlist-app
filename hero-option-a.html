@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Option A – Realistic Browser Screenshot Style</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #f0e6dc; display: flex; align-items: center; justify-content: center; min-height: 100vh; font-family: 'Inter', sans-serif; padding: 24px; box-sizing: border-box; }
+  .label-tag { display: inline-block; background: #E65100; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 10px; border-radius: 6px; margin-bottom: 12px; }
+
+  .preview-wrapper {
+    width: 100%;
+    max-width: 640px;
+  }
+
+  /* The card that goes INSIDE testimonials-wrap */
+  .comparison-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    width: 100%;
+  }
+
+  /* Top browser chrome bar */
+  .browser-bar {
+    background: #e8e0d8;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 14px;
+    border-bottom: 1px solid #d0c8be;
+  }
+  .browser-dots { display: flex; gap: 5px; }
+  .browser-dots span { width: 10px; height: 10px; border-radius: 50%; }
+  .dot-red { background: #ff5f57; }
+  .dot-yellow { background: #ffbd2e; }
+  .dot-green { background: #28c840; }
+  .browser-url { flex: 1; background: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11px; color: #888; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  /* Split content */
+  .split-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 220px;
+  }
+
+  /* Divider */
+  .split-divider {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #d0c8be;
+    transform: translateX(-50%);
+  }
+
+  .split-body { position: relative; }
+
+  /* Left panel – Booking.com style */
+  .panel-left {
+    padding: 14px;
+    border-right: 2px solid #e0d8d0;
+    background: #fafafa;
+  }
+  .panel-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .panel-label .site-dot { width: 8px; height: 8px; border-radius: 50%; background: #003580; display: inline-block; }
+  .panel-label .site-dot.right { background: #22a067; }
+
+  .hotel-name-sm { font-size: 12px; font-weight: 700; color: #1a1a1a; margin-bottom: 3px; }
+  .hotel-meta { font-size: 10px; color: #666; margin-bottom: 8px; }
+  .hotel-stars { color: #f5a623; font-size: 11px; letter-spacing: 1px; margin-bottom: 8px; }
+  .hotel-img-placeholder {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(135deg, #c8b8a8 0%, #b0a090 100%);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #8a7a6a;
+    font-weight: 600;
+  }
+  .dates-bar { font-size: 10px; color: #555; background: #f0f0f0; border-radius: 4px; padding: 4px 8px; margin-bottom: 10px; }
+
+  .price-box-left {
+    background: #fff3e0;
+    border: 1px solid #ffb74d;
+    border-radius: 8px;
+    padding: 10px 12px;
+    text-align: center;
+  }
+  .price-per-night-label { font-size: 9px; color: #888; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 2px; }
+  .price-big { font-size: 26px; font-weight: 700; color: #1a1a1a; line-height: 1; }
+  .price-per { font-size: 10px; color: #666; margin-top: 1px; }
+  .price-total { font-size: 10px; color: #888; margin-top: 3px; }
+
+  /* Right panel – other site with lower price */
+  .panel-right {
+    padding: 14px;
+    background: #f0faf5;
+    position: relative;
+  }
+
+  .nz-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #1a6b3c;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 999px;
+    margin-bottom: 8px;
+  }
+  .nz-badge .flag { font-size: 12px; }
+
+  .price-box-right {
+    background: #dcfce7;
+    border: 2px solid #16a34a;
+    border-radius: 8px;
+    padding: 10px 12px;
+    text-align: center;
+    margin-top: auto;
+    position: relative;
+  }
+  .price-big-right { font-size: 26px; font-weight: 700; color: #15803d; line-height: 1; }
+  .savings-badges {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 8px;
+    flex-wrap: wrap;
+  }
+  .badge-pct {
+    background: #E65100;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+  }
+  .badge-usd {
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 999px;
+  }
+
+  .hidden-price-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: #15803d;
+    text-align: center;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  /* Arrow between panels */
+  .vs-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px;
+    height: 32px;
+    background: #E65100;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(230,81,0,0.4);
+    pointer-events: none;
+  }
+
+  /* Bottom strip */
+  .gambit-strip {
+    background: #1a0a00;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .gambit-strip-text {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .gambit-strip-logo {
+    color: #FF8C00;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  /* Context label */
+  .option-label {
+    text-align: center;
+    margin-bottom: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2c1810;
+  }
+  .option-desc {
+    text-align: center;
+    font-size: 13px;
+    color: #7a6a5a;
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+<div class="preview-wrapper">
+  <p class="option-label">Option A — Realistic Browser Style</p>
+  <p class="option-desc">Mimics a real browser with two booking sites side by side. Familiar, credible.</p>
+
+  <div class="comparison-card">
+    <!-- Browser chrome -->
+    <div class="browser-bar">
+      <div class="browser-dots">
+        <span class="dot-red"></span>
+        <span class="dot-yellow"></span>
+        <span class="dot-green"></span>
+      </div>
+      <div class="browser-url">booking.com &nbsp;→&nbsp; gambit hidden price 🔒</div>
+    </div>
+
+    <!-- Split body -->
+    <div class="split-body">
+      <!-- VS arrow overlay -->
+      <div class="vs-arrow">→</div>
+
+      <!-- LEFT: Booking.com -->
+      <div class="panel-left">
+        <div class="panel-label"><span class="site-dot"></span> booking.com</div>
+        <div class="hotel-img-placeholder">📷 Grand Plaza Hotel</div>
+        <div class="hotel-name-sm">Grand Plaza Hotel</div>
+        <div class="hotel-stars">★★★★☆</div>
+        <div class="hotel-meta">Sydney CBD · Apr 15–18</div>
+        <div class="price-box-left">
+          <div class="price-per-night-label">Price per night</div>
+          <div class="price-big">$189</div>
+          <div class="price-per">per night · 3 nights</div>
+          <div class="price-total">Total: $567</div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Hidden price NZ -->
+      <div class="panel-right">
+        <div class="panel-label"><span class="site-dot right"></span> agoda.com</div>
+        <div class="hotel-img-placeholder" style="background: linear-gradient(135deg, #b8d8c8 0%, #90c0a8 100%); color: #4a8a6a;">📷 Grand Plaza Hotel</div>
+        <div class="hotel-name-sm">Grand Plaza Hotel</div>
+        <div class="hotel-stars">★★★★☆</div>
+        <div class="hotel-meta">Sydney CBD · Apr 15–18</div>
+        <div class="nz-badge"><span class="flag">🇳🇿</span> Hidden Price · New Zealand</div>
+        <div class="hidden-price-label">✓ Same hotel · Same dates</div>
+        <div class="price-box-right">
+          <div class="price-per-night-label" style="color:#15803d;">Hidden price per night</div>
+          <div class="price-big-right">$147</div>
+          <div class="price-per" style="color:#15803d;">per night · 3 nights</div>
+          <div class="price-total" style="color:#15803d;">Total: $441</div>
+          <div class="savings-badges">
+            <span class="badge-pct">22% cheaper</span>
+            <span class="badge-usd">Save $126</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom strip -->
+    <div class="gambit-strip">
+      <span class="gambit-strip-logo">Gambit</span>
+      <span class="gambit-strip-text">finds this hidden price automatically</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>

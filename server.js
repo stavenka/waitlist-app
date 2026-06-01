@@ -80,6 +80,12 @@ app.post('/api/waitlist', async (req, res) => {
     return res.status(400).json({ ok: false, error: 'Please enter a valid email address.' });
   }
 
+  // UTM parameters (optional — stored in columns E–H, after the existing Name column D)
+  const utmSource   = req.body.utm_source   ? String(req.body.utm_source).slice(0, 200)   : '';
+  const utmMedium   = req.body.utm_medium   ? String(req.body.utm_medium).slice(0, 200)   : '';
+  const utmCampaign = req.body.utm_campaign ? String(req.body.utm_campaign).slice(0, 200) : '';
+  const utmContent  = req.body.utm_content  ? String(req.body.utm_content).slice(0, 200)  : '';
+
   let credentials = null;
   if (process.env.GOOGLE_CREDENTIALS_JSON) {
     try {
@@ -105,7 +111,8 @@ app.post('/api/waitlist', async (req, res) => {
     const sheets = google.sheets({ version: 'v4', auth });
     const dateJoined = new Date().toISOString();
     const status = 'New';
-    const row = [email, dateJoined, status];
+    // Columns: A=Email, B=Date joined, C=Status, D=(Name – left blank), E–H=UTM fields
+    const row = [email, dateJoined, status, '', utmSource, utmMedium, utmCampaign, utmContent];
 
     // Fetch spreadsheet to get actual sheet names and verify access
     const meta = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
@@ -121,7 +128,7 @@ app.post('/api/waitlist', async (req, res) => {
 
     await sheets.spreadsheets.values.append({
       spreadsheetId: SPREADSHEET_ID,
-      range: `'${sheetName}'!A:C`,
+      range: `'${sheetName}'!A:H`,
       valueInputOption: 'USER_ENTERED',
       insertDataOption: 'INSERT_ROWS',
       requestBody: { values: [row] },
