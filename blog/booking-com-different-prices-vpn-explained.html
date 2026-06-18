@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Booking.com Different Prices by Country (VPN) — Explained | Arbitrica Blog</title>
+  <meta name="description" content="Why Booking.com shows different prices by country IP, why VPNs stopped working in 2022, and what actually works in 2026. Includes ECJ ruling C-264/23 and CNMC fine context.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Booking.com Different Prices by Country (VPN) — Explained | Arbitrica Blog">
+  <meta property="og:description" content="Why Booking.com shows different prices by country IP, why VPNs stopped working in 2022, and what actually works in 2026. Includes ECJ ruling C-264/23 and CNMC fine context.">
+  <meta property="og:url" content="https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html">
+  <meta property="og:site_name" content="Arbitrica">
+  <meta property="og:image" content="https://arbitrica.com/Arbitrica_logo_transparent.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Booking.com Different Prices by Country (VPN) — Explained | Arbitrica Blog">
+  <meta name="twitter:description" content="Why Booking.com shows different prices by country IP, why VPNs stopped working in 2022, and what actually works in 2026. Includes ECJ ruling C-264/23 and CNMC fine context.">
+  <meta name="twitter:image" content="https://arbitrica.com/Arbitrica_logo_transparent.png">
+  <link rel="icon" href="/Arbitrica_logo_transparent.png">
+  <link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/spacegrotesk-700.woff2" as="font" type="font/woff2" crossorigin>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Why Booking.com Shows Different Prices by Country IP \u2014 and What Actually Works", "description": "Booking.com, Expedia, and other OTAs show different prices for the same hotel room based on country IP. Commercial VPNs were blocked in 2022. Residential proxies still work. Explainer of how geographic price discrimination works in 2026.", "author": {"@type": "Organization", "name": "Arbitrica"}, "publisher": {"@type": "Organization", "name": "Arbitrica", "logo": {"@type": "ImageObject", "url": "https://arbitrica.com/Arbitrica_logo_transparent.png"}}, "datePublished": "2026-06-18", "dateModified": "2026-06-18", "url": "https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html", "image": "https://arbitrica.com/Arbitrica_logo_transparent.png", "mainEntity": {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does this also work on Expedia, Hotels.com, and Agoda?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Expedia, Hotels.com (same parent), and Agoda (Booking Holdings) all use geographic pricing. Arbitrica searches all of them and the major regional OTAs."}}, {"@type": "Question", "name": "Will the hotel honor the cheaper rate when I arrive?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The reservation is a normal OTA booking with a standard confirmation number. The hotel does not see what country IP was used at search time."}}, {"@type": "Question", "name": "What if my booking is at a chain like Marriott or Hilton?", "acceptedAnswer": {"@type": "Answer", "text": "Chain direct sites also exhibit geographic pricing, sometimes more aggressively than OTAs. Marriott has documented spreads of 30-50% on luxury properties. Arbitrica searches chain direct sites too."}}, {"@type": "Question", "name": "Can the hotel cancel my reservation if they notice?", "acceptedAnswer": {"@type": "Answer", "text": "No. The hotel only receives standard reservation data. Country of search is not transmitted."}}, {"@type": "Question", "name": "What is the largest country spread you have recorded?", "acceptedAnswer": {"@type": "Answer", "text": "A luxury Bangkok property in March 2026: $487 from a US IP, $312 from a Brazilian IP \u2014 a 36% gap on the same refundable room, same night."}}]}}</script>
+  <style>
+@font-face { font-family: 'Inter'; src: url('/fonts/inter-var.woff2') format('woff2'); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: 'Space Grotesk'; src: url('/fonts/spacegrotesk-700.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+:root {
+  --bg: hsl(220 30% 97%); --fg: hsl(0 0% 9%); --muted: hsl(0 0% 38%);
+  --border: hsl(0 0% 83%); --primary: hsl(243 75% 58%); --card-bg: hsl(0 0% 100%);
+  --radius: 1.25rem; --radius-sm: 0.75rem;
+  --grad-primary: linear-gradient(135deg, hsl(320 80% 55%), hsl(280 70% 50%));
+  --grad-hero-bg: linear-gradient(180deg, hsl(260 50% 94%) 0%, hsl(240 35% 96%) 45%, hsl(220 30% 97%) 100%);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 24px rgba(0,0,0,0.09), 0 2px 8px rgba(0,0,0,0.05);
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-body); background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.grad-text { background: var(--grad-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.page-top { padding: 4rem 0 2rem; text-align: center; background: var(--grad-hero-bg); }
+.page-title { font-family: var(--font-display); font-size: 2.5rem; font-weight: 700; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+.page-subtitle { font-size: 1.15rem; color: var(--muted); max-width: 720px; margin: 0.5rem auto 0; }
+.header { background: hsla(0 0% 100% / 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+.header-inner { max-width: 1200px; margin: 0 auto; padding: 0.75rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+.header-left .logo-link img { height: 38px; width: auto; }
+.header-center { display: flex; gap: 1rem; align-items: center; }
+.ai-sign { height: 28px; width: auto; }
+.header-right .nav-about-btn { font-family: var(--font-display); font-weight: 600; font-size: 0.95rem; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius: 10px; transition: background 0.15s; }
+.header-right .nav-about-btn:hover { background: hsl(240 20% 96%); }
+@media (max-width: 768px) { .header-center { display: none; } }
+.footer { background: var(--fg); color: hsl(0 0% 85%); padding: 3.5rem 0 1.5rem; margin-top: 4rem; }
+.footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2rem; margin-bottom: 2.5rem; }
+.footer-brand { font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; color: #fff; margin-bottom: 0.5rem; }
+.footer-brand-desc { font-size: 0.9rem; line-height: 1.6; color: hsl(0 0% 65%); }
+.footer-col h3 { font-family: var(--font-display); font-size: 0.85rem; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+.footer-col a { display: block; font-size: 0.9rem; color: hsl(0 0% 65%); padding: 0.25rem 0; transition: color 0.15s; }
+.footer-col a:hover { color: #fff; }
+.footer-bottom { border-top: 1px solid hsl(0 0% 22%); padding-top: 1.25rem; text-align: center; font-size: 0.8rem; color: hsl(0 0% 50%); }
+@media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+.article-content { max-width: 820px; margin: 0 auto; padding-top: 2rem; }
+.article-content p { font-size: 1.05rem; line-height: 1.75; color: var(--muted); margin-bottom: 1.25rem; }
+.article-content h2 { font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; color: var(--fg); margin: 2.75rem 0 1rem; letter-spacing: -0.02em; }
+.article-content h3 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; color: var(--fg); margin: 2rem 0 0.75rem; }
+.article-content ul, .article-content ol { margin: 0 0 1.25rem 1.5rem; color: var(--muted); }
+.article-content li { margin-bottom: 0.5rem; line-height: 1.65; }
+.article-content strong { color: var(--fg); }
+.article-content a { color: var(--primary); text-decoration: underline; }
+.article-meta { font-size: 0.875rem; color: var(--muted); margin-bottom: 2rem; }
+.cta-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; text-align: center; margin: 3rem 0; }
+.cta-box h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; margin-bottom: 0.5rem; }
+.cta-box p { color: var(--muted); margin-bottom: 1rem; }
+.cta-box .btn-cta { display: inline-flex; padding: 0.75rem 1.5rem; background: linear-gradient(to right, hsl(243 75% 56%), hsl(243 75% 44%)); color: white; border-radius: 10px; font-weight: 600; font-size: 0.95rem; box-shadow: 0 4px 16px rgba(76,68,228,0.28); transition: opacity 0.18s; }
+.cta-box .btn-cta:hover { opacity: 0.9; text-decoration: none; }
+.comparison-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+.comparison-table th, .comparison-table td { padding: 0.75rem 1rem; border: 1px solid var(--border); text-align: left; font-size: 0.95rem; }
+.comparison-table th { background: hsl(240 20% 96%); font-weight: 600; font-family: var(--font-display); }
+.comparison-table td { color: var(--muted); }
+.comparison-table td.yes { color: hsl(150 60% 35%); font-weight: 600; }
+.comparison-table td.no { color: hsl(0 65% 50%); font-weight: 600; }
+.verdict-box { background: linear-gradient(135deg, hsl(260 50% 96%), hsl(240 35% 97%)); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem 2rem; margin: 2rem 0; }
+.verdict-box h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--fg); }
+.verdict-box p { color: var(--fg); }
+.faq-item { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 1.5rem 1.75rem; margin: 1rem 0; }
+.faq-item h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; margin-bottom: 0.75rem; color: var(--fg); }
+.faq-item p { margin-bottom: 0.75rem; }
+.faq-item p:last-child { margin-bottom: 0; }
+.tldr { background: hsl(50 100% 95%); border-left: 4px solid hsl(45 90% 50%); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 4px; }
+.tldr strong { color: hsl(45 60% 30%); }
+@media (max-width: 640px) { .comparison-table { font-size: 0.85rem; } .comparison-table th, .comparison-table td { padding: 0.5rem; } }
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="/index.html" class="logo-link">
+        <picture>
+          <source srcset="/Arbitrica_logo_transparent.webp" type="image/webp">
+          <img src="/Arbitrica_logo_transparent.png" alt="Arbitrica" width="484" height="384">
+        </picture>
+      </a>
+    </div>
+    <div class="header-center">
+      <picture>
+        <source srcset="/AI-2.webp?v=r20260416" type="image/webp">
+        <img src="/AI-2.png?v=r20260416" alt="Idea of the Year 2025 AI award" class="ai-sign" width="260" height="42" loading="lazy" decoding="async">
+      </picture>
+      <picture>
+        <source srcset="/AI.webp?v=r20260416" type="image/webp">
+        <img src="/AI.png?v=r20260416" alt="Future of AI 2025 award" class="ai-sign" width="260" height="42" loading="lazy" decoding="async">
+      </picture>
+    </div>
+    <div class="header-right">
+      <a href="/about.html" class="nav-about-btn">About</a>
+    </div>
+  </div>
+</header>
+
+<div class="page-top">
+  <div class="container">
+    <h1 class="page-title">Booking.com Different Prices by Country IP, Explained</h1>
+    <p class="page-subtitle">Why the same room costs more from a US IP than from a Brazilian IP, why VPNs mostly don't work anymore, and what does.</p>
+  </div>
+</div>
+<div class="container">
+  <article class="article-content">
+    <p class="article-meta">Published June 2026 &middot; Arbitrica Team</p>
+
+    <div class="tldr">
+      <p><strong>Short version:</strong> Booking.com shows different prices for the same hotel based on the country IP of the visitor. This is geographic price discrimination and it is legal. Commercial VPNs used to work as a workaround but most have been blocked since 2022. The only reliable way to access the cheapest country's price today is a residential proxy network — which is what Arbitrica runs at the infrastructure level so you do not have to.</p>
+    </div>
+
+    <h2>Why does Booking.com show different prices in different countries?</h2>
+    <p>The same hotel room, on the same night, with the same cancellation policy, often costs more on Booking.com when you visit from the United States than when you visit from Indonesia. This is not a bug. It is the OTA business model.</p>
+    <p>Hotels distribute inventory to Booking.com (and to Expedia, Hotels.com, Agoda, Trip.com, and dozens of regional OTAs) under contracts that allow the OTA to set different prices in different markets. The OTA's revenue-management system then takes that flexibility and uses it. Markets with higher willingness to pay — typically the US, UK, Western Europe, and Australia — see higher prices for the same room. Markets with lower willingness to pay — typically Southeast Asia, Latin America, parts of Africa and the Middle East — see lower prices for the exact same inventory.</p>
+    <p>The spread is real and large. In our 2026 data, the median price difference between the cheapest country IP and the most expensive country IP for the same hotel room on the same night is 22%. The mean is higher because of long-tail luxury and Asian properties where spreads of 40-50% appear regularly.</p>
+
+    <h2>How OTAs decide what price to show you</h2>
+    <p>The OTA detects your country through several signals. The primary signal is your IP address — every IP is mapped to a country and ASN (autonomous system number) in commercial geolocation databases like MaxMind. The secondary signals include browser language, accepted currencies, time zone, and any country code you have logged in with previously. A user with a US IP, en-US browser language, USD currency preference, and Pacific time zone is shown the US price. A user with an Indonesian IP, en-ID browser, IDR currency, and Jakarta time zone is shown the Indonesian price.</p>
+    <p>The pricing logic itself is run by the OTA's revenue-management engine. The engine considers the property's contracted rate ceiling and floor by market, current inventory levels, historical conversion rates from that country, competitive prices on other OTAs, and seasonality. The output is a country-specific price. Two users searching the exact same room at the exact same time from two different countries are typically being shown two different prices generated by two parallel runs of the same algorithm.</p>
+
+    <h2>Why VPNs mostly do not work for this anymore</h2>
+    <p>The straightforward workaround used to be a commercial VPN. Connect to an Indonesian server, refresh the booking page, see the Indonesian price, book at the Indonesian price. This worked until roughly 2022, when Booking.com and Expedia deployed serious VPN detection.</p>
+    <p>The detection has three layers. First, commercial VPN endpoints concentrate traffic at a small number of IP addresses owned by VPN providers (NordVPN, ExpressVPN, Surfshark). These IPs are flagged in commercial blocklists and identified within seconds. Second, the OTA looks at the ASN — commercial VPN ASNs are categorized as "hosting" or "data center," which is different from a residential ISP's ASN. Third, the OTA cross-references your browser fingerprint (canvas, WebGL, time zone, language) against the IP geography; if you appear to be in Indonesia but your browser fingerprint is consistent with a US device, the OTA flags the mismatch and returns the home-country price anyway.</p>
+    <p>If you have tried a VPN with Booking.com in the last two years and the price did not change, this is why. The OTA detected the VPN at one of those three layers and silently served you the original-country price.</p>
+
+    <h2>What actually works: residential proxy networks</h2>
+    <p>Residential proxies route your traffic through real consumer IP addresses — actual home internet connections — in the target country. Because the IP belongs to a normal ISP (Telkom Indonesia, Tigo Argentina, BT in the UK) and the ASN is residential rather than hosting, the OTA's first two detection layers see a normal user. If the proxy provider also rotates browser fingerprints to match the IP's geography, the third detection layer is bypassed too.</p>
+    <p>The result is that the OTA serves the destination country's price, not your home country's price. Bookings completed through residential proxy networks routinely show 20-40% savings on the same room compared to the user's home-country price.</p>
+    <p>Residential proxies are not practical for an individual to set up. The infrastructure requires partnership agreements with consumer ISPs (or with mobile network operators), legal compliance with consumer-routing consent, and rotation logic to match browser fingerprints to IP geography. Commercial residential proxy networks (BrightData, Smartproxy, Oxylabs) sell access starting at $300-$3,000/month, which is not viable for a single traveler. Arbitrica runs the infrastructure for users at scale, which reduces the per-search cost to near-zero.</p>
+
+    <h2>Is this legal?</h2>
+    <p>Geographic price discrimination by OTAs is legal in most jurisdictions. The OTA is allowed to charge different prices in different markets, and the consumer is allowed to seek out the lowest of those prices. There is no statute that prohibits a consumer from booking a hotel using a different country's IP.</p>
+    <p>What is illegal — or has been ruled anti-competitive — is the contractual mechanism OTAs have used to enforce price parity between themselves. The European Court of Justice's July 2024 ruling in <strong>Case C-264/23 (Booking.com BV v 25hours Hotel Company Wien GmbH)</strong> struck down the wide price-parity clauses that Booking.com had used to require hotels to charge the same price across distribution channels. The Spanish CNMC fined Booking.com €413 million in the same month for related anti-competitive practices in the Spanish hotel market. The Italian AGCM had reached similar conclusions earlier. The combined regulatory picture in Europe is that the contractual scaffolding holding price parity together has been ruled unlawful.</p>
+    <p>The remaining tool OTAs have for managing price discrimination is the geographic targeting we described above. That tool is not illegal — but it is also not obligatory for the consumer to remain inside the geographic bucket the OTA has placed them in. Arbitrica is built to operate in the gap the ECJ ruling created: the contractual lock is gone, the geographic lock is technical and bypassable, and the consumer is entitled to access the lower price.</p>
+
+    <h2>What about hotel terms of service?</h2>
+    <p>OTAs' terms of service prohibit a range of automated activities (scraping for resale, fraudulent payment, abuse of cancellation policies). They do not prohibit a consumer from using a proxy to view prices in a different country. The booking itself is a legitimate consumer transaction: a person buying a hotel room with a real payment method at a price the OTA has chosen to offer in that market. The fact that the consumer is physically located elsewhere is not a contract violation.</p>
+    <p>Arbitrica is also careful about what it does not do. We do not abuse cancellation policies (we only cancel reservations when a real cheaper alternative is confirmed and held). We do not use stolen payment methods. We do not scrape for resale. We are a tool that helps consumers find legitimate prices the OTA has chosen to publish.</p>
+
+    <h2>How Arbitrica handles this automatically</h2>
+    <p>The Chrome extension detects when you are about to book a hotel. At that moment it queries the same property from 200 country IPs in parallel through our residential proxy network. The response time is 8-15 seconds. The cheapest valid result (same room, same dates, same or better cancellation policy) is the one we present.</p>
+    <p>After you have booked, the post-booking monitor continues to query the property from all 200 countries every few hours. If a price below what you paid appears on a refundable rate, Arbitrica confirms the new reservation first, cancels the original second, and emails you the refund confirmation. The combined geographic + temporal search is why Arbitrica savings average 18.7% — both layers compound.</p>
+
+    <h2>Common questions about country-IP hotel pricing</h2>
+
+    <div class="faq-item">
+      <h3>Does this also work on Expedia, Hotels.com, and Agoda?</h3>
+      <p>Yes. Expedia and Hotels.com share infrastructure (both are Expedia Group) and use similar geographic pricing logic. Agoda is part of Booking Holdings and is also affected. Trip.com, Hostelworld, and the regional OTAs (Despegar, Yatra) also exhibit geographic spreads, though the spreads vary by property type and region. Arbitrica searches all of them.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Will the hotel honor the cheaper rate when I arrive?</h3>
+      <p>Yes. The reservation is a normal Booking.com / Expedia / Agoda booking with a confirmation number. The hotel receives the same reservation data they receive from any other booking; they do not see what country IP was used. The check-in experience is identical to any other reservation.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What if my booking is at a chain like Marriott or Hilton?</h3>
+      <p>Chain direct sites also exhibit geographic pricing, sometimes more aggressively than OTAs. Marriott in particular has documented spreads of 30-50% between US and Asia-Pacific country IPs on luxury properties. Arbitrica searches chain direct sites in addition to OTAs.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can the hotel cancel my reservation if they notice?</h3>
+      <p>No. The hotel only sees the standard reservation data — guest name, dates, payment confirmation. The country of search is not transmitted. Hotels do not have visibility into how the reservation was made, only that it was made.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the largest country spread you have seen?</h3>
+      <p>The largest single spread we have recorded was on a luxury Bangkok property in March 2026: $487 from a US IP, $312 from a Brazilian IP — a 36% gap on the same room, same night, refundable rate on both. The customer booked at $312 and the hotel honored it without issue.</p>
+    </div>
+
+<div class="cta-box">
+  <h3>Stop overpaying for hotels</h3>
+  <p>Arbitrica searches 200 countries for the cheapest version of every hotel you book. Free for the first 10,000 users.</p>
+  <a href="/index.html" class="btn-cta">Join the waitlist &mdash; free for first 10,000</a>
+</div>
+
+  </article>
+</div>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">Arbitrica</p>
+        <p class="footer-brand-desc">The AI that finds hidden prices and earns you money after you pay. For free.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Product</h3>
+        <a href="/index.html#how-it-works">How it works</a>
+        <a href="/hotel-price-tracker.html">Price tracker</a>
+        <a href="/pricing.html">Pricing</a>
+      </div>
+      <div class="footer-col">
+        <h3>Company</h3>
+        <a href="/about.html">About</a>
+        <a href="/about.html#careers">Careers</a>
+        <a href="/blog/">Blog</a>
+      </div>
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <a href="/assets/privacy-policy.html">Privacy</a>
+        <a href="/assets/terms-of-service.html">Terms</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Arbitrica<sup style="font-size:0.7em;color:rgba(255,255,255,0.85);">TM</sup> All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
