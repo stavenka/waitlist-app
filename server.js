@@ -126,7 +126,7 @@ app.post('/api/waitlist', async (req, res) => {
     const preferred = [SHEET_NAME, 'Waitlist', 'Sheet1'].filter(Boolean);
     const sheetName = preferred.find(t => sheetTitles.includes(t)) || sheetTitles[0];
 
-    await sheets.spreadsheets.values.append({
+    const appendRes = await sheets.spreadsheets.values.append({
       spreadsheetId: SPREADSHEET_ID,
       range: `'${sheetName}'!A:H`,
       valueInputOption: 'USER_ENTERED',
@@ -134,7 +134,15 @@ app.post('/api/waitlist', async (req, res) => {
       requestBody: { values: [row] },
     });
 
-    return res.json({ ok: true });
+    // Derive sequential queue number from sheet row.
+    // QUEUE_OFFSET set so row 589 (first row after this deploy) → #7000.
+    const QUEUE_OFFSET = 6411;
+    const updatedRange = appendRes.data.updates && appendRes.data.updates.updatedRange || '';
+    const rowMatch = updatedRange.match(/:?[A-Z]+(\d+)$/);
+    const appendedRow = rowMatch ? parseInt(rowMatch[1], 10) : 0;
+    const position = appendedRow > 0 ? appendedRow + QUEUE_OFFSET : 7000;
+
+    return res.json({ ok: true, position });
   } catch (err) {
     const code = err.response && err.response.status;
     const msg = err.message || '';
