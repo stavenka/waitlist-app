@@ -896,7 +896,7 @@
     <div class="queue-emoji">🎉</div>
     <p class="queue-title" id="queueModalTitle">You're in!</p>
     <p class="queue-label">Your queue number</p>
-    <div class="queue-number" id="queueModalNumber">#2000</div>
+    <div class="queue-number" id="queueModalNumber">#7000</div>
     <p class="queue-text">Stay tuned for our email with access<br>prior to the <strong>launch</strong>.</p>
     <button type="button" class="queue-close" id="queueModalClose">Got it</button>
   </div>
@@ -934,7 +934,7 @@
 
 <script>
   var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwLEYW5koQGdH6tZmHqfQ9g3EYhMqkhnUI7uJSVjhlMQJVwZyiSRvncpzRypcFaKdI6/exec';
-  var QUEUE_START = 2000;
+  var QUEUE_START = 7000;
 
   function arbitricaGetQueue() {
     try {
@@ -999,7 +999,7 @@
       body: JSON.stringify(utmData)
     })
       .then(function(r) { return r.json(); })
-      .then(function() { done(arbitricaGetQueue()); })
+      .then(function(data) { done(data && data.position ? data.position : arbitricaGetQueue()); })
       .catch(function() { done(arbitricaGetQueue()); });
   }
 
