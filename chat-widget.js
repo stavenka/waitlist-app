@@ -1,15 +1,17 @@
 /**
  * Arbitrica — "Ask AI about us" widget
  * ------------------------------------------------------------------
- * A slick floating card (bottom-right) that lets visitors ask ChatGPT,
- * Claude or Perplexity for an independent view of Arbitrica. Each button
- * deep-links to the assistant with a pre-filled prompt.
+ * An inline card placed directly below the hero "See it in action" video,
+ * letting visitors ask ChatGPT, Claude or Perplexity for an independent view
+ * of Arbitrica. Each button deep-links to the assistant with a pre-filled
+ * prompt. Compact horizontal buttons; sits in the page flow (never floats
+ * over content).
  *
  * Served at /chat-widget.js and included site-wide via
  *   <script src="chat-widget.js" defer></script>
  *
  * This file REPLACES the former "Found what you're looking for?" support
- * chat widget. That widget (and its /api/chat-notify → sheet wiring) is
+ * chat widget. That widget (and its /api/chat-notify -> sheet wiring) is
  * preserved in git history on the `arbitrica` branch and can be restored.
  */
 (function () {
@@ -17,7 +19,6 @@
 
   if (window.__arbAiWidgetLoaded) return;
   window.__arbAiWidgetLoaded = true;
-  if (document.getElementById('arb-ai-widget')) return;
 
   /* ── Pre-filled prompt + assistant deep-links ─────────────────────────── */
   var PROMPT = 'Tell me how Arbitrica (arbitrica.com) saves people money on hotels';
@@ -45,40 +46,33 @@
 
   /* ── Styles ───────────────────────────────────────────────────────────── */
   var css = ''
-    + '#arb-ai-widget{position:fixed;bottom:24px;right:24px;z-index:9998;width:372px;max-width:calc(100vw - 32px);'
-    +   'box-sizing:border-box;background:#fff;border:1px solid hsl(240 22% 92%);border-radius:20px;'
-    +   'padding:18px 18px 16px;font-family:\'Inter\',system-ui,-apple-system,sans-serif;'
-    +   'box-shadow:0 16px 44px rgba(30,27,70,0.17),0 3px 12px rgba(0,0,0,0.06);'
+    + '#arb-ai-widget{width:100%;max-width:560px;margin:24px auto 0;box-sizing:border-box;'
+    +   'background:#fff;border:1px solid hsl(240 22% 92%);border-radius:16px;padding:15px 16px;'
+    +   'font-family:\'Inter\',system-ui,-apple-system,sans-serif;'
+    +   'box-shadow:0 4px 18px rgba(30,27,70,0.07);'
     +   'animation:arb-ai-in .5s cubic-bezier(.16,1,.3,1) both;}'
     + '#arb-ai-widget *{box-sizing:border-box;}'
-    + '#arb-ai-head{display:flex;align-items:center;gap:9px;margin:0 26px 6px 0;}'
-    + '#arb-ai-spark{flex:none;width:26px;height:26px;border-radius:8px;display:flex;align-items:center;justify-content:center;'
+    + '#arb-ai-head{display:flex;align-items:center;gap:8px;margin-bottom:4px;}'
+    + '#arb-ai-spark{flex:none;width:24px;height:24px;border-radius:7px;display:flex;align-items:center;justify-content:center;'
     +   'background:hsl(280 60% 97%);border:1px solid hsl(280 50% 92%);}'
-    + '#arb-ai-spark svg{width:15px;height:15px;display:block;}'
-    + '.arb-ai-title{font-family:\'Space Grotesk\',\'Inter\',system-ui,sans-serif;font-weight:700;font-size:16.5px;'
+    + '#arb-ai-spark svg{width:14px;height:14px;display:block;}'
+    + '.arb-ai-title{font-family:\'Space Grotesk\',\'Inter\',system-ui,sans-serif;font-weight:700;font-size:15.5px;'
     +   'line-height:1.2;color:hsl(240 26% 11%);letter-spacing:-0.01em;}'
-    + '.arb-ai-sub{font-size:11.5px;line-height:1.4;color:hsl(240 6% 42%);margin:0 0 14px;white-space:nowrap;letter-spacing:-0.1px;}'
-    + '.arb-ai-btns{display:flex;flex-direction:column;gap:8px;}'
-    + '.arb-ai-btn{display:flex;align-items:center;justify-content:center;gap:9px;height:43px;border-radius:12px;'
-    +   'font-family:\'Inter\',system-ui,sans-serif;font-size:14px;font-weight:600;text-decoration:none;color:#fff;'
-    +   'box-shadow:0 1px 2px rgba(0,0,0,.14);transition:transform .15s ease,filter .15s ease,box-shadow .18s ease;cursor:pointer;}'
-    + '.arb-ai-btn:hover{transform:translateY(-1px);filter:brightness(1.08);box-shadow:0 6px 18px rgba(0,0,0,.2);}'
+    + '.arb-ai-sub{font-size:12px;line-height:1.35;color:hsl(240 6% 42%);margin:0 0 12px 0;}'
+    + '.arb-ai-btns{display:flex;gap:8px;}'
+    + '.arb-ai-btn{flex:1 1 0;min-width:0;display:flex;align-items:center;justify-content:center;gap:6px;height:38px;'
+    +   'border-radius:10px;font-family:\'Inter\',system-ui,sans-serif;font-size:13px;font-weight:600;text-decoration:none;'
+    +   'color:#fff;box-shadow:0 1px 2px rgba(0,0,0,.13);transition:transform .15s ease,filter .15s ease,box-shadow .18s ease;cursor:pointer;}'
+    + '.arb-ai-btn:hover{transform:translateY(-1px);filter:brightness(1.09);box-shadow:0 5px 15px rgba(0,0,0,.16);}'
     + '.arb-ai-btn:active{transform:translateY(0);}'
-    + '.arb-ai-btn svg{width:17px;height:17px;flex:none;}'
-    + '.arb-ai-btn span{line-height:1;}'
+    + '.arb-ai-btn svg{width:15px;height:15px;flex:none;}'
+    + '.arb-ai-btn span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:1;}'
     + '.arb-gpt{background:#0D0D0D;}'
     + '.arb-claude{background:#D97757;}'
     + '.arb-plx{background:#20808D;}'
-    + '.arb-x{position:absolute;top:11px;right:11px;width:25px;height:25px;border:none;background:transparent;'
-    +   'color:hsl(240 6% 55%);font-size:19px;line-height:1;cursor:pointer;border-radius:8px;display:flex;'
-    +   'align-items:center;justify-content:center;padding:0;transition:background .15s ease,color .15s ease;}'
-    + '.arb-x:hover{background:hsl(240 10% 95%);color:hsl(240 10% 25%);}'
-    + '#arb-ai-widget.arb-hidden{opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .25s ease,transform .25s ease;}'
-    + '@keyframes arb-ai-in{from{opacity:0;transform:translateY(16px) scale(.98);}to{opacity:1;transform:none;}}'
-    + '@media (max-width:480px){'
-    +   '#arb-ai-widget{right:12px;left:12px;bottom:12px;width:auto;max-width:none;padding:15px 15px 13px;border-radius:18px;}'
-    +   '.arb-ai-sub{white-space:normal;}'
-    + '}'
+    + '@media (max-width:560px){.arb-ai-btn{font-size:12.5px;gap:5px;}}'
+    + '@media (max-width:360px){.arb-ai-btns{flex-wrap:wrap;}.arb-ai-btn{flex:1 1 100%;}}'
+    + '@keyframes arb-ai-in{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}'
     + '@media (prefers-reduced-motion:reduce){#arb-ai-widget{animation:none;}.arb-ai-btn{transition:none;}}';
 
   var style = document.createElement('style');
@@ -87,30 +81,52 @@
   document.head.appendChild(style);
 
   /* ── Markup ───────────────────────────────────────────────────────────── */
-  var el = document.createElement('div');
-  el.id = 'arb-ai-widget';
-  el.setAttribute('role', 'complementary');
-  el.setAttribute('aria-label', 'Ask AI about Arbitrica');
-  el.innerHTML = ''
-    + '<button class="arb-x" type="button" aria-label="Dismiss">×</button>'
-    + '<div id="arb-ai-head">'
-    +   '<span id="arb-ai-spark">' + SPARK_SVG + '</span>'
-    +   '<div class="arb-ai-title">Want to ask AI about us?</div>'
-    + '</div>'
-    + '<div class="arb-ai-sub">Ask ChatGPT, Claude and Perplexity for an independent view</div>'
-    + '<div class="arb-ai-btns">'
-    +   '<a class="arb-ai-btn arb-gpt" href="' + LINKS.chatgpt + '" target="_blank" rel="noopener noreferrer">' + GPT_SVG + '<span>Ask ChatGPT</span></a>'
-    +   '<a class="arb-ai-btn arb-claude" href="' + LINKS.claude + '" target="_blank" rel="noopener noreferrer">' + CLAUDE_SVG + '<span>Ask Claude</span></a>'
-    +   '<a class="arb-ai-btn arb-plx" href="' + LINKS.perplexity + '" target="_blank" rel="noopener noreferrer">' + PLX_SVG + '<span>Ask Perplexity</span></a>'
-    + '</div>';
-
-  function mount() {
-    if (!document.body || document.getElementById('arb-ai-widget')) return;
-    document.body.appendChild(el);
-    var x = el.querySelector('.arb-x');
-    if (x) x.addEventListener('click', function () { el.classList.add('arb-hidden'); });
+  function build() {
+    var el = document.createElement('div');
+    el.id = 'arb-ai-widget';
+    el.setAttribute('role', 'complementary');
+    el.setAttribute('aria-label', 'Ask AI about Arbitrica');
+    el.innerHTML = ''
+      + '<div id="arb-ai-head">'
+      +   '<span id="arb-ai-spark">' + SPARK_SVG + '</span>'
+      +   '<div class="arb-ai-title">Want to ask AI about us?</div>'
+      + '</div>'
+      + '<div class="arb-ai-sub">Ask ChatGPT, Claude and Perplexity for an independent view</div>'
+      + '<div class="arb-ai-btns">'
+      +   '<a class="arb-ai-btn arb-gpt" href="' + LINKS.chatgpt + '" target="_blank" rel="noopener noreferrer">' + GPT_SVG + '<span>Ask ChatGPT</span></a>'
+      +   '<a class="arb-ai-btn arb-claude" href="' + LINKS.claude + '" target="_blank" rel="noopener noreferrer">' + CLAUDE_SVG + '<span>Ask Claude</span></a>'
+      +   '<a class="arb-ai-btn arb-plx" href="' + LINKS.perplexity + '" target="_blank" rel="noopener noreferrer">' + PLX_SVG + '<span>Ask Perplexity</span></a>'
+      + '</div>';
+    return el;
   }
 
-  if (document.body) mount();
-  else document.addEventListener('DOMContentLoaded', mount);
+  /* ── Mount: inline, directly below the hero "See it in action" video ───── */
+  function mount() {
+    if (document.getElementById('arb-ai-widget')) return true;
+    // Preferred anchor: the hero right column that holds the video.
+    var host = document.querySelector('.hero-right');
+    if (!host) {
+      // Pages without the hero video: fall back to the end of the main content
+      // (still inline, never floating over anything).
+      host = document.querySelector('main');
+    }
+    if (!host) return false;
+    host.appendChild(build());
+    return true;
+  }
+
+  function init() {
+    if (mount()) return;
+    // Anchor not in the DOM yet — retry shortly, then give up quietly.
+    var tries = 0;
+    var t = setInterval(function () {
+      if (mount() || ++tries > 20) clearInterval(t);
+    }, 250);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
