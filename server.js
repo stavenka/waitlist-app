@@ -54,6 +54,10 @@ app.use((req, res, next) => {
     res.set('Cache-Control', 'public, max-age=0, must-revalidate');
   } else if (/\.(png|jpg|jpeg|gif|webp|svg|ico|mp4|webm|woff2?|ttf|otf)$/i.test(req.path)) {
     res.set('Cache-Control', 'public, max-age=31536000, immutable');
+  } else if (req.path === '/chat-widget.js') {
+    // Always revalidate the widget so edits go live immediately for everyone
+    // (it's tiny, so the conditional GET is cheap).
+    res.set('Cache-Control', 'no-cache');
   } else if (/\.(css|js)$/i.test(req.path)) {
     res.set('Cache-Control', 'public, max-age=86400');
   }
@@ -134,8 +138,9 @@ app.post('/api/waitlist', async (req, res) => {
       requestBody: { values: [row] },
     });
 
-    // Derive sequential queue number from sheet row.
-    // QUEUE_OFFSET set so row 589 (first row after this deploy) → #7000.
+    // Derive a sequential queue number from the sheet row.
+    // QUEUE_OFFSET is set so that row 589 (the first row after this deploy) → #7000.
+    // Each subsequent signup gets the next integer automatically.
     const QUEUE_OFFSET = 6411;
     const updatedRange = appendRes.data.updates && appendRes.data.updates.updatedRange || '';
     const rowMatch = updatedRange.match(/:?[A-Z]+(\d+)$/);
