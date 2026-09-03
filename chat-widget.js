@@ -1,11 +1,11 @@
 /**
  * Arbitrica — "Ask AI about us" widget
  * ------------------------------------------------------------------
- * An inline card placed directly below the hero "See it in action" video,
- * letting visitors ask ChatGPT, Claude or Perplexity for an independent view
- * of Arbitrica. Each button deep-links to the assistant with a pre-filled
- * prompt. Compact horizontal buttons; sits in the page flow (never floats
- * over content).
+ * A small, right-aligned card placed below the hero "See it in action"
+ * video, letting visitors ask ChatGPT, Claude or Perplexity for an
+ * independent view of Arbitrica. Each button deep-links to the assistant
+ * with a pre-filled prompt. Compact horizontal buttons; sits in the page
+ * flow (never floats over content).
  *
  * Served at /chat-widget.js and included site-wide via
  *   <script src="chat-widget.js" defer></script>
@@ -40,39 +40,41 @@
 
   /* ── Brand glyphs (white, inline SVG) ─────────────────────────────────── */
   var GPT_SVG = '<svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M22.28 9.82a5.98 5.98 0 0 0-.52-4.91 6.05 6.05 0 0 0-6.51-2.9A6.06 6.06 0 0 0 4.98 4.2a5.98 5.98 0 0 0-4 2.9 6.05 6.05 0 0 0 .75 7.09 5.98 5.98 0 0 0 .51 4.91 6.05 6.05 0 0 0 6.52 2.9A5.98 5.98 0 0 0 13.26 22a6.05 6.05 0 0 0 5.77-4.2 5.99 5.99 0 0 0 4-2.9 6.05 6.05 0 0 0-.75-7.08Zm-9.02 12.6a4.48 4.48 0 0 1-2.88-1.04l.14-.08 4.79-2.77a.78.78 0 0 0 .39-.68v-6.75l2.02 1.17a.07.07 0 0 1 .04.06v5.6a4.5 4.5 0 0 1-4.5 4.49Zm-9.66-4.13a4.48 4.48 0 0 1-.54-3.01l.14.09 4.79 2.77a.78.78 0 0 0 .78 0l5.85-3.38v2.34a.07.07 0 0 1-.03.06l-4.84 2.8a4.5 4.5 0 0 1-6.15-1.66Zm-1.26-10.4a4.48 4.48 0 0 1 2.34-1.97v5.68a.77.77 0 0 0 .39.68l5.84 3.37-2.02 1.17a.07.07 0 0 1-.07 0l-4.83-2.79a4.5 4.5 0 0 1-1.65-6.14Zm16.63 3.87-5.85-3.38 2.02-1.16a.07.07 0 0 1 .07 0l4.83 2.79a4.5 4.5 0 0 1-.68 8.12v-5.69a.78.78 0 0 0-.39-.68Zm2.01-3.03-.14-.08-4.79-2.77a.78.78 0 0 0-.78 0L9.4 9.23V6.9a.07.07 0 0 1 .03-.07l4.83-2.78a4.5 4.5 0 0 1 6.69 4.66ZM8.3 12.86l-2.02-1.16a.08.08 0 0 1-.04-.06V6.05a4.5 4.5 0 0 1 7.38-3.45l-.14.08L8.7 5.45a.78.78 0 0 0-.39.68l-.01 6.73Zm1.1-2.36L12 8.99l2.6 1.51v3l-2.6 1.5-2.6-1.5v-3Z"/></svg>';
-  var CLAUDE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><path d="M12 2.6v18.8M2.6 12h18.8M5.35 5.35l13.3 13.3M18.65 5.35 5.35 18.65M8.2 3.3l7.6 17.4M3.3 15.8l17.4-7.6M3.3 8.2l17.4 7.6M8.2 20.7l7.6-17.4"/></svg>';
-  var PLX_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.6"/><path d="M12 3.4v17.2M4.4 8.2 12 12l7.6-3.8M4.4 15.8 12 12l7.6 3.8"/></svg>';
+  var CLAUDE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 2.6v18.8M2.6 12h18.8M5.35 5.35l13.3 13.3M18.65 5.35 5.35 18.65M8.2 3.3l7.6 17.4M3.3 15.8l17.4-7.6M3.3 8.2l17.4 7.6M8.2 20.7l7.6-17.4"/></svg>';
+  var PLX_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.6"/><path d="M12 3.4v17.2M4.4 8.2 12 12l7.6-3.8M4.4 15.8 12 12l7.6 3.8"/></svg>';
   var SPARK_SVG = '<svg viewBox="0 0 24 24" fill="url(#arbGrad)" aria-hidden="true"><defs><linearGradient id="arbGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E14BC0"/><stop offset="1" stop-color="#7B4FE0"/></linearGradient></defs><path d="M12 2.5l1.9 5.2a4 4 0 0 0 2.4 2.4l5.2 1.9-5.2 1.9a4 4 0 0 0-2.4 2.4L12 21.5l-1.9-5.2a4 4 0 0 0-2.4-2.4L2.5 12l5.2-1.9a4 4 0 0 0 2.4-2.4L12 2.5Z"/></svg>';
 
   /* ── Styles ───────────────────────────────────────────────────────────── */
   var css = ''
-    + '#arb-ai-widget{width:100%;max-width:560px;margin:24px auto 0;box-sizing:border-box;'
-    +   'background:#fff;border:1px solid hsl(240 22% 92%);border-radius:16px;padding:15px 16px;'
+    + '#arb-ai-widget{width:100%;max-width:356px;margin:20px 0 0 auto;align-self:flex-end;box-sizing:border-box;'
+    +   'background:#fff;border:1px solid hsl(240 22% 92%);border-radius:14px;padding:12px 13px;'
     +   'font-family:\'Inter\',system-ui,-apple-system,sans-serif;'
-    +   'box-shadow:0 4px 18px rgba(30,27,70,0.07);'
+    +   'box-shadow:0 4px 16px rgba(30,27,70,0.07);'
     +   'animation:arb-ai-in .5s cubic-bezier(.16,1,.3,1) both;}'
     + '#arb-ai-widget *{box-sizing:border-box;}'
-    + '#arb-ai-head{display:flex;align-items:center;gap:8px;margin-bottom:4px;}'
-    + '#arb-ai-spark{flex:none;width:24px;height:24px;border-radius:7px;display:flex;align-items:center;justify-content:center;'
+    + '#arb-ai-head{display:flex;align-items:center;gap:7px;margin-bottom:3px;}'
+    + '#arb-ai-spark{flex:none;width:20px;height:20px;border-radius:6px;display:flex;align-items:center;justify-content:center;'
     +   'background:hsl(280 60% 97%);border:1px solid hsl(280 50% 92%);}'
-    + '#arb-ai-spark svg{width:14px;height:14px;display:block;}'
-    + '.arb-ai-title{font-family:\'Space Grotesk\',\'Inter\',system-ui,sans-serif;font-weight:700;font-size:15.5px;'
+    + '#arb-ai-spark svg{width:12px;height:12px;display:block;}'
+    + '.arb-ai-title{font-family:\'Space Grotesk\',\'Inter\',system-ui,sans-serif;font-weight:700;font-size:14px;'
     +   'line-height:1.2;color:hsl(240 26% 11%);letter-spacing:-0.01em;}'
-    + '.arb-ai-sub{font-size:12px;line-height:1.35;color:hsl(240 6% 42%);margin:0 0 12px 0;}'
-    + '.arb-ai-btns{display:flex;gap:8px;}'
-    + '.arb-ai-btn{flex:1 1 0;min-width:0;display:flex;align-items:center;justify-content:center;gap:6px;height:38px;'
-    +   'border-radius:10px;font-family:\'Inter\',system-ui,sans-serif;font-size:13px;font-weight:600;text-decoration:none;'
-    +   'color:#fff;box-shadow:0 1px 2px rgba(0,0,0,.13);transition:transform .15s ease,filter .15s ease,box-shadow .18s ease;cursor:pointer;}'
-    + '.arb-ai-btn:hover{transform:translateY(-1px);filter:brightness(1.09);box-shadow:0 5px 15px rgba(0,0,0,.16);}'
+    + '.arb-ai-sub{font-size:11px;line-height:1.3;color:hsl(240 6% 42%);margin:0 0 10px 0;white-space:nowrap;}'
+    + '.arb-ai-btns{display:flex;gap:6px;}'
+    + '.arb-ai-btn{flex:1 1 0;min-width:0;display:flex;align-items:center;justify-content:center;gap:5px;height:33px;'
+    +   'border-radius:9px;font-family:\'Inter\',system-ui,sans-serif;font-size:11.5px;font-weight:600;text-decoration:none;'
+    +   'color:#fff;box-shadow:0 1px 2px rgba(0,0,0,.12);transition:transform .15s ease,filter .15s ease,box-shadow .18s ease;cursor:pointer;}'
+    + '.arb-ai-btn:hover{transform:translateY(-1px);filter:brightness(1.09);box-shadow:0 4px 12px rgba(0,0,0,.16);}'
     + '.arb-ai-btn:active{transform:translateY(0);}'
-    + '.arb-ai-btn svg{width:15px;height:15px;flex:none;}'
+    + '.arb-ai-btn svg{width:13px;height:13px;flex:none;}'
     + '.arb-ai-btn span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:1;}'
     + '.arb-gpt{background:#0D0D0D;}'
     + '.arb-claude{background:#D97757;}'
     + '.arb-plx{background:#20808D;}'
-    + '@media (max-width:560px){.arb-ai-btn{font-size:12.5px;gap:5px;}}'
-    + '@media (max-width:360px){.arb-ai-btns{flex-wrap:wrap;}.arb-ai-btn{flex:1 1 100%;}}'
-    + '@keyframes arb-ai-in{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}'
+    + '@media (max-width:480px){'
+    +   '#arb-ai-widget{max-width:none;width:100%;margin-left:0;}'
+    +   '.arb-ai-sub{white-space:normal;}'
+    + '}'
+    + '@keyframes arb-ai-in{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}'
     + '@media (prefers-reduced-motion:reduce){#arb-ai-widget{animation:none;}.arb-ai-btn{transition:none;}}';
 
   var style = document.createElement('style');
@@ -103,13 +105,8 @@
   /* ── Mount: inline, directly below the hero "See it in action" video ───── */
   function mount() {
     if (document.getElementById('arb-ai-widget')) return true;
-    // Preferred anchor: the hero right column that holds the video.
     var host = document.querySelector('.hero-right');
-    if (!host) {
-      // Pages without the hero video: fall back to the end of the main content
-      // (still inline, never floating over anything).
-      host = document.querySelector('main');
-    }
+    if (!host) host = document.querySelector('main');
     if (!host) return false;
     host.appendChild(build());
     return true;
@@ -117,7 +114,6 @@
 
   function init() {
     if (mount()) return;
-    // Anchor not in the DOM yet — retry shortly, then give up quietly.
     var tries = 0;
     var t = setInterval(function () {
       if (mount() || ++tries > 20) clearInterval(t);
