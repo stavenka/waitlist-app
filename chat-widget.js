@@ -1,11 +1,10 @@
 /**
  * Arbitrica — "Ask AI about us" widget
  * ------------------------------------------------------------------
- * A small, right-aligned card placed below the hero "See it in action"
- * video, letting visitors ask ChatGPT, Claude or Perplexity for an
- * independent view of Arbitrica. Each button deep-links to the assistant
- * with a pre-filled prompt. Compact horizontal buttons; sits in the page
- * flow (never floats over content).
+ * A small fixed card in the bottom-right corner (where the old support
+ * launcher sat), letting visitors ask ChatGPT, Claude or Perplexity for
+ * an independent view of Arbitrica. Each button deep-links to the
+ * assistant with a pre-filled prompt. Compact horizontal buttons.
  *
  * Served at /chat-widget.js and included site-wide via
  *   <script src="chat-widget.js" defer></script>
@@ -19,6 +18,7 @@
 
   if (window.__arbAiWidgetLoaded) return;
   window.__arbAiWidgetLoaded = true;
+  if (document.getElementById('arb-ai-widget')) return;
 
   /* ── Pre-filled prompt + assistant deep-links ─────────────────────────── */
   var PROMPT = 'Tell me how Arbitrica (arbitrica.com) saves people money on hotels';
@@ -46,13 +46,17 @@
 
   /* ── Styles ───────────────────────────────────────────────────────────── */
   var css = ''
-    + '#arb-ai-widget{width:100%;max-width:356px;margin:20px 0 0 auto;align-self:flex-end;box-sizing:border-box;'
-    +   'background:#fff;border:1px solid hsl(240 22% 92%);border-radius:14px;padding:12px 13px;'
+    + '#arb-ai-widget{position:fixed;bottom:22px;right:22px;z-index:9998;width:340px;max-width:calc(100vw - 32px);'
+    +   'box-sizing:border-box;background:#fff;border:1px solid hsl(240 22% 90%);border-radius:14px;padding:12px 13px;'
     +   'font-family:\'Inter\',system-ui,-apple-system,sans-serif;'
-    +   'box-shadow:0 4px 16px rgba(30,27,70,0.07);'
-    +   'animation:arb-ai-in .5s cubic-bezier(.16,1,.3,1) both;}'
+    +   'box-shadow:0 10px 34px rgba(30,27,70,0.16),0 2px 8px rgba(0,0,0,0.06);'
+    +   'animation:arb-ai-in .45s cubic-bezier(.16,1,.3,1) both;}'
     + '#arb-ai-widget *{box-sizing:border-box;}'
-    + '#arb-ai-head{display:flex;align-items:center;gap:7px;margin-bottom:3px;}'
+    + '.arb-x{position:absolute;top:8px;right:8px;width:22px;height:22px;border:none;background:transparent;'
+    +   'color:hsl(240 6% 58%);font-size:17px;line-height:1;cursor:pointer;border-radius:6px;display:flex;'
+    +   'align-items:center;justify-content:center;padding:0;transition:background .15s ease,color .15s ease;}'
+    + '.arb-x:hover{background:hsl(240 10% 95%);color:hsl(240 10% 25%);}'
+    + '#arb-ai-head{display:flex;align-items:center;gap:7px;margin:0 22px 3px 0;}'
     + '#arb-ai-spark{flex:none;width:20px;height:20px;border-radius:6px;display:flex;align-items:center;justify-content:center;'
     +   'background:hsl(280 60% 97%);border:1px solid hsl(280 50% 92%);}'
     + '#arb-ai-spark svg{width:12px;height:12px;display:block;}'
@@ -70,11 +74,12 @@
     + '.arb-gpt{background:#0D0D0D;}'
     + '.arb-claude{background:#D97757;}'
     + '.arb-plx{background:#20808D;}'
+    + '#arb-ai-widget.arb-hidden{opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s ease,transform .2s ease;}'
     + '@media (max-width:480px){'
-    +   '#arb-ai-widget{max-width:none;width:100%;margin-left:0;}'
+    +   '#arb-ai-widget{left:12px;right:12px;bottom:12px;width:auto;max-width:none;}'
     +   '.arb-ai-sub{white-space:normal;}'
     + '}'
-    + '@keyframes arb-ai-in{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}'
+    + '@keyframes arb-ai-in{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}'
     + '@media (prefers-reduced-motion:reduce){#arb-ai-widget{animation:none;}.arb-ai-btn{transition:none;}}';
 
   var style = document.createElement('style');
@@ -89,6 +94,7 @@
     el.setAttribute('role', 'complementary');
     el.setAttribute('aria-label', 'Ask AI about Arbitrica');
     el.innerHTML = ''
+      + '<button class="arb-x" type="button" aria-label="Dismiss">×</button>'
       + '<div id="arb-ai-head">'
       +   '<span id="arb-ai-spark">' + SPARK_SVG + '</span>'
       +   '<div class="arb-ai-title">Want to ask AI about us?</div>'
@@ -99,30 +105,20 @@
       +   '<a class="arb-ai-btn arb-claude" href="' + LINKS.claude + '" target="_blank" rel="noopener noreferrer">' + CLAUDE_SVG + '<span>Ask Claude</span></a>'
       +   '<a class="arb-ai-btn arb-plx" href="' + LINKS.perplexity + '" target="_blank" rel="noopener noreferrer">' + PLX_SVG + '<span>Ask Perplexity</span></a>'
       + '</div>';
+    var x = el.querySelector('.arb-x');
+    if (x) x.addEventListener('click', function () { el.classList.add('arb-hidden'); });
     return el;
   }
 
-  /* ── Mount: inline, directly below the hero "See it in action" video ───── */
+  /* ── Mount (fixed position, so it lives directly on <body>) ────────────── */
   function mount() {
-    if (document.getElementById('arb-ai-widget')) return true;
-    var host = document.querySelector('.hero-right');
-    if (!host) host = document.querySelector('main');
-    if (!host) return false;
-    host.appendChild(build());
-    return true;
-  }
-
-  function init() {
-    if (mount()) return;
-    var tries = 0;
-    var t = setInterval(function () {
-      if (mount() || ++tries > 20) clearInterval(t);
-    }, 250);
+    if (document.getElementById('arb-ai-widget')) return;
+    if (document.body) document.body.appendChild(build());
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', mount);
   } else {
-    init();
+    mount();
   }
 })();
