@@ -60,7 +60,7 @@
     + '#arb-ai-spark svg{width:12px;height:12px;display:block;}'
     + '.arb-ai-title{font-family:\'Space Grotesk\',\'Inter\',system-ui,sans-serif;font-weight:700;font-size:13px;'
     +   'line-height:1.2;color:hsl(240 26% 11%);letter-spacing:-0.01em;}'
-    + '.arb-ai-sub{font-size:10.5px;line-height:1.3;color:hsl(240 6% 42%);margin:0 0 7px 0;white-space:nowrap;}'
+    + '.arb-ai-sub{font-size:10.5px;line-height:1.3;color:hsl(240 6% 42%);margin:0 0 7px 0;white-space:nowrap;text-align:center;}'
     + '.arb-ai-btns{display:flex;gap:5px;}'
     + '.arb-ai-btn{flex:1 1 0;min-width:0;display:flex;align-items:center;justify-content:center;gap:5px;height:26px;'
     +   'border-radius:7px;font-family:\'Inter\',system-ui,sans-serif;font-size:11px;font-weight:600;text-decoration:none;'
