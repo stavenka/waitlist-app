@@ -96,7 +96,7 @@
       +   '<span id="arb-ai-spark">' + SPARK_SVG + '</span>'
       +   '<div class="arb-ai-title">Want to ask AI about Arbitrica?</div>'
       + '</div>'
-      + '<div class="arb-ai-sub">Ask ChatGPT & Perplexity for an independent view</div>'
+      + '<div class="arb-ai-sub">Ask for an independent view</div>'
       + '<div class="arb-ai-btns">'
       +   '<a class="arb-ai-btn arb-gpt" href="' + LINKS.chatgpt + '" target="_blank" rel="noopener noreferrer">' + GPT_SVG + '<span>Ask ChatGPT</span></a>'
       +   '<a class="arb-ai-btn arb-plx" href="' + LINKS.perplexity + '" target="_blank" rel="noopener noreferrer">' + PLX_SVG + '<span>Ask Perplexity</span></a>'
