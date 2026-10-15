@@ -427,12 +427,12 @@
     }
     .trust-check svg { width: 10px; height: 10px; }
     /* Stats under "Claim for free" (the user, 15-10-2026): icon + one line each, the pair as wide as the button. */
-    .trust-row.stats-row { gap: 0.75rem 0; flex-wrap: nowrap; justify-content: space-between; max-width: 420px; }
+    .trust-row.stats-row { gap: 0.6rem 1rem; flex-wrap: nowrap; justify-content: space-between; max-width: 420px; }
     .stat-item { display: flex; align-items: center; gap: 0.45rem; font-size: 0.78rem; color: var(--muted); white-space: nowrap; }
     .stat-item b { color: var(--fg); font-weight: 700; }
     .stat-ico { width: 24px; height: 24px; border-radius: 50%; background: linear-gradient(145deg, #ffffff, #f1eefc); box-shadow: 0 0 0 1px rgba(67,59,227,.18), 0 2px 6px rgba(67,59,227,.12); display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
     .stat-ico svg { width: 14px; height: 14px; }
-    @media (max-width: 420px) { .trust-row.stats-row { flex-wrap: wrap; } }
+    @media (max-width: 640px) { .trust-row.stats-row { flex-wrap: wrap; justify-content: center; max-width: none; } }
 
     /* ── Video card — #7: better overlay ─────────────────────────────────── */
     .hero-right {
