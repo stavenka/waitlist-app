@@ -590,6 +590,15 @@
       line-height: 1.35;
       letter-spacing: -0.02em;
     }
+    /* "Coming soon" above a step title (the user, 18-10-2026): the nav chip's amber, a size up. */
+    .step-soon {
+      align-self: flex-start; display: inline-flex; align-items: center; gap: 0.35rem;
+      font-family: var(--font-display); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.03em;
+      color: #92700c; background: linear-gradient(135deg, #fef3c7, #fde68a);
+      padding: 0.25rem 0.65rem; border-radius: 999px; line-height: 1.2; white-space: nowrap;
+      box-shadow: 0 1px 3px rgba(180, 140, 20, 0.15); margin-bottom: -0.35rem;
+    }
+    .step-soon::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #d4a20f; }
     .step-desc { font-size: 1rem; color: var(--muted); line-height: 1.7; }
     .step-video-wrap {
       border-radius: var(--radius);
@@ -733,7 +742,7 @@
 
     <nav class="header-nav" aria-label="Product categories">
       <a href="index.html" class="nav-cat current">Hotels</a>
-      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">Coming soon</span>Amazon purchases</a>
+      <a href="amazon.html" class="nav-cat"><span class="cs-chip">Coming soon, watch demo</span>Amazon purchases</a>
       <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">Coming soon</span>Events tickets</a>
     </nav>
 
@@ -860,6 +869,7 @@
         <div class="step">
           <div class="step-left">
             <div class="step-num">02</div>
+            <span class="step-soon">Coming soon</span>
             <h3 class="step-title">Post-booking daily price monitoring and automatic rebooking</h3>
             <p class="step-desc">When the price drops, it emails you &amp; prepares re-booking at a better price.</p>
           </div>
