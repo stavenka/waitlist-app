@@ -280,6 +280,18 @@
       white-space: nowrap; pointer-events: none;
       box-shadow: 0 1px 3px rgba(180, 140, 20, 0.15);
     }
+    /* "Coming soon | ▶ Watch demo" chip over Amazon purchases (the user, 18-10-2026, option 3). */
+    .nav-cat .cs-pair { position:absolute; top:-0.55rem; left:50%; transform:translateX(-50%); display:inline-flex; align-items:center; white-space:nowrap; pointer-events:none; line-height:1.2; font-size:0.55rem; font-weight:600; letter-spacing:0.03em; }
+    .cs-pair .cs-soon { display:inline-flex; align-items:center; color:#92700c; background:linear-gradient(135deg,#fef3c7,#fde68a); padding:0.12rem 0.42rem; border-radius:10px; box-shadow:0 1px 3px rgba(180,140,20,.15); }
+    .cs-pair .cs-sep { width:1px; height:0.6rem; background:rgba(146,112,12,.35); margin:0 0.35rem; }
+    .cs-pair .cs-demo { color:#7c3aed; font-weight:700; }
+    .cs-pair .cs-tri { display:inline-block; width:0; height:0; border-left:0.4rem solid currentColor; border-top:0.24rem solid transparent; border-bottom:0.24rem solid transparent; margin-right:0.25rem; vertical-align:-0.02rem; }
+    @media (max-width:640px) {
+      .nav-cat .cs-pair { font-size:0.4rem; top:-0.45rem; }
+      .cs-pair .cs-soon { padding:0.08rem 0.3rem; }
+      .cs-pair .cs-sep { margin:0 0.25rem; height:0.45rem; }
+      .cs-pair .cs-tri { border-left-width:0.32rem; border-top-width:0.19rem; border-bottom-width:0.19rem; margin-right:0.18rem; }
+    }
     .header-right  { display: flex; align-items: center; justify-content: flex-end; }
 
     /* #9: logo smaller */
@@ -437,6 +449,9 @@
     .hero-p .br-mob { display: none; }
     /* Amazon page (the user, 18-10-2026): each desktop line stays whole; "For free." on its own line everywhere. */
     .hero-p-amz { max-width: none; }
+    /* Amazon video (the user, 18-10-2026): the whole frame, nothing cropped at the sides - the card takes the video's 16:9. */
+    .video-card.video-card-amz { aspect-ratio: 16 / 9; }
+    .video-card-amz .hero-video { object-fit: contain; background: #000; }
     @media (min-width: 641px) { .hero-p-amz .nw { white-space: nowrap; } }
     @media (max-width: 640px) { .hero-p .br-desk { display: none; } .hero-p .br-mob { display: inline; } }
     /* Phones: the two stats stacked, icons in one column, the block centred under the button. */
@@ -745,7 +760,7 @@
 
     <nav class="header-nav" aria-label="Product categories">
       <a href="index.html" class="nav-cat">Hotels</a>
-      <a href="amazon.html" class="nav-cat current"><span class="cs-chip">Coming soon, watch demo</span>Amazon purchases</a>
+      <a href="amazon.html" class="nav-cat current"><span class="cs-pair"><span class="cs-soon">Coming soon<i class="cs-sep"></i><span class="cs-demo"><i class="cs-tri"></i>Watch demo</span></span></span>Amazon purchases</a>
       <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">Coming soon</span>Events tickets</a>
     </nav>
 
@@ -771,7 +786,7 @@
         </h1>
 
         <!-- #11: new sub-message -->
-        <p class="hero-p hero-p-amz">There are hidden prices for everything online.<br><span class="nw">For Amazon, this AI agent searches from <span class="hero-highlight">195 countries</span></span><br class="br-desk"> <span class="nw">&amp; finds the <span class="hero-highlight">lowest price for products on Earth</span>.</span><br> For free.</p>
+        <p class="hero-p hero-p-amz">There are hidden prices for everything online.<br><span class="nw">For Amazon, this AI agent searches from <span class="hero-highlight">195 countries</span></span><br class="br-desk"> <span class="nw">&amp; finds the <span class="hero-highlight">lowest price on Earth</span> for the same products.</span><br> For free.</p>
 
         <!-- #6: unified pill CTA, #5: placeholder is just "Enter your email" -->
         <form class="cta-pill" id="waitlistForm" action="javascript:void(0)" onsubmit="arbitricaClaim(); return false;">
@@ -805,11 +820,11 @@
       <!-- Right: hero video — #7: blurred overlay with gradient text -->
       <div class="hero-right">
           
-        <div class="video-card">
+        <div class="video-card video-card-amz">
           <video class="hero-video" id="heroVideo"
-                 src="Video How It Works For Amazon.mp4?v=1"
-                 width="1280" height="720"
-                 playsinline preload="none" poster="amazon-poster.jpg?v=1" muted controls
+                 src="Video How It Works For Amazon.mp4?v=2"
+                 width="1920" height="1080"
+                 playsinline preload="none" poster="amazon-poster.jpg?v=2" muted controls
                  aria-label="See how Arbitrica finds hidden prices on Amazon">
             <track kind="captions" srclang="en" label="English">
           </video>
