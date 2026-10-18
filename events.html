@@ -288,9 +288,6 @@
     .cs-pair .cs-tri { display:inline-block; width:0; height:0; border-left:0.4rem solid currentColor; border-top:0.24rem solid transparent; border-bottom:0.24rem solid transparent; margin-right:0.25rem; vertical-align:-0.02rem; }
     @media (max-width:640px) {
       .nav-cat .cs-pair { font-size:0.4rem; top:-0.35rem; }
-      .header-nav .nav-cat:last-child .cs-pair { left:auto; right:0.2rem; transform:none; }
-      /* Phones (the user, 19-10-2026): the two "Soon | Watch demo" chips kept apart - Amazon's sits over the start of its label. */
-      .header-nav .nav-cat:nth-child(2) .cs-pair { left:0.2rem; transform:none; }
       .cs-pair .cs-soon { padding:0.08rem 0.3rem; }
       .cs-pair .cs-sep { margin:0 0.25rem; height:0.45rem; }
       .cs-pair .cs-tri { border-left-width:0.32rem; border-top-width:0.19rem; border-bottom-width:0.19rem; margin-right:0.18rem; }
@@ -721,8 +718,8 @@
     }
     @media (max-width: 640px) {
       .header-inner { grid-template-columns: auto 1fr auto; padding: 0.4rem 0.85rem; }
-      .header-nav { gap: 0.7rem; justify-self: start; margin-left: 0.35rem; }
-      .nav-cat { font-size: 0.65rem; padding: 0.3rem 0.2rem; }
+      .header-nav { gap: 0.7rem; justify-self: start; margin-left: 0.35rem; margin-right: 0.5rem; }
+      .nav-cat { font-size: 0.62rem; padding: 0.3rem 0.2rem; } /* phones: a touch smaller so the centred "Soon | Watch demo" chips keep apart */
       .nav-cat .cs-chip { font-size: 0.4rem; top: -0.35rem; padding: 0.08rem 0.3rem; }
       .logo-link img { height: 70px; }
       .ai-sign { height: auto; width: clamp(70px, 14vw, 110px); }
