@@ -288,6 +288,7 @@
     .cs-pair .cs-tri { display:inline-block; width:0; height:0; border-left:0.4rem solid currentColor; border-top:0.24rem solid transparent; border-bottom:0.24rem solid transparent; margin-right:0.25rem; vertical-align:-0.02rem; }
     @media (max-width:640px) {
       .nav-cat .cs-pair { font-size:0.4rem; top:-0.35rem; }
+      .header-nav .nav-cat:last-child .cs-pair { left:auto; right:0.2rem; transform:none; }
       .cs-pair .cs-soon { padding:0.08rem 0.3rem; }
       .cs-pair .cs-sep { margin:0 0.25rem; height:0.45rem; }
       .cs-pair .cs-tri { border-left-width:0.32rem; border-top-width:0.19rem; border-bottom-width:0.19rem; margin-right:0.18rem; }
@@ -773,7 +774,7 @@
     <nav class="header-nav" aria-label="Product categories">
       <a href="index.html" class="nav-cat">Hotels</a>
       <a href="amazon.html" class="nav-cat current"><span class="cs-pair"><span class="cs-soon">Soon<i class="cs-sep"></i><span class="cs-demo"><i class="cs-tri"></i>Watch demo</span></span></span>Amazon purchases</a>
-      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">Soon</span>Events tickets</a>
+      <a href="events.html" class="nav-cat"><span class="cs-pair"><span class="cs-soon">Soon<i class="cs-sep"></i><span class="cs-demo"><i class="cs-tri"></i>Watch demo</span></span></span>Events tickets</a>
     </nav>
 
     <div class="header-right">
