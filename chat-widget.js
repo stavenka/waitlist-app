@@ -75,11 +75,11 @@
     + '#arb-ai-widget.arb-hidden{opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s ease,transform .2s ease;}'
     /* Phones (the user, 18-10-2026): a small card in the bottom-right corner only, the two buttons stacked. */
     + '@media (max-width:640px){'
-    +   '#arb-ai-widget{left:auto;right:12px;bottom:12px;width:200px;max-width:calc(100vw - 24px);padding:10px 10px 10px;}'
+    +   '#arb-ai-widget{left:auto;right:12px;bottom:12px;width:214px;max-width:calc(100vw - 24px);padding:10px 10px 10px;}'
     +   '#arb-ai-head{margin:0 18px 8px 0;}'
     +   '.arb-ai-tt{align-items:flex-start;}'
     +   '.arb-ai-title{font-size:12.5px;}'
-    +   '.arb-ai-sub{white-space:normal;text-align:left;}'
+    +   '.arb-ai-sub{white-space:nowrap;text-align:left;}'
     +   '.arb-ai-btns{flex-direction:column;gap:6px;}'
     +   '.arb-ai-btn{flex:none;width:100%;height:30px;font-size:11.5px;}'
     + '}'
@@ -121,9 +121,9 @@
     if (document.body) document.body.appendChild(build());
   }
 
-  /* Phones (the user, 18-10-2026): the card comes in 5 seconds after the visitor arrives. */
+  /* Phones (the user, 18-10-2026): the card comes in 10 seconds after the visitor arrives. */
   var isPhone = window.matchMedia && window.matchMedia('(max-width: 640px)').matches;
-  function start() { if (isPhone) setTimeout(mount, 5000); else mount(); }
+  function start() { if (isPhone) setTimeout(mount, 10000); else mount(); }
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', start);
