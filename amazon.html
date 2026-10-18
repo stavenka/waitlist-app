@@ -614,8 +614,12 @@
       font-family: var(--font-display); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.03em;
       color: #92700c; background: linear-gradient(135deg, #fef3c7, #fde68a);
       padding: 0.25rem 0.65rem; border-radius: 999px; line-height: 1.2; white-space: nowrap;
-      box-shadow: 0 1px 3px rgba(180, 140, 20, 0.15); margin-bottom: -0.35rem;
+      box-shadow: 0 1px 3px rgba(180, 140, 20, 0.15);
     }
+    /* Step number with its "Coming soon" pill beside it (the user, 18-10-2026). */
+    .step-head { display: flex; align-items: center; gap: 0.75rem; }
+    .step-head .step-num { margin-bottom: 0; }
+    .step-head .step-soon { align-self: center; }
     .step-soon::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #d4a20f; }
     .step-desc { font-size: 1rem; color: var(--muted); line-height: 1.7; }
     .step-video-wrap {
@@ -886,8 +890,10 @@
 
         <div class="step">
           <div class="step-left">
-            <div class="step-num">02</div>
-            <span class="step-soon">Coming soon</span>
+            <div class="step-head">
+              <div class="step-num">02</div>
+              <span class="step-soon">Coming soon</span>
+            </div>
             <h3 class="step-title">Post-booking daily price monitoring and automatic rebooking</h3>
             <p class="step-desc">When the price drops, it emails you &amp; prepares re-booking at a better price.</p>
           </div>
