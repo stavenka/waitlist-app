@@ -73,9 +73,15 @@
     + '.arb-gpt{background:#0D0D0D;}'
     + '.arb-plx{background:#20808D;}'
     + '#arb-ai-widget.arb-hidden{opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s ease,transform .2s ease;}'
-    + '@media (max-width:480px){'
-    +   '#arb-ai-widget{left:12px;right:12px;bottom:12px;width:auto;max-width:none;}'
-    +   '.arb-ai-sub{white-space:normal;}'
+    /* Phones (the user, 18-10-2026): a small card in the bottom-right corner only, the two buttons stacked. */
+    + '@media (max-width:640px){'
+    +   '#arb-ai-widget{left:auto;right:12px;bottom:12px;width:200px;max-width:calc(100vw - 24px);padding:10px 10px 10px;}'
+    +   '#arb-ai-head{margin:0 18px 8px 0;}'
+    +   '.arb-ai-tt{align-items:flex-start;}'
+    +   '.arb-ai-title{font-size:12.5px;}'
+    +   '.arb-ai-sub{white-space:normal;text-align:left;}'
+    +   '.arb-ai-btns{flex-direction:column;gap:6px;}'
+    +   '.arb-ai-btn{flex:none;width:100%;height:30px;font-size:11.5px;}'
     + '}'
     + '@keyframes arb-ai-in{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}'
     + '@media (prefers-reduced-motion:reduce){#arb-ai-widget{animation:none;}.arb-ai-btn{transition:none;}}';
@@ -115,9 +121,13 @@
     if (document.body) document.body.appendChild(build());
   }
 
+  /* Phones (the user, 18-10-2026): the card comes in 5 seconds after the visitor arrives. */
+  var isPhone = window.matchMedia && window.matchMedia('(max-width: 640px)').matches;
+  function start() { if (isPhone) setTimeout(mount, 5000); else mount(); }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', mount);
+    document.addEventListener('DOMContentLoaded', start);
   } else {
-    mount();
+    start();
   }
 })();
