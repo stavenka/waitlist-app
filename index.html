@@ -292,6 +292,9 @@
       .cs-pair .cs-sep { margin:0 0.25rem; height:0.45rem; }
       .cs-pair .cs-tri { border-left-width:0.32rem; border-top-width:0.19rem; border-bottom-width:0.19rem; margin-right:0.18rem; }
     }
+    /* Phones (the user, 18-10-2026): the nav chips say just "Soon". */
+    .nav-cat .cs-short { display: none; }
+    @media (max-width: 640px) { .nav-cat .cs-full { display: none; } .nav-cat .cs-short { display: inline; } }
     .header-right  { display: flex; align-items: center; justify-content: flex-end; }
 
     /* #9: logo smaller */
@@ -758,8 +761,8 @@
 
     <nav class="header-nav" aria-label="Product categories">
       <a href="index.html" class="nav-cat current">Hotels</a>
-      <a href="amazon.html" class="nav-cat"><span class="cs-pair"><span class="cs-soon">Coming soon<i class="cs-sep"></i><span class="cs-demo"><i class="cs-tri"></i>Watch demo</span></span></span>Amazon purchases</a>
-      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip">Coming soon</span>Events tickets</a>
+      <a href="amazon.html" class="nav-cat"><span class="cs-pair"><span class="cs-soon"><span class="cs-full">Coming soon</span><span class="cs-short">Soon</span><i class="cs-sep"></i><span class="cs-demo"><i class="cs-tri"></i>Watch demo</span></span></span>Amazon purchases</a>
+      <a href="#" class="nav-cat" onclick="return false"><span class="cs-chip"><span class="cs-full">Coming soon</span><span class="cs-short">Soon</span></span>Events tickets</a>
     </nav>
 
     <div class="header-right">
