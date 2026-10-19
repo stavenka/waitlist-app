@@ -453,7 +453,7 @@
     .hero-p-amz .amz-mob { display: none; }
     .hero-p-amz .nw-m { white-space: nowrap; }
     /* Desktop two-column hero: the long middle line keeps its 3-line layout and leaves the video room on smaller laptops. */
-    @media (min-width: 941px) { .hero-p.hero-p-amz { font-size: clamp(14.5px, 1.45vw, 16.5px); } } /* sized so the bigger demo video gets room */
+    @media (min-width: 941px) { .hero-p.hero-p-amz { font-size: clamp(15px, 1.55vw, 1.125rem); } }
     /* Narrow phones: the text shrinks just enough for "from 195 countries & finds the lowest price" to stay on one line. */
     @media (max-width: 640px) { .hero-p.hero-p-amz { font-size: min(1rem, calc((100vw - 40px) / 23.4)); } }
     @media (max-width: 640px) { .hero-p-amz .amz-desk { display: none; } .hero-p-amz .amz-mob { display: inline; } }
@@ -804,7 +804,7 @@
         </h1>
 
         <!-- #11: new sub-message -->
-        <p class="hero-p hero-p-amz"><span class="amz-desk"><span class="nw">There are hidden prices for everything online. When</span><br><span class="nw">you&rsquo;re on Amazon, this agent searches from <span class="hero-highlight">195 countries</span></span><br><span class="nw">&amp; finds the <span class="hero-highlight">lowest price on Earth</span> for the same products</span></span><span class="amz-mob"><span class="nw-m">There are hidden prices for everything online.</span><br><span class="nw-m">When you are on Amazon, this AI agent searches</span><br><span class="nw-m">from <span class="hero-highlight">195 countries</span> &amp; finds the <span class="hero-highlight">lowest price</span></span><br><span class="hero-highlight">on Earth</span> for the same products</span></p>
+        <p class="hero-p hero-p-amz"><span class="amz-desk"><span class="nw">There&rsquo;re hidden prices for everything online. When you</span><br><span class="nw">are on Amazon, this AI searches from <span class="hero-highlight">195 countries</span></span><br><span class="nw">&amp; finds the <span class="hero-highlight">lowest price on Earth</span> for the same product</span></span><span class="amz-mob"><span class="nw-m">There are hidden prices for everything online.</span><br><span class="nw-m">When you are on Amazon, this AI agent searches</span><br><span class="nw-m">from <span class="hero-highlight">195 countries</span> &amp; finds the <span class="hero-highlight">lowest price</span></span><br><span class="hero-highlight">on Earth</span> for the same products</span></p>
 
         <!-- #6: unified pill CTA, #5: placeholder is just "Enter your email" -->
         <form class="cta-pill" id="waitlistForm" action="javascript:void(0)" onsubmit="arbitricaClaim(); return false;">
