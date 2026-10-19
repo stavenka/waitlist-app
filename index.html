@@ -731,6 +731,18 @@
       .queue-modal { padding: 1.75rem 1.25rem; }
       .overlay-label { font-size: 1.15rem; }
     }
+    /* Large demo player (the user, 19-10-2026): opens over the page when Play is pressed. */
+    #arbTheater { position: fixed; inset: 0; z-index: 2147483000; display: flex; align-items: center; justify-content: center; padding: 64px 24px 24px; background: rgba(12,10,24,0.88); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); animation: arb-th-in .22s ease-out both; }
+    #arbTheater.arb-th-out { opacity: 0; transition: opacity .2s ease; }
+    #arbTheater .arb-th-box { width: min(100%, calc((100vh - 96px) * 16 / 9), 1600px); aspect-ratio: 16 / 9; border-radius: 14px; overflow: hidden; background: #000; box-shadow: 0 30px 90px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.08); animation: arb-th-zoom .26s cubic-bezier(.2,.8,.2,1) both; }
+    #arbTheater .arb-th-video { width: 100%; height: 100%; display: block; object-fit: contain; background: #000; }
+    #arbTheater .arb-th-x { position: fixed; top: 14px; right: 14px; width: 46px; height: 46px; border: none; border-radius: 50%; background: #ffffff; color: #171717; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 6px 20px rgba(0,0,0,.35); transition: transform .15s ease, background .15s ease; }
+    #arbTheater .arb-th-x:hover { transform: scale(1.06); background: #f1eefc; }
+    #arbTheater .arb-th-x:focus-visible { outline: 3px solid #b83fd6; outline-offset: 2px; }
+    @keyframes arb-th-in { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes arb-th-zoom { from { transform: scale(.96); opacity: .6; } to { transform: none; opacity: 1; } }
+    @media (max-width: 640px) { #arbTheater { padding: 70px 10px 16px; } #arbTheater .arb-th-box { border-radius: 10px; } }
+    @media (prefers-reduced-motion: reduce) { #arbTheater, #arbTheater .arb-th-box { animation: none; } }
   </style>
 
   <!-- ── Arbitrica headline test: FOUC guard for variant swap ── -->
@@ -1066,8 +1078,41 @@
           show();
         }, 20000);
       }
-      playBtn.addEventListener('click', function(e) { e.stopPropagation(); video.play(); hide(); });
-      overlay.addEventListener('click', function() { video.play(); hide(); });
+      // Play opens the demo in a large player in the middle of the screen (the user, 19-10-2026): the small card's text is
+      // hard to read. A clear x in the top right corner, Esc or a click on the dark backdrop closes it and returns to the
+      // page; the card keeps its cover and play button.
+      function openTheater() {
+        if (document.getElementById('arbTheater')) return;
+        try { video.pause(); } catch (e) {}
+        var wrap = document.createElement('div');
+        wrap.id = 'arbTheater';
+        wrap.setAttribute('role', 'dialog');
+        wrap.setAttribute('aria-modal', 'true');
+        wrap.setAttribute('aria-label', video.getAttribute('aria-label') || 'Demo video');
+        wrap.innerHTML = '<div class="arb-th-box"><video class="arb-th-video" controls playsinline preload="auto"></video></div>'
+          + '<button type="button" class="arb-th-x" aria-label="Close video"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>';
+        var big = wrap.querySelector('video');
+        big.src = video.currentSrc || video.getAttribute('src');
+        if (video.getAttribute('poster')) big.poster = video.getAttribute('poster');
+        document.body.appendChild(wrap);
+        var prevOverflow = document.body.style.overflow;
+        document.body.style.overflow = 'hidden';
+        function close() {
+          try { big.pause(); } catch (e) {}
+          wrap.classList.add('arb-th-out');
+          document.removeEventListener('keydown', onKey, true);
+          setTimeout(function () { if (wrap.parentNode) wrap.parentNode.removeChild(wrap); document.body.style.overflow = prevOverflow; }, 200);
+          show();
+        }
+        function onKey(e) { if (e.key === 'Escape') { e.stopPropagation(); close(); } }
+        wrap.querySelector('.arb-th-x').addEventListener('click', close);
+        wrap.addEventListener('click', function (e) { if (e.target === wrap) close(); });
+        document.addEventListener('keydown', onKey, true);
+        var p = big.play(); if (p && p.catch) p.catch(function () {});
+        wrap.querySelector('.arb-th-x').focus({ preventScroll: true });
+      }
+      playBtn.addEventListener('click', function(e) { e.stopPropagation(); openTheater(); });
+      overlay.addEventListener('click', function() { openTheater(); });
       video.addEventListener('play',  function() { hide(); clearIdle(); });
       video.addEventListener('pause', function() { startIdle(); });
       video.addEventListener('seeking', clearIdle);
