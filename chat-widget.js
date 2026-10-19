@@ -111,7 +111,13 @@
       +   '<a class="arb-ai-btn arb-plx" href="' + LINKS.perplexity + '" target="_blank" rel="noopener noreferrer">' + PLX_SVG + '<span>Ask Perplexity</span></a>'
       + '</div>';
     var x = el.querySelector('.arb-x');
-    if (x) x.addEventListener('click', function () { el.classList.add('arb-hidden'); });
+    // The entrance animation keeps its end state (fill-mode both), which outranked .arb-hidden: the card never hid.
+    // Stop the animation, fade out, then take the card off the page.
+    if (x) x.addEventListener('click', function () {
+      el.style.animation = 'none';
+      el.classList.add('arb-hidden');
+      setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 250);
+    });
     return el;
   }
 

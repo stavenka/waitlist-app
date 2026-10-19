@@ -459,6 +459,12 @@
     @media (max-width: 640px) { .hero-p-amz .amz-desk { display: none; } .hero-p-amz .amz-mob { display: inline; } }
     /* Amazon video (the user, 18-10-2026): the whole frame, nothing cropped at the sides - the card takes the video's 16:9. */
     .video-card.video-card-amz { aspect-ratio: 16 / 9; }
+    /* Demo pages (the user, 19-10-2026): a bigger demo video - the text column takes only the width its lines need and the
+       video takes the rest of the row, so the two still line up with the header's edges. */
+    @media (min-width: 941px) {
+      .hero-grid.hero-grid-demo { grid-template-columns: auto minmax(0, 1fr); gap: 3rem; }
+      .hero-grid-demo .video-card { box-shadow: 0 24px 60px -18px rgba(67,59,227,.35), var(--shadow-md), 0 0 0 1px rgba(0,0,0,0.08); }
+    }
     .video-card-amz .hero-video { object-fit: contain; background: #000; }
     @media (min-width: 641px) { .hero-p-amz .nw { white-space: nowrap; } }
     @media (max-width: 640px) { .hero-p .br-desk { display: none; } .hero-p .br-mob { display: inline; } }
@@ -786,7 +792,7 @@
 <!-- ── HERO ─────────────────────────────────────────────────────────────── -->
 <main>
   <section class="hero">
-    <div class="container hero-grid">
+    <div class="container hero-grid hero-grid-demo">
 
       <!-- Left: heading + form -->
       <div class="hero-left">
@@ -1196,6 +1202,6 @@
 </script>
 
 <!-- ── Arbitrica Customer Support Chat Widget ── -->
-<script src="chat-widget.js?v=8" defer></script>
+<!-- No "Ask AI about Arbitrica" widget on the demo pages (the user, 19-10-2026). -->
 </body>
 </html>
