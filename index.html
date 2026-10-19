@@ -1242,11 +1242,17 @@
    anywhere outside the video, stops the video and returns it to its state before play. */
 (function () {
   var boxes = [];
+  function bind(v, box) { v.addEventListener('play', function () { box.classList.add('is-open'); }); }
+  // A fresh copy of the untouched <video> (preload none) shrinks the area back to how it looked before play;
+  // pause + load() alone keeps the loaded video's full height.
   function reset(box) {
     if (!box.classList.contains('is-open')) return;
     box.classList.remove('is-open');
     var v = box.querySelector('video');
-    try { v.pause(); v.currentTime = 0; v.load(); } catch (e) {}
+    try { v.pause(); } catch (e) {}
+    var fresh = box._orig.cloneNode(true);
+    v.parentNode.replaceChild(fresh, v);
+    bind(fresh, box);
   }
   document.querySelectorAll('.step-video-wrap').forEach(function (wrap) {
     var v = wrap.querySelector('video');
@@ -1262,7 +1268,8 @@
     x.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>';
     x.addEventListener('click', function (e) { e.stopPropagation(); reset(box); });
     box.appendChild(x);
-    v.addEventListener('play', function () { box.classList.add('is-open'); });
+    box._orig = v.cloneNode(true);
+    bind(v, box);
     boxes.push(box);
   });
   document.addEventListener('click', function (e) {
