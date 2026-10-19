@@ -743,7 +743,10 @@
     @keyframes arb-th-zoom { from { transform: scale(.96); opacity: .6; } to { transform: none; opacity: 1; } }
     @media (max-width: 640px) { #arbTheater { padding: 70px 10px 16px; } #arbTheater .arb-th-box { border-radius: 10px; } }
     @media (prefers-reduced-motion: reduce) { #arbTheater, #arbTheater .arb-th-box { animation: none; } }
-  </style>
+      /* Hotels demo video (19-10-2026): the whole 16:9 frame, nothing cropped, same as the Amazon and Events pages. */
+    .video-card.video-card-16x9 { aspect-ratio: 16 / 9; }
+    .video-card-16x9 .hero-video { object-fit: contain; background: #000; }
+</style>
 
   <!-- ── Arbitrica headline test: FOUC guard for variant swap ── -->
   <style id="arbitrica-variant-fouc-guard">
@@ -830,11 +833,11 @@
       <!-- Right: hero video — #7: blurred overlay with gradient text -->
       <div class="hero-right">
           
-        <div class="video-card">
+        <div class="video-card video-card-16x9">
           <video class="hero-video" id="heroVideo"
-                 src="Video How It Works For Hotels.mp4?v=4"
+                 src="Video How It Works For Hotels.mp4?v=5"
                  width="1280" height="720"
-                 playsinline preload="none" poster="hero-poster.jpg?v=2" muted controls
+                 playsinline preload="none" poster="hero-poster.jpg?v=3" muted controls
                  aria-label="See how Arbitrica finds hidden hotel prices">
             <track kind="captions" srclang="en" label="English">
           </video>
