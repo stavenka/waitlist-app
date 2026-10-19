@@ -746,6 +746,12 @@
       /* Hotels demo video (19-10-2026): the whole 16:9 frame, nothing cropped, same as the Amazon and Events pages. */
     .video-card.video-card-16x9 { aspect-ratio: 16 / 9; }
     .video-card-16x9 .hero-video { object-fit: contain; background: #000; }
+    /* Step videos (19-10-2026): once played, a close button sits just above the video's top-right corner; it, or a
+       click anywhere else on the page, stops the video and puts it back as it was before play. */
+    .step-video-box { position: relative; }
+    .step-video-x { position: absolute; top: -46px; right: 0; width: 36px; height: 36px; border: none; border-radius: 50%; background: #ffffff; color: #171717; display: none; align-items: center; justify-content: center; cursor: pointer; padding: 0; box-shadow: 0 4px 14px rgba(0,0,0,.18), 0 0 0 1px rgba(0,0,0,.08); transition: transform .15s ease, background .15s ease; z-index: 2; }
+    .step-video-x:hover { transform: scale(1.06); background: #f3f3f3; }
+    .step-video-box.is-open .step-video-x { display: flex; }
 </style>
 
   <!-- ── Arbitrica headline test: FOUC guard for variant swap ── -->
@@ -1231,5 +1237,41 @@
 
 <!-- ── Arbitrica Customer Support Chat Widget ── -->
 <script src="chat-widget.js?v=9" defer></script>
+<script>
+/* Step videos (19-10-2026): a close button above the top-right corner once a step video is played; it, or a click
+   anywhere outside the video, stops the video and returns it to its state before play. */
+(function () {
+  var boxes = [];
+  function reset(box) {
+    if (!box.classList.contains('is-open')) return;
+    box.classList.remove('is-open');
+    var v = box.querySelector('video');
+    try { v.pause(); v.currentTime = 0; v.load(); } catch (e) {}
+  }
+  document.querySelectorAll('.step-video-wrap').forEach(function (wrap) {
+    var v = wrap.querySelector('video');
+    if (!v) return;
+    var box = document.createElement('div');
+    box.className = 'step-video-box';
+    wrap.parentNode.insertBefore(box, wrap);
+    box.appendChild(wrap);
+    var x = document.createElement('button');
+    x.type = 'button';
+    x.className = 'step-video-x';
+    x.setAttribute('aria-label', 'Close video');
+    x.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>';
+    x.addEventListener('click', function (e) { e.stopPropagation(); reset(box); });
+    box.appendChild(x);
+    v.addEventListener('play', function () { box.classList.add('is-open'); });
+    boxes.push(box);
+  });
+  document.addEventListener('click', function (e) {
+    boxes.forEach(function (box) { if (!box.contains(e.target)) reset(box); });
+  }, true);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') boxes.forEach(reset);
+  });
+})();
+</script>
 </body>
 </html>
