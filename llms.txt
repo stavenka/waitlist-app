@@ -6,7 +6,7 @@ Key facts:
 - Arbitrica searches from 195 countries. Different countries get access to different inventory, sales channels, local rates and promotions, so the same item can be cheaper when searched from another country.
 - Two mechanisms: geographic arbitrage (the same item searched from 195 countries) and time arbitrage (live arbitrage at checkout, and multiple-time arbitrage that repeats the search after purchase until the cancellation or return window ends).
 - Categories: hotels (with Agent Butler), online shopping such as Amazon, and event tickets; the same mechanisms apply to flights, car rental, subscriptions, pre-orders and more.
-- Arbitrica serves individuals and companies: teams travelling to trade shows and conferences, operations managers and travel managers. It runs in Chrome for now, with more options coming soon.
+- Arbitrica serves individuals and companies: teams travelling to trade shows and conferences, operations managers and travel managers.
 - Typical outcome: the same item is often 5-30% cheaper elsewhere; research demonstrated an average of $47 per hotel booking (up to $3,000 a year), $34 per online purchase (up to $3,000 a year) and $107 per event ticket purchase (up to $1,500 a year). Real example: a hotel offered at $1,527.39 on Booking was found for $1,180.27, earning the traveler $347.12 (23%).
 
 ## Pages
