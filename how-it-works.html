@@ -106,7 +106,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* How it works, About-style layout (20-10-2026) */
 .hiw { padding-bottom: 1rem; }
-.hiw-section { padding: 3.25rem 0 0; }
+.hiw-section { padding: 5rem 0 0; }
 .hiw-section:first-child { padding-top: 3rem; }
 .hiw .section-heading { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.75rem, 3vw, 2.25rem); letter-spacing: -0.015em; line-height: 1.2; margin: 0 0 1.75rem; text-align: center; }
 .hiw h1.section-heading { font-size: clamp(2rem, 4vw, 2.75rem); margin-bottom: 1rem; }
@@ -151,6 +151,7 @@ img { max-width: 100%; height: auto; display: block; }
 .flow li { position: relative; background: linear-gradient(160deg, hsl(300 60% 98%), hsl(250 60% 98%)); border: 1px solid hsl(280 40% 90%); border-radius: var(--radius-sm); padding: 0.85rem 0.9rem; font-size: 0.9rem; line-height: 1.45; color: var(--fg); font-weight: 500; }
 .flow li:not(:last-child)::after { content: '\2192'; position: absolute; right: -0.55rem; top: 50%; transform: translateY(-50%); width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--card-bg); color: hsl(300 62% 50%); font-size: 0.75rem; display: flex; align-items: center; justify-content: center; z-index: 1; box-shadow: 0 0 0 1px hsl(280 40% 88%); }
 @media (max-width: 760px) {
+  .hiw-section { padding-top: 3.5rem; }
   .hiw-card { padding: 1.75rem 1.25rem; }
   .mech-grid, .flow { grid-template-columns: 1fr; }
   .flow li:not(:last-child)::after { content: '\2193'; right: auto; left: 50%; top: auto; bottom: -0.6rem; transform: translateX(-50%); }
@@ -206,7 +207,7 @@ img { max-width: 100%; height: auto; display: block; }
     <div class="container">
       <h2 class="section-heading">The short <span class="grad-text">version</span></h2>
       <div class="hiw-card prose">
-        <p class="lead">Arbitrica is your personal AI agent for buying things at the lowest price on Earth. It lives in your browser and shows up at the checkout when you are about to pay. It reads the price you have been given, searches the same hotel, product or tickets from 195 countries using the geo-arbitrage phenomenon, and finds the lowest price that exists for it anywhere in the world, no matter who sells it. Then it buys it for you at that price.</p>
+        <p class="lead">Arbitrica is your personal AI agent for buying things at the lowest price on Earth. It lives in your browser and shows up at the checkout when you are about to pay. It reads the price you have been given, searches the same hotel, product or tickets from 195 countries using the geo-arbitrage phenomenon, and finds the lowest price that exists for it, no matter who sells it. Then it buys it for you at that price.</p>
       </div>
     </div>
   </section>
@@ -243,7 +244,7 @@ img { max-width: 100%; height: auto; display: block; }
 
   <section class="hiw-section" id="example">
     <div class="container">
-      <h2 class="section-heading"><span class="grad-text">Example</span></h2>
+      <h2 class="section-heading">Real <span class="grad-text">examples</span></h2>
       <div class="table-card">
         <table class="ex-table">
           <caption>The same item, the price first offered, and the lowest price on Earth Arbitrica found for it.</caption>
@@ -266,7 +267,7 @@ img { max-width: 100%; height: auto; display: block; }
       <div class="hiw-card prose">
         <p class="lead">Many purchases can still be cancelled or returned for a while: hotels with free cancellation, flights, car rentals, some event tickets, pre-orders and delayed-shipment orders, and subscriptions. Inside that window a lower price found later is still money you can have.</p>
         <ol class="flow">
-          <li>You pay at the best price found at checkout</li>
+          <li>The agent detects that you paid for a product</li>
           <li>The search repeats from 195 countries until the window ends</li>
           <li>The new booking is confirmed at the lower price</li>
           <li>Only then is the original cancelled</li>
