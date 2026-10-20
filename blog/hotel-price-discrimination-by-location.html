@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel Price Discrimination by Location, Explained</title>
+    <meta name="description" content="Why hotel prices vary by country, why changing your IP address alone barely moves the price, and where location-based hotel price differences really come from.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://arbitrica.com/blog/hotel-price-discrimination-by-location.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Hotel Price Discrimination by Location, Explained">
+    <meta property="og:description" content="Why hotel prices vary by country, why changing your IP address alone barely moves the price, and where location-based hotel price differences really come from.">
+    <meta property="og:url" content="https://arbitrica.com/blog/hotel-price-discrimination-by-location.html">
+    <meta property="og:site_name" content="Arbitrica">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hotel Price Discrimination by Location, Explained">
+    <meta name="twitter:description" content="Why hotel prices vary by country, why changing your IP address alone barely moves the price, and where location-based hotel price differences really come from.">
+    <link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/spacegrotesk-700.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Hotel Price Discrimination by Location: How It Really Works", "description": "Why hotel prices vary by country, why changing your IP address alone barely moves the price, and where location-based hotel price differences really come from.", "author": {"@type": "Organization", "name": "Arbitrica"}, "publisher": {"@type": "Organization", "name": "Arbitrica", "logo": {"@type": "ImageObject", "url": "https://arbitrica.com/Arbitrica_logo_transparent.png"}}, "datePublished": "2026-10-20", "dateModified": "2026-10-20", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arbitrica.com/blog/hotel-price-discrimination-by-location.html"}, "url": "https://arbitrica.com/blog/hotel-price-discrimination-by-location.html"}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is hotel price discrimination by location?", "acceptedAnswer": {"@type": "Answer", "text": "It is the practice of selling the same hotel at different prices depending on the market where the booking is made. It happens through market-targeted rates, local sellers, local promotions and member pricing that differ by country."}}, {"@type": "Question", "name": "Do hotel prices change by IP address?", "acceptedAnswer": {"@type": "Answer", "text": "On the same site, changing only your IP address usually moves the price of the same rate very little. Real differences come from the different rates and sellers available when you search from another country."}}, {"@type": "Question", "name": "Why do hotel prices vary by country?", "acceptedAnswer": {"@type": "Answer", "text": "Hotels sell to each market differently: they target promotions at certain countries, sell through local agencies and wholesalers, and react to local seasons and competition. Currency and tax display add further differences."}}, {"@type": "Question", "name": "Is it legal to book a hotel rate offered in another country?", "acceptedAnswer": {"@type": "Answer", "text": "Booking a rate that is openly offered is a normal purchase. Check the rate conditions, because some rates are limited to residents and the hotel can ask for proof at check-in."}}]}</script>
+    <style>
+@font-face { font-family: 'Inter'; src: url('/fonts/inter-var.woff2') format('woff2'); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: 'Space Grotesk'; src: url('/fonts/spacegrotesk-700.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+
+:root {
+  --bg: hsl(220 30% 97%); --fg: hsl(0 0% 9%); --muted: hsl(0 0% 38%);
+  --border: hsl(0 0% 83%); --primary: hsl(243 75% 58%); --card-bg: hsl(0 0% 100%);
+  --radius: 1.25rem; --radius-sm: 0.75rem;
+  --grad-primary: linear-gradient(135deg, hsl(320 80% 55%), hsl(280 70% 50%));
+  --grad-hero-bg: linear-gradient(180deg, hsl(260 50% 94%) 0%, hsl(240 35% 96%) 45%, hsl(220 30% 97%) 100%);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 24px rgba(0,0,0,0.09), 0 2px 8px rgba(0,0,0,0.05);
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-body); background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.grad-text { background: var(--grad-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.page-top { padding: 4rem 0 2rem; text-align: center; background: var(--grad-hero-bg); }
+.page-title { font-family: var(--font-display); font-size: 2.5rem; font-weight: 700; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+.page-subtitle { font-size: 1.15rem; color: var(--muted); max-width: 640px; margin: 0 auto; }
+.section-heading { font-family: var(--font-display); font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; margin: 3rem 0 1.25rem; text-align: center; }
+
+.header { background: hsla(0 0% 100% / 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+.header-inner { max-width: 1200px; margin: 0 auto; padding: 0.75rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+.header-left .logo-link img { height: 38px; width: auto; }
+.header-center { display: flex; gap: 1rem; align-items: center; }
+.ai-sign { height: 28px; width: auto; }
+.header-right .nav-about-btn { font-family: var(--font-display); font-weight: 600; font-size: 0.95rem; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius: 10px; transition: background 0.15s; }
+.header-right .nav-about-btn:hover { background: hsl(240 20% 96%); }
+@media (max-width: 768px) {
+  .header-center { display: none; }
+}
+
+.footer { background: var(--fg); color: hsl(0 0% 85%); padding: 3.5rem 0 1.5rem; margin-top: 4rem; }
+.footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2rem; margin-bottom: 2.5rem; }
+.footer-brand { font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; color: #fff; margin-bottom: 0.5rem; }
+.footer-brand-desc { font-size: 0.9rem; line-height: 1.6; color: hsl(0 0% 65%); }
+.footer-col h3 { font-family: var(--font-display); font-size: 0.85rem; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+.footer-col a { display: block; font-size: 0.9rem; color: hsl(0 0% 65%); padding: 0.25rem 0; transition: color 0.15s; }
+.footer-col a:hover { color: #fff; }
+.footer-bottom { border-top: 1px solid hsl(0 0% 22%); padding-top: 1.25rem; text-align: center; font-size: 0.8rem; color: hsl(0 0% 50%); }
+@media (max-width: 768px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .footer-grid { grid-template-columns: 1fr; }
+}
+
+.article-content { max-width: 760px; margin: 0 auto; }
+.article-content p { font-size: 1.05rem; line-height: 1.75; color: var(--muted); margin-bottom: 1.25rem; }
+.article-content h2 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--fg); margin: 2.5rem 0 1rem; letter-spacing: -0.02em; }
+.article-content h3 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; color: var(--fg); margin: 2rem 0 0.75rem; }
+.article-content ul, .article-content ol { margin: 0 0 1.25rem 1.5rem; color: var(--muted); }
+.article-content li { margin-bottom: 0.5rem; line-height: 1.65; }
+.article-content a { color: var(--primary); text-decoration: underline; }
+.article-meta { font-size: 0.875rem; color: var(--muted); margin-bottom: 2rem; }
+.cta-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; text-align: center; margin: 3rem 0; }
+.cta-box h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; margin-bottom: 0.5rem; }
+.cta-box p { color: var(--muted); margin-bottom: 1rem; }
+.cta-box .btn-cta { display: inline-flex; padding: 0.75rem 1.5rem; background: linear-gradient(to right, hsl(243 75% 56%), hsl(243 75% 44%)); color: white; border-radius: 10px; font-weight: 600; font-size: 0.95rem; box-shadow: 0 4px 16px rgba(76,68,228,0.28); transition: opacity 0.18s; }
+.cta-box .btn-cta:hover { opacity: 0.9; text-decoration: none; }
+.comparison-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+.comparison-table th, .comparison-table td { padding: 0.75rem 1rem; border: 1px solid var(--border); text-align: left; font-size: 0.95rem; }
+.comparison-table th { background: hsl(240 20% 96%); font-weight: 600; font-family: var(--font-display); }
+.comparison-table td { color: var(--muted); }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+.feature-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 1.5rem; }
+.feature-card h3 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; }
+.feature-card p { font-size: 0.95rem; color: var(--muted); line-height: 1.6; }
+@media (max-width: 640px) {
+  .comparison-table { font-size: 0.85rem; }
+  .comparison-table th, .comparison-table td { padding: 0.5rem; }
+}
+
+
+    </style>
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="/index.html" class="logo-link">
+        <picture>
+          <source srcset="/Arbitrica_logo_transparent.webp" type="image/webp">
+          <img src="/Arbitrica_logo_transparent.png" alt="Arbitrica" width="484" height="384">
+        </picture>
+      </a>
+    </div>
+    <div class="header-center">
+      <picture>
+        <source srcset="/AI-2.webp?v=r20260416" type="image/webp">
+        <img src="/AI-2.png?v=r20260416" alt="Idea of the Year 2025 AI award" class="ai-sign" width="260" height="42" loading="lazy" decoding="async">
+      </picture>
+      <picture>
+        <source srcset="/AI.webp?v=r20260416" type="image/webp">
+        <img src="/AI.png?v=r20260416" alt="Future of AI 2025 award" class="ai-sign" width="260" height="42" loading="lazy" decoding="async">
+      </picture>
+    </div>
+    <div class="header-right">
+      <a href="/about.html" class="nav-about-btn">About</a>
+    </div>
+  </div>
+</header>
+<div class="page-top">
+  <div class="container">
+    <h1 class="page-title">Hotel Price Discrimination by Location: How It Really Works</h1>
+  </div>
+</div>
+
+<div class="container">
+  <article class="article-content">
+    <p class="article-meta">October 20, 2026 &middot; Arbitrica Team</p>
+    <p>Price discrimination sounds sinister, but in economics it is a neutral term: selling the same product to different customers at different prices. Airlines do it with fare classes, software companies do it with country pricing, and hotels do it by market. If you have ever seen the same hotel at different prices when booked from different countries, you have seen hotel price discrimination by location.</p>
+    <p>What most people get wrong is the mechanism. The common story is that a booking site reads your IP address and raises the price. The reality is more interesting, and more useful if you want to pay less.</p>
+
+    <h2>What price discrimination by location means for hotels</h2>
+    <p>The travel industry calls it pricing by point of sale: the market where the booking is made. A hotel decides how it wants to sell to travelers from each country. It may offer a promotion to one market, sell through tour operators in another and leave a third to the big booking sites. Each of those decisions creates a different set of offers for the same hotel, depending on where the booking is made.</p>
+    <p>The price difference therefore comes from what is on offer in each country: different countries get access to different inventory, channels, local rates and promotions.</p>
+
+    <h2>Hotel prices by IP address: what actually happens</h2>
+    <p>If you open the same hotel on the same site and change only your IP address, the price for the same rate usually moves very little, if at all. Travelers who test this with a VPN are often disappointed for exactly that reason. The real differences appear when changing countries changes what you can book:</p>
+    <ul>
+      <li><strong>Market-targeted rates.</strong> Booking sites let hotels create rates that are offered only to travelers booking from specific countries. These rates sit next to the standard rate and appear only in their target markets.</li>
+      <li><strong>Local sellers.</strong> In many countries, local online agencies, tour operators and travel portals sell hotel stays from wholesale inventory. They do not show up in a search from your own country, but they can be cheaper for the identical hotel.</li>
+      <li><strong>Local promotions.</strong> Payment partners, banks and local campaigns run discounts in one country and not in others.</li>
+      <li><strong>Member pricing by market.</strong> Loyalty and member discounts are not offered the same way in every country.</li>
+      <li><strong>Currency and tax display.</strong> Prices set in local currency drift with exchange rates, and some countries show totals with taxes while others add them at the end. Part of what looks like discrimination is just display.</li>
+    </ul>
+    <p>That is also why the VPN method has limits, which we cover in <a href="/blog/vpn-vs-arbitrica-hotel-booking.html">VPN vs Arbitrica for hotel booking</a>. The saving comes from finding the offers that exist in other countries.</p>
+
+    <h2>Why hotel prices vary by country</h2>
+    <p>Hotels have ordinary business reasons for pricing differently by market.</p>
+
+    <h3>Feeder markets and seasons</h3>
+    <p>Every hotel has markets that send most of its guests and markets it wants to grow. School holidays, public holidays and travel seasons fall at different times in different countries, so a hotel may push a discount toward a market whose travelers book during its quiet weeks.</p>
+
+    <h3>Distribution contracts</h3>
+    <p>Hotels sign deals with wholesalers and tour operators who buy inventory at negotiated rates and resell it in their own countries, often inside packages. Those rates follow their own rules and are not always matched on the big global sites.</p>
+
+    <h3>Competition and purchasing power</h3>
+    <p>What travelers from a given country are used to paying, and how many alternatives they see, influences how a hotel prices for that market. This is the reason behind "book from a cheaper country" advice. It is only one factor, though, and often not the decisive one, as our guide to the <a href="/blog/cheapest-country-to-book-hotels-from.html">cheapest country to book hotels from</a> explains.</p>
+
+    <h3>Parity rules</h3>
+    <p>For years, large booking sites used parity clauses that limited how much lower a hotel could price elsewhere. Several European countries restricted those clauses, and since Booking.com was designated a gatekeeper under the EU Digital Markets Act in 2024, it can no longer impose them in the EU. Looser parity gives hotels more scope to price differently by channel and market.</p>
+
+    <h2>Where location-based price differences come from</h2>
+    <table class="comparison-table">
+      <thead>
+        <tr><th>Source of the difference</th><th>How it works</th><th>Can a traveler from another country book it?</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Market-targeted rate</td><td>The hotel offers a rate only to bookings made from certain countries</td><td>Usually yes, when booked from that country</td></tr>
+        <tr><td>Local agency or wholesaler</td><td>A seller in another country resells inventory bought at negotiated rates</td><td>Often yes, check the seller and the terms</td></tr>
+        <tr><td>Resident-only rate</td><td>Local residents get a discount, sometimes checked at arrival</td><td>No, unless you are a resident</td></tr>
+        <tr><td>Currency difference</td><td>Rate set in local currency moves with the exchange rate</td><td>Yes, watch card fees and conversion</td></tr>
+        <tr><td>Tax display</td><td>Price shown with or without taxes and fees</td><td>Not a real saving, compare final totals</td></tr>
+        <tr><td>Same site, IP change only</td><td>Same rate, same seller, different connection</td><td>Usually little or no change in price</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Is it legal and fair?</h2>
+    <p>Pricing by market is common in travel and across many industries, and booking a rate that is openly offered is a normal purchase. The rules that matter to you are the rate conditions: if a rate is limited to residents of a country, the hotel can ask for proof at check-in.</p>
+    <p>Inside the European Union, the 2018 Geo-blocking Regulation limits traders from applying different general conditions, including prices, to customers from other EU countries purely because of their nationality or place of residence, and hotel accommodation is one of the services it covers. Outside the EU, rules vary.</p>
+
+    <h2>How to use location-based pricing to pay less</h2>
+    <ol>
+      <li>Start with the exact hotel, dates, guests and rate type, and note the final total with taxes and fees.</li>
+      <li>Search the same hotel from other countries, including local sellers where you can, not only the same global site.</li>
+      <li>Skip resident-only rates unless you qualify.</li>
+      <li>Compare totals after taxes, fees and currency conversion.</li>
+      <li>Prefer a rate with free cancellation, because the lowest country today may not be the lowest next week.</li>
+    </ol>
+    <p>The hard part is coverage. There are 195 countries, the lowest price moves between them, and checking more than a handful by hand is impractical. Arbitrica is a personal AI agent that shows up at checkout, searches the same hotel from 195 countries and finds the lowest price on Earth for it, whoever sells it. It validates that the offer is for the identical hotel with all taxes and fees included, and prepares the booking so you only review and pay. Arbitrica's approach also repeats the search after you book, until the free cancellation window ends. The same hotel is often 5 to 30 percent cheaper when booked from somewhere else.</p>
+    <p>For more background, read <a href="/blog/what-is-geographic-price-arbitrage.html">what geographic price arbitrage is</a>, our guide to <a href="/blog/hidden-hotel-prices-guide.html">hidden hotel prices</a> and the <a href="/hotel-price-tracker.html">hotel price tracker</a> page.</p>
+
+    <h2>Frequently asked questions</h2>
+    <h3>What is hotel price discrimination by location?</h3>
+    <p>It is the practice of selling the same hotel at different prices depending on the market where the booking is made. It happens through market-targeted rates, local sellers, local promotions and member pricing that differ by country.</p>
+    <h3>Do hotel prices change by IP address?</h3>
+    <p>On the same site, changing only your IP address usually moves the price of the same rate very little. Real differences come from the different rates and sellers available when you search from another country.</p>
+    <h3>Why do hotel prices vary by country?</h3>
+    <p>Hotels sell to each market differently: they target promotions at certain countries, sell through local agencies and wholesalers, and react to local seasons and competition. Currency and tax display add further differences.</p>
+    <h3>Is it legal to book a hotel rate offered in another country?</h3>
+    <p>Booking a rate that is openly offered is a normal purchase. Check the rate conditions, because some rates are limited to residents and the hotel can ask for proof at check-in.</p>
+
+    <div class="cta-box">
+      <h3>See the price from every country</h3>
+      <p>Arbitrica searches the same hotel from 195 countries at checkout, validates the total and prepares the booking. Join the waitlist.</p>
+      <a href="/index.html" class="btn-cta">Join the waitlist</a>
+    </div>
+  </article>
+</div>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">Arbitrica</p>
+        <p class="footer-brand-desc">The new AI that finds hidden prices and earns you money after you pay.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Product</h3>
+        <a href="/index.html#how-it-works">How it works</a>
+        <a href="/hotel-price-tracker.html">Price tracker</a>
+      </div>
+      <div class="footer-col">
+        <h3>Company</h3>
+        <a href="/about.html">About</a>
+        <a href="/about.html#careers">Careers</a>
+        <a href="/blog/">Blog</a>
+      </div>
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <a href="/assets/privacy-policy.html">Privacy</a>
+        <a href="/assets/terms-of-service.html">Terms</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Arbitrica<sup style="font-size:0.7em;color:rgba(255,255,255,0.85);">TM</sup> All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
