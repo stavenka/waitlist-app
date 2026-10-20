@@ -103,6 +103,69 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 
+
+/* How it works, About-style layout (20-10-2026) */
+.hiw { padding-bottom: 1rem; }
+.hiw-section { padding: 3.25rem 0 0; }
+.hiw-section:first-child { padding-top: 3rem; }
+.hiw .section-heading { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.75rem, 3vw, 2.25rem); letter-spacing: -0.015em; line-height: 1.2; margin: 0 0 1.75rem; text-align: center; }
+.hiw h1.section-heading { font-size: clamp(2rem, 4vw, 2.75rem); margin-bottom: 1rem; }
+.hiw-sub { max-width: 720px; margin: 0 auto; text-align: center; font-size: 1.12rem; line-height: 1.7; color: var(--muted); }
+.hiw-card { max-width: 860px; margin: 0 auto; background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-md); padding: 2.5rem 2.75rem; }
+.hiw a { color: var(--primary); text-decoration: underline; text-underline-offset: 2px; }
+.prose::before { content: ''; display: block; width: 44px; height: 4px; border-radius: 4px; background: var(--grad-primary); margin-bottom: 1.4rem; }
+.prose p { font-size: 1.02rem; line-height: 1.75; color: var(--muted); margin-bottom: 1rem; }
+.prose p:last-child { margin-bottom: 0; }
+.prose p.lead { color: var(--fg); font-size: 1.1rem; font-weight: 500; line-height: 1.7; }
+.prose p.lead::first-letter { float: left; font-family: Georgia, 'Times New Roman', serif; font-weight: 700; font-size: 4.3em; line-height: 0.78; margin: 0.42rem 0.6rem 0 -0.02em; padding: 0 0.04em; color: hsl(300 62% 50%); text-shadow: 0 6px 18px hsl(300 70% 55% / 0.22); }
+/* two mechanisms */
+.mech-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0; list-style: none; }
+.mech-card { border: 1px solid hsl(280 40% 90%); background: linear-gradient(160deg, hsl(300 60% 98%), hsl(250 60% 98%)); border-radius: var(--radius-sm); padding: 1.25rem 1.35rem; }
+.mech-card h3 { font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; margin-bottom: 0.4rem; color: var(--fg); }
+.mech-card p { font-size: 0.95rem; line-height: 1.6; color: var(--muted); margin: 0; }
+.mech-tag { display: inline-block; font-family: var(--font-display); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: hsl(300 62% 45%); margin-bottom: 0.35rem; }
+/* steps: numbered timeline */
+.steps { max-width: 860px; margin: 0 auto; list-style: none; counter-reset: step; position: relative; }
+.step:not(:last-child)::after { content: ''; position: absolute; left: 23px; top: 62px; bottom: calc(-1rem - 14px); width: 2px; background: linear-gradient(180deg, hsl(320 80% 75%), hsl(280 70% 75%)); }
+.step { counter-increment: step; position: relative; padding-left: 72px; margin-bottom: 1rem; }
+.step:last-child { margin-bottom: 0; }
+.step::before { content: counter(step); position: absolute; left: 0; top: 14px; width: 48px; height: 48px; border-radius: 50%; background: var(--grad-primary); color: #fff; font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 16px hsl(300 70% 50% / 0.28); border: 3px solid var(--bg); }
+.step-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-sm); box-shadow: var(--shadow-sm); padding: 1.1rem 1.35rem; }
+.step-box h3 { font-family: var(--font-display); font-size: 1.08rem; font-weight: 700; color: var(--fg); margin-bottom: 0.3rem; }
+.step-box p { font-size: 0.98rem; line-height: 1.65; color: var(--muted); margin: 0; }
+/* example table */
+.table-card { max-width: 1000px; margin: 0 auto; background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-md); overflow: hidden; }
+.ex-table { width: 100%; border-collapse: collapse; }
+.ex-table caption { text-align: left; padding: 1.1rem 1.5rem 0; font-size: 0.9rem; color: var(--muted); caption-side: top; }
+.ex-table th { font-family: var(--font-display); font-weight: 700; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: hsl(280 30% 40%); background: hsl(270 60% 97%); text-align: left; padding: 0.95rem 1.25rem; border-bottom: 1px solid hsl(270 40% 90%); }
+.ex-table td { padding: 1.15rem 1.25rem; border-bottom: 1px solid hsl(0 0% 92%); font-size: 0.97rem; color: var(--muted); vertical-align: middle; }
+.ex-table tbody tr:last-child td { border-bottom: none; }
+.ex-table td.item { color: var(--fg); font-weight: 600; line-height: 1.45; }
+.ex-table td.item small { display: block; font-weight: 400; color: var(--muted); font-size: 0.86rem; margin-top: 0.15rem; }
+.ex-table td.given { white-space: nowrap; }
+.ex-table td.given s { text-decoration-color: hsl(0 0% 60%); }
+.ex-table td.lowest { color: var(--fg); font-family: var(--font-display); font-weight: 700; font-size: 1.08rem; white-space: nowrap; }
+.ex-table .earned { display: inline-block; white-space: nowrap; font-weight: 700; color: hsl(145 63% 28%); background: hsl(145 60% 93%); border-radius: 999px; padding: 0.3rem 0.75rem; font-size: 0.92rem; }
+/* after-you-pay flow */
+.flow { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.6rem; margin: 1.5rem 0 1.25rem; counter-reset: fl; }
+.flow li { position: relative; background: linear-gradient(160deg, hsl(300 60% 98%), hsl(250 60% 98%)); border: 1px solid hsl(280 40% 90%); border-radius: var(--radius-sm); padding: 0.85rem 0.9rem; font-size: 0.9rem; line-height: 1.45; color: var(--fg); font-weight: 500; }
+.flow li:not(:last-child)::after { content: '\2192'; position: absolute; right: -0.55rem; top: 50%; transform: translateY(-50%); width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--card-bg); color: hsl(300 62% 50%); font-size: 0.75rem; display: flex; align-items: center; justify-content: center; z-index: 1; box-shadow: 0 0 0 1px hsl(280 40% 88%); }
+@media (max-width: 760px) {
+  .hiw-card { padding: 1.75rem 1.25rem; }
+  .mech-grid, .flow { grid-template-columns: 1fr; }
+  .flow li:not(:last-child)::after { content: '\2193'; right: auto; left: 50%; top: auto; bottom: -0.6rem; transform: translateX(-50%); }
+  .prose p.lead { font-size: 1.04rem; } .prose p.lead::first-letter { font-size: 3.6em; }
+  .step:not(:last-child)::after { left: 19px; top: 52px; bottom: calc(-1rem - 12px); } .step { padding-left: 56px; } .step::before { width: 40px; height: 40px; font-size: 1rem; top: 12px; }
+  .ex-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .ex-table, .ex-table tbody, .ex-table tr, .ex-table td { display: block; width: 100%; }
+  .ex-table tr { padding: 1rem 1.15rem; border-bottom: 1px solid hsl(0 0% 90%); }
+  .ex-table tbody tr:last-child { border-bottom: none; }
+  .ex-table td { border: none; padding: 0.3rem 0; display: flex; justify-content: space-between; gap: 1rem; text-align: right; }
+  .ex-table td::before { content: attr(data-label); font-family: var(--font-display); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: hsl(280 30% 45%); text-align: left; padding-top: 0.15rem; flex: none; }
+  .ex-table td.item { display: block; text-align: left; font-size: 1.02rem; padding-bottom: 0.5rem; }
+  .ex-table td.item::before { display: none; }
+  .ex-table caption { display: block; padding: 1rem 1.15rem 0.25rem; }
+}
     </style>
 </head>
 <body>
@@ -131,59 +194,98 @@ img { max-width: 100%; height: auto; display: block; }
     </div>
   </div>
 </header>
-<div class="page-top">
-  <div class="container">
-    <h1 class="page-title">How <span class="grad-text">Arbitrica</span> works</h1>
-    <p class="page-subtitle">Arbitrica is your personal AI agent. When you are about to pay or paid already, it searches your product from 195 countries, finds the lowest rate on Earth and gets it for you at that price.</p>
-  </div>
-</div>
+<main class="hiw">
+  <section class="hiw-section">
+    <div class="container">
+      <h1 class="section-heading">How <span class="grad-text">Arbitrica</span> works</h1>
+      <p class="hiw-sub">Arbitrica is your personal AI agent. When you are about to pay or paid already, it searches your product from 195 countries, finds the lowest rate on Earth and gets it for you at that price.</p>
+    </div>
+  </section>
 
-<div class="container">
-  <div class="article-content">
-    <h2>The short version</h2>
-    <p>Arbitrica is your personal AI agent for buying things at the lowest price on Earth. It lives in your browser and shows up at the checkout when you are about to pay. It reads the price you have been given, searches the same hotel, product or tickets from 195 countries using the geo-arbitrage phenomenon, and finds the lowest price that exists for it anywhere in the world, no matter who sells it. Then it buys it for you at that price.</p>
+  <section class="hiw-section" id="short-version">
+    <div class="container">
+      <h2 class="section-heading">The short <span class="grad-text">version</span></h2>
+      <div class="hiw-card prose">
+        <p class="lead">Arbitrica is your personal AI agent for buying things at the lowest price on Earth. It lives in your browser and shows up at the checkout when you are about to pay. It reads the price you have been given, searches the same hotel, product or tickets from 195 countries using the geo-arbitrage phenomenon, and finds the lowest price that exists for it anywhere in the world, no matter who sells it. Then it buys it for you at that price.</p>
+      </div>
+    </div>
+  </section>
 
-    <h2>Why the same thing has more than one price</h2>
-    <p>Most things you buy online have dozens of prices that exist at the same time. The one you are shown depends on which country you search from and which site you happen to be on. Not just that: dynamic pricing and pricing algorithms keep moving prices with demand, timing and many other signals. Different countries also get access to different inventory, sales channels, local rates and promotions, so searching the same hotel, product or tickets from another country can open up a lower price that you cannot get from your own country.</p>
-    <p>Prices also move over time. A hotel, a flight or a pair of concert tickets can cost less next week than today. Arbitrica works on both differences:</p>
-    <ul>
-      <li><strong>Geographic arbitrage:</strong> the same item, searched from 195 countries, to find the lowest price on Earth.</li>
-      <li><strong>Time arbitrage:</strong> the same search repeated at different points in time, at checkout (live arbitrage) and after you pay (multiple-time arbitrage).</li>
-    </ul>
-    <p>Doing the country search by hand means a VPN and one country at a time. Doing that successfully for 195 countries is humanly impossible. Arbitrica does it for you. Read more in <a href="/blog/what-is-geographic-price-arbitrage.html">what geographic price arbitrage is</a> and <a href="/blog/time-arbitrage-explained.html">time arbitrage explained</a>.</p>
+  <section class="hiw-section" id="why-prices-differ">
+    <div class="container">
+      <h2 class="section-heading">Why the same thing has <span class="grad-text">more than one price</span></h2>
+      <div class="hiw-card prose">
+        <p class="lead">Most things you buy online have dozens of prices that exist at the same time. The one you are shown depends on which country you search from and which site you happen to be on. Not just that: dynamic pricing and pricing algorithms keep moving prices with demand, timing and many other signals.</p>
+        <p>Different countries also get access to different inventory, sales channels, local rates and promotions, so searching the same hotel, product or tickets from another country can open up a lower price that you cannot get from your own country. Prices also move over time: a hotel, a flight or a pair of concert tickets can cost less next week than today. Arbitrica works on both differences.</p>
+        <ul class="mech-grid">
+          <li class="mech-card"><span class="mech-tag">Mechanism 1</span><h3>Geographic arbitrage</h3><p>The same item, searched from 195 countries, to find the lowest price on Earth.</p></li>
+          <li class="mech-card"><span class="mech-tag">Mechanism 2</span><h3>Time arbitrage</h3><p>The same search repeated at different points in time: at checkout (live arbitrage) and after you pay (multiple-time arbitrage).</p></li>
+        </ul>
+        <p>Doing the country search by hand means a VPN and one country at a time. Doing that successfully for 195 countries is humanly impossible. Arbitrica does it for you. Read more in <a href="/blog/what-is-geographic-price-arbitrage.html">what geographic price arbitrage is</a> and <a href="/blog/time-arbitrage-explained.html">time arbitrage explained</a>.</p>
+      </div>
+    </div>
+  </section>
 
-    <h2>What happens at checkout, step by step</h2>
-    <ol>
-      <li><strong>You shop the way you always do.</strong> Pick a hotel on Booking, a product on Amazon or seats on a ticket site and go to the checkout.</li>
-      <li><strong>Your agent shows up.</strong> A chat opens next to the page: &ldquo;Hello, your agent here. My job is to give you world&rsquo;s lowest price for anything.&rdquo; You can also open this chat yourself by clicking on the Arbitrica logo on the right edge of the page.</li>
-      <li><strong>It reads your price and confirms what you are buying.</strong> For a hotel that is the hotel name, dates, guests, room type, cancellation terms and breakfast. For a product it is the exact item. For tickets it is the event, section, row and number of tickets. This is what stops a cheaper but different item from slipping in.</li>
-      <li><strong>It searches from 195 countries.</strong> You see the search run on a world map while the agent works. You can carry on with other things in the meantime.</li>
-      <li><strong>It validates the result.</strong> The agent checks that the lower price is for exactly the same hotel, product or tickets, that it includes all taxes and fees (and delivery, for products), and that the price will not suddenly change when you pay.</li>
-      <li><strong>It shows you what it found.</strong> &ldquo;The price they gave you&rdquo;, what the agent makes you, and &ldquo;The world&rsquo;s lowest price&rdquo;, with the country it was found in and the kind of provider selling it.</li>
-      <li><strong>It buys it for you.</strong> For hotels, Amazon purchases, events tickets, the agents prepare everything in a new tab, so you only review and complete the payment.</li>
-    </ol>
+  <section class="hiw-section" id="step-by-step">
+    <div class="container">
+      <h2 class="section-heading">What happens at checkout, <span class="grad-text">step by step</span></h2>
+      <ol class="steps">
+        <li class="step"><div class="step-box"><h3>You shop the way you always do</h3><p>Pick a hotel on Booking, a product on Amazon or seats on a ticket site and go to the checkout.</p></div></li>
+        <li class="step"><div class="step-box"><h3>Your agent shows up</h3><p>A chat opens next to the page: &ldquo;Hello, your agent here. My job is to give you world&rsquo;s lowest price for anything.&rdquo; You can also open this chat yourself by clicking on the Arbitrica logo on the right edge of the page.</p></div></li>
+        <li class="step"><div class="step-box"><h3>It reads your price and confirms what you are buying</h3><p>For a hotel that is the hotel name, dates, guests, room type, cancellation terms and breakfast. For a product it is the exact item. For tickets it is the event, section, row and number of tickets. This is what stops a cheaper but different item from slipping in.</p></div></li>
+        <li class="step"><div class="step-box"><h3>It searches from 195 countries</h3><p>You see the search run on a world map while the agent works. You can carry on with other things in the meantime.</p></div></li>
+        <li class="step"><div class="step-box"><h3>It validates the result</h3><p>The agent checks that the lower price is for exactly the same hotel, product or tickets, that it includes all taxes and fees (and delivery, for products), and that the price will not suddenly change when you pay.</p></div></li>
+        <li class="step"><div class="step-box"><h3>It shows you what it found</h3><p>&ldquo;The price they gave you&rdquo;, what the agent makes you, and &ldquo;The world&rsquo;s lowest price&rdquo;, with the country it was found in and the kind of provider selling it.</p></div></li>
+        <li class="step"><div class="step-box"><h3>It buys it for you</h3><p>For hotels, Amazon purchases, events tickets, the agents prepare everything in a new tab, so you only review and complete the payment.</p></div></li>
+      </ol>
+    </div>
+  </section>
 
-    <h2>Three examples</h2>
-    <table class="comparison-table">
-      <thead>
-        <tr><th>What was being bought</th><th>Price they were given</th><th>World&rsquo;s lowest price</th><th>Found in</th><th>Arbitrica made them</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Hôtel Pont Royal Paris, 2 nights, 25-27 December 2026, 2 guests</td><td>$1,332.40 on Booking</td><td>$1,034.62</td><td>Mexico, from a Google-approved provider</td><td>$297.78 (22%)</td></tr>
-        <tr><td>Samsung Q-Series Soundbar on Amazon</td><td>$997.99 on Amazon</td><td>$747.99</td><td>United States, from a verified provider</td><td>$250 (25%)</td></tr>
-        <tr><td>2 tickets, Harry Styles &amp; Jamie xx, Madison Square Garden, Section 116, Row 20</td><td>$1,300.00 at checkout</td><td>$1,070.00</td><td>United States, from a verified provider</td><td>$230 (18%)</td></tr>
-      </tbody>
-    </table>
+  <section class="hiw-section" id="example">
+    <div class="container">
+      <h2 class="section-heading"><span class="grad-text">Example</span></h2>
+      <div class="table-card">
+        <table class="ex-table">
+          <caption>The same item, the price first offered, and the lowest price on Earth Arbitrica found for it.</caption>
+          <thead>
+            <tr><th scope="col">What was being bought</th><th scope="col">Price they were given</th><th scope="col">World&rsquo;s lowest price</th><th scope="col">Found in</th><th scope="col">Arbitrica made them</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="item" data-label="Item">Hôtel Pont Royal Paris<small>2 nights, 25-27 December 2026, 2 guests</small></td><td class="given" data-label="Price given"><s>$1,332.40 on Booking</s></td><td class="lowest" data-label="Lowest price">$1,034.62</td><td data-label="Found in">Mexico, from a Google-approved provider</td><td data-label="Made them"><span class="earned">$297.78 (22%)</span></td></tr>
+            <tr><td class="item" data-label="Item">Samsung Q-Series Soundbar<small>on Amazon</small></td><td class="given" data-label="Price given"><s>$997.99 on Amazon</s></td><td class="lowest" data-label="Lowest price">$747.99</td><td data-label="Found in">United States, from a verified provider</td><td data-label="Made them"><span class="earned">$250 (25%)</span></td></tr>
+            <tr><td class="item" data-label="Item">2 tickets, Harry Styles &amp; Jamie xx<small>Madison Square Garden, Section 116, Row 20</small></td><td class="given" data-label="Price given"><s>$1,300.00 at checkout</s></td><td class="lowest" data-label="Lowest price">$1,070.00</td><td data-label="Found in">United States, from a verified provider</td><td data-label="Made them"><span class="earned">$230 (18%)</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
 
-    <h2>After you pay: multiple-time arbitrage</h2>
-    <p>Many purchases can still be cancelled or returned for a while: hotels with free cancellation, flights, car rentals, some event tickets, pre-orders and delayed-shipment orders, and subscriptions. Inside that window a lower price found later is still money you can have.</p>
-    <p>The mechanism Arbitrica developed repeats the search from 195 countries at many points in time after the purchase, until the cancellation or return window ends. When it finds the identical item for less, with all taxes and fees included, it prepares a new booking or purchase at the lower price. The new booking is confirmed first, and only then is the original cancelled. See <a href="/blog/hotel-price-drop-after-booking.html">hotel price drops after booking</a> for how this plays out on hotels.</p>
+  <section class="hiw-section" id="after-you-pay">
+    <div class="container">
+      <h2 class="section-heading">After you pay: <span class="grad-text">multiple-time arbitrage</span></h2>
+      <div class="hiw-card prose">
+        <p class="lead">Many purchases can still be cancelled or returned for a while: hotels with free cancellation, flights, car rentals, some event tickets, pre-orders and delayed-shipment orders, and subscriptions. Inside that window a lower price found later is still money you can have.</p>
+        <ol class="flow">
+          <li>You pay at the best price found at checkout</li>
+          <li>The search repeats from 195 countries until the window ends</li>
+          <li>The new booking is confirmed at the lower price</li>
+          <li>Only then is the original cancelled</li>
+        </ol>
+        <p>The mechanism Arbitrica developed repeats the search from 195 countries at many points in time after the purchase, until the cancellation or return window ends. When it finds the identical item for less, with all taxes and fees included, it prepares a new booking or purchase at the lower price. The new booking is confirmed first, and only then is the original cancelled. See <a href="/blog/hotel-price-drop-after-booking.html">hotel price drops after booking</a> for how this plays out on hotels.</p>
+      </div>
+    </div>
+  </section>
 
-    <h2>Where Arbitrica lives</h2>
-    <p>Arbitrica is a personal AI agent, not a price list or a comparison site. It lives in your browser, stays out of the way while you browse, and only steps in at the moment it can earn you money. It reads checkout pages only to find you a lower price and does not sell personal data. See the <a href="/assets/privacy-policy.html">privacy policy</a> and the <a href="/faq.html">FAQ</a> for more.</p>
-
-  </div>
-</div>
+  <section class="hiw-section" id="where-arbitrica-lives">
+    <div class="container">
+      <h2 class="section-heading">Where Arbitrica <span class="grad-text">lives</span></h2>
+      <div class="hiw-card prose">
+        <p class="lead">Arbitrica is a personal AI agent, not a price list or a comparison site. It lives in your browser, stays out of the way while you browse, and only steps in at the moment it can earn you money.</p>
+        <p>It reads checkout pages only to find you a lower price and does not sell personal data. See the <a href="/assets/privacy-policy.html">privacy policy</a> and the <a href="/faq.html">FAQ</a> for more.</p>
+      </div>
+    </div>
+  </section>
+</main>
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-grid">
