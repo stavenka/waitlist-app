@@ -94,7 +94,7 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
     let out = html;
     if (out.includes(GA_ID)) {
       if (!out.includes('setTimeout(loadAll, 15000);')) return next();
-      out = out.replace('setTimeout(loadAll, 15000);', 'loadAll();');
+      out = out.replace('setTimeout(loadAll, 15000);', "document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', function () { setTimeout(loadAll, 0); }) : setTimeout(loadAll, 0);");
     } else if (/<head(\s[^>]*)?>/i.test(out)) {
       out = out.replace(/<head(\s[^>]*)?>/i, (m) => m + GA_SNIPPET);
     } else {
