@@ -72,6 +72,38 @@ app.get('/robots.txt', (req, res) => {
 
 // ── SEO: redirect /index.html → / to avoid duplicate content ──
 app.get("/index.html", (req, res) => res.redirect(301, "/"));
+// ── GA4 on every page (added 2026-10-24) ──
+// 1) Pages without the GA4 tag (about, how-it-works, faq, blog, compare, hotels...)
+//    get the standard gtag snippet injected into <head> when served.
+// 2) Pages that already carry the deferred loader (/, amazon, events) now load
+//    tracking straight away instead of waiting for a scroll/tap or 15 seconds,
+//    so visitors who glance and leave are counted too.
+const GA_ID = 'G-ZMMXH83411';
+const GA_SNIPPET =
+  '<script async src="https://www.googletagmanager.com/gtag/js?id=' + GA_ID + '"></script>' +
+  '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}' +
+  "gtag('js',new Date());gtag('config','" + GA_ID + "');</script>";
+app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
+  let rel;
+  try { rel = decodeURIComponent(req.path); } catch (e) { return next(); }
+  if (rel.endsWith('/')) rel += 'index.html';
+  const file = path.join(__dirname, rel);
+  if (!file.startsWith(__dirname + path.sep)) return next();
+  fs.readFile(file, 'utf8', (err, html) => {
+    if (err) return next();
+    let out = html;
+    if (out.includes(GA_ID)) {
+      if (!out.includes('setTimeout(loadAll, 15000);')) return next();
+      out = out.replace('setTimeout(loadAll, 15000);', 'loadAll();');
+    } else if (/<head(\s[^>]*)?>/i.test(out)) {
+      out = out.replace(/<head(\s[^>]*)?>/i, (m) => m + GA_SNIPPET);
+    } else {
+      return next();
+    }
+    res.type('html').send(out);
+  });
+});
+
 app.use(express.static(__dirname));
 
 app.post('/api/waitlist', async (req, res) => {
