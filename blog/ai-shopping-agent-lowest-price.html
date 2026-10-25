@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMMXH83411"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZMMXH83411');</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Agent That Finds the Lowest Price: How It Works</title>
+<meta name="description" content="What a personal AI shopping agent does: searches every market, validates the identical item and full price, and prepares the purchase at the lowest price.">
+<meta name="keywords" content="AI agent that finds the lowest price, personal AI shopping agent, AI shopping agent, AI save money, autonomous AI booking, AI price optimization consumer, geographic price arbitrage, time arbitrage">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html">
+<link rel="alternate" type="text/markdown" href="/blog/ai-shopping-agent-lowest-price.md" title="Markdown version of this article">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI Agent That Finds the Lowest Price: How It Works">
+<meta property="og:description" content="What a personal AI shopping agent does: searches every market, validates the identical item and full price, and prepares the purchase at the lowest price.">
+<meta property="og:url" content="https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html">
+<meta property="og:image" content="https://arbitrica.com/blog/ai-shopping-agent-lowest-price.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Arbitrica">
+<meta property="article:published_time" content="2026-10-25"><meta property="article:modified_time" content="2026-10-25">
+<meta property="article:section" content="AI agents">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Agent That Finds the Lowest Price: How It Works">
+<meta name="twitter:description" content="What a personal AI shopping agent does: searches every market, validates the identical item and full price, and prepares the purchase at the lowest price.">
+<meta name="twitter:image" content="https://arbitrica.com/blog/ai-shopping-agent-lowest-price.jpg">
+<link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spacegrotesk-700.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "The AI agent that finds the lowest price: how a personal shopping agent works", "description": "What a personal AI shopping agent does: searches every market, validates the identical item and full price, and prepares the purchase at the lowest price.", "image": "https://arbitrica.com/blog/ai-shopping-agent-lowest-price.jpg", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "wordCount": 2116, "keywords": "AI agent that finds the lowest price, personal AI shopping agent, AI shopping agent, AI save money, autonomous AI booking, AI price optimization consumer, geographic price arbitrage, time arbitrage", "articleSection": "AI agents", "abstract": "A personal AI agent for prices searches for the identical item in many markets and prepares the purchase at the lowest validated total. Sellers use revenue management and dynamic pricing to move prices up; a buy-side agent works for the consumer instead. An agent must match the identical item and compare the full price with all taxes and fees, or a lower number can cost more. The human should approve the payment: the agent prepares everything, and you review and pay. In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country.", "author": {"@type": "Organization", "name": "Arbitrica", "url": "https://arbitrica.com/"}, "publisher": {"@type": "Organization", "name": "Arbitrica", "logo": {"@type": "ImageObject", "url": "https://arbitrica.com/Arbitrica_logo_transparent.png"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html"}, "url": "https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html", "inLanguage": "en-US"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arbitrica.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://arbitrica.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "The AI agent that finds the lowest price: how a personal shopping agent works", "item": "https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a personal AI shopping agent?", "acceptedAnswer": {"@type": "Answer", "text": "It is software that works for the buyer: it notices a purchase, searches for the identical item in other markets, validates the full price and prepares the purchase at the lowest price for you to approve."}}, {"@type": "Question", "name": "Does an AI shopping agent pay for me?", "acceptedAnswer": {"@type": "Answer", "text": "The safest model leaves payment to you. The agent searches, validates and prepares everything, then you review the item, terms and total before you pay."}}, {"@type": "Question", "name": "Why would the same item be cheaper from another country?", "acceptedAnswer": {"@type": "Answer", "text": "Different countries get access to different inventory, sales channels, local rates and promotions, so searching the same item from another country can open up lower prices."}}, {"@type": "Question", "name": "Does this only work for hotels?", "acceptedAnswer": {"@type": "Answer", "text": "No. Geographic and time arbitrage also apply to online shopping and event tickets, as well as flights, car rentals and other purchases with prices that differ by market or move over time."}}]}</script>
+<style>
+@font-face { font-family: 'Inter'; src: url('/fonts/inter-var.woff2') format('woff2'); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: 'Space Grotesk'; src: url('/fonts/spacegrotesk-700.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+
+:root {
+  --bg: hsl(220 30% 97%); --fg: hsl(0 0% 9%); --muted: hsl(0 0% 38%);
+  --border: hsl(0 0% 83%); --primary: hsl(243 75% 58%); --card-bg: hsl(0 0% 100%);
+  --radius: 1.25rem; --radius-sm: 0.75rem;
+  --grad-primary: linear-gradient(135deg, hsl(320 80% 55%), hsl(280 70% 50%));
+  --grad-hero-bg: linear-gradient(180deg, hsl(260 50% 94%) 0%, hsl(240 35% 96%) 45%, hsl(220 30% 97%) 100%);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 24px rgba(0,0,0,0.09), 0 2px 8px rgba(0,0,0,0.05);
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-body); background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.grad-text { background: var(--grad-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.page-top { padding: 4rem 0 2rem; text-align: center; background: var(--grad-hero-bg); }
+.page-title { font-family: var(--font-display); font-size: 2.5rem; font-weight: 700; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+.page-subtitle { font-size: 1.15rem; color: var(--muted); max-width: 640px; margin: 0 auto; }
+.section-heading { font-family: var(--font-display); font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; margin: 3rem 0 1.25rem; text-align: center; }
+
+.header { background: hsla(0 0% 100% / 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+.header-inner { max-width: 1200px; margin: 0 auto; padding: 0.75rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+.header-left .logo-link img { height: 38px; width: auto; }
+.header-center { display: flex; gap: 1rem; align-items: center; }
+.ai-sign { height: 28px; width: auto; }
+.header-right .nav-about-btn { font-family: var(--font-display); font-weight: 600; font-size: 0.95rem; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius: 10px; transition: background 0.15s; }
+.header-right .nav-about-btn:hover { background: hsl(240 20% 96%); }
+@media (max-width: 768px) {
+  .header-center { display: none; }
+}
+
+.footer { background: var(--fg); color: hsl(0 0% 85%); padding: 3.5rem 0 1.5rem; margin-top: 4rem; }
+.footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2rem; margin-bottom: 2.5rem; }
+.footer-brand { font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; color: #fff; margin-bottom: 0.5rem; }
+.footer-brand-desc { font-size: 0.9rem; line-height: 1.6; color: hsl(0 0% 65%); }
+.footer-col h3 { font-family: var(--font-display); font-size: 0.85rem; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+.footer-col a { display: block; font-size: 0.9rem; color: hsl(0 0% 65%); padding: 0.25rem 0; transition: color 0.15s; }
+.footer-col a:hover { color: #fff; }
+.footer-bottom { border-top: 1px solid hsl(0 0% 22%); padding-top: 1.25rem; text-align: center; font-size: 0.8rem; color: hsl(0 0% 50%); }
+@media (max-width: 768px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .footer-grid { grid-template-columns: 1fr; }
+}
+
+
+/* ---- Article layout (2026-10-25) ---- */
+.art { padding-bottom: 1rem; }
+.art-hero { background: var(--grad-hero-bg); padding: 3.25rem 0 2.75rem; border-bottom: 1px solid hsl(270 30% 92%); }
+.art-wrap { max-width: 860px; margin: 0 auto; padding: 0 1.5rem; }
+.crumbs { font-size: 0.85rem; color: var(--muted); margin-bottom: 1.4rem; }
+.crumbs a { color: var(--muted); text-decoration: none; }
+.crumbs a:hover { color: var(--fg); text-decoration: underline; }
+.crumbs span[aria-current] { color: var(--fg); }
+.chip { display: inline-block; font-family: var(--font-display); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: hsl(300 62% 42%); background: hsl(300 70% 96%); border: 1px solid hsl(300 50% 88%); border-radius: 999px; padding: 0.32rem 0.8rem; margin-bottom: 1rem; }
+.art-hero h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(2rem, 4.4vw, 3rem); line-height: 1.12; letter-spacing: -0.025em; margin-bottom: 1rem; }
+.dek { font-size: 1.18rem; line-height: 1.6; color: var(--muted); max-width: 720px; }
+.meta { margin-top: 1.25rem; font-size: 0.88rem; color: var(--muted); }
+.art-cover { max-width: 1040px; margin: -5rem auto 0; padding: 0 1.5rem; }
+.art-cover img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow-md); }
+.art-grid { max-width: 1160px; margin: 0 auto; padding: 2.75rem 1.5rem 0; display: grid; grid-template-columns: 240px minmax(0, 760px); gap: 3.5rem; justify-content: center; }
+.toc { position: sticky; top: 92px; align-self: start; font-size: 0.88rem; }
+.toc-h { font-family: var(--font-display); font-weight: 700; font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; }
+.toc ol { list-style: none; border-left: 2px solid hsl(270 30% 90%); }
+.toc li { margin: 0; }
+.toc a { display: block; padding: 0.38rem 0 0.38rem 0.9rem; color: var(--muted); line-height: 1.4; margin-left: -2px; border-left: 2px solid transparent; }
+.toc a:hover { color: var(--fg); border-left-color: hsl(300 62% 50%); }
+.art-body { min-width: 0; }
+.takeaways { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; position: relative; overflow: hidden; }
+.takeaways::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--grad-primary); }
+.takeaways h2 { font-family: var(--font-display); font-size: 0.82rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: hsl(300 62% 42%); margin: 0 0 0.75rem; }
+.takeaways ul { margin: 0 0 0 1.1rem; }
+.takeaways li { color: var(--fg); font-size: 1rem; line-height: 1.6; margin-bottom: 0.45rem; }
+.takeaways li:last-child { margin-bottom: 0; }
+.prose > p, .prose li { font-size: 1.07rem; line-height: 1.8; color: hsl(0 0% 24%); }
+.prose > p { margin-bottom: 1.3rem; }
+.prose > p.lead { font-size: 1.16rem; color: var(--fg); font-weight: 500; line-height: 1.75; }
+.prose > p.lead::first-letter { float: left; font-family: Georgia, 'Times New Roman', serif; font-weight: 700; font-size: 4.3em; line-height: 0.78; margin: 0.42rem 0.6rem 0 -0.02em; padding: 0 0.04em; color: hsl(300 62% 50%); text-shadow: 0 6px 18px hsl(300 70% 55% / 0.22); }
+.prose h2, .faq > h2 { font-family: var(--font-display); font-size: clamp(1.45rem, 2.4vw, 1.8rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1.25; color: var(--fg); margin: 3rem 0 1rem; scroll-margin-top: 90px; }
+.prose h3 { font-family: var(--font-display); font-size: 1.22rem; font-weight: 700; color: var(--fg); margin: 2rem 0 0.6rem; scroll-margin-top: 90px; }
+.prose ul, .prose ol { margin: 0 0 1.4rem 1.4rem; }
+.prose li { margin-bottom: 0.55rem; }
+.prose li::marker { color: hsl(300 62% 50%); }
+.prose a, .faq a, .takeaways a { color: var(--primary); text-decoration: underline; text-underline-offset: 2px; }
+.prose strong { color: var(--fg); }
+.prose blockquote { margin: 2rem 0; padding: 0.5rem 0 0.5rem 1.4rem; border-left: 4px solid hsl(300 62% 50%); font-family: var(--font-display); font-size: 1.3rem; line-height: 1.45; color: var(--fg); }
+.callout { background: linear-gradient(160deg, hsl(300 60% 98%), hsl(250 60% 98%)); border: 1px solid hsl(280 40% 90%); border-radius: var(--radius-sm); padding: 1.2rem 1.4rem; margin: 1.8rem 0; }
+.callout p { margin: 0; font-size: 1rem; line-height: 1.7; color: hsl(0 0% 24%); }
+.callout .label { display: block; font-family: var(--font-display); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: hsl(300 62% 42%); margin-bottom: 0.35rem; }
+.chart { margin: 2.2rem 0; }
+.chart-svg { width: 100%; height: auto; display: block; border-radius: 18px; }
+.chart figcaption { font-size: 0.88rem; line-height: 1.55; color: var(--muted); margin-top: 0.7rem; padding-left: 0.2rem; }
+.table-wrap { overflow-x: auto; margin: 1.8rem 0; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--card-bg); box-shadow: var(--shadow-sm); }
+.prose table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.prose th { font-family: var(--font-display); font-weight: 700; font-size: 0.76rem; letter-spacing: 0.06em; text-transform: uppercase; color: hsl(280 30% 40%); background: hsl(270 60% 97%); text-align: left; padding: 0.85rem 1rem; border-bottom: 1px solid hsl(270 40% 90%); }
+.prose td { padding: 0.85rem 1rem; border-bottom: 1px solid hsl(0 0% 92%); color: hsl(0 0% 26%); vertical-align: top; line-height: 1.55; }
+.prose tr:last-child td { border-bottom: none; }
+.prose td:first-child { color: var(--fg); font-weight: 600; }
+.steps { list-style: none !important; margin: 1.5rem 0 1.8rem !important; counter-reset: step; }
+.steps > li { counter-increment: step; position: relative; padding-left: 3.4rem; margin-bottom: 1.1rem; }
+.steps > li::before { content: counter(step); position: absolute; left: 0; top: 0.1rem; width: 2.3rem; height: 2.3rem; border-radius: 50%; background: var(--grad-primary); color: #fff; font-family: var(--font-display); font-weight: 700; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 16px hsl(300 70% 50% / 0.25); }
+.steps > li strong { display: block; font-family: var(--font-display); font-size: 1.08rem; margin-bottom: 0.15rem; }
+.faq { margin-top: 3rem; }
+.faq .qa { border-top: 1px solid var(--border); padding: 1.2rem 0; }
+.faq .qa h3 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 700; margin-bottom: 0.4rem; }
+.faq .qa p { font-size: 1.02rem; line-height: 1.7; color: hsl(0 0% 26%); }
+.related { max-width: 1160px; margin: 4rem auto 0; padding: 0 1.5rem; }
+.related h2 { font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 1.25rem; }
+.rel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.rel-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; box-shadow: var(--shadow-sm); transition: transform .18s, box-shadow .18s; display: flex; flex-direction: column; }
+.rel-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.rel-card img { aspect-ratio: 1200 / 630; object-fit: cover; }
+.rel-cat { font-family: var(--font-display); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: hsl(300 62% 42%); padding: 0.9rem 1.1rem 0.2rem; }
+.rel-title { font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; line-height: 1.35; padding: 0 1.1rem 1.1rem; }
+@media (max-width: 1100px) {
+  .art-grid { grid-template-columns: minmax(0, 760px); }
+  .toc { position: static; background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 1rem 1.25rem; }
+}
+@media (max-width: 760px) {
+  .art-hero { padding: 2.25rem 0 2rem; }
+  .art-grid { padding-top: 2rem; }
+  .rel-grid { grid-template-columns: 1fr; }
+  .prose > p.lead::first-letter { font-size: 3.6em; }
+  .takeaways { padding: 1.25rem 1.25rem 1.25rem 1.5rem; }
+}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="/index.html" class="logo-link">
+        <picture>
+          <source srcset="/Arbitrica_logo_transparent.webp" type="image/webp">
+          <img src="/Arbitrica_logo_transparent.png" alt="Arbitrica" width="484" height="384">
+        </picture>
+      </a>
+    </div>
+    <div class="header-center">
+      <picture>
+        <source srcset="/AI-2.webp?v=r20260416" type="image/webp">
+        <img src="/AI-2.png?v=r20260416" alt="Idea of the Year 2025 AI award" class="ai-sign" width="260" height="42" loading="lazy" decoding="async">
+      </picture>
+      <picture>
+        <source srcset="/AI.webp?v=r20260416" type="image/webp">
+        <img src="/AI.png?v=r20260416" alt="Future of AI 2025 award" class="ai-sign" width="260" height="42" loading="lazy" decoding="async">
+      </picture>
+    </div>
+    <div class="header-right">
+      <a href="/about.html" class="nav-about-btn">About</a>
+    </div>
+  </div>
+</header>
+<main class="art">
+<header class="art-hero">
+  <div class="art-wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="/blog/">Blog</a> <span aria-hidden="true">/</span> <span aria-current="page">The AI agent that finds the lowest price: how a personal shopping agent works</span></nav>
+    <a class="chip" href="/blog/#ai-agents">AI agents</a>
+    <h1>The AI agent that finds the lowest price: how a personal shopping agent works</h1>
+    <p class="dek">Sellers have revenue managers and pricing engines. Here is what a buy-side AI agent does for you, and what to expect from one.</p>
+    <p class="meta"><time datetime="2026-10-25">Updated October 25, 2026</time> <span aria-hidden="true">·</span> 9 min read <span aria-hidden="true">·</span> Arbitrica</p>
+  </div>
+</header>
+<div class="art-grid">
+  <aside class="toc" aria-label="Contents"><p class="toc-h">Contents</p><ol><li><a href="#what-a-personal-ai-agent-for-prices-actually-does">What a personal AI agent for prices actually does</a></li><li><a href="#sell-side-and-buy-side-why-consumers-need-their-own-agent">Sell side and buy side: why consumers need their own agent</a></li><li><a href="#why-the-agent-must-validate-the-identical-item-and-the-full-">Why the agent must validate the identical item and the full price</a></li><li><a href="#why-the-human-approves-the-payment">Why the human approves the payment</a></li><li><a href="#geographic-arbitrage-the-same-item-from-another-country">Geographic arbitrage: the same item from another country</a></li><li><a href="#time-arbitrage-the-same-item-at-a-later-moment">Time arbitrage: the same item at a later moment</a></li><li><a href="#how-arbitrica-works-as-a-personal-ai-agent">How Arbitrica works as a personal AI agent</a></li><li><a href="#what-to-look-for-in-an-ai-agent-that-finds-the-lowest-price">What to look for in an AI agent that finds the lowest price</a></li><li><a href="#faq">Frequently asked questions</a></li></ol></aside>
+  <article class="art-body">
+    <section class="takeaways" aria-labelledby="kt-h"><h2 id="kt-h">Key takeaways</h2><ul><li>A personal AI agent for prices searches for the identical item in many markets and prepares the purchase at the lowest validated total.</li><li>Sellers use revenue management and dynamic pricing to move prices up; a buy-side agent works for the consumer instead.</li><li>An agent must match the identical item and compare the full price with all taxes and fees, or a lower number can cost more.</li><li>The human should approve the payment: the agent prepares everything, and you review and pay.</li><li>In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country.</li></ul></section>
+    <div class="prose">
+<p class="lead">An entire industry works to move the prices you pay upward. Revenue managers, yield teams, dynamic pricing engines and personalization systems decide, every hour, how much the same hotel, product or ticket should cost you. Consumers have had almost nothing on their side of that table. A personal AI agent that finds the lowest price is the missing half: software that works for the buyer, searches every market for the identical item and gets it at the global minimum before you pay.</p>
+
+<h2 id="what-a-personal-ai-agent-for-prices-actually-does">What a personal AI agent for prices actually does</h2>
+<p>Most shopping software stops at information. A price alert tells you a number changed. A comparison site lists offers and leaves the rest to you. An AI shopping agent goes further: it takes a goal ("buy this exact item at the lowest real price") and carries out the steps needed to reach it.</p>
+<p>For prices, those steps are fairly specific:</p>
+<ul>
+<li>Notice that you are about to buy something, at the moment the decision is being made.</li>
+<li>Identify exactly what the item is: the model, the hotel and dates, the seat section, the terms.</li>
+<li>Search for that identical item in as many markets as possible.</li>
+<li>Throw out offers that are not truly the same item or that hide extra costs.</li>
+<li>Prepare the purchase at the lowest validated price, so the person only has to review and pay.</li>
+</ul>
+<p>The phrase "autonomous AI booking" often gets used loosely for this. In practice the useful version is autonomous in the search and the preparation, and human in the final decision. That split matters, and we come back to it below.</p>
+
+<h2 id="sell-side-and-buy-side-why-consumers-need-their-own-agent">Sell side and buy side: why consumers need their own agent</h2>
+<p>Financial markets have a sell side and a buy side, and each has its own professionals. Consumer prices have a very well-staffed sell side. Hotels run revenue management systems that reprice stays as demand changes. Online stores test prices, run promotions in some countries and not others, and use different sellers and channels for the same product. Ticketing platforms use demand-based pricing for popular events. All of this is legal, normal business, and all of it is designed to capture as much as possible of what each buyer is willing to pay.</p>
+<figure class="chart" id="chart-price-sources"><svg class="chart-svg" viewBox="0 0 760 330" role="img" aria-labelledby="price-sources-t price-sources-d" xmlns="http://www.w3.org/2000/svg"><title id="price-sources-t">Why one hotel has more than one price</title><desc id="price-sources-d">Different countries get access to different inventory, channels, local rates, promotions and currencies, and dynamic pricing algorithms move prices all day.</desc><defs><linearGradient id="g-price-sources" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2399a"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs><rect width="760" height="330" rx="18" fill="#f6f3fb"/><text x="36" y="46" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="19" font-weight="700" fill="#171717">Why one hotel has more than one price</text><rect x="36" y="74" width="216" height="100" rx="14" fill="#ffffff" stroke="#e6e2ee"/><rect x="52" y="92" width="28" height="4" rx="2" fill="url(#g-price-sources)"/><text x="52" y="122" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#171717">Inventory</text><text x="52" y="144" font-family="Inter, system-ui, sans-serif" font-size="12.5" fill="#5f5f6b">Rooms and rates released to</text><text x="52" y="160" font-family="Inter, system-ui, sans-serif" font-size="12.5" fill="#5f5f6b">one market only</text><rect x="268" y="74" width="216" height="100" rx="14" fill="#ffffff" stroke="#e6e2ee"/><rect x="284" y="92" width="28" height="4" rx="2" fill="url(#g-price-sources)"/><text x="284" y="122" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#171717">Channels</text><text x="284" y="144" font-family="Inter, system-ui, sans-serif" font-size="12.5" fill="#5f5f6b">Local sellers and partners</text><rect x="500" y="74" width="216" height="100" rx="14" fill="#ffffff" stroke="#e6e2ee"/><rect x="516" y="92" width="28" height="4" rx="2" fill="url(#g-price-sources)"/><text x="516" y="122" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#171717">Local rates</text><text x="516" y="144" font-family="Inter, system-ui, sans-serif" font-size="12.5" fill="#5f5f6b">Prices set for buyers in a</text><text x="516" y="160" font-family="Inter, system-ui, sans-serif" font-size="12.5" fill="#5f5f6b">region</text><rect x="36" y="192" width="216" height="100" rx="14" fill="#ffffff" stroke="#e6e2ee"/><rect x="52" y="210" width="28" height="4" rx="2" fill="url(#g-price-sources)"/><text x="52" y="240" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#171717">Promotions</text><text x="52" y="262" font-family="Inter, system-ui, sans-serif" font-size="12.5" fill="#5f5f6b">Country-specific offers</text><rect x="268" y="192" width="216" height="100" rx="14" fill="#ffffff" stroke="#e6e2ee"/><rect x="284" y="210" width="28" height="4" rx="2" fill="url(#g-price-sources)"/><text x="284" y="240" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#171717">Currency</text><text x="284" y="262" font-family="Inter, system-ui, sans-serif" font-size="12.5" fill="#5f5f6b">Rates priced in local money</text><rect x="500" y="192" width="216" height="100" rx="14" fill="#ffffff" stroke="#e6e2ee"/><rect x="516" y="210" width="28" height="4" rx="2" fill="url(#g-price-sources)"/><text x="516" y="240" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#171717">Algorithms</text><text x="516" y="262" font-family="Inter, system-ui, sans-serif" font-size="12.5" fill="#5f5f6b">Dynamic pricing that moves all</text><text x="516" y="278" font-family="Inter, system-ui, sans-serif" font-size="12.5" fill="#5f5f6b">day</text></svg><figcaption>Different countries get different inventory, channels, local rates, promotions and currencies, and pricing algorithms move rates all day.</figcaption></figure>
+<p>The buy side, for an individual consumer, has traditionally been a browser and some patience. You can open a few tabs, try a coupon code and hope. You cannot search the same item from dozens of countries, check every seller, validate that each offer is identical and redo the search every day until your cancellation window closes. A personal AI agent for price optimization is the consumer's version of a buy-side desk: it does that work at machine speed and reports back only what is worth acting on.</p>
+<p>In April 2025, Visa and Mastercard both announced programs designed to let AI agents make purchases on a user's behalf, Visa Intelligent Commerce and Mastercard Agent Pay. Payment networks building rails for agents is a strong sign that buying through an agent is becoming a normal way to shop.</p>
+
+<h2 id="why-the-agent-must-validate-the-identical-item-and-the-full-">Why the agent must validate the identical item and the full price</h2>
+<p>Finding a lower number is easy. Finding a lower number for the same thing is the hard part, and it is where a careless agent would cost you money instead of earning it.</p>
+<h3>Identical item</h3>
+<p>Two offers can look the same and differ in ways that matter. A hotel listing may be a different room category, include or exclude breakfast, or carry a non-refundable rate where you expected free cancellation. A product may be a regional variant with a different model number, power plug, language setting or warranty. An event ticket may be in a different section or come from a resale listing with different transfer rules. An agent that finds the lowest price has to match on the details that define the item, not on the title.</p>
+<h3>Full price</h3>
+<p>The headline number is rarely the price you pay. Hotels add city taxes and resort fees late in the booking flow. Online orders add shipping, import duties and payment charges. Ticket platforms add service and delivery fees at the last step. The only fair comparison is the total at checkout, in your currency, with every tax and fee included. A good agent compares totals and also checks that the price will hold, so you are not shown a number that changes on the final screen.</p>
+<div class="callout"><span class="label">Tip</span><p>Whether you use an agent or search by hand, write down the full checkout total for your first offer, including every fee. Judge every alternative against that one number.</p></div>
+
+<h2 id="why-the-human-approves-the-payment">Why the human approves the payment</h2>
+<p>An agent can do the searching, matching, validating and preparing. Spending your money should still be your call. There are good reasons for that line:</p>
+<ul>
+<li><strong>Preferences the agent cannot see.</strong> You might prefer a certain cancellation policy, a delivery date or a seller you have used before.</li>
+<li><strong>Accountability.</strong> Payments are hard to reverse. A final human review catches the rare case where something looks wrong.</li>
+<li><strong>Trust.</strong> People are more comfortable using an agent when they know nothing is charged without their approval.</li>
+</ul>
+<p>So the sensible model is an agent that prepares everything at the lowest price and stops at the payment step. You see what was found, the full price and the terms, and you decide.</p>
+
+<h2 id="geographic-arbitrage-the-same-item-from-another-country">Geographic arbitrage: the same item from another country</h2>
+<p>The biggest source of savings is where an item is bought from. Different countries get access to different inventory, sales channels, local rates and promotions. Searching the same item from another country can open up lower prices you cannot get from your own country. This is geographic price arbitrage, and the guide to <a href="/blog/what-is-geographic-price-arbitrage.html">what geographic price arbitrage is</a> explains it in more depth.</p>
+<p>Hotels show it most clearly. In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. A 2024 NordVPN study found that travel bookings made through US websites came out up to 70% higher than through websites elsewhere (its largest gap was a car rental); a seven-night stay in a triple room at a Milan hotel for a family of three cost about $1,216 searched from the US and $1,012 searched from Italy.</p>
+<figure class="chart" id="chart-country-gap"><svg class="chart-svg" viewBox="0 0 760 330" role="img" aria-labelledby="country-gap-t country-gap-d" xmlns="http://www.w3.org/2000/svg"><title id="country-gap-t">The same hotel, searched from 100 countries</title><desc id="country-gap-d">80% of countries showed a lower price than the traveler’s own country; the typical gap was 20 to 40 percent.</desc><defs><linearGradient id="g-country-gap" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2399a"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs><rect width="760" height="330" rx="18" fill="#f6f3fb"/><circle cx="190" cy="165" r="108" fill="none" stroke="#e6e2ee" stroke-width="30"/><path d="M 190 57 A 108 108 0 1 1 87.3 131.6" fill="none" stroke="url(#g-country-gap)" stroke-width="30" stroke-linecap="round"/><text x="190" y="173" text-anchor="middle" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="52" font-weight="700" fill="#171717">80%</text><text x="190" y="201" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#5f5f6b">of countries</text><text x="400" y="78" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#171717">The same hotel, searched from</text><text x="400" y="106" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#171717">100 countries</text><text x="400" y="140" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#5f5f6b">80% of countries showed a lower price</text><text x="400" y="161" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#5f5f6b">than the traveler’s own country.</text><text x="400" y="205" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#5f5f6b" letter-spacing="1">TYPICAL GAP</text><rect x="400" y="218" width="300" height="16" rx="8" fill="#e6e2ee"/><rect x="460" y="218" width="60" height="16" rx="8" fill="url(#g-country-gap)"/><text x="400" y="256" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#5f5f6b">0%</text><text x="460" y="256" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#171717" font-weight="600">20%</text><text x="520" y="256" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#171717" font-weight="600">40%</text><text x="700" y="256" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#5f5f6b">100%</text><text x="400" y="292" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#5f5f6b">Test of 1,000 hotels searched from 100 countries</text></svg><figcaption>In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler’s own country. The typical gap was 20–40%.</figcaption></figure>
+<p>The same logic applies to <a href="/blog/buy-online-cheaper-from-another-country.html">buying online from another country</a>, where an identical product can be listed by different sellers and stores at different prices, and to event tickets sold through several channels. Across categories, the same item is often 5-30% cheaper elsewhere. Doing this by hand means a VPN, one country at a time, and a lot of guesswork about which countries to try. Nobody can check 195 countries manually before every purchase.</p>
+
+<h2 id="time-arbitrage-the-same-item-at-a-later-moment">Time arbitrage: the same item at a later moment</h2>
+<p>The second source of savings is when an item is bought. Prices keep moving after you pay. If your purchase can still be cancelled or returned, a later drop is money you can still earn.</p>
+<ul>
+<li><strong>Hotels.</strong> Book a refundable rate, keep checking until free cancellation ends, and rebook if the identical hotel gets cheaper.</li>
+<li><strong>Online shopping.</strong> Pre-orders and items with a return window can be bought again at a lower price and the first order returned or cancelled.</li>
+<li><strong>Event tickets.</strong> Prices for many events move as the date approaches, and some purchases can be changed. See <a href="/blog/event-ticket-price-drops.html">how event ticket prices drop</a>.</li>
+</ul>
+<p>Our article on <a href="/blog/time-arbitrage-explained.html">time arbitrage</a> covers the details. The key safety rule is order: the new purchase must be confirmed before the original is cancelled, so you are never left without a booking.</p>
+
+<h2 id="how-arbitrica-works-as-a-personal-ai-agent">How Arbitrica works as a personal AI agent</h2>
+<p>Arbitrica is a personal AI agent built for the buy side. It meets you at checkout, when you are about to pay, and searches the same item from 195 countries. It validates that the offer is identical, with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay.</p>
+<figure class="chart" id="chart-how-it-works"><svg class="chart-svg" viewBox="0 0 760 260" role="img" aria-labelledby="how-it-works-t how-it-works-d" xmlns="http://www.w3.org/2000/svg"><title id="how-it-works-t">How Arbitrica works at checkout</title><desc id="how-it-works-d">You book as usual; at checkout Arbitrica searches the same item from 195 countries, validates it is identical with taxes and fees included, and prepares everything at the lowest price for you to review and pay.</desc><defs><linearGradient id="g-how-it-works" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2399a"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs><rect width="760" height="260" rx="18" fill="#f6f3fb"/><text x="36" y="48" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="19" font-weight="700" fill="#171717">How Arbitrica works at checkout</text><rect x="36.0" y="74" width="126.4" height="150" rx="14" fill="#ffffff" stroke="#e6e2ee"/><circle cx="60.0" cy="100" r="13" fill="#f6f3fb" stroke="#e6e2ee"/><text x="60.0" y="105" text-anchor="middle" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#7c3aed">1</text><text x="50.0" y="140" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#171717">Book as usual</text><text x="50.0" y="163" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#5f5f6b">On any site you</text><text x="50.0" y="179" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#5f5f6b">already use</text><text x="169.4" y="154.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#d6338f">›</text><rect x="176.4" y="74" width="126.4" height="150" rx="14" fill="#ffffff" stroke="#e6e2ee"/><circle cx="200.4" cy="100" r="13" fill="#f6f3fb" stroke="#e6e2ee"/><text x="200.4" y="105" text-anchor="middle" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#7c3aed">2</text><text x="190.4" y="140" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#171717">Agent meets</text><text x="190.4" y="159" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#171717">you</text><text x="190.4" y="182" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#5f5f6b">Right before you</text><text x="190.4" y="198" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#5f5f6b">pay</text><text x="309.8" y="154.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#d6338f">›</text><rect x="316.8" y="74" width="126.4" height="150" rx="14" fill="#ffffff" stroke="#e6e2ee"/><circle cx="340.8" cy="100" r="13" fill="#f6f3fb" stroke="#e6e2ee"/><text x="340.8" y="105" text-anchor="middle" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#7c3aed">3</text><text x="330.8" y="140" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#171717">195 countries</text><text x="330.8" y="163" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#5f5f6b">The same item</text><text x="330.8" y="179" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#5f5f6b">searched from each</text><text x="450.2" y="154.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#d6338f">›</text><rect x="457.2" y="74" width="126.4" height="150" rx="14" fill="#ffffff" stroke="#e6e2ee"/><circle cx="481.2" cy="100" r="13" fill="#f6f3fb" stroke="#e6e2ee"/><text x="481.2" y="105" text-anchor="middle" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#7c3aed">4</text><text x="471.2" y="140" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#171717">Validated</text><text x="471.2" y="163" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#5f5f6b">Identical item,</text><text x="471.2" y="179" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#5f5f6b">all taxes and fees</text><text x="590.6" y="154.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#d6338f">›</text><rect x="597.6" y="74" width="126.4" height="150" rx="14" fill="url(#g-how-it-works)" stroke="#e6e2ee"/><circle cx="621.6" cy="100" r="13" fill="#ffffff" stroke="#e6e2ee"/><text x="621.6" y="105" text-anchor="middle" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#7c3aed">5</text><text x="611.6" y="140" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#ffffff">Prepared for</text><text x="611.6" y="159" font-family="'Space Grotesk', Inter, system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#ffffff">you</text><text x="611.6" y="182" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#f5eefe">You review and pay</text></svg><figcaption>At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.</figcaption></figure>
+<p>Arbitrica always looks for the lower price at a different provider or seller than the one you are on, so the result is a real alternative rather than the same offer again. The provider is never the point; the identical item at the lowest total is.</p>
+<p>For time arbitrage, Arbitrica's approach repeats the search after you buy, while free cancellation or a return window is still open. When the identical item becomes available at a lower price, a new purchase is prepared and confirmed first, and only then is the original cancelled.</p>
+<p>A real example: a hotel offered at $1,527.39 on Booking.com was found by Arbitrica for $1,180.27 for the identical hotel, earning the user $347.12 (23%). Research demonstrated average earnings of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase. Companies use the same approach: travel managers and operations managers booking teams into trade shows and conferences face the same pricing systems at a larger scale. The full flow is described on <a href="/how-it-works.html">how it works</a>.</p>
+
+<h2 id="what-to-look-for-in-an-ai-agent-that-finds-the-lowest-price">What to look for in an AI agent that finds the lowest price</h2>
+<ol class="steps">
+<li><strong>It searches widely</strong>An agent that only checks a few stores or your own country misses most of the spread. Coverage of many countries is where the large gaps are.</li>
+<li><strong>It matches the identical item</strong>Model numbers, room types, dates, seat sections and terms must match, not just the product name.</li>
+<li><strong>It compares full totals</strong>Taxes, fees, shipping and duties included, in your currency.</li>
+<li><strong>It keeps working after you pay</strong>Repeating the search inside a cancellation or return window adds a second chance to earn.</li>
+<li><strong>It leaves the payment to you</strong>Preparation can be automatic; spending your money should not be.</li>
+</ol>
+<p>Even without any agent, these are the habits that save money: check the full price, look beyond your own country, prefer flexible terms and keep checking until you can no longer change the purchase. An agent simply does all of it, every time, for every purchase.</p>
+
+    </div>
+    <section class="faq" id="faq" aria-labelledby="faq-h"><h2 id="faq-h">Frequently asked questions</h2><div class="qa"><h3>What is a personal AI shopping agent?</h3><p>It is software that works for the buyer: it notices a purchase, searches for the identical item in other markets, validates the full price and prepares the purchase at the lowest price for you to approve.</p></div><div class="qa"><h3>Does an AI shopping agent pay for me?</h3><p>The safest model leaves payment to you. The agent searches, validates and prepares everything, then you review the item, terms and total before you pay.</p></div><div class="qa"><h3>Why would the same item be cheaper from another country?</h3><p>Different countries get access to different inventory, sales channels, local rates and promotions, so searching the same item from another country can open up lower prices.</p></div><div class="qa"><h3>Does this only work for hotels?</h3><p>No. Geographic and time arbitrage also apply to online shopping and event tickets, as well as flights, car rentals and other purchases with prices that differ by market or move over time.</p></div></section>
+  </article>
+</div>
+<section class="related" aria-labelledby="rel-h"><h2 id="rel-h">Keep reading</h2><div class="rel-grid"><a class="rel-card" href="/blog/what-is-geographic-price-arbitrage.html"><img src="/blog/what-is-geographic-price-arbitrage.jpg" alt="" width="1200" height="630" loading="lazy" decoding="async"><span class="rel-cat">Hidden prices</span><span class="rel-title">What is geographic price arbitrage?</span></a><a class="rel-card" href="/blog/time-arbitrage-explained.html"><img src="/blog/time-arbitrage-explained.jpg" alt="" width="1200" height="630" loading="lazy" decoding="async"><span class="rel-cat">Save money</span><span class="rel-title">Time arbitrage explained: how to benefit when prices drop after you buy</span></a><a class="rel-card" href="/blog/amazon-prices-different-countries.html"><img src="/blog/amazon-prices-different-countries.jpg" alt="" width="1200" height="630" loading="lazy" decoding="async"><span class="rel-cat">Online shopping</span><span class="rel-title">Amazon prices in different countries: why the same product costs more or less</span></a></div></section>
+</main>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">Arbitrica</p>
+        <p class="footer-brand-desc">The new AI that finds hidden prices and earns you money after you pay.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Product</h3>
+        <a href="/index.html#how-it-works">How it works</a>
+        <a href="/hotel-price-tracker.html">Price tracker</a>
+      </div>
+      <div class="footer-col">
+        <h3>Company</h3>
+        <a href="/about.html">About</a>
+        <a href="/about.html#careers">Careers</a>
+        <a href="/blog/">Blog</a>
+      </div>
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <a href="/assets/privacy-policy.html">Privacy</a>
+        <a href="/assets/terms-of-service.html">Terms</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Arbitrica<sup style="font-size:0.7em;color:rgba(255,255,255,0.85);">TM</sup> All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
