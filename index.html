@@ -357,8 +357,11 @@
       font-size: 1.125rem;
       color: var(--muted);
       line-height: 1.7;
-      max-width: 460px;
+      max-width: 540px; /* three lines on desktop (the user, 28-10-2026) */
     }
+    /* Three lines at every width (the user, 28-10-2026): narrow laptops and phones get the size that keeps them three. */
+    @media (min-width: 941px) and (max-width: 1100px) { .hero-p { font-size: clamp(0.94rem, 1.62vw, 1.05rem); } }
+    @media (max-width: 480px) { p.hero-p { font-size: clamp(0.75rem, 3.55vw, 1rem); } }
     .hero-highlight {
       color: var(--fg);
       font-weight: 600;
@@ -826,7 +829,7 @@
         </h1>
 
         <!-- #11: new sub-message -->
-        <p class="hero-p">There&rsquo;re hidden prices for everything online.<br>This AI searches from <span class="hero-highlight">195 countries</span><br class="br-desk"> and finds the <span class="hero-highlight">lowest price on Earth</span> for any hotel.<br> For free.</p>
+        <p class="hero-p">There&rsquo;re hidden prices for everything online.<br>This AI searches from <span class="hero-highlight">195 countries</span> and<br class="br-desk"> finds the <span class="hero-highlight">lowest price on Earth</span> for any hotel. For free.</p>
 
         <!-- #6: unified pill CTA, #5: placeholder is just "Enter your email" -->
         <form class="cta-pill" id="waitlistForm" action="javascript:void(0)" onsubmit="arbitricaClaim(); return false;">
