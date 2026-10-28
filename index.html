@@ -689,6 +689,17 @@
       font-size: 0.9375rem; font-weight: 600; cursor: pointer; transition: opacity 0.18s;
     }
     .queue-close:hover { opacity: 0.82; }
+    /* "Are you planning to book a hotel within one month?" before "You're in!" (the user, 28-10-2026) */
+    .intent-modal { position: relative; padding: 2.25rem 2rem 1.75rem; max-width: 380px; }
+    .intent-ico { width: 56px; height: 56px; margin: 0 auto 1rem; border-radius: 50%; background: linear-gradient(145deg, #ffffff, #f1eefc); box-shadow: 0 0 0 1px rgba(67,59,227,.18), 0 4px 12px rgba(67,59,227,.14); display: flex; align-items: center; justify-content: center; }
+    .intent-q { font-family: var(--font-display); font-size: 1.45rem; font-weight: 700; line-height: 1.25; color: var(--fg); margin: 0 0 1.5rem; }
+    .intent-btns { display: flex; gap: 0.75rem; }
+    .intent-btns button { flex: 1; height: 48px; border-radius: var(--radius-sm); font-family: var(--font-body); font-size: 1rem; font-weight: 600; cursor: pointer; transition: opacity .18s; }
+    .intent-yes { background: var(--fg); color: #fff; border: none; }
+    .intent-no { background: #fff; color: var(--fg); border: 1.5px solid var(--fg); }
+    .intent-btns button:hover { opacity: 0.82; }
+    .intent-x { position: absolute; top: 12px; right: 12px; width: 32px; height: 32px; border: none; border-radius: 8px; background: transparent; color: var(--muted); cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .intent-x:hover { background: #f2f0f5; }
 
     /* ── RESPONSIVE ──────────────────────────────────────────────────────── */
     @media (max-width: 940px) {
@@ -958,13 +969,26 @@
   </div>
 </footer>
 
+<!-- ── BOOKING-INTENT QUESTION (before "You're in!") ─────────────────────── -->
+<div class="queue-overlay" id="intentOverlay" role="dialog" aria-modal="true" aria-labelledby="intentQuestion">
+  <div class="queue-modal intent-modal">
+    <button type="button" class="intent-x" id="intentClose" aria-label="Close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+    <div class="intent-ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><defs><linearGradient id="intentGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b4ef0"/><stop offset="1" stop-color="#b83fd6"/></linearGradient></defs><path d="M3 19V8M3 15h18v4M21 15v-3a3 3 0 0 0-3-3h-7v6" stroke="url(#intentGrad)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="11.5" r="2" stroke="url(#intentGrad)" stroke-width="1.6"/></svg></div>
+    <p class="intent-q" id="intentQuestion">Are you planning to book a hotel within one month?</p>
+    <div class="intent-btns">
+      <button type="button" class="intent-yes" data-answer="Yes">Yes</button>
+      <button type="button" class="intent-no" data-answer="No">No</button>
+    </div>
+  </div>
+</div>
+
 <!-- ── QUEUE MODAL ───────────────────────────────────────────────────────── -->
 <div class="queue-overlay" id="queueModalOverlay" role="dialog" aria-modal="true" aria-labelledby="queueModalTitle">
   <div class="queue-modal">
     <div class="queue-emoji">🎉</div>
     <p class="queue-title" id="queueModalTitle">You're in!</p>
     <p class="queue-label">Your queue number</p>
-    <div class="queue-number" id="queueModalNumber">#7000</div>
+    <div class="queue-number" id="queueModalNumber">#22500</div>
     <p class="queue-text">Stay tuned for our email with access<br>prior to the <strong>launch</strong>.</p>
     <button type="button" class="queue-close" id="queueModalClose">Got it</button>
   </div>
@@ -1002,7 +1026,7 @@
 
 <script>
   var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwLEYW5koQGdH6tZmHqfQ9g3EYhMqkhnUI7uJSVjhlMQJVwZyiSRvncpzRypcFaKdI6/exec';
-  var QUEUE_START = 7000;
+  var QUEUE_START = 22500;
 
   function arbitricaGetQueue() {
     try {
@@ -1021,6 +1045,29 @@
     var ov = document.getElementById('queueModalOverlay');
     if (ov) { ov.classList.remove('open'); document.body.style.overflow = ''; }
   }
+  // The booking question, then "You're in!". The answer is saved on the sign-up's own row (server: /api/waitlist/answer);
+  // closing the question without an answer goes straight on to "You're in!".
+  var arbIntent = null;
+  function arbitricaAskIntent(num, email, row) {
+    var ov = document.getElementById('intentOverlay');
+    if (!ov) { arbitricaShowModal(num); return; }
+    arbIntent = { num: num, email: email, row: row };
+    ov.classList.add('open'); document.body.style.overflow = 'hidden';
+  }
+  function arbitricaIntentDone(answer) {
+    var ov = document.getElementById('intentOverlay');
+    if (!arbIntent || !ov) return;
+    var it = arbIntent; arbIntent = null;
+    ov.classList.remove('open');
+    if (answer && it.row) {
+      try {
+        fetch('/api/waitlist/answer', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: it.email, row: it.row, answer: answer }) }).catch(function () {});
+      } catch (e) {}
+      try { if (window.posthog && typeof posthog.capture === 'function') posthog.capture('waitlist_booking_intent', { answer: answer }); } catch (e) {}
+    }
+    arbitricaShowModal(it.num);
+  }
   function arbitricaClaim() {
     var emailInput = document.getElementById('waitlistEmail');
     if (!emailInput) return;
@@ -1035,7 +1082,7 @@
     }
     var btn = document.getElementById('waitlistSubmitBtn');
     if (btn) { btn.disabled = true; btn.textContent = 'Recording…'; }
-    function done(num) {
+    function done(num, row) {
       try { window.arbitricaLoadTracking && window.arbitricaLoadTracking(); } catch(e) {}
       gtag('event','conversion',{'send_to':'AW-18057434040/DQayCPrv0JUcELinuqJD'});
       gtag('event','generate_lead',{'event_category':'waitlist','event_label':'claim_button','value':1});
@@ -1050,7 +1097,7 @@
         }
       } catch (e) {}
       if (btn) { btn.disabled = false; btn.textContent = 'Claim for free'; }
-      arbitricaShowModal(num);
+      arbitricaAskIntent(num, email, row);
     }
     // Collect UTM parameters from the landing URL so we can attribute signups
     var urlParams = new URLSearchParams(window.location.search);
@@ -1067,8 +1114,8 @@
       body: JSON.stringify(utmData)
     })
       .then(function(r) { return r.json(); })
-      .then(function(data) { done(data && data.position ? data.position : arbitricaGetQueue()); })
-      .catch(function() { done(arbitricaGetQueue()); });
+      .then(function(data) { done(data && data.position ? data.position : arbitricaGetQueue(), data && data.row); })
+      .catch(function() { done(arbitricaGetQueue(), null); });
   }
 
   document.addEventListener('DOMContentLoaded', function () {
@@ -1135,7 +1182,15 @@
     document.addEventListener('click', function(e) {
       if (e.target && (e.target.id === 'queueModalClose' || e.target.id === 'queueModalOverlay')) arbitricaCloseModal();
     });
-    document.addEventListener('keydown', function(e) { if (e.key === 'Escape') arbitricaCloseModal(); });
+    document.addEventListener('click', function(e) {
+      var t = e.target && e.target.closest ? e.target.closest('#intentOverlay [data-answer], #intentClose') : null;
+      if (t) arbitricaIntentDone(t.getAttribute('data-answer') || '');
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key !== 'Escape') return;
+      if (arbIntent) { arbitricaIntentDone(''); return; }
+      arbitricaCloseModal();
+    });
   });
 </script>
 

@@ -106,6 +106,67 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
 
 app.use(express.static(__dirname));
 
+// The country's English name from a two-letter code ("GB" -> "United Kingdom"); '' for none, unknown (XX) or Tor (T1).
+function countryName(code) {
+  const c = String(code || '').trim().toUpperCase();
+  if (!/^[A-Z]{2}$/.test(c) || c === 'XX' || c === 'T1') return '';
+  try { return new Intl.DisplayNames(['en'], { type: 'region' }).of(c) || c; } catch (e) { return c; }
+}
+
+function waitlistCredentials() {
+  if (process.env.GOOGLE_CREDENTIALS_JSON) return JSON.parse(process.env.GOOGLE_CREDENTIALS_JSON);
+  const credPath = getCredentialsPath();
+  if (!fs.existsSync(credPath)) return null;
+  return JSON.parse(fs.readFileSync(credPath, 'utf8'));
+}
+
+// Headers of the two columns added on 28-10-2026, written once per server start if the cells are empty.
+let extraHeadersChecked = false;
+async function ensureExtraHeaders(sheets, sheetName) {
+  if (extraHeadersChecked) return;
+  extraHeadersChecked = true;
+  try {
+    const got = await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!I1:J1` });
+    const cells = (got.data.values && got.data.values[0]) || [];
+    if (!cells[0] || !cells[1]) {
+      await sheets.spreadsheets.values.update({
+        spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!I1:J1`, valueInputOption: 'RAW',
+        requestBody: { values: [[cells[0] || 'Country', cells[1] || 'Booking hotel within a month']] },
+      });
+    }
+  } catch (e) {
+    console.error('Waitlist headers not set:', e.message);
+  }
+}
+
+// "Are you planning to book a hotel within one month?" (the user, 28-10-2026): asked after the sign-up, before
+// "You're in!". The answer goes in column J of the sign-up's own row, only when that row holds the same email.
+app.post('/api/waitlist/answer', async (req, res) => {
+  const email = req.body && req.body.email != null ? String(req.body.email).trim() : '';
+  const row = parseInt(req.body && req.body.row, 10);
+  const answer = req.body && req.body.answer === 'Yes' ? 'Yes' : req.body && req.body.answer === 'No' ? 'No' : '';
+  if (!email || !answer || !(row >= 2 && row < 1000000)) return res.status(400).json({ ok: false });
+  try {
+    const credentials = waitlistCredentials();
+    if (!credentials) return res.status(503).json({ ok: false });
+    const auth = new google.auth.GoogleAuth({ credentials, scopes: ['https://www.googleapis.com/auth/spreadsheets'] });
+    const sheets = google.sheets({ version: 'v4', auth });
+    const meta = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
+    const titles = (meta.data.sheets || []).map(s => s.properties && s.properties.title).filter(Boolean);
+    const sheetName = [SHEET_NAME, 'Waitlist', 'Sheet1'].filter(Boolean).find(t => titles.includes(t)) || titles[0];
+    const got = await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!A${row}` });
+    const onRow = got.data.values && got.data.values[0] && String(got.data.values[0][0] || '').trim();
+    if (!onRow || onRow.toLowerCase() !== email.toLowerCase()) return res.status(409).json({ ok: false });
+    await sheets.spreadsheets.values.update({
+      spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!J${row}`, valueInputOption: 'RAW', requestBody: { values: [[answer]] },
+    });
+    return res.json({ ok: true });
+  } catch (err) {
+    console.error('Waitlist answer not saved:', err.message);
+    return res.status(500).json({ ok: false });
+  }
+});
+
 app.post('/api/waitlist', async (req, res) => {
   const raw = req.body && req.body.email;
   const email = raw != null ? String(raw).trim() : '';
@@ -121,6 +182,9 @@ app.post('/api/waitlist', async (req, res) => {
   const utmMedium   = req.body.utm_medium   ? String(req.body.utm_medium).slice(0, 200)   : '';
   const utmCampaign = req.body.utm_campaign ? String(req.body.utm_campaign).slice(0, 200) : '';
   const utmContent  = req.body.utm_content  ? String(req.body.utm_content).slice(0, 200)  : '';
+  // Country of sign-up (the user, 28-10-2026): Cloudflare, in front of the site, sends the visitor's country from their IP
+  // as a two-letter code (CF-IPCountry). Only the country is kept, never the IP.
+  const country = countryName(req.get('cf-ipcountry'));
 
   let credentials = null;
   if (process.env.GOOGLE_CREDENTIALS_JSON) {
@@ -147,8 +211,9 @@ app.post('/api/waitlist', async (req, res) => {
     const sheets = google.sheets({ version: 'v4', auth });
     const dateJoined = new Date().toISOString();
     const status = 'New';
-    // Columns: A=Email, B=Date joined, C=Status, D=(Name – left blank), E–H=UTM fields
-    const row = [email, dateJoined, status, '', utmSource, utmMedium, utmCampaign, utmContent];
+    // Columns: A=Email, B=Date joined, C=Status, D=(Name – left blank), E–H=UTM fields, I=Country,
+    // J=Booking hotel within a month (filled by /api/waitlist/answer)
+    const row = [email, dateJoined, status, '', utmSource, utmMedium, utmCampaign, utmContent, country];
 
     // Fetch spreadsheet to get actual sheet names and verify access
     const meta = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
@@ -164,22 +229,23 @@ app.post('/api/waitlist', async (req, res) => {
 
     const appendRes = await sheets.spreadsheets.values.append({
       spreadsheetId: SPREADSHEET_ID,
-      range: `'${sheetName}'!A:H`,
+      range: `'${sheetName}'!A:I`,
       valueInputOption: 'USER_ENTERED',
       insertDataOption: 'INSERT_ROWS',
       requestBody: { values: [row] },
     });
 
     // Derive a sequential queue number from the sheet row.
-    // QUEUE_OFFSET is set so that row 589 (the first row after this deploy) → #7000.
+    // QUEUE_OFFSET is set so that row 1539 (the first row after the 28-10-2026 deploy) → #22,500 (the user, 28-10-2026).
     // Each subsequent signup gets the next integer automatically.
-    const QUEUE_OFFSET = 6411;
+    const QUEUE_OFFSET = 20961;
     const updatedRange = appendRes.data.updates && appendRes.data.updates.updatedRange || '';
     const rowMatch = updatedRange.match(/:?[A-Z]+(\d+)$/);
     const appendedRow = rowMatch ? parseInt(rowMatch[1], 10) : 0;
-    const position = appendedRow > 0 ? appendedRow + QUEUE_OFFSET : 7000;
+    const position = appendedRow > 0 ? appendedRow + QUEUE_OFFSET : 22500;
+    await ensureExtraHeaders(sheets, sheetName);
 
-    return res.json({ ok: true, position });
+    return res.json({ ok: true, position, row: appendedRow || null });
   } catch (err) {
     const code = err.response && err.response.status;
     const msg = err.message || '';
