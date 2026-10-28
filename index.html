@@ -445,6 +445,16 @@
     .stat-ico { width: 24px; height: 24px; border-radius: 50%; background: linear-gradient(145deg, #ffffff, #f1eefc); box-shadow: 0 0 0 1px rgba(67,59,227,.18), 0 2px 6px rgba(67,59,227,.12); display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
     .stat-ico svg { width: 14px; height: 14px; }
     @media (max-width: 640px) { .trust-row.stats-row { flex-wrap: wrap; justify-content: center; max-width: none; } }
+    /* "Free for the first 25,000 people" under "Claim for free" (the user, 28-10-2026): a soft pill as wide as the button. */
+    .free-pill { display: flex; align-items: center; justify-content: center; gap: 0.75rem; width: 100%; max-width: 420px; box-sizing: border-box; padding: 0.5rem 0.9rem; border-radius: 999px; background: linear-gradient(135deg, #ffffff, #f6f2ff); box-shadow: 0 0 0 1px rgba(67,59,227,.18), 0 4px 14px rgba(67,59,227,.10); font-size: 0.95rem; color: hsl(0 0% 30%); white-space: nowrap; }
+    .free-pill b { color: var(--fg); font-weight: 700; }
+    .free-pill .free-num { background: var(--grad-primary); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+    .free-tag { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.38rem 0.7rem; border-radius: 999px; background: #fff; box-shadow: 0 0 0 1px rgba(184,63,214,.35); font: 700 0.66rem/1 var(--font-display); letter-spacing: 0.12em; text-transform: uppercase; flex-shrink: 0; }
+    .free-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--grad-primary); }
+    .free-tag-t { background: var(--grad-primary); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+    @media (max-width: 940px) { .free-pill { margin-left: auto; margin-right: auto; } }
+    /* Phones and tablets: the form is narrower there, so the tag sits above the words, the pill as wide as the form. */
+    @media (max-width: 940px) { .free-pill { flex-direction: column; gap: 0.4rem; width: 100%; max-width: 254px; border-radius: 16px; padding: 0.6rem 0.75rem; font-size: 0.9rem; } }
     /* Phones and small tablets: "and finds the lowest price on Earth" runs on right after "195 countries" (the user, 15-10-2026). */
     .hero-p .br-mob { display: none; }
     @media (max-width: 640px) { .hero-p .br-desk { display: none; } .hero-p .br-mob { display: inline; } }
@@ -834,16 +844,8 @@
         </form>
 
         <!-- #3: only one trust item remains, #4: renamed -->
-        <div class="trust-row stats-row">
-          <div class="stat-item">
-            <span class="stat-ico"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><defs><linearGradient id="statGradA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b4ef0"/><stop offset="1" stop-color="#b83fd6"/></linearGradient></defs><ellipse cx="12" cy="6.5" rx="7" ry="2.8" stroke="url(#statGradA)" stroke-width="1.5"/><path d="M5 6.5v5c0 1.55 3.13 2.8 7 2.8s7-1.25 7-2.8v-5M5 11.5v5c0 1.55 3.13 2.8 7 2.8s7-1.25 7-2.8v-5" stroke="url(#statGradA)" stroke-width="1.5" stroke-linecap="round"/></svg></span>
-            <span>Earns up to <b>$3,000/year</b></span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-ico"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><defs><linearGradient id="statGradB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b4ef0"/><stop offset="1" stop-color="#b83fd6"/></linearGradient></defs><path d="M5.5 8.5h13l-1 11.2a1.5 1.5 0 0 1-1.5 1.3H8a1.5 1.5 0 0 1-1.5-1.3l-1-11.2Z" stroke="url(#statGradB)" stroke-width="1.5" stroke-linejoin="round"/><path d="M9 10.5V7a3 3 0 0 1 6 0v3.5" stroke="url(#statGradB)" stroke-width="1.5" stroke-linecap="round"/></svg></span>
-            <span>Makes <b>$47 per purchase</b> (avg.)</span>
-          </div>
-        </div>
+        <!-- "Free for the first 25,000 people" (the user, 28-10-2026), replacing the two stats -->
+        <div class="free-pill"><span class="free-tag"><span class="free-dot"></span><span class="free-tag-t">Limited</span></span><span class="free-txt"><b>Free</b> for the first <b class="free-num">25,000 people</b></span></div>
 
       </div>
 
