@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const colourTest = require('./colour-test.js');
 const fs = require('fs');
 const { google } = require('googleapis');
 const nodemailer = require('nodemailer');
@@ -92,15 +93,31 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
   fs.readFile(file, 'utf8', (err, html) => {
     if (err) return next();
     let out = html;
+    const colour = colourTest.themeFor(req);
     if (out.includes(GA_ID)) {
-      if (!out.includes('setTimeout(loadAll, 15000);')) return next();
+      if (!out.includes('setTimeout(loadAll, 15000);') && !colour) return next();
       out = out.replace('setTimeout(loadAll, 15000);', "document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', function () { setTimeout(loadAll, 0); }) : setTimeout(loadAll, 0);");
     } else if (/<head(\s[^>]*)?>/i.test(out)) {
       out = out.replace(/<head(\s[^>]*)?>/i, (m) => m + GA_SNIPPET);
-    } else {
+    } else if (!colour) {
       return next();
     }
+    if (colour) {
+      try { out = colourTest.themeHtml(out, path.relative(__dirname, file), colour); } catch (e) { console.error('Colour test:', e.message); }
+    }
     res.type('html').send(out);
+  });
+});
+
+// Colour test (the user, 28-10-2026): the chat widget takes the colours of the version on test.
+app.get('/chat-widget.js', (req, res, next) => {
+  const colour = colourTest.themeFor(req);
+  if (!colour) return next();
+  fs.readFile(path.join(__dirname, 'chat-widget.js'), 'utf8', (err, js) => {
+    if (err) return next();
+    let out = js;
+    try { out = colourTest.themeJs(js, colour); } catch (e) { console.error('Colour test:', e.message); }
+    res.type('application/javascript').send(out);
   });
 });
 
@@ -126,12 +143,12 @@ async function ensureExtraHeaders(sheets, sheetName) {
   if (extraHeadersChecked) return;
   extraHeadersChecked = true;
   try {
-    const got = await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!I1:J1` });
+    const got = await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!I1:K1` });
     const cells = (got.data.values && got.data.values[0]) || [];
-    if (!cells[0] || !cells[1]) {
+    if (!cells[0] || !cells[1] || !cells[2]) {
       await sheets.spreadsheets.values.update({
-        spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!I1:J1`, valueInputOption: 'RAW',
-        requestBody: { values: [[cells[0] || 'Country', cells[1] || 'Booking hotel within a month']] },
+        spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!I1:K1`, valueInputOption: 'RAW',
+        requestBody: { values: [[cells[0] || 'Country', cells[1] || 'Booking hotel within a month', cells[2] || 'Colour version']] },
       });
     }
   } catch (e) {
@@ -212,8 +229,8 @@ app.post('/api/waitlist', async (req, res) => {
     const dateJoined = new Date().toISOString();
     const status = 'New';
     // Columns: A=Email, B=Date joined, C=Status, D=(Name – left blank), E–H=UTM fields, I=Country,
-    // J=Booking hotel within a month (filled by /api/waitlist/answer)
-    const row = [email, dateJoined, status, '', utmSource, utmMedium, utmCampaign, utmContent, country];
+    // J=Booking hotel within a month (filled by /api/waitlist/answer), K=Colour version live at sign-up (colour test, 28-10-2026)
+    const row = [email, dateJoined, status, '', utmSource, utmMedium, utmCampaign, utmContent, country, '', colourTest.scheduledTheme() || 'normal'];
 
     // Fetch spreadsheet to get actual sheet names and verify access
     const meta = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
@@ -229,7 +246,7 @@ app.post('/api/waitlist', async (req, res) => {
 
     const appendRes = await sheets.spreadsheets.values.append({
       spreadsheetId: SPREADSHEET_ID,
-      range: `'${sheetName}'!A:I`,
+      range: `'${sheetName}'!A:K`,
       valueInputOption: 'USER_ENTERED',
       insertDataOption: 'INSERT_ROWS',
       requestBody: { values: [row] },
