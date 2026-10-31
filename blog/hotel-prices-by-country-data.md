@@ -28,9 +28,6 @@ Full data: https://arbitrica.com/blog/arbitrica-hotel-price-check-2024.csv
 ## Method
 Same hotel, dates and guests for every location; searches run with a VPN set to each location in May 2024 (10 hotels) and October 2024 (1 hotel, 32 locations); total stay price recorded as displayed.
 
-## Limits
-Small sample (10 hotels plus one single-hotel check); prices change constantly; rate conditions not checked for every result; a larger study is under way.
-
 ## FAQ
 ### Do hotels charge different prices depending on what country you're in?
 Often, yes. In Arbitrica's check of 10 hotels searched on the same dates from 2 to 7 locations each, 4 hotels showed a lower total price from a country other than the UK, by 1.5% to 33.6%. The other 6 showed the same or a higher price elsewhere. Independent research by NordVPN in 2024 found gaps of up to 70% for travellers searching from the US.
