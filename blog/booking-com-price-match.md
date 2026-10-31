@@ -52,6 +52,17 @@ Booking.com's definition of "the same booking" is stricter than most travelers e
 
 TipCapture the lower price with taxes and fees visible on the final step before payment. A screenshot of a search results page rarely proves the total.
 
+## Booking's price match was rejected. What now?
+
+Start with the reason customer service gave you, because most rejections come down to one mismatch.
+
+1. Fix the mismatch and claim again: find the exactly matching rate (room type, meal plan, occupancy, cancellation policy) and send a screenshot of the final total with taxes and fees.
+2. Book the lower price yourself: if your Booking.com rate has free cancellation, book the lower public rate first, check the confirmation, then cancel the original before its deadline.
+3. Search the same hotel from other countries: the price match only looks at prices you can see from your own country.
+4. Keep checking until the cancellation deadline: prices often move again after you book.
+
+Arbitrica does the last two steps for you: at checkout it searches the same hotel from 195 countries and prepares the booking at the lowest price it finds, and its approach repeats the search after you book until the free-cancellation window ends.
+
 ## A better way than claiming a price match
 
 Get the lower price before you pay instead of claiming a refund afterward. Different countries get access to different inventory, channels, local rates and promotions, so searching the same hotel from another country can open up prices you cannot get from your own country. The same hotel is often 5-30% cheaper when it is searched from the right country.
@@ -107,6 +118,10 @@ The same approach works beyond hotels: flights, car rentals, event tickets, pre-
 - **You booked a non-refundable rate:** the price match is your only route, and only against an offer with the same non-refundable conditions.
 
 ## Frequently asked questions
+
+### Booking's price match was rejected. What now?
+
+Check the reason, fix the mismatch (room type, meal plan, cancellation policy, taxes and fees) and claim again. If your rate has free cancellation you can also book the lower rate yourself and then cancel the original, or search the same hotel from other countries before the cancellation deadline.
 
 ### Does Booking.com price match work for non-refundable bookings?
 

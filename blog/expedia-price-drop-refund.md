@@ -1,4 +1,4 @@
-# Expedia price drop refund: what Expedia covers and what to do instead
+# Does Expedia or Booking refund the difference if the price drops?
 
 Expedia's Hotel Price Guarantee has ended and its Price Drop Protection covers selected flights only. Here is how to still pay less for the same hotel.
 
@@ -35,6 +35,10 @@ Expedia still sells something called Price Drop Protection, and it causes a lot 
 Both versions check the price automatically every 24 hours, and both only look at prices on Expedia itself. A lower fare on an airline's own site or on another travel site does not count. The terms also exclude Member Prices and flight plus hotel bundles, and changing the flight can cancel the protection.
 
 None of this covers a standalone hotel booking. If you booked a hotel on Expedia and the rate falls, Price Drop Protection does nothing for you.
+
+## Does Booking refund the difference if the price drops?
+
+Not for a drop in its own price. Booking.com's "We Price Match" promise covers a lower price for the same booking found on another public website: the same hotel, dates, room type, cancellation policy and booking conditions, claimed through customer service before the deadline in its terms. If Booking.com itself lowers the price after you book, the way to capture the drop is to book the lower rate and then cancel the original, which only works if your rate has free cancellation.
 
 ## Expedia policies at a glance
 
@@ -111,6 +115,10 @@ The same applies to Hotels.com, which shared the same guarantee and ended it on 
 The same thinking applies to companies booking for teams. A travel manager or operations manager who books refundable rates for a trade show and keeps repricing them until the deadline turns price movement into a budget saving. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
 ## Frequently asked questions
+
+### Does Booking refund the difference if the price drops?
+
+Not for a drop in Booking.com's own price. Its price match covers a lower price for the same booking on another public website. If your Booking.com rate has free cancellation, book the lower rate first and then cancel the original.
 
 ### Does Expedia refund the difference if my hotel price drops?
 

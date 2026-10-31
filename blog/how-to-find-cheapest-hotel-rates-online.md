@@ -1,4 +1,4 @@
-# How to find the cheapest hotel rates online
+# How can I get a cheaper price on a hotel I've already picked?
 
 A step-by-step method for the lowest hotel price: what to compare, when to book, and why the country you search from matters.
 

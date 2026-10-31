@@ -1,4 +1,4 @@
-# How hotel dynamic pricing works
+# Why are there so many different prices for the same hotel room?
 
 Every hotel price you see is the output of a system weighing demand, channels and markets in real time. Knowing how it works helps you book at a better price.
 

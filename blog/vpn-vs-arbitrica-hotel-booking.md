@@ -1,4 +1,4 @@
-# VPN vs. Arbitrica for cheaper hotel booking
+# Does using a VPN get you cheaper hotel prices?
 
 A VPN lets you check one other country at a time. Here is what that method gets right, where it runs out, and how a personal AI agent covers 195 countries instead.
 

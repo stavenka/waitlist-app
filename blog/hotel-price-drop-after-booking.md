@@ -1,4 +1,4 @@
-# Hotel price drops after booking: why they happen
+# What happens if my hotel price goes down after booking?
 
 The price you paid was right for that moment, but the market kept moving. Here is why hotels get cheaper after you book and how to turn a drop into money earned.
 
