@@ -7168,3 +7168,128 @@ No. In this data the hotel's own website was higher than the UK search price in 
 ### Does using a VPN get you a lower hotel price?
 Sometimes. Changing your location can show a different price, but you have to check many countries and sellers by hand, and the lowest location changes from hotel to hotel. Arbitrica searches the same hotel from 195 countries at checkout instead.
 
+
+
+---
+
+# Is there something like PriceMice that works for Expedia, Agoda and every other booking site?
+
+Updated 2026-11-01 by Arbitrica. Canonical: https://arbitrica.com/blog/pricemice-alternative.html
+
+## Key takeaways
+- PriceMice, launched by NordVPN in September 2026, checks a Booking.com hotel from a set of other countries; you book the lower rate yourself with a VPN.
+- Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout on the site you are booking and checks that the final total includes all taxes and fees.
+- Arbitrica prepares the booking in a new tab, and its approach keeps searching after you book until the free-cancellation window ends.
+
+## Short answer
+Yes. PriceMice, NordVPN's hotel price tool launched in September 2026, checks one Booking.com hotel from a set of other countries and leaves the booking to you. Arbitrica is a personal AI agent that searches the same hotel from 195 countries at checkout, on whichever site you are booking, checks that the room and the final total match, and prepares the booking at the lowest price it finds.
+
+## What PriceMice does
+Source: https://nordvpn.com/blog/pricemice/ (September 9, 2026). It checks the room you are viewing against prices in a set of other countries; works with Booking.com, with more sites "expected to come soon"; runs on Chromium desktop browsers; does not book for you (you connect to that country, for example with a VPN, and book yourself). NordVPN notes that "prices are AI-matched and mistakes can happen" and that taxes and fees appear only if the platform provides them.
+
+## Where PriceMice stops
+- One site (Booking.com at launch).
+- A set of countries; the number is not published.
+- You finish the booking by hand.
+- Before you pay only; no checking after you book.
+
+## How Arbitrica handles the same hotel
+1. At checkout, it searches the same hotel on the same dates from 195 countries.
+2. It checks the same hotel and room and a final total including all taxes and fees.
+3. It prepares everything in a new tab at the lowest price on Earth, at a different seller; you review and pay.
+4. After you book, its approach repeats the search until the free-cancellation window ends; the new booking is confirmed before the original is cancelled.
+
+Real example: $1,527.39 offered, $1,180.27 found for the identical hotel and dates; Arbitrica earned the traveller $347.12 (23%).
+
+## PriceMice and Arbitrica at a glance
+| | PriceMice | Arbitrica |
+|---|---|---|
+| What it is | Browser extension from NordVPN | Personal AI agent |
+| Sites covered | Booking.com at launch | The site where you are checking out |
+| Countries searched | A set (number not published) | 195 |
+| Taxes and fees | If the platform provides them | Final total checked incl. taxes and fees |
+| Booking | You switch location and book | Prepared in a new tab; you review and pay |
+| After you book | No | Repeats the search until cancellation window ends |
+| Beyond hotels | No | Online shopping and event tickets |
+
+## Frequently asked questions
+
+### Is PriceMice free?
+
+Yes. NordVPN describes PriceMice as free, with no subscription required.
+
+### Which booking sites does PriceMice work on?
+
+At launch PriceMice works with Booking.com, and NordVPN says more sites are expected to come soon.
+
+### Does PriceMice book the hotel for me?
+
+No. PriceMice flags a lower price in another country; you then change your location, for example with a VPN, and book it yourself.
+
+### Do I need a VPN to get another country's price with Arbitrica?
+
+No. Arbitrica searches the same hotel from 195 countries itself and prepares the booking in a new tab, so you only review and pay.
+
+### Does Arbitrica keep checking after I book?
+
+Yes. Its approach repeats the search after you book until the free-cancellation window ends, and the new booking is confirmed before the original is cancelled.
+
+
+
+---
+
+# Is it cheaper to book a hotel direct or through Booking or Expedia?
+
+Updated 2026-11-01 by Arbitrica. Canonical: https://arbitrica.com/blog/book-hotel-direct-or-booking-expedia.html
+
+## Key takeaways
+- Neither the hotel's own website nor booking sites like Booking, Expedia and Agoda are always lower; it changes by hotel, date and country.
+- In Arbitrica's checks, the hotel's own website was higher than the booking-site price for 2 of 4 hotels and lower for the other 2.
+- Compare the final total with the same room and cancellation conditions, and check the same room from other countries.
+
+## Short answer
+Neither is always lower. The same room can carry a lower total on the hotel's own website one day and on Booking, Expedia or Agoda the next, and the country you search from changes the answer again. Check the same room, with the same conditions, on both, and from more than one country.
+
+## What our price checks show
+- Hotel's own website vs booking-site price (searched from the UK), 4 hotels recorded: higher for Ostay Vermillion Namba ($161 vs $148) and The Taj Mahal Palace ($1,395 vs $1,210); lower for White House Hotel Istanbul ($802 vs $1,066) and the Ravel Hotel ($892 vs $948).
+- Dusit Thani Laguna Singapore on Google Hotels: lowest seller 20.8% (US), 25.7% (UK), 25.5% (India) below the hotel's own website.
+Full data: https://arbitrica.com/blog/hotel-prices-by-country-data.html
+
+## When booking direct is often lower
+- Member rates for signed-in loyalty members.
+- No commission, so some hotels offer their best price or extras directly.
+- EU Court of Justice case C-264/23 (September 2024): wide and narrow price-parity clauses fall under EU competition rules, giving hotels more room to price their own site lower.
+
+## Why is Agoda or Booking cheaper than the hotel's own website?
+- The booking site pays for the discount (loyalty programmes, promotions).
+- A different rate (non-refundable, room-only, different room type).
+- A different market (rates agreed for specific countries).
+- Taxes and fees shown differently.
+
+## How to check before you book
+1. Compare the final total with taxes and fees.
+2. Match room type, meal plan, guests and cancellation policy.
+3. Check the hotel's site as a member and at least two booking sites.
+4. Check the same room from other countries.
+5. Book with free cancellation and keep checking until the deadline.
+
+Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout, checks the room and total match, and prepares the booking at the lowest price on Earth. You review and pay.
+
+## Frequently asked questions
+
+### Is it cheaper to book a hotel direct or through Booking or Expedia?
+
+Neither is always lower. In Arbitrica's checks the hotel's own website was higher than the booking-site price for 2 of 4 hotels and lower for the other 2. Compare the final total with the same conditions, and check other countries too.
+
+### Why is Agoda or Booking cheaper than the hotel's own website?
+
+Usually because the booking site funds a discount, the lower price is a different rate (for example non-refundable or room-only), it is a rate for a different market, or taxes and fees are shown differently.
+
+### Will a hotel match a booking site's price if I book direct?
+
+Some hotels and chains match or beat a lower public price for direct bookings, especially for loyalty members. Ask the hotel before booking and have the booking site's final total ready.
+
+### Does the country I search from change the price?
+
+Often. Booking sites sell rates agreed for specific markets, so the same room can carry a different total from another country. In Arbitrica's checks, 4 of 10 hotels had a lower total from another country than from the UK.
+
