@@ -65,6 +65,35 @@ app.use((req, res, next) => {
   next();
 });
 
+// ── First-touch attribution (31-10-2026) ──
+// The first time a visitor opens any page, remember where they came from (the referring site, e.g.
+// chatgpt.com, perplexity.ai, google.com) and the page they landed on, in a 90-day cookie. The sign-up
+// sends both to the sheet (columns L and M), so a visitor who reads a blog page first and signs up
+// later is no longer a blank row. Internal clicks (referrer arbitrica.com) never overwrite it.
+const FT_COOKIE = 'arb_ft';
+function readFirstTouch(req) {
+  const m = String(req.headers.cookie || '').match(/(?:^|;\s*)arb_ft=([^;]+)/);
+  if (!m) return null;
+  try { return JSON.parse(decodeURIComponent(m[1])); } catch (e) { return null; }
+}
+app.use((req, res, next) => {
+  if (req.method !== 'GET') return next();
+  if (!(req.path === '/' || req.path.endsWith('/') || /\.html?$/i.test(req.path))) return next();
+  if (readFirstTouch(req)) return next();
+  let refHost = '';
+  try { refHost = req.get('referer') ? new URL(req.get('referer')).hostname.replace(/^www\./, '') : ''; } catch (e) {}
+  if (refHost === 'arbitrica.com') return next();
+  const val = encodeURIComponent(JSON.stringify({ r: refHost || 'direct', l: req.originalUrl.slice(0, 300), t: new Date().toISOString() }));
+  res.append('Set-Cookie', `${FT_COOKIE}=${val}; Max-Age=7776000; Path=/; SameSite=Lax; Secure`);
+  next();
+});
+// Medium for a referring site when the landing URL carried no UTM.
+function mediumFor(host) {
+  if (/(^|\.)(chatgpt\.com|openai\.com|perplexity\.ai|copilot\.microsoft\.com|copilot\.com|gemini\.google\.com|claude\.ai|you\.com|meta\.ai|grok\.com|deepseek\.com)$/.test(host)) return 'ai';
+  if (/(^|\.)(google\.[a-z.]+|bing\.com|duckduckgo\.com|yahoo\.com|ecosia\.org|brave\.com|yandex\.[a-z]+|baidu\.com)$/.test(host)) return 'organic';
+  return host === 'direct' ? 'none' : 'referral';
+}
+
 // ── robots.txt ──
 app.get('/robots.txt', (req, res) => {
   res.type('text/plain');
@@ -143,12 +172,13 @@ async function ensureExtraHeaders(sheets, sheetName) {
   if (extraHeadersChecked) return;
   extraHeadersChecked = true;
   try {
-    const got = await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!I1:K1` });
+    const got = await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!I1:M1` });
     const cells = (got.data.values && got.data.values[0]) || [];
-    if (!cells[0] || !cells[1] || !cells[2]) {
+    if (!cells[0] || !cells[1] || !cells[2] || !cells[3] || !cells[4]) {
       await sheets.spreadsheets.values.update({
-        spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!I1:K1`, valueInputOption: 'RAW',
-        requestBody: { values: [[cells[0] || 'Country', cells[1] || 'Booking hotel within a month', cells[2] || 'Colour version']] },
+        spreadsheetId: SPREADSHEET_ID, range: `'${sheetName}'!I1:M1`, valueInputOption: 'RAW',
+        requestBody: { values: [[cells[0] || 'Country', cells[1] || 'Booking hotel within a month', cells[2] || 'Colour version',
+                                 cells[3] || 'First referrer', cells[4] || 'Landing page']] },
       });
     }
   } catch (e) {
@@ -199,6 +229,20 @@ app.post('/api/waitlist', async (req, res) => {
   const utmMedium   = req.body.utm_medium   ? String(req.body.utm_medium).slice(0, 200)   : '';
   const utmCampaign = req.body.utm_campaign ? String(req.body.utm_campaign).slice(0, 200) : '';
   const utmContent  = req.body.utm_content  ? String(req.body.utm_content).slice(0, 200)  : '';
+  // First touch (31-10-2026): where the visitor first came from and the page they first opened.
+  const ft = readFirstTouch(req) || {};
+  const firstReferrer = ft.r ? String(ft.r).slice(0, 200) : '';
+  const landingPage = ft.l ? String(ft.l).slice(0, 300) : '';
+  let utm = { utmSource, utmMedium, utmCampaign, utmContent };
+  if (!utm.utmSource && landingPage) {
+    // UTM tags on the first page (e.g. ?utm_source=chatgpt.com on a blog article) survive the click to the form.
+    try {
+      const q = new URL(landingPage, 'https://arbitrica.com').searchParams;
+      utm = { utmSource: (q.get('utm_source') || '').slice(0, 200), utmMedium: (q.get('utm_medium') || '').slice(0, 200),
+              utmCampaign: (q.get('utm_campaign') || '').slice(0, 200), utmContent: (q.get('utm_content') || '').slice(0, 200) };
+    } catch (e) {}
+  }
+  if (!utm.utmSource && firstReferrer) { utm.utmSource = firstReferrer; utm.utmMedium = mediumFor(firstReferrer); }
   // Country of sign-up (the user, 28-10-2026): Cloudflare, in front of the site, sends the visitor's country from their IP
   // as a two-letter code (CF-IPCountry). Only the country is kept, never the IP.
   const country = countryName(req.get('cf-ipcountry'));
@@ -230,7 +274,8 @@ app.post('/api/waitlist', async (req, res) => {
     const status = 'New';
     // Columns: A=Email, B=Date joined, C=Status, D=(Name – left blank), E–H=UTM fields, I=Country,
     // J=Booking hotel within a month (filled by /api/waitlist/answer), K=Colour version live at sign-up (colour test, 28-10-2026)
-    const row = [email, dateJoined, status, '', utmSource, utmMedium, utmCampaign, utmContent, country, '', colourTest.scheduledTheme() || 'normal'];
+    // L=First referrer, M=Landing page (first-touch attribution, 31-10-2026)
+    const row = [email, dateJoined, status, '', utm.utmSource, utm.utmMedium, utm.utmCampaign, utm.utmContent, country, '', colourTest.scheduledTheme() || 'normal', firstReferrer, landingPage];
 
     // Fetch spreadsheet to get actual sheet names and verify access
     const meta = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
@@ -246,7 +291,7 @@ app.post('/api/waitlist', async (req, res) => {
 
     const appendRes = await sheets.spreadsheets.values.append({
       spreadsheetId: SPREADSHEET_ID,
-      range: `'${sheetName}'!A:K`,
+      range: `'${sheetName}'!A:M`,
       valueInputOption: 'USER_ENTERED',
       insertDataOption: 'INSERT_ROWS',
       requestBody: { values: [row] },
@@ -425,6 +470,9 @@ app.post('/api/chat-notify', async (req, res) => {
 
 app.listen(PORT, async () => {
   console.log(`Server running at http://localhost:${PORT}`);
+  // IndexNow (31-10-2026): after each deploy, tell Bing (and Yandex, Seznam, Naver) about every URL in the sitemap,
+  // so new and changed pages are crawled within hours instead of weeks. Bing feeds ChatGPT search and Copilot.
+  if (process.env.RENDER || process.env.INDEXNOW === 'on') setTimeout(pingIndexNow, 60000);
   const hasEnvCreds = !!process.env.GOOGLE_CREDENTIALS_JSON;
   const credExists = !hasEnvCreds && fs.existsSync(CREDENTIALS_PATH);
   if (hasEnvCreds || credExists) {
@@ -447,3 +495,16 @@ app.listen(PORT, async () => {
     console.log('Credentials NOT FOUND. Set GOOGLE_CREDENTIALS_JSON (env) or put google-credentials.json in:', __dirname);
   }
 });
+
+const INDEXNOW_KEY = '40673e15be9d875fb58af388e98ce574';
+function pingIndexNow() {
+  let xml = '';
+  try { xml = fs.readFileSync(path.join(__dirname, 'sitemap.xml'), 'utf8'); } catch (e) { return console.error('IndexNow: no sitemap'); }
+  const urlList = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].trim()).filter(u => u.startsWith('https://arbitrica.com/'));
+  if (!urlList.length) return;
+  const body = JSON.stringify({ host: 'arbitrica.com', key: INDEXNOW_KEY, keyLocation: `https://arbitrica.com/${INDEXNOW_KEY}.txt`, urlList: urlList.slice(0, 10000) });
+  const r = require('https').request('https://api.indexnow.org/indexnow', { method: 'POST', headers: { 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': Buffer.byteLength(body) } },
+    (res) => { console.log('IndexNow:', res.statusCode, urlList.length, 'URLs'); res.resume(); });
+  r.on('error', (e) => console.error('IndexNow error:', e.message));
+  r.end(body);
+}
