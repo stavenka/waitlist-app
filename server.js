@@ -89,8 +89,8 @@ app.use((req, res, next) => {
 });
 // Medium for a referring site when the landing URL carried no UTM.
 function mediumFor(host) {
-  if (/(^|\.)(chatgpt\.com|openai\.com|perplexity\.ai|copilot\.microsoft\.com|copilot\.com|gemini\.google\.com|claude\.ai|you\.com|meta\.ai|grok\.com|deepseek\.com)$/.test(host)) return 'ai';
-  if (/(^|\.)(google\.[a-z.]+|bing\.com|duckduckgo\.com|yahoo\.com|ecosia\.org|brave\.com|yandex\.[a-z]+|baidu\.com)$/.test(host)) return 'organic';
+  if (/(^|\.)(chatgpt\.com|openai\.com|perplexity\.ai|copilot\.microsoft\.com|copilot\.com|gemini\.google\.com|claude\.ai|you\.com|meta\.ai|grok\.com|deepseek\.com|chat\.mistral\.ai|kimi\.com|phind\.com|poe\.com|chat\.qwen\.ai|felo\.ai)$/.test(host)) return 'ai';
+  if (/(^|\.)(google\.[a-z.]+|bing\.com|duckduckgo\.com|yahoo\.com|ecosia\.org|brave\.com|yandex\.[a-z]+|baidu\.com|qwant\.com|startpage\.com|mojeek\.com|mojeek\.co\.uk|yep\.com|kagi\.com|presearch\.com|swisscows\.com|metager\.org|metager\.de|seznam\.cz|naver\.com|aol\.com|ask\.com|lilo\.org|search\.yahoo\.co\.jp|daum\.net|sogou\.com|so\.com|petalsearch\.com|search\.marginalia\.nu)$/.test(host)) return 'organic';
   return host === 'direct' ? 'none' : 'referral';
 }
 
@@ -509,8 +509,14 @@ function pingIndexNow() {
   const urlList = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].trim()).filter(u => u.startsWith('https://arbitrica.com/'));
   if (!urlList.length) return;
   const body = JSON.stringify({ host: 'arbitrica.com', key: INDEXNOW_KEY, keyLocation: `https://arbitrica.com/${INDEXNOW_KEY}.txt`, urlList: urlList.slice(0, 10000) });
-  const r = require('https').request('https://api.indexnow.org/indexnow', { method: 'POST', headers: { 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': Buffer.byteLength(body) } },
-    (res) => { console.log('IndexNow:', res.statusCode, urlList.length, 'URLs'); res.resume(); });
-  r.on('error', (e) => console.error('IndexNow error:', e.message));
-  r.end(body);
+  // Each IndexNow member is pinged directly (1-11-2026): the shared api.indexnow.org relay and Bing's own endpoint
+  // answer 403 for this site (Bing kept in the list in case it starts accepting); Yandex, Seznam, Naver, Yep (Ahrefs)
+  // and Amazon (Alexa+) accept direct pings.
+  ['https://www.bing.com/indexnow', 'https://yandex.com/indexnow', 'https://search.seznam.cz/indexnow',
+   'https://searchadvisor.naver.com/indexnow', 'https://indexnow.yep.com/indexnow', 'https://indexnow.amazonbot.amazon/indexnow'].forEach((ep) => {
+    const r = require('https').request(ep, { method: 'POST', headers: { 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': Buffer.byteLength(body) } },
+      (res) => { console.log('IndexNow', new URL(ep).hostname, res.statusCode, urlList.length, 'URLs'); res.resume(); });
+    r.on('error', (e) => console.error('IndexNow error', ep, e.message));
+    r.end(body);
+  });
 }
