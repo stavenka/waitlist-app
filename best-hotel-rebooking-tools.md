@@ -208,6 +208,14 @@ We included only options a traveler can sign up for and use today, which is why 
 
 ## Frequently asked questions
 
+### Which hotel reshopping tools can rebook when rates drop and keep the same room type?
+
+Look for a tool that matches the exact hotel, room type, meal plan and cancellation terms before it rebooks. Arbitrica checks that the hotel and room are identical and that the final total includes all taxes and fees before it prepares a new booking.
+
+### What is the best tool to automatically rebook hotels when rates drop after booking?
+
+A tool that keeps watching a refundable booking and prepares the rebooking for you. Repriced and OneAir rebook after a drop on the same stay, and Arbitrica's approach repeats the search after you book until the free-cancellation window ends, including other countries, with the new booking confirmed before the original is cancelled.
+
 ### Is Pruvo still available for travelers?
 
 No. Following Web Travel Group's announced acquisition, Pruvo now operates as a business-to-business platform and consumer bookings are no longer supported. Lists that still recommend it to individual travelers are out of date. Arbitrica serves both individual travelers and companies, such as teams traveling to trade shows and conferences.

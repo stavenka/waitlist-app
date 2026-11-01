@@ -228,6 +228,10 @@ For the wider picture, read the [AI hotel price tracker guide](https://arbitrica
 
 ## Frequently asked questions
 
+### What better tools exist for international hotel planning than comparing rates on each chain's own site?
+
+Use a tool that checks the same hotel across sellers and from other countries instead of opening each chain's site by hand. Google Hotels shows many sellers and can track a property over time. Arbitrica searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price it finds.
+
 ### Does a VPN get you cheaper hotel prices?
 
 Not for the reason most articles give. The real effect is that different countries get access to different inventory, sales channels, local rates and promotions, so searching the same hotel from another country can open up prices you cannot get from your own country. A VPN can reach some of them, one country at a time, slowly. Searching all 195 countries that way is not realistic, which is why Arbitrica does it for you.

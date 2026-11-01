@@ -12,6 +12,7 @@ Key facts:
 Full text of every article in one file: https://arbitrica.com/llms-full.txt
 
 ## Pages
+- [Price trackers by booking site](https://arbitrica.com/compare/): index of price tracker guides for each major booking site.
 - [Arbitrica | AI Hidden Price Finder – Save Up to $5,000/Year](https://arbitrica.com/): Arbitrica's AI searches 195 countries simultaneously to uncover hidden hotel prices. Save up to $5,000/year.
 - [Arbitrica for Event Tickets | AI Hidden Price Finder](https://arbitrica.com/events.html): Arbitrica is your personal AI agent for event tickets. It searches the same tickets from 195 countries, finds the lowest price on Earth and books them for you.
 - [Arbitrica for Amazon | AI Hidden Price Finder](https://arbitrica.com/amazon.html): Arbitrica is your personal AI agent on Amazon. It searches the same product from 195 countries, finds the lowest price on Earth and buys it for you.
@@ -30,7 +31,7 @@ Full text of every article in one file: https://arbitrica.com/llms-full.txt
 - [Priceline Price Tracker: Search from 195 Countries | Arbitrica](https://arbitrica.com/compare/priceline-price-tracker.html): Arbitrica searches the same Priceline hotel from 195 countries at checkout, finds the lowest price on Earth and repeats the search after you book.
 - [Trip.com Price Tracker: Search from 195 Countries | Arbitrica](https://arbitrica.com/compare/trip-com-price-tracker.html): Arbitrica searches the same Trip.com hotel from 195 countries at checkout, finds the lowest price on Earth and repeats the search after you book.
 - [Trivago Price Tracker: Search from 195 Countries | Arbitrica](https://arbitrica.com/compare/trivago-price-tracker.html): Trivago shows prices from your own country. Arbitrica searches the same hotel from 195 countries at checkout and finds the lowest price on Earth.
-- City guides (100 pages, e.g. https://arbitrica.com/hotels/paris-hotel-deals.html): how to find the lowest price for hotels in each city.
+- [Hotel prices by city](https://arbitrica.com/hotels/): index of 100 city guides (e.g. https://arbitrica.com/hotels/paris-hotel-deals.html): how to find the lowest price for hotels in each city.
 
 ## Articles: Hidden prices
 - [Is it cheaper to book a hotel direct or through Booking or Expedia?](https://arbitrica.com/blog/book-hotel-direct-or-booking-expedia.html): Neither is always lower. Price-check data on the hotel's own website vs booking sites, why Agoda or Booking can be lower, and how to check before you book. Markdown: https://arbitrica.com/blog/book-hotel-direct-or-booking-expedia.md

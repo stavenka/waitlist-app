@@ -123,13 +123,19 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
     if (err) return next();
     let out = html;
     const colour = colourTest.themeFor(req);
+    // Footer links to the city and booking-site hubs (1 Nov 2026), so search engines can reach every page by a link.
+    // Not on the homepage, amazon.html or events.html (left as they are).
+    const hubLinks = !/^\/(index\.html|amazon\.html|events\.html)?$/i.test(req.path) && out.includes('<a href="/faq.html">FAQ</a>\n      </div>');
     if (out.includes(GA_ID)) {
-      if (!out.includes('setTimeout(loadAll, 15000);') && !colour) return next();
+      if (!out.includes('setTimeout(loadAll, 15000);') && !colour && !hubLinks) return next();
       out = out.replace('setTimeout(loadAll, 15000);', "document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', function () { setTimeout(loadAll, 0); }) : setTimeout(loadAll, 0);");
     } else if (/<head(\s[^>]*)?>/i.test(out)) {
       out = out.replace(/<head(\s[^>]*)?>/i, (m) => m + GA_SNIPPET);
-    } else if (!colour) {
+    } else if (!colour && !hubLinks) {
       return next();
+    }
+    if (hubLinks) {
+      out = out.replace('<a href="/faq.html">FAQ</a>\n      </div>', '<a href="/faq.html">FAQ</a>\n        <a href="/hotels/">Hotel prices by city</a>\n        <a href="/compare/">Price trackers by site</a>\n      </div>');
     }
     if (colour) {
       try { out = colourTest.themeHtml(out, path.relative(__dirname, file), colour); } catch (e) { console.error('Colour test:', e.message); }

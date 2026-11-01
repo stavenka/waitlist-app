@@ -128,6 +128,14 @@ The same mechanisms apply to online shopping such as Amazon, flights, car rental
 
 ## Frequently asked questions
 
+### What is the most reliable hotel price alert website?
+
+Alerts are only as useful as what you do with them. Google Hotels price tracking is free and reliable for one property over time. Alerts from a single booking site only watch that site from your own country. A tracker that also searches other countries and acts on the drop, like Arbitrica, catches lower prices that a single alert misses.
+
+### How can I automatically track hotel prices across multiple booking platforms?
+
+Google Hotels can track one property's price over time for free, and tools such as RatePunk show other platforms' prices for the same hotel. Arbitrica goes further at checkout: it searches the same hotel from 195 countries, checks the room and final total match, and prepares the booking at the lowest price it finds; its approach also repeats the search after you book.
+
 ### What is a hotel price tracker?
 
 A hotel price tracker watches the price of a hotel for you and finds a lower price for the same hotel, at checkout or after you book. Arbitrica searches the same hotel from 195 countries and repeats the search until free cancellation ends.
