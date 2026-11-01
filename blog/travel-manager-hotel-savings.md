@@ -120,6 +120,10 @@ If you are weighing options built for companies, our comparison of [Arbitrica vs
 
 ## Frequently asked questions
 
+### What tools automatically find lower hotel rates after booking and rebook within travel policy?
+
+Post-booking rate tools watch confirmed refundable reservations and rebook when the same hotel drops. Arbitrica serves companies as well as individuals: its approach repeats the search for the same hotel from 195 countries until the cancellation window ends, and the new booking is confirmed before the original is cancelled.
+
 ### What is rate leakage in corporate travel?
 
 Rate leakage is hotel spend that misses the negotiated program. It happens when travelers book outside the company channel, or when bookings in the right channel end up at a higher rate than the negotiated one.

@@ -37,6 +37,10 @@ Arbitrica, a personal AI agent, searches the same hotel from 195 countries at ch
 
 ## Frequently asked questions
 
+### Why is Booking.com cheaper than the hotel?
+
+When it is, it is usually because Booking.com funds a discount such as a Genius rate, the lower price is a different rate (for example non-refundable or room-only), it is a rate for a different market, or the two sites show taxes and fees differently. It is not always lower: in Arbitrica's checks the hotel's own website was lower for 2 of 4 hotels.
+
 ### Is it cheaper to book a hotel direct or through Booking or Expedia?
 
 Neither is always lower. In Arbitrica's checks the hotel's own website was higher than the booking-site price for 2 of 4 hotels and lower for the other 2. Compare the final total with the same conditions, and check other countries too.

@@ -152,6 +152,10 @@ Two narrower rankings published since this guide: [the best hotel price tools fo
 
 ## Frequently asked questions
 
+### What are the best tools to monitor hotel prices across multiple booking sites?
+
+It depends on when you want to check. Before you book, RatePunk and Hotel Ninja show other platforms' prices for the same hotel, mostly from your own country. After you book, Repriced and OneAir watch for drops. Arbitrica searches the same hotel from 195 countries at checkout and repeats the search after you book, which covers both moments and other countries.
+
 ### Does Arbitrica work before or after I book?
 
 Both. Live arbitrage runs at the checkout, when Arbitrica searches the same hotel from 195 countries. Its multiple-time approach repeats the search after you book until the free-cancellation window ends, and the new booking is confirmed before the original is cancelled.

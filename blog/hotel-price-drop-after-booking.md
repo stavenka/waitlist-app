@@ -110,6 +110,10 @@ Price drops after purchase are not unique to hotels. Flights, car rentals, event
 
 ## Frequently asked questions
 
+### Do hotel prices drop after booking?
+
+Often, yes. Hotels reprice continuously as demand, cancellations and competitor rates change, so the rate you booked can fall before check-in. If your booking has free cancellation you can book the lower rate and then cancel the original; with a non-refundable rate you usually cannot capture the drop.
+
 ### Why did my hotel price drop after I booked?
 
 Hotel revenue management systems keep adjusting rates after you book, based on occupancy, competitor prices and demand. If the hotel fills more slowly than forecast, prices often fall.

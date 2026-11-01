@@ -108,6 +108,10 @@ The same mechanisms work beyond hotels, for flights, car rentals, event tickets 
 
 ## Frequently asked questions
 
+### Why does Booking.com show different prices for the same room?
+
+Because the same room is sold under different rates. Booking.com shows different prices depending on the country you search from, the currency, whether you are signed in to a Genius level, the device, the cancellation and meal terms of each rate, and how prices move over time. Rates agreed for one market can be lower than those shown in another, so the same room on the same dates can carry a different total.
+
 ### Why does the same hotel cost less from another country?
 
 Hotels and their partners agree rates, allotments and promotions market by market, so each country gets access to different inventory, channels, local rates and promotions. Some of those are lower than what you can get from your own country.

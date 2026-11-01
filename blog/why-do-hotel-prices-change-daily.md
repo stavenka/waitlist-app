@@ -118,6 +118,10 @@ Daily price movement matters even more when one booking covers many people. A tr
 
 ## Frequently asked questions
 
+### Why do Booking.com prices change?
+
+Booking.com shows the rates hotels load, and hotels reprice continuously with demand, occupancy, competitor rates, cancellations and the time left before the stay. Promotions, Genius discounts, currency movements and the country you search from also change the price you see.
+
 ### Why do hotel prices change daily?
 
 Hotels price each night separately and adjust it as demand changes. Revenue management systems react to new bookings, cancellations, events and competitor prices, and booking sites add their own promotions on top.

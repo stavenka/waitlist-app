@@ -119,6 +119,14 @@ The same approach works beyond hotels: flights, car rentals, event tickets, pre-
 
 ## Frequently asked questions
 
+### What is the Booking.com price match guarantee claim process?
+
+Find the lower total on a public site, check it is the identical booking, take a screenshot that shows the URL, date and final total with taxes and fees, and send it with your booking number to Booking.com customer service before the deadline. If the claim is approved, Booking.com refunds the difference.
+
+### Does Booking.com price match?
+
+Yes. Booking.com's "We Price Match" promise refunds the difference if you find the same booking cheaper on another public website: same hotel, dates, room type, cancellation policy and booking conditions, claimed through customer service before the deadline in its terms.
+
 ### Booking's price match was rejected. What now?
 
 Check the reason, fix the mismatch (room type, meal plan, cancellation policy, taxes and fees) and claim again. If your rate has free cancellation you can also book the lower rate yourself and then cancel the original, or search the same hotel from other countries before the cancellation deadline.
