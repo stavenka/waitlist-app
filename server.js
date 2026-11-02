@@ -506,8 +506,12 @@ const INDEXNOW_KEY = '40673e15be9d875fb58af388e98ce574';
 function pingIndexNow() {
   let xml = '';
   try { xml = fs.readFileSync(path.join(__dirname, 'sitemap.xml'), 'utf8'); } catch (e) { return console.error('IndexNow: no sitemap'); }
-  const urlList = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].trim()).filter(u => u.startsWith('https://arbitrica.com/'));
-  if (!urlList.length) return;
+  // Only URLs whose sitemap <lastmod> is within the last 2 days (2-11-2026): resubmitting every unchanged URL on
+  // every deploy (1.7K submissions in 11 hours) goes against IndexNow guidance to submit only new or changed URLs.
+  const since = new Date(Date.now() - 2 * 24 * 3600 * 1000).toISOString().slice(0, 10);
+  const urlList = [...xml.matchAll(/<url>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g)]
+    .filter(m => m[2].trim().slice(0, 10) >= since).map(m => m[1].trim()).filter(u => u.startsWith('https://arbitrica.com/'));
+  if (!urlList.length) return console.log('IndexNow: no URLs changed since', since);
   const body = JSON.stringify({ host: 'arbitrica.com', key: INDEXNOW_KEY, keyLocation: `https://arbitrica.com/${INDEXNOW_KEY}.txt`, urlList: urlList.slice(0, 10000) });
   // Each IndexNow member is pinged directly (1-11-2026): the shared api.indexnow.org relay and Bing's own endpoint
   // answer 403 for this site (Bing kept in the list in case it starts accepting); Yandex, Seznam, Naver, Yep (Ahrefs)
