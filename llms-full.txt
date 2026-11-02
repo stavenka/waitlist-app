@@ -1333,10 +1333,10 @@ Because a seller comparison runs from one country. It checks Booking.com against
 
 # Best hotel price trackers in 2026
 
-Eight options, four criteria and one decision rule: choose the tracker that searches the same hotel from other countries.
+Nine options, four criteria and one decision rule: choose the tracker that searches the same hotel from other countries.
 
 Source: https://arbitrica.com/blog/best-hotel-price-trackers-2026.html  
-Updated: 2026-10-25  
+Updated: 2026-11-02  
 Topic: Comparisons
 
 ## Key takeaways
@@ -1346,8 +1346,9 @@ Topic: Comparisons
 - In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own.
 - Pruvo now presents itself as a business-to-business platform and no longer supports consumer bookings.
 - Arbitrica searches the same hotel from 195 countries at checkout and repeats the search after booking until free cancellation ends.
+- PriceMice, launched by NordVPN in September 2026, checks a Booking.com hotel from a set of other countries; you book the lower rate yourself.
 
-There are eight main options in the hotel price tracker category, and three things decide how much each one can find for you: whether it searches at checkout, whether it searches again after you book, and from how many countries it searches. The decision rule is simple. Pick the one that searches the same hotel from other countries, because that is where the largest price differences are. Arbitrica searches from all 195.
+There are nine main options in the hotel price tracker category, and three things decide how much each one can find for you: whether it searches at checkout, whether it searches again after you book, and from how many countries it searches. The decision rule is simple. Pick the one that searches the same hotel from other countries, because that is where the largest price differences are. Arbitrica searches from all 195.
 
 ## Why a hotel price tracker matters in 2026
 
@@ -1369,7 +1370,7 @@ Each option is reviewed against four criteria:
 
 - **Rebooking:** does it handle the cancellation and re-reservation, or do you?
 
-All eight were active when this guide was first published; Pruvo has since left the consumer market, as noted below.
+The first eight were active when this guide was first published. Since then Pruvo has left the consumer market and NordVPN has launched PriceMice, as noted below. Each listing was rechecked against the product's own site or store listing on November 2, 2026.
 
 > Chart: Geographic arbitrage (other countries, at checkout) and time arbitrage (later moments, after you pay).
 
@@ -1401,9 +1402,9 @@ For the full comparison, see [Arbitrica vs. RoomHawk](https://arbitrica.com/blog
 
 ## 4. RatePunk
 
-RatePunk is a browser extension focused on comparing platforms before checkout. When you reach a hotel listing on Booking.com, Expedia or Hotels.com, RatePunk shows the same hotel's price on other platforms. It is available for several browsers and as a mobile app, and it also covers flights. For users who want to know whether the same hotel is listed lower on another site right now, RatePunk is a clean experience.
+RatePunk is a browser extension and app that shows the same hotel's price on other platforms while you browse. Its site lists Booking.com, Expedia, Hotels.com, Agoda and Priceline, with more booking sites announced as coming soon. It now does more than one-moment checks: it can track a hotel's price before you book, and if it notices a drop for a hotel you booked, it notifies you so you can cancel and rebook. It runs in Chrome, Safari, Firefox, Opera and Edge, and as an iPhone and Android app; flight deals sit in its paid tier.
 
-**Limitation:** its hotel product works at one moment, before booking, and it is not built to search the same hotel from 195 countries.
+**Limitation:** it watches prices from your own country, it is not built to search the same hotel from 195 countries, and after a drop alert the cancelling and rebooking is up to you.
 
 ## 5. Repriced
 
@@ -1419,15 +1420,23 @@ OneAir is a travel membership that tracks flight and hotel prices. After you boo
 
 ## 7. Hotel Ninja
 
-Hotel Ninja is a simple post-booking tracker that emails you when the price of a booked hotel drops.
+Hotel Ninja is a Chrome extension that works before you book. While you view a hotel page, it looks up the same room on other booking sites such as Booking.com, Expedia, Hotels.com and Agoda, matches the room type, dates and guests, and shows each site's final price with taxes and fees. You then book on the site you choose. Its store listing was last updated on October 24, 2026.
 
-**Limitation:** single country, no search at checkout, manual rebooking. Monitoring only starts once you have booked.
+**Limitation:** one moment before booking, prices from your own country only, and no tracking once you have booked. Earlier versions of this guide described it as a post-booking tracker; its current listing describes a check before booking.
 
 ## 8. Directo
 
 Directo is a browser extension that looks for a hotel's own booking website while you browse a listing on Booking.com, Airbnb or Vrbo, so you can book direct instead of through the platform. For loyalty-program members, booking direct sometimes brings member rates or perks such as breakfast or late checkout.
 
 **Limitation:** narrow focus on direct-vs-platform booking. No post-booking monitoring and no geographic search. When it finds the hotel's site, you may need to enter your dates and guests again.
+
+## 9. PriceMice
+
+PriceMice is a browser extension that NordVPN launched in September 2026. It checks the Booking.com room you are viewing against the prices shown in a set of other countries and tells you when another country has a lower rate. NordVPN says more booking sites are expected. PriceMice does not book anything: you change your location, for example with a VPN, and book the lower rate yourself. NordVPN notes that prices are AI-matched and that taxes and fees appear only if the platform provides them.
+
+**Limitation:** Booking.com only at launch, a set of countries rather than 195, no tracking after you book, and the booking is left to you.
+
+See [the PriceMice alternative guide](https://arbitrica.com/blog/pricemice-alternative.html) for a side-by-side look.
 
 ## Hotel price tracker feature table
 
@@ -1439,15 +1448,17 @@ Directo is a browser extension that looks for a hotel's own booking website whil
 
 | RoomHawk | No | Yes | Not described | Not described | Advertised |
 
-| RatePunk | Yes | Not for hotels | No | 1 | No |
+| RatePunk | Yes | Drop alerts | No | 1 | Manual |
 
 | Repriced | No | Yes | Not described | Not described | Yes |
 
 | OneAir | No | Yes | No | 1 | Yes, per OneAir coverage |
 
-| Hotel Ninja | No | Yes | No | 1 | Manual |
+| Hotel Ninja | Yes | No | No | 1 | No |
 
 | Directo | Yes | No | No | 1 | No |
+
+| PriceMice | Yes | No | Yes (Booking.com) | A set of countries | No |
 
 ## Which hotel price tracker saves the most money?
 
@@ -1461,9 +1472,13 @@ Ranked by the mechanisms each one uses, from the widest to the narrowest:
 
 - **Repriced, OneAir, RoomHawk:** drops over time after booking, with rebooking handled or advertised.
 
-- **Pruvo, Hotel Ninja:** drops over time from one country, rebooking left to you.
+- **PriceMice:** other countries for a Booking.com hotel at one moment, with the booking left to you.
 
-- **RatePunk, Directo:** one-moment differences between platforms or between the direct site and the platform.
+- **RatePunk:** differences between platforms before booking, plus drop alerts on a booked hotel that you act on yourself.
+
+- **Pruvo:** drops over time from one country, rebooking left to you (no longer offered to consumers).
+
+- **Hotel Ninja, Directo:** one-moment differences between platforms or between the direct site and the platform.
 
 In one real booking, Booking.com offered $1,527.39 and Arbitrica found $1,180.27 for the identical hotel, earning the user $347.12 (23%). Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
@@ -1485,6 +1500,10 @@ Two narrower rankings published since this guide: [the best hotel price tools fo
 
 ## Frequently asked questions
 
+### What are the best tools to monitor hotel prices across multiple booking sites?
+
+It depends on when you want to check. Before you book, RatePunk and Hotel Ninja show other platforms' prices for the same hotel from your own country, and PriceMice checks a Booking.com hotel from a set of other countries. After you book, Repriced and OneAir watch for drops and rebook, and RatePunk sends drop alerts that you act on yourself. Arbitrica searches the same hotel from 195 countries at checkout and repeats the search after you book, which covers both moments and other countries.
+
 ### Does Arbitrica work before or after I book?
 
 Both. Live arbitrage runs at the checkout, when Arbitrica searches the same hotel from 195 countries. Its multiple-time approach repeats the search after you book until the free-cancellation window ends, and the new booking is confirmed before the original is cancelled.
@@ -1505,6 +1524,9 @@ Award redemptions follow different inventory and pricing rules that cash-price t
 
 Hopper is a booking app known for predicting price movement and offering price-freeze options. Arbitrica does not predict; it searches the same hotel from 195 countries for lower prices that already exist right now.
 
+### Which travel sites offer the most reliable hotel price alerts?
+
+An alert is only as reliable as the price it watches. Since April 17, 2026 Google Hotels has emailed signed-in users when the rate for a specific hotel and dates changes significantly. RatePunk notifies you when a hotel you booked drops, and Repriced and OneAir watch bookings after you reserve and rebook. All of them watch prices from your own country. Arbitrica's approach repeats the search after you book from 195 countries, and before it prepares a re-booking it checks that the hotel, the room and the final total with taxes and fees are identical.
 
 ---
 
@@ -2120,7 +2142,7 @@ Yes, if your booking has free cancellation. Book the identical hotel again at th
 Where the price differences come from, what a VPN can and cannot do, and how to find the lowest price for the same hotel without checking countries one by one.
 
 Source: https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html  
-Updated: 2026-10-25  
+Updated: 2026-11-02  
 Topic: Hidden prices
 
 ## Key takeaways
@@ -2130,6 +2152,7 @@ Topic: Hidden prices
 - A 2024 NordVPN study found travel bookings made through US websites came out up to 70% higher than through websites elsewhere (its largest gap was a car rental).
 - Only the final total with taxes and fees is a fair comparison between countries.
 - Arbitrica searches the same hotel from 195 countries at checkout, validates it is identical and prepares the booking for you to review and pay.
+- NordVPN's PriceMice (September 2026) flags a lower Booking.com rate in another country, but you still switch location and book it yourself, one country at a time.
 
 The hotel you are looking at on Booking.com can often be booked for less when the same hotel is searched from another country. Each country has access to different inventory, sales channels, local rates and promotions, so searching from somewhere else can open up prices you cannot get from your own country. A VPN lets you try one other country at a time, and checking all 195 countries by hand is impossible in practice. This guide explains where the differences come from, what a VPN can and cannot do, and how Arbitrica, a personal AI agent that lives in your browser, does the search for you at checkout.
 
@@ -2177,6 +2200,8 @@ The common problems with the VPN route:
 
 - **Rate conditions.** Some local rates come with conditions such as residency. Read them before you book.
 
+A newer shortcut is a VPN company's own checker. In September 2026 NordVPN launched PriceMice, a browser extension that checks the Booking.com room you are viewing against prices in a set of other countries and tells you when another country shows a lower rate. It narrows down where to look, but the rest stays manual: you connect to that country, for example with a VPN, and book the rate yourself, on Booking.com only at launch.
+
 If you tried a VPN and saw no difference, that is common. The country you picked may not have a better rate for that hotel, or the VPN server may have been recognized. For a side-by-side view, see [VPN vs. Arbitrica for hotel booking](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html).
 
 ### If you try it by hand
@@ -2194,6 +2219,10 @@ If you tried a VPN and saw no difference, that is common. The country you picked
 Booking a published rate is an ordinary consumer purchase, and prices that differ by market are common in travel. What matters is the conditions of the specific rate: if a rate is restricted to residents of one country and you are not one, the hotel can refuse it. This is general information, not legal advice.
 
 In Europe, regulators have looked closely at the contracts between Booking.com and hotels. In July 2024, Spain's competition authority (CNMC) fined Booking.com about €413 million for abusing its dominant position in the Spanish hotel market. In September 2024, the Court of Justice of the EU ruled in Case C-264/23 (Booking.com v 25hours Hotel Company Berlin) that price parity clauses in contracts between Booking.com and hotels cannot simply be treated as ancillary restraints that fall outside EU competition rules.
+
+Several of these cases have moved on. In March 2025 Spain's National Court (Audiencia Nacional) suspended the CNMC fine while it hears Booking.com's appeal. In March 2026 the Amsterdam District Court issued an interim ruling in a damages case that hotels brought over Booking.com's past parity clauses: it rejected the argument that the claims were time-barred, and the case continues without a decision yet on liability. Booking.com says its past parity clauses did not breach competition law.
+
+Under the EU Digital Markets Act, which Booking.com has had to comply with since November 14, 2024, it cannot stop hotels from offering different prices or conditions elsewhere, including on their own websites. A European Commission factsheet dated September 28, 2026 says Booking.com removed parity requirements in the EEA in July 2024 and, in September 2026, stopped using prices on other channels to decide eligibility for its Booking Sponsored Benefit program. None of this changes what you can book as a traveler; it explains why the same hotel increasingly carries different prices in different places.
 
 ## What about booking site terms of service?
 
@@ -2247,6 +2276,9 @@ If you meet the conditions of the rate, it is a normal confirmed booking. The ri
 
 A real example: Booking.com offered one hotel stay for $1,527.39. Arbitrica found the identical hotel and dates for $1,180.27, with all taxes and fees included. That earned the user $347.12, or 23%.
 
+### Why does Booking.com show different prices?
+
+Because the same hotel is sold under many rates. The total you see depends on the country you search from, the currency, whether you are signed in at a Genius level, the room's cancellation and meal terms, and the moment you look, since hotels reprice through the day. Searching the same hotel from another country can open up inventory, local rates and promotions that you do not get from your own country, which is why Arbitrica searches from 195 countries at checkout.
 
 ---
 
@@ -2255,7 +2287,7 @@ A real example: Booking.com offered one hotel stay for $1,527.39. Arbitrica foun
 The guarantee refunds a difference you find and prove yourself. Getting the lower price before you pay is simpler.
 
 Source: https://arbitrica.com/blog/booking-com-price-match.html  
-Updated: 2026-10-25  
+Updated: 2026-11-02  
 Topic: Save money
 
 ## Key takeaways
@@ -2265,12 +2297,13 @@ Topic: Save money
 - The guarantee does nothing to help you find lower prices available from other countries.
 - Arbitrica searches the same hotel from 195 countries at checkout and prepares the booking at a different seller, so there is nothing to claim.
 - If you already booked a refundable rate, rebook at the lower price and cancel the original only after the new booking is confirmed.
+- The price match covers stays only. Flights, car rentals and bundles are excluded, so a lower fare on Skyscanner cannot be claimed from Booking.com.
 
 Booking.com's price match guarantee is real but narrow. It covers a lower price you find yourself on another public site, for a booking with exactly the same conditions, and you have to file a claim. The better route is to get the lower price before you pay. This page explains how the guarantee works, why so many claims fail, and how Arbitrica, a personal AI agent, finds the lowest price for the same hotel at checkout.
 
 ## Does Booking.com have a price match guarantee?
 
-Yes. Booking.com's "We Price Match" promise says that if you find the same booking cheaper on another website, Booking.com will refund the difference. The lower price has to be for the same hotel and the same dates. It also has to be for the same room type, with the same cancellation and booking conditions, and it has to be publicly bookable. Claims go through Booking.com customer service and must be made within the deadline in Booking.com's terms, so check the current terms for your reservation.
+Yes. Booking.com's "We Price Match" promise says that if you find the same booking cheaper on another website, Booking.com will refund the difference. The lower price has to be for the same hotel and the same dates. It also has to be for the same room type, with the same cancellation and booking conditions, and it has to be publicly bookable. Claims go through Booking.com customer service. Booking.com's customer terms (version dated August 25, 2025, checked November 2, 2026) place the promise under accommodation bookings, ask you to contact Booking.com after booking, say the other offer must still be online and available when Booking.com checks it, and exclude claims on bookings you have cancelled. Consumer guides such as NerdWallet (May 2026) report that claims are accepted until 24 hours before check-in, and that offers labelled "Partner offer" and rates that need a loyalty login do not qualify. File as soon as you see the lower price, because it may be gone by the time it is checked.
 
 ## How to claim Booking.com's price match
 
@@ -2303,6 +2336,27 @@ Booking.com's definition of "the same booking" is stricter than most travelers e
 - The two totals are not comparable because taxes and fees are shown differently.
 
 TipCapture the lower price with taxes and fees visible on the final step before payment. A screenshot of a search results page rarely proves the total.
+
+## Booking's price match was rejected. What now?
+
+Start with the reason customer service gave you, because most rejections come down to one mismatch.
+
+1. Fix the mismatch and claim again: find the exactly matching rate (room type, meal plan, occupancy, cancellation policy) and send a screenshot of the final total with taxes and fees.
+2. Book the lower price yourself: if your Booking.com rate has free cancellation, book the lower public rate first, check the confirmation, then cancel the original before its deadline.
+3. Search the same hotel from other countries: the price match only looks at prices you can see from your own country.
+4. Keep checking until the cancellation deadline: prices often move again after you book.
+
+Arbitrica does the last two steps for you: at checkout it searches the same hotel from 195 countries and prepares the booking at the lowest price it finds, and its approach repeats the search after you book until the free-cancellation window ends.
+
+## Does Booking.com price match flights, for example a lower fare on Skyscanner?
+
+No. Booking.com's "We Price Match" promise sits in the accommodation part of its terms and covers stays only. Flights, car rentals and flight-plus-hotel bundles are not covered, so a lower fare you find on Skyscanner, Google Flights or an airline's own site cannot be claimed from Booking.com.
+
+Flights work differently on Booking.com. Its terms say that most flights on the platform are provided through a third-party aggregator that acts as an intermediary to the airline, and that when you book a flight the contract is directly with the airline. Any refund or change after a fare drops follows the fare rules of the ticket, not a Booking.com price match.
+
+Skyscanner is a search engine, not a seller: it sends you to an airline or travel agency to book. It ran its own limited-time "best price guarantee" for flights booked between October 5 and October 16, 2026 by residents of the UK, US, Canada and India, with claims due within 24 hours of booking and refunds capped at USD 270 or GBP 200 per booking. It only covered bookings where Skyscanner showed the guarantee before redirecting you.
+
+For the full flight rules, see [does Booking.com price match flights](https://arbitrica.com/blog/booking-com-flight-price-match.html). Arbitrica's mechanisms apply to flights too: the same fare can be searched from other countries at checkout, and for a refundable ticket the search can repeat until the cancellation window ends.
 
 ## A better way than claiming a price match
 
@@ -2360,6 +2414,18 @@ The same approach works beyond hotels: flights, car rentals, event tickets, pre-
 
 ## Frequently asked questions
 
+### What is the Booking.com price match guarantee claim process?
+
+Find the lower total on a public site, check it is the identical booking, take a screenshot that shows the URL, date and final total with taxes and fees, and send it with your booking number to Booking.com customer service before the deadline. If the claim is approved, Booking.com refunds the difference.
+
+### Does Booking.com price match?
+
+Yes. Booking.com's "We Price Match" promise refunds the difference if you find the same booking cheaper on another public website: same hotel, dates, room type, cancellation policy and booking conditions, claimed through customer service; guides report claims are accepted until 24 hours before check-in. It covers stays only, not flights or car rentals.
+
+### Booking's price match was rejected. What now?
+
+Check the reason, fix the mismatch (room type, meal plan, cancellation policy, taxes and fees) and claim again. If your rate has free cancellation you can also book the lower rate yourself and then cancel the original, or search the same hotel from other countries before the cancellation deadline.
+
 ### Does Booking.com price match work for non-refundable bookings?
 
 The cheaper offer has to have the same conditions as your booking. A non-refundable booking can only be matched against an offer with the same non-refundable conditions. Check Booking.com's current terms for your reservation.
@@ -2376,6 +2442,126 @@ No. The guarantee depends on a lower price you find and document yourself. Arbit
 
 Use Arbitrica at checkout. It searches the same hotel from 195 countries, validates that the lower price is for the identical hotel with all taxes and fees included, and prepares the booking at a different seller for you to review and pay.
 
+### Does Booking.com price match flights found on Skyscanner?
+
+No. Booking.com's price match covers accommodation only, so flights, car rentals and bundles are excluded. Most flights on Booking.com come through a third-party aggregator and the contract is with the airline, so a fare change follows the ticket's fare rules. Skyscanner itself does not sell tickets; its own best price guarantee was a limited-time offer for flights booked October 5 to 16, 2026 in the UK, US, Canada and India.
+
+
+---
+
+# Does Booking.com price match flights found on Skyscanner?
+
+No. Booking.com's price match covers stays only. Here is what applies to a flight instead, what Skyscanner offers, and how to pay less for the same trip.
+
+Source: https://arbitrica.com/blog/booking-com-flight-price-match.html  
+Updated: 2026-11-02  
+Topic: Save money
+
+## Key takeaways
+
+- Booking.com's "We Price Match" promise covers accommodation only. Flights, car rentals and flight-plus-hotel bundles are excluded.
+- Booking.com's terms say most flights on its platform come through a third-party aggregator and the contract is with the airline, so the fare rules decide refunds and changes.
+- Skyscanner does not sell tickets. Its best price guarantee was a limited-time offer for flights booked October 5 to 16, 2026 in the UK, US, Canada and India.
+- A lower fare found after booking is worth acting on only if your ticket can be cancelled or changed without a fee that cancels out the gap.
+- The mechanisms Arbitrica uses for hotels apply to flights too: the same fare searched from other countries at checkout, and a repeated search while a refundable ticket can still be cancelled.
+
+No. Booking.com does not price match flights. Its "We Price Match" promise is written for accommodation, so a lower fare for the same flight on Skyscanner, Google Flights or the airline's own site cannot be claimed back from Booking.com. This page sets out what does apply when you book a flight on Booking.com, what Skyscanner's own guarantee covered, and how to pay less for the same flight before you pay.
+
+## Does Booking.com price match flights?
+
+Booking.com's customer terms (version dated August 25, 2025, checked November 2, 2026) place "We Price Match" in the section on accommodation: if you find the same accommodation with the same conditions for less on another website after booking, Booking.com refunds the difference. The promise does not mention flights. Independent guides read it the same way: NerdWallet (updated May 2026) says the guarantee applies to accommodation bookings only, and Ajust (updated April 2026) adds that flights, car rentals and bundled flight-plus-hotel offers are excluded.
+
+For a stay, the usual rules apply: the lower price has to be public and for the same property, room, dates and cancellation policy, and guides report that claims are accepted until 24 hours before check-in. The full process is in [Booking.com price match: how it works](https://arbitrica.com/blog/booking-com-price-match.html).
+
+## Who sells you a flight on Booking.com?
+
+Booking.com's terms say that most flights on its platform are provided through a third-party aggregator that acts as an intermediary to the airline, that Booking.com acts as the platform, and that when you book, your contract is directly with the airline. In practice that means three things:
+
+- The fare rules of the ticket decide whether you can cancel, change or get money back, not a Booking.com promise.
+
+- A price drop on the same flight after you book is only worth something if your fare can be cancelled or changed without a fee that eats the gap.
+
+- The same flight can be sold with different conditions on different sites, so read the fare conditions and baggage rules at checkout.
+
+## Does Skyscanner price match flights?
+
+Skyscanner is a search engine: it shows fares from airlines and travel agencies and sends you to one of them to book. In October 2026 it ran a limited-time "best price guarantee". These were the conditions on its own page, dated October 2, 2026:
+
+- Bookings completed between October 5 and October 16, 2026 (UK time), by residents of the UK, US, Canada or India aged 18 or over.
+
+- Only bookings where Skyscanner showed the guarantee before redirecting you; some offers also required being signed in.
+
+- A claim within 24 hours of the booking confirmation, with a screenshot and link to the same flight at a lower public price in the same currency.
+
+- The same airline, flight numbers, times, fare class and conditions, with no account, membership, app or promo code needed for the lower fare.
+
+- Refunds capped at USD 270, GBP 200, CAD 375 or INR 25,500 per booking, with a minimum difference of USD 7 or GBP 5. Skyscanner said it reviews claims within 15 working days.
+
+Skyscanner kept the right to pause or withdraw the guarantee in any market at any time, so check whether it is shown on your search before relying on it.
+
+## Booking.com vs Skyscanner: flight price match at a glance
+
+|  | Booking.com | Skyscanner |
+
+| Who sells the ticket | A third-party aggregator; your contract is with the airline | Not Skyscanner: it redirects you to an airline or travel agency |
+
+| Price match on flights | No, the promise covers stays only | Limited-time guarantee for bookings made October 5 to 16, 2026 |
+
+| Where it applied | Not applicable to flights | UK, US, Canada and India |
+
+| Claim window | Not applicable to flights | 24 hours after the booking confirmation |
+
+| Refund cap | Not applicable to flights | USD 270, GBP 200, CAD 375 or INR 25,500 per booking |
+
+## Found a lower fare after booking? What to do
+
+1. Check the fare rules first. If the ticket is non-refundable and changes carry a fee, the lower fare may not be worth chasing.
+
+2. Use any free cancellation window. In the US, the Department of Transportation requires airlines to let you hold a reservation or cancel it without penalty within 24 hours of booking when you book at least seven days before departure. Ask the seller how that applies if you bought through a travel agency.
+
+3. Book the lower fare first, then cancel the original, so you are never left without a seat.
+
+4. Count the whole total. Bags, seat selection and payment fees can turn a lower headline fare into a higher one.
+
+## How to pay less for the same flight before you pay
+
+A price match only refunds a difference you find and prove yourself. The bigger gap is often between countries: different countries get access to different inventory, sales channels, local fares and promotions, so the same trip can cost less when it is searched from another country. Checking that by hand means one VPN connection at a time.
+
+Arbitrica is a personal AI agent that searches what you are buying from 195 countries at checkout, validates that it is identical and that the price includes all taxes and fees, and gets it for you at the lowest price it finds. The same mechanisms it uses for hotels apply to flights: the same fare searched from other countries at checkout and, for a ticket that can still be cancelled, a search that repeats until the cancellation window ends. On the hotel side of a trip, one real booking offered at $1,527.39 on Booking was found for $1,180.27 for the identical hotel, earning the traveler $347.12 (23%).
+
+Tip: Capture any lower fare with the final total, fare class and baggage visible on the last step before payment. A results page rarely proves the total.
+
+## Sources
+
+- [Booking.com customer terms of service (version dated August 25, 2025)](https://www.booking.com/content/terms.html)
+
+- [NerdWallet: how Booking.com's best price match works (May 2026)](https://www.nerdwallet.com/travel/learn/how-booking-coms-best-price-match-works)
+
+- [Ajust: Booking.com price match policy explained (April 2026)](https://www.ajust.com.au/price-match/booking-com)
+
+- [Skyscanner best price guarantee terms (October 2, 2026)](https://www.skyscanner.com/flights/advice/lowest-price-guarantee)
+
+## Frequently asked questions
+
+### Does Booking.com price match flights?
+
+No. Booking.com's "We Price Match" promise covers accommodation only. Flights, car rentals and flight-plus-hotel bundles are excluded, so a lower fare on another site cannot be claimed from Booking.com.
+
+### Does Booking.com price match Skyscanner?
+
+Not for flights. For a stay, a lower public price for the same property, room, dates and conditions on another website can be claimed, including a rate you reach through Skyscanner's hotel search. For flights there is no Booking.com price match at all.
+
+### Does Skyscanner price match flights?
+
+Only through a limited-time best price guarantee: flights booked October 5 to 16, 2026 by residents of the UK, US, Canada or India, where the guarantee was shown before the redirect, claimed within 24 hours and capped at USD 270 or GBP 200 per booking.
+
+### Who is my contract with when I book a flight on Booking.com?
+
+With the airline. Booking.com's terms say most flights on its platform come through a third-party aggregator acting as an intermediary to the airline, and that Booking.com acts as the platform. The ticket's fare rules decide refunds and changes.
+
+### Can I get money back if my flight price drops after I book?
+
+Only if your fare allows it. With a refundable or freely changeable fare, book the lower fare and then cancel the original. In the US, airlines must allow a penalty-free cancellation within 24 hours of booking when you book at least seven days before departure.
 
 ---
 
@@ -2519,7 +2705,7 @@ Not on its own. A tracker watches one listing over time from one place. The same
 The same hotel on the same dates can cost less searched from another country. Here is why, how big the gap is, and how to book it safely.
 
 Source: https://arbitrica.com/blog/booking-com-prices-different-countries.html  
-Updated: 2026-10-25  
+Updated: 2026-11-02  
 Topic: Hidden prices
 
 ## Key takeaways
@@ -2565,6 +2751,14 @@ A real example: Booking.com offered one hotel stay for $1,527.39. Arbitrica foun
 Demand and purchasing power vary a lot between countries. Selling through partners and promotions that target each market lets hotels fill more of their inventory without lowering their rate everywhere. It is standard practice across the industry, not just at Booking.com: Expedia, Hotels.com, Agoda and Trip.com all sell the same hotels through many markets and channels.
 
 There is also a timing layer on top. Hotel revenue-management systems move rates as occupancy and demand change, so the gap between countries is not fixed either. A country that is lowest for a hotel this week may not be lowest next week. For more on that, see [how hotel dynamic pricing works](https://arbitrica.com/blog/how-hotel-dynamic-pricing-works.html).
+
+## Why is Booking.com cheaper than hotel website?
+
+It is not always lower, and the reasons are specific. Booking.com can show a lower total than the hotel's own website when the hotel funds a Genius or mobile discount on Booking.com, when a rate is packaged for a particular market, or when the two sites are showing different rates: a non-refundable rate on one and a flexible rate on the other. Before deciding, line up the same room, meal plan and cancellation terms, and compare the final total with taxes and fees.
+
+The rules behind this changed in Europe. Under the EU Digital Markets Act, which Booking.com has had to comply with since November 14, 2024, it cannot stop hotels from offering different prices or conditions elsewhere, including on their own websites. A European Commission factsheet dated September 28, 2026 says Booking.com removed parity requirements in the EEA in July 2024 and, in September 2026, stopped using prices on other channels to decide eligibility for its Booking Sponsored Benefit program. The result is that the hotel's own site, another booking site, or the same hotel searched from another country can each come out lower on a given night.
+
+Our [hotel direct vs booking sites price checks](https://arbitrica.com/blog/book-hotel-direct-or-booking-expedia.html) show neither side wins every time. Arbitrica does not start from one site: at checkout it searches the same hotel from 195 countries, whoever sells it, and finds the lowest price on Earth for the identical room.
 
 ## Can you get the lower prices?
 
@@ -2624,6 +2818,10 @@ The same mechanisms work beyond hotels, for flights, car rentals, event tickets 
 
 ## Frequently asked questions
 
+### Why does Booking.com show different prices for the same room?
+
+Because the same room is sold under different rates. Booking.com shows different prices depending on the country you search from, the currency, whether you are signed in to a Genius level, the device, the cancellation and meal terms of each rate, and how prices move over time. Rates agreed for one market can be lower than those shown in another, so the same room on the same dates can carry a different total.
+
 ### Why does the same hotel cost less from another country?
 
 Hotels and their partners agree rates, allotments and promotions market by market, so each country gets access to different inventory, channels, local rates and promotions. Some of those are lower than what you can get from your own country.
@@ -2640,6 +2838,9 @@ No single country is always cheapest. The lowest country changes with the hotel,
 
 No. Expedia, Hotels.com, Agoda and Trip.com also sell the same hotels through many markets and channels, so prices for the same hotel differ by country there too.
 
+### Is Booking.com cheaper than booking directly with the hotel?
+
+Sometimes, but not as a rule. Booking.com can be lower when the hotel funds a Genius or mobile discount there, and the hotel's own site can be lower when it offers member rates or perks. In the EU, Booking.com cannot stop hotels from pricing differently on other channels, so check the same room, meal plan and cancellation terms on both, compare final totals with taxes and fees, and remember that the same hotel searched from another country may be lower than both.
 
 ---
 
@@ -4226,12 +4427,12 @@ Booking a rate that is openly offered is a normal purchase. Check the rate condi
 
 ---
 
-# Hotel price drops after booking: why they happen
+# What happens if my hotel price goes down after booking?
 
 The price you paid was right for that moment, but the market kept moving. Here is why hotels get cheaper after you book and how to turn a drop into money earned.
 
 Source: https://arbitrica.com/blog/hotel-price-drop-after-booking.html  
-Updated: 2026-10-25  
+Updated: 2026-11-02  
 Topic: Save money
 
 ## Key takeaways
@@ -4324,6 +4525,20 @@ A price drop over time is one source of savings. Another is geographic: the same
 
 Many price trackers only watch for drops on the price you can see from your own country. Arbitrica combines both: geographic arbitrage, which searches the same hotel from 195 countries, and time arbitrage, which repeats that search at many points in time. [Time arbitrage explained](https://arbitrica.com/blog/time-arbitrage-explained.html) covers the second mechanism in detail.
 
+## How do I get an alert when my booked hotel price drops?
+
+You do not have to check by hand. These are the alerts available as of November 2026, each checked against its own announcement or listing:
+
+- **Google Hotels:** since April 17, 2026, signed-in users can turn on price tracking for an individual hotel and specific dates in Google Search or on Google Hotels, and get an email when the rate changes significantly. It works in English and Spanish.
+
+- **RatePunk:** its extension and app notify you if it notices a price drop for a hotel you booked, so you can cancel and rebook yourself.
+
+- **Repriced and OneAir:** they watch bookings after you reserve, and their own announcements say they rebook or secure credit when the price drops.
+
+- **Booking.com's price match:** not an alert, but if you find the same stay for less on another public site you can [claim the difference](https://arbitrica.com/blog/booking-com-price-match.html), which guides report is possible until 24 hours before check-in.
+
+Every one of these watches prices from your own country. Arbitrica's approach repeats the search after you book from 195 countries until the free-cancellation window ends, and the new booking is confirmed before the original is cancelled.
+
 ## How Arbitrica captures price drops
 
 Arbitrica is a personal AI agent that lives in your browser. At checkout, it searches the same hotel from 195 countries in real time and finds the lowest price on Earth at a different provider than the one you are on. This is live arbitrage.
@@ -4337,6 +4552,10 @@ Research showed that people earn on average $47 per hotel booking with Arbitrica
 Price drops after purchase are not unique to hotels. Flights, car rentals, event tickets, pre-orders and delayed-shipment online purchases, and subscriptions all have prices that move and often a cancellation or return window. The same approach applies: search again over time, and from other countries, until that window closes. Arbitrica also serves companies: teams traveling to trade shows and conferences, and the operations and travel managers who book for them.
 
 ## Frequently asked questions
+
+### Do hotel prices drop after booking?
+
+Often, yes. Hotels reprice continuously as demand, cancellations and competitor rates change, so the rate you booked can fall before check-in. If your booking has free cancellation you can book the lower rate and then cancel the original; with a non-refundable rate you usually cannot capture the drop.
 
 ### Why did my hotel price drop after I booked?
 
@@ -4354,6 +4573,9 @@ For trips more than a few weeks away, usually yes. A refundable rate lets you re
 
 Every few days is a reasonable habit, and more often close to the cancellation deadline. Arbitrica's approach repeats the search for you until free cancellation ends.
 
+### How do I get notified if my hotel price drops after booking?
+
+Turn on Google Hotels price tracking for the hotel and dates (individual hotels since April 17, 2026, signed-in users), or use a tool that watches the booking itself, such as RatePunk's drop alerts or Repriced and OneAir, which rebook after a drop. These all watch prices from your own country. Arbitrica's approach repeats the search after you book from 195 countries until free cancellation ends.
 
 ---
 
