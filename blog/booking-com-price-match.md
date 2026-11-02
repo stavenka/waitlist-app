@@ -3,7 +3,7 @@
 The guarantee refunds a difference you find and prove yourself. Getting the lower price before you pay is simpler.
 
 Source: https://arbitrica.com/blog/booking-com-price-match.html  
-Updated: 2026-10-25  
+Updated: 2026-11-02  
 Topic: Save money
 
 ## Key takeaways
@@ -13,12 +13,13 @@ Topic: Save money
 - The guarantee does nothing to help you find lower prices available from other countries.
 - Arbitrica searches the same hotel from 195 countries at checkout and prepares the booking at a different seller, so there is nothing to claim.
 - If you already booked a refundable rate, rebook at the lower price and cancel the original only after the new booking is confirmed.
+- The price match covers stays only. Flights, car rentals and bundles are excluded, so a lower fare on Skyscanner cannot be claimed from Booking.com.
 
 Booking.com's price match guarantee is real but narrow. It covers a lower price you find yourself on another public site, for a booking with exactly the same conditions, and you have to file a claim. The better route is to get the lower price before you pay. This page explains how the guarantee works, why so many claims fail, and how Arbitrica, a personal AI agent, finds the lowest price for the same hotel at checkout.
 
 ## Does Booking.com have a price match guarantee?
 
-Yes. Booking.com's "We Price Match" promise says that if you find the same booking cheaper on another website, Booking.com will refund the difference. The lower price has to be for the same hotel and the same dates. It also has to be for the same room type, with the same cancellation and booking conditions, and it has to be publicly bookable. Claims go through Booking.com customer service and must be made within the deadline in Booking.com's terms, so check the current terms for your reservation.
+Yes. Booking.com's "We Price Match" promise says that if you find the same booking cheaper on another website, Booking.com will refund the difference. The lower price has to be for the same hotel and the same dates. It also has to be for the same room type, with the same cancellation and booking conditions, and it has to be publicly bookable. Claims go through Booking.com customer service. Booking.com's customer terms (version dated August 25, 2025, checked November 2, 2026) place the promise under accommodation bookings, ask you to contact Booking.com after booking, say the other offer must still be online and available when Booking.com checks it, and exclude claims on bookings you have cancelled. Consumer guides such as NerdWallet (May 2026) report that claims are accepted until 24 hours before check-in, and that offers labelled "Partner offer" and rates that need a loyalty login do not qualify. File as soon as you see the lower price, because it may be gone by the time it is checked.
 
 ## How to claim Booking.com's price match
 
@@ -62,6 +63,16 @@ Start with the reason customer service gave you, because most rejections come do
 4. Keep checking until the cancellation deadline: prices often move again after you book.
 
 Arbitrica does the last two steps for you: at checkout it searches the same hotel from 195 countries and prepares the booking at the lowest price it finds, and its approach repeats the search after you book until the free-cancellation window ends.
+
+## Does Booking.com price match flights, for example a lower fare on Skyscanner?
+
+No. Booking.com's "We Price Match" promise sits in the accommodation part of its terms and covers stays only. Flights, car rentals and flight-plus-hotel bundles are not covered, so a lower fare you find on Skyscanner, Google Flights or an airline's own site cannot be claimed from Booking.com.
+
+Flights work differently on Booking.com. Its terms say that most flights on the platform are provided through a third-party aggregator that acts as an intermediary to the airline, and that when you book a flight the contract is directly with the airline. Any refund or change after a fare drops follows the fare rules of the ticket, not a Booking.com price match.
+
+Skyscanner is a search engine, not a seller: it sends you to an airline or travel agency to book. It ran its own limited-time "best price guarantee" for flights booked between October 5 and October 16, 2026 by residents of the UK, US, Canada and India, with claims due within 24 hours of booking and refunds capped at USD 270 or GBP 200 per booking. It only covered bookings where Skyscanner showed the guarantee before redirecting you.
+
+For the full flight rules, see [does Booking.com price match flights](https://arbitrica.com/blog/booking-com-flight-price-match.html). Arbitrica's mechanisms apply to flights too: the same fare can be searched from other countries at checkout, and for a refundable ticket the search can repeat until the cancellation window ends.
 
 ## A better way than claiming a price match
 
@@ -125,7 +136,7 @@ Find the lower total on a public site, check it is the identical booking, take a
 
 ### Does Booking.com price match?
 
-Yes. Booking.com's "We Price Match" promise refunds the difference if you find the same booking cheaper on another public website: same hotel, dates, room type, cancellation policy and booking conditions, claimed through customer service before the deadline in its terms.
+Yes. Booking.com's "We Price Match" promise refunds the difference if you find the same booking cheaper on another public website: same hotel, dates, room type, cancellation policy and booking conditions, claimed through customer service; guides report claims are accepted until 24 hours before check-in. It covers stays only, not flights or car rentals.
 
 ### Booking's price match was rejected. What now?
 
@@ -146,3 +157,7 @@ No. The guarantee depends on a lower price you find and document yourself. Arbit
 ### What is the easiest way to pay less than the Booking.com price?
 
 Use Arbitrica at checkout. It searches the same hotel from 195 countries, validates that the lower price is for the identical hotel with all taxes and fees included, and prepares the booking at a different seller for you to review and pay.
+
+### Does Booking.com price match flights found on Skyscanner?
+
+No. Booking.com's price match covers accommodation only, so flights, car rentals and bundles are excluded. Most flights on Booking.com come through a third-party aggregator and the contract is with the airline, so a fare change follows the ticket's fare rules. Skyscanner itself does not sell tickets; its own best price guarantee was a limited-time offer for flights booked October 5 to 16, 2026 in the UK, US, Canada and India.

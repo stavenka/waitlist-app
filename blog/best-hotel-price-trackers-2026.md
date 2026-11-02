@@ -1,9 +1,9 @@
 # Best hotel price trackers in 2026
 
-Eight options, four criteria and one decision rule: choose the tracker that searches the same hotel from other countries.
+Nine options, four criteria and one decision rule: choose the tracker that searches the same hotel from other countries.
 
 Source: https://arbitrica.com/blog/best-hotel-price-trackers-2026.html  
-Updated: 2026-10-25  
+Updated: 2026-11-02  
 Topic: Comparisons
 
 ## Key takeaways
@@ -13,8 +13,9 @@ Topic: Comparisons
 - In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own.
 - Pruvo now presents itself as a business-to-business platform and no longer supports consumer bookings.
 - Arbitrica searches the same hotel from 195 countries at checkout and repeats the search after booking until free cancellation ends.
+- PriceMice, launched by NordVPN in September 2026, checks a Booking.com hotel from a set of other countries; you book the lower rate yourself.
 
-There are eight main options in the hotel price tracker category, and three things decide how much each one can find for you: whether it searches at checkout, whether it searches again after you book, and from how many countries it searches. The decision rule is simple. Pick the one that searches the same hotel from other countries, because that is where the largest price differences are. Arbitrica searches from all 195.
+There are nine main options in the hotel price tracker category, and three things decide how much each one can find for you: whether it searches at checkout, whether it searches again after you book, and from how many countries it searches. The decision rule is simple. Pick the one that searches the same hotel from other countries, because that is where the largest price differences are. Arbitrica searches from all 195.
 
 ## Why a hotel price tracker matters in 2026
 
@@ -36,7 +37,7 @@ Each option is reviewed against four criteria:
 
 - **Rebooking:** does it handle the cancellation and re-reservation, or do you?
 
-All eight were active when this guide was first published; Pruvo has since left the consumer market, as noted below.
+The first eight were active when this guide was first published. Since then Pruvo has left the consumer market and NordVPN has launched PriceMice, as noted below. Each listing was rechecked against the product's own site or store listing on November 2, 2026.
 
 > Chart: Geographic arbitrage (other countries, at checkout) and time arbitrage (later moments, after you pay).
 
@@ -68,9 +69,9 @@ For the full comparison, see [Arbitrica vs. RoomHawk](https://arbitrica.com/blog
 
 ## 4. RatePunk
 
-RatePunk is a browser extension focused on comparing platforms before checkout. When you reach a hotel listing on Booking.com, Expedia or Hotels.com, RatePunk shows the same hotel's price on other platforms. It is available for several browsers and as a mobile app, and it also covers flights. For users who want to know whether the same hotel is listed lower on another site right now, RatePunk is a clean experience.
+RatePunk is a browser extension and app that shows the same hotel's price on other platforms while you browse. Its site lists Booking.com, Expedia, Hotels.com, Agoda and Priceline, with more booking sites announced as coming soon. It now does more than one-moment checks: it can track a hotel's price before you book, and if it notices a drop for a hotel you booked, it notifies you so you can cancel and rebook. It runs in Chrome, Safari, Firefox, Opera and Edge, and as an iPhone and Android app; flight deals sit in its paid tier.
 
-**Limitation:** its hotel product works at one moment, before booking, and it is not built to search the same hotel from 195 countries.
+**Limitation:** it watches prices from your own country, it is not built to search the same hotel from 195 countries, and after a drop alert the cancelling and rebooking is up to you.
 
 ## 5. Repriced
 
@@ -86,15 +87,23 @@ OneAir is a travel membership that tracks flight and hotel prices. After you boo
 
 ## 7. Hotel Ninja
 
-Hotel Ninja is a simple post-booking tracker that emails you when the price of a booked hotel drops.
+Hotel Ninja is a Chrome extension that works before you book. While you view a hotel page, it looks up the same room on other booking sites such as Booking.com, Expedia, Hotels.com and Agoda, matches the room type, dates and guests, and shows each site's final price with taxes and fees. You then book on the site you choose. Its store listing was last updated on October 24, 2026.
 
-**Limitation:** single country, no search at checkout, manual rebooking. Monitoring only starts once you have booked.
+**Limitation:** one moment before booking, prices from your own country only, and no tracking once you have booked. Earlier versions of this guide described it as a post-booking tracker; its current listing describes a check before booking.
 
 ## 8. Directo
 
 Directo is a browser extension that looks for a hotel's own booking website while you browse a listing on Booking.com, Airbnb or Vrbo, so you can book direct instead of through the platform. For loyalty-program members, booking direct sometimes brings member rates or perks such as breakfast or late checkout.
 
 **Limitation:** narrow focus on direct-vs-platform booking. No post-booking monitoring and no geographic search. When it finds the hotel's site, you may need to enter your dates and guests again.
+
+## 9. PriceMice
+
+PriceMice is a browser extension that NordVPN launched in September 2026. It checks the Booking.com room you are viewing against the prices shown in a set of other countries and tells you when another country has a lower rate. NordVPN says more booking sites are expected. PriceMice does not book anything: you change your location, for example with a VPN, and book the lower rate yourself. NordVPN notes that prices are AI-matched and that taxes and fees appear only if the platform provides them.
+
+**Limitation:** Booking.com only at launch, a set of countries rather than 195, no tracking after you book, and the booking is left to you.
+
+See [the PriceMice alternative guide](https://arbitrica.com/blog/pricemice-alternative.html) for a side-by-side look.
 
 ## Hotel price tracker feature table
 
@@ -106,15 +115,17 @@ Directo is a browser extension that looks for a hotel's own booking website whil
 
 | RoomHawk | No | Yes | Not described | Not described | Advertised |
 
-| RatePunk | Yes | Not for hotels | No | 1 | No |
+| RatePunk | Yes | Drop alerts | No | 1 | Manual |
 
 | Repriced | No | Yes | Not described | Not described | Yes |
 
 | OneAir | No | Yes | No | 1 | Yes, per OneAir coverage |
 
-| Hotel Ninja | No | Yes | No | 1 | Manual |
+| Hotel Ninja | Yes | No | No | 1 | No |
 
 | Directo | Yes | No | No | 1 | No |
+
+| PriceMice | Yes | No | Yes (Booking.com) | A set of countries | No |
 
 ## Which hotel price tracker saves the most money?
 
@@ -128,9 +139,13 @@ Ranked by the mechanisms each one uses, from the widest to the narrowest:
 
 - **Repriced, OneAir, RoomHawk:** drops over time after booking, with rebooking handled or advertised.
 
-- **Pruvo, Hotel Ninja:** drops over time from one country, rebooking left to you.
+- **PriceMice:** other countries for a Booking.com hotel at one moment, with the booking left to you.
 
-- **RatePunk, Directo:** one-moment differences between platforms or between the direct site and the platform.
+- **RatePunk:** differences between platforms before booking, plus drop alerts on a booked hotel that you act on yourself.
+
+- **Pruvo:** drops over time from one country, rebooking left to you (no longer offered to consumers).
+
+- **Hotel Ninja, Directo:** one-moment differences between platforms or between the direct site and the platform.
 
 In one real booking, Booking.com offered $1,527.39 and Arbitrica found $1,180.27 for the identical hotel, earning the user $347.12 (23%). Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
@@ -154,7 +169,7 @@ Two narrower rankings published since this guide: [the best hotel price tools fo
 
 ### What are the best tools to monitor hotel prices across multiple booking sites?
 
-It depends on when you want to check. Before you book, RatePunk and Hotel Ninja show other platforms' prices for the same hotel, mostly from your own country. After you book, Repriced and OneAir watch for drops. Arbitrica searches the same hotel from 195 countries at checkout and repeats the search after you book, which covers both moments and other countries.
+It depends on when you want to check. Before you book, RatePunk and Hotel Ninja show other platforms' prices for the same hotel from your own country, and PriceMice checks a Booking.com hotel from a set of other countries. After you book, Repriced and OneAir watch for drops and rebook, and RatePunk sends drop alerts that you act on yourself. Arbitrica searches the same hotel from 195 countries at checkout and repeats the search after you book, which covers both moments and other countries.
 
 ### Does Arbitrica work before or after I book?
 
@@ -175,3 +190,7 @@ Award redemptions follow different inventory and pricing rules that cash-price t
 ### What is the difference between a hotel price tracker and Hopper?
 
 Hopper is a booking app known for predicting price movement and offering price-freeze options. Arbitrica does not predict; it searches the same hotel from 195 countries for lower prices that already exist right now.
+
+### Which travel sites offer the most reliable hotel price alerts?
+
+An alert is only as reliable as the price it watches. Since April 17, 2026 Google Hotels has emailed signed-in users when the rate for a specific hotel and dates changes significantly. RatePunk notifies you when a hotel you booked drops, and Repriced and OneAir watch bookings after you reserve and rebook. All of them watch prices from your own country. Arbitrica's approach repeats the search after you book from 195 countries, and before it prepares a re-booking it checks that the hotel, the room and the final total with taxes and fees are identical.

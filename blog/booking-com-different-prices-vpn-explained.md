@@ -3,7 +3,7 @@
 Where the price differences come from, what a VPN can and cannot do, and how to find the lowest price for the same hotel without checking countries one by one.
 
 Source: https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html  
-Updated: 2026-10-25  
+Updated: 2026-11-02  
 Topic: Hidden prices
 
 ## Key takeaways
@@ -13,6 +13,7 @@ Topic: Hidden prices
 - A 2024 NordVPN study found travel bookings made through US websites came out up to 70% higher than through websites elsewhere (its largest gap was a car rental).
 - Only the final total with taxes and fees is a fair comparison between countries.
 - Arbitrica searches the same hotel from 195 countries at checkout, validates it is identical and prepares the booking for you to review and pay.
+- NordVPN's PriceMice (September 2026) flags a lower Booking.com rate in another country, but you still switch location and book it yourself, one country at a time.
 
 The hotel you are looking at on Booking.com can often be booked for less when the same hotel is searched from another country. Each country has access to different inventory, sales channels, local rates and promotions, so searching from somewhere else can open up prices you cannot get from your own country. A VPN lets you try one other country at a time, and checking all 195 countries by hand is impossible in practice. This guide explains where the differences come from, what a VPN can and cannot do, and how Arbitrica, a personal AI agent that lives in your browser, does the search for you at checkout.
 
@@ -60,6 +61,8 @@ The common problems with the VPN route:
 
 - **Rate conditions.** Some local rates come with conditions such as residency. Read them before you book.
 
+A newer shortcut is a VPN company's own checker. In September 2026 NordVPN launched PriceMice, a browser extension that checks the Booking.com room you are viewing against prices in a set of other countries and tells you when another country shows a lower rate. It narrows down where to look, but the rest stays manual: you connect to that country, for example with a VPN, and book the rate yourself, on Booking.com only at launch.
+
 If you tried a VPN and saw no difference, that is common. The country you picked may not have a better rate for that hotel, or the VPN server may have been recognized. For a side-by-side view, see [VPN vs. Arbitrica for hotel booking](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html).
 
 ### If you try it by hand
@@ -77,6 +80,10 @@ If you tried a VPN and saw no difference, that is common. The country you picked
 Booking a published rate is an ordinary consumer purchase, and prices that differ by market are common in travel. What matters is the conditions of the specific rate: if a rate is restricted to residents of one country and you are not one, the hotel can refuse it. This is general information, not legal advice.
 
 In Europe, regulators have looked closely at the contracts between Booking.com and hotels. In July 2024, Spain's competition authority (CNMC) fined Booking.com about €413 million for abusing its dominant position in the Spanish hotel market. In September 2024, the Court of Justice of the EU ruled in Case C-264/23 (Booking.com v 25hours Hotel Company Berlin) that price parity clauses in contracts between Booking.com and hotels cannot simply be treated as ancillary restraints that fall outside EU competition rules.
+
+Several of these cases have moved on. In March 2025 Spain's National Court (Audiencia Nacional) suspended the CNMC fine while it hears Booking.com's appeal. In March 2026 the Amsterdam District Court issued an interim ruling in a damages case that hotels brought over Booking.com's past parity clauses: it rejected the argument that the claims were time-barred, and the case continues without a decision yet on liability. Booking.com says its past parity clauses did not breach competition law.
+
+Under the EU Digital Markets Act, which Booking.com has had to comply with since November 14, 2024, it cannot stop hotels from offering different prices or conditions elsewhere, including on their own websites. A European Commission factsheet dated September 28, 2026 says Booking.com removed parity requirements in the EEA in July 2024 and, in September 2026, stopped using prices on other channels to decide eligibility for its Booking Sponsored Benefit program. None of this changes what you can book as a traveler; it explains why the same hotel increasingly carries different prices in different places.
 
 ## What about booking site terms of service?
 
@@ -129,3 +136,7 @@ If you meet the conditions of the rate, it is a normal confirmed booking. The ri
 ### How much can searching from other countries earn me?
 
 A real example: Booking.com offered one hotel stay for $1,527.39. Arbitrica found the identical hotel and dates for $1,180.27, with all taxes and fees included. That earned the user $347.12, or 23%.
+
+### Why does Booking.com show different prices?
+
+Because the same hotel is sold under many rates. The total you see depends on the country you search from, the currency, whether you are signed in at a Genius level, the room's cancellation and meal terms, and the moment you look, since hotels reprice through the day. Searching the same hotel from another country can open up inventory, local rates and promotions that you do not get from your own country, which is why Arbitrica searches from 195 countries at checkout.

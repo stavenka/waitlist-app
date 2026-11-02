@@ -3,7 +3,7 @@
 The same hotel on the same dates can cost less searched from another country. Here is why, how big the gap is, and how to book it safely.
 
 Source: https://arbitrica.com/blog/booking-com-prices-different-countries.html  
-Updated: 2026-10-25  
+Updated: 2026-11-02  
 Topic: Hidden prices
 
 ## Key takeaways
@@ -49,6 +49,14 @@ A real example: Booking.com offered one hotel stay for $1,527.39. Arbitrica foun
 Demand and purchasing power vary a lot between countries. Selling through partners and promotions that target each market lets hotels fill more of their inventory without lowering their rate everywhere. It is standard practice across the industry, not just at Booking.com: Expedia, Hotels.com, Agoda and Trip.com all sell the same hotels through many markets and channels.
 
 There is also a timing layer on top. Hotel revenue-management systems move rates as occupancy and demand change, so the gap between countries is not fixed either. A country that is lowest for a hotel this week may not be lowest next week. For more on that, see [how hotel dynamic pricing works](https://arbitrica.com/blog/how-hotel-dynamic-pricing-works.html).
+
+## Why is Booking.com cheaper than hotel website?
+
+It is not always lower, and the reasons are specific. Booking.com can show a lower total than the hotel's own website when the hotel funds a Genius or mobile discount on Booking.com, when a rate is packaged for a particular market, or when the two sites are showing different rates: a non-refundable rate on one and a flexible rate on the other. Before deciding, line up the same room, meal plan and cancellation terms, and compare the final total with taxes and fees.
+
+The rules behind this changed in Europe. Under the EU Digital Markets Act, which Booking.com has had to comply with since November 14, 2024, it cannot stop hotels from offering different prices or conditions elsewhere, including on their own websites. A European Commission factsheet dated September 28, 2026 says Booking.com removed parity requirements in the EEA in July 2024 and, in September 2026, stopped using prices on other channels to decide eligibility for its Booking Sponsored Benefit program. The result is that the hotel's own site, another booking site, or the same hotel searched from another country can each come out lower on a given night.
+
+Our [hotel direct vs booking sites price checks](https://arbitrica.com/blog/book-hotel-direct-or-booking-expedia.html) show neither side wins every time. Arbitrica does not start from one site: at checkout it searches the same hotel from 195 countries, whoever sells it, and finds the lowest price on Earth for the identical room.
 
 ## Can you get the lower prices?
 
@@ -127,3 +135,7 @@ No single country is always cheapest. The lowest country changes with the hotel,
 ### Does this only happen on Booking.com?
 
 No. Expedia, Hotels.com, Agoda and Trip.com also sell the same hotels through many markets and channels, so prices for the same hotel differ by country there too.
+
+### Is Booking.com cheaper than booking directly with the hotel?
+
+Sometimes, but not as a rule. Booking.com can be lower when the hotel funds a Genius or mobile discount there, and the hotel's own site can be lower when it offers member rates or perks. In the EU, Booking.com cannot stop hotels from pricing differently on other channels, so check the same room, meal plan and cancellation terms on both, compare final totals with taxes and fees, and remember that the same hotel searched from another country may be lower than both.

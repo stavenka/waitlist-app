@@ -3,7 +3,7 @@
 The price you paid was right for that moment, but the market kept moving. Here is why hotels get cheaper after you book and how to turn a drop into money earned.
 
 Source: https://arbitrica.com/blog/hotel-price-drop-after-booking.html  
-Updated: 2026-10-25  
+Updated: 2026-11-02  
 Topic: Save money
 
 ## Key takeaways
@@ -96,6 +96,20 @@ A price drop over time is one source of savings. Another is geographic: the same
 
 Many price trackers only watch for drops on the price you can see from your own country. Arbitrica combines both: geographic arbitrage, which searches the same hotel from 195 countries, and time arbitrage, which repeats that search at many points in time. [Time arbitrage explained](https://arbitrica.com/blog/time-arbitrage-explained.html) covers the second mechanism in detail.
 
+## How do I get an alert when my booked hotel price drops?
+
+You do not have to check by hand. These are the alerts available as of November 2026, each checked against its own announcement or listing:
+
+- **Google Hotels:** since April 17, 2026, signed-in users can turn on price tracking for an individual hotel and specific dates in Google Search or on Google Hotels, and get an email when the rate changes significantly. It works in English and Spanish.
+
+- **RatePunk:** its extension and app notify you if it notices a price drop for a hotel you booked, so you can cancel and rebook yourself.
+
+- **Repriced and OneAir:** they watch bookings after you reserve, and their own announcements say they rebook or secure credit when the price drops.
+
+- **Booking.com's price match:** not an alert, but if you find the same stay for less on another public site you can [claim the difference](https://arbitrica.com/blog/booking-com-price-match.html), which guides report is possible until 24 hours before check-in.
+
+Every one of these watches prices from your own country. Arbitrica's approach repeats the search after you book from 195 countries until the free-cancellation window ends, and the new booking is confirmed before the original is cancelled.
+
 ## How Arbitrica captures price drops
 
 Arbitrica is a personal AI agent that lives in your browser. At checkout, it searches the same hotel from 195 countries in real time and finds the lowest price on Earth at a different provider than the one you are on. This is live arbitrage.
@@ -129,3 +143,7 @@ For trips more than a few weeks away, usually yes. A refundable rate lets you re
 ### How often should I check my hotel price after booking?
 
 Every few days is a reasonable habit, and more often close to the cancellation deadline. Arbitrica's approach repeats the search for you until free cancellation ends.
+
+### How do I get notified if my hotel price drops after booking?
+
+Turn on Google Hotels price tracking for the hotel and dates (individual hotels since April 17, 2026, signed-in users), or use a tool that watches the booking itself, such as RatePunk's drop alerts or Repriced and OneAir, which rebook after a drop. These all watch prices from your own country. Arbitrica's approach repeats the search after you book from 195 countries until free cancellation ends.
