@@ -7346,7 +7346,7 @@ Yes, if your booking can be cancelled without a fee. Book the lower price for th
 
 # Do hotels charge different prices depending on what country you're in? Arbitrica price-check data
 
-Published 2026-11-01 by Arbitrica research. Canonical: https://arbitrica.com/blog/hotel-prices-by-country-data.html
+Published 2026-11-01, updated 2026-11-02 by Arbitrica research. Canonical: https://arbitrica.com/blog/hotel-prices-by-country-data.html
 
 ## Key findings
 - 4 of 10 hotels had a lower total price from another country than from the UK, by 1.5% to 33.6%.
@@ -7354,6 +7354,12 @@ Published 2026-11-01 by Arbitrica research. Canonical: https://arbitrica.com/blo
 - Booking all 10 hotels at the lowest location instead of the UK price: $7,349 instead of $8,028 ($679, 8.5% less).
 - No single country was lowest: India, Mexico, New Zealand and the US were each lowest for different hotels.
 - Dusit Thani Laguna Singapore on Google Hotels (Oct 2024): lowest seller 20.8% (US), 25.7% (UK), 25.5% (India) below the hotel's own site; the highest seller charged more than twice the lowest.
+
+## What Booking and Google say in their own documentation (checked 2026-11-02)
+- Booking: developer documentation "Discounts and rates" (https://developers.booking.com/demand/docs/accommodations/discounts) lists geo/country rates as a type of target rate, "available based on the traveller's country"; partners request them by passing the traveller's country code.
+- Google Hotels: the Hotel Prices guide to conditional rates (https://developers.google.com/hotels/hotel-prices/dev-guide/fenced-rates) describes country-specific rates that only users in a chosen country can see and book; Google determines the country from the user's IP address. Rates can also depend on device, language and whether the user is signed in.
+- Google Hotel Center Help, "Pricing strategy for hotel ads" (https://support.google.com/hotelprices/answer/14078201): hotels running a promotion in certain countries use country rates; rates can be targeted at the country level.
+- So the total can depend on where the search comes from because the rate itself is set per country, not only because of currency or taxes. In Arbitrica's check the gap was zero for 6 hotels and 1.5% to 33.6% for the other 4, so checking one or two countries is not enough.
 
 ## Data: 10 hotels, 2 to 7 search locations each (stays 27-31 May 2024, totals in USD)
 | Hotel | Locations checked | UK price | US price | Lowest found (location) | Lower than UK by |
@@ -7378,6 +7384,9 @@ Same hotel, dates and guests for every location; searches run with a VPN set to 
 ### Do hotels charge different prices depending on what country you're in?
 Often, yes. In Arbitrica's check of 10 hotels searched on the same dates from 2 to 7 locations each, 4 hotels showed a lower total price from a country other than the UK, by 1.5% to 33.6%. The other 6 showed the same or a higher price elsewhere. Independent research by NordVPN in 2024 found gaps of up to 70% for travellers searching from the US.
 
+### Is country-based hotel pricing real or a myth?
+It is real and documented. Booking's developer documentation lists geo/country rates, available based on the traveller's country, and Google's Hotel Prices guide describes country-specific rates that only users in a chosen country can see and book, with the country taken from the user's IP address (both checked on November 2, 2026). In Arbitrica's own check, 4 of 10 hotels had a lower total from another country, by up to 33.6%.
+
 ### Which country gives the lowest hotel price?
 No single country. In this data the lowest price came from India for a hotel in Istanbul, from Mexico for a hotel in New York, from New Zealand for a hotel in Mumbai and from the US for a hotel in Sydney. The lowest location changes with the hotel, the dates and the seller.
 
@@ -7389,7 +7398,6 @@ No. In this data the hotel's own website was higher than the UK search price in 
 
 ### Does using a VPN get you a lower hotel price?
 Sometimes. Changing your location can show a different price, but you have to check many countries and sellers by hand, and the lowest location changes from hotel to hotel. Arbitrica searches the same hotel from 195 countries at checkout instead.
-
 
 
 ---
