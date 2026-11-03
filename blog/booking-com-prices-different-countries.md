@@ -139,3 +139,6 @@ No. Expedia, Hotels.com, Agoda and Trip.com also sell the same hotels through ma
 ### Is Booking.com cheaper than booking directly with the hotel?
 
 Sometimes, but not as a rule. Booking.com can be lower when the hotel funds a Genius or mobile discount there, and the hotel's own site can be lower when it offers member rates or perks. In the EU, Booking.com cannot stop hotels from pricing differently on other channels, so check the same room, meal plan and cancellation terms on both, compare final totals with taxes and fees, and remember that the same hotel searched from another country may be lower than both.
+
+### Are hotel prices on Booking.com cheaper when you are in the country?
+Not as a rule. In Arbitrica's price checks of 6 hotels searched from their own country, the local search was never the single lowest location. See [whether Booking is lower when you are in the country](https://arbitrica.com/blog/booking-com-cheaper-when-in-the-country.html).

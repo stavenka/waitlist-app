@@ -161,3 +161,6 @@ Use Arbitrica at checkout. It searches the same hotel from 195 countries, valida
 ### Does Booking.com price match flights found on Skyscanner?
 
 No. Booking.com's price match covers accommodation only, so flights, car rentals and bundles are excluded. Most flights on Booking.com come through a third-party aggregator and the contract is with the airline, so a fare change follows the ticket's fare rules. Skyscanner itself does not sell tickets; its own best price guarantee was a limited-time offer for flights booked October 5 to 16, 2026 in the UK, US, Canada and India.
+
+### How do hotel price guarantees work at other sites and hotel chains?
+They all match a lower price you find for exactly the same stay, if you claim in time. Trip.com pays the difference in Trip Coins, and Marriott, Hilton, Hyatt and IHG match the rate and add a bonus when you book direct. See [how hotel booking price guarantees work](https://arbitrica.com/blog/how-do-hotel-booking-price-guarantees-work.html) for what each one pays and its deadline.

@@ -127,3 +127,6 @@ No. Expedia's page describes One Key Price Drop Protection for flights booked in
 ### Which hotel booking sites still offer a price match?
 
 Booking.com still publishes a price match with its own conditions, and many hotel chains offer best rate guarantees for direct bookings. Read the current terms before you rely on any of them.
+
+### How do hotel booking price guarantees work?
+You find a lower public price for exactly the same stay, claim it before the deadline, and the site or chain matches it if every detail qualifies. Hotel chains add a bonus, such as an extra 25% off at Marriott and Hilton. See [how hotel booking price guarantees work, with each programme's rules](https://arbitrica.com/blog/how-do-hotel-booking-price-guarantees-work.html).

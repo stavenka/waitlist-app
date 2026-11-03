@@ -53,3 +53,5 @@ No. In this data the hotel's own website was higher than the UK search price in 
 ### Does using a VPN get you a lower hotel price?
 Sometimes. Changing your location can show a different price, but you have to check many countries and sellers by hand, and the lowest location changes from hotel to hotel. Arbitrica searches the same hotel from 195 countries at checkout instead.
 
+### Is a hotel's price lower when you search from the country it is in?
+Not reliably. Of the 6 hotels in this data that were also searched from their own country, the local search was never the single lowest location, and for The Taj Mahal Palace it was the highest ($1,238 from India against $1,066 from New Zealand). See [whether hotel prices on Booking are lower when you are in the country](https://arbitrica.com/blog/booking-com-cheaper-when-in-the-country.html).
