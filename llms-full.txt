@@ -4432,7 +4432,7 @@ Booking a rate that is openly offered is a normal purchase. Check the rate condi
 The price you paid was right for that moment, but the market kept moving. Here is why hotels get cheaper after you book and how to turn a drop into money earned.
 
 Source: https://arbitrica.com/blog/hotel-price-drop-after-booking.html  
-Updated: 2026-11-02  
+Updated: 2026-11-03  
 Topic: Save money
 
 ## Key takeaways
@@ -4440,6 +4440,7 @@ Topic: Save money
 - Hotel prices keep changing between the day you book and the day you check in, in both directions.
 - With free cancellation you can book the identical hotel again at the lower price and then cancel the original.
 - Always make the new booking first and cancel the original only once the new one is confirmed.
+- Booking and Expedia do not lower your price when their own rate drops after you book; their price guarantees cover a lower price on another site.
 - A price drop over time and a lower price from another country can add up on the same booking.
 - Arbitrica's approach repeats the search from 195 countries after you book, until free cancellation ends.
 
@@ -4489,6 +4490,22 @@ Whether a drop is useful to you depends on the terms of the booking you already 
 
 This is why a refundable rate that costs a little more on day one is often the better deal for trips more than a few weeks away.
 
+## What Booking, Expedia and hotel chains do when the price drops
+
+None of the big booking sites lowers your price on its own when the same site drops its price after you book. Each has a different rule, and the rules below were checked on each company's own site on November 3, 2026.
+
+| Where you booked | If the same site drops its price later | If another site has a lower price | Deadline to act |
+
+| Booking | Not covered. Booking's terms only cover a lower price on another website. | We Price Match: the same property, dates, cancellation policy, occupancy and add-ons, priced in the property's local currency and still bookable when Booking checks it. Booking changes your reservation price where it can, or explains how to claim the difference as a refund after your stay. | The terms say to contact Booking after booking with them; they set no fixed cut-off. |
+
+| Expedia | Not covered. | No longer offered for new bookings. Expedia's own claim page gives July 28, 2026 as the end of its Hotel Price Guarantee; bookings made before that date still qualify, and the difference is paid in OneKeyCash to One Key members (a US program), spendable only on Expedia, Hotels.com and Vrbo. | For bookings made before July 28, 2026: before 12am, local hotel time, on the day of check-in. |
+
+| Hilton (booked direct) | Not covered. | Price Match Guarantee: if a public rate at least 1% lower is found for the same hotel, dates, room type and terms, Hilton matches it and takes an extra 25% off the room rate. Member, corporate, package and group rates do not count. | Within 24 hours, per Hilton's claim steps; no claim is approved after check-in. |
+
+| Any free-cancellation booking | Yes, if you rebook yourself: book the lower price, then cancel the original. | Not needed: the lower price can be on any site. | The cancellation deadline, often set in the hotel's local time. |
+
+In practice, a free-cancellation rate is the only route that captures a drop on the same site, which is why every alert below ends with a rebooking. The guide to [Expedia price drop refunds](https://arbitrica.com/blog/expedia-price-drop-refund.html) and the one on [Booking's price match](https://arbitrica.com/blog/booking-com-price-match.html) cover each claim step by step, and [how hotel booking price guarantees work](https://arbitrica.com/blog/how-do-hotel-booking-price-guarantees-work.html) compares the guarantees of the big hotel chains.
+
 ## How to rebook a hotel at a lower price
 
 - **Note your booking details**Write down the hotel, dates, guests, room type, meal plan, total paid and the exact cancellation deadline.
@@ -4527,7 +4544,7 @@ Many price trackers only watch for drops on the price you can see from your own 
 
 ## How do I get an alert when my booked hotel price drops?
 
-You do not have to check by hand. These are the alerts available as of November 2026, each checked against its own announcement or listing:
+You do not have to check by hand. These are the alerts available as of November 2026, each checked against its own announcement or listing (Rate Ranger and HotelMonitor on November 3, 2026):
 
 - **Google Hotels:** since April 17, 2026, signed-in users can turn on price tracking for an individual hotel and specific dates in Google Search or on Google Hotels, and get an email when the rate changes significantly. It works in English and Spanish.
 
@@ -4535,7 +4552,11 @@ You do not have to check by hand. These are the alerts available as of November 
 
 - **Repriced and OneAir:** they watch bookings after you reserve, and their own announcements say they rebook or secure credit when the price drops.
 
-- **Booking.com's price match:** not an alert, but if you find the same stay for less on another public site you can [claim the difference](https://arbitrica.com/blog/booking-com-price-match.html), which guides report is possible until 24 hours before check-in.
+- **Rate Ranger:** it watches a booking you already made on Booking, Agoda, Expedia, Hotels.com, Trip.com, KAYAK or direct with the hotel, checks every few days and more often near check-in, stops 72 hours before check-in and emails you a link to the lower rate. You book it and cancel the old booking yourself.
+
+- **HotelMonitor:** a UK service that re-checks Booking, Expedia, Hotels.com, Agoda, Kayak and Trip.com up to every 4 hours for a stay you booked or are considering, and emails you when it finds a lower price. You decide whether to rebook.
+
+- **Booking's price match:** not an alert, but if you find the same stay for less on another public site you can [claim the difference](https://arbitrica.com/blog/booking-com-price-match.html), which guides report is possible until 24 hours before check-in.
 
 Every one of these watches prices from your own country. Arbitrica's approach repeats the search after you book from 195 countries until the free-cancellation window ends, and the new booking is confirmed before the original is cancelled.
 
@@ -4573,9 +4594,13 @@ For trips more than a few weeks away, usually yes. A refundable rate lets you re
 
 Every few days is a reasonable habit, and more often close to the cancellation deadline. Arbitrica's approach repeats the search for you until free cancellation ends.
 
+### Does Booking or Expedia refund the difference if my hotel price drops after booking?
+
+Not automatically. Booking's We Price Match covers a lower price for the same stay on another website, not a later drop on Booking itself, and Booking either changes your reservation price or refunds the difference after your stay. Expedia's Hotel Price Guarantee paid the difference in OneKeyCash to One Key members, and Expedia's own page gives July 28, 2026 as its end date, with earlier bookings still eligible. With free cancellation you can book the lower price yourself and then cancel the original. Arbitrica's approach repeats the search from 195 countries after you book until free cancellation ends.
+
 ### How do I get notified if my hotel price drops after booking?
 
-Turn on Google Hotels price tracking for the hotel and dates (individual hotels since April 17, 2026, signed-in users), or use a tool that watches the booking itself, such as RatePunk's drop alerts or Repriced and OneAir, which rebook after a drop. These all watch prices from your own country. Arbitrica's approach repeats the search after you book from 195 countries until free cancellation ends.
+Turn on Google Hotels price tracking for the hotel and dates (individual hotels since April 17, 2026, signed-in users), or use a tool that watches the booking itself, such as Rate Ranger, HotelMonitor or RatePunk, which email or notify you about a drop, or Repriced and OneAir, which rebook after a drop. These all watch prices from your own country. Arbitrica's approach repeats the search after you book from 195 countries until free cancellation ends.
 
 ---
 
