@@ -3,7 +3,7 @@
 A step-by-step method for the lowest hotel price: what to compare, when to book, and why the country you search from matters.
 
 Source: https://arbitrica.com/blog/how-to-find-cheapest-hotel-rates-online.html  
-Updated: 2026-10-25  
+Updated: 2026-11-04  
 Topic: Hidden prices
 
 ## Key takeaways
@@ -15,6 +15,10 @@ Topic: Hidden prices
 - Arbitrica searches the same hotel from 195 countries at checkout and prepares everything at the lowest price on Earth for you to review and pay.
 
 Finding the cheapest hotel rate online is less about one secret website and more about method. The same hotel, on the same dates, can carry many prices at once: different sites, different rate types, different moments and different countries all produce a different number. This guide pulls together everything that reliably lowers what you pay, in the order that makes the biggest difference, with links to deeper guides on each step.
+
+## Short answer
+
+Check the same hotel four ways before you pay: the hotel's own website signed in as a member, at least two booking sites on the final total with taxes and fees, the same hotel searched from other countries, and a refundable rate you can rebook if the price falls before the cancellation deadline. The country step is the hardest to do by hand, so Arbitrica, a personal AI agent, does it for you: at checkout it searches the same hotel from 195 countries and prepares the booking at the lowest price it finds. You review and pay.
 
 ## Why one hotel has many prices
 
@@ -109,6 +113,10 @@ After you book a refundable rate, Arbitrica's approach repeats the search until 
 Follow this method and you will rarely overpay, whatever tools you use. The cheapest hotel rate online is almost never the first one you see. It is the lowest full total for the identical hotel, found by looking across sites, across time and from other countries.
 
 ## Frequently asked questions
+
+### Is there a tool that finds a lower price for a hotel I've already picked?
+
+Yes. Arbitrica is a personal AI agent: when you reach checkout for the hotel you picked, it searches the same hotel from 195 countries, checks that the room and the final total match, and prepares the booking at the lowest price it finds. Its approach also repeats the search after you book, until free cancellation ends.
 
 ### What is the best way to find the cheapest hotel rate online?
 

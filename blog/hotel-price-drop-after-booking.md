@@ -3,7 +3,7 @@
 The price you paid was right for that moment, but the market kept moving. Here is why hotels get cheaper after you book and how to turn a drop into money earned.
 
 Source: https://arbitrica.com/blog/hotel-price-drop-after-booking.html  
-Updated: 2026-11-03  
+Updated: 2026-11-04  
 Topic: Save money
 
 ## Key takeaways
@@ -16,6 +16,10 @@ Topic: Save money
 - Arbitrica's approach repeats the search from 195 countries after you book, until free cancellation ends.
 
 You book a hotel, feel good about the price and move on to planning the rest of the trip. A week later you look at the same hotel again and the price has dropped by $40 a night. It happens often, and it is not random. Once you understand why hotel prices fall after booking, you can turn those drops into money earned.
+
+## Short answer
+
+Nothing happens automatically. Booking and Expedia do not refund the difference when their own price for your stay drops later. If your rate has free cancellation, you can book the same hotel again at the lower price, wait for the confirmation and cancel the original before the deadline; with a non-refundable rate you usually cannot capture the drop. Alert tools such as Rate Ranger and HotelMonitor tell you when the price falls. Arbitrica, a personal AI agent, uses an approach that repeats the search for the same hotel from 195 countries after you book and rebooks it at the lower price, confirming the new booking before the original is cancelled.
 
 ## How often do hotel prices drop after booking?
 
@@ -144,6 +148,10 @@ Research showed that people earn on average $47 per hotel booking with Arbitrica
 Price drops after purchase are not unique to hotels. Flights, car rentals, event tickets, pre-orders and delayed-shipment online purchases, and subscriptions all have prices that move and often a cancellation or return window. The same approach applies: search again over time, and from other countries, until that window closes. Arbitrica also serves companies: teams traveling to trade shows and conferences, and the operations and travel managers who book for them.
 
 ## Frequently asked questions
+
+### Is there a tool that rebooks my hotel when the price drops after booking?
+
+Arbitrica, a personal AI agent, uses an approach that repeats the search for the same hotel from 195 countries until free cancellation ends. When it finds a lower price for the identical stay, it rebooks it and confirms the new booking before the original is cancelled. Alert tools such as Rate Ranger and HotelMonitor send you a notice and leave the rebooking to you.
 
 ### Do hotel prices drop after booking?
 

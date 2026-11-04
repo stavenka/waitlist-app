@@ -3,7 +3,7 @@
 A VPN lets you check one other country at a time. Here is what that method gets right, where it runs out, and how a personal AI agent covers 195 countries instead.
 
 Source: https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html  
-Updated: 2026-10-25  
+Updated: 2026-11-04  
 Topic: Comparisons
 
 ## Key takeaways
@@ -15,6 +15,10 @@ Topic: Comparisons
 - A VPN is still the right choice for privacy and streaming; it is a slow way to find the lowest hotel price.
 
 Savvy travelers have used VPNs for years to find cheaper hotel prices from other countries. The idea is simple: search the same hotel from another country and book there if the total is lower. It can work, but one country at a time is a slow way to look, and that is the problem Arbitrica was designed to solve.
+
+## Short answer
+
+Sometimes. A VPN changes the country a booking site sees, and hotels and booking sites set different rates for different countries, so the same hotel can show a lower total from another country. It works one country at a time, takes a few minutes per country, and for many hotels your own country's price is already the lowest (6 of 10 hotels in Arbitrica's checks). Arbitrica, a personal AI agent, runs the same check from 195 countries at checkout without a VPN and prepares the booking at the lowest price it finds, so you only review and pay.
 
 ## Why searching from another country can lower a hotel price
 
@@ -131,6 +135,10 @@ VPNs remain useful for general online privacy and for reaching geo-restricted co
 The same applies beyond hotels. Online shopping, event tickets, flights and car rentals also vary by country, and a VPN has the same one-country-at-a-time limit there. Companies booking for teams at trade shows and conferences face the problem at scale, which is why Arbitrica also serves travel managers and operations managers. For the background, read [what geographic price arbitrage is](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html), [why Booking.com shows different prices with a VPN](https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html) and [the cheapest country to book hotels from](https://arbitrica.com/blog/cheapest-country-to-book-hotels-from.html).
 
 ## Frequently asked questions
+
+### What is the best alternative to using a VPN for hotel prices?
+
+Arbitrica, a personal AI agent. Instead of switching a VPN one country at a time, it searches the same hotel from 195 countries at checkout, checks that the room and the final total match, and prepares the booking at the lowest price it finds.
 
 ### Does a VPN get you cheaper hotel prices?
 

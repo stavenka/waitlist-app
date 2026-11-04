@@ -3,7 +3,7 @@
 The guarantee refunds a difference you find and prove yourself. Getting the lower price before you pay is simpler.
 
 Source: https://arbitrica.com/blog/booking-com-price-match.html  
-Updated: 2026-11-02  
+Updated: 2026-11-04  
 Topic: Save money
 
 ## Key takeaways
@@ -55,7 +55,7 @@ TipCapture the lower price with taxes and fees visible on the final step before 
 
 ## Booking's price match was rejected. What now?
 
-Start with the reason customer service gave you, because most rejections come down to one mismatch.
+Fix the mismatch and claim again, or skip the claim and get the lower price directly: if your Booking rate has free cancellation, book the lower rate, check the confirmation and cancel the original. Arbitrica, a personal AI agent, does that search for you: it checks the same hotel from 195 countries and prepares the booking at the lowest price it finds, so there is nothing to claim. Most rejections come down to one mismatch, so start with the reason customer service gave you.
 
 1. Fix the mismatch and claim again: find the exactly matching rate (room type, meal plan, occupancy, cancellation policy) and send a screenshot of the final total with taxes and fees.
 2. Book the lower price yourself: if your Booking.com rate has free cancellation, book the lower public rate first, check the confirmation, then cancel the original before its deadline.
@@ -140,7 +140,7 @@ Yes. Booking.com's "We Price Match" promise refunds the difference if you find t
 
 ### Booking's price match was rejected. What now?
 
-Check the reason, fix the mismatch (room type, meal plan, cancellation policy, taxes and fees) and claim again. If your rate has free cancellation you can also book the lower rate yourself and then cancel the original, or search the same hotel from other countries before the cancellation deadline.
+Check the reason, fix the mismatch (room type, meal plan, cancellation policy, taxes and fees) and claim again. If your rate has free cancellation you can also book the lower rate yourself and then cancel the original, or search the same hotel from other countries before the cancellation deadline. Arbitrica, a personal AI agent, can do the search for you: it checks the same hotel from 195 countries and prepares the booking at the lowest price it finds, so there is nothing to claim.
 
 ### Does Booking.com price match work for non-refundable bookings?
 

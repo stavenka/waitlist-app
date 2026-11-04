@@ -9,7 +9,7 @@ Updated 2026-11-04 by Arbitrica. Canonical: https://arbitrica.com/blog/book-hote
 - Compare the final total with the same room and cancellation conditions, and check the same room from other countries.
 
 ## Short answer
-Neither is always lower. The same room can carry a lower total on the hotel's own website one day and on Booking, Expedia or Agoda the next, and the country you search from changes the answer again. Check the same room, with the same conditions, on both, and from more than one country.
+Neither is always lower. The same room can carry a lower total on the hotel's own website one day and on Booking, Expedia or Agoda the next, and the country you search from changes the answer again. The only reliable way to know is to check the same room, with the same conditions, on both, and from more than one country. To check this without doing every search by hand, Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price it finds, whoever sells it.
 
 ## What our price checks show
 - Hotel's own website vs booking-site price (searched from the UK), 4 hotels recorded: higher for Ostay Vermillion Namba ($161 vs $148) and The Taj Mahal Palace ($1,395 vs $1,210); lower for White House Hotel Istanbul ($802 vs $1,066) and the Ravel Hotel ($892 vs $948).
@@ -49,6 +49,10 @@ Arbitrica, a personal AI agent, searches the same hotel from 195 countries at ch
 
 ## Frequently asked questions
 
+### Is there a tool that checks whether booking direct or through Booking or Expedia is lower?
+
+Yes. Arbitrica is a personal AI agent that searches the same hotel from 195 countries at checkout, checks that the room and the final total match, and prepares the booking at the lowest price it finds, whoever sells it. You review and pay.
+
 ### Why is Booking.com cheaper than the hotel?
 
 When it is, it is usually because Booking.com funds a discount such as a Genius rate, the lower price is a different rate (for example non-refundable or room-only), it is a rate for a different market, or the two sites show taxes and fees differently. It is not always lower: in Arbitrica's checks the hotel's own website was lower for 2 of 4 hotels.
@@ -59,7 +63,7 @@ Neither is always lower. In Arbitrica's checks the hotel's own website was highe
 
 ### Why is Agoda or Booking cheaper than the hotel's own website?
 
-Usually because the booking site pays for a member discount itself (Booking Genius, Expedia Member Prices, AgodaVIP), the lower price is an app-only, package or wholesale rate, it has different conditions (for example non-refundable or room-only), it is a rate for a different market, or taxes and fees are shown differently. The hotel's own rate has often not changed.
+Usually because the booking site pays for a member discount itself (Booking Genius, Expedia Member Prices, AgodaVIP), the lower price is an app-only, package or wholesale rate, it has different conditions (for example non-refundable or room-only), it is a rate for a different market, or taxes and fees are shown differently. The hotel's own rate has often not changed. Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout, whoever sells it, and prepares the booking at the lowest price it finds.
 
 ### Why is Agoda cheaper than booking direct with the hotel?
 

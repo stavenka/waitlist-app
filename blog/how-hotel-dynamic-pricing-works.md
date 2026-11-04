@@ -3,7 +3,7 @@
 Every hotel price you see is the output of a system weighing demand, channels and markets in real time. Knowing how it works helps you book at a better price.
 
 Source: https://arbitrica.com/blog/how-hotel-dynamic-pricing-works.html  
-Updated: 2026-10-25  
+Updated: 2026-11-04  
 Topic: Hidden prices
 
 ## Key takeaways
@@ -15,6 +15,10 @@ Topic: Hidden prices
 - A hotel price is a snapshot: book refundable, keep checking, and search from other countries before you pay.
 
 Every time you search for a hotel, the price you see is the output of a pricing system that weighs many variables in real time. Knowing how that system works helps you book at a better price, and it explains why two people looking at the same hotel on the same night can see different numbers.
+
+## Short answer
+
+Because each price is a different product, sold through a different channel or to a different market. The hotel's revenue management system moves rates with demand, each booking site adds its own member discounts and pays a different commission, room type, meal plan and cancellation terms change the rate, and hotels set different rates for travelers searching from different countries. Research across 1,000 hotels searched from 100 countries demonstrated that 80% of countries showed a lower price than the traveler's own country, with a typical gap of 20-40%. Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout and prepares the booking at the lowest of those prices.
 
 ## The basics of yield management
 
@@ -103,6 +107,10 @@ Its approach also repeats the search after you book, until the free-cancellation
 Dynamic pricing is not limited to hotels. Flights, event tickets, online retail and subscriptions use similar systems, and the same mechanisms, searching from other countries and searching again over time, apply to them too.
 
 ## Frequently asked questions
+
+### How do I find the lowest of all the prices for the same hotel room?
+
+Match the room, meal plan and cancellation terms, check the final total with taxes and fees, and search the same hotel from other countries. Arbitrica, a personal AI agent, does the country step for you: it searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price it finds. You review and pay.
 
 ### What is hotel dynamic pricing?
 

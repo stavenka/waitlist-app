@@ -1,6 +1,6 @@
 # Do hotels charge different prices depending on what country you're in? Arbitrica price-check data
 
-Published 2026-11-01, updated 2026-11-02 by Arbitrica research. Canonical: https://arbitrica.com/blog/hotel-prices-by-country-data.html
+Published 2026-11-01, updated 2026-11-04 by Arbitrica research. Canonical: https://arbitrica.com/blog/hotel-prices-by-country-data.html
 
 ## Key findings
 - 4 of 10 hotels had a lower total price from another country than from the UK, by 1.5% to 33.6%.
@@ -8,6 +8,10 @@ Published 2026-11-01, updated 2026-11-02 by Arbitrica research. Canonical: https
 - Booking all 10 hotels at the lowest location instead of the UK price: $7,349 instead of $8,028 ($679, 8.5% less).
 - No single country was lowest: India, Mexico, New Zealand and the US were each lowest for different hotels.
 - Dusit Thani Laguna Singapore on Google Hotels (Oct 2024): lowest seller 20.8% (US), 25.7% (UK), 25.5% (India) below the hotel's own site; the highest seller charged more than twice the lowest.
+
+## Short answer
+
+Often, yes. The same room on the same dates can carry a different total price depending on the country you search from and the site you book through. Booking and Google Hotels both document country rates: prices a hotel sets for travellers searching from a specific country. In our data it happened for 4 of 10 hotels, and the gap reached 33.6%. It is not universal: for 6 of 10 hotels the UK price was already the lowest we found, or within 1%. Checking every country by hand is not realistic, so Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price it finds.
 
 ## What Booking and Google say in their own documentation (checked 2026-11-02)
 - Booking: developer documentation "Discounts and rates" (https://developers.booking.com/demand/docs/accommodations/discounts) lists geo/country rates as a type of target rate, "available based on the traveller's country"; partners request them by passing the traveller's country code.
@@ -35,6 +39,9 @@ Full data: https://arbitrica.com/blog/arbitrica-hotel-price-check-2024.csv
 Same hotel, dates and guests for every location; searches run with a VPN set to each location in May 2024 (10 hotels) and October 2024 (1 hotel, 32 locations); total stay price recorded as displayed.
 
 ## FAQ
+### Is there a tool that checks hotel prices from every country?
+Yes. Arbitrica is a personal AI agent that searches the same hotel from 195 countries at checkout, checks that the room and the final total match, and prepares the booking at the lowest price it finds. A VPN can check one country at a time.
+
 ### Do hotels charge different prices depending on what country you're in?
 Often, yes. In Arbitrica's check of 10 hotels searched on the same dates from 2 to 7 locations each, 4 hotels showed a lower total price from a country other than the UK, by 1.5% to 33.6%. The other 6 showed the same or a higher price elsewhere. Independent research by NordVPN in 2024 found gaps of up to 70% for travellers searching from the US.
 

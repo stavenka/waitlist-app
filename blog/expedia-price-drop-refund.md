@@ -3,7 +3,7 @@
 Expedia's Hotel Price Guarantee has ended and its Price Drop Protection covers selected flights only. Here is how to still pay less for the same hotel.
 
 Source: https://arbitrica.com/blog/expedia-price-drop-refund.html  
-Updated: 2026-10-25  
+Updated: 2026-11-04  
 Topic: Save money
 
 ## Key takeaways
@@ -15,6 +15,10 @@ Topic: Save money
 - Arbitrica searches the same hotel from 195 countries at checkout and prepares everything at the lowest price on Earth.
 
 If the price of your Expedia hotel drops after you book, Expedia will not refund the difference. Its Hotel Price Guarantee, the program that once paid members when they found a lower rate after booking, ended on July 28, 2026. What still works is simpler and more reliable: book a refundable rate, keep checking, rebook the identical hotel at the lower price before free cancellation ends, and search the same hotel from other countries before you pay.
+
+## Short answer
+
+If the price of your Expedia hotel drops after you book, Expedia will not refund the difference. Its Hotel Price Guarantee, the program that once paid members when they found a lower rate after booking, ended on July 28, 2026. What still works is simpler and more reliable: book a refundable rate, keep checking, rebook the identical hotel at the lower price before free cancellation ends, and search the same hotel from other countries before you pay. Booking does not refund a drop in its own price either: its price match covers a lower price for the same booking on another public website. Arbitrica, a personal AI agent, uses an approach that repeats the search for the same hotel from 195 countries after you book and rebooks it at the lower price before free cancellation ends.
 
 ## Does Expedia refund a hotel price drop?
 
@@ -115,6 +119,10 @@ The same applies to Hotels.com, which shared the same guarantee and ended it on 
 The same thinking applies to companies booking for teams. A travel manager or operations manager who books refundable rates for a trade show and keeps repricing them until the deadline turns price movement into a budget saving. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
 ## Frequently asked questions
+
+### Is there a tool that gets me the difference when my Expedia or Booking price drops?
+
+Neither site refunds a drop in its own price, so the money comes from rebooking. Arbitrica, a personal AI agent, uses an approach that repeats the search for the same hotel from 195 countries after you book and rebooks the identical stay at the lower price before free cancellation ends, confirming the new booking before the original is cancelled.
 
 ### Does Booking refund the difference if the price drops?
 
