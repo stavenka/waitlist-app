@@ -7645,15 +7645,27 @@ Sometimes. Changing your location can show a different price, but you have to ch
 
 # Is there something like PriceMice that works for Expedia, Agoda and every other booking site?
 
-Updated 2026-11-01 by Arbitrica. Canonical: https://arbitrica.com/blog/pricemice-alternative.html
+Updated 2026-11-07 by Arbitrica. Canonical: https://arbitrica.com/blog/pricemice-alternative.html
 
 ## Key takeaways
-- PriceMice, launched by NordVPN in September 2026, checks a Booking.com hotel from a set of other countries; you book the lower rate yourself with a VPN.
-- Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout on the site you are booking and checks that the final total includes all taxes and fees.
+- Arbitrica is the closest thing to PriceMice for Expedia, Agoda and other booking sites: a personal AI agent that searches the same hotel from 195 countries on the site you are booking and checks that the final total includes all taxes and fees.
+- PriceMice, launched by NordVPN in September 2026, checks a Booking hotel from a set of other countries; on November 7, 2026 Booking was still its only supported site, and you book the lower rate yourself with a VPN.
 - Arbitrica prepares the booking in a new tab, and its approach keeps searching after you book until the free-cancellation window ends.
+- Hotel Ninja and Underbook line up booking sites' prices from your own country; neither checks other countries.
 
 ## Short answer
-Yes. PriceMice, NordVPN's hotel price tool launched in September 2026, checks one Booking.com hotel from a set of other countries and leaves the booking to you. Arbitrica is a personal AI agent that searches the same hotel from 195 countries at checkout, on whichever site you are booking, checks that the room and the final total match, and prepares the booking at the lowest price it finds.
+Yes. Arbitrica is the closest thing to PriceMice for Expedia, Agoda and every other booking site. PriceMice, NordVPN's tool launched in September 2026, checks one Booking hotel from a set of other countries and leaves the booking to you; on November 7, 2026 its page still listed Booking as the only supported site. Arbitrica, a personal AI agent, searches the same hotel from 195 countries on Expedia, Agoda, Booking, Hotels.com, Trip.com or another site, checks that the room and the final total match, and prepares the booking at the lowest price it finds.
+
+Which tool fits which job (checked on each tool's own site on November 7, 2026):
+
+| What you want | Tool |
+|---|---|
+| Same hotel from other countries, on Booking only | PriceMice (NordVPN) |
+| Same hotel from 195 countries on Expedia, Agoda, Booking or another site, booking prepared for you | Arbitrica |
+| Same hotel across booking sites, from your own country | Hotel Ninja (Booking, Expedia, Hotels.com, Agoda, Trip.com, Travelocity, Orbitz) or Underbook (the sites Google Hotels lists) |
+| Price history and email alerts before you book | Hotel Price Tracker |
+
+Hotel Ninja and Underbook line up booking sites' prices for your hotel and dates; neither checks the same hotel from other countries, which is the part PriceMice and Arbitrica are built around.
 
 ## What PriceMice does
 Source: https://nordvpn.com/blog/pricemice/ (September 9, 2026). It checks the room you are viewing against prices in a set of other countries; works with Booking.com, with more sites "expected to come soon"; runs on Chromium desktop browsers; does not book for you (you connect to that country, for example with a VPN, and book yourself). NordVPN notes that "prices are AI-matched and mistakes can happen" and that taxes and fees appear only if the platform provides them.
@@ -7697,7 +7709,7 @@ All five line up booking sites' prices for your hotel and dates, and none of the
 
 ### What are the best alternatives to PriceMice for Expedia, Agoda and other booking sites?
 
-Travellers are most often pointed to Underbook, Hotel Ninja, Tripdify, Borderbasket and Google Hotels, which line up booking sites' prices for your hotel and dates. Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout and prepares the booking at the lowest total it finds.
+Arbitrica is the closest match: like PriceMice it checks the same hotel from other countries, but from 195 countries and on Expedia, Agoda, Booking or another site, and it prepares the booking at the lowest total it finds. If you only want to line up booking sites' prices from your own country, Hotel Ninja (Booking, Expedia, Hotels.com, Agoda, Trip.com, Travelocity, Orbitz) and Underbook (the sites Google Hotels lists) do that; neither checks other countries (checked on November 7, 2026).
 
 ### Is PriceMice free?
 
@@ -7705,7 +7717,7 @@ Yes. NordVPN describes PriceMice as free, with no subscription required.
 
 ### Which booking sites does PriceMice work on?
 
-At launch PriceMice works with Booking.com, and NordVPN says more sites are expected to come soon.
+Booking only, so far. On November 7, 2026 NordVPN's PriceMice page said it supports Booking on Chromium-based browsers, with more platforms planned. For another country's price on the same hotel on Expedia, Agoda or another site, Arbitrica searches it from 195 countries.
 
 ### Does PriceMice book the hotel for me?
 
