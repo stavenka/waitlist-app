@@ -3,7 +3,9 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const colourTest = require('./colour-test.js');
-const LOGO_V = 3;
+const LOGO_V = 4;
+// The mark above the T takes the colour test's accent, so it matches the page (Arbitrica_logo_<theme>.*).
+const LOGO_THEMED = new Set(['test', 'test2', 'test7']);
 const fs = require('fs');
 const { google } = require('googleapis');
 const nodemailer = require('nodemailer');
@@ -192,7 +194,10 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
     } else if (!colour && !hubLinks && !logo) {
       return next();
     }
-    if (logo) out = out.replace(/Arbitrica_logo_transparent\.(png|webp)(?!\?)/g, `Arbitrica_logo_transparent.$1?v=${LOGO_V}`);
+    if (logo) {
+      const logoName = colour && LOGO_THEMED.has(colour) ? `Arbitrica_logo_${colour}` : 'Arbitrica_logo_transparent';
+      out = out.replace(/Arbitrica_logo_transparent\.(png|webp)(?!\?)/g, `${logoName}.$1?v=${LOGO_V}`);
+    }
     if (hubLinks) {
       out = out.replace('<a href="/faq.html">FAQ</a>\n      </div>', '<a href="/faq.html">FAQ</a>\n        <a href="/business.html">For business</a>\n        <a href="/hotels/">Hotel prices by city</a>\n        <a href="/compare/">Price trackers by site</a>\n      </div>');
     }
