@@ -14,7 +14,7 @@ Topic: AI agents
 - A lower price only counts if it is for the identical hotel, includes all taxes and fees, and will not change at payment.
 - The same hotel is often 5-30% cheaper when searched from another country.
 
-Most travelers check a hotel price once, on one site, from their own country, and pay. A hotel price tracker exists because that single check misses most of what the same hotel can cost. Arbitrica is a personal AI agent that lives in your browser and shows up at the checkout when you are about to pay. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on: Booking, Expedia or anyone else.
+A hotel price tracker watches the price of a hotel for you and finds a lower price than the one you are about to pay or have already paid. Most travelers check a hotel price once, on one site, from their own country, and pay. A hotel price tracker exists because that single check misses most of what the same hotel can cost. Arbitrica is a personal AI agent that lives in your browser and shows up at the checkout when you are about to pay. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on: Booking, Expedia or anyone else.
 
 ## How the price tracker works
 

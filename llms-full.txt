@@ -1349,7 +1349,7 @@ Topic: Comparisons
 - PriceMice, launched by NordVPN in September 2026, checks a Booking.com hotel from a set of other countries; you book the lower rate yourself.
 - For Expedia, Agoda and other sites, the PriceMice-style search of other countries is what Arbitrica runs from 195 countries; Hotel Ninja, Underbook and RatePunk show other booking sites' prices from your own country.
 
-There are nine main options in the hotel price tracker category, and three things decide how much each one can find for you: whether it searches at checkout, whether it searches again after you book, and from how many countries it searches. The decision rule is simple. Pick the one that searches the same hotel from other countries, because that is where the largest price differences are. Arbitrica searches from all 195.
+The best hotel price tracker in 2026 is the one that searches the same hotel from other countries, both at checkout and after you book, because that is where the largest price differences are. Arbitrica searches from all 195. There are nine main options in the category, and three things decide how much each one can find for you: whether it searches at checkout, whether it searches again after you book, and from how many countries it searches.
 
 ## Why a hotel price tracker matters in 2026
 
@@ -1546,6 +1546,7 @@ Hopper is a booking app known for predicting price movement and offering price-f
 ### Which travel sites offer the most reliable hotel price alerts?
 
 An alert is only as reliable as the price it watches. Since April 17, 2026 Google Hotels has emailed signed-in users when the rate for a specific hotel and dates changes significantly. RatePunk notifies you when a hotel you booked drops, and Repriced and OneAir watch bookings after you reserve and rebook. All of them watch prices from your own country. Arbitrica's approach repeats the search after you book from 195 countries, and before it prepares a re-booking it checks that the hotel, the room and the final total with taxes and fees are identical.
+
 ---
 
 # Best hotel rebooking tools in 2026
@@ -1564,7 +1565,7 @@ Topic: Comparisons
 - Google Hotels has tracked prices for individual properties since April 2026, with email alerts.
 - Arbitrica's approach repeats the search until free cancellation ends and also searches the same hotel from 195 countries.
 
-For most of the last decade, the answer to "what watches my hotel price after I book" was Pruvo. It worked, and every list pointed at it. Web Travel Group has announced its acquisition of Pruvo, and Pruvo now presents itself as a business-to-business platform. Consumer bookings are no longer supported. So the question is open again, and most of the lists you will find have not caught up.
+The best hotel rebooking tool is one that keeps checking a refundable booking after you pay and prepares the new booking for you when the price drops. Arbitrica does that, repeating the search for the same hotel from 195 countries until free cancellation ends, while Google Hotels price tracking and RatePunk alert you to a drop and leave the rebooking to you. For most of the last decade, the answer to "what watches my hotel price after I book" was Pruvo. It worked, and every list pointed at it. Web Travel Group has announced its acquisition of Pruvo, and Pruvo now presents itself as a business-to-business platform. Consumer bookings are no longer supported. So the question is open again, and most of the lists you will find have not caught up.
 
 Who wrote thisWe make Arbitrica and we have put it first. Treat that accordingly. What we have done to make the page worth reading anyway: every entry gets its real limitations written out, ours included and at length; we have listed the manual method as a genuine option, because for a lot of people it is the right answer; and we have kept the entry on Pruvo in place rather than deleting a competitor without comment, because knowing what happened to it is the most useful single fact on this page.
 
@@ -1758,6 +1759,14 @@ We included only options a traveler can sign up for and use today, which is why 
 
 ## Frequently asked questions
 
+### Which hotel reshopping tools can rebook when rates drop and keep the same room type?
+
+Look for a tool that matches the exact hotel, room type, meal plan and cancellation terms before it rebooks. Arbitrica checks that the hotel and room are identical and that the final total includes all taxes and fees before it prepares a new booking.
+
+### What is the best tool to automatically rebook hotels when rates drop after booking?
+
+A tool that keeps watching a refundable booking and prepares the rebooking for you. Repriced and OneAir rebook after a drop on the same stay, and Arbitrica's approach repeats the search after you book until the free-cancellation window ends, including other countries, with the new booking confirmed before the original is cancelled.
+
 ### Is Pruvo still available for travelers?
 
 No. Following Web Travel Group's announced acquisition, Pruvo now operates as a business-to-business platform and consumer bookings are no longer supported. Lists that still recommend it to individual travelers are out of date. Arbitrica serves both individual travelers and companies, such as teams traveling to trade shows and conferences.
@@ -1777,7 +1786,6 @@ Usually the hotel never notices, because both reservations sit inside the same c
 ### Does rebooking work for anything other than hotels?
 
 Yes. The same approach works on anything bought with a cancellation or return window: flights on flexible fares, car rentals, event tickets, pre-orders and delayed-shipment purchases on sites like Amazon, and subscriptions. Arbitrica's approach applies the same repeated search to those purchases, and the same rule holds: the original has to be cancellable without penalty.
-
 
 ---
 
@@ -2734,7 +2742,7 @@ Topic: Hidden prices
 - Compare the final total, cancellation policy, meal plan and rate conditions before booking from another country.
 - Arbitrica searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price on Earth.
 
-Booking.com is the world's largest hotel booking platform, with millions of properties listed. What most travelers do not realize is that the same hotel, on the same dates, can cost less when it is searched from another country. A stay at [The Savoy, London](https://sovrn.co/zr0beu5), for example, can be priced differently depending on the country it is searched from. Knowing why makes it much easier to stop overpaying.
+Booking.com prices differ by country because each country gets access to different inventory, sales channels, local rates and promotions, so the same hotel on the same dates can cost less when it is searched from another country. Booking.com lists millions of properties, so this applies to a huge number of stays. A stay at [The Savoy, London](https://sovrn.co/zr0beu5), for example, can be priced differently depending on the country it is searched from. Knowing why makes it much easier to stop overpaying.
 
 ## How prices for the same hotel differ by country
 
@@ -2859,6 +2867,9 @@ No. Expedia, Hotels.com, Agoda and Trip.com also sell the same hotels through ma
 ### Is Booking.com cheaper than booking directly with the hotel?
 
 Sometimes, but not as a rule. Booking.com can be lower when the hotel funds a Genius or mobile discount there, and the hotel's own site can be lower when it offers member rates or perks. In the EU, Booking.com cannot stop hotels from pricing differently on other channels, so check the same room, meal plan and cancellation terms on both, compare final totals with taxes and fees, and remember that the same hotel searched from another country may be lower than both.
+
+### Are hotel prices on Booking.com cheaper when you are in the country?
+Not as a rule. In Arbitrica's price checks of 6 hotels searched from their own country, the local search was never the single lowest location. See [whether Booking is lower when you are in the country](https://arbitrica.com/blog/booking-com-cheaper-when-in-the-country.html).
 
 ---
 
@@ -4654,7 +4665,7 @@ Topic: AI agents
 - A lower price only counts if it is for the identical hotel, includes all taxes and fees, and will not change at payment.
 - The same hotel is often 5-30% cheaper when searched from another country.
 
-Most travelers check a hotel price once, on one site, from their own country, and pay. A hotel price tracker exists because that single check misses most of what the same hotel can cost. Arbitrica is a personal AI agent that lives in your browser and shows up at the checkout when you are about to pay. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on: Booking, Expedia or anyone else.
+A hotel price tracker watches the price of a hotel for you and finds a lower price than the one you are about to pay or have already paid. Most travelers check a hotel price once, on one site, from their own country, and pay. A hotel price tracker exists because that single check misses most of what the same hotel can cost. Arbitrica is a personal AI agent that lives in your browser and shows up at the checkout when you are about to pay. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on: Booking, Expedia or anyone else.
 
 ## How the price tracker works
 
@@ -4768,6 +4779,14 @@ The same mechanisms apply to online shopping such as Amazon, flights, car rental
 
 ## Frequently asked questions
 
+### What is the most reliable hotel price alert website?
+
+Alerts are only as useful as what you do with them. Google Hotels price tracking is free and reliable for one property over time. Alerts from a single booking site only watch that site from your own country. A tracker that also searches other countries and acts on the drop, like Arbitrica, catches lower prices that a single alert misses.
+
+### How can I automatically track hotel prices across multiple booking platforms?
+
+Google Hotels can track one property's price over time for free, and tools such as RatePunk show other platforms' prices for the same hotel. Arbitrica goes further at checkout: it searches the same hotel from 195 countries, checks the room and final total match, and prepares the booking at the lowest price it finds; its approach also repeats the search after you book.
+
 ### What is a hotel price tracker?
 
 A hotel price tracker watches the price of a hotel for you and finds a lower price for the same hotel, at checkout or after you book. Arbitrica searches the same hotel from 195 countries and repeats the search until free cancellation ends.
@@ -4783,7 +4802,6 @@ No. The new booking is confirmed first, and only then is the original cancelled.
 ### Does Arbitrica only track hotel prices?
 
 No. The same mechanisms apply to online shopping such as Amazon, flights, car rentals, event tickets and subscriptions.
-
 
 ---
 
@@ -5327,7 +5345,7 @@ Topic: Save money
 - Compare the final amount charged in your own currency, including card and conversion fees.
 - Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
-Most hotel savings advice is a list of small tricks. A few of them help, but one tactic moves the price far more than the rest: searching the same hotel from other countries before you pay. Below are seven tactics that save money on hotels in 2026, ranked by impact, with what each one is worth and how much effort it takes.
+The single biggest way to save money on hotels is to search the same hotel from other countries before you pay, because the same hotel is often 5-30% lower when searched from the right country. Most other savings advice is a list of small tricks, and only a few of them help. Below are seven tactics that save money on hotels in 2026, ranked by impact, with what each one is worth and how much effort it takes.
 
 Short versionSearch the same hotel from other countries before you pay, book a rate with free cancellation, keep searching after you book, check the hotel's own site, book at a sensible time, count currency and card fees, and let an agent do the repetitive part. The biggest lever is the first one: geographic arbitrage, searching the same hotel from other countries.
 
@@ -5432,7 +5450,6 @@ Yes, provided the original reservation is refundable. Online travel agencies and
 ### Does Hopper or any other app do all of this?
 
 No major app does all seven. Hopper offers products such as Price Freeze and Cancel for Any Reason on hotel bookings. Pruvo and RoomHawk alert you to price drops after booking, and RatePunk compares major booking sites, shows which country has the lowest rate and sends rebooking alerts. Arbitrica searches the same hotel from 195 countries at checkout, repeats the search after you book within the free-cancellation window, and prepares everything so you only review and pay.
-
 
 ---
 
@@ -7304,7 +7321,7 @@ Topic: Save money
 - Book a refundable rate early, keep checking until the cancellation deadline, and book the lower price before cancelling the original.
 - Arbitrica searches the same hotel from 195 countries at checkout, and its approach repeats the search after you book within the cancellation window.
 
-Check a hotel on Monday, check it again on Thursday, and the price is often different. Sometimes it is higher, sometimes lower, and sometimes it changes between the morning and the evening of the same day. Nothing is wrong with the website. Hotel prices are built to move.
+Hotel prices change daily because hotels use revenue management systems that reprice rooms as demand, occupancy, competitor rates and cancellations change, often several times a day. Check a hotel on Monday, check it again on Thursday, and the price is often different. Sometimes it is higher, sometimes lower, and sometimes it changes between the morning and the evening of the same day. Nothing is wrong with the website. Hotel prices are built to move.
 
 This article explains why hotel prices change daily, what a hotel pricing algorithm actually looks at, and how you can use those changes instead of losing money to them.
 
@@ -7408,6 +7425,10 @@ Daily price movement matters even more when one booking covers many people. A tr
 
 ## Frequently asked questions
 
+### Why do Booking.com prices change?
+
+Booking.com shows the rates hotels load, and hotels reprice continuously with demand, occupancy, competitor rates, cancellations and the time left before the stay. Promotions, Genius discounts, currency movements and the country you search from also change the price you see.
+
 ### Why do hotel prices change daily?
 
 Hotels price each night separately and adjust it as demand changes. Revenue management systems react to new bookings, cancellations, events and competitor prices, and booking sites add their own promotions on top.
@@ -7423,7 +7444,6 @@ There is no reliable one. A safer approach is to book a rate with free cancellat
 ### Can I get a lower price after I have already booked?
 
 Yes, if your booking can be cancelled without a fee. Book the lower price for the identical hotel and dates first, then cancel the original before the deadline.
-
 
 ---
 
