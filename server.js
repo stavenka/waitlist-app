@@ -94,6 +94,60 @@ function mediumFor(host) {
   return host === 'direct' ? 'none' : 'referral';
 }
 
+// ── AI crawler hits by URL (7-11-2026) ──
+// Which pages AI assistants actually fetch: training crawlers (GPTBot, ClaudeBot), search indexers
+// (OAI-SearchBot, PerplexityBot, bingbot for Copilot) and live fetches made while answering a user
+// (ChatGPT-User, Claude-User, Perplexity-User). Counted in memory and added every hour to the
+// "AI bots" tab of the sign-up sheet as rows of date, bot, page, hits. Never blocks or slows a request.
+const AI_BOTS = [
+  ['ChatGPT-User', /ChatGPT-User/i], ['OAI-SearchBot', /OAI-SearchBot/i], ['GPTBot', /GPTBot/i],
+  ['Claude-User', /Claude-User/i], ['Claude-SearchBot', /Claude-SearchBot/i], ['ClaudeBot', /ClaudeBot|Claude-Web|anthropic-ai/i],
+  ['Perplexity-User', /Perplexity-User/i], ['PerplexityBot', /PerplexityBot/i],
+  ['bingbot', /bingbot/i], ['Googlebot', /Googlebot/i], ['Applebot', /Applebot/i],
+  ['meta-externalagent', /meta-externalagent|FacebookBot/i], ['Amazonbot', /Amazonbot/i],
+  ['DuckAssistBot', /DuckAssistBot/i], ['MistralAI-User', /MistralAI-User/i], ['YouBot', /YouBot/i],
+];
+const aiBotHits = new Map();
+app.use((req, res, next) => {
+  try {
+    const ua = req.get('user-agent') || '';
+    if (ua && (req.method === 'GET' || req.method === 'HEAD')) {
+      const bot = AI_BOTS.find(([, re]) => re.test(ua));
+      if (bot && !/\.(png|jpe?g|gif|webp|svg|ico|mp4|webm|woff2?|ttf|otf|css|js)$/i.test(req.path)) {
+        const key = new Date().toISOString().slice(0, 10) + '\t' + bot[0] + '\t' + req.path.slice(0, 300);
+        aiBotHits.set(key, (aiBotHits.get(key) || 0) + 1);
+      }
+    }
+  } catch (e) {}
+  next();
+});
+async function flushAiBotHits() {
+  if (!aiBotHits.size) return;
+  const rows = [...aiBotHits.entries()].map(([k, n]) => [...k.split('\t'), n]);
+  aiBotHits.clear();
+  try {
+    let credentials = null;
+    if (process.env.GOOGLE_CREDENTIALS_JSON) credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS_JSON);
+    else if (fs.existsSync(getCredentialsPath())) credentials = JSON.parse(fs.readFileSync(getCredentialsPath(), 'utf8'));
+    if (!credentials) return console.log('[ai-bots]', rows.length, 'rows not saved (no Google credentials)');
+    const auth = new google.auth.GoogleAuth({ credentials, scopes: ['https://www.googleapis.com/auth/spreadsheets'] });
+    const sheets = google.sheets({ version: 'v4', auth });
+    const TAB = 'AI bots';
+    const meta = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
+    const tabs = (meta.data.sheets || []).map(s => s.properties && s.properties.title);
+    if (!tabs.includes(TAB)) {
+      await sheets.spreadsheets.batchUpdate({ spreadsheetId: SPREADSHEET_ID, requestBody: { requests: [{ addSheet: { properties: { title: TAB } } }] } });
+      await sheets.spreadsheets.values.update({ spreadsheetId: SPREADSHEET_ID, range: `'${TAB}'!A1:D1`, valueInputOption: 'RAW', requestBody: { values: [['Date (UTC)', 'Bot', 'Page', 'Hits']] } });
+    }
+    await sheets.spreadsheets.values.append({ spreadsheetId: SPREADSHEET_ID, range: `'${TAB}'!A:D`, valueInputOption: 'RAW', insertDataOption: 'INSERT_ROWS', requestBody: { values: rows } });
+    console.log('[ai-bots] saved', rows.length, 'rows');
+  } catch (e) {
+    console.error('[ai-bots] save failed:', e.message);
+  }
+}
+setInterval(flushAiBotHits, 60 * 60 * 1000).unref();
+process.once('SIGTERM', () => { flushAiBotHits().finally(() => process.exit(0)); });
+
 // ── robots.txt ──
 app.get('/robots.txt', (req, res) => {
   res.type('text/plain');
@@ -123,7 +177,7 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
     if (err) return next();
     let out = html;
     const colour = colourTest.themeFor(req);
-    // Footer links to the city and booking-site hubs (1 Nov 2026), so search engines can reach every page by a link.
+    // Footer links to the business page (7 Nov 2026) and the city and booking-site hubs (1 Nov 2026), so search engines can reach every page by a link.
     // Not on the homepage, amazon.html or events.html (left as they are).
     const hubLinks = !/^\/(index\.html|amazon\.html|events\.html)?$/i.test(req.path) && out.includes('<a href="/faq.html">FAQ</a>\n      </div>');
     if (out.includes(GA_ID)) {
@@ -135,7 +189,7 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
       return next();
     }
     if (hubLinks) {
-      out = out.replace('<a href="/faq.html">FAQ</a>\n      </div>', '<a href="/faq.html">FAQ</a>\n        <a href="/hotels/">Hotel prices by city</a>\n        <a href="/compare/">Price trackers by site</a>\n      </div>');
+      out = out.replace('<a href="/faq.html">FAQ</a>\n      </div>', '<a href="/faq.html">FAQ</a>\n        <a href="/business.html">For business</a>\n        <a href="/hotels/">Hotel prices by city</a>\n        <a href="/compare/">Price trackers by site</a>\n      </div>');
     }
     if (colour) {
       try { out = colourTest.themeHtml(out, path.relative(__dirname, file), colour); } catch (e) { console.error('Colour test:', e.message); }
