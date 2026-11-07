@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const colourTest = require('./colour-test.js');
+const LOGO_V = 2;
 const fs = require('fs');
 const { google } = require('googleapis');
 const nodemailer = require('nodemailer');
@@ -180,14 +181,18 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
     // Footer links to the business page (7 Nov 2026) and the city and booking-site hubs (1 Nov 2026), so search engines can reach every page by a link.
     // Not on the homepage, amazon.html or events.html (left as they are).
     const hubLinks = !/^\/(index\.html|amazon\.html|events\.html)?$/i.test(req.path) && out.includes('<a href="/faq.html">FAQ</a>\n      </div>');
+    // The logo got the spiral mark (7 Nov 2026). Images are cached for a year as immutable, so browsers that already
+    // had the old file keep showing it; a version on the URL makes them fetch the new one. Bump LOGO_V on the next change.
+    const logo = out.includes('Arbitrica_logo_transparent.');
     if (out.includes(GA_ID)) {
-      if (!out.includes('setTimeout(loadAll, 15000);') && !colour && !hubLinks) return next();
+      if (!out.includes('setTimeout(loadAll, 15000);') && !colour && !hubLinks && !logo) return next();
       out = out.replace('setTimeout(loadAll, 15000);', "document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', function () { setTimeout(loadAll, 0); }) : setTimeout(loadAll, 0);");
     } else if (/<head(\s[^>]*)?>/i.test(out)) {
       out = out.replace(/<head(\s[^>]*)?>/i, (m) => m + GA_SNIPPET);
-    } else if (!colour && !hubLinks) {
+    } else if (!colour && !hubLinks && !logo) {
       return next();
     }
+    if (logo) out = out.replace(/Arbitrica_logo_transparent\.(png|webp)(?!\?)/g, `Arbitrica_logo_transparent.$1?v=${LOGO_V}`);
     if (hubLinks) {
       out = out.replace('<a href="/faq.html">FAQ</a>\n      </div>', '<a href="/faq.html">FAQ</a>\n        <a href="/business.html">For business</a>\n        <a href="/hotels/">Hotel prices by city</a>\n        <a href="/compare/">Price trackers by site</a>\n      </div>');
     }
