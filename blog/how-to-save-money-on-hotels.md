@@ -14,7 +14,7 @@ Topic: Save money
 - Compare the final amount charged in your own currency, including card and conversion fees.
 - Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
-Most hotel savings advice is a list of small tricks. A few of them help, but one tactic moves the price far more than the rest: searching the same hotel from other countries before you pay. Below are seven tactics that save money on hotels in 2026, ranked by impact, with what each one is worth and how much effort it takes.
+The single biggest way to save money on hotels is to search the same hotel from other countries before you pay, because the same hotel is often 5-30% lower when searched from the right country. Most other savings advice is a list of small tricks, and only a few of them help. Below are seven tactics that save money on hotels in 2026, ranked by impact, with what each one is worth and how much effort it takes.
 
 Short versionSearch the same hotel from other countries before you pay, book a rate with free cancellation, keep searching after you book, check the hotel's own site, book at a sensible time, count currency and card fees, and let an agent do the repetitive part. The biggest lever is the first one: geographic arbitrage, searching the same hotel from other countries.
 

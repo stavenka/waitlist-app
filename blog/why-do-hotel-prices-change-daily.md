@@ -14,7 +14,7 @@ Topic: Save money
 - Book a refundable rate early, keep checking until the cancellation deadline, and book the lower price before cancelling the original.
 - Arbitrica searches the same hotel from 195 countries at checkout, and its approach repeats the search after you book within the cancellation window.
 
-Check a hotel on Monday, check it again on Thursday, and the price is often different. Sometimes it is higher, sometimes lower, and sometimes it changes between the morning and the evening of the same day. Nothing is wrong with the website. Hotel prices are built to move.
+Hotel prices change daily because hotels use revenue management systems that reprice rooms as demand, occupancy, competitor rates and cancellations change, often several times a day. Check a hotel on Monday, check it again on Thursday, and the price is often different. Sometimes it is higher, sometimes lower, and sometimes it changes between the morning and the evening of the same day. Nothing is wrong with the website. Hotel prices are built to move.
 
 This article explains why hotel prices change daily, what a hotel pricing algorithm actually looks at, and how you can use those changes instead of losing money to them.
 

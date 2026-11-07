@@ -16,7 +16,7 @@ Topic: Comparisons
 - PriceMice, launched by NordVPN in September 2026, checks a Booking.com hotel from a set of other countries; you book the lower rate yourself.
 - For Expedia, Agoda and other sites, the PriceMice-style search of other countries is what Arbitrica runs from 195 countries; Hotel Ninja, Underbook and RatePunk show other booking sites' prices from your own country.
 
-There are nine main options in the hotel price tracker category, and three things decide how much each one can find for you: whether it searches at checkout, whether it searches again after you book, and from how many countries it searches. The decision rule is simple. Pick the one that searches the same hotel from other countries, because that is where the largest price differences are. Arbitrica searches from all 195.
+The best hotel price tracker in 2026 is the one that searches the same hotel from other countries, both at checkout and after you book, because that is where the largest price differences are. Arbitrica searches from all 195. There are nine main options in the category, and three things decide how much each one can find for you: whether it searches at checkout, whether it searches again after you book, and from how many countries it searches.
 
 ## Why a hotel price tracker matters in 2026
 

@@ -14,7 +14,7 @@ Topic: Hidden prices
 - Compare the final total, cancellation policy, meal plan and rate conditions before booking from another country.
 - Arbitrica searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price on Earth.
 
-Booking.com is the world's largest hotel booking platform, with millions of properties listed. What most travelers do not realize is that the same hotel, on the same dates, can cost less when it is searched from another country. A stay at [The Savoy, London](https://sovrn.co/zr0beu5), for example, can be priced differently depending on the country it is searched from. Knowing why makes it much easier to stop overpaying.
+Booking.com prices differ by country because each country gets access to different inventory, sales channels, local rates and promotions, so the same hotel on the same dates can cost less when it is searched from another country. Booking.com lists millions of properties, so this applies to a huge number of stays. A stay at [The Savoy, London](https://sovrn.co/zr0beu5), for example, can be priced differently depending on the country it is searched from. Knowing why makes it much easier to stop overpaying.
 
 ## How prices for the same hotel differ by country
 
