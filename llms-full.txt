@@ -132,6 +132,8 @@ If you are looking for AI that saves money on travel, hotels are the obvious sta
 
 AI can already pick a good hotel for you. The question to ask is whether it also finds the lowest price for that hotel, and whether it can prove the price is real before you pay.
 
+How specific agents handle price: [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html), [alternative to Instinct](https://arbitrica.com/blog/instinct-alternative.html), [alternative to Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [can ChatGPT find you the lowest hotel price?](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html)
+
 ## Frequently asked questions
 
 ### Can AI book a hotel for me?
@@ -415,6 +417,8 @@ A real example: a hotel offered at $1,527.39 on Booking.com was found by Arbitri
 - **It leaves the payment to you**Preparation can be automatic; spending your money should not be.
 
 Even without any agent, these are the habits that save money: check the full price, look beyond your own country, prefer flexible terms and keep checking until you can no longer change the purchase. An agent simply does all of it, every time, for every purchase.
+
+Personal agents compared on price: [alternative to Instinct](https://arbitrica.com/blog/instinct-alternative.html), [alternative to Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html).
 
 ## Frequently asked questions
 
@@ -943,6 +947,8 @@ Arbitrica covers more ground, for travelers and companies alike. It searches the
 ## Update: Pruvo has left the consumer market
 
 Since this comparison was first written, Web Travel Group has announced its acquisition of Pruvo, and Pruvo now presents itself as a business-to-business platform, with consumer bookings no longer supported. Travelers who relied on it, and companies weighing their options, can look at Arbitrica, which serves both. For other replacements, see [the best hotel rebooking tools in 2026](https://arbitrica.com/best-hotel-rebooking-tools.html).
+
+Update, November 2026: Pruvo now describes itself as exclusively a B2B platform and no longer supports consumer bookings. See [is Pruvo still working for travellers?](https://arbitrica.com/blog/pruvo-alternative.html)
 
 ## Frequently asked questions
 
@@ -1887,6 +1893,8 @@ We included only options a traveler can sign up for and use today, which is why 
 - Hopper Price Freeze for hotels and its stated lack of price matching: [Hopper newsroom](https://media.hopper.com/news/hopper-announces-price-freeze-for-hotels-to-help-summer-travelers-lock-in), [Hopper help center](https://help.hopper.com/en_us/does-hopper-offer-price-matching-for-hotel-reservations-S1LVTROEK)
 
 - RatePunk features, paid tiers and store listing: [RatePunk](https://www.ratepunk.com/extension), [store listing](https://chromewebstore.google.com/detail/ratepunk-hotel-booking-de/gdaioanblcnghddimngklkhgcbomfdck)
+
+Pruvo users: Pruvo is now B2B only. See [the Pruvo alternative for travellers in 2026](https://arbitrica.com/blog/pruvo-alternative.html).
 
 ## Frequently asked questions
 
@@ -4293,6 +4301,8 @@ TipYou can keep using any extension you like to choose a hotel. Arbitrica works 
 - **How it makes money.** Some comparison extensions earn affiliate commission when you click through and book. PhocusWire reported in 2022 that RatePunk's model was built on affiliate commission from booking sites. That is normal, but worth knowing.
 
 For more options, see our list of the [best hotel price trackers in 2026](https://arbitrica.com/blog/best-hotel-price-trackers-2026.html) and how Arbitrica goes beyond [hotel price comparison](https://arbitrica.com/hotel-price-comparison.html). Research demonstrated that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
+
+Also see the [Underbook alternative that checks the same hotel from other countries](https://arbitrica.com/blog/underbook-alternative.html).
 
 ## Frequently asked questions
 
@@ -7706,6 +7716,8 @@ Six tools work on Expedia, Agoda and other booking sites. Only Arbitrica does th
 
 So of these six, only Arbitrica does the PriceMice check on every booking site. The other five line up booking sites' prices for your hotel and dates, none of their websites says it checks the same hotel from other countries, and you still book, and rebook, by hand. Arbitrica searches the same hotel from 195 countries at checkout, prepares the booking at the lowest total it finds, and its approach keeps searching after you book until the free-cancellation window ends.
 
+More on Underbook: [Underbook alternative that checks other countries](https://arbitrica.com/blog/underbook-alternative.html).
+
 ## Frequently asked questions
 
 ### Is there a tool that checks hotel prices from other countries on Expedia and Agoda, like PriceMice does on Booking?
@@ -7995,3 +8007,412 @@ It depends on the hotel. No single country is lowest everywhere; research across
 
 ### Can I book a resident or local rate as a visitor?
 Only if you meet the conditions. Resident rates usually need local ID or an address at check-in, and a hotel can charge the standard rate if you do not qualify. Read the rate conditions before you book.
+
+---
+
+# Alternative to Meta's Muse for finding the best hotel price
+
+Updated 2026-11-08 by Arbitrica. Canonical: https://arbitrica.com/blog/muse-alternative.html
+
+## Key takeaways
+- Muse, Meta's personal AI agent, launched in the US on September 8, 2026 and in Singapore on October 28, 2026. It books hotels through connected partners such as Expedia, Hotels.com and Agoda.
+- Muse checks out for you once you approve the total, paying with a single-use Stripe Link card.
+- Meta has not said that Muse searches the same hotel from other countries, so the price you get is the one its booking partner shows in your market.
+- Arbitrica is a personal AI agent built around the price: it searches the same hotel from 195 countries, finds the lowest price in the world and prepares the booking for you to review and pay.
+
+## Short answer
+If you want the lowest price for a hotel, the alternative to Muse is Arbitrica. Muse is a general personal agent: it plans a trip, picks a hotel and books it through a connected partner such as Expedia, Hotels.com or Agoda, at the price that partner gives you. Arbitrica is a personal AI agent that does one thing Muse does not describe doing: it searches the same hotel from 195 countries, checks that the room and the final total match, and prepares the booking at the lowest price in the world. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+| What you want | Use |
+|---|---|
+| Plan a trip, choose a hotel, book it in one chat | Muse |
+| The lowest price in the world for the hotel you have chosen | Arbitrica |
+| Keep watching the price after you book, until free cancellation ends | Arbitrica |
+
+## What Muse is
+Muse is Meta's personal AI agent. It carries out tasks for you rather than just answering questions. It launched in the US on September 8, 2026 and in Singapore on October 28, 2026, the day [Agoda announced its Muse connector](https://skift.com/2026/10/28/agoda-plugs-into-metas-muse-in-singapore-and-japan/) for Singapore and Japan.
+
+For hotels, Muse works with partners:
+
+- **US:** Expedia and Hotels.com, which Muse first used through a browser ([Conduit, 2026](https://www.conduit.ai/blog/how-ai-agents-book-hotels)).
+
+- **Singapore and Japan:** a direct connector to Agoda's own AI travel assistant, plus Trip.com, Singapore Airlines and Klook as early Singapore partners ([Skift, October 28, 2026](https://skift.com/2026/10/28/agoda-plugs-into-metas-muse-in-singapore-and-japan/)).
+
+At checkout, Muse completes the purchase after you approve the total in the chat, using a single-use card from Stripe Link where needed ([Sanbi agentic commerce tracker, October 23, 2026](https://sanbi.ai/blog/agentic-commerce-tracker-ai-checkout)). Amazon has blocked Muse and other outside agents from its store since September 20, 2026, according to the same tracker.
+
+## How Muse gets a hotel price
+Muse does not set hotel prices. It books through a partner, so the price you see is the price that partner shows for your search: your dates, your country, your currency and the partner's own deals. Meta and its partners have not published any feature that searches the same hotel from other countries or across every booking site before Muse books (checked on November 8, 2026).
+
+That matters because the same hotel is often priced differently depending on where the search comes from. Hotels and booking sites agree rates, room allotments and promotions market by market, and dynamic pricing moves them all day. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), a 4-night stay at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.
+
+## How Arbitrica handles the price
+Arbitrica is a personal AI agent that shows up when you are about to pay. For the hotel you have chosen, it:
+
+- searches the same hotel from 195 countries, on the site you are booking and other sites;
+
+- checks that the hotel, room and conditions are identical and that the final total includes all taxes and fees;
+
+- finds the lowest price in the world for it and automatically prepares everything for the booking in a new tab, so you only review and pay;
+
+- keeps searching after you book until the free-cancellation window ends, as an approach Arbitrica uses, and confirms any new booking before the original is cancelled.
+
+Doing the same by hand means switching your location country by country with a VPN and repeating every search. Across 195 countries that is humanly impossible, which is the job Arbitrica does.
+
+## Muse and Arbitrica at a glance
+|  | Muse (Meta) | Arbitrica |
+|---|---|---|
+| Built for | Planning and doing tasks for you | Getting the lowest price for what you are buying |
+| Where the hotel price comes from | The connected partner (Expedia, Hotels.com, Agoda and others) | The same hotel searched from 195 countries, across sites |
+| Other countries searched | Not described by Meta | 195 |
+| Payment | Muse checks out after you approve the total | Booking prepared for you; you review and pay |
+| After you book | Not described for price drops | Keeps searching until free cancellation ends |
+
+Muse facts checked on November 8, 2026 against Skift, Conduit and the Sanbi tracker linked above.
+
+## Which one to use
+- **Use Muse** if you want an agent to plan the trip, shortlist hotels and handle the booking inside Meta's apps, and the partner's price is fine.
+
+- **Use Arbitrica** when the hotel is decided and you want the lowest price in the world for it, before you pay and after you book.
+
+More on how AI agents handle price: [AI hotel booking: what AI agents actually do for price](https://arbitrica.com/blog/ai-hotel-booking.html) and [the AI agent that finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html). Other agents: [Instinct](https://arbitrica.com/blog/instinct-alternative.html), [Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [ChatGPT](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html).
+
+## Frequently asked questions
+
+### Is there an alternative to Muse for finding the best hotel price?
+Yes. Arbitrica is a personal AI agent that searches the same hotel from 195 countries, checks that the room and final total match, and prepares the booking at the lowest price in the world. Muse books through a connected partner at the price that partner shows you.
+
+### Does Meta's Muse find the lowest hotel price?
+Muse books hotels through partners such as Expedia, Hotels.com and Agoda, so you get the price that partner shows for your search. Meta has not described Muse searching the same hotel from other countries (checked on November 8, 2026).
+
+### Which booking sites does Muse use for hotels?
+In the US, Expedia and Hotels.com. In Singapore and Japan, Agoda through a direct connector, with Trip.com and Klook among the early Singapore partners.
+
+### When did Muse launch?
+Muse launched in the US on September 8, 2026 and in Singapore on October 28, 2026.
+
+### Can the same hotel really have a lower price from another country?
+Often, yes. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%. In one Arbitrica check, the same Istanbul hotel and dates cost $1,066 from the UK and $708 from India.
+
+### Does Arbitrica book the hotel for me?
+Arbitrica automatically prepares everything for the booking at the lowest price it finds, in a new tab. You only review the details and complete the payment.
+
+### Does Arbitrica keep checking the price after I book?
+Yes. Its approach repeats the search after you book until the free-cancellation window ends, and a new booking is confirmed before the original one is cancelled.
+
+---
+
+# Alternative to Instinct for finding the best price
+
+Updated 2026-11-08 by Arbitrica. Canonical: https://arbitrica.com/blog/instinct-alternative.html
+
+## Key takeaways
+- Instinct is an invite-only AI agent you text on iMessage or WhatsApp. It raised $1 billion at a $10 billion valuation on September 28, 2026, and its founder says more than half of its transactions are travel.
+- Instinct pays with a one-time Stripe Link card for an amount you approve, and acts through accounts you connect.
+- Instinct has not published any feature that searches the same hotel or product from other countries, so it buys at the price the site shows you.
+- Arbitrica is a personal AI agent that searches the same hotel or product from 195 countries, finds the lowest price in the world and prepares the purchase for you to review and pay. No invite needed.
+
+## Short answer
+If you are on the Instinct waitlist, or you want the lowest price rather than just a completed task, the alternative is Arbitrica. Instinct is a general agent: you text it and it checks you in, orders groceries, books rides and buys tickets through your connected accounts. Arbitrica is a personal AI agent built for the price: it searches the same hotel or product from 195 countries, checks that it is identical and that the total includes all taxes and fees, and prepares the purchase at the lowest price in the world. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+## What Instinct is
+- **How you use it:** by text on iMessage or WhatsApp, by phone, or through a Mac app and a web workspace. It runs on its own computer and acts through accounts you connect ([eesel review, 2026](https://www.eesel.ai/blog/instinct-ai-review)).
+
+- **Access:** invite-only beta, with a waitlist at app.instinct.com.
+
+- **Payments:** since late August 2026 it requests a one-time Stripe Link card for an amount you approve, so the merchant never sees your real card. A Shopify partnership announced on September 28, 2026 lets it check out with Shop Pay.
+
+- **Scale:** founder Noah Shinn said more than 50% of transactions are travel, and Instinct raised $1 billion at a $10 billion valuation on September 28, 2026 ([TechCrunch, September 29, 2026](https://techcrunch.com/2026/09/29/instinct-founder-said-more-than-50-of-transactions-on-the-platform-are-travel-related/)).
+
+Instinct's terms say actions may not always be reversible and records may not be accurate, so it is worth approving purchases carefully.
+
+## How Instinct gets a price
+Instinct buys where you ask it to, or where it finds the item, at the price that site shows for your account and location. Neither Instinct nor the reviews above describe it searching the same hotel or product from other countries before it pays (checked on November 8, 2026).
+
+That leaves money on the table. Different countries get different inventory, sales channels, local rates and promotions, so the same hotel or product often has a lower price elsewhere. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), the same Istanbul hotel and dates cost $1,066 searched from the UK and $708 from India.
+
+## How Arbitrica differs
+|  | Instinct | Arbitrica |
+|---|---|---|
+| Built for | Doing tasks you text it | Getting the lowest price for what you are buying |
+| Access | Invite-only | No invite |
+| Other countries searched | Not described | 195 |
+| Checks the item is identical and the total includes taxes and fees | Not described | Yes |
+| Payment | Instinct pays with a one-time card you approve | Purchase prepared for you; you review and pay |
+| After you buy | Not described for price drops | Keeps searching until the cancellation or return window ends |
+
+Arbitrica works at the checkout for hotels, online shopping such as Amazon, and event tickets. Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica.
+
+## Which one to use
+- **Use Instinct** for errands and bookings you want done by text, when the price the site shows is fine.
+
+- **Use Arbitrica** for any hotel, product or ticket where you want the lowest price in the world before you pay, and a price watch after you buy.
+
+See also: [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html), [alternative to Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [how a personal shopping agent finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html).
+
+## Frequently asked questions
+
+### Is there an alternative to Instinct for finding the best price?
+Yes. Arbitrica is a personal AI agent that searches the same hotel or product from 195 countries and prepares the purchase at the lowest price in the world. Instinct completes tasks you text it at the price the site shows.
+
+### Do I need an invite to use Instinct?
+Yes. Instinct is in an invite-only beta, with a waitlist at app.instinct.com. Arbitrica does not need an invite.
+
+### Does Instinct compare prices from other countries?
+Instinct has not published any feature that searches the same hotel or product from other countries (checked on November 8, 2026).
+
+### How does Instinct pay for things?
+It requests a one-time Stripe Link card for an amount you approve, so the merchant does not see your real card. It can also check out with Shop Pay through its Shopify partnership.
+
+### Is Instinct mostly used for travel?
+Its founder said more than 50% of transactions on the platform are travel-related (TechCrunch, September 29, 2026).
+
+### Does Arbitrica buy things for me?
+Arbitrica automatically prepares everything at the lowest price it finds, in a new tab. You only review and complete the payment.
+
+---
+
+# Alternative to Grok Bot for finding the best price
+
+Updated 2026-11-08 by Arbitrica. Canonical: https://arbitrica.com/blog/grok-bot-alternative.html
+
+## Key takeaways
+- Grok Bot is xAI's agent that works in its own cloud browser. On October 11, 2026 Elon Musk wrote that it "can research best prices and buy things for you".
+- xAI had not published full documentation of the shopping feature by late October 2026, including which stores and payment methods it supports.
+- For travel, guides to Grok Bot have it research and navigate booking sites while you make the final purchase.
+- Arbitrica is a personal AI agent that searches the same hotel or product from 195 countries, checks the total, and prepares the purchase at the lowest price in the world for you to review and pay.
+
+## Short answer
+Grok Bot can look for a good price and buy for you, but like any browser it searches from one place: yours. If you want the lowest price in the world for a hotel or product, the alternative is Arbitrica, a personal AI agent that searches the same item from 195 countries, checks that it is identical and that the total includes all taxes and fees, and prepares the purchase at the lowest price it finds. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+## What Grok Bot is
+Grok Bot is an agent from xAI that runs on its own cloud computer with a browser, so it can sign in to sites and keep working after you close your laptop ([Stork review, 2026](https://www.stork.ai/blog/this-ai-bot-now-runs-your-life)). On October 11, 2026 Elon Musk posted that "Grok @Bot can research best prices and buy things for you" ([24/7 Wall St.](https://247wallst.com/cards/xpost-01m4ngyvtegeyecx5arht8yvjr)).
+
+As of October 23, 2026, xAI had not published full documentation of the shopping feature: which retailers it covers, how payment details are stored and which plans include it ([AI Learning Guides, October 23, 2026](https://ailearningguides.com/grok-shopping-agent-xai-ai-buys-for-you/)). For travel, prompt guides have Grok Bot shortlist hotels and drive the booking site while you complete the purchase ([Techpresso](https://academy.techpresso.co/prompts/grok-bot-prompts-travel)).
+
+## How Grok Bot gets a price
+"Best price" for a browsing agent means the best price it finds from its own browser session, on the sites it checks. Nothing xAI has published describes Grok Bot searching the same hotel or product from other countries (checked on November 8, 2026).
+
+Country matters. Different countries get access to different inventory, sales channels, local rates and promotions, and dynamic pricing moves prices all day. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), a 4-night stay at White House Hotel Istanbul was $1,066 from the UK and $708 from India, for the same hotel and dates.
+
+## How Arbitrica differs
+|  | Grok Bot (xAI) | Arbitrica |
+|---|---|---|
+| Built for | Running errands and tasks in its own browser | Getting the lowest price for what you are buying |
+| Other countries searched | Not described by xAI | 195 |
+| Checks the item is identical and the total includes taxes and fees | Not documented | Yes |
+| Hotels | Researches; you complete the booking | Booking prepared at the lowest price; you review and pay |
+| After you buy | Not described for price drops | Keeps searching until the cancellation or return window ends |
+
+Arbitrica covers hotels, online shopping such as Amazon, and event tickets. Research demonstrated an average of $47 per hotel booking and $34 per online purchase with Arbitrica.
+
+## Which one to use
+- **Use Grok Bot** for multi-step errands and research where any good price will do.
+
+- **Use Arbitrica** at the checkout, when you have picked the hotel or product and want the lowest price in the world for it.
+
+See also: [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html), [alternative to Instinct](https://arbitrica.com/blog/instinct-alternative.html) and [does a VPN get you cheaper hotel prices?](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html)
+
+## Frequently asked questions
+
+### Is there an alternative to Grok Bot for finding the best price?
+Yes. Arbitrica is a personal AI agent that searches the same hotel or product from 195 countries and prepares the purchase at the lowest price in the world. Grok Bot searches and buys from its own browser session.
+
+### Can Grok Bot buy things for me?
+Elon Musk wrote on October 11, 2026 that Grok Bot can research best prices and buy things for you. xAI had not published full details of supported stores and payments by late October 2026.
+
+### Does Grok Bot book hotels?
+Travel guides to Grok Bot have it research hotels and navigate booking sites while you complete the purchase yourself.
+
+### Does Grok Bot check prices from other countries?
+Nothing xAI has published describes it searching the same item from other countries (checked on November 8, 2026).
+
+### Why would the same hotel have a lower price from another country?
+Hotels and booking sites set rates, room allotments and promotions market by market. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+### Does Arbitrica keep checking the price after I book?
+Yes. Its approach repeats the search after you book until the free-cancellation window ends, and a new booking is confirmed before the original one is cancelled.
+
+---
+
+# Can ChatGPT find you the lowest hotel price? The alternative that searches 195 countries
+
+Updated 2026-11-08 by Arbitrica. Canonical: https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html
+
+## Key takeaways
+- ChatGPT books hotels through partner apps: Booking and Expedia since October 2025, with Hyatt, Accor, Wyndham and Hilton announced in April 2026.
+- Since March 24, 2026, ChatGPT purchases finish in the partner's own checkout, so the price is the one that partner shows for your search.
+- ChatGPT does not search the same hotel from other countries before you book.
+- Arbitrica, a personal AI agent, shows up at that checkout, searches the same hotel from 195 countries and prepares the booking at the lowest price in the world.
+
+## Short answer
+Not on its own. ChatGPT can recommend a hotel and hand you to Booking, Expedia or a hotel chain's app to book it, at the price that app shows for your search. It does not search the same hotel from other countries. The alternative is to let ChatGPT help you choose, then let Arbitrica, a personal AI agent, find the lowest price in the world for that hotel at the checkout: it searches the same hotel from 195 countries, checks the room and final total, and prepares the booking for you. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+## How ChatGPT books hotels
+- **Apps:** Booking and Expedia apps arrived in ChatGPT on October 6, 2025; Hyatt, Accor, Wyndham and Hilton were announced on April 28, 2026 ([Conduit, 2026](https://www.conduit.ai/blog/how-ai-agents-book-hotels)).
+
+- **Checkout:** ChatGPT's Instant Checkout launched in September 2025 and was replaced on March 24, 2026. Purchases now finish in the merchant's own checkout, in an in-app browser on mobile or a link on desktop ([Sanbi tracker, October 23, 2026](https://sanbi.ai/blog/agentic-commerce-tracker-ai-checkout)).
+
+So the price you pay is the partner's price for your dates, location and currency, plus any member deal you have with that partner.
+
+## What ChatGPT misses on price
+The same hotel is often priced differently depending on the country the search comes from, because hotels and booking sites agree rates, room allotments and promotions market by market. A single app searched from your location cannot show that.
+
+In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 of 10 hotels had a lower total from another country than from the UK, by up to 33.6%: White House Hotel Istanbul was $1,066 from the UK and $708 from India for the same 4 nights. Booking all 10 hotels at their lowest location would have cost $7,349 instead of $8,028.
+
+## How to use ChatGPT and Arbitrica together
+- Ask ChatGPT to shortlist hotels for your dates, budget and neighbourhood.
+
+- Open the hotel you like on Booking, Expedia, the hotel's own site or wherever ChatGPT sends you, and go to the checkout.
+
+- Arbitrica appears at the checkout, searches the same hotel from 195 countries, checks that the room and final total match, and prepares the booking at the lowest price in the world in a new tab.
+
+- You review and pay. Arbitrica's approach keeps searching after you book until free cancellation ends.
+
+|  | ChatGPT | Arbitrica |
+|---|---|---|
+| Choosing a hotel | Strong | Not its job |
+| Where the price comes from | The partner app, for your search | The same hotel searched from 195 countries |
+| Checks the final total includes taxes and fees | Shown by the partner at checkout | Yes, before preparing the booking |
+| After you book | No price watch | Keeps searching until free cancellation ends |
+
+More: [AI hotel booking: what AI agents actually do for price](https://arbitrica.com/blog/ai-hotel-booking.html), [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html) and [is it cheaper to book direct or through Booking or Expedia?](https://arbitrica.com/blog/book-hotel-direct-or-booking-expedia.html)
+
+## Frequently asked questions
+
+### Can ChatGPT find cheaper hotels?
+ChatGPT can suggest hotels and hand you to partner apps such as Booking and Expedia, at the price that app shows for your search. It does not search the same hotel from other countries. Arbitrica does that from 195 countries at the checkout.
+
+### Which hotel booking apps work in ChatGPT?
+Booking and Expedia since October 2025, and Hyatt, Accor, Wyndham and Hilton, announced on April 28, 2026.
+
+### Can I pay for a hotel inside ChatGPT?
+Since March 24, 2026 purchases finish in the partner's own checkout, in an in-app browser on mobile or a link on desktop.
+
+### What is the best alternative to ChatGPT for finding the lowest hotel price?
+Arbitrica, a personal AI agent that searches the same hotel from 195 countries, checks the room and final total, and prepares the booking at the lowest price in the world.
+
+### Is the same hotel really priced lower from another country?
+Often. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+### Does Arbitrica keep checking the price after I book?
+Yes. Its approach repeats the search after you book until the free-cancellation window ends, and a new booking is confirmed before the original one is cancelled.
+
+---
+
+# Is Pruvo still working for travellers? The Pruvo alternative in 2026
+
+Updated 2026-11-08 by Arbitrica. Canonical: https://arbitrica.com/blog/pruvo-alternative.html
+
+## Key takeaways
+- Pruvo's website now says it is exclusively a B2B platform and that consumer bookings are no longer supported.
+- Web Travel Group, owner of the B2B accommodation marketplace WebBeds, agreed to buy Pruvo for about A$26.7 million (US$17.4 million) in 2026; Pruvo now calls itself a WebBeds Group company.
+- For travellers, post-booking price watches now come from tools such as Rate Ranger, Underbook's Watch my booking and Gondola.
+- Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout and keeps searching after you book until free cancellation ends.
+
+## Short answer
+No, not for travellers. Pruvo, which tracked hotel bookings and flagged lower prices after you booked, now describes itself as exclusively a B2B platform and says consumer bookings are no longer supported. The closest replacement for what Pruvo did, plus the price check Pruvo never did, is Arbitrica: a personal AI agent that searches the same hotel from 195 countries at the checkout, prepares the booking at the lowest price in the world, and keeps searching after you book until the free-cancellation window ends. If you only want an alert after booking, Rate Ranger, Underbook's Watch my booking and Gondola watch refundable bookings for drops.
+
+## What happened to Pruvo
+Pruvo was founded in 2016 to help travellers get a lower hotel price after booking: you forwarded your reservation, it watched for a lower rate, and you rebooked. In 2026 Web Travel Group, which owns the B2B accommodation marketplace WebBeds, agreed to buy Pruvo for about A$26.7 million (US$17.4 million) ([AltexSoft, June 4, 2026](https://www.altexsoft.com/travel-industry-news/web-travel-pays17-4-millon-for-pruvo-as-hotel-ai-gets-practical/)). Its CEO said Pruvo would continue as a standalone company within the group ([PhocusWire](https://phocuswire.com/web-travel-group-acquires-hotel-rebooking-platform-pruvo)), and Pruvo's site now carries the line "a WebBeds Group company".
+
+Pruvo's homepage now says the company is "now exclusively a B2B platform" and that consumer bookings are no longer supported, as PhocusWire reported. Its product today is price monitoring and automatic rebooking for travel sellers, to improve their margins.
+
+## Pruvo alternatives for travellers
+| Tool | What it does | Other countries searched |
+|---|---|---|
+| Arbitrica | Personal AI agent: lowest price at checkout, then keeps searching until free cancellation ends | 195 |
+| Rate Ranger | Emails you a rebooking link when the price of your booked stay drops; Booking, Expedia, Hotels.com, Agoda, Trip.com | No |
+| Underbook (Watch my booking) | Emails once if a refundable booking's typical nightly rate drops at least 5% on two daily checks | No |
+| Gondola | Watches refundable bookings and can rebook eligible stays automatically | No |
+| RoomHawk | Looks for lower prices on identical refundable rooms, in beta | No |
+
+Checked on November 8, 2026 on [Rate Ranger's guide](https://rateranger.io/blog/best-hotel-price-trackers/) and [Underbook's guide](https://underbook.co/best-hotel-price-tracker), which list these tools. For a deeper side-by-side, see [Arbitrica vs Pruvo](https://arbitrica.com/blog/arbitrica-vs-pruvo.html) and [the best hotel rebooking tools](https://arbitrica.com/best-hotel-rebooking-tools.html).
+
+## Why the country you search from matters more than a price drop
+A post-booking watch only sees one price moving over time, in your own market. The bigger gap is often between countries. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), the same Istanbul hotel and 4 nights were $1,066 from the UK and $708 from India.
+
+That is why Arbitrica starts at the checkout, before you pay, and searches the same hotel from 195 countries. Its approach then repeats the search after you book, and a new booking is confirmed before the original one is cancelled. See [what happens if your hotel price goes down after booking](https://arbitrica.com/blog/hotel-price-drop-after-booking.html).
+
+## Frequently asked questions
+
+### Is Pruvo still working?
+Not for travellers. Pruvo's site says it is exclusively a B2B platform and that consumer bookings are no longer supported (checked on November 8, 2026).
+
+### Who bought Pruvo?
+Web Travel Group, owner of the B2B accommodation marketplace WebBeds, agreed to buy Pruvo for about A$26.7 million (US$17.4 million). Pruvo now calls itself a WebBeds Group company.
+
+### What is the best Pruvo alternative?
+Arbitrica, if you want both: it searches the same hotel from 195 countries at the checkout and keeps searching after you book until free cancellation ends. For an after-booking alert only, Rate Ranger, Underbook's Watch my booking and Gondola watch refundable bookings.
+
+### Is there an app that rebooks my hotel automatically when the price drops?
+Gondola says it can rebook eligible stays automatically. Arbitrica's approach repeats the search after you book and confirms a new booking before the original one is cancelled.
+
+### Do I need a refundable rate for these tools to help?
+Yes, after booking. Rebooking only works if you can cancel the original reservation for free. Before you pay, Arbitrica's search at checkout works on any rate.
+---
+
+# Underbook alternative that checks the same hotel from other countries
+
+Updated 2026-11-08 by Arbitrica. Canonical: https://arbitrica.com/blog/underbook-alternative.html
+
+## Key takeaways
+- Underbook is a hotel price tool with a Chrome extension, a web price checker based on Google Hotels listings, a daily email watch and a Watch my booking feature for refundable reservations.
+- It tracks a hotel's typical nightly rate for your dates, not one specific room, so you check the room and total yourself before rebooking.
+- Underbook's page does not describe searching the same hotel from other countries (checked on November 8, 2026).
+- Arbitrica, a personal AI agent, searches the same hotel from 195 countries, checks the room and final total, and prepares the booking at the lowest price in the world.
+
+## Short answer
+If you like Underbook but want the price from other countries too, the alternative is Arbitrica. Underbook shows what booking sites list for your hotel and emails you when the going rate drops. Arbitrica is a personal AI agent that searches the same hotel from 195 countries at the checkout, checks that the room and final total match, and prepares the booking at the lowest price in the world for you to review and pay. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+## What Underbook does
+According to [Underbook's own guide](https://underbook.co/best-hotel-price-tracker) (October 2026, checked on November 8, 2026):
+
+- **Chrome extension:** lines up the room you are viewing across other booking sites, side by side.
+
+- **Web price checker:** shows what each booking site lists on Google Hotels for your hotel and dates; works on a phone.
+
+- **Email watch:** rechecks the hotel's going rate once a day and emails you if it drops at least 5% on two daily checks in a row.
+
+- **Watch my booking:** tracks a refundable reservation against what you paid until free cancellation ends, and emails once if the rate is at least 5% and $5 a night lower on two daily checks.
+
+Underbook says it may earn a commission if you book through its link, and that this never changes the prices shown.
+
+## Where Underbook stops
+- **One country.** Its page describes comparing booking sites and Google Hotels listings, not the same hotel searched from other countries.
+
+- **Typical rate, not your room.** It tracks the typical nightly rate for a hotel and dates, so you check the room and all-in total before you rebook.
+
+- **You do the booking.** It alerts you; you rebook and cancel yourself.
+
+The country gap is often the biggest one. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), the same Istanbul hotel and 4 nights were $1,066 from the UK and $708 from India, and 4 of 10 hotels were lower from another country by up to 33.6%.
+
+## Underbook and Arbitrica at a glance
+|  | Underbook | Arbitrica |
+|---|---|---|
+| What it is | Price checker, extension and email alerts | Personal AI agent at the checkout |
+| Other countries searched | Not described | 195 |
+| What it checks | Typical nightly rate across booking sites | The same hotel and room, with the final total including taxes and fees |
+| Booking | You book yourself | Prepared for you; you review and pay |
+| After you book | Watch my booking emails once on a 5% drop | Keeps searching until free cancellation ends |
+
+Related: [something like PriceMice for every booking site](https://arbitrica.com/blog/pricemice-alternative.html), [Hotel Ninja alternative](https://arbitrica.com/blog/hotel-ninja-alternative.html) and [is Pruvo still working?](https://arbitrica.com/blog/pruvo-alternative.html)
+
+## Frequently asked questions
+
+### What is a good Underbook alternative?
+Arbitrica, if you also want the price from other countries: it searches the same hotel from 195 countries, checks the room and final total, and prepares the booking at the lowest price in the world. Hotel Ninja and RatePunk line up booking sites from your own country, as Underbook does.
+
+### What does Underbook do?
+It offers a Chrome extension that lines up booking sites' prices, a web checker based on Google Hotels listings, a daily email watch and a Watch my booking feature for refundable reservations.
+
+### Does Underbook check prices from other countries?
+Its page does not describe searching the same hotel from other countries (checked on November 8, 2026).
+
+### Does Underbook track my exact room?
+No. Underbook says it tracks the typical nightly rate for a hotel and dates, so you check the room and total before rebooking.
+
+### Does Arbitrica book the hotel for me?
+Arbitrica automatically prepares everything for the booking at the lowest price it finds, in a new tab. You only review the details and complete the payment.
+
+### Does Arbitrica keep checking the price after I book?
+Yes. Its approach repeats the search after you book until the free-cancellation window ends, and a new booking is confirmed before the original one is cancelled.

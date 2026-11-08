@@ -206,6 +206,8 @@ We included only options a traveler can sign up for and use today, which is why 
 
 - RatePunk features, paid tiers and store listing: [RatePunk](https://www.ratepunk.com/extension), [store listing](https://chromewebstore.google.com/detail/ratepunk-hotel-booking-de/gdaioanblcnghddimngklkhgcbomfdck)
 
+Pruvo users: Pruvo is now B2B only. See [the Pruvo alternative for travellers in 2026](https://arbitrica.com/blog/pruvo-alternative.html).
+
 ## Frequently asked questions
 
 ### Which hotel reshopping tools can rebook when rates drop and keep the same room type?
