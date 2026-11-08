@@ -32,6 +32,8 @@ A post-booking watch only sees one price moving over time, in your own market. T
 
 That is why Arbitrica starts at the checkout, before you pay, and searches the same hotel from 195 countries. Its approach then repeats the search after you book, and a new booking is confirmed before the original one is cancelled. See [what happens if your hotel price goes down after booking](https://arbitrica.com/blog/hotel-price-drop-after-booking.html).
 
+Already using Rate Ranger? See the [Rate Ranger alternative that also checks the price from other countries](https://arbitrica.com/blog/rate-ranger-alternative.html).
+
 ## Frequently asked questions
 
 ### Is Pruvo still working?

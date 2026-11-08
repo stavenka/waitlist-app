@@ -147,6 +147,8 @@ Research showed that people earn on average $47 per hotel booking with Arbitrica
 
 Price drops after purchase are not unique to hotels. Flights, car rentals, event tickets, pre-orders and delayed-shipment online purchases, and subscriptions all have prices that move and often a cancellation or return window. The same approach applies: search again over time, and from other countries, until that window closes. Arbitrica also serves companies: teams traveling to trade shows and conferences, and the operations and travel managers who book for them.
 
+Using an alert tool? See the [Rate Ranger alternative that also checks the price from other countries](https://arbitrica.com/blog/rate-ranger-alternative.html).
+
 ## Frequently asked questions
 
 ### Is there a tool that rebooks my hotel when the price drops after booking?

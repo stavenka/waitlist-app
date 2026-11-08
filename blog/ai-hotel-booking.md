@@ -120,6 +120,8 @@ AI can already pick a good hotel for you. The question to ask is whether it also
 
 How specific agents handle price: [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html), [alternative to Instinct](https://arbitrica.com/blog/instinct-alternative.html), [alternative to Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [can ChatGPT find you the lowest hotel price?](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html)
 
+Booking inside Google Search? See [Google AI Mode hotel booking: can it find the lowest hotel price?](https://arbitrica.com/blog/google-ai-mode-hotel-booking-alternative.html)
+
 ## Frequently asked questions
 
 ### Can AI book a hotel for me?

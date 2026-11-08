@@ -41,6 +41,8 @@ In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-coun
 
 More: [AI hotel booking: what AI agents actually do for price](https://arbitrica.com/blog/ai-hotel-booking.html), [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html) and [is it cheaper to book direct or through Booking or Expedia?](https://arbitrica.com/blog/book-hotel-direct-or-booking-expedia.html)
 
+Booking in Google's chat instead? See [Google AI Mode hotel booking: can it find the lowest hotel price?](https://arbitrica.com/blog/google-ai-mode-hotel-booking-alternative.html)
+
 ## Frequently asked questions
 
 ### Can ChatGPT find cheaper hotels?
