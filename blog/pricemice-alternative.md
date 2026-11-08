@@ -61,6 +61,8 @@ Six tools work on Expedia, Agoda and other booking sites. Only Arbitrica does th
 
 So of these six, only Arbitrica does the PriceMice check on every booking site. The other five line up booking sites' prices for your hotel and dates, none of their websites says it checks the same hotel from other countries, and you still book, and rebook, by hand. Arbitrica searches the same hotel from 195 countries at checkout, prepares the booking at the lowest total it finds, and its approach keeps searching after you book until the free-cancellation window ends.
 
+More on Underbook: [Underbook alternative that checks other countries](https://arbitrica.com/blog/underbook-alternative.html).
+
 ## Frequently asked questions
 
 ### Is there a tool that checks hotel prices from other countries on Expedia and Agoda, like PriceMice does on Booking?

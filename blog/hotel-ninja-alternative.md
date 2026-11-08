@@ -140,6 +140,8 @@ TipYou can keep using any extension you like to choose a hotel. Arbitrica works 
 
 For more options, see our list of the [best hotel price trackers in 2026](https://arbitrica.com/blog/best-hotel-price-trackers-2026.html) and how Arbitrica goes beyond [hotel price comparison](https://arbitrica.com/hotel-price-comparison.html). Research demonstrated that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
+Also see the [Underbook alternative that checks the same hotel from other countries](https://arbitrica.com/blog/underbook-alternative.html).
+
 ## Frequently asked questions
 
 ### What is the best Hotel Ninja alternative?

@@ -118,6 +118,8 @@ If you are looking for AI that saves money on travel, hotels are the obvious sta
 
 AI can already pick a good hotel for you. The question to ask is whether it also finds the lowest price for that hotel, and whether it can prove the price is real before you pay.
 
+How specific agents handle price: [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html), [alternative to Instinct](https://arbitrica.com/blog/instinct-alternative.html), [alternative to Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [can ChatGPT find you the lowest hotel price?](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html)
+
 ## Frequently asked questions
 
 ### Can AI book a hotel for me?

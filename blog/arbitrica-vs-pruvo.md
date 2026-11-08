@@ -118,6 +118,8 @@ Arbitrica covers more ground, for travelers and companies alike. It searches the
 
 Since this comparison was first written, Web Travel Group has announced its acquisition of Pruvo, and Pruvo now presents itself as a business-to-business platform, with consumer bookings no longer supported. Travelers who relied on it, and companies weighing their options, can look at Arbitrica, which serves both. For other replacements, see [the best hotel rebooking tools in 2026](https://arbitrica.com/best-hotel-rebooking-tools.html).
 
+Update, November 2026: Pruvo now describes itself as exclusively a B2B platform and no longer supports consumer bookings. See [is Pruvo still working for travellers?](https://arbitrica.com/blog/pruvo-alternative.html)
+
 ## Frequently asked questions
 
 ### Is Pruvo still available for travelers?

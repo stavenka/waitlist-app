@@ -118,6 +118,8 @@ A real example: a hotel offered at $1,527.39 on Booking.com was found by Arbitri
 
 Even without any agent, these are the habits that save money: check the full price, look beyond your own country, prefer flexible terms and keep checking until you can no longer change the purchase. An agent simply does all of it, every time, for every purchase.
 
+Personal agents compared on price: [alternative to Instinct](https://arbitrica.com/blog/instinct-alternative.html), [alternative to Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a personal AI shopping agent?
