@@ -5202,16 +5202,17 @@ Booking.com still publishes a price match with its own conditions, and many hote
 
 ---
 
-# How hotel dynamic pricing works
+# Why are there so many different prices for the same hotel room?
 
 Every hotel price you see is the output of a system weighing demand, channels and markets in real time. Knowing how it works helps you book at a better price.
 
 Source: https://arbitrica.com/blog/how-hotel-dynamic-pricing-works.html  
-Updated: 2026-11-04  
+Updated: 2026-11-09  
 Topic: Hidden prices
 
 ## Key takeaways
 
+- Nine things change the price of the same hotel room: the booking site, wholesale or package rates, the rate plan, the meal plan, the room type, taxes and fees, currency, timing and the country you search from.
 - Hotels use yield management because an empty room tonight earns nothing and cannot be sold again later.
 - Revenue management systems raise prices when bookings run ahead of forecast and lower them when bookings lag.
 - OTA commissions differ by channel and market, which is one reason the same hotel shows different prices on different sites.
@@ -5223,6 +5224,24 @@ Every time you search for a hotel, the price you see is the output of a pricing 
 ## Short answer
 
 Because each price is a different product, sold through a different channel or to a different market. The hotel's revenue management system moves rates with demand, each booking site adds its own member discounts and pays a different commission, room type, meal plan and cancellation terms change the rate, and hotels set different rates for travelers searching from different countries. Research across 1,000 hotels searched from 100 countries demonstrated that 80% of countries showed a lower price than the traveler's own country, with a typical gap of 20-40%. Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout and prepares the booking at the lowest of those prices.
+
+## 9 reasons the same hotel room has different prices
+
+Most differences between prices for the same hotel room come from nine sources. Check them in this order before you decide which price is the real one.
+
+| Reason | Why the price changes | What to check |
+|---|---|---|
+| 1. The booking site | Each site has its own contract with the hotel, pays a different commission and adds its own member prices. Booking's Genius program gives 10% at level 1, 10-15% at level 2 and 10-20% at level 3, calculated before taxes and fees (checked on Booking's Genius page on 9 November 2026). | Whether the price needs a sign-in, a loyalty level or the app |
+| 2. Wholesale and package rates | Tour operators and wholesalers buy rooms at net rates and resell them, sometimes below the hotel's public rate and often bundled with a flight. | Whether the rate is only sold as part of a package |
+| 3. Rate plan | A non-refundable or pay-now rate is usually priced below a free-cancellation rate for the same room. | The cancellation deadline and payment terms |
+| 4. Meal plan | Room only, breakfast included and half board are different products with different prices. | What is included in each price |
+| 5. Room type and naming | Deluxe, Superior and Classic can mean different rooms on different sites, and listings can differ in bed type, view or size. | Room size, bed type and view |
+| 6. Taxes and fees | Some sites show prices with taxes, others add them at checkout, and resort or destination fees are common in North America. In the US, the FTC's Rule on Unfair or Deceptive Fees, in effect from 12 May 2025, requires sellers of hotel and short-term lodging stays who show a price to show the total price with mandatory fees up front (checked on ftc.gov on 9 November 2026). | The final total at checkout |
+| 7. Currency | A price shown in another currency uses the site's exchange rate, and your card may add a conversion fee. | The total in the currency you will actually pay |
+| 8. Timing | The hotel's revenue management system moves rates as demand and occupancy change, often several times a day. | Book a refundable rate and keep checking |
+| 9. The country you search from | Different countries get access to different inventory, channels, local rates and promotions. Research across 1,000 hotels searched from 100 countries demonstrated that 80% of countries showed a lower price than the traveler's own country, with a typical gap of 20-40%. | The same hotel searched from other countries |
+
+The first eight explain the gaps you can see from your own country, and Google Hotels or a tool that lines up booking sites covers most of them. The ninth is the one you cannot see from home: Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout, checks that it is the identical hotel with all taxes and fees included, and prepares the booking at the lowest price it finds, so you only review and pay. See [Arbitrica's data on hotel prices by country](https://arbitrica.com/blog/hotel-prices-by-country-data.html) for a worked example.
 
 ## The basics of yield management
 
@@ -5312,6 +5331,10 @@ Dynamic pricing is not limited to hotels. Flights, event tickets, online retail 
 
 ## Frequently asked questions
 
+### What are the main reasons the same hotel room has different prices?
+
+Nine things: the booking site and its member prices, wholesale or package rates, the rate plan (refundable or not), the meal plan, the room type, how taxes and fees are shown, currency, timing as the hotel's revenue management system moves rates, and the country you search from. Match the room, meal plan and cancellation terms and look at the final total first. The country gap is the one you cannot see from home: Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price it finds.
+
 ### How do I find the lowest of all the prices for the same hotel room?
 
 Match the room, meal plan and cancellation terms, check the final total with taxes and fees, and search the same hotel from other countries. Arbitrica, a personal AI agent, does the country step for you: it searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price it finds. You review and pay.
@@ -5331,7 +5354,6 @@ Yes. When a date fills slower than forecast, the system lowers prices to stimula
 ### Does the country I search from affect the hotel price?
 
 It can. Different countries get access to different inventory, channels, local rates and promotions, so searching the same hotel from another country can open up lower prices.
-
 
 ---
 
