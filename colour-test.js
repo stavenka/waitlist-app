@@ -11,6 +11,8 @@ const SCHEDULE = [
   { key: 'test',  from: '2026-11-01T00:00:00Z', to: '2026-11-04T00:00:00Z' },
   { key: 'test2', from: '2026-11-04T00:00:00Z', to: '2026-11-07T00:00:00Z' },
   { key: 'test7', from: '2026-11-07T00:00:00Z', to: '2026-11-10T00:00:00Z' },
+  // 10 Nov 2026 (the user): test5 back on the whole site from now on, as it was on 29-31 Oct.
+  { key: 'test5', from: '2026-11-10T00:00:00Z', to: '2100-01-01T00:00:00Z' },
 ];
 
 function scheduledTheme(now = Date.now()) {
