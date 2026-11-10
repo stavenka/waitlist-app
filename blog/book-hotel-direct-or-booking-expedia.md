@@ -39,7 +39,7 @@ Checked on each booking site's own pages on November 4, 2026:
 It also works the other way: in Arbitrica's checks the hotel's own website was lower for 2 of 4 hotels, and in Europe Booking can no longer require hotels to keep their own price at or above Booking's. Arbitrica's agent searches the same hotel from 195 countries, whoever sells it, and checks that the room, the conditions and the total match before it prepares the booking.
 
 ## How to check before you book
-1. Compare the final total with taxes and fees.
+1. Compare the final total with taxes and fees. What each site puts in the first price is explained in [which booking sites guarantee the final price upfront](https://arbitrica.com/blog/which-booking-sites-guarantee-final-price-upfront.html).
 2. Match room type, meal plan, guests and cancellation policy.
 3. Check the hotel's site as a member and at least two booking sites.
 4. Check the same room from other countries.

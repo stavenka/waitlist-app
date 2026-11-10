@@ -86,7 +86,7 @@ In theory, you can look for these prices yourself. Connect a VPN to another coun
 
 If you want to test the idea on your next trip, keep it like for like:
 
-- **Write down your baseline**Note the exact hotel, dates, guests, room type, meal plan, cancellation terms and the final total with taxes and fees.
+- **Write down your baseline**Note the exact hotel, dates, guests, room type, meal plan, cancellation terms and the final total with taxes and fees. Keep the room type fixed, since many offers apply only to some rooms: see [are hidden hotel offers available for specific room categories?](https://arbitrica.com/blog/hidden-hotel-offers-specific-room-categories.html)
 
 - **Pick a few countries**Try the destination country, a neighboring country and one large market in another region.
 

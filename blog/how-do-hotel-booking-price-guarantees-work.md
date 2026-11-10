@@ -44,6 +44,8 @@ More detail on two of these: [how the Booking price match works](https://arbitri
 4. **Submit before the deadline** For Marriott, Hilton and Hyatt that is within 24 hours of booking; for Trip.com, the day before check-in.
 5. **Wait for the review** The company re-checks the offer. If it has gone, or anything differs, the claim is refused.
 
+The evidence only works if the total is complete. What each site includes in the first price it shows is covered in [which booking sites guarantee the final price upfront](https://arbitrica.com/blog/which-booking-sites-guarantee-final-price-upfront.html).
+
 ## Why most claims fail
 
 Every guarantee pays only for what the company decides is the same offer, and the company paying the claim writes that definition. The usual reasons for a refusal:

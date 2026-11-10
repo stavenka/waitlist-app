@@ -49,6 +49,8 @@ Revenue management systems (RMS) forecast demand for each future date from histo
 
 ## The signals a revenue management system watches
 
+Each room type is priced on its own, and many offers apply only to some of them: see [are hidden hotel offers available for specific room categories?](https://arbitrica.com/blog/hidden-hotel-offers-specific-room-categories.html)
+
 An RMS does not look at one number. It combines many inputs into a recommended price for each date and room type:
 
 - **Booking pace.** How quickly a date is filling compared with the same date in past years.
