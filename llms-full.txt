@@ -3944,7 +3944,7 @@ In theory, you can look for these prices yourself. Connect a VPN to another coun
 
 If you want to test the idea on your next trip, keep it like for like:
 
-- **Write down your baseline**Note the exact hotel, dates, guests, room type, meal plan, cancellation terms and the final total with taxes and fees.
+- **Write down your baseline**Note the exact hotel, dates, guests, room type, meal plan, cancellation terms and the final total with taxes and fees. Keep the room type fixed, since many offers apply only to some rooms: see [are hidden hotel offers available for specific room categories?](https://arbitrica.com/blog/hidden-hotel-offers-specific-room-categories.html)
 
 - **Pick a few countries**Try the destination country, a neighboring country and one large market in another region.
 
@@ -5252,6 +5252,8 @@ Revenue management systems (RMS) forecast demand for each future date from histo
 > Chart: Illustrative: revenue management moves the price of the same stay as arrival approaches.
 
 ## The signals a revenue management system watches
+
+Each room type is priced on its own, and many offers apply only to some of them: see [are hidden hotel offers available for specific room categories?](https://arbitrica.com/blog/hidden-hotel-offers-specific-room-categories.html)
 
 An RMS does not look at one number. It combines many inputs into a recommended price for each date and room type:
 
@@ -7819,7 +7821,7 @@ Checked on each booking site's own pages on November 4, 2026:
 It also works the other way: in Arbitrica's checks the hotel's own website was lower for 2 of 4 hotels, and in Europe Booking can no longer require hotels to keep their own price at or above Booking's. Arbitrica's agent searches the same hotel from 195 countries, whoever sells it, and checks that the room, the conditions and the total match before it prepares the booking.
 
 ## How to check before you book
-1. Compare the final total with taxes and fees.
+1. Compare the final total with taxes and fees. What each site puts in the first price is explained in [which booking sites guarantee the final price upfront](https://arbitrica.com/blog/which-booking-sites-guarantee-final-price-upfront.html).
 2. Match room type, meal plan, guests and cancellation policy.
 3. Check the hotel's site as a member and at least two booking sites.
 4. Check the same room from other countries.
@@ -7912,6 +7914,8 @@ More detail on two of these: [how the Booking price match works](https://arbitri
 3. **Capture the evidence** Save the link and the final total with taxes and fees. Marriott does not accept screenshots, so the offer has to be live when it checks.
 4. **Submit before the deadline** For Marriott, Hilton and Hyatt that is within 24 hours of booking; for Trip.com, the day before check-in.
 5. **Wait for the review** The company re-checks the offer. If it has gone, or anything differs, the claim is refused.
+
+The evidence only works if the total is complete. What each site includes in the first price it shows is covered in [which booking sites guarantee the final price upfront](https://arbitrica.com/blog/which-booking-sites-guarantee-final-price-upfront.html).
 
 ## Why most claims fail
 
@@ -8633,3 +8637,169 @@ Arbitrica automatically prepares everything for the booking at the lowest price 
 
 ### Does Arbitrica keep checking the price after I book?
 Yes. Its approach repeats the search after you book until the free-cancellation window ends, and a new booking is confirmed before the original one is cancelled.
+
+---
+
+# Which booking sites guarantee the final price upfront?
+
+Published 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/which-booking-sites-guarantee-final-price-upfront.html
+
+## Key takeaways
+- No booking site guarantees a single final number for every hotel worldwide; what the first price includes depends on the site and on the law where you book.
+- In the US, the FTC rule in force since May 12, 2025 requires hotels and booking sites to show the total with all mandatory fees, such as resort fees, upfront; government taxes may be shown separately.
+- In the UK, mandatory fees have had to be in the headline price since April 6, 2025.
+- Expedia says the total on its search page includes all taxes and fees; Booking labels each price "Includes taxes and charges" or "Additional charges may apply" (checked on November 10, 2026).
+- A guaranteed total is not the lowest total: research across 1,000 hotels found a lower price in about 80% of countries, with a typical gap of 20-40%.
+
+## Short answer
+
+No booking site guarantees one final number for every hotel in every country. In the US, an FTC rule in force since May 12, 2025 makes hotels and booking sites show the total price with every mandatory fee upfront, although government taxes can still be shown separately, and in the UK mandatory fees have had to be in the headline price since April 6, 2025. Expedia says the total on its search page includes all taxes and fees, and Booking labels each price with what it includes, so the safest final number is the order total on the last page plus anything listed as payable at the hotel.
+
+## What a final price has to include
+
+A hotel price has up to five parts, and a site can show any combination of them as the first number you see:
+
+- **The room rate** for your dates, room type and meal plan.
+- **Mandatory hotel fees** such as resort, destination, cleaning or service fees.
+- **Taxes** such as VAT, sales or occupancy tax.
+- **Charges paid at the hotel**, often a city or tourist tax collected on arrival.
+- **Currency conversion**, when the hotel charges in its own currency and you pay in yours.
+
+"Final price upfront" only means something when all five are in the first number, or when the site tells you clearly which are not.
+
+## What the rules require (checked on November 10, 2026)
+
+| Where | Rule | What it means for hotel prices |
+| --- | --- | --- |
+| United States | FTC Rule on Unfair or Deceptive Fees, in force since May 12, 2025 | Hotels, vacation rental platforms and live-event ticket sellers must show the total price with all mandatory fees at the start, more prominently than other prices. Government taxes, shipping and optional extras can be left out, but must be disclosed before you pay. |
+| United Kingdom | Digital Markets, Competition and Consumers Act, drip pricing ban from April 6, 2025 | All mandatory fees, such as admin or booking fees, must be in the headline price. Optional extras are not covered. |
+| European Union | EU consumer law, enforced by national authorities through the CPC network | Booking (2019) and Expedia Group (2020) committed to change how they present offers, discounts and prices; Airbnb committed to show the total price with all mandatory charges and fees. |
+
+The US rule is the most specific, and it covers live-event tickets for the same reason: a fee added at the last step made prices impossible to judge. If you buy tickets as well, the guide to [when event ticket prices drop](https://arbitrica.com/blog/event-ticket-price-drops.html) covers the other half of the problem.
+
+## What the main sites show (checked on November 10, 2026)
+
+| Site | First price shown | What to watch |
+| --- | --- | --- |
+| Expedia | Says the total on its search page already includes all taxes and fees, with an "Upfront pricing" pop-up and an all-in note (Expedia newsroom, April 23, 2025) | Charges the hotel collects in person, and the currency the hotel charges in |
+| Booking | Each price is labelled, for example "Includes taxes and charges" or "Additional charges may apply"; excluded charges are listed one by one (Booking's own display rules for partners) | Charges marked as excluded or conditional, and the warning that the amount can differ if the exchange rate moves before you pay |
+| Google Hotels | In the US and Canada, the total with mandatory non-government fees is shown prominently, and you can switch between "Nightly price" and "Nightly total"; elsewhere the total with taxes and fees is shown more prominently | Google lists prices from other sites, so the final total is set on the site you click through to |
+| Hotel websites | In the US, the FTC rule applies to hotels too, so resort fees belong in the first total | Outside the US and UK, check whether taxes and city tax are included |
+
+None of these is a promise that the price will be the lowest available. They promise that the number you see is complete, or that the gaps are labelled. For how sites differ on the rate itself, see [booking direct or with Booking and Expedia](https://arbitrica.com/blog/book-hotel-direct-or-booking-expedia.html).
+
+## What can still change the total
+
+- **City and tourist taxes paid on arrival.** Many European cities collect them at the hotel, so they can sit outside the online total even when it is labelled as including taxes.
+- **Currency.** If the hotel charges in its own currency, the amount on your card depends on the exchange rate on the day, plus any card fee.
+- **Pay-at-hotel rates.** The price is set when you book, but the charge happens later, in the hotel's currency.
+- **Optional extras.** Breakfast, parking or late check-out are outside every rule above.
+- **Deposits.** A security deposit is not a fee, but it changes what leaves your account.
+
+## How to check the real total before you pay
+
+1. **Go to the last page before payment** The order total there is the number that counts, not the search result.
+2. **Read every line under the total** Look for "not included", "pay at the property", "city tax" or "additional charges may apply".
+3. **Check the currency** Note which currency you will be charged in and when.
+4. **Match the conditions** When you weigh two offers, use the same room type, meal plan and cancellation policy, or the totals mean nothing.
+5. **Book a rate with free cancellation if you can** If a lower total appears later, you can [rebook at the lower price](https://arbitrica.com/blog/rebook-hotel-at-lower-price.html) and cancel the original once the new booking is confirmed.
+
+## A final price is not the lowest price
+
+Upfront pricing tells you what a site will charge. It says nothing about what the same hotel costs on another site or from another country, where inventory, sales channels, local rates and promotions differ, and dynamic pricing moves each of them separately. Research across 1,000 hotels demonstrated a lower price in about 80% of countries, with a typical gap of 20-40%. In [Arbitrica's own price checks](https://arbitrica.com/blog/hotel-prices-by-country-data.html), a 4-night stay at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India.
+
+A lower headline price only counts if the total underneath is complete too. That is where a personal AI agent helps: Arbitrica checks the same hotel from 195 countries at checkout, confirms that the offer is for the identical stay and that the price includes all taxes and fees, finds the lowest price in the world for it and automatically prepares everything, so you only review and pay. After you book, the approach Arbitrica uses keeps re-checking the price. Research demonstrated savings of up to $3,000 a year on hotels with Arbitrica, $47 per purchase on average, and $107 per purchase on average for event tickets. The same ideas behind [which country to book a hotel from](https://arbitrica.com/blog/cheapest-country-to-book-hotels-from.html) apply here: always weigh the full total, never the headline.
+
+## Frequently asked questions
+
+### Does Booking.com show the total price upfront?
+Booking labels each price with what it includes, for example "Includes taxes and charges" or "Additional charges may apply", and lists excluded charges separately. Charges paid at the property, such as some city taxes, can still be outside the online total, so read the lines under the total on the last page.
+
+### Does Expedia include taxes and fees in the price?
+Expedia says the total on its search page includes all taxes and fees, marked with an "Upfront pricing" note (Expedia newsroom, April 23, 2025, checked on November 10, 2026). Charges the hotel collects in person and currency conversion can still change what you pay.
+
+### Are resort fees included in US hotel prices now?
+They should be. Since May 12, 2025 the FTC fees rule requires hotels and booking sites to include all mandatory fees, such as resort fees, in the total price shown upfront. Government taxes can be shown separately, as long as they are disclosed before you pay.
+
+### Is city tax included in the hotel price?
+Not always. Many cities collect a tourist or city tax at the hotel, so it can appear as "pay at the property" rather than in the online total. Check the price breakdown on the last page before payment.
+
+### Can the price change after I book?
+The price you booked is fixed, but the amount charged can move if you pay later in the hotel's currency. The price for the same stay can also fall after you book; with a free-cancellation rate you can rebook at the lower price and cancel the original once the new booking is confirmed.
+
+---
+
+# Are hidden hotel offers available for specific room categories?
+
+Published 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/hidden-hotel-offers-specific-room-categories.html
+
+## Key takeaways
+- Yes. Hotels price each room category and rate plan separately, so an offer can exist for one room type and not another.
+- Booking's partner help says a new Genius partner's 10% discount is applied automatically to its least expensive and most popular room type (checked on November 10, 2026).
+- Other offers are wider: Booking's mobile rates need a discount of at least 10% across all mobile room and rate plans, and country rates can be set across room types and rate plans.
+- The gap between countries is not the same for every room: each category has its own availability and moves with dynamic pricing on its own.
+- Research across 1,000 hotels found a lower price in about 80% of countries, with a typical gap of 20-40%, which is why the exact room is worth checking from other countries.
+
+## Short answer
+
+Yes. Hotels price each room category and each rate plan separately, and most targeted offers, such as country rates, member prices and package rates, are attached to the room types and rate plans the hotel picks. Booking's own partner help says the 10% Genius discount for a new Genius partner is applied automatically to its least expensive and most popular room type. So a lower price for the same hotel can exist for the standard double and not the suite, or the other way round, and the room you want has to be checked on its own.
+
+## How hotels price room categories
+
+A hotel does not have one price. It has a grid: every room category (standard, superior, deluxe, suite) is sold under several rate plans (room only or with breakfast, refundable or not), on several sites, in several markets. Each cell of that grid can carry its own price and its own availability, and [dynamic pricing](https://arbitrica.com/blog/how-hotel-dynamic-pricing-works.html) moves each one with demand.
+
+That is why "hidden hotel prices" is not a single secret rate. It is the set of cells you do not see from your own country and your usual site, including lower prices for specific room categories.
+
+## Which offers depend on the room (checked on November 10, 2026)
+
+| Offer | Who sees it | Room categories it covers |
+| --- | --- | --- |
+| Country or geo rates | Travellers searching from selected countries; Booking's developer documentation describes them as rates available based on the traveller's country | Set by the hotel; channel-manager guides say they can be applied across room types, room rates and rate plans |
+| Booking Genius discount | Signed-in Genius members | For a new Genius partner, applied automatically to the least expensive and most popular room type, per Booking's partner help |
+| Booking mobile rates | People booking in the app or on a phone | A minimum 10% discount applied to all mobile room and rate plans, per a Booking connectivity partner |
+| Hotel member rates | Members of the chain's loyalty programme booking direct | Set by the chain, often on selected room types and dates |
+| Packages and meal plans | Anyone on the site that sells the package | Usually specific rooms, since breakfast or parking is priced per rate plan |
+
+The pattern is the same everywhere: the hotel decides which rooms get which offer, and the site and country you search from decide which of those offers you see. More on where these rates come from in the [guide to hidden hotel prices](https://arbitrica.com/blog/hidden-hotel-prices-guide.html).
+
+## Why the gap differs by room
+
+- **Availability is per room type.** A category can be sold out on one site or in one market and still on sale in another.
+- **Offers are per rate plan.** A country rate or package may sit on the breakfast rate of one category only.
+- **Prices move separately.** When the lowest-priced category fills up, its price can rise while a higher category stays where it was.
+- **Currency and taxes.** The same room can carry a different total in another currency or with different taxes included, so only the final total tells you which is lower.
+
+The result is that a price gap you find from another country for one room says little about the next room. [Booking prices in different countries](https://arbitrica.com/blog/booking-com-prices-different-countries.html) differ for this reason too.
+
+## How to find a lower price for the room you want
+
+1. **Fix the exact room** Write down the room category, bed type, meal plan and cancellation policy you want.
+2. **Check that room on several sites** The hotel's own site, Booking, Expedia and others can each carry different offers for it.
+3. **Check it from several countries** Country rates and local promotions only show up from the market they are made for.
+4. **Weigh the final total** Include taxes, fees and the currency you will be charged in, never the headline price.
+5. **Book refundable and keep checking** If the same room gets a lower price later, you can [rebook it at the lower price](https://arbitrica.com/blog/rebook-hotel-at-lower-price.html) and cancel the original once the new booking is confirmed.
+
+Steps 2 and 3 are where it stops being practical: checking one room category on several sites from 195 countries by hand is humanly impossible. Arbitrica is a personal AI agent that does it at checkout: it checks the same hotel room from 195 countries, finds the lowest price in the world for it and automatically prepares everything, so you only review and pay. After you book, the approach Arbitrica uses keeps re-checking the price for that same room.
+
+## Check the next category up
+
+Because every category is priced on its own, a higher room category from another country or on another site can sometimes cost less than you expected, or not much more than the room you planned. It is worth checking the next category up with the same conditions before you pay.
+
+The gaps are large enough to matter. Research across 1,000 hotels demonstrated a lower price in about 80% of countries, with a typical gap of 20-40%, and savings of up to $3,000 a year on hotels with Arbitrica, $47 per purchase on average. In [Arbitrica's own price checks](https://arbitrica.com/blog/hotel-prices-by-country-data.html), a 4-night stay at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India.
+
+## Frequently asked questions
+
+### Do member prices apply to every room type?
+Not always. Hotels choose which room types and rate plans get a member price. Booking's partner help says a new Genius partner's 10% discount is applied automatically to its least expensive and most popular room type (checked on November 10, 2026).
+
+### Are country rates available for suites?
+They can be. Country rates are set by the hotel, and channel-manager guides say they can be applied across room types and rate plans, but each hotel decides. The only way to know is to check that suite from the country the rate is made for.
+
+### Can a price guarantee give me a hidden offer for my room type?
+Rarely. Price guarantees need exactly the same room type, meal plan and cancellation policy, and many exclude member, app and residency-based rates. It is simpler to book the lower price directly at the site that offers it.
+
+### Why is one room priced lower from another country but not another room?
+Each room category has its own availability, offers and dynamic pricing, on every site and in every market. A gap for one room says little about the next, so check the exact room you want.
+
+### Does the room category matter for price drops after booking?
+Yes. Rebooking only works for the same room type and conditions, so track the price of your exact room. With a free-cancellation rate, book the lower price first and cancel the original once the new booking is confirmed.
