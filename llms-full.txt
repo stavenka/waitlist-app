@@ -7770,6 +7770,8 @@ So of these six, only Arbitrica does the PriceMice check on every booking site. 
 
 More on Underbook: [Underbook alternative that checks other countries](https://arbitrica.com/blog/underbook-alternative.html).
 
+Wondering whether PriceMice itself can be trusted? See [Is PriceMice legit? PriceMice review: does it work?](https://arbitrica.com/blog/is-pricemice-legit.html)
+
 ## Frequently asked questions
 
 ### Is there a tool that checks hotel prices from other countries on Expedia and Agoda, like PriceMice does on Booking?
@@ -8337,6 +8339,8 @@ More: [AI hotel booking: what AI agents actually do for price](https://arbitrica
 
 Booking in Google's chat instead? See [Google AI Mode hotel booking: can it find the lowest hotel price?](https://arbitrica.com/blog/google-ai-mode-hotel-booking-alternative.html)
 
+Asking Perplexity to book or buy instead? See [Alternative to Perplexity for finding the best price](https://arbitrica.com/blog/perplexity-alternative.html)
+
 ## Frequently asked questions
 
 ### Can ChatGPT find cheaper hotels?
@@ -8548,6 +8552,8 @@ AI Mode facts checked on November 8, 2026 against Google's announcement, Skift, 
 - **Use Arbitrica** when the hotel is decided and you want the lowest price in the world for it, before you pay and after you book.
 
 More on how AI agents handle price: [AI hotel booking: what AI agents actually do for price](https://arbitrica.com/blog/ai-hotel-booking.html) and [the AI agent that finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html). Other agents: [ChatGPT](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html), [Meta's Muse](https://arbitrica.com/blog/muse-alternative.html) and [Instinct](https://arbitrica.com/blog/instinct-alternative.html).
+
+Booking or shopping in Perplexity instead? See [Alternative to Perplexity for finding the best price](https://arbitrica.com/blog/perplexity-alternative.html)
 
 ## Frequently asked questions
 
@@ -8965,6 +8971,8 @@ Arbitrica is a personal AI agent that shows up at the checkout. It searches the 
 Unlike the VPN trick, it does not stop at Booking: it looks for the lowest price for the identical hotel wherever it is sold, and sends you to that seller. More on [how Arbitrica works](https://arbitrica.com/how-it-works.html).
 
 *Chart: The Booking VPN trick checks one market at a time on one site. Arbitrica checks 195 countries across sites.*
+
+Thinking of NordVPN's PriceMice for this? See [Is PriceMice legit? PriceMice review: does it work?](https://arbitrica.com/blog/is-pricemice-legit.html)
 
 ## Frequently asked questions
 
@@ -9677,3 +9685,213 @@ Instinct is an invite-only beta with a waitlist at app.instinct.com, as of Novem
 
 ### Can I use Instinct and Arbitrica together?
 Yes. Let Instinct handle tasks, and let Arbitrica find the lowest price at the checkout for what you buy.
+
+---
+
+# Alternative to Perplexity for finding the best price
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/perplexity-alternative.html
+
+## Key takeaways
+- Perplexity added hotel booking in March 2025, with Selfbook handling booking and payment and Tripadvisor supplying reviews, from a pool of about 140,000 hotels.
+- Since November 25, 2025, all US Perplexity users can shop in the chat and check out with PayPal; the retailer stays the merchant of record and handles returns.
+- Perplexity's blog and help pages do not describe searching the same hotel or product from other countries, so the price is the one the hotel or retailer shows for your search (checked on November 10, 2026).
+- Arbitrica is a personal AI agent built around the price: it searches the same hotel or product from 195 countries, finds the lowest price in the world and prepares everything for you to review and pay.
+
+## Short answer
+If you want the lowest price for what you are booking or buying, the alternative to Perplexity is Arbitrica. Perplexity is an answer engine that can also book a hotel through Selfbook and check out a product with PayPal, at the price the hotel or retailer shows for your search. Arbitrica is a personal AI agent that shows up at the checkout, searches the same hotel or product from 195 countries, checks that it is identical and that the final total includes all taxes and fees, and prepares everything at the lowest price in the world for you to review and pay. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+| What you want | Use |
+|---|---|
+| Research a trip or a product and get sourced answers | Perplexity |
+| Book a hotel or buy a product without leaving the chat | Perplexity |
+| The lowest price in the world for the hotel or product you have chosen | Arbitrica |
+| Keep watching the price after you book, until free cancellation ends | Arbitrica |
+
+## What Perplexity does when you book or buy
+Perplexity started as an AI search engine that answers with sources. It now handles two kinds of purchases inside the chat (checked on November 10, 2026):
+
+- **Hotels:** in March 2025 Perplexity added hotel booking through the startup Selfbook, which provides the booking and payment technology, with reviews from Tripadvisor. [Skift reported](https://skift.com/2025/03/27/perplexity-now-handles-hotel-bookings-what-our-tests-show/) a pool of 140,000 hotels and called the flow "glitchy at this very early stage". [Foster Garvey's travel law blog](https://www.foster.com/newsroom/blog/duff-on-hospitality-law/travel-tech-trends-perplexitys-booking-leap-airbnb-incentives-ai-powered-planning/) notes that hotels not on Selfbook are sent to third-party sites such as Skyscanner.
+
+- **Hotel search:** Perplexity's [changelog of August 7, 2025](https://www.perplexity.ai/changelog/what-we-shipped-august-8th) added availability and price filtering for hotels, so you can enter dates or a budget and see prices in the results.
+
+- **Shopping:** on November 25, 2025 Perplexity launched [a shopping experience for all US users](https://www.perplexity.ai/hub/blog/shopping-that-puts-you-first), with product cards and checkout through PayPal in the chat. Perplexity says "retailers stay at the center of the transaction as the merchant of record" and handle returns.
+
+- **Instant Buy:** Perplexity's [help page](https://www.perplexity.ai/help-center/en/articles/10352906-what-is-instant-buy) says Instant Buy is available to all users in the United States and that your order is sent straight to the merchant. Its [PayPal page](https://www.perplexity.ai/help-center/en/articles/12932923-instant-buy-buy-with-paypal) names merchants such as Wayfair and Abercrombie & Fitch, plus thousands of stores on BigCommerce, Shopware and Wix.
+
+Perplexity's Comet browser can also search Expedia, surface options and help you book, according to [PhocusWire's report on the Expedia partnership](https://www.phocuswire.com/expedia-group-perplexity-comet-partnership-ai). A [Conduit review of AI hotel booking](https://www.conduit.ai/blog/how-ai-agents-book-hotels) updated on October 30, 2026 still describes Perplexity's hotel payment as running on Selfbook's technology inside Perplexity.
+
+## How Perplexity gets the price
+Perplexity does not set the price. A hotel booked through Selfbook is sold at the rate that hotel offers for your search, and a product bought with Instant Buy is sold by the merchant at the merchant's price; Perplexity's help page sends price questions to the brand or retailer. Perplexity's blog and help pages do not describe searching the same hotel or product from other countries, or watching the price after you book or buy (checked on November 10, 2026).
+
+That matters because the same hotel or product is often priced differently depending on where the search comes from. Hotels, booking sites and retailers agree rates, stock and promotions market by market, and dynamic pricing moves them all day. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), a 4-night stay at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.
+
+## How Arbitrica handles the price
+Arbitrica is a personal AI agent that shows up when you are about to pay. For the hotel, product or event ticket you have chosen, it:
+
+- searches the same item from 195 countries, on the site you are on and other sites;
+
+- checks that it is identical (the same hotel and room, or the same product) and that the final total includes all taxes and fees;
+
+- finds the lowest price in the world for it and automatically prepares everything in a new tab, so you only review and pay;
+
+- keeps searching after you book until the free-cancellation or return window ends, as an approach Arbitrica uses, and confirms any new booking before the original is cancelled.
+
+Doing the same by hand means switching your location country by country with a VPN and repeating every search. Across 195 countries that is humanly impossible, which is the job Arbitrica does. Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica.
+
+## Perplexity and Arbitrica at a glance
+|  | Perplexity | Arbitrica |
+|---|---|---|
+| Built for | Answers with sources, plus booking and buying in the chat | Getting the lowest price for what you are buying |
+| Where the price comes from | The hotel (through Selfbook) or the merchant (through Instant Buy) | The same item searched from 195 countries, across sites |
+| Other countries searched | Not described by Perplexity | 195 |
+| Payment | Selfbook for hotels; PayPal for Instant Buy (US) | Everything prepared for you; you review and pay |
+| After you book or buy | No price watch described | Keeps searching until free cancellation or the return window ends |
+
+Perplexity facts checked on November 10, 2026 against Perplexity's blog, changelog and help pages, Skift, Foster Garvey, PhocusWire and Conduit, linked above.
+
+## Which one to use
+- **Use Perplexity** to research a trip or a product, read sourced answers and book or buy in the chat when the seller's price is fine.
+
+- **Use Arbitrica** when you know what you want and want the lowest price in the world for it, before you pay and after you book.
+
+More on how AI agents handle price: [the AI agent that finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html) and [AI hotel booking: what AI agents actually do for price](https://arbitrica.com/blog/ai-hotel-booking.html). Other agents: [ChatGPT](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html), [Google AI Mode](https://arbitrica.com/blog/google-ai-mode-hotel-booking-alternative.html), [Meta's Muse](https://arbitrica.com/blog/muse-alternative.html) and [Instinct](https://arbitrica.com/blog/instinct-alternative.html).
+
+## Frequently asked questions
+
+### Can Perplexity find the lowest price?
+Perplexity books hotels through Selfbook and sells products through merchants with Instant Buy, at the price the hotel or merchant shows for your search. Its blog and help pages do not describe searching the same hotel or product from other countries (checked on November 10, 2026). Arbitrica searches the same item from 195 countries and prepares everything at the lowest price in the world.
+
+### Can you book hotels on Perplexity?
+Yes. Since March 2025 Perplexity has offered hotel booking through Selfbook, with reviews from Tripadvisor. Skift reported a pool of 140,000 hotels at launch; hotels not on Selfbook are sent to third-party sites.
+
+### What is Perplexity Instant Buy?
+Instant Buy lets you buy products marked "Instant Buy" without leaving Perplexity, with checkout through PayPal. Perplexity's help page says the order goes straight to the merchant, and the retailer stays the merchant of record and handles returns.
+
+### Is Perplexity shopping available outside the US?
+Perplexity's help page says Instant Buy is available to all users in the United States and names no other country (checked on November 10, 2026).
+
+### Is there an alternative to Perplexity for finding the best price?
+Yes. Arbitrica is a personal AI agent that searches the same hotel, product or event ticket from 195 countries, checks that it is identical and that the final total includes all taxes and fees, and prepares everything at the lowest price in the world for you to review and pay.
+
+### Can the same hotel or product really have a lower price from another country?
+Often, yes. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%. Research demonstrated an average of $34 per online purchase with Arbitrica.
+
+### Does Arbitrica keep checking the price after I book?
+Yes. Its approach repeats the search after you book until the free-cancellation window ends, and a new booking is confirmed before the original one is cancelled.
+
+---
+
+# Is PriceMice legit? PriceMice review: does it work?
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/is-pricemice-legit.html
+
+## Key takeaways
+- PriceMice is legit: it is published in the browser extension store by nordvpn S.A. of Amsterdam, the company behind NordVPN, and on November 10, 2026 it had 10,000 users and a 3.9 rating from 16 ratings.
+- It does what NordVPN says: on a Booking listing you click "Find better price" and it checks the same room, dates and guests from other countries. You then connect to that country, for example with NordVPN, and book it yourself.
+- NordVPN's own page warns that prices are "AI-matched and mistakes can happen", that taxes and fees show only if the booking site provides them, and that deals are not guaranteed.
+- Arbitrica, a personal AI agent, searches the same hotel from 195 countries on whichever site you book, checks the final total and prepares the booking for you to review and pay.
+
+## Short answer
+Yes, PriceMice is legit, and it does what it says on Booking, within limits. It is a real tool from NordVPN, launched in September 2026, that checks whether the same Booking room has a lower price from another country. On November 10, 2026 its store listing showed 10,000 users and a 3.9 rating from 16 ratings. It does not book for you: you switch your location with a VPN and repeat the booking yourself, and NordVPN warns that its price matches can be wrong. If you want the same check on every booking site, from 195 countries, with the booking prepared for you, the agent for that is Arbitrica.
+
+| Question | Answer (checked on November 10, 2026) |
+|---|---|
+| Is it a real product? | Yes, published by nordvpn S.A., Amsterdam |
+| How many people use it? | 10,000 users, 3.9 out of 5 from 16 ratings |
+| Which booking sites? | Booking, according to NordVPN's page |
+| Does it book for you? | No: you connect to the other country with a VPN and book yourself |
+
+## Who makes PriceMice
+PriceMice comes from the team behind NordVPN. NordVPN introduced it in [a blog post on September 9, 2026](https://nordvpn.com/blog/pricemice/), and [TechRadar covered the launch on September 7, 2026](https://www.techradar.com/vpn/vpn-services/nordvpns-new-tool-helps-you-travel-on-a-budget-and-its-free-to-use). [Travolution's report of September 10, 2026](https://www.travolution.com/news/travel-sectors/accommodation/nordvpn-launches-pricemice-to-spot-cheaper-hotel-rates-via-geolocation/) quotes NordVPN product director Domininkas Virbickas: "Sometimes you'll come across an exceptional offer, and other times you'll see the price is already reasonable."
+
+On [its store listing](https://chromewebstore.google.com/detail/pricemice-%E2%80%94-find-cheaper/pjhemfchodhepinpphcpcnpakacikihc) (checked on November 10, 2026), PriceMice is listed under the publisher nordvpn S.A., Amsterdam, with:
+
+- **Users:** 10,000.
+
+- **Rating:** 3.9 out of 5 from 16 ratings.
+
+- **Version:** 0.2.5, updated on November 5, 2026.
+
+- **Data it handles:** authentication information, location, user activity and website content. The developer declares that this data is not sold to third parties outside approved use cases, and the store says the publisher has no history of violations.
+
+The independent tracker [Extops](https://extops.dev/extensions/pjhemfchodhepinpphcpcnpakacikihc) shows PriceMice first appeared in the store on September 8, 2026, added about 4,000 users in the 30 days before November 10, 2026, and asks for four permissions (activeTab, alarms, offscreen and storage). Its rating went from 4.56 on September 13, 2026 to 3.94 from October 24, 2026.
+
+## Does PriceMice work?
+It works the way NordVPN describes it. According to [NordVPN's page](https://nordvpn.com/blog/pricemice/):
+
+- you install it on a Chromium-based desktop browser and sign in with a Nord Account, which needs only an email;
+
+- on a Booking room you click "Find better price", and it checks the same dates, guests and room from other locations;
+
+- it shows the lowest option, with taxes and fees if the booking site provides them;
+
+- to book at that price you connect to the suggested country with NordVPN on desktop, or a Saily eSIM on mobile, and book it yourself.
+
+TechRadar reported that it checks "dozens of regions" within seconds, and that NordVPN suggests savings of at least $20 per stay and up to $500. NordVPN's own page gives no figure, says deals are not guaranteed because prices change and rooms sell out, and warns that "prices are AI-matched and mistakes can happen". TechRadar adds that you stay responsible for checking the final price, that some destinations add charges at payment or on arrival, and that exchange rates and booking sites' live price tests can change the total.
+
+So the check is real, and the gaps it looks for are real too. Prices and room availability differ by country and by site, and dynamic pricing moves them all day. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), a 4-night stay at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.
+
+## Where PriceMice stops
+- **One booking site.** NordVPN's page names Booking as the supported site, with more "expected" later (checked on November 10, 2026). The same hotel on Expedia, Agoda, Hotels.com or Trip.com is not described as covered.
+
+- **A set of countries.** NordVPN does not publish how many countries PriceMice checks; TechRadar describes "dozens of regions".
+
+- **You finish the job.** After it flags a lower price, you change your location with a VPN and repeat the booking by hand.
+
+- **Before you pay only.** NordVPN's page does not describe any price check after you book.
+
+## How Arbitrica goes further
+Arbitrica is a personal AI agent that shows up at the checkout. For the hotel you are booking, it:
+
+- searches the same hotel, on the same dates, from 195 countries, on the site you are booking and other sites;
+
+- checks that the hotel, room and conditions are identical and that the final total includes all taxes and fees;
+
+- finds the lowest price in the world for it and automatically prepares everything for the booking in a new tab, so you only review and pay;
+
+- keeps searching after you book until the free-cancellation window ends, as an approach Arbitrica uses, and confirms any new booking before the original is cancelled.
+
+Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%. Research demonstrated an average of $47 per hotel booking with Arbitrica, and the same mechanisms work for online purchases and event tickets.
+
+## PriceMice and Arbitrica at a glance
+|  | PriceMice (NordVPN) | Arbitrica |
+|---|---|---|
+| What it is | A browser extension from NordVPN | A personal AI agent |
+| Booking sites | Booking | The site where you are checking out, and other sites |
+| Countries searched | A set of countries (number not published) | 195 |
+| Final total | Taxes and fees shown if the site provides them | Checked to include all taxes and fees |
+| Booking | You switch country with a VPN and book yourself | Prepared for you; you review and pay |
+| After you book | Not described | Keeps searching until free cancellation ends |
+
+PriceMice facts checked on November 10, 2026 against NordVPN's page, the store listing, Extops, TechRadar and Travolution, linked above.
+
+## Which one to use
+- **Use PriceMice** if you book on Booking, already use NordVPN and are happy to switch country and rebook by hand.
+
+- **Use Arbitrica** when you want the lowest price in the world for your hotel on whichever site you book, with the booking prepared for you and the search repeated after you book.
+
+More: [something like PriceMice for Expedia, Agoda and every other booking site](https://arbitrica.com/blog/pricemice-alternative.html), [the Booking.com VPN trick](https://arbitrica.com/blog/booking-com-vpn-trick.html) and [does using a VPN get you a lower hotel price?](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html)
+
+## Frequently asked questions
+
+### Is PriceMice legit?
+Yes. PriceMice is a real tool published by nordvpn S.A., the company behind NordVPN, launched in September 2026. On November 10, 2026 its store listing showed 10,000 users and a 3.9 rating from 16 ratings.
+
+### Is PriceMice safe?
+PriceMice's store listing says it handles authentication information, location, user activity and website content, and the developer declares that the data is not sold to third parties outside approved use cases. NordVPN says sign-up needs only an email and analytics are collected only if you opt in.
+
+### Does PriceMice really work?
+It checks a Booking room from other countries and shows the lowest option it finds. NordVPN warns that prices are AI-matched and mistakes can happen, that taxes and fees appear only if the booking site provides them, and that deals are not guaranteed.
+
+### Does PriceMice work on Expedia or Agoda?
+NordVPN's page names Booking as the supported site, with more sites expected later (checked on November 10, 2026). Arbitrica searches the same hotel from 195 countries on Expedia, Agoda, Booking and other sites.
+
+### Do I need NordVPN to use PriceMice?
+Not to run the check. To book at the lower price you need to appear in that country, which NordVPN suggests doing with NordVPN on desktop or a Saily eSIM on mobile.
+
+### Is there an alternative to PriceMice that prepares the booking for me?
+Yes. Arbitrica is a personal AI agent that searches the same hotel from 195 countries, checks that the room and final total match, and prepares the booking at the lowest price in the world for you to review and pay.
+
+### Does Arbitrica keep checking the price after I book?
+Yes. Its approach repeats the search after you book until the free-cancellation window ends, and a new booking is confirmed before the original one is cancelled.
