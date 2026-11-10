@@ -128,6 +128,8 @@ For Amazon purchases, that means the agent looks for the same product at a lower
 
 It started with hotels, where the gaps are well known. The [guide to geographic price arbitrage](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html) explains the idea, and [how it works](https://arbitrica.com/how-it-works.html) shows the full flow. The same mechanism also covers [event tickets](https://arbitrica.com/blog/event-ticket-price-drops.html), and [AI shopping agents](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html) explains how an agent can do the searching for you.
 
+Related: [Using a VPN to save money: hotels, flights, car rental, tickets and subscriptions](https://arbitrica.com/blog/vpn-to-save-money.html).
+
 ## Frequently asked questions
 
 ### Is it cheaper to buy from another country online?

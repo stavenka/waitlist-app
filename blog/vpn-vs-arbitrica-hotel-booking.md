@@ -134,6 +134,8 @@ VPNs remain useful for general online privacy and for reaching geo-restricted co
 
 The same applies beyond hotels. Online shopping, event tickets, flights and car rentals also vary by country, and a VPN has the same one-country-at-a-time limit there. Companies booking for teams at trade shows and conferences face the problem at scale, which is why Arbitrica also serves travel managers and operations managers. For the background, read [what geographic price arbitrage is](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html), [why Booking.com shows different prices with a VPN](https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html) and [the cheapest country to book hotels from](https://arbitrica.com/blog/cheapest-country-to-book-hotels-from.html).
 
+Related: [Does a VPN make hotels cheaper? What the tests found](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html), [Does a VPN make Airbnb cheaper? What changes and what does not](https://arbitrica.com/blog/airbnb-vpn.html), [Best VPN for hotel booking and Booking.com: what actually matters](https://arbitrica.com/blog/best-vpn-for-hotel-booking.html), [Is it legal to use a VPN to book hotels or flights?](https://arbitrica.com/blog/is-it-legal-to-use-vpn-to-book.html).
+
 ## Frequently asked questions
 
 ### What is the best alternative to using a VPN for hotel prices?

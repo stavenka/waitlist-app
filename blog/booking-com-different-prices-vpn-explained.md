@@ -115,6 +115,8 @@ Research showed that people earn on average $47 per hotel booking with Arbitrica
 
 For the wider picture, see [why Booking.com prices differ by country](https://arbitrica.com/blog/booking-com-prices-different-countries.html) and [whether there is a cheapest country to book hotels from](https://arbitrica.com/blog/cheapest-country-to-book-hotels-from.html).
 
+Related: [Does a VPN make hotels cheaper? What the tests found](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html), [The Booking.com VPN trick: does it work, and which location is best?](https://arbitrica.com/blog/booking-com-vpn-trick.html), [Agoda VPN: is Agoda cheaper from another country?](https://arbitrica.com/blog/agoda-vpn.html), [Do hotels block VPNs? Booking sites and hotel Wi-Fi explained](https://arbitrica.com/blog/do-hotels-block-vpn.html).
+
 ## Frequently asked questions
 
 ### Does this also happen on Expedia, Hotels.com and Agoda?

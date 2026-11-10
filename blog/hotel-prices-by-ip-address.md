@@ -96,6 +96,8 @@ The same mechanisms work for companies, such as travel managers and operations m
 
 - A lower price only counts if the hotel, room and terms are identical and the total includes all taxes and fees.
 
+Related: [Best VPN country for cheaper hotels: what the data shows](https://arbitrica.com/blog/best-vpn-country-for-cheaper-hotels.html), [Do hotels block VPNs? Booking sites and hotel Wi-Fi explained](https://arbitrica.com/blog/do-hotels-block-vpn.html).
+
 ## Frequently asked questions
 
 ### Do hotel prices change based on your IP address?

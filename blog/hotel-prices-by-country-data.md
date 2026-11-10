@@ -38,6 +38,8 @@ Full data: https://arbitrica.com/blog/arbitrica-hotel-price-check-2024.csv
 ## Method
 Same hotel, dates and guests for every location; searches run with a VPN set to each location in May 2024 (10 hotels) and October 2024 (1 hotel, 32 locations); total stay price recorded as displayed.
 
+Related: [Agoda VPN: is Agoda cheaper from another country?](https://arbitrica.com/blog/agoda-vpn.html), [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html).
+
 ## FAQ
 ### Is there a tool that checks hotel prices from every country?
 Yes. Arbitrica is a personal AI agent that searches the same hotel from 195 countries at checkout, checks that the room and the final total match, and prepares the booking at the lowest price it finds. A VPN can check one country at a time.

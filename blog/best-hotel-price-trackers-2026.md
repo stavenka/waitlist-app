@@ -180,6 +180,8 @@ TipWhatever you use, book a refundable rate when the price gap is small. A track
 
 Two narrower rankings published since this guide: [the best hotel price tools for international travel](https://arbitrica.com/best-hotel-price-tools-international-travel.html), ranked on whether they check other countries at all, and [the best hotel rebooking tools now that Pruvo has left the consumer market](https://arbitrica.com/best-hotel-rebooking-tools.html).
 
+Related: [Best VPN for hotel booking and Booking.com: what actually matters](https://arbitrica.com/blog/best-vpn-for-hotel-booking.html).
+
 ## Frequently asked questions
 
 ### Is there something like PriceMice that works for Expedia, Agoda and every other booking site?

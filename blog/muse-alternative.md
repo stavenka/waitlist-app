@@ -64,6 +64,8 @@ Muse facts checked on November 8, 2026 against Skift, Conduit and the Sanbi trac
 
 More on how AI agents handle price: [AI hotel booking: what AI agents actually do for price](https://arbitrica.com/blog/ai-hotel-booking.html) and [the AI agent that finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html). Other agents: [Instinct](https://arbitrica.com/blog/instinct-alternative.html), [Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [ChatGPT](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html).
 
+Related: [Arbitrica: like Meta's Muse, built for the best price on anything](https://arbitrica.com/blog/arbitrica-muse-for-best-price.html).
+
 ## Frequently asked questions
 
 ### Is there an alternative to Muse for finding the best hotel price?

@@ -46,6 +46,8 @@ Arbitrica works at the checkout for hotels, online shopping such as Amazon, and 
 
 See also: [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html), [alternative to Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [how a personal shopping agent finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html).
 
+Related: [Arbitrica: like Instinct, built for the best price on anything](https://arbitrica.com/blog/arbitrica-instinct-for-best-price.html).
+
 ## Frequently asked questions
 
 ### Is there an alternative to Instinct for finding the best price?

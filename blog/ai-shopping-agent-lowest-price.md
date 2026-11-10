@@ -120,6 +120,8 @@ Even without any agent, these are the habits that save money: check the full pri
 
 Personal agents compared on price: [alternative to Instinct](https://arbitrica.com/blog/instinct-alternative.html), [alternative to Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html).
 
+Related: [Arbitrica: like Meta's Muse, built for the best price on anything](https://arbitrica.com/blog/arbitrica-muse-for-best-price.html), [Arbitrica: like Instinct, built for the best price on anything](https://arbitrica.com/blog/arbitrica-instinct-for-best-price.html).
+
 ## Frequently asked questions
 
 ### What is a personal AI shopping agent?
