@@ -66,7 +66,8 @@
     + '.arb-ai-btn{flex:1 1 0;min-width:0;display:flex;align-items:center;justify-content:center;gap:5px;height:26px;'
     +   'border-radius:7px;font-family:\'Inter\',system-ui,sans-serif;font-size:11px;font-weight:600;text-decoration:none;'
     +   'color:#fff;box-shadow:0 1px 2px rgba(0,0,0,.12);transition:transform .15s ease,filter .15s ease,box-shadow .18s ease;cursor:pointer;}'
-    + '.arb-ai-btn:hover{transform:translateY(-1px);filter:brightness(1.09);box-shadow:0 4px 12px rgba(0,0,0,.16);}'
+    + '.arb-ai-btn{opacity:.7;}' /* toned down so the buttons don't pull attention on the dark site; full on hover */
+    + '.arb-ai-btn:hover{opacity:1;transform:translateY(-1px);filter:brightness(1.09);box-shadow:0 4px 12px rgba(0,0,0,.16);}'
     + '.arb-ai-btn:active{transform:translateY(0);}'
     + '.arb-ai-btn svg{width:12px;height:12px;flex:none;}'
     + '.arb-ai-btn span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:1;}'
