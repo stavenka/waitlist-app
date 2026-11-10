@@ -422,6 +422,8 @@ Even without any agent, these are the habits that save money: check the full pri
 
 Personal agents compared on price: [alternative to Instinct](https://arbitrica.com/blog/instinct-alternative.html), [alternative to Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html).
 
+Related: [Arbitrica: like Meta's Muse, built for the best price on anything](https://arbitrica.com/blog/arbitrica-muse-for-best-price.html), [Arbitrica: like Instinct, built for the best price on anything](https://arbitrica.com/blog/arbitrica-instinct-for-best-price.html).
+
 ## Frequently asked questions
 
 ### What is a personal AI shopping agent?
@@ -1652,6 +1654,8 @@ TipWhatever you use, book a refundable rate when the price gap is small. A track
 
 Two narrower rankings published since this guide: [the best hotel price tools for international travel](https://arbitrica.com/best-hotel-price-tools-international-travel.html), ranked on whether they check other countries at all, and [the best hotel rebooking tools now that Pruvo has left the consumer market](https://arbitrica.com/best-hotel-rebooking-tools.html).
 
+Related: [Best VPN for hotel booking and Booking.com: what actually matters](https://arbitrica.com/blog/best-vpn-for-hotel-booking.html).
+
 ## Frequently asked questions
 
 ### Is there something like PriceMice that works for Expedia, Agoda and every other booking site?
@@ -2421,6 +2425,8 @@ Research showed that people earn on average $47 per hotel booking with Arbitrica
 
 For the wider picture, see [why Booking.com prices differ by country](https://arbitrica.com/blog/booking-com-prices-different-countries.html) and [whether there is a cheapest country to book hotels from](https://arbitrica.com/blog/cheapest-country-to-book-hotels-from.html).
 
+Related: [Does a VPN make hotels cheaper? What the tests found](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html), [The Booking.com VPN trick: does it work, and which location is best?](https://arbitrica.com/blog/booking-com-vpn-trick.html), [Agoda VPN: is Agoda cheaper from another country?](https://arbitrica.com/blog/agoda-vpn.html), [Do hotels block VPNs? Booking sites and hotel Wi-Fi explained](https://arbitrica.com/blog/do-hotels-block-vpn.html).
+
 ## Frequently asked questions
 
 ### Does this also happen on Expedia, Hotels.com and Agoda?
@@ -2983,6 +2989,8 @@ The gap between countries matters most where bookings repeat. Travel managers, o
 
 The same mechanisms work beyond hotels, for flights, car rentals, event tickets and online shopping such as Amazon. Different countries get different inventory, sellers and promotions for those too, and anything with a cancellation or return window can be searched again after you buy.
 
+Related: [The Booking.com VPN trick: does it work, and which location is best?](https://arbitrica.com/blog/booking-com-vpn-trick.html), [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html).
+
 ## Frequently asked questions
 
 ### Why does Booking.com show different prices for the same room?
@@ -3279,6 +3287,8 @@ For Amazon purchases, that means the agent looks for the same product at a lower
 
 It started with hotels, where the gaps are well known. The [guide to geographic price arbitrage](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html) explains the idea, and [how it works](https://arbitrica.com/how-it-works.html) shows the full flow. The same mechanism also covers [event tickets](https://arbitrica.com/blog/event-ticket-price-drops.html), and [AI shopping agents](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html) explains how an agent can do the searching for you.
 
+Related: [Using a VPN to save money: hotels, flights, car rental, tickets and subscriptions](https://arbitrica.com/blog/vpn-to-save-money.html).
+
 ## Frequently asked questions
 
 ### Is it cheaper to buy from another country online?
@@ -3425,6 +3435,8 @@ That is what Arbitrica does. It is a personal AI agent that meets you at checkou
 In one real booking, a hotel was offered on Booking.com for $1,527.39. Arbitrica found the identical hotel for $1,180.27 and earned the user $347.12, about 23 percent. Results vary by hotel and date. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
 Prices also keep moving after you book. Arbitrica's approach repeats the search after purchase until the free cancellation window ends, so a lower price that appears later can still be used: a new booking is prepared at that price, and the original is cancelled only once the new booking is confirmed. The article on [hotel price drops after booking](https://arbitrica.com/blog/hotel-price-drop-after-booking.html) explains how that works. The same idea applies beyond hotels, to flights, event tickets and online shopping. Arbitrica also serves companies: teams traveling to trade shows and conferences, and the operations and travel managers who book for them.
+
+Related: [Best VPN country for cheaper hotels: what the data shows](https://arbitrica.com/blog/best-vpn-country-for-cheaper-hotels.html), [Is it legal to use a VPN to book hotels or flights?](https://arbitrica.com/blog/is-it-legal-to-use-vpn-to-book.html).
 
 ## Frequently asked questions
 
@@ -3968,6 +3980,8 @@ The approach is not limited to hotels. Flights, car rentals, event tickets, onli
 
 Hidden hotel prices are real, bookable rates. Finding them takes either hours of manual searching or an agent that does it for you. Before your next booking, remember that the price you see from your own country is one price among many, and compare like for like, with all taxes and fees, before you pay. For the wider picture, read [what geographic price arbitrage is](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html).
 
+Related: [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html).
+
 ## Frequently asked questions
 
 ### What are hidden hotel prices?
@@ -4140,6 +4154,8 @@ Arbitrica developed a mechanism for the second one as well. Arbitrica's approach
 - **Recheck until the deadline**Rebook if the identical hotel gets cheaper, and cancel only after the new booking is confirmed.
 
 The same habits work beyond hotels. Flights, car rentals, event tickets and many online purchases have prices that move over time and differ by country, and teams booking trade show or conference travel face the same gaps at a larger scale. Arbitrica also works with companies, from travel managers to operations managers booking for whole teams.
+
+Related: [Should you pay for a hotel in local currency?](https://arbitrica.com/blog/pay-hotel-in-local-currency.html), [Does a VPN get you cheaper flights? What 3 tests found](https://arbitrica.com/blog/vpn-cheaper-flights.html).
 
 ## Frequently asked questions
 
@@ -5048,6 +5064,8 @@ The same mechanisms work for companies, such as travel managers and operations m
 
 - A lower price only counts if the hotel, room and terms are identical and the total includes all taxes and fees.
 
+Related: [Best VPN country for cheaper hotels: what the data shows](https://arbitrica.com/blog/best-vpn-country-for-cheaper-hotels.html), [Do hotels block VPNs? Booking sites and hotel Wi-Fi explained](https://arbitrica.com/blog/do-hotels-block-vpn.html).
+
 ## Frequently asked questions
 
 ### Do hotel prices change based on your IP address?
@@ -5597,6 +5615,8 @@ Arbitrica also serves companies: teams traveling to trade shows and conferences,
 ## What is the cheapest way to book hotels online?
 
 There is no single site with the lowest price. The best price depends on the hotel, the dates and which country you search from. The lowest result comes from searching the same hotel from many countries, booking a rate with free cancellation, and searching again after you book. Arbitrica does the searching from 195 countries for you and finds the lowest price on Earth for that hotel.
+
+Related: [Does a VPN make Airbnb cheaper? What changes and what does not](https://arbitrica.com/blog/airbnb-vpn.html), [Does a VPN get you cheaper flights? What 3 tests found](https://arbitrica.com/blog/vpn-cheaper-flights.html), [Using a VPN to save money: hotels, flights, car rental, tickets and subscriptions](https://arbitrica.com/blog/vpn-to-save-money.html).
 
 ## Frequently asked questions
 
@@ -6730,6 +6750,8 @@ The same two mechanisms help with the rest of an international trip. Flights, ca
 
 Searching from 195 countries before you pay, and again after you book, is the part no traveler can do by hand. Arbitrica is a personal AI agent that shows up at checkout and handles both: live arbitrage when you are about to pay, and multiple-time arbitrage after you book. It finds the lowest price on Earth for the same hotel and prepares everything so you only review and pay. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year. Arbitrica also serves companies: teams traveling to trade shows and conferences, and the operations and travel managers who book for them.
 
+Related: [Should you pay for a hotel in local currency?](https://arbitrica.com/blog/pay-hotel-in-local-currency.html).
+
 ## Frequently asked questions
 
 ### Is it cheaper to book an international hotel from another country?
@@ -7656,6 +7678,8 @@ Full data: https://arbitrica.com/blog/arbitrica-hotel-price-check-2024.csv
 ## Method
 Same hotel, dates and guests for every location; searches run with a VPN set to each location in May 2024 (10 hotels) and October 2024 (1 hotel, 32 locations); total stay price recorded as displayed.
 
+Related: [Agoda VPN: is Agoda cheaper from another country?](https://arbitrica.com/blog/agoda-vpn.html), [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html).
+
 ## FAQ
 ### Is there a tool that checks hotel prices from every country?
 Yes. Arbitrica is a personal AI agent that searches the same hotel from 195 countries at checkout, checks that the room and the final total match, and prepares the booking at the lowest price it finds. A VPN can check one country at a time.
@@ -8106,6 +8130,8 @@ Muse facts checked on November 8, 2026 against Skift, Conduit and the Sanbi trac
 
 More on how AI agents handle price: [AI hotel booking: what AI agents actually do for price](https://arbitrica.com/blog/ai-hotel-booking.html) and [the AI agent that finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html). Other agents: [Instinct](https://arbitrica.com/blog/instinct-alternative.html), [Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [ChatGPT](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html).
 
+Related: [Arbitrica: like Meta's Muse, built for the best price on anything](https://arbitrica.com/blog/arbitrica-muse-for-best-price.html).
+
 ## Frequently asked questions
 
 ### Is there an alternative to Muse for finding the best hotel price?
@@ -8178,6 +8204,8 @@ Arbitrica works at the checkout for hotels, online shopping such as Amazon, and 
 - **Use Arbitrica** for any hotel, product or ticket where you want the lowest price in the world before you pay, and a price watch after you buy.
 
 See also: [alternative to Meta's Muse](https://arbitrica.com/blog/muse-alternative.html), [alternative to Grok Bot](https://arbitrica.com/blog/grok-bot-alternative.html) and [how a personal shopping agent finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html).
+
+Related: [Arbitrica: like Instinct, built for the best price on anything](https://arbitrica.com/blog/arbitrica-instinct-for-best-price.html).
 
 ## Frequently asked questions
 
@@ -8803,3 +8831,849 @@ Each room category has its own availability, offers and dynamic pricing, on ever
 
 ### Does the room category matter for price drops after booking?
 Yes. Rebooking only works for the same room type and conditions, so track the price of your exact room. With a free-cancellation rate, book the lower price first and cancel the original once the new booking is confirmed.
+
+---
+
+# Does a VPN make hotels cheaper? What the tests found
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html
+
+## Key takeaways
+- A VPN can show a lower hotel price, but not reliably. NordVPN's own commissioned studies found 7.9% to 26% on individual hotels; USA Today found differences of a few dollars either way.
+- The country you search from changes which markets, sites, local rates and promotions you see. Your IP address on its own does not reprice an identical listing.
+- The VPN method is one country at a time, by hand, with fresh cookies each time. The published tests tried between 1 and 10 countries per trip.
+- Arbitrica searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price it finds. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+## Short answer
+Yes, sometimes, and usually by less than the headlines suggest. In the published tests a VPN set to another country showed a lower total for some hotels, a few dollars more for others, and no change for many. The gap comes from the country you appear to be in: different markets get different rates, sales channels and promotions, and dynamic pricing moves them all day. A VPN only lets you look at one market at a time.
+
+If the hotel is chosen and you want the lowest price that exists for it, the faster route is a personal AI agent that does the country-by-country search for you. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+## What the tests found
+Five tests are cited most when people search "does a VPN change hotel prices". Three were commissioned by NordVPN, a VPN seller, and two were run by journalists.
+
+| Test | Hotel and stay | From home | Through a VPN | Difference |
+|---|---|---|---|---|
+| [NordVPN UK study, April 2024](https://nordvpn.com/blog/price-difference-research-uk/) | Ayodya Resort, Bali, 14 nights | £1,774.37 (UK) | £1,313.76 (Indonesia) | 26% lower |
+| [NordVPN US study, April 2024](https://nordvpn.com/blog/price-difference-research-us/) | Hotel Kennedy, Milan, 7 nights | ~$1,216 (US) | $1,012.61 (Italy) | 16.7% lower |
+| [NordVPN US study, April 2024](https://nordvpn.com/blog/price-difference-research-us/) | District Nation, Paris, 1 week | $939.00 (US) | $801.33 (France) | 14.7% lower |
+| [NordVPN UK study, April 2024](https://nordvpn.com/blog/price-difference-research-uk/) | Disneyland Hotel, Paris, 14 nights | £18,822.08 (UK) | £17,342.27 (France) | 7.9% lower |
+| [USA Today test, January 2026](https://www.yahoo.com/lifestyle/articles/tried-using-vpn-score-cheaper-100134258.html) | Virgin Hotels London-Shoreditch, 2 nights | $906 (US) | about $910 (UK) | $4 higher |
+| [USA Today test, January 2026](https://www.yahoo.com/lifestyle/articles/tried-using-vpn-score-cheaper-100134258.html) | Westin Resort & Spa, Cancun, 2 nights | $297 (US) | about $300 (Mexico) | $3 higher |
+
+*Chart: Lower price through a VPN in NordVPN's commissioned studies (April 2024), and slightly higher prices in USA Today's test (January 2026).*
+
+USA Today's reporter concluded the savings were marginal and that two VPN subscriptions cost about $14 each for the month. Expedia told the paper that a VPN does not change the price travellers see, and that its international sites can be viewed directly. [Tom's Guide test, updated January 2026](https://www.tomsguide.com/computing/vpns/can-a-vpn-get-cheaper-flights) ran the same idea on flights across 10 server countries and found a best saving of $9.
+
+## Why the results swing from 26% to nothing
+A hotel does not have one price. It sells the same room through many sites and markets, and each market can carry its own rate, room allotment and promotion. Dynamic pricing then moves those rates with demand. When a VPN puts you in another country, the site may show you that market's offer, its currency and its taxes display. Sometimes that offer is lower, sometimes it is the same, and sometimes it is higher.
+
+Three things decide whether you see a gap:
+
+- **Which country.** In the tests the hotel's own country often won (Indonesia for Bali, Italy for Milan), but not always. NordVPN's CTO told USA Today to try less obvious countries such as Turkey, Poland, Croatia or Moldova.
+- **Which site.** NordVPN's 2025 Southeast Asia test found gaps of 10-18% on Agoda and little or no difference on Booking and Airbnb for the same trips ([NordVPN Southeast Asia study, May 2025](https://nordvpn.com/zh/blog/genggai-ip-dizhi-jiesheng-feiyong/)).
+- **Which rate.** Some local rates are meant for residents. A Phocuswright analyst told USA Today that some deals may ask for a home address or a driving licence from that country.
+
+More on the mechanics: [how hotel dynamic pricing works](https://arbitrica.com/blog/how-hotel-dynamic-pricing-works.html) and the [guide to hidden hotel prices](https://arbitrica.com/blog/hidden-hotel-prices-guide.html).
+
+## How to test it yourself
+If you want to try the VPN route for one hotel, this is the method the testers used:
+
+- Pick the exact hotel, dates, guests, room type and cancellation terms.
+- Note the full total with taxes and fees from your own country.
+- Clear cookies or open a private window, then connect the VPN to one country.
+- Search the same hotel and room on the same site and note the total, converted to your currency.
+- Repeat for each country you want to try, then check payment and residency conditions before you book.
+
+Each country takes several minutes. Trying 10 is an evening; trying 195 is not realistic by hand.
+
+## The faster way: 195 countries at once
+The idea behind the VPN trick is right: the same hotel is often priced lower in another market. The method is the problem, because you can only stand in one country at a time. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.
+
+*Chart: The manual method takes minutes per country. Arbitrica does the whole search from 195 countries at the checkout.*
+
+See also: [VPN vs. Arbitrica for hotel booking](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html) and [Booking.com prices by country with a VPN, explained](https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html).
+
+## Frequently asked questions
+
+### Does changing your VPN make hotels cheaper?
+Sometimes. In NordVPN's commissioned tests the same hotels were 7.9% to 26% lower through a server in another country; in USA Today's test the differences were a few dollars and sometimes higher. It depends on the hotel, the site, the dates and the country.
+
+### Does a VPN change hotel prices on Booking.com?
+It can change which market's offer you see. A NordVPN analysis reported by 20 Minuten found Booking prices up to 27% higher from Switzerland than from other countries for the same room and dates, while NordVPN's 2025 Southeast Asia test found little difference on Booking.
+
+### What do people on Reddit say about using a VPN for cheaper hotels?
+Popular threads such as r/LifeProTips' "It is possible to book rooms cheaper with a VPN" and r/VPN's "Easy trick that helps to book cheaper hotels with VPN" describe savings on specific bookings. One Reddit user quoted by Explore was redirected to a pricier site when paying with an American card. The published tests show the savings are inconsistent.
+
+### Which VPN country gives the lowest hotel prices?
+There is no single one. The hotel's own country often wins, but tests also found lower prices from Taiwan, Japan, Poland and others. Arbitrica searches all 195 countries so you do not have to guess.
+
+### Is there an easier way than a VPN to find a lower hotel price?
+Yes. Arbitrica, a personal AI agent, searches the same hotel from 195 countries at the checkout, checks the room and full total match, and prepares the booking at the lowest price it finds, so you only review and pay.
+
+---
+
+# The Booking.com VPN trick: does it work, and which location is best?
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/booking-com-vpn-trick.html
+
+## Key takeaways
+- Booking prices can differ by the country you search from: a NordVPN analysis reported by 20 Minuten found the same rooms up to 27% higher from Switzerland.
+- The winning country changed with each hotel: Georgia for a Tbilisi hotel, Taiwan for a Prague one, the Netherlands for Amsterdam.
+- Booking says hotels have "full control over their prices including discounts", and that deals, season and exchange rates move prices constantly.
+- Arbitrica shows up at the Booking checkout, searches the same hotel from 195 countries across sites, and prepares the booking at the lowest price in the world.
+
+## Short answer
+The Booking.com VPN trick is real but patchy. Hotels on Booking set different rates and promotions for different markets, so the same room can show a lower total from another country. In the published tests the gap ranged from nothing to 27%, and the best country was different for almost every hotel. There is no single best VPN location for Booking.
+
+If you are already at the Booking checkout, Arbitrica can do the country search for you. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+## What the tests found on Booking
+The clearest Booking numbers come from Switzerland. NordVPN's analysis, checked by the Swiss newspaper 20 Minuten, found Booking prices up to 27% higher for people booking from Swiss cities than from elsewhere, for the same hotel, room and dates ([IamExpat on the NordVPN and 20 Minuten findings](https://www.iamexpat.ch/lifestyle/lifestyle-news/bookingcom-criticised-charging-travellers-from-switzerland-more)).
+
+*Chart: Lower Booking totals from another country than from Switzerland, as reported from the NordVPN and 20 Minuten checks.*
+
+Two other studies point the same way with smaller or no gaps. NordVPN's [NordVPN UK study, April 2024](https://nordvpn.com/blog/price-difference-research-uk/) named Booking among the sites with lower prices outside the UK. Its [NordVPN Southeast Asia study, May 2025](https://nordvpn.com/zh/blog/genggai-ip-dizhi-jiesheng-feiyong/) found little or no difference on Booking for three Southeast Asian hotels, while Agoda showed 10-18%.
+
+Booking's answer to the Swiss report: prices change constantly, hotels have "full control over their prices including discounts", and special deals, time of year and exchange rates all affect the price. The Swiss Federal Price Monitor said it took the findings seriously.
+
+## Best VPN location for Booking.com
+People search for one best country. The tests show why there is not one:
+
+*Chart: The winning country changed with every hotel in the NordVPN and 20 Minuten tests.*
+
+- **Start with the hotel's own country.** It won in four of the six tests above.
+- **Then try a different region.** Taiwan beat Switzerland for Prague. NordVPN's CTO suggested Turkey, Poland, Croatia and Moldova to USA Today; a VPNpro writer quoted by [Explore, October 27, 2025](https://www.explore.com/2004000/does-using-vpn-book-airbnb-prevent-unnecessary-fees-price-increases) found her best results from Japan or Poland and her highest from the US.
+- **Check the full total.** Taxes and fees display differently by market, so convert the final amount, not the nightly rate.
+
+Arbitrica's own data shows the same spread: In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates. More in [cheapest country to book hotels from](https://arbitrica.com/blog/cheapest-country-to-book-hotels-from.html).
+
+## How to do the Booking VPN trick
+- Find the hotel on Booking and note the final total for your exact room, dates, guests and cancellation terms.
+- Clear cookies or open a private window.
+- Connect the VPN to the hotel's country and search the same room again.
+- Convert the new total to your currency and note it.
+- Repeat with 3 to 5 other countries, then read the payment and residency conditions before booking.
+
+What can go wrong: some sites show a captcha or block VPN addresses ([FlyerTalk](https://www.flyertalk.com/forum/29638412-post4.html)), and some local rates are meant for residents. See [do hotels and booking sites block VPNs?](https://arbitrica.com/blog/do-hotels-block-vpn.html) and [is it legal to use a VPN to book?](https://arbitrica.com/blog/is-it-legal-to-use-vpn-to-book.html)
+
+## The faster route at the Booking checkout
+Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+Unlike the VPN trick, it does not stop at Booking: it looks for the lowest price for the identical hotel wherever it is sold, and sends you to that seller. More on [how Arbitrica works](https://arbitrica.com/how-it-works.html).
+
+*Chart: The Booking VPN trick checks one market at a time on one site. Arbitrica checks 195 countries across sites.*
+
+## Frequently asked questions
+
+### Is Booking.com cheaper in different countries?
+Sometimes. The same Booking room was up to 27% lower from another country than from Switzerland in the NordVPN and 20 Minuten checks, while other tests found little difference. Hotels set rates and promotions by market, and Booking says hotels control their prices.
+
+### What is the best VPN location for Booking.com?
+There is no single best location. The hotel's own country won most often in published tests, but Taiwan, Japan and Poland also produced the lowest prices for some hotels. Arbitrica searches all 195 countries at once.
+
+### What is the cheapest VPN country for Booking.com?
+It changes with every hotel and date. In the tests above the lowest totals came from Georgia, Taiwan, the Netherlands, Indonesia, Greece and Italy, each for a different hotel.
+
+### Does the Booking.com VPN trick really work, according to Reddit?
+Threads such as r/VPN's "Easy trick that helps to book cheaper hotels with VPN" describe savings on specific stays. The published tests found gaps from 0% to 27% depending on the hotel, so results vary.
+
+### Does Booking.com block VPNs?
+Booking does not publish a VPN policy. Some travel sites show a captcha or block known VPN addresses, and some local rates require residency, so check the conditions before you book.
+
+### Is there a way to get the lowest Booking price without a VPN?
+Yes. Arbitrica shows up at the Booking checkout, searches the same hotel from 195 countries and across sites, and prepares the booking at the lowest price in the world for you to review and pay.
+
+---
+
+# Best VPN country for cheaper hotels: what the data shows
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/best-vpn-country-for-cheaper-hotels.html
+
+## Key takeaways
+- No country is always lowest. In six published hotel tests the winner was the hotel's own country four times, and Taiwan and others the rest.
+- Searching from the US or Switzerland often showed the highest totals in the tests; India beat the UK by 33.6% for an Istanbul hotel in Arbitrica's own check.
+- A VPN shows one market at a time, and the published tests tried at most 10 countries per trip.
+- Arbitrica searches the same hotel from 195 countries and finds the lowest price in the world for it. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+## Short answer
+The best VPN country for a lower hotel price is usually the hotel's own country, then a mix of others that change with every hotel and date. Published tests found winners in Indonesia, Italy, Greece, Georgia, the Netherlands and Taiwan, and VPN companies suggest Turkey, Poland, Croatia, Moldova and Japan. None wins every time, which is why the most reliable answer is to check far more countries than a VPN lets you.
+
+Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+## What the data shows
+Arbitrica's own check shows how big a single country switch can be. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.
+
+*Chart: White House Hotel Istanbul, 4 nights, same dates: 33.6% less searched from India than from the UK.*
+
+Across a larger set, research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%. That is the case for searching many countries: in most of them some other market has a lower price, but which one changes.
+
+*Chart: Each hotel had a different lowest country. Sources: NordVPN US and UK studies (April 2024), NordVPN and 20 Minuten via IamExpat.*
+
+## Countries worth trying, and why
+- **The hotel's own country.** Local rates and promotions are set for that market. It won four of the six tests above.
+- **Neighbouring countries in the same region.** Regional sites and channels often carry their own allotments; Malaysia vs Singapore showed 10-18% on Agoda in [NordVPN Southeast Asia study, May 2025](https://nordvpn.com/zh/blog/genggai-ip-dizhi-jiesheng-feiyong/).
+- **Lower-income markets.** India beat the UK by 33.6% in Arbitrica's Istanbul check. NordVPN's CTO suggested Turkey, Poland, Croatia and Moldova ([USA Today test, January 2026](https://www.yahoo.com/lifestyle/articles/tried-using-vpn-score-cheaper-100134258.html)).
+- **Avoid assuming the US or Switzerland.** Both showed some of the highest totals in the tests, and a VPNpro writer quoted by [Explore, October 27, 2025](https://www.explore.com/2004000/does-using-vpn-book-airbnb-prevent-unnecessary-fees-price-increases) found a US address usually gave her the highest price.
+
+Whatever you try, convert the full total including taxes and fees, and check whether the rate needs local residency. More in [cheapest country to book hotels from](https://arbitrica.com/blog/cheapest-country-to-book-hotels-from.html) and [the Booking.com VPN trick](https://arbitrica.com/blog/booking-com-vpn-trick.html).
+
+## Why checking 195 countries beats picking one
+Every list of "best VPN countries" is a guess about where the lowest price will be. The only way to know is to check, and a VPN lets you stand in one country at a time. Arbitrica removes the guess: at the checkout it searches the same hotel from 195 countries, across sites, and shows you the price you were given, the world's lowest price and the country it came from, then prepares the booking. More on [how Arbitrica works](https://arbitrica.com/how-it-works.html).
+
+## Frequently asked questions
+
+### What is the cheapest country to book hotels from with a VPN?
+There is no fixed answer. In published tests the lowest prices came from the hotel's own country most often, and from Taiwan, Georgia and others for specific hotels. In Arbitrica's check, India beat the UK by 33.6% for an Istanbul hotel.
+
+### Is the hotel's own country always the lowest?
+No. It won in four of six published tests, but Taiwan beat Switzerland for a Prague hotel, and other countries win for other hotels and dates.
+
+### Why is the US often the most expensive country to search from?
+Hotels and booking sites set rates by market, and markets with higher willingness to pay tend to see higher prices. In the tests, US and Swiss searches often showed the highest totals.
+
+### How many countries should I try with a VPN?
+The published tests tried at most 10, because each search takes several minutes. Arbitrica searches 195 countries at once at the checkout.
+
+### Can I use a VPN country for a hotel rate meant for residents?
+Some local rates require proof of residency, such as a local address or ID, at booking or check-in. Read the rate conditions before you book.
+
+---
+
+# Agoda VPN: is Agoda cheaper from another country?
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/agoda-vpn.html
+
+## Key takeaways
+- NordVPN's May 2025 test found the same three Agoda hotels 10% to 18% lower from a Singapore address than from a Malaysian one.
+- In the same test, Booking and Airbnb showed little or no difference for the same trips, so Agoda is where a country switch most often shows a gap.
+- Agoda often shows base rates first and adds taxes and fees later, so a lower headline price can disappear at checkout.
+- Arbitrica searches the same hotel from 195 countries across sites, checks the final total with all taxes and fees, and prepares the booking at the lowest price it finds.
+
+## Short answer
+Agoda is one of the sites where the country you search from most often changes the price. In NordVPN's 2025 Southeast Asia test, the same hotels were 10-18% lower on Agoda from a Singapore address than from a Malaysian one, while Booking and Airbnb barely moved. Check the final total, not the first price: Agoda often adds taxes and fees later in the booking.
+
+Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+## What the Agoda test found
+NordVPN checked three hotels for 9 nights, August 1-10, from Singapore and Malaysia at the same time ([NordVPN Southeast Asia study, May 2025](https://nordvpn.com/zh/blog/genggai-ip-dizhi-jiesheng-feiyong/)).
+
+*Chart: Gap between the Malaysian and Singapore prices for the same Agoda hotels, 9 nights in August, as reported by NordVPN (May 2025).*
+
+| Hotel (Agoda) | Singapore address | Malaysia address | Gap |
+|---|---|---|---|
+| Amaris Thamrin City, Jakarta | SGD 289.08 | SGD 325.59 | 10.0% |
+| Grand Alpine Hotel, Bangkok | SGD 304.38 | SGD 364.00 | 17.8% |
+| Hanoian Central Hotel & Spa, Hanoi | SGD 592.92 | SGD 676.40 | 13.2% |
+NordVPN is a VPN seller and converted the ringgit prices itself, so treat the exact percentages as indicative. The direction matches other reports: The Traveler notes that Agoda is most often the lowest in Asia and less consistent in Europe and North America ([The Traveler, June 30, 2026](https://www.thetraveler.org/why-agodas-prices-can-look-shockingly-different-from-other-sites/)).
+
+## Why Agoda shows bigger gaps
+- **Market-specific deals.** Some hotels restrict deep discounts to certain markets or to logged-in members.
+- **App and member prices.** Mobile-only prices, coupons and member rates can change the price you see.
+- **Currency.** Paying in a currency other than the hotel's can add about 3-5% according to reported cases.
+- **Taxes and fees shown late.** Agoda has historically shown base rates first and added taxes, service fees and local charges later.
+
+Source for the list: [The Traveler, June 30, 2026](https://www.thetraveler.org/why-agodas-prices-can-look-shockingly-different-from-other-sites/). More on [paying for a hotel in local currency](https://arbitrica.com/blog/pay-hotel-in-local-currency.html).
+
+## How to check Agoda from another country
+- Note the final Agoda total for your room, dates and cancellation terms, through to the last screen before payment.
+- Clear cookies or use a private window, then connect a VPN to the hotel's country or a neighbour.
+- Search the same room again and take it to the final screen.
+- Convert the totals to one currency and include every fee.
+- Check the rate conditions and whether your card can pay in that market.
+
+## The faster route
+An Agoda VPN search checks one country and one site at a time. Arbitrica does the whole job at the checkout: it searches the same hotel from 195 countries on Agoda and every other site that sells it, checks the final total includes all taxes and fees, and prepares the booking at the lowest price in the world. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+See also [does a VPN make hotels cheaper?](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html) and [Booking.com prices by country with a VPN, explained](https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html).
+
+*Chart: Arbitrica checks the full total from 195 countries; a VPN checks one Agoda market at a time.*
+
+## Frequently asked questions
+
+### Is Agoda cheaper with a VPN?
+Often. NordVPN's 2025 test found the same Agoda hotels 10-18% lower from Singapore than from Malaysia. Results change by hotel, dates and country, and Agoda's fees can close part of the gap at checkout.
+
+### Which VPN country is cheapest for Agoda?
+There is no single one. In the 2025 test Singapore beat Malaysia for all three hotels, and The Traveler reports Agoda is most often lowest in Asian markets. Arbitrica checks 195 countries.
+
+### Why does the Agoda price go up at checkout?
+Agoda has historically shown base rates first, then added taxes, service fees and local charges later in the booking flow. Always take the booking to the final screen before you decide.
+
+### Should I pay Agoda in local currency?
+Paying in a currency other than the hotel's can add about 3-5% in reported cases. Paying in the hotel's currency with a card that has no foreign transaction fee usually costs less.
+
+### Does Agoda block VPNs?
+Agoda does not publish a VPN policy. Some travel sites show captchas to VPN addresses, and some market rates require residency, so read the conditions before you book.
+
+---
+
+# Does a VPN make Airbnb cheaper? What changes and what does not
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/airbnb-vpn.html
+
+## Key takeaways
+- Airbnb hosts set their own nightly prices, so there is less market-by-market pricing for a VPN to uncover than on hotel sites.
+- NordVPN's 2025 Southeast Asia test found little or no meaningful difference on Airbnb, while Agoda showed 10-18% for the same trips.
+- What can change is the fee: Airbnb's guest service fee is 14.1-16.5% of the subtotal, and paying in a different currency from the listing adds to it.
+- For hotels, where prices do vary by market, Arbitrica searches the same hotel from 195 countries and prepares the booking at the lowest price in the world.
+
+## Short answer
+Rarely by much. On Airbnb the host sets the price, so a VPN in another country usually shows the same nightly rate, converted into a different currency. NordVPN's own 2025 test found little or no meaningful difference on Airbnb, while Agoda hotels in the same cities varied by 10-18% ([NordVPN Southeast Asia study, May 2025](https://nordvpn.com/zh/blog/genggai-ip-dizhi-jiesheng-feiyong/)). The part you can control is fees and currency.
+
+If a hotel works for your trip, the gaps are bigger and Arbitrica can do the country search for you. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+## Why Airbnb is different from hotel sites
+A hotel sells the same room through many sites and markets, each with its own rates and promotions. An Airbnb listing usually has one host-set price. A Threads user quoted by [Explore, October 27, 2025](https://www.explore.com/2004000/does-using-vpn-book-airbnb-prevent-unnecessary-fees-price-increases) made the same point: hosts set their own rates. Reports of savings exist, but the same article says results varied and took trial and error, and one Reddit user was redirected to the more expensive English-language site when paying with an American card.
+
+*Chart: Airbnb prices are mostly host-set; hotel prices vary by market, which is where searching other countries pays off.*
+
+## What does change: fees and currency
+Airbnb's [Airbnb Help Center](https://sq.airbnb.com/help/article/1857/what-are-airbnb-service-fees) says guests on the split-fee structure pay a service fee of 14.1% to 16.5% of the booking subtotal, and that when you pay in a different currency from the listing's, the guest fee includes an additional amount. Marketplace reported in February 2024 that Airbnb was adding a 2% fee for bookings in a different currency.
+
+*Chart: What moves an Airbnb total, per the Airbnb Help Center. Card foreign transaction fees depend on your card.*
+
+So the practical tips are: pay in the listing's currency where you can, use a card without foreign transaction fees, and check the full total including cleaning and service fees. More on [paying in local currency](https://arbitrica.com/blog/pay-hotel-in-local-currency.html).
+
+## When a hotel gets you the lower price
+Because hotel prices are set by market, the country switch matters far more for hotels than for Airbnb. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates. Arbitrica works on hotels at the checkout: it searches the same hotel from 195 countries, checks the room and final total match, and prepares the booking at the lowest price in the world. See [does a VPN make hotels cheaper?](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html).
+
+## Frequently asked questions
+
+### Does a VPN make Airbnb cheaper?
+Usually not by much. Airbnb hosts set their own prices, and NordVPN's 2025 test found little or no meaningful difference on Airbnb by country. Currency and fees can change the total more than the country does.
+
+### What do Reddit users say about Airbnb and VPNs?
+Explore reports that results varied and took trial and error, and quotes a Reddit user who was redirected to the more expensive English-language site when paying with an American card.
+
+### Can I get banned from Airbnb for using a VPN?
+Airbnb does not publish a VPN rule in the sources we checked. Some users report worries about cancelled bookings, and Explore found no confirmed cases from reputable VPN users, but check the terms for your booking.
+
+### Which currency should I pay Airbnb in?
+Paying in the listing's currency avoids the extra amount Airbnb adds when you pay in a different currency. Use a card without foreign transaction fees.
+
+### Is a hotel or Airbnb better for finding a lower price from another country?
+Hotels. Hotel rates and promotions are set market by market, so searching other countries finds gaps of 20-40% in many cases. Arbitrica searches the same hotel from 195 countries.
+
+---
+
+# Best VPN for hotel booking and Booking.com: what actually matters
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/best-vpn-for-hotel-booking.html
+
+## Key takeaways
+- For hotel prices, the number of countries matters most. NordVPN covers 135 countries and ExpressVPN 108, according to Tom's Guide in April 2026.
+- A low-cost or free VPN can be enough for price checks; Tom's Guide said a free VPN is fine for flight searching. Free VPNs carry privacy risks, so read the policy.
+- Even the largest VPN covers fewer countries than exist, and you still search them one at a time.
+- Arbitrica searches the same hotel from 195 countries at the checkout, which no VPN does in a single search, and prepares the booking at the lowest price it finds.
+
+## Short answer
+The best VPN for hotel booking is the one with servers in the most countries, including the hotel's own country, and few captchas on travel sites. On country count, NordVPN leads with 135 countries and 211 locations, ahead of ExpressVPN with 108 countries and 189 locations ([Tom's Guide, April 9, 2026](https://www.tomsguide.com/computing/vpns/nordvpn-upgrades-to-211-global-server-locations-worldwide-and-its-leapfrogged-expressvpn-in-the-process)). For Booking specifically the same rules apply: pick a VPN that lets you switch quickly between many countries.
+
+A VPN still makes you search one country at a time. If what you want is the lowest price in the world for the hotel you have chosen, Arbitrica, a personal AI agent, shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+## What matters in a VPN for hotel prices
+- **Country count.** Every extra country is another market you can check. This matters more than speed.
+- **A server in the hotel's own country.** It won most often in published tests ([best VPN country for cheaper hotels](https://arbitrica.com/blog/best-vpn-country-for-cheaper-hotels.html)).
+- **Few captchas and blocks on travel sites.** Some sites show captchas or block known VPN addresses ([FlyerTalk](https://www.flyertalk.com/forum/29638412-post4.html)).
+- **Quick switching.** You will repeat the same search many times.
+- **A clear no-logs policy.** You are entering card and identity details in the same session.
+
+*Chart: Country coverage: NordVPN 135 and ExpressVPN 108 countries per Tom's Guide (April 2026); a VPN searches them one at a time, Arbitrica all 195 at once.*
+
+## Cheapest VPN for Booking.com, and free VPNs
+For price checks you do not need premium features. Tom's Guide concluded that for flight searching alone a free VPN is enough ([Tom's Guide test, updated January 2026](https://www.tomsguide.com/computing/vpns/can-a-vpn-get-cheaper-flights)). Two cautions: free VPNs usually offer few countries, which defeats the purpose, and NordVPN warns that some free VPNs may install spyware or sell user data ([Explore, October 27, 2025](https://www.explore.com/2004000/does-using-vpn-book-airbnb-prevent-unnecessary-fees-price-increases)). USA Today's reporter paid about $14 each for two VPN subscriptions for a month and found only marginal savings ([USA Today test, January 2026](https://www.yahoo.com/lifestyle/articles/tried-using-vpn-score-cheaper-100134258.html)).
+
+Whichever you choose, the cost is the subscription plus your time: several minutes per country, per hotel.
+
+## How to use a VPN for hotel booking
+- Note the full total for your hotel, room, dates and terms from your own country.
+- Clear cookies or open a private window.
+- Connect to the hotel's country, search the same room and note the total.
+- Repeat with neighbouring and lower-income markets.
+- Convert every total, check fees and residency conditions, then book.
+
+Step-by-step for Booking: [the Booking.com VPN trick](https://arbitrica.com/blog/booking-com-vpn-trick.html). Test results: [does a VPN make hotels cheaper?](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html).
+
+## The alternative to a VPN
+A VPN is a general privacy tool that people bend into a price-search tool. Arbitrica is built for the price: a personal AI agent that, at the checkout, searches the same hotel from 195 countries across sites, checks the room and final total, and prepares the booking at the lowest price in the world. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+*Chart: Even the largest VPN covers 135 countries one at a time; Arbitrica searches 195 in one search at checkout.*
+
+## Frequently asked questions
+
+### What is the best VPN for hotel booking?
+For hotel prices, pick the VPN with the most countries and a server in the hotel's country. NordVPN covers 135 countries and ExpressVPN 108, per Tom's Guide (April 2026). For the lowest price without a VPN, Arbitrica searches 195 countries at once.
+
+### What is the best VPN for Booking.com?
+The same rules apply: many countries, quick switching and few captchas. The hotel's own country is the first one to try on Booking.
+
+### What is the cheapest VPN for Booking.com?
+For price checks a low-cost or free plan can work, but free VPNs usually offer few countries and some carry privacy risks. Weigh the subscription against how many hotels you will check.
+
+### Is a free VPN good enough for hotel booking?
+For checking a few countries, it can be. Tom's Guide said a free VPN is enough for flight searching. Read the privacy policy before entering card details.
+
+### Do I still need a VPN if I use Arbitrica?
+Not for prices. Arbitrica searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price it finds. A VPN is still useful for privacy on public Wi-Fi.
+
+---
+
+# Do hotels block VPNs? Booking sites and hotel Wi-Fi explained
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/do-hotels-block-vpn.html
+
+## Key takeaways
+- Some travel sites block known VPN addresses or show a captcha; FlyerTalk users report this on IHG, Expedia, Lufthansa and others, and it is inconsistent.
+- Hotels can use VPN and proxy detection to stop "rate abuse", such as non-residents claiming resident-only rates. A card country that does not match the IP country is a common risk flag.
+- Hotel Wi-Fi can block VPN connections by reserving ports or filtering traffic; switching protocol often helps.
+- Arbitrica searches the same hotel from 195 countries without you connecting a VPN, and prepares the booking for you to pay as usual.
+
+## Short answer
+Sometimes, in two different ways. Booking sites and hotel chains sometimes block VPN addresses or ask for a captcha, mainly to stop bots, and some hotels check location to protect resident-only rates. Separately, hotel Wi-Fi networks can block VPN connections. Neither is universal, and both are inconsistent from day to day.
+
+If your aim is the lowest price, you do not need a VPN for it. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+## Do booking sites block VPNs?
+Some do, some of the time. A FlyerTalk moderator wrote that VPN blocking happens occasionally and is not limited to IHG: some sites block certain VPN IP addresses because robots and spammers use them, Expedia and Blacklane show a captcha, and the same VPN can work one day and not the next ([FlyerTalk](https://www.flyertalk.com/forum/29638412-post4.html)). Switching to another server and clearing cookies before connecting sometimes helps.
+
+Booking, Agoda and Expedia do not publish a VPN ban in the sources we checked. Expedia told USA Today that a VPN does not change the price travellers see ([USA Today test, January 2026](https://www.yahoo.com/lifestyle/articles/tried-using-vpn-score-cheaper-100134258.html)).
+
+## Do hotels detect VPNs on their own sites?
+Hotels that offer resident or local-market rates can. A hotel-industry fraud guide describes "rate abuse" as someone manipulating their location to access rates meant for another market, and suggests VPN and proxy detection to stop it ([Greip, April 2026](https://greip.io/blog/The-Hoteliers-Playbook-for-Fighting-Booking-Fraud-Using-IP-Geolocation-to-Stop-Rate-Abuse-and-Fake-Reviews-364)). Its sample rules score a booking higher risk when:
+
+*Chart: Example rules from a hotel fraud-prevention vendor guide; real hotels set their own rules.*
+
+The same guide notes that business travellers on corporate VPNs are often legitimate, so mild cases go to review rather than rejection. A Phocuswright analyst told USA Today that some local deals may ask for a home address or driving licence from that country.
+
+## Does hotel Wi-Fi block VPNs?
+It can. Hotels limit VPN traffic to manage bandwidth and security, may reserve the ports VPN protocols use, and some firewalls detect encrypted VPN traffic ([VPNCentral](https://vpncentral.com/hotel-wifi-blocking-vpn)). The usual fixes are switching the VPN protocol to one that uses a different port, or using an obfuscated server, which is slower.
+
+*Chart: Common reasons hotel Wi-Fi blocks VPNs and the fixes VPN guides suggest.*
+
+## How to avoid problems
+- Read the rate conditions: resident-only rates say so, and may be checked at check-in.
+- Use a card that can pay in that market, and expect checks when card and IP countries differ.
+- Keep your booking details consistent: name, address and payment.
+- For prices, skip the VPN: Arbitrica searches 195 countries for you and you pay on the seller's normal checkout. See [is it legal to use a VPN to book?](https://arbitrica.com/blog/is-it-legal-to-use-vpn-to-book.html).
+
+## Frequently asked questions
+
+### Do hotels block VPNs?
+Some do. Hotel and travel sites sometimes block VPN addresses or show captchas to stop bots, and hotels with resident-only rates may use VPN detection. It is inconsistent and depends on the site.
+
+### Does Booking.com block VPNs?
+Booking does not publish a VPN ban in the sources we checked. Some travel sites show captchas to VPN addresses, and card or residency checks can apply to certain rates.
+
+### Can a hotel cancel a booking made with a VPN?
+If the rate required residency or a local address and you do not meet it, the hotel can apply its rate conditions. Read them before you book.
+
+### Why does hotel Wi-Fi block my VPN?
+Hotels manage bandwidth and security, may close the ports VPNs use, and some firewalls detect VPN traffic. Switching protocol or using an obfuscated server usually helps.
+
+### Do I need a VPN to find hotel prices from other countries?
+No. Arbitrica searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price it finds, without you connecting a VPN.
+
+---
+
+# Is it legal to use a VPN to book hotels or flights?
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/is-it-legal-to-use-vpn-to-book.html
+
+## Key takeaways
+- VPNs are legal in most countries, including the US, Canada, the UK and most of Europe and Latin America.
+- They are banned in Belarus, Oman (for personal use), Turkmenistan, North Korea and Myanmar, and limited to approved providers in China, Russia and Iran.
+- Legal is not the same as allowed: a company can enforce its own country rules, as Google did in 2024 when it cancelled YouTube Premium plans bought through foreign VPNs.
+- Resident-only hotel rates and card checks matter more than the law. Arbitrica searches 195 countries for you and you pay through the seller's normal checkout.
+
+## Short answer
+In most countries, using a VPN to search for and book a hotel or flight is legal. VPNs are legal in the US, Canada, the UK and most of Europe and Latin America ([NordVPN country guide, updated September 3, 2026](https://nordvpn.com/blog/are-vpns-legal/)). What can cause trouble is not the law but the booking: some rates are only for residents, some sites enforce their own country rules, and a card from one country with an address in another can trigger checks.
+
+This is general information, not legal advice. Check the rules where you live and the conditions of the rate you book.
+
+## Where VPNs are banned or restricted
+From NordVPN's country guide, updated September 3, 2026:
+
+*Chart: VPN legal status by country per NordVPN's guide (September 2026). Laws change; check before you travel.*
+
+The same guide lists others as legal with caveats, including Türkiye, Iraq, the UAE, India, Egypt, Uganda, Saudi Arabia and Venezuela. It also notes that a VPN does not make illegal activities legal.
+
+## Legal vs allowed by the site
+Companies can still enforce their own country rules. In June 2024 Google emailed YouTube Premium members who had signed up through a foreign VPN: "We believe that you did not enter your actual country of residence when you signed up," and asked them to resubscribe or lose their benefits ([The Star, June 23, 2024](https://www.thestar.com.my/tech/tech-news/2024/06/23/youtube-we-will-cancel-premium-subscriptions-bought-via-foreign-vpn)).
+
+Hotels can do the same with rates meant for residents. A Phocuswright analyst told USA Today that some deals may require a home address or driving licence from that country ([USA Today test, January 2026](https://www.yahoo.com/lifestyle/articles/tried-using-vpn-score-cheaper-100134258.html)), and hotel fraud tools score bookings higher risk when the IP country and billing country differ ([Greip, April 2026](https://greip.io/blog/The-Hoteliers-Playbook-for-Fighting-Booking-Fraud-Using-IP-Geolocation-to-Stop-Rate-Abuse-and-Fake-Reviews-364)).
+
+*Chart: For most travellers the law is fine; the rate conditions are what matter.*
+
+## What about flights?
+The same applies: in most countries it is legal to search flights through a VPN. Whether it saves money is another question. [Tom's Guide test, updated January 2026](https://www.tomsguide.com/computing/vpns/can-a-vpn-get-cheaper-flights) tried 10 server countries on three routes and found a best saving of $9. More in [does a VPN get you cheaper flights?](https://arbitrica.com/blog/vpn-cheaper-flights.html).
+
+## A route without a VPN
+Arbitrica, a personal AI agent, searches the same hotel from 195 countries at the checkout, checks the room, conditions and full total, and prepares the booking with the seller that has the lowest price in the world. You pay on that seller's normal checkout, and the confirmation comes from them. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+## Frequently asked questions
+
+### Is it legal to use a VPN to book flights?
+In most countries, yes. VPNs are legal in the US, Canada, the UK and most of Europe and Latin America. They are banned or restricted in a few countries such as Belarus, Turkmenistan, North Korea, China, Russia and Iran.
+
+### Is it legal to use a VPN to book a hotel?
+In most countries, yes. What matters more is the rate: some hotel rates are only for residents and may require a local address or ID.
+
+### Can I get in trouble for using a VPN to book?
+Legal trouble is unlikely where VPNs are legal. A site can still apply its own terms or rate conditions, for example cancelling a resident-only rate if you do not qualify.
+
+### Is it illegal to use a VPN in the UK or US?
+No. VPNs are legal in both, according to NordVPN's country guide updated September 2026.
+
+### Can I find prices from other countries without a VPN?
+Yes. Arbitrica searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price it finds, so you do not need to change your location.
+
+---
+
+# Same hotel, different price: why one room has many prices
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/same-hotel-different-price.html
+
+## Key takeaways
+- One hotel room is sold through many sites and markets, each with its own rate, allotment and promotion, so many prices exist at the same time.
+- Country matters most: Booking prices were up to 27% higher from Switzerland, and an Istanbul hotel was 33.6% less from India than from the UK.
+- Site, member and app rates, taxes display, currency and dynamic pricing add more differences.
+- Arbitrica searches the same hotel from 195 countries across sites and finds the lowest price in the world. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+## Short answer
+The same hotel room has different prices because it is sold through many sites and in many markets at once, and each can carry its own rate. Hotels set rates and promotions by country and channel, sites add their own member and app deals, and dynamic pricing moves everything during the day. So the price you see depends on where you search from, which site and device you use, and when.
+
+Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+## The six reasons the same room has different prices
+- **Country or market.** Different countries get different inventory, local rates and promotions. Booking says hotels have "full control over their prices including discounts" ([IamExpat on the NordVPN and 20 Minuten findings](https://www.iamexpat.ch/lifestyle/lifestyle-news/bookingcom-criticised-charging-travellers-from-switzerland-more)).
+- **Site or channel.** The hotel's own site, Booking, Expedia, Agoda and wholesalers each sell from their own allotment and deals.
+- **Member, app and mobile rates.** Logged-in, loyalty and app-only prices are lower on some sites ([The Traveler, June 30, 2026](https://www.thetraveler.org/why-agodas-prices-can-look-shockingly-different-from-other-sites/)).
+- **Taxes and fees display.** Some markets show totals; others add taxes and fees at checkout.
+- **Currency.** Conversion and currency fees can add 3-5% ([CardRatings, citing Visa, August 2026](https://www.cardratings.com/travel/using-a-credit-card-abroad-dcc-fees.html)).
+- **Time.** Dynamic pricing changes rates with demand, sometimes several times a day ([how hotel dynamic pricing works](https://arbitrica.com/blog/how-hotel-dynamic-pricing-works.html)).
+
+*Chart: Six sources of different prices for one hotel room.*
+
+## Real examples with numbers
+In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.
+
+*Chart: How much lower the same hotel was from another country in Arbitrica's check and published tests.*
+
+Across 1,000 hotels searched from 100 countries, about 80% of countries showed a lower price than the traveller's own, with a typical gap of 20-40%. More in [why Booking prices differ by country](https://arbitrica.com/blog/booking-com-prices-different-countries.html) and the [guide to hidden hotel prices](https://arbitrica.com/blog/hidden-hotel-prices-guide.html).
+
+## How to find the lowest of the prices
+- Fix the exact hotel, room, dates, guests and cancellation terms first.
+- Check the final total with taxes and fees, not the nightly rate.
+- Look beyond your own country: by hand that means a VPN, one country at a time ([what the tests found](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html)).
+- Or let Arbitrica do it at the checkout: it searches 195 countries across sites and prepares the booking at the lowest price in the world.
+
+## Frequently asked questions
+
+### Why is the same hotel room different prices?
+Because the room is sold through many sites and markets, each with its own rate and promotion, and dynamic pricing changes them over time. Member rates, taxes display and currency add more differences.
+
+### Why are hotel prices different in different countries?
+Hotels and booking sites set rates, allotments and promotions market by market. In Arbitrica's check, an Istanbul hotel cost $1,066 from the UK and $708 from India for the same dates.
+
+### Why are hotel prices different on different sites?
+Each site sells from its own allotment and deals, adds its own member or app discounts, and may display taxes and fees differently. Always check the final total.
+
+### Is the hotel's own website always the lowest?
+No. It is sometimes lowest, especially with member rates, but other sites and other countries can be lower for the same room.
+
+### How do I find the lowest price for the same hotel?
+Check the final total across sites and countries. Arbitrica does this at the checkout from 195 countries and prepares the booking at the lowest price it finds.
+
+---
+
+# Should you pay for a hotel in local currency?
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/pay-hotel-in-local-currency.html
+
+## Key takeaways
+- Paying in your home currency usually triggers dynamic currency conversion. Visa says the markup can be as much as 3-5%.
+- Paying in the local currency lets your card network convert at a more competitive rate; a card with no foreign transaction fee keeps it lowest.
+- On a $1,000 stay, 3-5% is $30-50. The gap between countries for the same hotel is often far larger: 20-40% in Arbitrica's research.
+- Arbitrica checks the final total with all taxes and fees from 195 countries and prepares the booking at the lowest price in the world.
+
+## Short answer
+Yes, in most cases pay for a hotel in the local currency. When you choose your home currency at the front desk or on a payment page, the hotel's payment provider converts it at its own rate, a practice called dynamic currency conversion. CardRatings, citing Visa, says this can add as much as 3-5% ([CardRatings, citing Visa, August 2026](https://www.cardratings.com/travel/using-a-credit-card-abroad-dcc-fees.html)). Paying in local currency lets your card network convert at a more competitive rate.
+
+Currency is the small saving. The big one is the price itself: the same hotel is often 20-40% lower from another country. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+## What dynamic currency conversion costs
+CardRatings' examples: a 3% markup adds about $21 to a sample vacation day and over $140 across a week; on a 100-euro purchase the DCC rate cost about $1.92 more than the standard rate.
+
+*Chart: Illustration on a $1,000 stay using Visa's 3-5% DCC range, next to a 25% gap, the middle of the 20-40% range in Arbitrica's research.*
+
+## When to choose local or home currency
+*Chart: General guidance from CardRatings and the Airbnb Help Center; your card terms decide the exact cost.*
+
+- At the hotel: decline DCC when you give your card for the reservation and again at checkout ([CardRatings, citing Visa, August 2026](https://www.cardratings.com/travel/using-a-credit-card-abroad-dcc-fees.html)).
+- On booking sites: some show prices in your currency but charge in the hotel's, others convert for you. Compare the final amounts in one currency. Agoda reports of 3-5% currency markups are covered in [Agoda VPN](https://arbitrica.com/blog/agoda-vpn.html).
+- On Airbnb: paying in a currency other than the listing's adds to the guest fee ([Airbnb Help Center](https://sq.airbnb.com/help/article/1857/what-are-airbnb-service-fees)).
+
+## The bigger saving most people miss
+Choosing the right currency saves a few percent. Choosing the right market can save far more. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates. Arbitrica looks for that gap at the checkout: it searches the same hotel from 195 countries, checks the final total includes all taxes and fees, and prepares the booking at the lowest price it finds. See [why the same hotel has different prices](https://arbitrica.com/blog/same-hotel-different-price.html).
+
+## Frequently asked questions
+
+### Is it better to pay a hotel in local currency?
+Usually, yes. Paying in your home currency lets the hotel's processor convert at its own rate, which Visa says can add as much as 3-5%. Local currency lets your card network convert.
+
+### Is it cheaper to pay in local currency or home currency?
+Local currency is usually less, especially with a card that has no foreign transaction fee. Dynamic currency conversion often costs more than a typical 3% card fee.
+
+### Should I pay Hotels.com or Booking in local currency?
+Check the final total in both currencies before you pay; sites convert differently. At the hotel itself, decline dynamic currency conversion.
+
+### What is dynamic currency conversion at a hotel?
+It is when the hotel's payment provider converts your bill into your home currency at its own rate, often with a markup and sometimes a separate fee.
+
+### What saves more than the currency choice?
+Finding a lower price for the same hotel in another market. In Arbitrica's research the typical gap was 20-40%; Arbitrica searches 195 countries at the checkout.
+
+---
+
+# Does a VPN get you cheaper flights? What 3 tests found
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/vpn-cheaper-flights.html
+
+## Key takeaways
+- Tom's Guide searched three routes from 10 VPN countries on Skyscanner and Kayak; the best personal saving was $9.
+- USA Today found Newark to London at $583 from both the US and UK versions, and Newark to Cancun $411.42 from Mexico vs $413 from the US.
+- Skyscanner told Tom's Guide that flight prices are affected by sales numbers rather than search volumes.
+- Country gaps are far bigger for hotels: 20-40% in Arbitrica's research. Arbitrica's agents work on hotels, online shopping and event tickets.
+
+## Short answer
+Rarely, and by little. The best-known tests found savings of a few dollars. Tom's Guide searched three routes from 10 VPN countries and saved $9 at most ([Tom's Guide test, updated January 2026](https://www.tomsguide.com/computing/vpns/can-a-vpn-get-cheaper-flights)); USA Today found differences of $0 to $2 ([USA Today test, January 2026](https://www.yahoo.com/lifestyle/articles/tried-using-vpn-score-cheaper-100134258.html)). Skyscanner says flight prices are driven by sales numbers rather than search volumes.
+
+Where your location does change the price a lot is hotels, online purchases and event tickets, and Arbitrica's agents work on those. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+
+## What the flight tests found
+*Chart: Spread between the highest and lowest price seen across 10 VPN countries plus no VPN, and the best saving against the UK baseline, per Tom's Guide.*
+
+| Route | Home version | VPN version | Difference |
+|---|---|---|---|
+| Newark to London (Iberia, via Madrid) | $583 (US) | just under $583 (UK) | under $1 |
+| Newark to Cancun (United, via Houston) | $413 (US) | $411.42 (Mexico) | $1.58 |
+| London to New York (Tom's Guide) | $529-532 (UK) | up to $566 (Brazil) | VPN higher |
+| Madrid to Athens (Tom's Guide) | $305-308 (UK) | $298 (Vietnam) | $7-10 lower |
+The Tom's Guide author concluded that a VPN would not save him money on flights, and noted most non-UK servers raised prices on the London to New York route.
+
+## Why flights barely move with your location
+Airfares are mostly set by fare buckets that sell out: as seats go, the next, higher fare opens. Skyscanner told Tom's Guide that flight prices are affected by sales numbers rather than search volumes. Point-of-sale differences exist, but in the tests they were small.
+
+*Chart: Country gaps are small for flights and large for hotels.*
+
+## What does lower a flight price
+- Flexible dates: moving a day or two often beats any location switch.
+- Nearby airports and one-stop routes, as in USA Today's Iberia and United examples.
+- Booking early for peak dates, before low fare buckets sell out.
+- Price alerts on Google Flights, Skyscanner or Kayak.
+
+For the hotel at the other end, the country you search from matters a lot. See [does a VPN make hotels cheaper?](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html) and [using a VPN to save money](https://arbitrica.com/blog/vpn-to-save-money.html).
+
+## Frequently asked questions
+
+### Does a VPN get you cheaper flights?
+Rarely. Tom's Guide tried 10 VPN countries on three routes and saved $9 at best; USA Today found differences of $0 to $2.
+
+### What do people on Reddit say about VPNs for cheaper flights?
+Threads such as r/travel's "Using VPN to find cheaper flights" discuss the trick; the published tests found differences of $0 to $9, and some countries showed higher fares.
+
+### Which VPN country gives the cheapest flights?
+No country won consistently. In Tom's Guide's test Vietnam, Romania and Germany each produced the lowest fare on one route, and Brazil the highest on two.
+
+### Is it legal to use a VPN to book flights?
+In most countries, yes. VPNs are legal in the US, UK, Canada and most of Europe. See our page on VPN booking and the law.
+
+### Where does searching from another country save more?
+Hotels, online shopping and event tickets. In Arbitrica's research the same hotel was lower from about 80% of countries, typically by 20-40%.
+
+---
+
+# Using a VPN to save money: hotels, flights, car rental, tickets and subscriptions
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/vpn-to-save-money.html
+
+## Key takeaways
+- Hotels: 7.9-26% lower on some hotels in NordVPN's studies, almost nothing in USA Today's test.
+- Car rental: one Edinburgh rental was 41% lower in NordVPN's study; Hertz in USA Today's test was $7-28 higher through a VPN.
+- Flights: $9 at best across 10 countries in Tom's Guide's test. Subscriptions: Google cancelled YouTube Premium plans bought through foreign VPNs in 2024.
+- Arbitrica does the country search for you on hotels, online shopping and event tickets: 195 countries at the checkout, the lowest price in the world, prepared for you to pay.
+
+## Short answer
+A VPN can save money where prices are set by market, mainly hotels, some car rentals and some event tickets, and rarely on flights. The savings in published tests range from nothing to about a quarter of the price, and some uses break the seller's rules. The table below sums up what each category showed.
+
+For hotels, online shopping and event tickets, Arbitrica does the market search for you: it searches the same item from 195 countries at the checkout, checks it is identical with all taxes and fees, and prepares the purchase at the lowest price in the world.
+
+## What a VPN saved, by category
+| Category | Best result in tests | Catch |
+|---|---|---|
+| Hotels | 26% on a Bali resort ([NordVPN UK study, April 2024](https://nordvpn.com/blog/price-difference-research-uk/)) | USA Today found $3-4 differences, some higher |
+| Car rental | 41%: Ford Galaxy, Edinburgh Airport, 7 days, $1,248.56 to $736.50 ([NordVPN US study, April 2024](https://nordvpn.com/blog/price-difference-research-us/)) | Hertz was $7-28 higher through a VPN in USA Today's test |
+| Flights | $9 on LAX to San Francisco ([Tom's Guide test, updated January 2026](https://www.tomsguide.com/computing/vpns/can-a-vpn-get-cheaper-flights)) | Most routes no saving |
+| Concert tickets | No test figures published | Claims only ([TechRadar, August 30, 2024](https://www.techradar.com/vpn/buying-concert-tickets-here-are-4-reasons-why-you-need-a-vpn)) |
+| Subscriptions | Regional prices exist | Google cancelled VPN-bought YouTube Premium ([The Star, June 23, 2024](https://www.thestar.com.my/tech/tech-news/2024/06/23/youtube-we-will-cancel-premium-subscriptions-bought-via-foreign-vpn)) |
+
+*Chart: Single best results from NordVPN's studies (April 2024) and Tom's Guide (2025-2026). Typical results were much smaller.*
+
+## Hotels: where the gap is real but random
+Hotels set rates and promotions by market, so the country you search from can change the price. The problem is picking the country. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates. Full details: [does a VPN make hotels cheaper?](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html), [the Booking.com VPN trick](https://arbitrica.com/blog/booking-com-vpn-trick.html) and [best VPN country for cheaper hotels](https://arbitrica.com/blog/best-vpn-country-for-cheaper-hotels.html).
+
+## Car rental
+NordVPN's US study reported a 7-day Ford Galaxy at Edinburgh Airport for $1,248.56 from the US and $736.50 through a UK server, and a Hertz Polestar 2 in Italy 11.4% lower ([NordVPN US study, April 2024](https://nordvpn.com/blog/price-difference-research-us/)). USA Today's Hertz checks went the other way: a Heathrow small car was about $229 from the UK site vs $222 from the US, and $273 vs $245 through Turkey ([USA Today test, January 2026](https://www.yahoo.com/lifestyle/articles/tried-using-vpn-score-cheaper-100134258.html)). Check what insurance and mileage each rate includes before you book.
+
+## Concert and event tickets
+TechRadar argues a VPN can get around regional ticket pricing, but gives no test figures ([TechRadar, August 30, 2024](https://www.techradar.com/vpn/buying-concert-tickets-here-are-4-reasons-why-you-need-a-vpn)). Ticket prices do vary across resale sites and markets, which is where Arbitrica works: on [event tickets](https://arbitrica.com/events.html) it searches the same event, section and row from 195 countries and across sellers at the checkout. Research demonstrated an average of $107 per event ticket purchase with Arbitrica.
+
+## Subscriptions and apps
+Streaming, music and game subscriptions have regional prices, and people search for VPN tricks to get them. Sellers enforce country of residence: in June 2024 Google told YouTube Premium members who signed up through a foreign VPN, "We believe that you did not enter your actual country of residence when you signed up," and asked them to resubscribe ([The Star, June 23, 2024](https://www.thestar.com.my/tech/tech-news/2024/06/23/youtube-we-will-cancel-premium-subscriptions-bought-via-foreign-vpn)). Other services may enforce country of residence the same way, so check their terms.
+
+## Flights
+Airfares barely move with location; see [does a VPN get you cheaper flights?](https://arbitrica.com/blog/vpn-cheaper-flights.html).
+
+*Chart: Arbitrica does the market search for hotels, online shopping and event tickets at the checkout.*
+
+## Frequently asked questions
+
+### Can a VPN save you money?
+Sometimes. Published tests found up to 26% on individual hotels and 41% on one car rental, but many searches showed no change and flights rarely moved.
+
+### Can a VPN get cheaper car rental?
+Sometimes. NordVPN's study found a 41% lower price on one Edinburgh rental, while USA Today's Hertz checks were higher through a VPN. Check what insurance each local rate includes.
+
+### Can a VPN get cheaper concert tickets?
+Claims exist but no published tests show figures. Arbitrica searches the same event tickets from 195 countries and across sellers at the checkout.
+
+### Is using a VPN for cheaper subscriptions allowed?
+Often not. Google cancelled YouTube Premium memberships bought through foreign VPNs in 2024 because the country of residence did not match.
+
+### What is the easiest way to get the lowest price from another country?
+For hotels, online shopping and event tickets, Arbitrica searches the same item from 195 countries at the checkout and prepares the purchase at the lowest price in the world.
+
+---
+
+# Arbitrica: like Meta's Muse, built for the best price on anything
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/arbitrica-muse-for-best-price.html
+
+## Key takeaways
+- Muse, Meta's personal AI agent, books hotels through connected partners such as Expedia, Hotels.com and Agoda, at the price that partner shows you.
+- Arbitrica is a personal AI agent built for one job: the lowest price in the world for the hotel, product or tickets you are buying.
+- Arbitrica uses a patented approach to finding the lowest price: it searches the same item from 195 countries at once, across the sites that sell it, and checks that the item and the final total are identical before it shows you a price.
+- In Arbitrica's 2026 test of 1,000 international hotels, Arbitrica found a lower total than Muse in 90% of cases and was never higher; on average 5% of the total price lower.
+
+## Short answer
+Think of Arbitrica as Muse for the best price. Muse is a general personal agent: it plans, picks and books, using a partner's price. Arbitrica is a personal AI agent that does one thing very well: when you are about to pay for a hotel, a product or event tickets, it finds the lowest price in the world for exactly that item and prepares the purchase so you only review and pay.
+
+Arbitrica uses a patented approach to finding the lowest price: it searches the same item from 195 countries at once, across the sites that sell it, and checks that the item and the final total are identical before it shows you a price. Meta has not published any Muse feature that searches the same hotel from other countries (checked on November 8, 2026).
+
+## The difference in one picture
+*Chart: Muse books at a partner's price; Arbitrica searches 195 countries for the lowest price in the world.*
+
+Muse facts are from our [Muse alternative page](https://arbitrica.com/blog/muse-alternative.html), checked against Skift, Conduit and the Sanbi tracker on November 8, 2026.
+
+## What our 2026 test found
+In Arbitrica's 2026 test of 1,000 international hotels, across dates that included Christmas, weekends and workdays, Arbitrica found a lower total than Muse in 90% of cases and the same total in the rest. It was never higher. On average the price Arbitrica found was 5% of the total hotel price lower.
+
+*Chart: Arbitrica's 2026 test of 1,000 international hotels on dates including Christmas, weekends and workdays: lower than Muse in 90% of cases, never higher, 5% of the total price lower on average.*
+
+The reason is the method, not luck: Muse books at the price its partner or the site shows in your market, while Arbitrica's patented approach searches the same hotel from 195 countries across sites and takes the lowest identical offer.
+
+## Why searching other countries matters
+The same hotel is often priced differently depending on where the search comes from, because rates, allotments and promotions are set market by market. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.
+
+*Chart: In research across 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveller's own. The typical gap was 20-40%.*
+
+## The best price on anything, not only hotels
+Arbitrica's agents work at the checkout for hotels, online shopping such as [Amazon](https://arbitrica.com/amazon.html) and [event tickets](https://arbitrica.com/events.html). Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica. After you buy, its approach keeps searching until the cancellation or return window ends, and confirms any new booking before the original is cancelled. More on [how Arbitrica works](https://arbitrica.com/how-it-works.html).
+
+## Which to use
+- **Use Muse** to plan a trip and book inside Meta's apps when the partner's price is fine.
+- **Use Arbitrica** when you know what you want and want the lowest price in the world for it.
+
+## Frequently asked questions
+
+### Is Arbitrica like Meta's Muse?
+Both are personal AI agents. Muse plans and books through partners at their price; Arbitrica is built for price: it searches the same item from 195 countries and prepares the purchase at the lowest price in the world.
+
+### Does Arbitrica find lower hotel prices than Muse?
+Yes, in our 2026 test of 1,000 international hotels: Arbitrica was lower in 90% of cases, the same in the rest and never higher, by 5% of the total price on average.
+
+### Does Muse find the lowest hotel price?
+Muse books through connected partners such as Expedia, Hotels.com and Agoda at the price they show. Meta has not described Muse searching the same hotel from other countries.
+
+### What makes Arbitrica's search different?
+Arbitrica uses a patented approach that searches the same item from 195 countries at once, across sites, and checks the item and final total are identical before showing a price.
+
+### Does Arbitrica work beyond hotels?
+Yes. Its agents work on hotels, online shopping such as Amazon, and event tickets.
+
+### Can I use Muse and Arbitrica together?
+Yes. Plan with Muse, then let Arbitrica find the lowest price at the checkout for the hotel, product or tickets you choose.
+
+---
+
+# Arbitrica: like Instinct, built for the best price on anything
+
+Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/arbitrica-instinct-for-best-price.html
+
+## Key takeaways
+- Instinct is an invite-only AI agent you text on iMessage or WhatsApp; it buys through accounts you connect, at the price the site shows you.
+- Arbitrica is a personal AI agent built for the price of what you are buying: hotels, online shopping and event tickets.
+- Arbitrica uses a patented approach to finding the lowest price: it searches the same item from 195 countries at once, across the sites that sell it, and checks that the item and the final total are identical before it shows you a price.
+- In Arbitrica's 2026 test of 1,000 international hotels, Arbitrica found a lower total than Instinct in 90% of cases and was never higher; on average 5% of the total price lower.
+
+## Short answer
+Think of Arbitrica as Instinct for the best price. Instinct is a general agent: you text it and it gets things done through your accounts. Arbitrica is a personal AI agent that appears when you are about to pay and finds the lowest price in the world for exactly what you are buying, then prepares the purchase so you only review and pay.
+
+Arbitrica uses a patented approach to finding the lowest price: it searches the same item from 195 countries at once, across the sites that sell it, and checks that the item and the final total are identical before it shows you a price. Instinct has not published any feature that searches the same hotel or product from other countries (checked on November 8, 2026).
+
+## The difference in one picture
+*Chart: Instinct completes tasks at the site's price; Arbitrica searches 195 countries for the lowest price in the world.*
+
+Instinct facts are from our [Instinct alternative page](https://arbitrica.com/blog/instinct-alternative.html), checked against TechCrunch and the eesel review on November 8, 2026.
+
+## What our 2026 test found
+In Arbitrica's 2026 test of 1,000 international hotels, across dates that included Christmas, weekends and workdays, Arbitrica found a lower total than Instinct in 90% of cases and the same total in the rest. It was never higher. On average the price Arbitrica found was 5% of the total hotel price lower.
+
+*Chart: Arbitrica's 2026 test of 1,000 international hotels on dates including Christmas, weekends and workdays: lower than Instinct in 90% of cases, never higher, 5% of the total price lower on average.*
+
+The reason is the method, not luck: Instinct books at the price its partner or the site shows in your market, while Arbitrica's patented approach searches the same hotel from 195 countries across sites and takes the lowest identical offer.
+
+## Why searching other countries matters
+Different countries get different inventory, sales channels, local rates and promotions, so the same item often has a lower price elsewhere. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.
+
+*Chart: The same hotel and dates were 33.6% less searched from India than from the UK in Arbitrica's price check.*
+
+## The best price on anything you buy online
+Arbitrica's agents work at the checkout for hotels, online shopping such as [Amazon](https://arbitrica.com/amazon.html) and [event tickets](https://arbitrica.com/events.html). Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+## Which to use
+- **Use Instinct** for errands and bookings you want done by text, when the site's price is fine.
+- **Use Arbitrica** for any hotel, product or ticket where you want the lowest price in the world before you pay.
+
+## Frequently asked questions
+
+### Is Arbitrica like Instinct?
+Both are AI agents that act for you. Instinct does tasks you text it at the site's price; Arbitrica is built for price and searches the same item from 195 countries.
+
+### Does Arbitrica find lower hotel prices than Instinct?
+Yes, in our 2026 test of 1,000 international hotels: Arbitrica was lower in 90% of cases, the same in the rest and never higher, by 5% of the total price on average.
+
+### Does Instinct find the lowest price?
+Instinct buys where you ask or where it finds the item, at the price that site shows. It has not published a feature that searches other countries.
+
+### What makes Arbitrica's search different?
+Arbitrica uses a patented approach that searches the same item from 195 countries at once, across sites, and checks the item and final total match before showing a price.
+
+### Is Instinct available to everyone?
+Instinct is an invite-only beta with a waitlist at app.instinct.com, as of November 8, 2026.
+
+### Can I use Instinct and Arbitrica together?
+Yes. Let Instinct handle tasks, and let Arbitrica find the lowest price at the checkout for what you buy.
