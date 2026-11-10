@@ -49,6 +49,8 @@ Unlike the VPN trick, it does not stop at Booking: it looks for the lowest price
 
 *Chart: The Booking VPN trick checks one market at a time on one site. Arbitrica checks 195 countries across sites.*
 
+Thinking of NordVPN's PriceMice for this? See [Is PriceMice legit? PriceMice review: does it work?](https://arbitrica.com/blog/is-pricemice-legit.html)
+
 ## Frequently asked questions
 
 ### Is Booking.com cheaper in different countries?

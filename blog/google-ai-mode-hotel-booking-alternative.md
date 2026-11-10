@@ -66,6 +66,8 @@ AI Mode facts checked on November 8, 2026 against Google's announcement, Skift, 
 
 More on how AI agents handle price: [AI hotel booking: what AI agents actually do for price](https://arbitrica.com/blog/ai-hotel-booking.html) and [the AI agent that finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html). Other agents: [ChatGPT](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html), [Meta's Muse](https://arbitrica.com/blog/muse-alternative.html) and [Instinct](https://arbitrica.com/blog/instinct-alternative.html).
 
+Booking or shopping in Perplexity instead? See [Alternative to Perplexity for finding the best price](https://arbitrica.com/blog/perplexity-alternative.html)
+
 ## Frequently asked questions
 
 ### Can Google AI Mode find the lowest hotel price?

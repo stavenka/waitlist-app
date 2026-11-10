@@ -63,6 +63,8 @@ So of these six, only Arbitrica does the PriceMice check on every booking site. 
 
 More on Underbook: [Underbook alternative that checks other countries](https://arbitrica.com/blog/underbook-alternative.html).
 
+Wondering whether PriceMice itself can be trusted? See [Is PriceMice legit? PriceMice review: does it work?](https://arbitrica.com/blog/is-pricemice-legit.html)
+
 ## Frequently asked questions
 
 ### Is there a tool that checks hotel prices from other countries on Expedia and Agoda, like PriceMice does on Booking?

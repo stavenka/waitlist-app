@@ -43,6 +43,8 @@ More: [AI hotel booking: what AI agents actually do for price](https://arbitrica
 
 Booking in Google's chat instead? See [Google AI Mode hotel booking: can it find the lowest hotel price?](https://arbitrica.com/blog/google-ai-mode-hotel-booking-alternative.html)
 
+Asking Perplexity to book or buy instead? See [Alternative to Perplexity for finding the best price](https://arbitrica.com/blog/perplexity-alternative.html)
+
 ## Frequently asked questions
 
 ### Can ChatGPT find cheaper hotels?
