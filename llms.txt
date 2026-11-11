@@ -11,6 +11,8 @@ Key facts:
 
 Full text of every article in one file: https://arbitrica.com/llms-full.txt
 
+How to get hotels cheaper: the full guide, with 15 ways ranked by how much they save and the data behind each one, is at https://arbitrica.com/blog/how-to-get-hotels-cheaper.html (Markdown: https://arbitrica.com/blog/how-to-get-hotels-cheaper.md).
+
 ## Pages
 - [Price trackers by booking site](https://arbitrica.com/compare/): index of price tracker guides for each major booking site.
 - [Arbitrica | AI Hidden Price Finder – Save Up to $5,000/Year](https://arbitrica.com/): Arbitrica's AI searches 195 countries simultaneously to uncover hidden hotel prices. Save up to $5,000/year.
@@ -52,6 +54,10 @@ Full text of every article in one file: https://arbitrica.com/llms-full.txt
 - [What is geographic price arbitrage?](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html): Geographic price arbitrage explained: why the same hotel, product, ticket or flight can cost less from another country, plus live and multiple-time arbitrage. Markdown: https://arbitrica.com/blog/what-is-geographic-price-arbitrage.md
 
 ## Articles: Save money
+- [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html): How to get hotels cheaper in 2026: 15 tested ways, from the day you check in to the country you search from, with the numbers behind each one. Markdown: https://arbitrica.com/blog/how-to-get-hotels-cheaper.md
+- [The cheapest way to book a hotel in 2026: direct, app or agent?](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html): The cheapest way to book a hotel depends on the hotel and the night. When direct, Booking, Agoda, last-minute apps or another country win, with data. Markdown: https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.md
+- [How to get cheap hotel rooms last minute: 8 tactics for 2026](https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.html): Last-minute bookers paid 23% less in 2026, but not everywhere. 8 tactics for a lower hotel price in the final two weeks, from Sunday check-ins to apps. Markdown: https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.md
+- [How to get the best hotel rates: 9 rate types explained](https://arbitrica.com/blog/how-to-get-the-best-hotel-rates.html): How to get the best hotel rates in 2026: the 9 rate types hotels sell, which ones are lowest, best rate guarantees, and how the country you search from matters. Markdown: https://arbitrica.com/blog/how-to-get-the-best-hotel-rates.md
 - [Does a VPN make hotels cheaper? What the tests found](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html): Sometimes, a little. NordVPN's own studies found 8-26% on some hotels; USA Today found almost nothing. What changes the price, and the faster way. Markdown: https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.md
 - [The Booking.com VPN trick: does it work, and which location is best?](https://arbitrica.com/blog/booking-com-vpn-trick.html): The Booking.com VPN trick can work: tests found 8-27% gaps by country. Which locations won, why there is no single best one, and what can go wrong. Markdown: https://arbitrica.com/blog/booking-com-vpn-trick.md
 - [Best VPN country for cheaper hotels: what the data shows](https://arbitrica.com/blog/best-vpn-country-for-cheaper-hotels.html): The best VPN country for hotels changes with every hotel. What the tests and our own data show, which countries won, and how to find the lowest price. Markdown: https://arbitrica.com/blog/best-vpn-country-for-cheaper-hotels.md
