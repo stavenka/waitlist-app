@@ -47,6 +47,8 @@ See also [does a VPN make hotels cheaper?](https://arbitrica.com/blog/does-vpn-m
 
 *Chart: Arbitrica checks the full total from 195 countries; a VPN checks one Agoda market at a time.*
 
+Related: [The cheapest way to book a hotel in 2026: direct, app or agent?](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html).
+
 ## Frequently asked questions
 
 ### Is Agoda cheaper with a VPN?

@@ -110,7 +110,7 @@ The approach is not limited to hotels. Flights, car rentals, event tickets, onli
 
 Hidden hotel prices are real, bookable rates. Finding them takes either hours of manual searching or an agent that does it for you. Before your next booking, remember that the price you see from your own country is one price among many, and compare like for like, with all taxes and fees, before you pay. For the wider picture, read [what geographic price arbitrage is](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html).
 
-Related: [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html).
+Related: [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions
 

@@ -118,6 +118,8 @@ The same applies to Hotels.com, which shared the same guarantee and ended it on 
 
 The same thinking applies to companies booking for teams. A travel manager or operations manager who books refundable rates for a trade show and keeps repricing them until the deadline turns price movement into a budget saving. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
+Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [The cheapest way to book a hotel in 2026: direct, app or agent?](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html).
+
 ## Frequently asked questions
 
 ### Is there a tool that gets me the difference when my Expedia or Booking price drops?

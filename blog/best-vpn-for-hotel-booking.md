@@ -41,6 +41,8 @@ A VPN is a general privacy tool that people bend into a price-search tool. Arbit
 
 *Chart: Even the largest VPN covers 135 countries one at a time; Arbitrica searches 195 in one search at checkout.*
 
+Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
+
 ## Frequently asked questions
 
 ### What is the best VPN for hotel booking?

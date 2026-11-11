@@ -138,6 +138,8 @@ For travel managers and operations managers, rebooking is a budget lever. Group 
 
 - You saved the cancellation confirmation and checked the refund arrived.
 
+Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
+
 ## Frequently asked questions
 
 ### Can you get a lower price after booking a hotel?

@@ -47,6 +47,8 @@ It also works the other way: in Arbitrica's checks the hotel's own website was l
 
 Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout, checks the room and total match, and prepares the booking at the lowest price on Earth. You review and pay.
 
+Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [The cheapest way to book a hotel in 2026: direct, app or agent?](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html), [How to get the best hotel rates: 9 rate types explained](https://arbitrica.com/blog/how-to-get-the-best-hotel-rates.html).
+
 ## Frequently asked questions
 
 ### Is there a tool that checks whether booking direct or through Booking or Expedia is lower?

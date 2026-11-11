@@ -94,6 +94,8 @@ If you remember one thing, make it this: the best time to book is a moment you c
 
 The same thinking works beyond hotels. Flights, car rentals, event tickets and many online purchases have prices that move over time and differ by country. Research demonstrated that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
+Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [How to get cheap hotel rooms last minute: 8 tactics for 2026](https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.html).
+
 ## Frequently asked questions
 
 ### What is the cheapest day of the week to book a hotel?

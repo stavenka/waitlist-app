@@ -60,6 +60,8 @@ In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-coun
 
 See also: [VPN vs. Arbitrica for hotel booking](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html) and [Booking.com prices by country with a VPN, explained](https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html).
 
+Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
+
 ## Frequently asked questions
 
 ### Does changing your VPN make hotels cheaper?

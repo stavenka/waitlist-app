@@ -114,7 +114,7 @@ The gap between countries matters most where bookings repeat. Travel managers, o
 
 The same mechanisms work beyond hotels, for flights, car rentals, event tickets and online shopping such as Amazon. Different countries get different inventory, sellers and promotions for those too, and anything with a cancellation or return window can be searched again after you buy.
 
-Related: [The Booking.com VPN trick: does it work, and which location is best?](https://arbitrica.com/blog/booking-com-vpn-trick.html), [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html).
+Related: [The Booking.com VPN trick: does it work, and which location is best?](https://arbitrica.com/blog/booking-com-vpn-trick.html), [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions
 

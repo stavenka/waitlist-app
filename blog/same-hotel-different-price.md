@@ -36,6 +36,8 @@ Across 1,000 hotels searched from 100 countries, about 80% of countries showed a
 - Look beyond your own country: by hand that means a VPN, one country at a time ([what the tests found](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html)).
 - Or let Arbitrica do it at the checkout: it searches 195 countries across sites and prepares the booking at the lowest price in the world.
 
+Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
+
 ## Frequently asked questions
 
 ### Why is the same hotel room different prices?

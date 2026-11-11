@@ -98,7 +98,7 @@ Arbitrica also serves companies: teams traveling to trade shows and conferences,
 
 There is no single site with the lowest price. The best price depends on the hotel, the dates and which country you search from. The lowest result comes from searching the same hotel from many countries, booking a rate with free cancellation, and searching again after you book. Arbitrica does the searching from 195 countries for you and finds the lowest price on Earth for that hotel.
 
-Related: [Does a VPN make Airbnb cheaper? What changes and what does not](https://arbitrica.com/blog/airbnb-vpn.html), [Does a VPN get you cheaper flights? What 3 tests found](https://arbitrica.com/blog/vpn-cheaper-flights.html), [Using a VPN to save money: hotels, flights, car rental, tickets and subscriptions](https://arbitrica.com/blog/vpn-to-save-money.html).
+Related: [Does a VPN make Airbnb cheaper? What changes and what does not](https://arbitrica.com/blog/airbnb-vpn.html), [Does a VPN get you cheaper flights? What 3 tests found](https://arbitrica.com/blog/vpn-cheaper-flights.html), [Using a VPN to save money: hotels, flights, car rental, tickets and subscriptions](https://arbitrica.com/blog/vpn-to-save-money.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [The cheapest way to book a hotel in 2026: direct, app or agent?](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html).
 
 ## Frequently asked questions
 

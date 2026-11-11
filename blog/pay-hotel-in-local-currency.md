@@ -28,6 +28,8 @@ CardRatings' examples: a 3% markup adds about $21 to a sample vacation day and o
 ## The bigger saving most people miss
 Choosing the right currency saves a few percent. Choosing the right market can save far more. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates. Arbitrica looks for that gap at the checkout: it searches the same hotel from 195 countries, checks the final total includes all taxes and fees, and prepares the booking at the lowest price it finds. See [why the same hotel has different prices](https://arbitrica.com/blog/same-hotel-different-price.html).
 
+Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
+
 ## Frequently asked questions
 
 ### Is it better to pay a hotel in local currency?

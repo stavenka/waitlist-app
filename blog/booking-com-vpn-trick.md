@@ -51,6 +51,8 @@ Unlike the VPN trick, it does not stop at Booking: it looks for the lowest price
 
 Thinking of NordVPN's PriceMice for this? See [Is PriceMice legit? PriceMice review: does it work?](https://arbitrica.com/blog/is-pricemice-legit.html)
 
+Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
+
 ## Frequently asked questions
 
 ### Is Booking.com cheaper in different countries?

@@ -112,6 +112,8 @@ After you book a refundable rate, Arbitrica's approach repeats the search until 
 
 Follow this method and you will rarely overpay, whatever tools you use. The cheapest hotel rate online is almost never the first one you see. It is the lowest full total for the identical hotel, found by looking across sites, across time and from other countries.
 
+Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [How to get the best hotel rates: 9 rate types explained](https://arbitrica.com/blog/how-to-get-the-best-hotel-rates.html).
+
 ## Frequently asked questions
 
 ### Is there a tool that finds a lower price for a hotel I've already picked?
