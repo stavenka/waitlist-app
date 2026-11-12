@@ -21,6 +21,8 @@ Booking.com's price match guarantee is real but narrow. It covers a lower price 
 
 Yes. Booking.com's "We Price Match" promise says that if you find the same booking cheaper on another website, Booking.com will refund the difference. The lower price has to be for the same hotel and the same dates. It also has to be for the same room type, with the same cancellation and booking conditions, and it has to be publicly bookable. Claims go through Booking.com customer service. Booking.com's customer terms (version dated August 25, 2025, checked November 2, 2026) place the promise under accommodation bookings, ask you to contact Booking.com after booking, say the other offer must still be online and available when Booking.com checks it, and exclude claims on bookings you have cancelled. Consumer guides such as NerdWallet (May 2026) report that claims are accepted until 24 hours before check-in, and that offers labelled "Partner offer" and rates that need a loyalty login do not qualify. File as soon as you see the lower price, because it may be gone by the time it is checked.
 
+A price match claim is one of 15 ways in our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), and not the one with the biggest gaps.
+
 ## How to claim Booking.com's price match
 
 Find the lower total price on a public site, document it, and send it to Booking.com customer service before the deadline.

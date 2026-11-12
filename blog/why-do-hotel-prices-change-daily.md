@@ -22,6 +22,8 @@ This article explains why hotel prices change daily, what a hotel pricing algori
 
 A hotel has a fixed number of nights to sell, and an unsold night cannot be stored and sold later. So hotels price each night separately and adjust that price as their picture of demand changes. Many hotels use revenue management software that recommends new prices, or sends them straight to booking sites, as fresh data comes in. Every new booking, cancellation or competitor move can shift the forecast, and the price follows.
 
+Timing is only part of the picture: our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html) covers 15 ways, from the night you check in to the country you search from.
+
 On top of the hotel's own changes, each booking site can add its own discounts, member rates and promotions. The price you see is the result of both layers, which is why it can change even when the hotel has not touched its rate.
 
 > Chart: Illustrative: revenue management moves the price of the same stay as arrival approaches.

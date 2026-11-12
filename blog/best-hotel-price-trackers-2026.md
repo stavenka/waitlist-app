@@ -22,6 +22,8 @@ The best hotel price tracker in 2026 is the one that searches the same hotel fro
 
 Hotel pricing is more dynamic and more opaque than at any point since online travel agencies arrived. The same hotel can carry several different prices on the same night depending on the site, the currency, the member tier and the country you search from. Checking all of them by hand is not realistic. A hotel price tracker does that work for you, before or after you book.
 
+A tracker is one of 15 ways in our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), with the numbers behind each one.
+
 The online travel agency model took off in the late 1990s, and pricing has only become more complex since. Most major chains run revenue-management systems that adjust rates through the day based on remaining inventory, search volume and competitor rates. Different countries also get access to different inventory, channels, local rates and promotions. The number on the screen when you book is rarely the lowest price available for that hotel.
 
 A hotel price tracker watches some or all of this on your behalf. The category now has three sub-types: tools that look for a lower price for the same hotel before you pay; post-booking monitors that check for price drops after you have reserved; and full-flow agents that do both and prepare the rebooking for you.

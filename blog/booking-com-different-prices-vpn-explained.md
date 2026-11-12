@@ -21,6 +21,8 @@ The hotel you are looking at on Booking.com can often be booked for less when th
 
 A hotel does not sell through one single channel. It distributes its inventory through Booking.com, Expedia, wholesalers, local travel agencies and its own website, often under separate agreements for separate markets. Some rates and allotments are set aside for travelers in a given country, and many promotions only run in specific countries. Searching from another country opens up that country's inventory, channels, local rates and promotions, and some of them are cheaper than anything available from your own country.
 
+Searching from another country is the biggest of the 15 ways in our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
+
 So the price you see from your own country is one slice of what exists for that hotel. The same hotel, on the same dates and with the same cancellation policy, can be cheaper when the search is made from a different country, often at a different seller. The same hotel is often 5-30% cheaper elsewhere.
 
 A real example: Booking.com offered one hotel stay for $1,527.39. Arbitrica found the identical hotel and dates for $1,180.27, with all taxes and fees included. That earned the user $347.12, or 23%.
