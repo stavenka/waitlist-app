@@ -1,12 +1,13 @@
 # How to get hotels cheaper: 15 ways that work in 2026
 
-Updated 2026-11-11 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
+Updated 2026-11-12 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
 
 ## Key takeaways
 - The biggest single lever is the country you search from: the same hotel often has a different final price in different countries. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
 - Timing still matters. Hotels.com's 2026 Hotel Price Index found the best prices 8-14 days before travel, last-minute bookers paying 23% less than people who booked 4+ months out, and Sunday check-ins 15% lower than Friday in the US.
 - Always judge the final total for the whole stay with taxes and fees, never the nightly rate.
 - Book a refundable rate when you can and keep checking after you book; a lower price before the cancellation deadline is money back.
+- Before you pay, call or email the hotel: in a Which? test published on November 5, 2026, that got a lower price than the hotel's own website and Booking at four of five hotels, by £47 to £79 for two nights.
 - Arbitrica, a personal AI agent, searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price in the world, so you only review and pay.
 
 ## Short answer: how to get hotels cheaper
@@ -27,6 +28,8 @@ To get a hotel for less, change the things that actually set its price: the nigh
 - Book refundable and keep checking.
 - Rebook when the price drops.
 - Let an agent do the country-by-country search at the checkout.
+
+Before you pay, two more checks can take a little more off: call or email the hotel, and book through a cashback site (see below).
 
 ## Ways 1-4: when you stay
 **1. Check in on a Sunday.** In the [Hotels.com 2026 Hotel Price Index, June 9, 2026](https://www.expedia.com/newsroom/2026-hotel-price-index-how-americans-are-shopping-smarter-this-summer/), US stays that started on a Sunday were 15% lower than stays that started on a Friday. Friday was the priciest check-in day in the US and Saturday the priciest for international stays. [KAYAK UK, best time to book a hotel](https://www.kayak.co.uk/news/news/best-time-to-book-a-hotel/) also names Sunday as the lowest day to stay.
@@ -64,6 +67,13 @@ To get a hotel for less, change the things that actually set its price: the nigh
 
 **15. Let an agent do the country search at the checkout.** Way 5 is the one with the biggest gaps and the most work. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
+## Two more checks before you pay: call the hotel and add cashback
+Once you have the lowest total you can find, two small steps can take a little more off. Both work on top of the 15 ways above.
+
+**Call or email the hotel.** In a Which? test published on November 5, 2026, contacting five UK hotels directly about a two-night weekend in November got a lower price than both the hotel's own website and Booking in four of the five cases. The gaps were £47 at Hotel Una in Brighton, £50.90 at The Resident in Edinburgh, £53.40 at Mollies in Manchester and £79 at Broad Street Townhouse in Bath; three of those four rates needed the hotel's free loyalty scheme or app ([Which?, November 5, 2026](https://www.which.co.uk/news/article/why-youll-pay-less-for-your-hotel-if-you-call-them-al2Y96d5opzc)). Name the room and dates, give the lowest total you have seen, and if the hotel will not move on price, ask for breakfast or an upgrade instead.
+
+**Book through a cashback site.** Cashback sites such as TopCashback and Quidco pay back a share of bookings made through partner sites once the stay is over. On November 12, 2026 TopCashback listed 11% back on Hotels.com hotel bookings for new customers and 2% for existing customers in November and December, rising to 10% from January 2027, worked out on the price before taxes and fees ([TopCashback, Hotels.com](https://www.topcashback.co.uk/hotelscom/), checked on November 12, 2026). Rates change often, so check on the day you book.
+
 ## What each way can save
 The figures below come from the sources linked in each way. They are averages or test results, not promises for your dates.
 
@@ -76,6 +86,8 @@ The figures below come from the sources linked in each way. They are averages or
 | Best rate guarantee (Marriott) | Rate matched plus 25% off or 5,000 points | [Marriott, It Pays to Book Direct](https://www.marriott.com/online-hotel-booking.mi) |
 | Last-minute app for same-day stays | 10 of 16 hotels up to 23% lower, 6 up to 31% higher | [NerdWallet, May 28, 2026](https://www.nerdwallet.com/travel/learn/hotel-tonight-what-to-know-before-booking) |
 | Paying in local currency | Avoids a 3-5% conversion markup | [CardRatings, citing Visa, August 2026](https://www.cardratings.com/travel/using-a-credit-card-abroad-dcc-fees.html) |
+| Call or email the hotel | Lower than the hotel's website and Booking at 4 of 5 hotels, £47-£79 for two nights | [Which?, November 5, 2026](https://www.which.co.uk/news/article/why-youll-pay-less-for-your-hotel-if-you-call-them-al2Y96d5opzc) |
+| Cashback site (Hotels.com via TopCashback) | 11% for new customers, 2% for existing customers (November-December 2026) | [TopCashback, checked November 12, 2026](https://www.topcashback.co.uk/hotelscom/) |
 
 *Chart: Share of countries where the same hotel showed a lower price than the traveller's own country.*
 
@@ -92,7 +104,13 @@ Related guides: [cheapest way to book a hotel](https://arbitrica.com/blog/cheape
 Check in on a Sunday, book 1-2 weeks out for most trips, travel in low months, judge the final total with taxes and fees, pay in local currency, book refundable and rebook if the price drops, and search the same hotel from other countries. Arbitrica does the country search from 195 countries at the checkout and prepares the booking at the lowest price in the world.
 
 ### How to get hotels cheaper on Reddit: what do people recommend?
-The tips that come up most in travel threads are booking direct after checking the hotel's own member rate, using a VPN to search from another country, booking refundable and rebooking when the price drops, and calling the hotel to ask for a better rate. The published data supports the first three; results from calling vary by hotel.
+The tips that come up most in travel threads are booking direct after checking the hotel's own member rate, using a VPN to search from another country, booking refundable and rebooking when the price drops, and calling the hotel to ask for a better rate. The published data supports all four: in a Which? test published on November 5, 2026, calling or emailing the hotel got a lower price than its own website and Booking at four of five hotels.
+
+### Is it cheaper to call the hotel directly?
+Often, yes. In a Which? test published on November 5, 2026, contacting five UK hotels directly got a lower price than the hotel's own website and Booking at four of them, by £47 to £79 for a two-night stay; three of those rates needed the hotel's free loyalty scheme or app. If the hotel will not lower the price, ask for breakfast or an upgrade.
+
+### Do cashback sites work for hotels?
+Yes, on bookings made through their partner sites. On November 12, 2026 TopCashback listed 11% back on Hotels.com hotel bookings for new customers and 2% for existing customers in November and December, paid after the stay and worked out on the price before taxes and fees. Rates change often, so check on the day you book.
 
 ### How to get hotels cheaper last minute?
 Hotels.com's 2026 index found last-minute bookers paid 23% less on average than people who booked four or more months out. For same-day stays, last-minute apps can help: in a NerdWallet test 10 of 16 hotels on HotelTonight were up to 23% lower than on Booking, but 6 were higher and most bookings are nonrefundable.
