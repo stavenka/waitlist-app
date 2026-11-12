@@ -20,6 +20,8 @@ An AI hotel price tracker is software that watches hotel prices for you and find
 
 **Short answer:** An AI hotel price tracker is software that watches hotel prices automatically and finds a lower price for the same hotel, either at checkout or after you have booked. The better ones search from several countries, keep searching until free cancellation ends, and prepare the rebooking so you do not have to.
 
+An AI tracker is one of 15 ways in our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), with the numbers behind each one.
+
 These trackers use automation and price-history data to find hotel prices lower than what you have paid or are about to pay. The "AI" part is real for some products (those that use models to predict price drops, classify rate types and decide when to rebook) and marketing for others (a simple scheduled scraper does not need a large model to work).
 
 The category has grown because hotel pricing has become harder to read. The same hotel can be sold at many different prices on the same night, by different sellers, in different countries, in different currencies and with different cancellation policies. No person can check all of them. Software can.

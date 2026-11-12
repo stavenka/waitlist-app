@@ -183,6 +183,8 @@ An AI hotel price tracker is software that watches hotel prices for you and find
 
 **Short answer:** An AI hotel price tracker is software that watches hotel prices automatically and finds a lower price for the same hotel, either at checkout or after you have booked. The better ones search from several countries, keep searching until free cancellation ends, and prepare the rebooking so you do not have to.
 
+An AI tracker is one of 15 ways in our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), with the numbers behind each one.
+
 These trackers use automation and price-history data to find hotel prices lower than what you have paid or are about to pay. The "AI" part is real for some products (those that use models to predict price drops, classify rate types and decide when to rebook) and marketing for others (a simple scheduled scraper does not need a large model to work).
 
 The category has grown because hotel pricing has become harder to read. The same hotel can be sold at many different prices on the same night, by different sellers, in different countries, in different currencies and with different cancellation policies. No person can check all of them. Software can.
@@ -1496,6 +1498,8 @@ The best hotel price tracker in 2026 is the one that searches the same hotel fro
 
 Hotel pricing is more dynamic and more opaque than at any point since online travel agencies arrived. The same hotel can carry several different prices on the same night depending on the site, the currency, the member tier and the country you search from. Checking all of them by hand is not realistic. A hotel price tracker does that work for you, before or after you book.
 
+A tracker is one of 15 ways in our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), with the numbers behind each one.
+
 The online travel agency model took off in the late 1990s, and pricing has only become more complex since. Most major chains run revenue-management systems that adjust rates through the day based on remaining inventory, search volume and competitor rates. Different countries also get access to different inventory, channels, local rates and promotions. The number on the screen when you book is rarely the lowest price available for that hotel.
 
 A hotel price tracker watches some or all of this on your behalf. The category now has three sub-types: tools that look for a lower price for the same hotel before you pay; post-booking monitors that check for price drops after you have reserved; and full-flow agents that do both and prepare the rebooking for you.
@@ -2333,6 +2337,8 @@ The hotel you are looking at on Booking.com can often be booked for less when th
 
 A hotel does not sell through one single channel. It distributes its inventory through Booking.com, Expedia, wholesalers, local travel agencies and its own website, often under separate agreements for separate markets. Some rates and allotments are set aside for travelers in a given country, and many promotions only run in specific countries. Searching from another country opens up that country's inventory, channels, local rates and promotions, and some of them are cheaper than anything available from your own country.
 
+Searching from another country is the biggest of the 15 ways in our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
+
 So the price you see from your own country is one slice of what exists for that hotel. The same hotel, on the same dates and with the same cancellation policy, can be cheaper when the search is made from a different country, often at a different seller. The same hotel is often 5-30% cheaper elsewhere.
 
 A real example: Booking.com offered one hotel stay for $1,527.39. Arbitrica found the identical hotel and dates for $1,180.27, with all taxes and fees included. That earned the user $347.12, or 23%.
@@ -2479,6 +2485,8 @@ Booking.com's price match guarantee is real but narrow. It covers a lower price 
 ## Does Booking.com have a price match guarantee?
 
 Yes. Booking.com's "We Price Match" promise says that if you find the same booking cheaper on another website, Booking.com will refund the difference. The lower price has to be for the same hotel and the same dates. It also has to be for the same room type, with the same cancellation and booking conditions, and it has to be publicly bookable. Claims go through Booking.com customer service. Booking.com's customer terms (version dated August 25, 2025, checked November 2, 2026) place the promise under accommodation bookings, ask you to contact Booking.com after booking, say the other offer must still be online and available when Booking.com checks it, and exclude claims on bookings you have cancelled. Consumer guides such as NerdWallet (May 2026) report that claims are accepted until 24 hours before check-in, and that offers labelled "Partner offer" and rates that need a loyalty login do not qualify. File as soon as you see the lower price, because it may be gone by the time it is checked.
+
+A price match claim is one of 15 ways in our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), and not the one with the biggest gaps.
 
 ## How to claim Booking.com's price match
 
@@ -4835,6 +4843,8 @@ A hotel price tracker watches the price of a hotel for you and finds a lower pri
 ## How the price tracker works
 
 Different countries get access to different inventory, channels, local rates and promotions. Searching the same hotel from another country can open up lower prices you cannot get from your own country, and the same hotel is often 5-30% cheaper when searched from somewhere else. Checking that by hand, with a VPN, one country at a time, is impossible in practice for 195 countries. Arbitrica does it for you.
+
+Tracking is one of 15 ways in our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), with the numbers behind each one.
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 
@@ -7525,6 +7535,8 @@ This article explains why hotel prices change daily, what a hotel pricing algori
 ## The short answer
 
 A hotel has a fixed number of nights to sell, and an unsold night cannot be stored and sold later. So hotels price each night separately and adjust that price as their picture of demand changes. Many hotels use revenue management software that recommends new prices, or sends them straight to booking sites, as fresh data comes in. Every new booking, cancellation or competitor move can shift the forecast, and the price follows.
+
+Timing is only part of the picture: our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html) covers 15 ways, from the night you check in to the country you search from.
 
 On top of the hotel's own changes, each booking site can add its own discounts, member rates and promotions. The price you see is the result of both layers, which is why it can change even when the hotel has not touched its rate.
 

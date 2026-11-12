@@ -20,6 +20,8 @@ A hotel price tracker watches the price of a hotel for you and finds a lower pri
 
 Different countries get access to different inventory, channels, local rates and promotions. Searching the same hotel from another country can open up lower prices you cannot get from your own country, and the same hotel is often 5-30% cheaper when searched from somewhere else. Checking that by hand, with a VPN, one country at a time, is impossible in practice for 195 countries. Arbitrica does it for you.
 
+Tracking is one of 15 ways in our guide to [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), with the numbers behind each one.
+
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 
 In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. A tracker that only watches your own country cannot see that gap, however often it checks.
