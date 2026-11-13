@@ -144,3 +144,6 @@ Sometimes, but not as a rule. Booking.com can be lower when the hotel funds a Ge
 
 ### Are hotel prices on Booking.com cheaper when you are in the country?
 Not as a rule. In Arbitrica's price checks of 6 hotels searched from their own country, the local search was never the single lowest location. See [whether Booking is lower when you are in the country](https://arbitrica.com/blog/booking-com-cheaper-when-in-the-country.html).
+
+### Why is the price on Booking.com different when you go to make the reservation?
+Usually because the reservation page prices the exact room, rate and guests you picked, adds excluded charges such as city tax and converts the currency at the current rate, while a deal that sold out drops away. See [why the price on Booking changes when you go to make the reservation](https://arbitrica.com/blog/why-is-booking-com-price-different-when-you-reserve.html).

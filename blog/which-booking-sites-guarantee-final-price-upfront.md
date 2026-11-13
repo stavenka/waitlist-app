@@ -54,6 +54,8 @@ None of these is a promise that the price will be the lowest available. They pro
 - **Optional extras.** Breakfast, parking or late check-out are outside every rule above.
 - **Deposits.** A security deposit is not a fee, but it changes what leaves your account.
 
+When the number jumps between the search results and the reservation page, the cause is usually one of these or a different room, rate or guest count; the six reasons are set out in [why the price on Booking.com is different when you go to make the reservation](https://arbitrica.com/blog/why-is-booking-com-price-different-when-you-reserve.html).
+
 ## How to check the real total before you pay
 
 1. **Go to the last page before payment** The order total there is the number that counts, not the search result.
