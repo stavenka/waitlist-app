@@ -67,6 +67,8 @@ Rate Ranger facts checked on November 8, 2026 against its site and Product Hunt 
 
 Related: [Underbook alternative](https://arbitrica.com/blog/underbook-alternative.html), [is Pruvo still working?](https://arbitrica.com/blog/pruvo-alternative.html) and [what happens if your hotel price goes down after booking](https://arbitrica.com/blog/hotel-price-drop-after-booking.html).
 
+Weighing a membership service instead? See the [HotelSlash alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/hotelslash-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a good Rate Ranger alternative?

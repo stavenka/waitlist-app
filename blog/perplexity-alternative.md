@@ -67,6 +67,8 @@ Perplexity facts checked on November 10, 2026 against Perplexity's blog, changel
 
 More on how AI agents handle price: [the AI agent that finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html) and [AI hotel booking: what AI agents actually do for price](https://arbitrica.com/blog/ai-hotel-booking.html). Other agents: [ChatGPT](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html), [Google AI Mode](https://arbitrica.com/blog/google-ai-mode-hotel-booking-alternative.html), [Meta's Muse](https://arbitrica.com/blog/muse-alternative.html) and [Instinct](https://arbitrica.com/blog/instinct-alternative.html).
 
+Shopping in Microsoft Copilot instead? See [Alternative to Microsoft Copilot shopping for finding the best price](https://arbitrica.com/blog/copilot-shopping-alternative.html)
+
 ## Frequently asked questions
 
 ### Can Perplexity find the lowest price?

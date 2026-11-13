@@ -122,6 +122,8 @@ TipWhatever you use, book a refundable rate when your trip is weeks away. Every 
 
 Watching one price over time finds drops. Searching the same hotel from 195 countries finds a lower price before you pay.
 
+Looking at HotelSlash as well? See the [HotelSlash alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/hotelslash-alternative.html).
+
 ## Frequently asked questions
 
 ### What is OneAir?

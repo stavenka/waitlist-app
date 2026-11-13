@@ -122,6 +122,8 @@ Personal agents compared on price: [alternative to Instinct](https://arbitrica.c
 
 Related: [Arbitrica: like Meta's Muse, built for the best price on anything](https://arbitrica.com/blog/arbitrica-muse-for-best-price.html), [Arbitrica: like Instinct, built for the best price on anything](https://arbitrica.com/blog/arbitrica-instinct-for-best-price.html).
 
+Buying through Microsoft Copilot? See [Alternative to Microsoft Copilot shopping for finding the best price](https://arbitrica.com/blog/copilot-shopping-alternative.html)
+
 ## Frequently asked questions
 
 ### What is a personal AI shopping agent?
