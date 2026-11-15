@@ -51,7 +51,7 @@ Unlike the VPN trick, it does not stop at Booking: it looks for the lowest price
 
 Thinking of NordVPN's PriceMice for this? See [Is PriceMice legit? PriceMice review: does it work?](https://arbitrica.com/blog/is-pricemice-legit.html)
 
-**What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so you see the real total from the start.
+**What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with taxes and fees match what the seller shows before it shows you a price, so you don't have to do that checking yourself.
 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 

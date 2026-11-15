@@ -43,11 +43,11 @@ Research across 1,000 hotels searched from 100 countries found a lower price tha
 
 More: [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [cheapest way to book a hotel](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html) and the [14 hotel booking hacks](https://arbitrica.com/blog/hotel-booking-hacks.html).
 
-**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+**Tired of extra charges at the last step?** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total each seller shows, with taxes and fees, before it shows you the lowest price in the world for the same hotel, so you don't have to click through to verify it yourself.
 
 **Prices had risen by the time you paid?** Travellers often write that the price went up, or that the same hotel was suddenly more expensive, by the time they reached the payment page. It happens because rates change with demand and each country market moves on its own. Arbitrica searches the same hotel from 195 countries right at the checkout, when the decision is made, and prepares the booking at the lowest price it finds, so you are not chasing a rate that has already moved.
 
-**The all-in price, from the first screen.** In traveller forums people keep asking for the same thing: the full price, all-in, the price that will be charged, not a nightly rate that grows on the way to payment. Arbitrica gives you that number. It checks the final total for the same hotel with all taxes and fees before it shows you the lowest price in the world for it.
+**The all-in price, checked for you.** In traveller forums people keep asking for the same thing: the full price, all-in, the price that will be charged, not a nightly rate that grows on the way to payment. Arbitrica does that checking for you. It checks the final total each seller shows for the same hotel, with taxes and fees, before it shows you the lowest price in the world for it.
 
 ## Frequently asked questions
 
@@ -64,10 +64,10 @@ Watch for member promotions, last-minute discounts 8-14 days out, and lower coun
 Many chains do through a best rate guarantee. Marriott matches a lower rate for the same room and terms and adds 25% off or 5,000 points if you claim within 24 hours of booking and at least 24 hours before check-in.
 
 ### How do I know a hotel price has no extra charges?
-Go to the final payment screen and check the total for the whole stay, with taxes and any additional fees such as resort or cleaning fees. Arbitrica checks the final total with all taxes and fees before it shows a price, so the lowest price it finds already includes the extra charges.
+Go to the final payment screen and check the total for the whole stay, with taxes and any additional fees such as resort or cleaning fees. Arbitrica checks the final total each seller shows, with taxes and fees, before it shows you a price, so you don't have to click through to find out.
 
 ### Why did the hotel price go up when I tried to book?
 Hotel rates change with demand during the day, a lower rate can sell out between the search page and payment, and taxes or fees may only be added on later screens. Book a refundable rate when you can and keep checking. Arbitrica searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price it finds at that moment.
 
 ### How do I see the full price of a hotel, all-in?
-Go to the final payment screen, or use a site setting that shows the total with taxes and fees. Arbitrica checks the final total with all taxes and fees for the same hotel before it shows a price, so you see the all-in price for the stay.
+Go to the final payment screen, or use a site setting that shows the total with taxes and fees. Arbitrica checks the final total each seller shows for the same hotel, with taxes and fees, before it shows you a price, so you don't have to click through to find it.
