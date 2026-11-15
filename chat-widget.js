@@ -128,9 +128,9 @@
     if (document.body) document.body.appendChild(build());
   }
 
-  /* Phones (the user, 18-10-2026): the card comes in 10 seconds after the visitor arrives. */
-  var isPhone = window.matchMedia && window.matchMedia('(max-width: 640px)').matches;
-  function start() { if (isPhone) setTimeout(mount, 10000); else mount(); }
+  /* The card comes in 10 seconds after the visitor arrives: on phones since 18-10-2026, on desktop too since 15-11-2026
+     (the user). */
+  function start() { setTimeout(mount, 10000); }
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', start);
