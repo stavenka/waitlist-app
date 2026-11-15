@@ -191,12 +191,13 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
     // The logo got the spiral mark (7 Nov 2026). Images are cached for a year as immutable, so browsers that already
     // had the old file keep showing it; a version on the URL makes them fetch the new one. Bump LOGO_V on the next change.
     const logo = out.includes('Arbitrica_logo_transparent.');
+    const footer = out.includes('<p class="footer-brand-desc">The new AI that finds hidden prices and earns you money after you pay.');
     if (out.includes(GA_ID)) {
-      if (!out.includes('setTimeout(loadAll, 15000);') && !colour && !hubLinks && !logo) return next();
+      if (!out.includes('setTimeout(loadAll, 15000);') && !colour && !hubLinks && !logo && !footer) return next();
       out = out.replace('setTimeout(loadAll, 15000);', "document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', function () { setTimeout(loadAll, 0); }) : setTimeout(loadAll, 0);");
     } else if (/<head(\s[^>]*)?>/i.test(out)) {
       out = out.replace(/<head(\s[^>]*)?>/i, (m) => m + GA_SNIPPET);
-    } else if (!colour && !hubLinks && !logo) {
+    } else if (!colour && !hubLinks && !logo && !footer) {
       return next();
     }
     if (logo) {
@@ -209,6 +210,9 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
     if (logo && out.includes('.logo-link img { height: 38px; width: auto; }')) {
       out = out.replace('</head>', '<style>' + LOGO_INNER_CSS + '</style></head>');
     }
+    // The footer line under "Arbitrica" on every page (the user, 15-11-2026).
+    out = out.replace(/(<p class="footer-brand-desc">)The new AI that finds hidden prices and earns you money after you pay\.(?: For free\.)?(<\/p>)/g,
+      '$1The new AI that finds hidden prices &amp; automatically prepares those purchases for you$2');
     if (hubLinks) {
       out = out.replace('<a href="/faq.html">FAQ</a>\n      </div>', '<a href="/faq.html">FAQ</a>\n        <a href="/business.html">For business</a>\n        <a href="/hotels/">Hotel prices by city</a>\n        <a href="/compare/">Price trackers by site</a>\n      </div>');
     }
