@@ -212,7 +212,7 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
     }
     // The footer line under "Arbitrica" on every page (the user, 15-11-2026).
     out = out.replace(/(<p class="footer-brand-desc">)The new AI that finds hidden prices and earns you money after you pay\.(?: For free\.)?(<\/p>)/g,
-      '$1The new AI that finds hidden prices &amp; automatically prepares those purchases for you$2');
+      '$1The new AI that finds hidden prices &amp; prepares those purchases for you$2');
     if (hubLinks) {
       out = out.replace('<a href="/faq.html">FAQ</a>\n      </div>', '<a href="/faq.html">FAQ</a>\n        <a href="/business.html">For business</a>\n        <a href="/hotels/">Hotel prices by city</a>\n        <a href="/compare/">Price trackers by site</a>\n      </div>');
     }
