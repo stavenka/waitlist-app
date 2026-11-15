@@ -112,7 +112,7 @@ Hidden hotel prices are real, bookable rates. Finding them takes either hours of
 
 **What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with taxes and fees match what the seller shows before it shows you a price, so you don't have to do that checking yourself.
 
-**The all-in price, checked for you.** In traveller forums people keep asking for the same thing: the full price, all-in, the price that will be charged, not a nightly rate that grows on the way to payment. Arbitrica does that checking for you. It checks the final total each seller shows for the same hotel, with taxes and fees, before it shows you the lowest price in the world for it.
+**Want to know the full price, all-in, before you pay?** In traveller forums people keep asking for the same thing: the full price, all-in, the price that will be charged, not a nightly rate that grows on the way to payment. Arbitrica does that checking for you. It checks the final total each seller shows for the same hotel, with taxes and fees, before it shows you the lowest price in the world for it.
 
 Related: [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 

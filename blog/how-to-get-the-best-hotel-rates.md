@@ -47,7 +47,7 @@ More: [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-c
 
 **Prices had risen by the time you paid?** Travellers often write that the price went up, or that the same hotel was suddenly more expensive, by the time they reached the payment page. It happens because rates change with demand and each country market moves on its own. Arbitrica searches the same hotel from 195 countries right at the checkout, when the decision is made, and prepares the booking at the lowest price it finds, so you are not chasing a rate that has already moved.
 
-**The all-in price, checked for you.** In traveller forums people keep asking for the same thing: the full price, all-in, the price that will be charged, not a nightly rate that grows on the way to payment. Arbitrica does that checking for you. It checks the final total each seller shows for the same hotel, with taxes and fees, before it shows you the lowest price in the world for it.
+**Want to know the full price, all-in, before you pay?** In traveller forums people keep asking for the same thing: the full price, all-in, the price that will be charged, not a nightly rate that grows on the way to payment. Arbitrica does that checking for you. It checks the final total each seller shows for the same hotel, with taxes and fees, before it shows you the lowest price in the world for it.
 
 ## Frequently asked questions
 
