@@ -43,6 +43,8 @@ Research across 1,000 hotels searched from 100 countries found a lower price tha
 
 More: [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [cheapest way to book a hotel](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html) and the [14 hotel booking hacks](https://arbitrica.com/blog/hotel-booking-hacks.html).
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 ## Frequently asked questions
 
 ### How do I get the best hotel rates?
@@ -56,3 +58,6 @@ Watch for member promotions, last-minute discounts 8-14 days out, and lower coun
 
 ### Do hotels match lower prices?
 Many chains do through a best rate guarantee. Marriott matches a lower rate for the same room and terms and adds 25% off or 5,000 points if you claim within 24 hours of booking and at least 24 hours before check-in.
+
+### How do I know a hotel price has no extra charges?
+Go to the final payment screen and check the total for the whole stay, with taxes and any additional fees such as resort or cleaning fees. Arbitrica checks the final total with all taxes and fees before it shows a price, so the lowest price it finds already includes the extra charges.

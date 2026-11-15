@@ -92,6 +92,8 @@ The same two mechanisms help with the rest of an international trip. Flights, ca
 
 Searching from 195 countries before you pay, and again after you book, is the part no traveler can do by hand. Arbitrica is a personal AI agent that shows up at checkout and handles both: live arbitrage when you are about to pay, and multiple-time arbitrage after you book. It finds the lowest price on Earth for the same hotel and prepares everything so you only review and pay. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year. Arbitrica also serves companies: teams traveling to trade shows and conferences, and the operations and travel managers who book for them.
 
+**What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so you see the real total from the start.
+
 Related: [Should you pay for a hotel in local currency?](https://arbitrica.com/blog/pay-hotel-in-local-currency.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions

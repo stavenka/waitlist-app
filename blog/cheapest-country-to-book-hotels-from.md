@@ -120,6 +120,8 @@ In one real booking, a hotel was offered on Booking.com for $1,527.39. Arbitrica
 
 Prices also keep moving after you book. Arbitrica's approach repeats the search after purchase until the free cancellation window ends, so a lower price that appears later can still be used: a new booking is prepared at that price, and the original is cancelled only once the new booking is confirmed. The article on [hotel price drops after booking](https://arbitrica.com/blog/hotel-price-drop-after-booking.html) explains how that works. The same idea applies beyond hotels, to flights, event tickets and online shopping. Arbitrica also serves companies: teams traveling to trade shows and conferences, and the operations and travel managers who book for them.
 
+**A price without surprises.** Additional charges are one of the things travellers complain about most when they book hotels online: extra fees, taxes and add-on fees added after the details are filled in. What helps is a price you can trust from the first screen, without clicking through for ten minutes to find out what will be added. Arbitrica searches the same hotel from 195 countries and checks the final total with all taxes and fees, so the lowest price in the world it finds is a total, with the additional fees already counted.
+
 Related: [Best VPN country for cheaper hotels: what the data shows](https://arbitrica.com/blog/best-vpn-country-for-cheaper-hotels.html), [Is it legal to use a VPN to book hotels or flights?](https://arbitrica.com/blog/is-it-legal-to-use-vpn-to-book.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions

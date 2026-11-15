@@ -36,6 +36,8 @@ Across 1,000 hotels searched from 100 countries, about 80% of countries showed a
 - Look beyond your own country: by hand that means a VPN, one country at a time ([what the tests found](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html)).
 - Or let Arbitrica do it at the checkout: it searches 195 countries across sites and prepares the booking at the lowest price in the world.
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions

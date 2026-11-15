@@ -108,6 +108,8 @@ Ways 1-14 are habits you can build. Way 5 is different: it is where the largest 
 
 Related guides: [cheapest way to book a hotel](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html), [how to get cheap hotel rooms last minute](https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.html), [how to get the best hotel rates](https://arbitrica.com/blog/how-to-get-the-best-hotel-rates.html), [14 hotel booking hacks](https://arbitrica.com/blog/hotel-booking-hacks.html) and [why the same hotel has a different price](https://arbitrica.com/blog/same-hotel-different-price.html).
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 ## Frequently asked questions
 
 ### How do I get hotels cheaper?
@@ -142,3 +144,6 @@ Connect to another country, clear cookies, search the same hotel and room, and n
 
 ### How to get cheap hotel rooms?
 Pick low-demand nights, compare the full total for the same hotel across sites and countries, use member rates and best rate guarantees, and keep a refundable booking so you can rebook if the price drops.
+
+### How do I know a hotel price has no extra charges?
+Go to the final payment screen and check the total for the whole stay, with taxes and any additional fees such as resort or cleaning fees. Arbitrica checks the final total with all taxes and fees before it shows a price, so the lowest price it finds already includes the extra charges.

@@ -47,6 +47,8 @@ It also works the other way: in Arbitrica's checks the hotel's own website was l
 
 Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout, checks the room and total match, and prepares the booking at the lowest price on Earth. You review and pay.
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [The cheapest way to book a hotel in 2026: direct, app or agent?](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html), [How to get the best hotel rates: 9 rate types explained](https://arbitrica.com/blog/how-to-get-the-best-hotel-rates.html).
 
 ## Frequently asked questions

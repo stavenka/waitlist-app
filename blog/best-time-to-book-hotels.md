@@ -94,6 +94,8 @@ If you remember one thing, make it this: the best time to book is a moment you c
 
 The same thinking works beyond hotels. Flights, car rentals, event tickets and many online purchases have prices that move over time and differ by country. Research demonstrated that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [How to get cheap hotel rooms last minute: 8 tactics for 2026](https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.html).
 
 ## Frequently asked questions

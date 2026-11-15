@@ -60,6 +60,8 @@ In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-coun
 
 See also: [VPN vs. Arbitrica for hotel booking](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html) and [Booking.com prices by country with a VPN, explained](https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html).
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions

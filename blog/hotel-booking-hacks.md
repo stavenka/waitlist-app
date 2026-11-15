@@ -150,6 +150,8 @@ Arbitrica developed a mechanism for the second one as well. Arbitrica's approach
 
 The same habits work beyond hotels. Flights, car rentals, event tickets and many online purchases have prices that move over time and differ by country, and teams booking trade show or conference travel face the same gaps at a larger scale. Arbitrica also works with companies, from travel managers to operations managers booking for whole teams.
 
+**What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so you see the real total from the start.
+
 Related: [Should you pay for a hotel in local currency?](https://arbitrica.com/blog/pay-hotel-in-local-currency.html), [Does a VPN get you cheaper flights? What 3 tests found](https://arbitrica.com/blog/vpn-cheaper-flights.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [How to get cheap hotel rooms last minute: 8 tactics for 2026](https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.html).
 
 ## Frequently asked questions

@@ -32,6 +32,8 @@ When time is short, checking country markets by hand is the first thing people s
 
 All 15 ways to pay less are in [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html); timing in depth is in the [best time to book a hotel](https://arbitrica.com/blog/best-time-to-book-hotels.html) guide.
 
+**A price without surprises.** Additional charges are one of the things travellers complain about most when they book hotels online: extra fees, taxes and add-on fees added after the details are filled in. What helps is a price you can trust from the first screen, without clicking through for ten minutes to find out what will be added. Arbitrica searches the same hotel from 195 countries and checks the final total with all taxes and fees, so the lowest price in the world it finds is a total, with the additional fees already counted.
+
 ## Frequently asked questions
 
 ### How do I get cheap hotel rooms last minute?
@@ -45,3 +47,6 @@ Sometimes. In a NerdWallet test in St. Petersburg, Florida, 10 of 16 hotels were
 
 ### What is the best day to book a last-minute hotel?
 The check-in day matters more than the booking day: US stays starting on a Sunday were 15% lower than those starting on a Friday in the Hotels.com 2026 index.
+
+### How do I know a hotel price has no extra charges?
+Go to the final payment screen and check the total for the whole stay, with taxes and any additional fees such as resort or cleaning fees. Arbitrica checks the final total with all taxes and fees before it shows a price, so the lowest price it finds already includes the extra charges.

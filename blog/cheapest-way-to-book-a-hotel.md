@@ -38,6 +38,8 @@ Research across 1,000 hotels searched from 100 countries found a lower price tha
 
 The full list of ways to pay less is in [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
+**What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so you see the real total from the start.
+
 ## Frequently asked questions
 
 ### What is the cheapest way to book a hotel?
@@ -51,3 +53,6 @@ None is always lowest. Agoda is often strong in Asia, Booking and Expedia run me
 
 ### How do I book hotels cheaper?
 Choose low-demand nights, book refundable, judge the final total, use member rates, pay in local currency and search the same hotel from other countries before you pay.
+
+### How do I know a hotel price has no extra charges?
+Go to the final payment screen and check the total for the whole stay, with taxes and any additional fees such as resort or cleaning fees. Arbitrica checks the final total with all taxes and fees before it shows a price, so the lowest price it finds already includes the extra charges.

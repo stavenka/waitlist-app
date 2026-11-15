@@ -112,6 +112,8 @@ After you book a refundable rate, Arbitrica's approach repeats the search until 
 
 Follow this method and you will rarely overpay, whatever tools you use. The cheapest hotel rate online is almost never the first one you see. It is the lowest full total for the identical hotel, found by looking across sites, across time and from other countries.
 
+**A price without surprises.** Additional charges are one of the things travellers complain about most when they book hotels online: extra fees, taxes and add-on fees added after the details are filled in. What helps is a price you can trust from the first screen, without clicking through for ten minutes to find out what will be added. Arbitrica searches the same hotel from 195 countries and checks the final total with all taxes and fees, so the lowest price in the world it finds is a total, with the additional fees already counted.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [How to get the best hotel rates: 9 rate types explained](https://arbitrica.com/blog/how-to-get-the-best-hotel-rates.html).
 
 ## Frequently asked questions
