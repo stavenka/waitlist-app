@@ -2309,6 +2309,8 @@ If you remember one thing, make it this: the best time to book is a moment you c
 
 The same thinking works beyond hotels. Flights, car rentals, event tickets and many online purchases have prices that move over time and differ by country. Research demonstrated that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [How to get cheap hotel rooms last minute: 8 tactics for 2026](https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.html).
 
 ## Frequently asked questions
@@ -3467,6 +3469,8 @@ In one real booking, a hotel was offered on Booking.com for $1,527.39. Arbitrica
 
 Prices also keep moving after you book. Arbitrica's approach repeats the search after purchase until the free cancellation window ends, so a lower price that appears later can still be used: a new booking is prepared at that price, and the original is cancelled only once the new booking is confirmed. The article on [hotel price drops after booking](https://arbitrica.com/blog/hotel-price-drop-after-booking.html) explains how that works. The same idea applies beyond hotels, to flights, event tickets and online shopping. Arbitrica also serves companies: teams traveling to trade shows and conferences, and the operations and travel managers who book for them.
 
+**A price without surprises.** Additional charges are one of the things travellers complain about most when they book hotels online: extra fees, taxes and add-on fees added after the details are filled in. What helps is a price you can trust from the first screen, without clicking through for ten minutes to find out what will be added. Arbitrica searches the same hotel from 195 countries and checks the final total with all taxes and fees, so the lowest price in the world it finds is a total, with the additional fees already counted.
+
 Related: [Best VPN country for cheaper hotels: what the data shows](https://arbitrica.com/blog/best-vpn-country-for-cheaper-hotels.html), [Is it legal to use a VPN to book hotels or flights?](https://arbitrica.com/blog/is-it-legal-to-use-vpn-to-book.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions
@@ -4011,6 +4015,8 @@ The approach is not limited to hotels. Flights, car rentals, event tickets, onli
 
 Hidden hotel prices are real, bookable rates. Finding them takes either hours of manual searching or an agent that does it for you. Before your next booking, remember that the price you see from your own country is one price among many, and compare like for like, with all taxes and fees, before you pay. For the wider picture, read [what geographic price arbitrage is](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html).
 
+**What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so you see the real total from the start.
+
 Related: [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions
@@ -4185,6 +4191,8 @@ Arbitrica developed a mechanism for the second one as well. Arbitrica's approach
 - **Recheck until the deadline**Rebook if the identical hotel gets cheaper, and cancel only after the new booking is confirmed.
 
 The same habits work beyond hotels. Flights, car rentals, event tickets and many online purchases have prices that move over time and differ by country, and teams booking trade show or conference travel face the same gaps at a larger scale. Arbitrica also works with companies, from travel managers to operations managers booking for whole teams.
+
+**What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so you see the real total from the start.
 
 Related: [Should you pay for a hotel in local currency?](https://arbitrica.com/blog/pay-hotel-in-local-currency.html), [Does a VPN get you cheaper flights? What 3 tests found](https://arbitrica.com/blog/vpn-cheaper-flights.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [How to get cheap hotel rooms last minute: 8 tactics for 2026](https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.html).
 
@@ -5651,6 +5659,8 @@ Arbitrica also serves companies: teams traveling to trade shows and conferences,
 
 There is no single site with the lowest price. The best price depends on the hotel, the dates and which country you search from. The lowest result comes from searching the same hotel from many countries, booking a rate with free cancellation, and searching again after you book. Arbitrica does the searching from 195 countries for you and finds the lowest price on Earth for that hotel.
 
+**A price without surprises.** Additional charges are one of the things travellers complain about most when they book hotels online: extra fees, taxes and add-on fees added after the details are filled in. What helps is a price you can trust from the first screen, without clicking through for ten minutes to find out what will be added. Arbitrica searches the same hotel from 195 countries and checks the final total with all taxes and fees, so the lowest price in the world it finds is a total, with the additional fees already counted.
+
 Related: [Does a VPN make Airbnb cheaper? What changes and what does not](https://arbitrica.com/blog/airbnb-vpn.html), [Does a VPN get you cheaper flights? What 3 tests found](https://arbitrica.com/blog/vpn-cheaper-flights.html), [Using a VPN to save money: hotels, flights, car rental, tickets and subscriptions](https://arbitrica.com/blog/vpn-to-save-money.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [The cheapest way to book a hotel in 2026: direct, app or agent?](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html).
 
 ## Frequently asked questions
@@ -6789,6 +6799,8 @@ The same two mechanisms help with the rest of an international trip. Flights, ca
 
 Searching from 195 countries before you pay, and again after you book, is the part no traveler can do by hand. Arbitrica is a personal AI agent that shows up at checkout and handles both: live arbitrage when you are about to pay, and multiple-time arbitrage after you book. It finds the lowest price on Earth for the same hotel and prepares everything so you only review and pay. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year. Arbitrica also serves companies: teams traveling to trade shows and conferences, and the operations and travel managers who book for them.
 
+**What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so you see the real total from the start.
+
 Related: [Should you pay for a hotel in local currency?](https://arbitrica.com/blog/pay-hotel-in-local-currency.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions
@@ -7896,6 +7908,8 @@ It also works the other way: in Arbitrica's checks the hotel's own website was l
 
 Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout, checks the room and total match, and prepares the booking at the lowest price on Earth. You review and pay.
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [The cheapest way to book a hotel in 2026: direct, app or agent?](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html), [How to get the best hotel rates: 9 rate types explained](https://arbitrica.com/blog/how-to-get-the-best-hotel-rates.html).
 
 ## Frequently asked questions
@@ -8949,6 +8963,8 @@ In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-coun
 
 See also: [VPN vs. Arbitrica for hotel booking](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html) and [Booking.com prices by country with a VPN, explained](https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html).
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions
@@ -9022,6 +9038,8 @@ Unlike the VPN trick, it does not stop at Booking: it looks for the lowest price
 *Chart: The Booking VPN trick checks one market at a time on one site. Arbitrica checks 195 countries across sites.*
 
 Thinking of NordVPN's PriceMice for this? See [Is PriceMice legit? PriceMice review: does it work?](https://arbitrica.com/blog/is-pricemice-legit.html)
+
+**What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so you see the real total from the start.
 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
@@ -9200,6 +9218,8 @@ So the practical tips are: pay in the listing's currency where you can, use a ca
 
 ## When a hotel gets you the lower price
 Because hotel prices are set by market, the country switch matters far more for hotels than for Airbnb. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates. Arbitrica works on hotels at the checkout: it searches the same hotel from 195 countries, checks the room and final total match, and prepares the booking at the lowest price in the world. See [does a VPN make hotels cheaper?](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html).
+
+**What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so you see the real total from the start.
 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
@@ -9435,6 +9455,8 @@ Across 1,000 hotels searched from 100 countries, about 80% of countries showed a
 - Look beyond your own country: by hand that means a VPN, one country at a time ([what the tests found](https://arbitrica.com/blog/does-vpn-make-hotels-cheaper.html)).
 - Or let Arbitrica do it at the checkout: it searches 195 countries across sites and prepares the booking at the lowest price in the world.
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions
@@ -9485,6 +9507,8 @@ CardRatings' examples: a 3% markup adds about $21 to a sample vacation day and o
 
 ## The bigger saving most people miss
 Choosing the right currency saves a few percent. Choosing the right market can save far more. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates. Arbitrica looks for that gap at the checkout: it searches the same hotel from 195 countries, checks the final total includes all taxes and fees, and prepares the booking at the lowest price it finds. See [why the same hotel has different prices](https://arbitrica.com/blog/same-hotel-different-price.html).
+
+**A price without surprises.** Additional charges are one of the things travellers complain about most when they book hotels online: extra fees, taxes and add-on fees added after the details are filled in. What helps is a price you can trust from the first screen, without clicking through for ten minutes to find out what will be added. Arbitrica searches the same hotel from 195 countries and checks the final total with all taxes and fees, so the lowest price in the world it finds is a total, with the additional fees already counted.
 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
@@ -10071,6 +10095,8 @@ Ways 1-14 are habits you can build. Way 5 is different: it is where the largest 
 
 Related guides: [cheapest way to book a hotel](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html), [how to get cheap hotel rooms last minute](https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.html), [how to get the best hotel rates](https://arbitrica.com/blog/how-to-get-the-best-hotel-rates.html), [14 hotel booking hacks](https://arbitrica.com/blog/hotel-booking-hacks.html) and [why the same hotel has a different price](https://arbitrica.com/blog/same-hotel-different-price.html).
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 ## Frequently asked questions
 
 ### How do I get hotels cheaper?
@@ -10105,6 +10131,9 @@ Connect to another country, clear cookies, search the same hotel and room, and n
 
 ### How to get cheap hotel rooms?
 Pick low-demand nights, compare the full total for the same hotel across sites and countries, use member rates and best rate guarantees, and keep a refundable booking so you can rebook if the price drops.
+
+### How do I know a hotel price has no extra charges?
+Go to the final payment screen and check the total for the whole stay, with taxes and any additional fees such as resort or cleaning fees. Arbitrica checks the final total with all taxes and fees before it shows a price, so the lowest price it finds already includes the extra charges.
 
 ---
 
@@ -10148,6 +10177,8 @@ Research across 1,000 hotels searched from 100 countries found a lower price tha
 
 The full list of ways to pay less is in [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
+**What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so you see the real total from the start.
+
 ## Frequently asked questions
 
 ### What is the cheapest way to book a hotel?
@@ -10161,6 +10192,9 @@ None is always lowest. Agoda is often strong in Asia, Booking and Expedia run me
 
 ### How do I book hotels cheaper?
 Choose low-demand nights, book refundable, judge the final total, use member rates, pay in local currency and search the same hotel from other countries before you pay.
+
+### How do I know a hotel price has no extra charges?
+Go to the final payment screen and check the total for the whole stay, with taxes and any additional fees such as resort or cleaning fees. Arbitrica checks the final total with all taxes and fees before it shows a price, so the lowest price it finds already includes the extra charges.
 
 ---
 
@@ -10198,6 +10232,8 @@ When time is short, checking country markets by hand is the first thing people s
 
 All 15 ways to pay less are in [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html); timing in depth is in the [best time to book a hotel](https://arbitrica.com/blog/best-time-to-book-hotels.html) guide.
 
+**A price without surprises.** Additional charges are one of the things travellers complain about most when they book hotels online: extra fees, taxes and add-on fees added after the details are filled in. What helps is a price you can trust from the first screen, without clicking through for ten minutes to find out what will be added. Arbitrica searches the same hotel from 195 countries and checks the final total with all taxes and fees, so the lowest price in the world it finds is a total, with the additional fees already counted.
+
 ## Frequently asked questions
 
 ### How do I get cheap hotel rooms last minute?
@@ -10211,6 +10247,9 @@ Sometimes. In a NerdWallet test in St. Petersburg, Florida, 10 of 16 hotels were
 
 ### What is the best day to book a last-minute hotel?
 The check-in day matters more than the booking day: US stays starting on a Sunday were 15% lower than those starting on a Friday in the Hotels.com 2026 index.
+
+### How do I know a hotel price has no extra charges?
+Go to the final payment screen and check the total for the whole stay, with taxes and any additional fees such as resort or cleaning fees. Arbitrica checks the final total with all taxes and fees before it shows a price, so the lowest price it finds already includes the extra charges.
 
 ---
 
@@ -10259,6 +10298,8 @@ Research across 1,000 hotels searched from 100 countries found a lower price tha
 
 More: [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [cheapest way to book a hotel](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html) and the [14 hotel booking hacks](https://arbitrica.com/blog/hotel-booking-hacks.html).
 
+**No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
+
 ## Frequently asked questions
 
 ### How do I get the best hotel rates?
@@ -10272,6 +10313,9 @@ Watch for member promotions, last-minute discounts 8-14 days out, and lower coun
 
 ### Do hotels match lower prices?
 Many chains do through a best rate guarantee. Marriott matches a lower rate for the same room and terms and adds 25% off or 5,000 points if you claim within 24 hours of booking and at least 24 hours before check-in.
+
+### How do I know a hotel price has no extra charges?
+Go to the final payment screen and check the total for the whole stay, with taxes and any additional fees such as resort or cleaning fees. Arbitrica checks the final total with all taxes and fees before it shows a price, so the lowest price it finds already includes the extra charges.
 
 ---
 
