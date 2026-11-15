@@ -9947,18 +9947,19 @@ Yes. Its approach repeats the search after you book until the free-cancellation 
 
 # How to get hotels cheaper: 15 ways that work in 2026
 
-Updated 2026-11-12 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
+Updated 2026-11-15 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
 
 ## Key takeaways
 - The biggest single lever is the country you search from: the same hotel often has a different final price in different countries. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
 - Timing still matters. Hotels.com's 2026 Hotel Price Index found the best prices 8-14 days before travel, last-minute bookers paying 23% less than people who booked 4+ months out, and Sunday check-ins 15% lower than Friday in the US.
+- Start by lining up the booking sites for the same hotel on Google Hotels, KAYAK or trivago, and switch on Google's price tracking for that hotel (live since April 17, 2026 for signed-in users). Those lists come from one market, so then check the same hotel from other countries.
 - Always judge the final total for the whole stay with taxes and fees, never the nightly rate.
 - Book a refundable rate when you can and keep checking after you book; a lower price before the cancellation deadline is money back.
 - Before you pay, call or email the hotel: in a Which? test published on November 5, 2026, that got a lower price than the hotel's own website and Booking at four of five hotels, by £47 to £79 for two nights.
 - Arbitrica, a personal AI agent, searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price in the world, so you only review and pay.
 
 ## Short answer: how to get hotels cheaper
-To get a hotel for less, change the things that actually set its price: the nights you stay, how far ahead you book, which site and which country you search from, which rate you pick and what you do after you book. Most people only change the first one. The 15 ways below are grouped in the order you meet them when you plan a trip.
+To get a hotel for less, first line up the booking sites for the same hotel and dates on a metasearch site such as Google Hotels, KAYAK or trivago, so you never take the first price you see. Then change the things that actually set its price: the nights you stay, how far ahead you book, which site and which country you search from, which rate you pick and what you do after you book. Most people only change the first one. The 15 ways below are grouped in the order you meet them when you plan a trip.
 
 - Check in on a Sunday instead of a Friday or Saturday.
 - Book 1-2 weeks out for most city trips, earlier for event dates.
@@ -9977,6 +9978,15 @@ To get a hotel for less, change the things that actually set its price: the nigh
 - Let an agent do the country-by-country search at the checkout.
 
 Before you pay, two more checks can take a little more off: call or email the hotel, and book through a cashback site (see below).
+
+## Before the 15 ways: line up the booking sites and set a price alert
+The first rule in most guides is never to book the first price you see. The quickest way to follow it is a metasearch site, which lists what different booking sites charge for the same hotel and dates. Open the two or three lowest offers and check the final total before you pick one.
+
+- **Google Hotels.** Search the hotel by name and choose View prices to see offers from Google's partners for your dates ([Google Travel Help](https://support.google.com/travel/answer/6276008?hl=en)). Since April 17, 2026 you can also switch on price tracking for one specific hotel: on desktop it is a toggle on the hotel's result in Search, on mobile it sits under the Prices tab, and Google emails you if rates change significantly for your dates. It is available to signed-in users, in English and Spanish ([Google, April 17, 2026](https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/)).
+- **KAYAK.** KAYAK says it searches hundreds of travel sites at once for hotel deals, and signed-in users can choose Set Price Alert on the hotel results ([KAYAK](https://www.kayak.com/hotels), checked on November 15, 2026).
+- **trivago.** trivago says it compares hotel prices from hundreds of sites ([trivago](https://www.trivago.com/), checked on November 15, 2026).
+
+A metasearch list still comes from one market: the one you search from. Google's own Hotel Center help lets a hotel set one rate rule per user country, such as us_rate, uk_rate and jp_rate ([Google Hotel Center Help](https://support.google.com/hotelprices/answer/14078201), checked on November 15, 2026), so the same hotel can carry a different price in another country. That check is way 5, and it is the part Arbitrica takes over at the checkout: it searches the same hotel from 195 countries and prepares the booking at the lowest price in the world, so you only review and pay.
 
 ## Ways 1-4: when you stay
 **1. Check in on a Sunday.** In the [Hotels.com 2026 Hotel Price Index, June 9, 2026](https://www.expedia.com/newsroom/2026-hotel-price-index-how-americans-are-shopping-smarter-this-summer/), US stays that started on a Sunday were 15% lower than stays that started on a Friday. Friday was the priciest check-in day in the US and Saturday the priciest for international stays. [KAYAK UK, best time to book a hotel](https://www.kayak.co.uk/news/news/best-time-to-book-a-hotel/) also names Sunday as the lowest day to stay.
@@ -10049,6 +10059,12 @@ Related guides: [cheapest way to book a hotel](https://arbitrica.com/blog/cheape
 
 ### How do I get hotels cheaper?
 Check in on a Sunday, book 1-2 weeks out for most trips, travel in low months, judge the final total with taxes and fees, pay in local currency, book refundable and rebook if the price drops, and search the same hotel from other countries. Arbitrica does the country search from 195 countries at the checkout and prepares the booking at the lowest price in the world.
+
+### What is the best site to get hotels cheaper?
+No single site has the lowest price every time. Start on a metasearch site such as Google Hotels, KAYAK or trivago to line up the booking sites for your dates, check the hotel's own member rate, then search the same hotel from other countries, since Google lets hotels set a different rate for each user country. Arbitrica does that country search from 195 countries at the checkout and prepares the booking at the lowest price in the world.
+
+### Can Google track a hotel's price for me?
+Yes. Since April 17, 2026, signed-in users can switch on price tracking for a specific hotel in Google Search, in English and Spanish, and Google emails an alert if rates change significantly for the chosen dates. It watches the price in your own market and sends an email; it does not book or rebook for you.
 
 ### How to get hotels cheaper on Reddit: what do people recommend?
 The tips that come up most in travel threads are booking direct after checking the hotel's own member rate, using a VPN to search from another country, booking refundable and rebooking when the price drops, and calling the hotel to ask for a better rate. The published data supports all four: in a Which? test published on November 5, 2026, calling or emailing the hotel got a lower price than its own website and Booking at four of five hotels.
