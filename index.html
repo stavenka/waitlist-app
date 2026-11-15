@@ -461,6 +461,9 @@
     @media (max-width: 940px) { .free-pill { flex-direction: column; gap: 0.4rem; width: 100%; max-width: 254px; border-radius: 16px; padding: 0.6rem 0.75rem; font-size: 0.9rem; } }
     /* Phones and small tablets: "and finds the lowest price on Earth" runs on right after "195 countries" (the user, 15-10-2026). */
     .hero-p .br-mob { display: none; }
+    /* Phones (the user, 15-11-2026): "How Arbitrica makes you money", so the heading fits on one line. */
+    .w-mob { display: none; }
+    @media (max-width: 640px) { .w-desk { display: none; } .w-mob { display: inline; } h2.section-title.hiw-title { white-space: nowrap; font-size: min(1.6rem, 5.9vw); } }
     @media (max-width: 640px) { .hero-p .br-desk { display: none; } .hero-p .br-mob { display: inline; } }
     /* Phones: the two stats stacked, icons in one column, the block centred under the button. */
     @media (max-width: 480px) {
@@ -729,10 +732,12 @@
     }
     @media (max-width: 640px) {
       .header-inner { grid-template-columns: auto 1fr auto; padding: 0.4rem 0.85rem; }
-      .header-nav { gap: 0.7rem; justify-self: start; margin-left: 0.35rem; margin-right: 0.5rem; }
+      .header-nav { gap: 0.7rem; justify-self: center; margin-left: 0.5rem; margin-right: 0.5rem; }
       .nav-cat { font-size: 0.62rem; padding: 0.3rem 0.2rem; } /* phones: a touch smaller so the centred "Soon | Watch demo" chips keep apart */
       .nav-cat .cs-chip { font-size: 0.4rem; top: -0.35rem; padding: 0.08rem 0.3rem; }
-      .logo-link img { height: 70px; }
+      /* Phones (the user, 15-11-2026): the logo mirrors the About button. The logo file's empty margins are trimmed off, so
+         the word starts as far from the left edge as About ends from the right, and is about as wide as About. */
+      .logo-link img { height: 76px; width: auto; max-width: none; flex-shrink: 0; margin: -3px -23px -3px -23px; }
       .ai-sign { height: auto; width: clamp(70px, 14vw, 110px); }
       .hero { padding: 0.5rem 0 2.5rem; }
       .container { padding: 0 1.25rem; }
@@ -755,6 +760,12 @@
       .footer-bottom { justify-content: center; text-align: center; }
       .queue-modal { padding: 1.75rem 1.25rem; }
       .overlay-label { font-size: 1.15rem; }
+    }
+    @media (max-width: 360px) {
+      /* Small phones: a little tighter so the logo, the three links and About still fit on one line. */
+      .header-nav { gap: 0.4rem; margin-left: 0.25rem; margin-right: 0.3rem; }
+      .nav-cat { font-size: 0.56rem; padding: 0.3rem 0.08rem; }
+      .logo-link img { height: 66px; margin: -3px -20px -3px -20px; }
     }
     /* Large demo player (the user, 19-10-2026): opens over the page when Play is pressed. */
     #arbTheater { position: fixed; inset: 0; z-index: 2147483000; display: flex; align-items: center; justify-content: center; padding: 64px 24px 24px; background: rgba(12,10,24,0.88); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); animation: arb-th-in .22s ease-out both; }
@@ -904,7 +915,7 @@
   <!-- ── HOW IT WORKS ─────────────────────────────────────────────────────── -->
   <section class="how-it-works" id="how-it-works">
     <div class="container">
-      <h2 class="section-title">How Arbitrica makes people money</h2>
+      <h2 class="section-title hiw-title">How Arbitrica makes <span class="w-desk">people</span><span class="w-mob">you</span> money</h2>
       <div class="steps">
 
         <div class="step">
@@ -927,7 +938,7 @@
               <span class="step-soon">Coming soon</span>
             </div>
             <h3 class="step-title">Arbitrica runs price searches of your booking every day - after you've already paid</h3>
-            <p class="step-desc">When the price drops, Arbitrica emails you &amp; prepares re-booking at a better price. <a href="/blog/how-to-get-hotels-cheaper.html" style="color:var(--primary);font-size:0.85rem;display:inline-block;">How to get hotels cheaper: 15 ways &rarr;</a></p>
+            <p class="step-desc">When the price drops, Arbitrica emails you &amp; prepares re-booking at a better price. <a href="/blog/how-to-get-hotels-cheaper.html" style="color:var(--primary);font-size:0.85rem;display:block;">How to get hotels cheaper: 15 ways &rarr;</a></p>
           </div>
           <div class="step-video-wrap">
             <video src="videos/Step 2.mp4?v=3" controls playsinline muted preload="none" loop>
