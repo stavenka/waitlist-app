@@ -170,6 +170,11 @@ const GA_SNIPPET =
   '<script async src="https://www.googletagmanager.com/gtag/js?id=' + GA_ID + '"></script>' +
   '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}' +
   "gtag('js',new Date());gtag('config','" + GA_ID + "');</script>";
+// The logo files are 560 x 445 with the word at x 134-428, y 176-257; at a height h the empty margins are 0.301h left,
+// 0.297h right, 0.3955h above and 0.4225h below.
+const LOGO_INNER_CSS =
+  '.header-left .logo-link img{height:180px;width:auto;max-width:none;margin:-71px -53px -76px -54px}' +
+  '@media (max-width:768px){.header-left .logo-link img{height:150px;margin:-59px -45px -63px -45px}}';
 app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
   let rel;
   try { rel = decodeURIComponent(req.path); } catch (e) { return next(); }
@@ -197,6 +202,12 @@ app.get(/^\/(?:.*\.html|.*\/)?$/i, (req, res, next) => {
     if (logo) {
       const logoName = colour && LOGO_THEMED.has(colour) ? `Arbitrica_logo_${colour}` : 'Arbitrica_logo_transparent';
       out = out.replace(/Arbitrica_logo_transparent\.(png|webp)(?!\?)/g, `${logoName}.$1?v=${LOGO_V}`);
+    }
+    // The logo on the inner pages (the user, 15-11-2026: "microscopic"): those pages show it at 38px high, but the logo file
+    // carries wide empty margins, so the word itself came out about 7px high. It is shown larger and its empty margins
+    // are trimmed away with negative margins, so the logo (mark and word) is about 33px high on desktop and 27px on phones.
+    if (logo && out.includes('.logo-link img { height: 38px; width: auto; }')) {
+      out = out.replace('</head>', '<style>' + LOGO_INNER_CSS + '</style></head>');
     }
     if (hubLinks) {
       out = out.replace('<a href="/faq.html">FAQ</a>\n      </div>', '<a href="/faq.html">FAQ</a>\n        <a href="/business.html">For business</a>\n        <a href="/hotels/">Hotel prices by city</a>\n        <a href="/compare/">Price trackers by site</a>\n      </div>');
