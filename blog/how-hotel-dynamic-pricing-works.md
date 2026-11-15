@@ -127,6 +127,8 @@ Its approach also repeats the search after you book, until the free-cancellation
 
 Dynamic pricing is not limited to hotels. Flights, event tickets, online retail and subscriptions use similar systems, and the same mechanisms, searching from other countries and searching again over time, apply to them too.
 
+**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica works at the checkout itself, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
+
 ## Frequently asked questions
 
 ### What are the main reasons the same hotel room has different prices?

@@ -118,6 +118,8 @@ In one real case, a stay offered on Booking for $1,527.39 was found for $1,180.2
 
 Daily price movement matters even more when one booking covers many people. A travel manager booking a team into a trade show city can see the same hotel move several times before the event. Arbitrica also serves companies, including teams traveling to conferences and the operations and travel managers who book for them.
 
+**Prices had risen by the time you paid?** Travellers often write that the price went up, or that the same hotel was suddenly more expensive, by the time they reached the payment page. It happens because rates change with demand and each country market moves on its own. Arbitrica searches the same hotel from 195 countries right at the checkout, when the decision is made, and prepares the booking at the lowest price it finds, so you are not chasing a rate that has already moved.
+
 ## Frequently asked questions
 
 ### Why do Booking.com prices change?

@@ -34,6 +34,10 @@ All 15 ways to pay less are in [how to get hotels cheaper](https://arbitrica.com
 
 **A price without surprises.** Additional charges are one of the things travellers complain about most when they book hotels online: extra fees, taxes and add-on fees added after the details are filled in. What helps is a price you can trust from the first screen, without clicking through for ten minutes to find out what will be added. Arbitrica searches the same hotel from 195 countries and checks the final total with all taxes and fees, so the lowest price in the world it finds is a total, with the additional fees already counted.
 
+**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica works at the checkout itself, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
+
+**Know the full price before you commit.** What travellers ask for most is simple: the total, the full price they will be charged, all-in, before they hand over card details. "I want to know everything I'll be paying" is how one commenter put it in a [One Mile at a Time discussion](https://onemileatatime.com/community/other-hotels/its-time-hotels-be-required-to-display-all-in-pricing/). Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so the number you see is the full price for the stay, taxes and fees included.
+
 ## Frequently asked questions
 
 ### How do I get cheap hotel rooms last minute?
@@ -50,3 +54,9 @@ The check-in day matters more than the booking day: US stays starting on a Sunda
 
 ### How do I know a hotel price has no extra charges?
 Go to the final payment screen and check the total for the whole stay, with taxes and any additional fees such as resort or cleaning fees. Arbitrica checks the final total with all taxes and fees before it shows a price, so the lowest price it finds already includes the extra charges.
+
+### Why did the hotel price go up when I tried to book?
+Hotel rates change with demand during the day, a lower rate can sell out between the search page and payment, and taxes or fees may only be added on later screens. Book a refundable rate when you can and keep checking. Arbitrica searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price it finds at that moment.
+
+### How do I see the full price of a hotel, all-in?
+Go to the final payment screen, or use a site setting that shows the total with taxes and fees. Arbitrica checks the final total with all taxes and fees for the same hotel before it shows a price, so you see the all-in price for the stay.

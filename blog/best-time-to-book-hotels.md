@@ -96,6 +96,8 @@ The same thinking works beyond hotels. Flights, car rentals, event tickets and m
 
 **No extra charges at the last step.** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total, with all taxes and fees included, before it shows you the lowest price in the world for the same hotel, so the price you see already includes them.
 
+**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica works at the checkout itself, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [How to get cheap hotel rooms last minute: 8 tactics for 2026](https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.html).
 
 ## Frequently asked questions

@@ -94,6 +94,8 @@ Searching from 195 countries before you pay, and again after you book, is the pa
 
 **What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so you see the real total from the start.
 
+**Know the full price before you commit.** What travellers ask for most is simple: the total, the full price they will be charged, all-in, before they hand over card details. "I want to know everything I'll be paying" is how one commenter put it in a [One Mile at a Time discussion](https://onemileatatime.com/community/other-hotels/its-time-hotels-be-required-to-display-all-in-pricing/). Arbitrica checks that the room, the conditions and the final total with all taxes and fees are identical before it shows a price, so the number you see is the full price for the stay, taxes and fees included.
+
 Related: [Should you pay for a hotel in local currency?](https://arbitrica.com/blog/pay-hotel-in-local-currency.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions

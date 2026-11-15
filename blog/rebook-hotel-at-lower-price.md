@@ -138,6 +138,8 @@ For travel managers and operations managers, rebooking is a budget lever. Group 
 
 - You saved the cancellation confirmation and checked the refund arrived.
 
+**Prices had risen by the time you paid?** Travellers often write that the price went up, or that the same hotel was suddenly more expensive, by the time they reached the payment page. It happens because rates change with demand and each country market moves on its own. Arbitrica searches the same hotel from 195 countries right at the checkout, when the decision is made, and prepares the booking at the lowest price it finds, so you are not chasing a rate that has already moved.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions

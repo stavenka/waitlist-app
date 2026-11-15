@@ -30,6 +30,8 @@ Choosing the right currency saves a few percent. Choosing the right market can s
 
 **A price without surprises.** Additional charges are one of the things travellers complain about most when they book hotels online: extra fees, taxes and add-on fees added after the details are filled in. What helps is a price you can trust from the first screen, without clicking through for ten minutes to find out what will be added. Arbitrica searches the same hotel from 195 countries and checks the final total with all taxes and fees, so the lowest price in the world it finds is a total, with the additional fees already counted.
 
+**The all-in price, from the first screen.** In traveller forums people keep asking for the same thing: the full price, all-in, the price that will be charged, not a nightly rate that grows on the way to payment. Arbitrica gives you that number. It checks the final total for the same hotel with all taxes and fees before it shows you the lowest price in the world for it.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions

@@ -149,6 +149,8 @@ Price drops after purchase are not unique to hotels. Flights, car rentals, event
 
 Using an alert tool? See the [Rate Ranger alternative that also checks the price from other countries](https://arbitrica.com/blog/rate-ranger-alternative.html).
 
+**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica works at the checkout itself, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
+
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions
