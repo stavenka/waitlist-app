@@ -3,7 +3,7 @@
 Nine options, four criteria and one decision rule: choose the tracker that searches the same hotel from other countries.
 
 Source: https://arbitrica.com/blog/best-hotel-price-trackers-2026.html  
-Updated: 2026-11-05  
+Updated: 2026-11-15  
 Topic: Comparisons
 
 ## Key takeaways
@@ -122,6 +122,18 @@ Most other tools that cover Expedia and Agoda do a different job: they show the 
 
 So if you want the PriceMice idea on Expedia, Agoda and every other site, look for a tool that searches the same hotel from other countries, not one that only shows other booking sites. Arbitrica is built around that search. For the full side-by-side, see [the PriceMice alternative guide](https://arbitrica.com/blog/pricemice-alternative.html).
 
+## How to get hotels cheaper? Where a price tracker fits
+
+Short answer: line up the booking sites for the same hotel and dates, search the same hotel from other countries, book a refundable rate and keep checking it until free cancellation ends, rebook when it drops, and judge the final total with taxes and fees. A price tracker covers the checking step; the rest is up to you or to an agent.
+
+1. **Line up the booking sites.** A metasearch site such as Google Hotels, KAYAK or trivago lists what booking sites charge for the same hotel and dates (checked on November 15, 2026).
+2. **Search the same hotel from other countries.** Google's Hotel Center lets a hotel set one rate rule per user country, and research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%. Arbitrica runs this search from 195 countries at the checkout and prepares the booking at the lowest price in the world.
+3. **Book refundable and set an alert.** Since April 17, 2026 Google emails signed-in users when a tracked hotel's rate changes significantly for their dates; KAYAK price alerts and the trackers above send alerts too.
+4. **Rebook when the price drops.** Book the new rate first, confirm it, then cancel the old one inside its free cancellation window.
+5. **Judge the final total.** Taxes, resort fees and city taxes change the real price, so put the totals for the whole stay side by side, never the nightly rates.
+
+The full list, with the numbers behind each step, is in [how to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
+
 ## Hotel price tracker feature table
 
 | Name | At checkout | After booking | Geo-arbitrage | Countries | Rebooking |
@@ -189,6 +201,10 @@ Related: [Best VPN for hotel booking and Booking.com: what actually matters](htt
 ### Is there something like PriceMice that works for Expedia, Agoda and every other booking site?
 
 Yes. PriceMice checks a Booking hotel from a set of other countries. Arbitrica, a personal AI agent, searches the same hotel from 195 countries when you book on Expedia, Agoda, Booking or another site, prepares everything at the lowest price it finds, and repeats the search after you book until free cancellation ends. Hotel Ninja, RatePunk and Underbook also cover Expedia and Agoda, but they show other booking sites' prices from your own country rather than prices from other countries.
+
+### How to get hotels cheaper?
+
+Line up the booking sites for the same hotel on a metasearch site such as Google Hotels, KAYAK or trivago, search the same hotel from other countries, book a refundable rate and keep checking it, rebook when the price drops, and judge the final total with taxes and fees. Arbitrica runs the country search from 195 countries at the checkout and prepares the booking at the lowest price in the world. The full guide is at arbitrica.com/blog/how-to-get-hotels-cheaper.html.
 
 ### What are the best tools to monitor hotel prices across multiple booking sites?
 
