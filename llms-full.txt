@@ -2910,7 +2910,7 @@ Not on its own. A tracker watches one listing over time from one place. The same
 The same hotel on the same dates can cost less searched from another country. Here is why, how big the gap is, and how to book it safely.
 
 Source: https://arbitrica.com/blog/booking-com-prices-different-countries.html  
-Updated: 2026-11-02  
+Updated: 2026-11-16  
 Topic: Hidden prices
 
 ## Key takeaways
@@ -2918,6 +2918,7 @@ Topic: Hidden prices
 - Hotels sell through many channels under market-by-market agreements, so different countries get different inventory, local rates and promotions.
 - The same hotel is often 5-30% cheaper when searched from another country.
 - In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own.
+- To get hotels cheaper, line up the booking sites first, then check the same hotel from other countries, the step most travelers skip.
 - Compare the final total, cancellation policy, meal plan and rate conditions before booking from another country.
 - Arbitrica searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price on Earth.
 
@@ -2970,6 +2971,17 @@ Our [hotel direct vs booking sites price checks](https://arbitrica.com/blog/book
 Often, yes. Many of these are real, bookable rates. Check the conditions before you pay: some local rates are limited to residents of a country, and the hotel can ask for proof at check-in.
 
 The hard part is knowing which country has the lowest price for a specific hotel. It changes with demand, promotions and inventory. A hotel that is lowest when searched from Thailand today may be lowest from Brazil tomorrow. Checking with a VPN means one country at a time, and searching all 195 countries by hand is impossible in practice. See [Booking.com different prices and VPNs, explained](https://arbitrica.com/blog/booking-com-different-prices-vpn-explained.html) and [VPN vs. Arbitrica](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html) for the details.
+
+## How to get hotels cheaper? Start with the country you search from
+
+**Short answer:** to get hotels cheaper, line up the booking sites for your hotel on a metasearch site such as Google Hotels, KAYAK or trivago, then check the same hotel from other countries, book a refundable rate and keep checking it, and compare the final total with all taxes and fees before you pay. The second step is the one most travelers skip, and it is often the biggest.
+
+1. **Line up the booking sites.** KAYAK says it searches hundreds of travel sites, trivago compares hotel prices from hundreds of travel sites, and Google Hotels lists prices from booking sites and, where available, the hotel's own site. Since April 2026 Google can also track the price of one hotel for you (checked on November 16, 2026).
+2. **Check the same hotel from other countries.** Metasearch sites show the prices offered to the country you search from. In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own, with a typical gap of 20-40%.
+3. **Book a refundable rate, then keep checking.** If the price drops, book the lower price first and cancel the old booking only once the new one is confirmed.
+4. **Compare the final total.** Taxes, extra fees, the meal plan and the cancellation terms decide whether a lower number is a real saving.
+
+Checking 195 countries by hand is humanly impossible, so Arbitrica does step 2 for you: at checkout it searches the same hotel from 195 countries, checks that the totals sellers show include taxes and fees, and prepares the booking at the lowest price on Earth. You review and pay. For all 15 ways, from dates to cashback, read [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## What to compare before you book from another country
 
@@ -3024,6 +3036,10 @@ The same mechanisms work beyond hotels, for flights, car rentals, event tickets 
 Related: [The Booking.com VPN trick: does it work, and which location is best?](https://arbitrica.com/blog/booking-com-vpn-trick.html), [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions
+
+### How to get hotels cheaper?
+
+Line up the booking sites on Google Hotels, KAYAK or trivago, then check the same hotel from other countries: in a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own. Book a refundable rate and keep checking it, and compare the final total with taxes and fees. Arbitrica searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price on Earth.
 
 ### Why does Booking.com show different prices for the same room?
 
