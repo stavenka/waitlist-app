@@ -6579,7 +6579,7 @@ Yes. Arbitrica works at the checkout step, so you can keep using whatever extens
 Hotel prices often drop after you book. Here is how to cancel and rebook safely, and the pitfalls that can wipe out the saving.
 
 Source: https://arbitrica.com/blog/rebook-hotel-at-lower-price.html  
-Updated: 2026-10-25  
+Updated: 2026-11-17  
 Topic: Save money
 
 ## Key takeaways
@@ -6588,6 +6588,7 @@ Topic: Save money
 - Always book the new rate first and wait for confirmation before cancelling the original booking.
 - Compare the final totals with all taxes and fees, and make sure the hotel, dates, room type and board are identical.
 - Non-refundable rates, prepaid deposits, loyalty points and travel credits can reduce or cancel out the saving.
+- To get hotels cheaper, line up the booking sites, check the same hotel from other countries, then book a refundable rate and keep checking: it is the one price you can still lower after you pay.
 - Arbitrica's approach repeats the search from 195 countries after you book and confirms the new booking before the original is cancelled.
 
 Yes, you can get a lower price after booking a hotel. If your booking has free cancellation and the price of the same hotel drops before the deadline, you can book the new rate and cancel the old one. The saving is real, but so are the traps: a cancelled booking you cannot get back, a deposit that takes weeks to refund, or a lower rate that turns out to be for a different room. This guide walks through the process step by step so you rebook safely.
@@ -6688,6 +6689,18 @@ If you paid partly with a gift card, a travel credit or a voucher, a cancellatio
 
 Sometimes. Some booking sites and hotel chains publish a price match or best rate guarantee, each with its own conditions about what counts as the same offer and when you can claim. Booking.com still has one, explained in our [Booking.com price match](https://arbitrica.com/blog/booking-com-price-match.html) guide. Expedia and Hotels.com ended their Hotel Price Guarantee on July 28, 2026, as covered in our article on the [Hotels.com price guarantee](https://arbitrica.com/blog/hotels-com-price-guarantee.html). If your booking is refundable, rebooking is usually faster than a claim and does not depend on anyone approving it.
 
+## How to get hotels cheaper? Book refundable, then keep checking
+
+**Short answer:** to get hotels cheaper, line up the booking sites for your hotel on a metasearch site such as Google Hotels, KAYAK or trivago, check the same hotel from other countries, book a refundable rate, then keep checking the price and rebook when it drops. Most people stop at the first booking, yet a refundable booking is the one hotel price you can still lower after you pay.
+
+1. **Line up the booking sites.** KAYAK says it searches hundreds of travel sites at once for hotel deals (checked on November 17, 2026), and trivago and Google Hotels also list what different booking sites charge for the same hotel and dates.
+2. **Check the same hotel from other countries.** Metasearch sites show the prices offered to the country you search from. In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own, with a typical gap of 20-40%.
+3. **Pick your timing.** In the Hotels.com 2026 Hotel Price Index (June 9, 2026), the best savings came 8-14 days before the stay, and starting a stay on a Sunday rather than a Friday saved 15% (checked on November 17, 2026).
+4. **Book a refundable rate, then keep checking.** Check the same hotel, dates and room type every few days, more often in the last two weeks before the cancellation deadline.
+5. **Rebook in the right order.** When the final total with taxes and extra fees drops, book the lower price first, wait for the confirmation, and only then cancel the original booking.
+
+Doing steps 2, 4 and 5 by hand, from 195 countries and again and again until the deadline, is humanly impossible. Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price in the world, and Arbitrica's approach repeats the search after you book, while the booking can still be cancelled, confirming the new booking before the original is cancelled. For all 15 ways, from dates to cashback, read [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
+
 ## How Arbitrica's approach automates the repeat search
 
 The hard part of rebooking is not the cancel button. It is remembering to search again, every few days, until the deadline, and checking each time that the new offer is identical and includes every tax and fee. Most people check once or twice and give up.
@@ -6719,6 +6732,10 @@ For travel managers and operations managers, rebooking is a budget lever. Group 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## Frequently asked questions
+
+### How to get hotels cheaper?
+
+Line up the booking sites on Google Hotels, KAYAK or trivago, then check the same hotel from other countries: in a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own. Book a refundable rate and keep checking it; when the total drops, book the lower price first and cancel the original only once the new booking is confirmed. Arbitrica searches the same hotel from 195 countries, and its approach repeats the search after you book.
 
 ### Can you get a lower price after booking a hotel?
 
