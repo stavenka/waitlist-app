@@ -1,9 +1,9 @@
-# RatePunk alternative: a personal AI agent, not an extension
+# RatePunk alternative: a personal AI agent that lives in your browser
 
 A fair look at how RatePunk and Hotel Ninja work, what to compare between them, and how a personal AI agent takes a different approach at checkout.
 
 Source: https://arbitrica.com/blog/ratepunk-alternative.html  
-Updated: 2026-10-25  
+Updated: 2026-11-17  
 Topic: Comparisons
 
 ## Key takeaways
@@ -16,7 +16,7 @@ Topic: Comparisons
 
 If you are searching for a RatePunk alternative, you have probably already used a hotel price extension and noticed a pattern. It works, it shows you a few prices, and most of the time those prices are within a few dollars of each other. That is useful information, but it is not always a saving.
 
-This article gives a fair overview of how RatePunk and Hotel Ninja work, what to look for if you are weighing Hotel Ninja vs RatePunk or similar tools, and why the alternative we suggest is not another extension at all: Arbitrica is a personal AI agent that takes a different approach, one that is not comparison.
+This article gives a fair overview of how RatePunk and Hotel Ninja work, what to look for if you are weighing Hotel Ninja vs RatePunk or similar tools, and why the alternative we suggest takes a different approach: Arbitrica is a personal AI agent that lives in your browser and acts for you at the checkout.
 
 ## How hotel comparison extensions work
 
@@ -72,7 +72,7 @@ RatePunk points at this by telling you which country has the lowest rate. The re
 
 ## How Arbitrica's approach differs
 
-Arbitrica is not another comparison extension. It is a personal AI agent that lives in your browser and shows up at checkout, when you are about to pay. Instead of listing prices for you to judge, it acts for you. It uses two families of mechanisms.
+Arbitrica is a personal AI agent that lives in your browser and shows up at checkout, when you are about to pay. Instead of listing prices for you to judge, it acts for you. It uses two families of mechanisms.
 
 ### Geographic arbitrage, live at checkout
 
@@ -116,7 +116,7 @@ Arbitrica makes the most difference on stays where the total is large enough for
 
 ## What changes in your routine
 
-Switching from a comparison extension to Arbitrica does not change how you choose a hotel. You still browse, read reviews and pick the hotel and dates you want, on the site you prefer. The difference is at the last step. Instead of scanning a list of prices and deciding which link to follow, you get the lowest price Arbitrica found for that exact hotel, already checked for taxes and fees, with the booking prepared. You look it over, read the cancellation terms, and pay. If nothing lower turns up, you simply carry on with the booking you started.
+Switching from a comparison tool to Arbitrica does not change how you choose a hotel. You still browse, read reviews and pick the hotel and dates you want, on the site you prefer. The difference is at the last step. Instead of scanning a list of prices and deciding which link to follow, you get the lowest price Arbitrica found for that exact hotel, already checked for taxes and fees, with the booking prepared. You look it over, read the cancellation terms, and pay. If nothing lower turns up, you simply carry on with the booking you started.
 
 ## Not only hotels
 
@@ -136,10 +136,10 @@ Both are commonly listed as hotel comparison extensions, and their features chan
 
 They can, mainly when one site is more expensive than others. Bigger gaps tend to appear between countries, because different countries get access to different inventory, channels, local rates and promotions.
 
-### Is Arbitrica a price comparison extension?
+### What kind of tool is Arbitrica?
 
-No. Arbitrica is a personal AI agent that lives in your browser. It searches the same hotel from 195 countries at checkout, finds the lowest price on Earth, validates it, and prepares the booking for you to review and pay.
+Arbitrica is a personal AI agent that lives in your browser. It searches the same hotel from 195 countries at checkout, finds the lowest price on Earth, validates it, and prepares the booking for you to review and pay.
 
-### Can I use Arbitrica alongside a hotel extension?
+### Can I use Arbitrica alongside other hotel tools?
 
-Yes. Arbitrica works at the checkout step, so you can keep using whatever extensions or sites you like to choose a hotel.
+Yes. Arbitrica works at the checkout step, so you can keep using whatever tools or sites you like to choose a hotel.

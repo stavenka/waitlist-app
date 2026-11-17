@@ -3,7 +3,7 @@
 A fair look at Hotel Ninja and RatePunk from their own listings, and why searching the same hotel from 195 countries finds prices a list of sites cannot.
 
 Source: https://arbitrica.com/blog/hotel-ninja-alternative.html  
-Updated: 2026-10-25  
+Updated: 2026-11-17  
 Topic: Comparisons
 
 ## Key takeaways
@@ -160,6 +160,6 @@ Its store listing does not mention price alerts or tracking after booking. It co
 
 They find the lowest price among the sites they check, from your own country. Larger gaps often appear when the same hotel is searched from other countries.
 
-### Is Arbitrica a hotel price comparison extension?
+### What kind of tool is Arbitrica?
 
-No. Arbitrica is a personal AI agent that lives in your browser. It searches the same hotel from 195 countries at checkout, validates the match and prepares the booking for you.
+Arbitrica is a personal AI agent that lives in your browser. It searches the same hotel from 195 countries at checkout, validates the match and prepares the booking for you.

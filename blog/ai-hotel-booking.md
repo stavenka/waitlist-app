@@ -98,7 +98,7 @@ This only works on a refundable rate, so when two prices are close, the flexible
 
 ## How to judge any AI travel assistant or browser extension
 
-Whether you try a travel extension, a chatbot or a personal AI agent like Arbitrica, these questions separate a useful agent from a gimmick:
+Whether you try a travel price tool, a chatbot or a personal AI agent like Arbitrica, these questions separate a useful agent from a gimmick:
 
 - **Does it show the final total?** A price before taxes and fees is not a price. Look for tools that work with the amount you will actually be charged.
 
