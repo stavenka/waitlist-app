@@ -146,7 +146,7 @@ AI agents can find hotels, check details and prepare a booking. Well-designed ag
 
 It is as safe as the agent's design. Look for tools that show the full total with taxes and fees, confirm the hotel is identical, and never pay without your approval.
 
-### Does an AI travel assistant browser extension find better prices than booking sites?
+### Does an AI travel assistant find better prices than booking sites?
 
 Most assistants search from your own country, so they find the same prices you would. Arbitrica, a personal AI agent that lives in your browser, searches the same hotel from 195 countries, where different inventory, channels, local rates and promotions can mean a lower total.
 
