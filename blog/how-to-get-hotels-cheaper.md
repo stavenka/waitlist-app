@@ -1,6 +1,6 @@
 # How to get hotels cheaper: 15 ways that work in 2026
 
-Updated 2026-11-15 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
+Updated 2026-11-18 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
 
 ## Key takeaways
 - The biggest single lever is the country you search from: the same hotel often has a different final price in different countries. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
@@ -9,6 +9,7 @@ Updated 2026-11-15 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-ge
 - Always judge the final total for the whole stay with taxes and fees, never the nightly rate.
 - Book a refundable rate when you can and keep checking after you book; a lower price before the cancellation deadline is money back.
 - Before you pay, call or email the hotel: in a Which? test published on November 5, 2026, that got a lower price than the hotel's own website and Booking at four of five hotels, by £47 to £79 for two nights.
+- Incognito mode helps only a little: research found browsing history can cost a few dollars, while signed-in members were shown lower hotel prices. Search both ways and keep the lower total.
 - Arbitrica, a personal AI agent, searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price in the world, so you only review and pay.
 
 ## Short answer: how to get hotels cheaper
@@ -84,6 +85,14 @@ Once you have the lowest total you can find, two small steps can take a little m
 
 **Book through a cashback site.** Cashback sites such as TopCashback and Quidco pay back a share of bookings made through partner sites once the stay is over. On November 12, 2026 TopCashback listed 11% back on Hotels.com hotel bookings for new customers and 2% for existing customers in November and December, rising to 10% from January 2027, worked out on the price before taxes and fees ([TopCashback, Hotels.com](https://www.topcashback.co.uk/hotelscom/), checked on November 12, 2026). Rates change often, so check on the day you book.
 
+## Does incognito mode get hotels cheaper? What the research found
+**Short answer:** sometimes, by a little. Every list of hotel tips says to search in incognito mode or clear your cookies. The research shows the effect exists but is small next to the bigger levers, and that being signed in can lower the price rather than raise it.
+
+- **Signed in can be lower, not higher.** A Northeastern University study of travel sites, presented at the Internet Measurement Conference in November 2014, found that members signed in to Orbitz and Cheaptickets were shown lower hotel prices than visitors who were not signed in, that Expedia and Hotels.com A/B tested users by steering some of them to more expensive hotels and others to less expensive ones, and that on Travelocity iPhone users saw prices about $15 lower on roughly 5% of hotels ([Science News, October 23, 2014](https://www.sciencenews.org/article/e-commerce-sites-personalize-search-results-maximize-profits), checked on November 18, 2026).
+- **Browsing history can cost a few dollars.** A 2023 paper at the ACM Conference on Fairness, Accountability, and Transparency, "Your Browsing History May Cost You", found that on KAYAK flight searches across about 112 city pairs, incognito profiles generally got better prices than profiles with a browsing history, by a few dollars ([Crowd Dynamics Lab, June 6, 2025](https://crowddynamicslab.github.io/audits,/online/marketplaces/2025/06/06/browsing-history-cost/), checked on November 18, 2026).
+
+So run two searches, one in a private window and one signed in to your Booking Genius, Expedia One Key or hotel loyalty account, and keep the lower final total. Neither search changes the country market you are shown, which is where the big gaps are: across 1,000 hotels searched from 100 countries, about 80% of countries showed a lower price than the traveller's own, with a typical gap of 20-40%. Arbitrica, a personal AI agent, searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price in the world.
+
 ## What each way can save
 The figures below come from the sources linked in each way. They are averages or test results, not promises for your dates.
 
@@ -127,6 +136,9 @@ Yes. Since April 17, 2026, signed-in users can switch on price tracking for a sp
 
 ### How to get hotels cheaper on Reddit: what do people recommend?
 The tips that come up most in travel threads are booking direct after checking the hotel's own member rate, using a VPN to search from another country, booking refundable and rebooking when the price drops, and calling the hotel to ask for a better rate. The published data supports all four: in a Which? test published on November 5, 2026, calling or emailing the hotel got a lower price than its own website and Booking at four of five hotels.
+
+### Does incognito mode make hotels cheaper?
+Only a little, and not always. A 2023 study found incognito profiles generally got slightly better prices on KAYAK flight searches, while a Northeastern University study of travel sites found members signed in to Orbitz and Cheaptickets were shown lower hotel prices. Run one private search and one signed-in search and keep the lower final total; the bigger gap comes from the country you search from.
 
 ### Is it cheaper to call the hotel directly?
 Often, yes. In a Which? test published on November 5, 2026, contacting five UK hotels directly got a lower price than the hotel's own website and Booking at four of them, by £47 to £79 for a two-night stay; three of those rates needed the hotel's free loyalty scheme or app. If the hotel will not lower the price, ask for breakfast or an upgrade.
