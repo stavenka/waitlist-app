@@ -46,7 +46,7 @@ The first eight were active when this guide was first published. Since then Pruv
 
 ## 1. Arbitrica
 
-Arbitrica is a personal AI agent that lives in your browser. It meets you at the checkout when you are about to pay, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. Different countries get access to different inventory, channels, local rates and promotions, so the same hotel searched from another country is often 5-30% cheaper. Arbitrica validates that the lower price is for the identical hotel, includes all taxes and fees, and will not suddenly change, then prepares the booking so you only review and pay.
+Arbitrica is a personal AI agent that lives in your browser. It meets you as soon as you choose your hotel room, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. Different countries get access to different inventory, channels, local rates and promotions, so the same hotel searched from another country is often 5-30% cheaper. Arbitrica validates that the lower price is for the identical hotel, includes all taxes and fees, and will not suddenly change, then prepares the booking so you only review and pay.
 
 Its multiple-time arbitrage approach repeats the search after you book, until the free-cancellation window ends, and prepares a re-booking at the lower price. The new booking is confirmed before the original is cancelled. The same mechanisms apply beyond hotels, to flights, event tickets, online shopping and anything else with a cancellation or return window.
 

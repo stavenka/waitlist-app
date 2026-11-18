@@ -31,7 +31,7 @@ Different countries get different inventory, sales channels, local rates and pro
 *Chart: The same hotel and dates were 33.6% less searched from India than from the UK in Arbitrica's price check.*
 
 ## The best price on anything you buy online
-Arbitrica's agents work at the checkout for hotels, online shopping such as [Amazon](https://arbitrica.com/amazon.html) and [event tickets](https://arbitrica.com/events.html). Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+Arbitrica's agents show up once you choose what you are buying, for hotels, online shopping such as [Amazon](https://arbitrica.com/amazon.html) and [event tickets](https://arbitrica.com/events.html). Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
 
 ## Which to use
 - **Use Instinct** for errands and bookings you want done by text, when the site's price is fine.

@@ -86,7 +86,7 @@ A 2024 NordVPN study found that travel bookings made through US websites came ou
 
 In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. On a family trip with more guests and more nights, that gap is a large amount of money.
 
-Checking other countries by hand, with a VPN, one country at a time, is slow, and doing it again for every party size makes it slower. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay.
+Checking other countries by hand, with a VPN, one country at a time, is slow, and doing it again for every party size makes it slower. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay.
 
 > Chart: In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler’s own country. The typical gap was 20–40%.
 

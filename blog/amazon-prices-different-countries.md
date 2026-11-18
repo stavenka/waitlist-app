@@ -100,7 +100,7 @@ Checking two or three Amazon stores is manageable. Checking every country store,
 
 ## How Arbitrica finds the same product at a lower price
 
-Arbitrica is a personal AI agent that meets you at checkout. When you are about to buy, it searches the same product from 195 countries, at other sellers and stores than the one you are on. It validates that the item is identical, matching the model and the offer rather than the title, and checks the full price with taxes and fees included. Then it prepares the purchase at the lowest price on Earth, and you review and pay.
+Arbitrica is a personal AI agent that meets you once you choose your hotel room. When you are about to buy, it searches the same product from 195 countries, at other sellers and stores than the one you are on. It validates that the item is identical, matching the model and the offer rather than the title, and checks the full price with taxes and fees included. Then it prepares the purchase at the lowest price on Earth, and you review and pay.
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 

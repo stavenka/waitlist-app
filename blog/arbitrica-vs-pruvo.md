@@ -26,7 +26,7 @@ Pruvo offered basic tracking at no charge, and a premium tier added priority mon
 
 ## How Arbitrica works
 
-Arbitrica is a personal AI agent that lives in your browser. It meets you at the checkout when you are about to pay for a hotel, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. It then prepares the booking, so you only review and pay.
+Arbitrica is a personal AI agent that lives in your browser. It meets you as soon as you choose your hotel room, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. It then prepares the booking, so you only review and pay.
 
 The approach rests on two families of mechanisms:
 
@@ -72,7 +72,7 @@ Arbitrica starts from the other side. It searches the same hotel from 195 countr
 
 Pruvo required you to forward each booking confirmation email. If you forgot to forward a booking, Pruvo did not track it. When it found a lower rate, you got an email, and then had to go back to the booking platform, cancel the old reservation and rebook at the new rate yourself.
 
-Arbitrica works at the moment of payment. Because it is there at the checkout, there is nothing to forward. When it finds a lower price for the identical hotel, it prepares everything, so your part is to review and pay. The multiple-time approach works the same way: the re-booking at the lower price is prepared for you, and the new booking is confirmed before the original is cancelled, instead of landing in your inbox as a to-do.
+Arbitrica works at the moment of payment. Because it shows up by itself once you choose your hotel room, there is nothing to forward. When it finds a lower price for the identical hotel, it prepares everything, so your part is to review and pay. The multiple-time approach works the same way: the re-booking at the lower price is prepared for you, and the new booking is confirmed before the original is cancelled, instead of landing in your inbox as a to-do.
 
 > Chart: Multiple-time arbitrage: the search repeats after a refundable booking. The new booking is confirmed first; only then is the original cancelled.
 

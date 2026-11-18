@@ -96,7 +96,7 @@ Waiting for a drop is one route. The other is to find the lower price before you
 
 In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. That is often far more than any single price drop after booking. Our list of the [cheapest countries to book hotels from](https://arbitrica.com/blog/cheapest-country-to-book-hotels-from.html) explains why some countries tend to come out lower.
 
-Checking this by hand with a VPN is slow: one country at a time, with the risk that the total changes at checkout or the terms are not quite the same. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html) for the full flow.
+Checking this by hand with a VPN is slow: one country at a time, with the risk that the total changes at checkout or the terms are not quite the same. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html) for the full flow.
 
 ## Expedia price match: what to say if you contact support
 

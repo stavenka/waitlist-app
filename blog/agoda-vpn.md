@@ -11,7 +11,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/agoda-vpn
 ## Short answer
 Agoda is one of the sites where the country you search from most often changes the price. In NordVPN's 2025 Southeast Asia test, the same hotels were 10-18% lower on Agoda from a Singapore address than from a Malaysian one, while Booking and Airbnb barely moved. Check the final total, not the first price: Agoda often adds taxes and fees later in the booking.
 
-Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## What the Agoda test found
 NordVPN checked three hotels for 9 nights, August 1-10, from Singapore and Malaysia at the same time ([NordVPN Southeast Asia study, May 2025](https://nordvpn.com/zh/blog/genggai-ip-dizhi-jiesheng-feiyong/)).

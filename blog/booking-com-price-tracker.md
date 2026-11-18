@@ -88,7 +88,7 @@ In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a
 
 ## How Arbitrica goes further than a price tracker
 
-Arbitrica is a personal AI agent that meets you at checkout. When you are about to pay for a hotel on Booking.com, it searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price it finds is always at a different provider than the one you are on. You review and pay.
+Arbitrica is a personal AI agent that meets you once you choose your hotel room. When you are about to pay for a hotel on Booking.com, it searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price it finds is always at a different provider than the one you are on. You review and pay.
 
 > Chart: A real booking: offered at $1,527.39, found for $1,180.27 for the identical hotel. Arbitrica earned the user $347.12 (23%).
 

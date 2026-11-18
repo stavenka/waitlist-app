@@ -24,7 +24,7 @@ What RoomHawk does not describe is searching the same hotel from other countries
 
 ## How Arbitrica works
 
-Arbitrica is a personal AI agent that lives in your browser. It meets you at the checkout when you are about to pay, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. It then prepares the booking, so you only review and pay.
+Arbitrica is a personal AI agent that lives in your browser. It meets you as soon as you choose your hotel room, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. It then prepares the booking, so you only review and pay.
 
 It uses two families of mechanisms:
 
@@ -74,7 +74,7 @@ In one real booking, Booking.com offered $1,527.39 and Arbitrica found $1,180.27
 
 With a tracker, you set up each stay you want watched, and the system begins monitoring. Then you wait for a drop, and act on it before your cancellation deadline.
 
-Arbitrica needs no setup per booking, because it is there at the checkout when you are about to pay. When it finds a lower price, it has already validated that the price is for the identical hotel and the same room type with all taxes and fees, and it prepares the booking so you only review and pay. In the multiple-time approach, the re-booking it prepares matches your original hotel and terms, and the new booking is confirmed before the original is cancelled.
+Arbitrica needs no setup per booking, because it shows up by itself once you choose your hotel room. When it finds a lower price, it has already validated that the price is for the identical hotel and the same room type with all taxes and fees, and it prepares the booking so you only review and pay. In the multiple-time approach, the re-booking it prepares matches your original hotel and terms, and the new booking is confirmed before the original is cancelled.
 
 > Chart: Multiple-time arbitrage: the search repeats after a refundable booking. The new booking is confirmed first; only then is the original cancelled.
 

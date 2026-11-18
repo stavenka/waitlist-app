@@ -116,7 +116,7 @@ TipBefore you buy from a foreign store, add up item, shipping, import duty and t
 
 ## How Arbitrica applies the same mechanism to online purchases
 
-Doing all this by hand for one purchase is work. Doing it for 195 countries is not realistic. Arbitrica is a personal AI agent that lives in your browser and meets you at checkout when you are about to pay. It searches the same item from 195 countries, finds the lowest price on Earth for it at a different seller from the one you are on, and validates that it is the identical item and that the price includes all taxes and fees. Then it prepares the purchase. You review and pay.
+Doing all this by hand for one purchase is work. Doing it for 195 countries is not realistic. Arbitrica is a personal AI agent that lives in your browser and meets you as soon as you choose your hotel room. It searches the same item from 195 countries, finds the lowest price on Earth for it at a different seller from the one you are on, and validates that it is the identical item and that the price includes all taxes and fees. Then it prepares the purchase. You review and pay.
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 

@@ -112,7 +112,7 @@ Keeping these in mind saves time: you stop chasing a magic country and start com
 
 ## How Arbitrica finds the lowest price
 
-Arbitrica is a personal AI agent that meets you at the checkout when you are about to pay. It searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
+Arbitrica is a personal AI agent that meets you as soon as you choose your hotel room. It searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
 
 Prices also change over time. Arbitrica's approach repeats the search after you book, until the free-cancellation window ends. When the identical hotel gets cheaper, the mechanism prepares a re-booking at the lower price, and the new booking is confirmed before the original is cancelled. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 

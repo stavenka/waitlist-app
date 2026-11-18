@@ -94,7 +94,7 @@ Our article on [time arbitrage](https://arbitrica.com/blog/time-arbitrage-explai
 
 ## How Arbitrica works as a personal AI agent
 
-Arbitrica is a personal AI agent built for the buy side. It meets you at checkout, when you are about to pay, and searches the same item from 195 countries. It validates that the offer is identical, with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay.
+Arbitrica is a personal AI agent built for the buy side. It meets you as soon as you choose your hotel room or what you are buying, and searches the same item from 195 countries. It validates that the offer is identical, with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay.
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 

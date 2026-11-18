@@ -114,7 +114,7 @@ Because the winning country moves with the hotel, the dates and the seller, the 
 
 > Chart: By hand, a VPN checks one country at a time. Arbitrica searches the same item from 195 countries at once.
 
-That is what Arbitrica does. It is a personal AI agent that meets you at checkout when you are about to pay, searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the offer is for the identical hotel and that the total includes taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay. You can read the steps on [how it works](https://arbitrica.com/how-it-works.html).
+That is what Arbitrica does. It is a personal AI agent that meets you as soon as you choose your hotel room, searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the offer is for the identical hotel and that the total includes taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay. You can read the steps on [how it works](https://arbitrica.com/how-it-works.html).
 
 In one real booking, a hotel was offered on Booking.com for $1,527.39. Arbitrica found the identical hotel for $1,180.27 and earned the user $347.12, about 23 percent. Results vary by hotel and date. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 

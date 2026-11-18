@@ -11,7 +11,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/best-vpn-
 ## Short answer
 The best VPN country for a lower hotel price is usually the hotel's own country, then a mix of others that change with every hotel and date. Published tests found winners in Indonesia, Italy, Greece, Georgia, the Netherlands and Taiwan, and VPN companies suggest Turkey, Poland, Croatia, Moldova and Japan. None wins every time, which is why the most reliable answer is to check far more countries than a VPN lets you.
 
-Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## What the data shows
 Arbitrica's own check shows how big a single country switch can be. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.

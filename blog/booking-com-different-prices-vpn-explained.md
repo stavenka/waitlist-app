@@ -93,7 +93,7 @@ Booking site terms mostly target things like automated scraping for resale, paym
 
 ## How Arbitrica finds the lowest price automatically
 
-Arbitrica is a personal AI agent that meets you at the checkout when you are about to pay. It searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
+Arbitrica is a personal AI agent that meets you as soon as you choose your hotel room. It searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
 
 > Chart: By hand, a VPN checks one country at a time. Arbitrica searches the same item from 195 countries at once.
 

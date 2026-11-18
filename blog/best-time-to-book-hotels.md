@@ -76,7 +76,7 @@ Timing is only half of the picture. The same hotel, on the same dates, can be of
 
 In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. That gap is often bigger than anything you can win by picking the perfect booking day.
 
-Checking other countries by hand with a VPN is slow, one country at a time, and you can only cover a handful. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, checks that the hotel and the terms are identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay.
+Checking other countries by hand with a VPN is slow, one country at a time, and you can only cover a handful. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, checks that the hotel and the terms are identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay.
 
 ## A simple booking plan
 
@@ -96,7 +96,7 @@ The same thinking works beyond hotels. Flights, car rentals, event tickets and m
 
 **Tired of extra charges at the last step?** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total each seller shows, with taxes and fees, before it shows you the lowest price in the world for the same hotel, so you don't have to click through to verify it yourself.
 
-**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica works at the checkout itself, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
+**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica wakes up as soon as you choose your hotel room, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [How to get cheap hotel rooms last minute: 8 tactics for 2026](https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.html).
 

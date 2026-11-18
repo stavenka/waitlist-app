@@ -72,7 +72,7 @@ This is the same pattern seen with hotels, explained in the [guide to geographic
 
 ## How Arbitrica applies live and multiple-time arbitrage to tickets
 
-Arbitrica is a personal AI agent that lives in your browser and meets you at checkout, when you are about to pay. For event tickets, Arbitrica's agent uses the same two families of mechanisms it uses for hotels and online shopping.
+Arbitrica is a personal AI agent that lives in your browser and meets you as soon as you choose your hotel room. For event tickets, Arbitrica's agent uses the same two families of mechanisms it uses for hotels and online shopping.
 
 > Chart: Geographic arbitrage (other countries, at checkout) and time arbitrage (later moments, after you pay).
 

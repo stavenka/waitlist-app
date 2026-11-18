@@ -31,7 +31,7 @@ The same hotel is often priced differently depending on where the search comes f
 *Chart: In research across 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveller's own. The typical gap was 20-40%.*
 
 ## The best price on anything, not only hotels
-Arbitrica's agents work at the checkout for hotels, online shopping such as [Amazon](https://arbitrica.com/amazon.html) and [event tickets](https://arbitrica.com/events.html). Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica. After you buy, its approach keeps searching until the cancellation or return window ends, and confirms any new booking before the original is cancelled. More on [how Arbitrica works](https://arbitrica.com/how-it-works.html).
+Arbitrica's agents show up once you choose what you are buying, for hotels, online shopping such as [Amazon](https://arbitrica.com/amazon.html) and [event tickets](https://arbitrica.com/events.html). Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica. After you buy, its approach keeps searching until the cancellation or return window ends, and confirms any new booking before the original is cancelled. More on [how Arbitrica works](https://arbitrica.com/how-it-works.html).
 
 ## Which to use
 - **Use Muse** to plan a trip and book inside Meta's apps when the partner's price is fine.

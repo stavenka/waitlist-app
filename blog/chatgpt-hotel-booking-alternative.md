@@ -6,7 +6,7 @@ Updated 2026-11-08 by Arbitrica. Canonical: https://arbitrica.com/blog/chatgpt-h
 - ChatGPT books hotels through partner apps: Booking and Expedia since October 2025, with Hyatt, Accor, Wyndham and Hilton announced in April 2026.
 - Since March 24, 2026, ChatGPT purchases finish in the partner's own checkout, so the price is the one that partner shows for your search.
 - ChatGPT does not search the same hotel from other countries before you book.
-- Arbitrica, a personal AI agent, shows up at that checkout, searches the same hotel from 195 countries and prepares the booking at the lowest price in the world.
+- Arbitrica, a personal AI agent, shows up as soon as you choose your hotel room, searches the same hotel from 195 countries and prepares the booking at the lowest price in the world.
 
 ## Short answer
 Not on its own. ChatGPT can recommend a hotel and hand you to Booking, Expedia or a hotel chain's app to book it, at the price that app shows for your search. It does not search the same hotel from other countries. The alternative is to let ChatGPT help you choose, then let Arbitrica, a personal AI agent, find the lowest price in the world for that hotel at the checkout: it searches the same hotel from 195 countries, checks the room and final total, and prepares the booking for you. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
@@ -28,7 +28,7 @@ In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-coun
 
 - Open the hotel you like on Booking, Expedia, the hotel's own site or wherever ChatGPT sends you, and go to the checkout.
 
-- Arbitrica appears at the checkout, searches the same hotel from 195 countries, checks that the room and final total match, and prepares the booking at the lowest price in the world in a new tab.
+- Arbitrica appears once you choose your hotel room, searches the same hotel from 195 countries, checks that the room and final total match, and prepares the booking at the lowest price in the world in a new tab.
 
 - You review and pay. Arbitrica's approach keeps searching after you book until free cancellation ends.
 
