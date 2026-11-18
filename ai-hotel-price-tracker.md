@@ -106,7 +106,7 @@ Arbitrica's search after booking is part of the time-arbitrage mechanism it deve
 
 ## Does Arbitrica really search 195 countries?
 
-Yes. When you reach checkout, Arbitrica searches the same hotel from 195 countries in real time and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel, includes all taxes and fees, and will not suddenly change. Then it prepares the booking so you only review and pay. One Arbitrica user was offered a hotel on Booking for $1,527.39. Arbitrica found the same hotel for $1,180.27 and earned the user $347.12, or 23%.
+Yes. Once you choose your hotel room, Arbitrica searches the same hotel from 195 countries in real time and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel, includes all taxes and fees, and will not suddenly change. Then it prepares the booking so you only review and pay. One Arbitrica user was offered a hotel on Booking for $1,527.39. Arbitrica found the same hotel for $1,180.27 and earned the user $347.12, or 23%.
 
 ## What about VPN-based alternatives?
 

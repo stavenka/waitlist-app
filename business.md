@@ -46,7 +46,7 @@ Hotel nights are spread across expense reports and company cards. Procurement se
 ## How Arbitrica works for a team
 
 1. **The employee books as usual.** On the site they normally use, for the hotel and dates the trip needs.
-2. **The agent shows up at the checkout.** Arbitrica's agent opens a chat next to the checkout, reads the price and confirms the hotel, dates, guests, room type, cancellation terms and breakfast.
+2. **The agent shows up after you choose your hotel room.** Arbitrica's agent opens a chat next to the page as soon as the room is selected, reads the price and confirms the hotel, dates, guests, room type, cancellation terms and breakfast.
 3. **It searches from 195 countries.** It finds the lowest price in the world for the same hotel and validates it: identical hotel, all taxes and fees included, and a price that will not change at payment.
 4. **It prepares everything.** The booking at that price opens in a new tab. The employee reviews it and completes the payment with the card they would have used anyway.
 5. **It keeps going after booking.** With a refundable booking, Arbitrica keeps searching from 195 countries until the cancellation window ends. When the same hotel drops in price, it prepares a rebooking. The new booking is confirmed first, and only then is the original cancelled.

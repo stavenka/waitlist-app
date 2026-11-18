@@ -1,6 +1,6 @@
 # Arbitrica articles (full text)
 
-> Arbitrica is a personal AI agent that gets you what you are buying at the lowest price on Earth. It lives in your browser and shows up at the checkout when you are about to pay, searches the same hotel, product or event tickets from 195 countries, validates that the item is identical and that the price includes all taxes and fees, and then gets it for you at that price.
+> Arbitrica is a personal AI agent that gets you what you are buying at the lowest price on Earth. It lives in your browser and shows up as soon as you choose your hotel room or what you are buying, searches the same hotel, product or event tickets from 195 countries, validates that the item is identical and that the price includes all taxes and fees, and then gets it for you at that price.
 
 Key facts:
 - Arbitrica searches from 195 countries. Different countries get access to different inventory, sales channels, local rates and promotions, so the same item can be cheaper when searched from another country.
@@ -269,7 +269,7 @@ Arbitrica's search after booking is part of the time-arbitrage mechanism it deve
 
 ## Does Arbitrica really search 195 countries?
 
-Yes. When you reach checkout, Arbitrica searches the same hotel from 195 countries in real time and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel, includes all taxes and fees, and will not suddenly change. Then it prepares the booking so you only review and pay. One Arbitrica user was offered a hotel on Booking for $1,527.39. Arbitrica found the same hotel for $1,180.27 and earned the user $347.12, or 23%.
+Yes. Once you choose your hotel room, Arbitrica searches the same hotel from 195 countries in real time and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel, includes all taxes and fees, and will not suddenly change. Then it prepares the booking so you only review and pay. One Arbitrica user was offered a hotel on Booking for $1,527.39. Arbitrica found the same hotel for $1,180.27 and earned the user $347.12, or 23%.
 
 ## What about VPN-based alternatives?
 
@@ -398,7 +398,7 @@ Our article on [time arbitrage](https://arbitrica.com/blog/time-arbitrage-explai
 
 ## How Arbitrica works as a personal AI agent
 
-Arbitrica is a personal AI agent built for the buy side. It meets you at checkout, when you are about to pay, and searches the same item from 195 countries. It validates that the offer is identical, with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay.
+Arbitrica is a personal AI agent built for the buy side. It meets you as soon as you choose your hotel room or what you are buying, and searches the same item from 195 countries. It validates that the offer is identical, with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay.
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 
@@ -465,7 +465,7 @@ Topic: Comparisons
 - Arbitrica's approach repeats the search after you book until free cancellation ends, and the new booking is confirmed before the original is cancelled.
 - Hopper fits domestic flights booked on a phone; Arbitrica fits international hotels and refundable bookings.
 
-Hopper is a booking app built around price prediction and price freezes. It stops watching once you book, and it searches from one country. Arbitrica is a personal AI agent that lives in your browser and shows up at checkout, searches the same hotel from 195 countries, checks that the lower price is for the identical hotel with all taxes and fees included, and prepares the booking so you only review and pay. Its approach then repeats the search after you book, until the free-cancellation window ends.
+Hopper is a booking app built around price prediction and price freezes. It stops watching once you book, and it searches from one country. Arbitrica is a personal AI agent that lives in your browser and shows up after you choose your hotel room, searches the same hotel from 195 countries, checks that the lower price is for the identical hotel with all taxes and fees included, and prepares the booking so you only review and pay. Its approach then repeats the search after you book, until the free-cancellation window ends.
 
 ## Why people search for a Hopper alternative
 
@@ -547,7 +547,7 @@ We are not aware of another product that combines a search from 195 countries at
 
 ## How do I switch from Hopper to Arbitrica?
 
-**Short answer:** There is nothing to migrate. Hopper is an app with its own booking flow; Arbitrica is a personal AI agent that lives in your browser and appears at checkout when you book on the web. Keep Hopper on your phone for flight predictions if you like them. The two do not conflict.
+**Short answer:** There is nothing to migrate. Hopper is an app with its own booking flow; Arbitrica is a personal AI agent that lives in your browser and appears as soon as you choose a hotel room on the web. Keep Hopper on your phone for flight predictions if you like them. The two do not conflict.
 
 ## Frequently asked questions
 
@@ -672,7 +672,7 @@ Checking two or three Amazon stores is manageable. Checking every country store,
 
 ## How Arbitrica finds the same product at a lower price
 
-Arbitrica is a personal AI agent that meets you at checkout. When you are about to buy, it searches the same product from 195 countries, at other sellers and stores than the one you are on. It validates that the item is identical, matching the model and the offer rather than the title, and checks the full price with taxes and fees included. Then it prepares the purchase at the lowest price on Earth, and you review and pay.
+Arbitrica is a personal AI agent that meets you once you choose your hotel room. When you are about to buy, it searches the same product from 195 countries, at other sellers and stores than the one you are on. It validates that the item is identical, matching the model and the offer rather than the title, and checks the full price with taxes and fees included. Then it prepares the purchase at the lowest price on Earth, and you review and pay.
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 
@@ -753,7 +753,7 @@ Hotel nights are spread across expense reports and company cards. Procurement se
 ## How Arbitrica works for a team
 
 1. **The employee books as usual.** On the site they normally use, for the hotel and dates the trip needs.
-2. **The agent shows up at the checkout.** Arbitrica's agent opens a chat next to the checkout, reads the price and confirms the hotel, dates, guests, room type, cancellation terms and breakfast.
+2. **The agent shows up after you choose your hotel room.** Arbitrica's agent opens a chat next to the page as soon as the room is selected, reads the price and confirms the hotel, dates, guests, room type, cancellation terms and breakfast.
 3. **It searches from 195 countries.** It finds the lowest price in the world for the same hotel and validates it: identical hotel, all taxes and fees included, and a price that will not change at payment.
 4. **It prepares everything.** The booking at that price opens in a new tab. The employee reviews it and completes the payment with the card they would have used anyway.
 5. **It keeps going after booking.** With a refundable booking, Arbitrica keeps searching from 195 countries until the cancellation window ends. When the same hotel drops in price, it prepares a rebooking. The new booking is confirmed first, and only then is the original cancelled.
@@ -864,7 +864,7 @@ Pruvo offered basic tracking at no charge, and a premium tier added priority mon
 
 ## How Arbitrica works
 
-Arbitrica is a personal AI agent that lives in your browser. It meets you at the checkout when you are about to pay for a hotel, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. It then prepares the booking, so you only review and pay.
+Arbitrica is a personal AI agent that lives in your browser. It meets you as soon as you choose your hotel room, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. It then prepares the booking, so you only review and pay.
 
 The approach rests on two families of mechanisms:
 
@@ -910,7 +910,7 @@ Arbitrica starts from the other side. It searches the same hotel from 195 countr
 
 Pruvo required you to forward each booking confirmation email. If you forgot to forward a booking, Pruvo did not track it. When it found a lower rate, you got an email, and then had to go back to the booking platform, cancel the old reservation and rebook at the new rate yourself.
 
-Arbitrica works at the moment of payment. Because it is there at the checkout, there is nothing to forward. When it finds a lower price for the identical hotel, it prepares everything, so your part is to review and pay. The multiple-time approach works the same way: the re-booking at the lower price is prepared for you, and the new booking is confirmed before the original is cancelled, instead of landing in your inbox as a to-do.
+Arbitrica works at the moment of payment. Because it shows up by itself once you choose your hotel room, there is nothing to forward. When it finds a lower price for the identical hotel, it prepares everything, so your part is to review and pay. The multiple-time approach works the same way: the re-booking at the lower price is prepared for you, and the new booking is confirmed before the original is cancelled, instead of landing in your inbox as a to-do.
 
 > Chart: Multiple-time arbitrage: the search repeats after a refundable booking. The new booking is confirmed first; only then is the original cancelled.
 
@@ -1005,7 +1005,7 @@ What RoomHawk does not describe is searching the same hotel from other countries
 
 ## How Arbitrica works
 
-Arbitrica is a personal AI agent that lives in your browser. It meets you at the checkout when you are about to pay, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. It then prepares the booking, so you only review and pay.
+Arbitrica is a personal AI agent that lives in your browser. It meets you as soon as you choose your hotel room, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. It then prepares the booking, so you only review and pay.
 
 It uses two families of mechanisms:
 
@@ -1055,7 +1055,7 @@ In one real booking, Booking.com offered $1,527.39 and Arbitrica found $1,180.27
 
 With a tracker, you set up each stay you want watched, and the system begins monitoring. Then you wait for a drop, and act on it before your cancellation deadline.
 
-Arbitrica needs no setup per booking, because it is there at the checkout when you are about to pay. When it finds a lower price, it has already validated that the price is for the identical hotel and the same room type with all taxes and fees, and it prepares the booking so you only review and pay. In the multiple-time approach, the re-booking it prepares matches your original hotel and terms, and the new booking is confirmed before the original is cancelled.
+Arbitrica needs no setup per booking, because it shows up by itself once you choose your hotel room. When it finds a lower price, it has already validated that the price is for the identical hotel and the same room type with all taxes and fees, and it prepares the booking so you only review and pay. In the multiple-time approach, the re-booking it prepares matches your original hotel and terms, and the new booking is confirmed before the original is cancelled.
 
 > Chart: Multiple-time arbitrage: the search repeats after a refundable booking. The new booking is confirmed first; only then is the original cancelled.
 
@@ -1524,7 +1524,7 @@ The first eight were active when this guide was first published. Since then Pruv
 
 ## 1. Arbitrica
 
-Arbitrica is a personal AI agent that lives in your browser. It meets you at the checkout when you are about to pay, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. Different countries get access to different inventory, channels, local rates and promotions, so the same hotel searched from another country is often 5-30% cheaper. Arbitrica validates that the lower price is for the identical hotel, includes all taxes and fees, and will not suddenly change, then prepares the booking so you only review and pay.
+Arbitrica is a personal AI agent that lives in your browser. It meets you as soon as you choose your hotel room, searches the same hotel from 195 countries, and finds the lowest price on Earth for it, at a different seller from the one you are on. Different countries get access to different inventory, channels, local rates and promotions, so the same hotel searched from another country is often 5-30% cheaper. Arbitrica validates that the lower price is for the identical hotel, includes all taxes and fees, and will not suddenly change, then prepares the booking so you only review and pay.
 
 Its multiple-time arbitrage approach repeats the search after you book, until the free-cancellation window ends, and prepares a re-booking at the lower price. The new booking is confirmed before the original is cancelled. The same mechanisms apply beyond hotels, to flights, event tickets, online shopping and anything else with a cancellation or return window.
 
@@ -2291,7 +2291,7 @@ Timing is only half of the picture. The same hotel, on the same dates, can be of
 
 In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. That gap is often bigger than anything you can win by picking the perfect booking day.
 
-Checking other countries by hand with a VPN is slow, one country at a time, and you can only cover a handful. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, checks that the hotel and the terms are identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay.
+Checking other countries by hand with a VPN is slow, one country at a time, and you can only cover a handful. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, checks that the hotel and the terms are identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay.
 
 ## A simple booking plan
 
@@ -2311,7 +2311,7 @@ The same thinking works beyond hotels. Flights, car rentals, event tickets and m
 
 **Tired of extra charges at the last step?** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total each seller shows, with taxes and fees, before it shows you the lowest price in the world for the same hotel, so you don't have to click through to verify it yourself.
 
-**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica works at the checkout itself, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
+**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica wakes up as soon as you choose your hotel room, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [How to get cheap hotel rooms last minute: 8 tactics for 2026](https://arbitrica.com/blog/how-to-get-cheap-hotel-rooms-last-minute.html).
 
@@ -2431,7 +2431,7 @@ Booking site terms mostly target things like automated scraping for resale, paym
 
 ## How Arbitrica finds the lowest price automatically
 
-Arbitrica is a personal AI agent that meets you at the checkout when you are about to pay. It searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
+Arbitrica is a personal AI agent that meets you as soon as you choose your hotel room. It searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
 
 > Chart: By hand, a VPN checks one country at a time. Arbitrica searches the same item from 195 countries at once.
 
@@ -2860,7 +2860,7 @@ In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a
 
 ## How Arbitrica goes further than a price tracker
 
-Arbitrica is a personal AI agent that meets you at checkout. When you are about to pay for a hotel on Booking.com, it searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price it finds is always at a different provider than the one you are on. You review and pay.
+Arbitrica is a personal AI agent that meets you once you choose your hotel room. When you are about to pay for a hotel on Booking.com, it searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price it finds is always at a different provider than the one you are on. You review and pay.
 
 > Chart: A real booking: offered at $1,527.39, found for $1,180.27 for the identical hotel. Arbitrica earned the user $347.12 (23%).
 
@@ -3019,7 +3019,7 @@ Keeping these in mind saves time: you stop chasing a magic country and start com
 
 ## How Arbitrica finds the lowest price
 
-Arbitrica is a personal AI agent that meets you at the checkout when you are about to pay. It searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
+Arbitrica is a personal AI agent that meets you as soon as you choose your hotel room. It searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
 
 Prices also change over time. Arbitrica's approach repeats the search after you book, until the free-cancellation window ends. When the identical hotel gets cheaper, the mechanism prepares a re-booking at the lower price, and the new booking is confirmed before the original is cancelled. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
@@ -3326,7 +3326,7 @@ TipBefore you buy from a foreign store, add up item, shipping, import duty and t
 
 ## How Arbitrica applies the same mechanism to online purchases
 
-Doing all this by hand for one purchase is work. Doing it for 195 countries is not realistic. Arbitrica is a personal AI agent that lives in your browser and meets you at checkout when you are about to pay. It searches the same item from 195 countries, finds the lowest price on Earth for it at a different seller from the one you are on, and validates that it is the identical item and that the price includes all taxes and fees. Then it prepares the purchase. You review and pay.
+Doing all this by hand for one purchase is work. Doing it for 195 countries is not realistic. Arbitrica is a personal AI agent that lives in your browser and meets you as soon as you choose your hotel room. It searches the same item from 195 countries, finds the lowest price on Earth for it at a different seller from the one you are on, and validates that it is the identical item and that the price includes all taxes and fees. Then it prepares the purchase. You review and pay.
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 
@@ -3481,7 +3481,7 @@ Because the winning country moves with the hotel, the dates and the seller, the 
 
 > Chart: By hand, a VPN checks one country at a time. Arbitrica searches the same item from 195 countries at once.
 
-That is what Arbitrica does. It is a personal AI agent that meets you at checkout when you are about to pay, searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the offer is for the identical hotel and that the total includes taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay. You can read the steps on [how it works](https://arbitrica.com/how-it-works.html).
+That is what Arbitrica does. It is a personal AI agent that meets you as soon as you choose your hotel room, searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different seller from the one you are on. It validates that the offer is for the identical hotel and that the total includes taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay. You can read the steps on [how it works](https://arbitrica.com/how-it-works.html).
 
 In one real booking, a hotel was offered on Booking.com for $1,527.39. Arbitrica found the identical hotel for $1,180.27 and earned the user $347.12, about 23 percent. Results vary by hotel and date. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
@@ -3588,7 +3588,7 @@ This is the same pattern seen with hotels, explained in the [guide to geographic
 
 ## How Arbitrica applies live and multiple-time arbitrage to tickets
 
-Arbitrica is a personal AI agent that lives in your browser and meets you at checkout, when you are about to pay. For event tickets, Arbitrica's agent uses the same two families of mechanisms it uses for hotels and online shopping.
+Arbitrica is a personal AI agent that lives in your browser and meets you as soon as you choose your hotel room. For event tickets, Arbitrica's agent uses the same two families of mechanisms it uses for hotels and online shopping.
 
 > Chart: Geographic arbitrage (other countries, at checkout) and time arbitrage (later moments, after you pay).
 
@@ -3745,7 +3745,7 @@ Waiting for a drop is one route. The other is to find the lower price before you
 
 In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. That is often far more than any single price drop after booking. Our list of the [cheapest countries to book hotels from](https://arbitrica.com/blog/cheapest-country-to-book-hotels-from.html) explains why some countries tend to come out lower.
 
-Checking this by hand with a VPN is slow: one country at a time, with the risk that the total changes at checkout or the terms are not quite the same. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html) for the full flow.
+Checking this by hand with a VPN is slow: one country at a time, with the risk that the total changes at checkout or the terms are not quite the same. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html) for the full flow.
 
 ## Expedia price match: what to say if you contact support
 
@@ -3880,7 +3880,7 @@ A 2024 NordVPN study found that travel bookings made through US websites came ou
 
 In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. On a family trip with more guests and more nights, that gap is a large amount of money.
 
-Checking other countries by hand, with a VPN, one country at a time, is slow, and doing it again for every party size makes it slower. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay.
+Checking other countries by hand, with a VPN, one country at a time, is slow, and doing it again for every party size makes it slower. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay.
 
 > Chart: In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler’s own country. The typical gap was 20–40%.
 
@@ -4025,7 +4025,7 @@ Even a handful of countries is often enough to see that the price from your own 
 
 ## How Arbitrica finds the lowest price
 
-Arbitrica is a personal AI agent that lives in your browser and shows up at checkout, when you are about to pay. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
+Arbitrica is a personal AI agent that lives in your browser and shows up as soon as you choose your hotel room. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
 
 Hotel prices also move over time. Arbitrica's approach repeats the search after you book, until the free-cancellation window ends. If the identical hotel becomes cheaper, the mechanism prepares a re-booking at the lower price. The new booking is confirmed before the original reservation is cancelled, so you are never left without a hotel. Arbitrica calls this multiple-time arbitrage, and [time arbitrage explained](https://arbitrica.com/blog/time-arbitrage-explained.html) covers it in more detail.
 
@@ -4152,7 +4152,7 @@ Most hotel savings do not come from a secret coupon. They come from a handful of
 
 In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. That is often more than every other hack on this list combined.
 
-**How:** by hand, you can use a VPN to search from a few other countries one at a time, then check that the hotel, dates, room type and cancellation terms are identical and that taxes and fees are included. That takes time and covers only a handful of countries. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. The lower price it finds is always at a different provider from the one you are on.
+**How:** by hand, you can use a VPN to search from a few other countries one at a time, then check that the hotel, dates, room type and cancellation terms are identical and that taxes and fees are included. That takes time and covers only a handful of countries. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. The lower price it finds is always at a different provider from the one you are on.
 
 > Chart: A real booking: offered at $1,527.39, found for $1,180.27 for the identical hotel. Arbitrica earned the user $347.12 (23%).
 
@@ -4321,7 +4321,7 @@ Arbitrica is a personal AI agent, so it takes a different route from Hotel Ninja
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 
-- **It meets you at checkout**Browse and choose a hotel on whatever site you like. When you reach the checkout, Arbitrica starts working.
+- **It meets you once you choose your hotel room**Browse and choose a hotel on whatever site you like. When you reach the checkout, Arbitrica starts working.
 
 - **It searches from 195 countries**The same hotel, dates and terms are searched from 195 countries in real time, and the lowest price on Earth is found at a different provider from the one you are on.
 
@@ -4369,7 +4369,7 @@ The total is large enough for a 5-30% gap to matter: multi-night trips, family s
 
 Arbitrica also serves companies. Teams heading to trade shows and conferences, operations managers who book staff travel and travel managers responsible for hotel spend get the same search from 195 countries on every booking, with the traveler staying in the hotel they chose.
 
-TipYou can keep using any extension you like to choose a hotel. Arbitrica works at the checkout step, so filters for meal plans, ratings and cancellation terms still help you pick the right hotel before it starts searching.
+TipYou can keep using any extension you like to choose a hotel. Arbitrica wakes up after you choose your hotel room, so filters for meal plans, ratings and cancellation terms still help you pick the right hotel before it starts searching.
 
 ## What to check before installing any hotel extension
 
@@ -4432,7 +4432,7 @@ Traditional hotel price comparison shows you a few booking sites side by side: B
 
 ## Search before you pay, not after
 
-Different countries get access to different inventory, channels, local rates and promotions. Searching the same hotel from another country can open up lower prices you cannot get from your own country. Arbitrica goes beyond comparison. When you reach checkout, it searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on.
+Different countries get access to different inventory, channels, local rates and promotions. Searching the same hotel from another country can open up lower prices you cannot get from your own country. Arbitrica goes beyond comparison. Once you choose your hotel room, it searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on.
 
 Timing matters too. A comparison made while you are still browsing can be out of date by the time you pay, because hotel prices change during the day. Running the search at checkout, the moment you are about to commit, means the lowest price is checked against the exact booking you are making: the same hotel, the same dates, the same guests and the same conditions.
 
@@ -4458,7 +4458,7 @@ Independent research shows the same pattern. A 2024 NordVPN study found that tra
 
 > Chart: 2024 NordVPN study: a seven-night stay in a triple room at a Milan hotel for a family of three cost about $1,216 searched from the US and $1,012 searched from Italy.
 
-You could try to find those prices yourself with a VPN, switching one country at a time and entering your dates again on each search. With 195 countries that is impossible in practice. Arbitrica runs the full search for you while you are on the checkout page. Our comparison of a [VPN and Arbitrica](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html) works through the time it would take.
+You could try to find those prices yourself with a VPN, switching one country at a time and entering your dates again on each search. With 195 countries that is impossible in practice. Arbitrica runs the full search for you once you choose your hotel room. Our comparison of a [VPN and Arbitrica](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html) works through the time it would take.
 
 A real example: one Arbitrica user was offered a hotel on Booking for $1,527.39. Arbitrica found the same hotel for $1,180.27 and earned the user $347.12, or 23%. Research showed that people earn on average $47 per hotel booking this way, and up to $3,000 a year.
 
@@ -4540,7 +4540,7 @@ Different countries get access to different inventory, sales channels, local rat
 
 ### Is Arbitrica a hotel comparison site?
 
-No. Arbitrica is a personal AI agent that shows up at checkout, searches the same hotel from 195 countries, validates the identical hotel with all taxes and fees included, and prepares the booking at the lowest price for you to review and pay.
+No. Arbitrica is a personal AI agent that shows up after you choose your hotel room, searches the same hotel from 195 countries, validates the identical hotel with all taxes and fees included, and prepares the booking at the lowest price for you to review and pay.
 
 ### What should I compare when checking hotel prices?
 
@@ -4659,7 +4659,7 @@ The hard part is coverage. There are 195 countries, the lowest price moves betwe
 
 ## How Arbitrica handles location-based pricing
 
-Arbitrica is a personal AI agent that shows up at checkout, searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on. It validates that the offer is for the identical hotel with all taxes and fees included, and prepares the booking so you only review and pay. Arbitrica's approach also repeats the search after you book, until the free cancellation window ends, and confirms any new booking before the original is cancelled.
+Arbitrica is a personal AI agent that shows up after you choose your hotel room, searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on. It validates that the offer is for the identical hotel with all taxes and fees included, and prepares the booking so you only review and pay. Arbitrica's approach also repeats the search after you book, until the free cancellation window ends, and confirms any new booking before the original is cancelled.
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 
@@ -4839,7 +4839,7 @@ Price drops after purchase are not unique to hotels. Flights, car rentals, event
 
 Using an alert tool? See the [Rate Ranger alternative that also checks the price from other countries](https://arbitrica.com/blog/rate-ranger-alternative.html).
 
-**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica works at the checkout itself, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
+**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica wakes up as soon as you choose your hotel room, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
@@ -4881,7 +4881,7 @@ Turn on Google Hotels price tracking for the hotel and dates (individual hotels 
 
 # The hotel price tracker that searches from 195 countries
 
-Arbitrica shows up at checkout, searches the same hotel from 195 countries and finds the lowest price on Earth for it. Its approach keeps searching after you book, until free cancellation ends.
+Arbitrica shows up after you choose your hotel room, searches the same hotel from 195 countries and finds the lowest price on Earth for it. Its approach keeps searching after you book, until free cancellation ends.
 
 Source: https://arbitrica.com/hotel-price-tracker.html  
 Updated: 2026-10-25  
@@ -4895,7 +4895,7 @@ Topic: AI agents
 - A lower price only counts if it is for the identical hotel, includes all taxes and fees, and will not change at payment.
 - The same hotel is often 5-30% cheaper when searched from another country.
 
-A hotel price tracker watches the price of a hotel for you and finds a lower price than the one you are about to pay or have already paid. Most travelers check a hotel price once, on one site, from their own country, and pay. A hotel price tracker exists because that single check misses most of what the same hotel can cost. Arbitrica is a personal AI agent that lives in your browser and shows up at the checkout when you are about to pay. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on: Booking, Expedia or anyone else.
+A hotel price tracker watches the price of a hotel for you and finds a lower price than the one you are about to pay or have already paid. Most travelers check a hotel price once, on one site, from their own country, and pay. A hotel price tracker exists because that single check misses most of what the same hotel can cost. Arbitrica is a personal AI agent that lives in your browser and shows up as soon as you choose your hotel room. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on: Booking, Expedia or anyone else.
 
 ## How the price tracker works
 
@@ -5119,7 +5119,7 @@ The bigger problem is scale. A VPN checks one country at a time, and every check
 
 ## Searching the same hotel from 195 countries
 
-Arbitrica is a personal AI agent that meets you at checkout. When you are about to pay for a hotel, it searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price it finds is always at a different provider than the one you are on. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html) for the full flow.
+Arbitrica is a personal AI agent that meets you once you choose your hotel room. When you are about to pay for a hotel, it searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price it finds is always at a different provider than the one you are on. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html) for the full flow.
 
 Prices also keep moving after you book. Arbitrica's approach repeats the search after you book, until free cancellation ends. When the identical hotel becomes available at a lower total, a new booking is prepared and confirmed first, and only then is the original cancelled.
 
@@ -5256,7 +5256,7 @@ With the Hotels.com guarantee gone, two habits do the work it used to promise, a
 
 ### Search from other countries before you pay
 
-By hand, this means a VPN, one country at a time, and a careful check that the hotel, room type, terms and total are identical. It is slow and covers only a few countries. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. The lower price it finds is always at a different provider, so there is no claim to file and nothing to wait for. [How Arbitrica works](https://arbitrica.com/how-it-works.html) covers the process in more detail.
+By hand, this means a VPN, one country at a time, and a careful check that the hotel, room type, terms and total are identical. It is slow and covers only a few countries. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. The lower price it finds is always at a different provider, so there is no claim to file and nothing to wait for. [How Arbitrica works](https://arbitrica.com/how-it-works.html) covers the process in more detail.
 
 ### Book refundable, then rebook if the price drops
 
@@ -5420,7 +5420,7 @@ Its approach also repeats the search after you book, until the free-cancellation
 
 Dynamic pricing is not limited to hotels. Flights, event tickets, online retail and subscriptions use similar systems, and the same mechanisms, searching from other countries and searching again over time, apply to them too.
 
-**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica works at the checkout itself, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
+**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica wakes up as soon as you choose your hotel room, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
 
 ## Frequently asked questions
 
@@ -5542,7 +5542,7 @@ A lower rate found from another country may be charged in a foreign currency. Ch
 
 The two techniques with the biggest payoff, searching from other countries and repricing after you book, are also the ones that take the most time. Arbitrica is a personal AI agent that does both.
 
-When you reach checkout for a hotel, Arbitrica searches the same hotel from 195 countries. It always looks at a different provider than the one you are on, validates that the hotel, room type, dates and terms are identical with all taxes and fees included, and checks the price will hold. It then prepares everything at the lowest price on Earth, and you review and pay.
+Once you choose your hotel room for a hotel, Arbitrica searches the same hotel from 195 countries. It always looks at a different provider than the one you are on, validates that the hotel, room type, dates and terms are identical with all taxes and fees included, and checks the price will hold. It then prepares everything at the lowest price on Earth, and you review and pay.
 
 A real example: a hotel offered at $1,527.39 on Booking.com was found by Arbitrica for $1,180.27 for the identical hotel, earning the user $347.12 (23%). Research demonstrated that people earn on average $47 per hotel booking, and up to $3,000 a year.
 
@@ -5568,7 +5568,7 @@ Follow this method and you will rarely overpay, whatever tools you use. The chea
 
 ### Is there a tool that finds a lower price for a hotel I've already picked?
 
-Yes. Arbitrica is a personal AI agent: when you reach checkout for the hotel you picked, it searches the same hotel from 195 countries, checks that the room and the final total match, and prepares the booking at the lowest price it finds. Its approach also repeats the search after you book, until free cancellation ends.
+Yes. Arbitrica is a personal AI agent: once you choose your room at the hotel you picked, it searches the same hotel from 195 countries, checks that the room and the final total match, and prepares the booking at the lowest price it finds. Its approach also repeats the search after you book, until free cancellation ends.
 
 ### What is the best way to find the cheapest hotel rate online?
 
@@ -5807,7 +5807,7 @@ Doing this by hand for a month-long stay means checking often, comparing full to
 
 Different countries get access to different inventory, channels, local rates and promotions, so searching the same hotel from another country can open up lower prices you cannot get from your own country. On a long stay, that difference applies to every night.
 
-Checking dozens of countries by hand with a VPN, one at a time, is impractical for a single weekend, let alone for a month with weekly rate thresholds. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay. More on why [hotel prices differ by country](https://arbitrica.com/blog/booking-com-prices-different-countries.html).
+Checking dozens of countries by hand with a VPN, one at a time, is impractical for a single weekend, let alone for a month with weekly rate thresholds. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay. More on why [hotel prices differ by country](https://arbitrica.com/blog/booking-com-prices-different-countries.html).
 
 ## Long stay hotel deals for companies
 
@@ -5942,7 +5942,7 @@ The biggest gap is often geographic. Different countries get access to different
 
 In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. Independent research points the same way: a 2024 NordVPN study found that travel bookings made through US websites came out up to 70% higher than through websites elsewhere (its largest gap was a car rental).
 
-Checking other countries by hand, with a VPN, one country at a time, works for a few tries and then becomes impractical. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html), or why [hotel prices differ by country](https://arbitrica.com/blog/booking-com-prices-different-countries.html).
+Checking other countries by hand, with a VPN, one country at a time, works for a few tries and then becomes impractical. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html), or why [hotel prices differ by country](https://arbitrica.com/blog/booking-com-prices-different-countries.html).
 
 ## A checklist to book a luxury hotel for less
 
@@ -6057,7 +6057,7 @@ For a step-by-step guide to doing it yourself, see [how to rebook a hotel at a l
 
 ## How Arbitrica differs from OneAir
 
-Arbitrica is a personal AI agent that meets you at checkout. You choose a hotel on whatever site you like. When you are about to pay, Arbitrica searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different provider from the one you are on. It validates that the hotel and terms are identical and that all taxes and fees are included, then prepares everything. You review and pay.
+Arbitrica is a personal AI agent that meets you once you choose your hotel room. You choose a hotel on whatever site you like. When you are about to pay, Arbitrica searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different provider from the one you are on. It validates that the hotel and terms are identical and that all taxes and fees are included, then prepares everything. You review and pay.
 
 After you book, Arbitrica's approach repeats the search over time until free cancellation ends, and each repeat is again from 195 countries. When the identical hotel becomes available at a lower price, a new booking is prepared, and the new booking is confirmed before the original is cancelled.
 
@@ -6065,7 +6065,7 @@ After you book, Arbitrica's approach repeats the search over time until free can
 
 | What it is | Members-only travel platform and travel agency | Personal AI agent (lives in your browser) |
 
-| How it starts | Book through OneAir, or forward a confirmation from another site | Shows up at the checkout when you are about to pay |
+| How it starts | Book through OneAir, or forward a confirmation from another site | Shows up after you choose your hotel room |
 
 | Source of lower prices | Member rates, unpublished fares, and drops over time | The same item searched from 195 countries, at checkout and over time |
 
@@ -6226,7 +6226,7 @@ The controls above work, but two of them are hard to do well by hand: finding th
 
 ### At checkout: the same hotel from 195 countries
 
-Arbitrica is a personal AI agent that shows up at the checkout when you are about to pay for a hotel. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on. Different countries get access to different inventory, channels, local rates and promotions, so the same hotel is often 5-30% cheaper when searched from another country. Doing this by hand, one country at a time, is impossible in practice. More on the mechanism in [what is geographic price arbitrage](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html).
+Arbitrica is a personal AI agent that shows up as soon as you choose your hotel room. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on. Different countries get access to different inventory, channels, local rates and promotions, so the same hotel is often 5-30% cheaper when searched from another country. Doing this by hand, one country at a time, is impossible in practice. More on the mechanism in [what is geographic price arbitrage](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html).
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 
@@ -6299,7 +6299,7 @@ The short version: if you are an individual traveler, Pruvo is no longer an opti
 
 | Consumer bookings | No longer supported | Yes | Yes |
 
-| How it starts | Integrated into the operator's booking platform | You enter your reservation | Shows up at the checkout when you are about to pay |
+| How it starts | Integrated into the operator's booking platform | You enter your reservation | Shows up after you choose your hotel room |
 
 | Search before you pay | Pre-booking product announced, not yet live (per its site) | No | Yes, live arbitrage at checkout |
 
@@ -6351,7 +6351,7 @@ You can check a few countries by hand with a VPN, one at a time, but covering 19
 
 ## How Arbitrica differs from Pruvo and RoomHawk
 
-Arbitrica is a personal AI agent that meets you at checkout. When you are about to pay for a hotel, it searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different provider from the one you are on. Before that price counts, it validates that the hotel and terms are identical and that all taxes and fees are included. Then it prepares everything, so you only review and pay.
+Arbitrica is a personal AI agent that meets you once you choose your hotel room. When you are about to pay for a hotel, it searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different provider from the one you are on. Before that price counts, it validates that the hotel and terms are identical and that all taxes and fees are included. Then it prepares everything, so you only review and pay.
 
 After you book, Arbitrica's approach repeats the search over time until the free-cancellation window ends. This is the part that overlaps with Pruvo and RoomHawk, with one difference: each repeat is searched from 195 countries rather than one. When the identical hotel becomes available at a lower price, a new booking is prepared, and the new booking is confirmed before the original is cancelled.
 
@@ -6499,7 +6499,7 @@ RatePunk points at this by telling you which country has the lowest rate. The re
 
 ## How Arbitrica's approach differs
 
-Arbitrica is a personal AI agent that lives in your browser and shows up at checkout, when you are about to pay. Instead of listing prices for you to judge, it acts for you. It uses two families of mechanisms.
+Arbitrica is a personal AI agent that lives in your browser and shows up as soon as you choose your hotel room. Instead of listing prices for you to judge, it acts for you. It uses two families of mechanisms.
 
 ### Geographic arbitrage, live at checkout
 
@@ -6569,7 +6569,7 @@ Arbitrica is a personal AI agent that lives in your browser. It searches the sam
 
 ### Can I use Arbitrica alongside other hotel tools?
 
-Yes. Arbitrica works at the checkout step, so you can keep using whatever tools or sites you like to choose a hotel.
+Yes. Arbitrica wakes up after you choose your hotel room, so you can keep using whatever tools or sites you like to choose a hotel.
 
 
 ---
@@ -6848,7 +6848,7 @@ The same two mechanisms help with the rest of an international trip. Flights, ca
 
 ## Automate the hard parts
 
-Searching from 195 countries before you pay, and again after you book, is the part no traveler can do by hand. Arbitrica is a personal AI agent that shows up at checkout and handles both: live arbitrage when you are about to pay, and multiple-time arbitrage after you book. It finds the lowest price on Earth for the same hotel and prepares everything so you only review and pay. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year. Arbitrica also serves companies: teams traveling to trade shows and conferences, and the operations and travel managers who book for them.
+Searching from 195 countries before you pay, and again after you book, is the part no traveler can do by hand. Arbitrica is a personal AI agent that shows up after you choose your hotel room and handles both: live arbitrage when you are about to pay, and multiple-time arbitrage after you book. It finds the lowest price on Earth for the same hotel and prepares everything so you only review and pay. Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year. Arbitrica also serves companies: teams traveling to trade shows and conferences, and the operations and travel managers who book for them.
 
 **What about additional fees?** In traveller forums, one of the complaints that comes up most about hotel prices is extra charges: added fees, taxes and add-on fees that appear only on the final page. A low headline rate means little if you have to spend ten minutes clicking through to see the extra fees. Arbitrica checks that the room, the conditions and the final total with taxes and fees match what the seller shows before it shows you a price, so you don't have to do that checking yourself.
 
@@ -7106,7 +7106,7 @@ Each way of booking show week has a different trade-off. The aim is the same hot
 
 ## How Arbitrica fits trade show travel
 
-Arbitrica is a personal AI agent that shows up at the checkout when you are about to pay for a hotel. It works for individual travelers and for companies, including teams heading to trade shows and conferences. For each booking, it does the steps above that cannot be done by hand at scale:
+Arbitrica is a personal AI agent that shows up as soon as you choose your hotel room. It works for individual travelers and for companies, including teams heading to trade shows and conferences. For each booking, it does the steps above that cannot be done by hand at scale:
 
 - It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on.
 
@@ -7358,7 +7358,7 @@ Done carefully, each check means clearing cookies or opening a private window, e
 
 ## How Arbitrica works differently
 
-Arbitrica is a personal AI agent that lives in your browser, not a VPN you switch on and off. It shows up at the checkout when you are about to pay, searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
+Arbitrica is a personal AI agent that lives in your browser, not a VPN you switch on and off. It shows up as soon as you choose your hotel room, searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
 
 > Chart: By hand, a VPN checks one country at a time. Arbitrica searches the same item from 195 countries at once.
 
@@ -7571,7 +7571,7 @@ The lowest price also tends to come from an unexpected country. It is not always
 
 ## Automated arbitrage with Arbitrica
 
-Arbitrica is a personal AI agent that shows up at checkout when you are about to pay. It searches the same item from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel or item and includes all taxes and fees, checks that the price will not suddenly change, and then prepares everything so you only review and pay.
+Arbitrica is a personal AI agent that shows up as soon as you choose your hotel room. It searches the same item from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel or item and includes all taxes and fees, checks that the price will not suddenly change, and then prepares everything so you only review and pay.
 
 Arbitrica's approach also covers time arbitrage. The mechanism Arbitrica developed repeats the search after you buy, until the free-cancellation or return window ends, and prepares a rebooking or repurchase at the lower price. The new booking or purchase is confirmed before the original is cancelled.
 
@@ -8416,7 +8416,7 @@ Updated 2026-11-08 by Arbitrica. Canonical: https://arbitrica.com/blog/chatgpt-h
 - ChatGPT books hotels through partner apps: Booking and Expedia since October 2025, with Hyatt, Accor, Wyndham and Hilton announced in April 2026.
 - Since March 24, 2026, ChatGPT purchases finish in the partner's own checkout, so the price is the one that partner shows for your search.
 - ChatGPT does not search the same hotel from other countries before you book.
-- Arbitrica, a personal AI agent, shows up at that checkout, searches the same hotel from 195 countries and prepares the booking at the lowest price in the world.
+- Arbitrica, a personal AI agent, shows up as soon as you choose your hotel room, searches the same hotel from 195 countries and prepares the booking at the lowest price in the world.
 
 ## Short answer
 Not on its own. ChatGPT can recommend a hotel and hand you to Booking, Expedia or a hotel chain's app to book it, at the price that app shows for your search. It does not search the same hotel from other countries. The alternative is to let ChatGPT help you choose, then let Arbitrica, a personal AI agent, find the lowest price in the world for that hotel at the checkout: it searches the same hotel from 195 countries, checks the room and final total, and prepares the booking for you. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
@@ -8438,7 +8438,7 @@ In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-coun
 
 - Open the hotel you like on Booking, Expedia, the hotel's own site or wherever ChatGPT sends you, and go to the checkout.
 
-- Arbitrica appears at the checkout, searches the same hotel from 195 countries, checks that the room and final total match, and prepares the booking at the lowest price in the world in a new tab.
+- Arbitrica appears once you choose your hotel room, searches the same hotel from 195 countries, checks that the room and final total match, and prepares the booking at the lowest price in the world in a new tab.
 
 - You review and pay. Arbitrica's approach keeps searching after you book until free cancellation ends.
 
@@ -8971,7 +8971,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/does-vpn-
 ## Short answer
 Yes, sometimes, and usually by less than the headlines suggest. In the published tests a VPN set to another country showed a lower total for some hotels, a few dollars more for others, and no change for many. The gap comes from the country you appear to be in: different markets get different rates, sales channels and promotions, and dynamic pricing moves them all day. A VPN only lets you look at one market at a time.
 
-If the hotel is chosen and you want the lowest price that exists for it, the faster route is a personal AI agent that does the country-by-country search for you. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+If the hotel is chosen and you want the lowest price that exists for it, the faster route is a personal AI agent that does the country-by-country search for you. Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## What the tests found
 Five tests are cited most when people search "does a VPN change hotel prices". Three were commissioned by NordVPN, a VPN seller, and two were run by journalists.
@@ -9012,7 +9012,7 @@ If you want to try the VPN route for one hotel, this is the method the testers u
 Each country takes several minutes. Trying 10 is an evening; trying 195 is not realistic by hand.
 
 ## The faster way: 195 countries at once
-The idea behind the VPN trick is right: the same hotel is often priced lower in another market. The method is the problem, because you can only stand in one country at a time. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+The idea behind the VPN trick is right: the same hotel is often priced lower in another market. The method is the problem, because you can only stand in one country at a time. Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.
 
@@ -9051,12 +9051,12 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/booking-c
 - Booking prices can differ by the country you search from: a NordVPN analysis reported by 20 Minuten found the same rooms up to 27% higher from Switzerland.
 - The winning country changed with each hotel: Georgia for a Tbilisi hotel, Taiwan for a Prague one, the Netherlands for Amsterdam.
 - Booking says hotels have "full control over their prices including discounts", and that deals, season and exchange rates move prices constantly.
-- Arbitrica shows up at the Booking checkout, searches the same hotel from 195 countries across sites, and prepares the booking at the lowest price in the world.
+- Arbitrica shows up as soon as you choose your room on Booking, searches the same hotel from 195 countries across sites, and prepares the booking at the lowest price in the world.
 
 ## Short answer
 The Booking.com VPN trick is real but patchy. Hotels on Booking set different rates and promotions for different markets, so the same room can show a lower total from another country. In the published tests the gap ranged from nothing to 27%, and the best country was different for almost every hotel. There is no single best VPN location for Booking.
 
-If you are already at the Booking checkout, Arbitrica can do the country search for you. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+If you are already at the Booking checkout, Arbitrica can do the country search for you. Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## What the tests found on Booking
 The clearest Booking numbers come from Switzerland. NordVPN's analysis, checked by the Swiss newspaper 20 Minuten, found Booking prices up to 27% higher for people booking from Swiss cities than from elsewhere, for the same hotel, room and dates ([IamExpat on the NordVPN and 20 Minuten findings](https://www.iamexpat.ch/lifestyle/lifestyle-news/bookingcom-criticised-charging-travellers-from-switzerland-more)).
@@ -9088,7 +9088,7 @@ Arbitrica's own data shows the same spread: In [Arbitrica's own price check](htt
 What can go wrong: some sites show a captcha or block VPN addresses ([FlyerTalk](https://www.flyertalk.com/forum/29638412-post4.html)), and some local rates are meant for residents. See [do hotels and booking sites block VPNs?](https://arbitrica.com/blog/do-hotels-block-vpn.html) and [is it legal to use a VPN to book?](https://arbitrica.com/blog/is-it-legal-to-use-vpn-to-book.html)
 
 ## The faster route at the Booking checkout
-Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 Unlike the VPN trick, it does not stop at Booking: it looks for the lowest price for the identical hotel wherever it is sold, and sends you to that seller. More on [how Arbitrica works](https://arbitrica.com/how-it-works.html).
 
@@ -9118,7 +9118,7 @@ Threads such as r/VPN's "Easy trick that helps to book cheaper hotels with VPN" 
 Booking does not publish a VPN policy. Some travel sites show a captcha or block known VPN addresses, and some local rates require residency, so check the conditions before you book.
 
 ### Is there a way to get the lowest Booking price without a VPN?
-Yes. Arbitrica shows up at the Booking checkout, searches the same hotel from 195 countries and across sites, and prepares the booking at the lowest price in the world for you to review and pay.
+Yes. Arbitrica shows up as soon as you choose your room on Booking, searches the same hotel from 195 countries and across sites, and prepares the booking at the lowest price in the world for you to review and pay.
 
 ---
 
@@ -9135,7 +9135,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/best-vpn-
 ## Short answer
 The best VPN country for a lower hotel price is usually the hotel's own country, then a mix of others that change with every hotel and date. Published tests found winners in Indonesia, Italy, Greece, Georgia, the Netherlands and Taiwan, and VPN companies suggest Turkey, Poland, Croatia, Moldova and Japan. None wins every time, which is why the most reliable answer is to check far more countries than a VPN lets you.
 
-Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## What the data shows
 Arbitrica's own check shows how big a single country switch can be. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.
@@ -9189,7 +9189,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/agoda-vpn
 ## Short answer
 Agoda is one of the sites where the country you search from most often changes the price. In NordVPN's 2025 Southeast Asia test, the same hotels were 10-18% lower on Agoda from a Singapore address than from a Malaysian one, while Booking and Airbnb barely moved. Check the final total, not the first price: Agoda often adds taxes and fees later in the booking.
 
-Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## What the Agoda test found
 NordVPN checked three hotels for 9 nights, August 1-10, from Singapore and Malaysia at the same time ([NordVPN Southeast Asia study, May 2025](https://nordvpn.com/zh/blog/genggai-ip-dizhi-jiesheng-feiyong/)).
@@ -9259,7 +9259,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/airbnb-vp
 ## Short answer
 Rarely by much. On Airbnb the host sets the price, so a VPN in another country usually shows the same nightly rate, converted into a different currency. NordVPN's own 2025 test found little or no meaningful difference on Airbnb, while Agoda hotels in the same cities varied by 10-18% ([NordVPN Southeast Asia study, May 2025](https://nordvpn.com/zh/blog/genggai-ip-dizhi-jiesheng-feiyong/)). The part you can control is fees and currency.
 
-If a hotel works for your trip, the gaps are bigger and Arbitrica can do the country search for you. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+If a hotel works for your trip, the gaps are bigger and Arbitrica can do the country search for you. Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## Why Airbnb is different from hotel sites
 A hotel sells the same room through many sites and markets, each with its own rates and promotions. An Airbnb listing usually has one host-set price. A Threads user quoted by [Explore, October 27, 2025](https://www.explore.com/2004000/does-using-vpn-book-airbnb-prevent-unnecessary-fees-price-increases) made the same point: hosts set their own rates. Reports of savings exist, but the same article says results varied and took trial and error, and one Reddit user was redirected to the more expensive English-language site when paying with an American card.
@@ -9314,7 +9314,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/best-vpn-
 ## Short answer
 The best VPN for hotel booking is the one with servers in the most countries, including the hotel's own country, and few captchas on travel sites. On country count, NordVPN leads with 135 countries and 211 locations, ahead of ExpressVPN with 108 countries and 189 locations ([Tom's Guide, April 9, 2026](https://www.tomsguide.com/computing/vpns/nordvpn-upgrades-to-211-global-server-locations-worldwide-and-its-leapfrogged-expressvpn-in-the-process)). For Booking specifically the same rules apply: pick a VPN that lets you switch quickly between many countries.
 
-A VPN still makes you search one country at a time. If what you want is the lowest price in the world for the hotel you have chosen, Arbitrica, a personal AI agent, shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+A VPN still makes you search one country at a time. If what you want is the lowest price in the world for the hotel you have chosen, Arbitrica, a personal AI agent, shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## What matters in a VPN for hotel prices
 - **Country count.** Every extra country is another market you can check. This matters more than speed.
@@ -9378,7 +9378,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/do-hotels
 ## Short answer
 Sometimes, in two different ways. Booking sites and hotel chains sometimes block VPN addresses or ask for a captcha, mainly to stop bots, and some hotels check location to protect resident-only rates. Separately, hotel Wi-Fi networks can block VPN connections. Neither is universal, and both are inconsistent from day to day.
 
-If your aim is the lowest price, you do not need a VPN for it. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+If your aim is the lowest price, you do not need a VPN for it. Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## Do booking sites block VPNs?
 Some do, some of the time. A FlyerTalk moderator wrote that VPN blocking happens occasionally and is not limited to IHG: some sites block certain VPN IP addresses because robots and spammers use them, Expedia and Blacklane show a captcha, and the same VPN can work one day and not the next ([FlyerTalk](https://www.flyertalk.com/forum/29638412-post4.html)). Switching to another server and clearing cookies before connecting sometimes helps.
@@ -9489,7 +9489,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/same-hote
 ## Short answer
 The same hotel room has different prices because it is sold through many sites and in many markets at once, and each can carry its own rate. Hotels set rates and promotions by country and channel, sites add their own member and app deals, and dynamic pricing moves everything during the day. So the price you see depends on where you search from, which site and device you use, and when.
 
-Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## The six reasons the same room has different prices
 - **Country or market.** Different countries get different inventory, local rates and promotions. Booking says hotels have "full control over their prices including discounts" ([IamExpat on the NordVPN and 20 Minuten findings](https://www.iamexpat.ch/lifestyle/lifestyle-news/bookingcom-criticised-charging-travellers-from-switzerland-more)).
@@ -9516,7 +9516,7 @@ Across 1,000 hotels searched from 100 countries, about 80% of countries showed a
 
 **Tired of extra charges at the last step?** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total each seller shows, with taxes and fees, before it shows you the lowest price in the world for the same hotel, so you don't have to click through to verify it yourself.
 
-**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica works at the checkout itself, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
+**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica wakes up as soon as you choose your hotel room, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
@@ -9552,7 +9552,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/pay-hotel
 ## Short answer
 Yes, in most cases pay for a hotel in the local currency. When you choose your home currency at the front desk or on a payment page, the hotel's payment provider converts it at its own rate, a practice called dynamic currency conversion. CardRatings, citing Visa, says this can add as much as 3-5% ([CardRatings, citing Visa, August 2026](https://www.cardratings.com/travel/using-a-credit-card-abroad-dcc-fees.html)). Paying in local currency lets your card network convert at a more competitive rate.
 
-Currency is the small saving. The big one is the price itself: the same hotel is often 20-40% lower from another country. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+Currency is the small saving. The big one is the price itself: the same hotel is often 20-40% lower from another country. Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## What dynamic currency conversion costs
 CardRatings' examples: a 3% markup adds about $21 to a sample vacation day and over $140 across a week; on a 100-euro purchase the DCC rate cost about $1.92 more than the standard rate.
@@ -9607,7 +9607,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/vpn-cheap
 ## Short answer
 Rarely, and by little. The best-known tests found savings of a few dollars. Tom's Guide searched three routes from 10 VPN countries and saved $9 at most ([Tom's Guide test, updated January 2026](https://www.tomsguide.com/computing/vpns/can-a-vpn-get-cheaper-flights)); USA Today found differences of $0 to $2 ([USA Today test, January 2026](https://www.yahoo.com/lifestyle/articles/tried-using-vpn-score-cheaper-100134258.html)). Skyscanner says flight prices are driven by sales numbers rather than search volumes.
 
-Where your location does change the price a lot is hotels, online purchases and event tickets, and Arbitrica's agents work on those. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+Where your location does change the price a lot is hotels, online purchases and event tickets, and Arbitrica's agents work on those. Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## What the flight tests found
 *Chart: Spread between the highest and lowest price seen across 10 VPN countries plus no VPN, and the best saving against the UK baseline, per Tom's Guide.*
@@ -9747,7 +9747,7 @@ The same hotel is often priced differently depending on where the search comes f
 *Chart: In research across 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveller's own. The typical gap was 20-40%.*
 
 ## The best price on anything, not only hotels
-Arbitrica's agents work at the checkout for hotels, online shopping such as [Amazon](https://arbitrica.com/amazon.html) and [event tickets](https://arbitrica.com/events.html). Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica. After you buy, its approach keeps searching until the cancellation or return window ends, and confirms any new booking before the original is cancelled. More on [how Arbitrica works](https://arbitrica.com/how-it-works.html).
+Arbitrica's agents show up once you choose what you are buying, for hotels, online shopping such as [Amazon](https://arbitrica.com/amazon.html) and [event tickets](https://arbitrica.com/events.html). Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica. After you buy, its approach keeps searching until the cancellation or return window ends, and confirms any new booking before the original is cancelled. More on [how Arbitrica works](https://arbitrica.com/how-it-works.html).
 
 ## Which to use
 - **Use Muse** to plan a trip and book inside Meta's apps when the partner's price is fine.
@@ -9808,7 +9808,7 @@ Different countries get different inventory, sales channels, local rates and pro
 *Chart: The same hotel and dates were 33.6% less searched from India than from the UK in Arbitrica's price check.*
 
 ## The best price on anything you buy online
-Arbitrica's agents work at the checkout for hotels, online shopping such as [Amazon](https://arbitrica.com/amazon.html) and [event tickets](https://arbitrica.com/events.html). Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+Arbitrica's agents show up once you choose what you are buying, for hotels, online shopping such as [Amazon](https://arbitrica.com/amazon.html) and [event tickets](https://arbitrica.com/events.html). Research demonstrated an average of $47 per hotel booking, $34 per online purchase and $107 per event ticket purchase with Arbitrica. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
 
 ## Which to use
 - **Use Instinct** for errands and bookings you want done by text, when the site's price is fine.
@@ -9847,7 +9847,7 @@ Updated 2026-11-10 by Arbitrica. Canonical: https://arbitrica.com/blog/perplexit
 - Arbitrica is a personal AI agent built around the price: it searches the same hotel or product from 195 countries, finds the lowest price in the world and prepares everything for you to review and pay.
 
 ## Short answer
-If you want the lowest price for what you are booking or buying, the alternative to Perplexity is Arbitrica. Perplexity is an answer engine that can also book a hotel through Selfbook and check out a product with PayPal, at the price the hotel or retailer shows for your search. Arbitrica is a personal AI agent that shows up at the checkout, searches the same hotel or product from 195 countries, checks that it is identical and that the final total includes all taxes and fees, and prepares everything at the lowest price in the world for you to review and pay. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+If you want the lowest price for what you are booking or buying, the alternative to Perplexity is Arbitrica. Perplexity is an answer engine that can also book a hotel through Selfbook and check out a product with PayPal, at the price the hotel or retailer shows for your search. Arbitrica is a personal AI agent that shows up after you choose your hotel room or what you are buying, searches the same hotel or product from 195 countries, checks that it is identical and that the final total includes all taxes and fees, and prepares everything at the lowest price in the world for you to review and pay. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
 
 | What you want | Use |
 |---|---|
@@ -9992,7 +9992,7 @@ So the check is real, and the gaps it looks for are real too. Prices and room av
 - **Before you pay only.** NordVPN's page does not describe any price check after you book.
 
 ## How Arbitrica goes further
-Arbitrica is a personal AI agent that shows up at the checkout. For the hotel you are booking, it:
+Arbitrica is a personal AI agent that shows up after you choose your hotel room. For the hotel you are booking, it:
 
 - searches the same hotel, on the same dates, from 195 countries, on the site you are booking and other sites;
 
@@ -10126,7 +10126,7 @@ A metasearch list still comes from one market: the one you search from. Google's
 
 **14. Rebook when the price drops.** Book the new rate first, confirm it, then cancel the old one inside its free cancellation window. Step-by-step: [rebook a hotel at a lower price](https://arbitrica.com/blog/rebook-hotel-at-lower-price.html) and [what to do when the price drops after you book](https://arbitrica.com/blog/hotel-price-drop-after-booking.html).
 
-**15. Let an agent do the country search at the checkout.** Way 5 is the one with the biggest gaps and the most work. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+**15. Let an agent do the country search at the checkout.** Way 5 is the one with the biggest gaps and the most work. Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## Two more checks before you pay: call the hotel and add cashback
 Once you have the lowest total you can find, two small steps can take a little more off. Both work on top of the 15 ways above.
@@ -10169,7 +10169,7 @@ Related guides: [cheapest way to book a hotel](https://arbitrica.com/blog/cheape
 
 **Tired of extra charges at the last step?** Extra charges are one of the most common complaints about booking hotels in traveller forums: additional fees, taxes and add-on fees that only show up after several pages of the booking flow. Travellers want a price they can rely on without clicking through a site for ten minutes to find out whether extra fees will be added at the end. Arbitrica checks the final total each seller shows, with taxes and fees, before it shows you the lowest price in the world for the same hotel, so you don't have to click through to verify it yourself.
 
-**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica works at the checkout itself, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
+**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica wakes up as soon as you choose your hotel room, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
 
 **Know the full price before you commit.** What travellers ask for most is simple: the total, the full price they will be charged, all-in, before they hand over card details. "I want to know everything I'll be paying" is how one commenter put it in a [One Mile at a Time discussion](https://onemileatatime.com/community/other-hotels/its-time-hotels-be-required-to-display-all-in-pricing/). Arbitrica checks that the room, the conditions and the final total with taxes and fees match what the seller shows before it shows you a price, so you don't have to work out the full price yourself.
 
@@ -10234,7 +10234,7 @@ Updated 2026-11-11 by Arbitrica. Canonical: https://arbitrica.com/blog/cheapest-
 - The widest gaps come from the country you search from. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
 
 ## Short answer
-The cheapest way to book a hotel is to decide on the hotel first, then check the final total for that exact hotel, room and cancellation terms in three places: the hotel's own site signed in as a member, the main agencies, and the same hotel searched from other countries. Whichever is lowest on the final payment screen wins. For a same-night stay, add a last-minute app. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+The cheapest way to book a hotel is to decide on the hotel first, then check the final total for that exact hotel, room and cancellation terms in three places: the hotel's own site signed in as a member, the main agencies, and the same hotel searched from other countries. Whichever is lowest on the final payment screen wins. For a same-night stay, add a last-minute app. Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## When each way of booking wins
 | Way of booking | When it tends to win | Watch out for |
@@ -10258,7 +10258,7 @@ In NerdWallet's test of a midweek night in St. Petersburg, Florida, HotelTonight
 *Chart: Largest differences found in NerdWallet's one-night test in St. Petersburg, Florida.*
 
 ## Another country: the widest gaps
-Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates. The gap comes from markets: each country can carry its own rates, promotions and allotments for the same hotel. Checking that by hand means a VPN or a regional site, one country at a time ([cheapest country to book hotels from](https://arbitrica.com/blog/cheapest-country-to-book-hotels-from.html)). Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), 4 nights at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates. The gap comes from markets: each country can carry its own rates, promotions and allotments for the same hotel. Checking that by hand means a VPN or a regional site, one country at a time ([cheapest country to book hotels from](https://arbitrica.com/blog/cheapest-country-to-book-hotels-from.html)). Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 The full list of ways to pay less is in [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
@@ -10323,13 +10323,13 @@ Last-minute pricing only works when supply is left. On dates with a festival, a 
 *Chart: Average differences in the Hotels.com 2026 Hotel Price Index.*
 
 ## At the checkout: the same hotel from 195 countries
-When time is short, checking country markets by hand is the first thing people skip. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+When time is short, checking country markets by hand is the first thing people skip. Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 All 15 ways to pay less are in [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html); timing in depth is in the [best time to book a hotel](https://arbitrica.com/blog/best-time-to-book-hotels.html) guide.
 
 **Annoyed by additional fees added at the end?** Additional charges are one of the things travellers complain about most when they book hotels online: extra fees, taxes and add-on fees added after the details are filled in. What helps is a price you can trust from the first screen, without clicking through for ten minutes to find out what will be added. Arbitrica searches the same hotel from 195 countries and checks each seller's final total with taxes and fees, so the lowest price in the world it shows you has already been checked, with no clicking through on your side.
 
-**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica works at the checkout itself, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
+**When the price went up while you were booking.** Another complaint that keeps coming up in traveller forums: the price went up between the search page and the payment page, or the rates have increased by the time someone comes back to book. Hotel prices move with demand all day, so the price is higher on the next screen more often than people expect. Arbitrica wakes up as soon as you choose your hotel room, searching the same hotel from 195 countries at that moment and preparing everything in a new tab, so you act on the lowest price while it is there. Its approach keeps searching after you book, until free cancellation ends, in case the price falls.
 
 **Know the full price before you commit.** What travellers ask for most is simple: the total, the full price they will be charged, all-in, before they hand over card details. "I want to know everything I'll be paying" is how one commenter put it in a [One Mile at a Time discussion](https://onemileatatime.com/community/other-hotels/its-time-hotels-be-required-to-display-all-in-pricing/). Arbitrica checks that the room, the conditions and the final total with taxes and fees match what the seller shows before it shows you a price, so you don't have to work out the full price yourself.
 
@@ -10370,7 +10370,7 @@ Updated 2026-11-11 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-ge
 - Arbitrica searches the same hotel from 195 countries at the checkout and checks the room and conditions match before it shows a price.
 
 ## Short answer
-The best hotel rate is the lowest final total for the room and cancellation terms you actually want. To find it, sign in to the hotel's programme, check the main sites, and check the same hotel from other countries, then use a best rate guarantee if the lowest one is not on the hotel's own site. Arbitrica is a personal AI agent that shows up at the checkout. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
+The best hotel rate is the lowest final total for the room and cancellation terms you actually want. To find it, sign in to the hotel's programme, check the main sites, and check the same hotel from other countries, then use a best rate guarantee if the lowest one is not on the hotel's own site. Arbitrica is a personal AI agent that shows up after you choose your hotel room. It searches the same hotel from 195 countries, checks that the room, conditions and final total with all taxes and fees are identical, finds the lowest price in the world and prepares everything in a new tab, so you only review and pay. Its approach keeps searching after you book, until free cancellation ends, and confirms any new booking before the original is cancelled.
 
 ## The 9 rate types
 | Rate | What it is | How to get it |
@@ -10637,7 +10637,7 @@ Updated 2026-11-13 by Arbitrica. Canonical: https://arbitrica.com/blog/copilot-s
 - Arbitrica is a personal AI agent built around the price: it searches the same product, hotel or event ticket from 195 countries, finds the lowest price in the world and prepares everything for you to review and pay.
 
 ## Short answer
-If you want the lowest price for what you are buying, the alternative to Microsoft Copilot shopping is Arbitrica. Copilot is Microsoft's AI assistant: it finds products, shows price history and, with Copilot Checkout in the US, lets you pay a merchant without leaving the chat, at the price that merchant sets. Arbitrica is a personal AI agent that shows up at the checkout, searches the same product, hotel or event ticket from 195 countries, checks that it is identical and that the final total includes all taxes and fees, and prepares everything at the lowest price in the world for you to review and pay. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+If you want the lowest price for what you are buying, the alternative to Microsoft Copilot shopping is Arbitrica. Copilot is Microsoft's AI assistant: it finds products, shows price history and, with Copilot Checkout in the US, lets you pay a merchant without leaving the chat, at the price that merchant sets. Arbitrica is a personal AI agent that shows up after you choose your hotel room or what you are buying, searches the same product, hotel or event ticket from 195 countries, checks that it is identical and that the final total includes all taxes and fees, and prepares everything at the lowest price in the world for you to review and pay. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
 
 | What you want | Use |
 |---|---|

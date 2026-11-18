@@ -14,7 +14,7 @@ Topic: Comparisons
 - Arbitrica's approach repeats the search after you book until free cancellation ends, and the new booking is confirmed before the original is cancelled.
 - Hopper fits domestic flights booked on a phone; Arbitrica fits international hotels and refundable bookings.
 
-Hopper is a booking app built around price prediction and price freezes. It stops watching once you book, and it searches from one country. Arbitrica is a personal AI agent that lives in your browser and shows up at checkout, searches the same hotel from 195 countries, checks that the lower price is for the identical hotel with all taxes and fees included, and prepares the booking so you only review and pay. Its approach then repeats the search after you book, until the free-cancellation window ends.
+Hopper is a booking app built around price prediction and price freezes. It stops watching once you book, and it searches from one country. Arbitrica is a personal AI agent that lives in your browser and shows up after you choose your hotel room, searches the same hotel from 195 countries, checks that the lower price is for the identical hotel with all taxes and fees included, and prepares the booking so you only review and pay. Its approach then repeats the search after you book, until the free-cancellation window ends.
 
 ## Why people search for a Hopper alternative
 
@@ -96,7 +96,7 @@ We are not aware of another product that combines a search from 195 countries at
 
 ## How do I switch from Hopper to Arbitrica?
 
-**Short answer:** There is nothing to migrate. Hopper is an app with its own booking flow; Arbitrica is a personal AI agent that lives in your browser and appears at checkout when you book on the web. Keep Hopper on your phone for flight predictions if you like them. The two do not conflict.
+**Short answer:** There is nothing to migrate. Hopper is an app with its own booking flow; Arbitrica is a personal AI agent that lives in your browser and appears as soon as you choose a hotel room on the web. Keep Hopper on your phone for flight predictions if you like them. The two do not conflict.
 
 ## Frequently asked questions
 

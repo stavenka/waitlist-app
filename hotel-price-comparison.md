@@ -18,7 +18,7 @@ Traditional hotel price comparison shows you a few booking sites side by side: B
 
 ## Search before you pay, not after
 
-Different countries get access to different inventory, channels, local rates and promotions. Searching the same hotel from another country can open up lower prices you cannot get from your own country. Arbitrica goes beyond comparison. When you reach checkout, it searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on.
+Different countries get access to different inventory, channels, local rates and promotions. Searching the same hotel from another country can open up lower prices you cannot get from your own country. Arbitrica goes beyond comparison. Once you choose your hotel room, it searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on.
 
 Timing matters too. A comparison made while you are still browsing can be out of date by the time you pay, because hotel prices change during the day. Running the search at checkout, the moment you are about to commit, means the lowest price is checked against the exact booking you are making: the same hotel, the same dates, the same guests and the same conditions.
 
@@ -44,7 +44,7 @@ Independent research shows the same pattern. A 2024 NordVPN study found that tra
 
 > Chart: 2024 NordVPN study: a seven-night stay in a triple room at a Milan hotel for a family of three cost about $1,216 searched from the US and $1,012 searched from Italy.
 
-You could try to find those prices yourself with a VPN, switching one country at a time and entering your dates again on each search. With 195 countries that is impossible in practice. Arbitrica runs the full search for you while you are on the checkout page. Our comparison of a [VPN and Arbitrica](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html) works through the time it would take.
+You could try to find those prices yourself with a VPN, switching one country at a time and entering your dates again on each search. With 195 countries that is impossible in practice. Arbitrica runs the full search for you once you choose your hotel room. Our comparison of a [VPN and Arbitrica](https://arbitrica.com/blog/vpn-vs-arbitrica-hotel-booking.html) works through the time it would take.
 
 A real example: one Arbitrica user was offered a hotel on Booking for $1,527.39. Arbitrica found the same hotel for $1,180.27 and earned the user $347.12, or 23%. Research showed that people earn on average $47 per hotel booking this way, and up to $3,000 a year.
 
@@ -126,7 +126,7 @@ Different countries get access to different inventory, sales channels, local rat
 
 ### Is Arbitrica a hotel comparison site?
 
-No. Arbitrica is a personal AI agent that shows up at checkout, searches the same hotel from 195 countries, validates the identical hotel with all taxes and fees included, and prepares the booking at the lowest price for you to review and pay.
+No. Arbitrica is a personal AI agent that shows up after you choose your hotel room, searches the same hotel from 195 countries, validates the identical hotel with all taxes and fees included, and prepares the booking at the lowest price for you to review and pay.
 
 ### What should I compare when checking hotel prices?
 
