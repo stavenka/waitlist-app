@@ -64,7 +64,7 @@ Done carefully, each check means clearing cookies or opening a private window, e
 
 ## How Arbitrica works differently
 
-Arbitrica is a personal AI agent that lives in your browser, not a VPN you switch on and off. It shows up at the checkout when you are about to pay, searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
+Arbitrica is a personal AI agent that lives in your browser, not a VPN you switch on and off. It shows up as soon as you choose your hotel room, searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel and includes all taxes and fees, checks that the price will not suddenly change, and then prepares the booking so you only review and pay.
 
 > Chart: By hand, a VPN checks one country at a time. Arbitrica searches the same item from 195 countries at once.
 

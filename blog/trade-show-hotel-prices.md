@@ -94,7 +94,7 @@ Each way of booking show week has a different trade-off. The aim is the same hot
 
 ## How Arbitrica fits trade show travel
 
-Arbitrica is a personal AI agent that shows up at the checkout when you are about to pay for a hotel. It works for individual travelers and for companies, including teams heading to trade shows and conferences. For each booking, it does the steps above that cannot be done by hand at scale:
+Arbitrica is a personal AI agent that shows up as soon as you choose your hotel room. It works for individual travelers and for companies, including teams heading to trade shows and conferences. For each booking, it does the steps above that cannot be done by hand at scale:
 
 - It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on.
 

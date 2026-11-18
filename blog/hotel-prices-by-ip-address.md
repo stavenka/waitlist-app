@@ -80,7 +80,7 @@ The bigger problem is scale. A VPN checks one country at a time, and every check
 
 ## Searching the same hotel from 195 countries
 
-Arbitrica is a personal AI agent that meets you at checkout. When you are about to pay for a hotel, it searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price it finds is always at a different provider than the one you are on. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html) for the full flow.
+Arbitrica is a personal AI agent that meets you once you choose your hotel room. When you are about to pay for a hotel, it searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price it finds is always at a different provider than the one you are on. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html) for the full flow.
 
 Prices also keep moving after you book. Arbitrica's approach repeats the search after you book, until free cancellation ends. When the identical hotel becomes available at a lower total, a new booking is prepared and confirmed first, and only then is the original cancelled.
 

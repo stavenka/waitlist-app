@@ -88,7 +88,7 @@ Most hotel savings do not come from a secret coupon. They come from a handful of
 
 In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. That is often more than every other hack on this list combined.
 
-**How:** by hand, you can use a VPN to search from a few other countries one at a time, then check that the hotel, dates, room type and cancellation terms are identical and that taxes and fees are included. That takes time and covers only a handful of countries. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. The lower price it finds is always at a different provider from the one you are on.
+**How:** by hand, you can use a VPN to search from a few other countries one at a time, then check that the hotel, dates, room type and cancellation terms are identical and that taxes and fees are included. That takes time and covers only a handful of countries. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. The lower price it finds is always at a different provider from the one you are on.
 
 > Chart: A real booking: offered at $1,527.39, found for $1,180.27 for the identical hotel. Arbitrica earned the user $347.12 (23%).
 

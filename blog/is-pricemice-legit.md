@@ -58,7 +58,7 @@ So the check is real, and the gaps it looks for are real too. Prices and room av
 - **Before you pay only.** NordVPN's page does not describe any price check after you book.
 
 ## How Arbitrica goes further
-Arbitrica is a personal AI agent that shows up at the checkout. For the hotel you are booking, it:
+Arbitrica is a personal AI agent that shows up after you choose your hotel room. For the hotel you are booking, it:
 
 - searches the same hotel, on the same dates, from 195 countries, on the site you are booking and other sites;
 

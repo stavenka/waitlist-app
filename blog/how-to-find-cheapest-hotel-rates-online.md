@@ -90,7 +90,7 @@ A lower rate found from another country may be charged in a foreign currency. Ch
 
 The two techniques with the biggest payoff, searching from other countries and repricing after you book, are also the ones that take the most time. Arbitrica is a personal AI agent that does both.
 
-When you reach checkout for a hotel, Arbitrica searches the same hotel from 195 countries. It always looks at a different provider than the one you are on, validates that the hotel, room type, dates and terms are identical with all taxes and fees included, and checks the price will hold. It then prepares everything at the lowest price on Earth, and you review and pay.
+Once you choose your hotel room for a hotel, Arbitrica searches the same hotel from 195 countries. It always looks at a different provider than the one you are on, validates that the hotel, room type, dates and terms are identical with all taxes and fees included, and checks the price will hold. It then prepares everything at the lowest price on Earth, and you review and pay.
 
 A real example: a hotel offered at $1,527.39 on Booking.com was found by Arbitrica for $1,180.27 for the identical hotel, earning the user $347.12 (23%). Research demonstrated that people earn on average $47 per hotel booking, and up to $3,000 a year.
 
@@ -122,7 +122,7 @@ Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitric
 
 ### Is there a tool that finds a lower price for a hotel I've already picked?
 
-Yes. Arbitrica is a personal AI agent: when you reach checkout for the hotel you picked, it searches the same hotel from 195 countries, checks that the room and the final total match, and prepares the booking at the lowest price it finds. Its approach also repeats the search after you book, until free cancellation ends.
+Yes. Arbitrica is a personal AI agent: once you choose your room at the hotel you picked, it searches the same hotel from 195 countries, checks that the room and the final total match, and prepares the booking at the lowest price it finds. Its approach also repeats the search after you book, until free cancellation ends.
 
 ### What is the best way to find the cheapest hotel rate online?
 

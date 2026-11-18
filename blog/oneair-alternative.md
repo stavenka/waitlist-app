@@ -72,7 +72,7 @@ For a step-by-step guide to doing it yourself, see [how to rebook a hotel at a l
 
 ## How Arbitrica differs from OneAir
 
-Arbitrica is a personal AI agent that meets you at checkout. You choose a hotel on whatever site you like. When you are about to pay, Arbitrica searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different provider from the one you are on. It validates that the hotel and terms are identical and that all taxes and fees are included, then prepares everything. You review and pay.
+Arbitrica is a personal AI agent that meets you once you choose your hotel room. You choose a hotel on whatever site you like. When you are about to pay, Arbitrica searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different provider from the one you are on. It validates that the hotel and terms are identical and that all taxes and fees are included, then prepares everything. You review and pay.
 
 After you book, Arbitrica's approach repeats the search over time until free cancellation ends, and each repeat is again from 195 countries. When the identical hotel becomes available at a lower price, a new booking is prepared, and the new booking is confirmed before the original is cancelled.
 
@@ -80,7 +80,7 @@ After you book, Arbitrica's approach repeats the search over time until free can
 
 | What it is | Members-only travel platform and travel agency | Personal AI agent (lives in your browser) |
 
-| How it starts | Book through OneAir, or forward a confirmation from another site | Shows up at the checkout when you are about to pay |
+| How it starts | Book through OneAir, or forward a confirmation from another site | Shows up after you choose your hotel room |
 
 | Source of lower prices | Member rates, unpublished fares, and drops over time | The same item searched from 195 countries, at checkout and over time |
 

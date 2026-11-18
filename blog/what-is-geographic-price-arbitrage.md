@@ -116,7 +116,7 @@ The lowest price also tends to come from an unexpected country. It is not always
 
 ## Automated arbitrage with Arbitrica
 
-Arbitrica is a personal AI agent that shows up at checkout when you are about to pay. It searches the same item from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel or item and includes all taxes and fees, checks that the price will not suddenly change, and then prepares everything so you only review and pay.
+Arbitrica is a personal AI agent that shows up as soon as you choose your hotel room. It searches the same item from 195 countries and finds the lowest price on Earth for it at a different seller from the one you are on. It validates that the lower price is for the identical hotel or item and includes all taxes and fees, checks that the price will not suddenly change, and then prepares everything so you only review and pay.
 
 Arbitrica's approach also covers time arbitrage. The mechanism Arbitrica developed repeats the search after you buy, until the free-cancellation or return window ends, and prepares a rebooking or repurchase at the lower price. The new booking or purchase is confirmed before the original is cancelled.
 

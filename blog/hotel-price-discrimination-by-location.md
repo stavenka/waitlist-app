@@ -108,7 +108,7 @@ The hard part is coverage. There are 195 countries, the lowest price moves betwe
 
 ## How Arbitrica handles location-based pricing
 
-Arbitrica is a personal AI agent that shows up at checkout, searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on. It validates that the offer is for the identical hotel with all taxes and fees included, and prepares the booking so you only review and pay. Arbitrica's approach also repeats the search after you book, until the free cancellation window ends, and confirms any new booking before the original is cancelled.
+Arbitrica is a personal AI agent that shows up after you choose your hotel room, searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on. It validates that the offer is for the identical hotel with all taxes and fees included, and prepares the booking so you only review and pay. Arbitrica's approach also repeats the search after you book, until the free cancellation window ends, and confirms any new booking before the original is cancelled.
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 

@@ -96,7 +96,7 @@ With the Hotels.com guarantee gone, two habits do the work it used to promise, a
 
 ### Search from other countries before you pay
 
-By hand, this means a VPN, one country at a time, and a careful check that the hotel, room type, terms and total are identical. It is slow and covers only a few countries. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. The lower price it finds is always at a different provider, so there is no claim to file and nothing to wait for. [How Arbitrica works](https://arbitrica.com/how-it-works.html) covers the process in more detail.
+By hand, this means a VPN, one country at a time, and a careful check that the hotel, room type, terms and total are identical. It is slow and covers only a few countries. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. You review and pay. The lower price it finds is always at a different provider, so there is no claim to file and nothing to wait for. [How Arbitrica works](https://arbitrica.com/how-it-works.html) covers the process in more detail.
 
 ### Book refundable, then rebook if the price drops
 

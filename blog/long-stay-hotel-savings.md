@@ -86,7 +86,7 @@ Doing this by hand for a month-long stay means checking often, comparing full to
 
 Different countries get access to different inventory, channels, local rates and promotions, so searching the same hotel from another country can open up lower prices you cannot get from your own country. On a long stay, that difference applies to every night.
 
-Checking dozens of countries by hand with a VPN, one at a time, is impractical for a single weekend, let alone for a month with weekly rate thresholds. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay. More on why [hotel prices differ by country](https://arbitrica.com/blog/booking-com-prices-different-countries.html).
+Checking dozens of countries by hand with a VPN, one at a time, is impractical for a single weekend, let alone for a month with weekly rate thresholds. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay. More on why [hotel prices differ by country](https://arbitrica.com/blog/booking-com-prices-different-countries.html).
 
 ## Long stay hotel deals for companies
 

@@ -72,7 +72,7 @@ RatePunk points at this by telling you which country has the lowest rate. The re
 
 ## How Arbitrica's approach differs
 
-Arbitrica is a personal AI agent that lives in your browser and shows up at checkout, when you are about to pay. Instead of listing prices for you to judge, it acts for you. It uses two families of mechanisms.
+Arbitrica is a personal AI agent that lives in your browser and shows up as soon as you choose your hotel room. Instead of listing prices for you to judge, it acts for you. It uses two families of mechanisms.
 
 ### Geographic arbitrage, live at checkout
 
@@ -142,4 +142,4 @@ Arbitrica is a personal AI agent that lives in your browser. It searches the sam
 
 ### Can I use Arbitrica alongside other hotel tools?
 
-Yes. Arbitrica works at the checkout step, so you can keep using whatever tools or sites you like to choose a hotel.
+Yes. Arbitrica wakes up after you choose your hotel room, so you can keep using whatever tools or sites you like to choose a hotel.

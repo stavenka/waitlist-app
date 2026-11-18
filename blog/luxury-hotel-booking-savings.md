@@ -86,7 +86,7 @@ The biggest gap is often geographic. Different countries get access to different
 
 In a test of 1,000 hotels searched from 100 countries, 80% of countries showed a lower price than the traveler's own country, and the typical gap was 20-40%. Independent research points the same way: a 2024 NordVPN study found that travel bookings made through US websites came out up to 70% higher than through websites elsewhere (its largest gap was a car rental).
 
-Checking other countries by hand, with a VPN, one country at a time, works for a few tries and then becomes impractical. Arbitrica is a personal AI agent that meets you at checkout, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html), or why [hotel prices differ by country](https://arbitrica.com/blog/booking-com-prices-different-countries.html).
+Checking other countries by hand, with a VPN, one country at a time, works for a few tries and then becomes impractical. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries, validates that it is identical with all taxes and fees included, and prepares everything at the lowest price on Earth. The lower price is always at a different provider from the one you are on. You review and pay. See [how it works](https://arbitrica.com/how-it-works.html), or why [hotel prices differ by country](https://arbitrica.com/blog/booking-com-prices-different-countries.html).
 
 ## A checklist to book a luxury hotel for less
 

@@ -94,7 +94,7 @@ The controls above work, but two of them are hard to do well by hand: finding th
 
 ### At checkout: the same hotel from 195 countries
 
-Arbitrica is a personal AI agent that shows up at the checkout when you are about to pay for a hotel. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on. Different countries get access to different inventory, channels, local rates and promotions, so the same hotel is often 5-30% cheaper when searched from another country. Doing this by hand, one country at a time, is impossible in practice. More on the mechanism in [what is geographic price arbitrage](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html).
+Arbitrica is a personal AI agent that shows up as soon as you choose your hotel room. It searches the same hotel from 195 countries and finds the lowest price on Earth for it at a different provider than the one you are on. Different countries get access to different inventory, channels, local rates and promotions, so the same hotel is often 5-30% cheaper when searched from another country. Doing this by hand, one country at a time, is impossible in practice. More on the mechanism in [what is geographic price arbitrage](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html).
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 

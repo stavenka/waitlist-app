@@ -26,7 +26,7 @@ The short version: if you are an individual traveler, Pruvo is no longer an opti
 
 | Consumer bookings | No longer supported | Yes | Yes |
 
-| How it starts | Integrated into the operator's booking platform | You enter your reservation | Shows up at the checkout when you are about to pay |
+| How it starts | Integrated into the operator's booking platform | You enter your reservation | Shows up after you choose your hotel room |
 
 | Search before you pay | Pre-booking product announced, not yet live (per its site) | No | Yes, live arbitrage at checkout |
 
@@ -78,7 +78,7 @@ You can check a few countries by hand with a VPN, one at a time, but covering 19
 
 ## How Arbitrica differs from Pruvo and RoomHawk
 
-Arbitrica is a personal AI agent that meets you at checkout. When you are about to pay for a hotel, it searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different provider from the one you are on. Before that price counts, it validates that the hotel and terms are identical and that all taxes and fees are included. Then it prepares everything, so you only review and pay.
+Arbitrica is a personal AI agent that meets you once you choose your hotel room. When you are about to pay for a hotel, it searches the same hotel from 195 countries and finds the lowest price on Earth for it, at a different provider from the one you are on. Before that price counts, it validates that the hotel and terms are identical and that all taxes and fees are included. Then it prepares everything, so you only review and pay.
 
 After you book, Arbitrica's approach repeats the search over time until the free-cancellation window ends. This is the part that overlaps with Pruvo and RoomHawk, with one difference: each repeat is searched from 195 countries rather than one. When the identical hotel becomes available at a lower price, a new booking is prepared, and the new booking is confirmed before the original is cancelled.
 

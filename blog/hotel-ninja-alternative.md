@@ -76,7 +76,7 @@ Arbitrica is a personal AI agent, so it takes a different route from Hotel Ninja
 
 > Chart: At checkout Arbitrica searches the same item from 195 countries, checks it is identical with all taxes and fees included, and prepares everything at the lowest price.
 
-- **It meets you at checkout**Browse and choose a hotel on whatever site you like. When you reach the checkout, Arbitrica starts working.
+- **It meets you once you choose your hotel room**Browse and choose a hotel on whatever site you like. When you reach the checkout, Arbitrica starts working.
 
 - **It searches from 195 countries**The same hotel, dates and terms are searched from 195 countries in real time, and the lowest price on Earth is found at a different provider from the one you are on.
 
@@ -124,7 +124,7 @@ The total is large enough for a 5-30% gap to matter: multi-night trips, family s
 
 Arbitrica also serves companies. Teams heading to trade shows and conferences, operations managers who book staff travel and travel managers responsible for hotel spend get the same search from 195 countries on every booking, with the traveler staying in the hotel they chose.
 
-TipYou can keep using any extension you like to choose a hotel. Arbitrica works at the checkout step, so filters for meal plans, ratings and cancellation terms still help you pick the right hotel before it starts searching.
+TipYou can keep using any extension you like to choose a hotel. Arbitrica wakes up after you choose your hotel room, so filters for meal plans, ratings and cancellation terms still help you pick the right hotel before it starts searching.
 
 ## What to check before installing any hotel extension
 
