@@ -3,7 +3,7 @@
 Nine options, four criteria and one decision rule: choose the tracker that searches the same hotel from other countries.
 
 Source: https://arbitrica.com/blog/best-hotel-price-trackers-2026.html  
-Updated: 2026-11-15  
+Updated: 2026-11-18  
 Topic: Comparisons
 
 ## Key takeaways
@@ -106,7 +106,7 @@ PriceMice is a browser extension that NordVPN launched in September 2026. It che
 
 **Limitation:** Booking.com only at launch, a set of countries rather than 195, no tracking after you book, and the booking is left to you.
 
-See [the PriceMice alternative guide](https://arbitrica.com/blog/pricemice-alternative.html) for a side-by-side look.
+Arbitrica does the PriceMice check, the same hotel searched from other countries, on Expedia, Agoda, Booking and every other booking site, from 195 countries. See [the PriceMice alternative guide](https://arbitrica.com/blog/pricemice-alternative.html) for a side-by-side look.
 
 ## Is there something like PriceMice that works for Expedia, Agoda and every other booking site?
 
