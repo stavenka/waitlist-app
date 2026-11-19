@@ -49,6 +49,8 @@ See also [does a VPN make hotels cheaper?](https://arbitrica.com/blog/does-vpn-m
 
 Related: [The cheapest way to book a hotel in 2026: direct, app or agent?](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html).
 
+Looking for a different place to book than Agoda? See the [Agoda alternative that finds the lowest hotel price in the world](https://arbitrica.com/blog/agoda-alternative.html).
+
 ## Frequently asked questions
 
 ### Is Agoda cheaper with a VPN?

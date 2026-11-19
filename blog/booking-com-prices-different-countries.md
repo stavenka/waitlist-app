@@ -128,6 +128,8 @@ The same mechanisms work beyond hotels, for flights, car rentals, event tickets 
 
 Related: [The Booking.com VPN trick: does it work, and which location is best?](https://arbitrica.com/blog/booking-com-vpn-trick.html), [Same hotel, different price: why one room has many prices](https://arbitrica.com/blog/same-hotel-different-price.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
+Looking for a different place to book than Booking? See the [Booking.com alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/booking-com-alternative.html).
+
 ## Frequently asked questions
 
 ### How to get hotels cheaper?

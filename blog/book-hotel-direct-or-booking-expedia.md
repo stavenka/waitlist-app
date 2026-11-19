@@ -53,6 +53,8 @@ Arbitrica, a personal AI agent, searches the same hotel from 195 countries at ch
 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [The cheapest way to book a hotel in 2026: direct, app or agent?](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html), [How to get the best hotel rates: 9 rate types explained](https://arbitrica.com/blog/how-to-get-the-best-hotel-rates.html).
 
+Looking beyond the big sites? See the [Booking.com alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/booking-com-alternative.html) and the [Expedia alternative now the Hotel Price Guarantee has ended](https://arbitrica.com/blog/expedia-alternative.html).
+
 ## Frequently asked questions
 
 ### Is there a tool that checks whether booking direct or through Booking or Expedia is lower?

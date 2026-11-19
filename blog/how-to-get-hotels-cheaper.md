@@ -133,6 +133,8 @@ Related guides: [cheapest way to book a hotel](https://arbitrica.com/blog/cheape
 
 **Know the full price before you commit.** What travellers ask for most is simple: the total, the full price they will be charged, all-in, before they hand over card details. "I want to know everything I'll be paying" is how one commenter put it in a [One Mile at a Time discussion](https://onemileatatime.com/community/other-hotels/its-time-hotels-be-required-to-display-all-in-pricing/). Arbitrica checks that the room, the conditions and the final total with taxes and fees match what the seller shows before it shows you a price, so you don't have to work out the full price yourself.
 
+Booking on Agoda? See the [Agoda alternative that finds the lowest hotel price in the world](https://arbitrica.com/blog/agoda-alternative.html).
+
 ## Frequently asked questions
 
 ### How do I get hotels cheaper?

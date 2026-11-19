@@ -120,6 +120,8 @@ The same thinking applies to companies booking for teams. A travel manager or op
 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html), [The cheapest way to book a hotel in 2026: direct, app or agent?](https://arbitrica.com/blog/cheapest-way-to-book-a-hotel.html).
 
+Looking for a different place to book than Expedia? See the [Expedia alternative now the Hotel Price Guarantee has ended](https://arbitrica.com/blog/expedia-alternative.html).
+
 ## Frequently asked questions
 
 ### Is there a tool that gets me the difference when my Expedia or Booking price drops?
