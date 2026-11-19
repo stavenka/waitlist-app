@@ -1,6 +1,6 @@
 # How to get hotels cheaper: 15 ways that work in 2026
 
-Updated 2026-11-18 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
+Updated 2026-11-19 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
 
 ## Key takeaways
 - The biggest single lever is the country you search from: the same hotel often has a different final price in different countries. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
@@ -10,6 +10,7 @@ Updated 2026-11-18 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-ge
 - Book a refundable rate when you can and keep checking after you book; a lower price before the cancellation deadline is money back.
 - Before you pay, call or email the hotel: in a Which? test published on November 5, 2026, that got a lower price than the hotel's own website and Booking at four of five hotels, by £47 to £79 for two nights.
 - Incognito mode helps only a little: research found browsing history can cost a few dollars, while signed-in members were shown lower hotel prices. Search both ways and keep the lower total.
+- Packages and member prices help only sometimes: Expedia gives no fixed bundle saving, and Marriott and Hilton member rates start at about 2%. Price the hotel on its own first.
 - Arbitrica, a personal AI agent, searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price in the world, so you only review and pay.
 
 ## Short answer: how to get hotels cheaper
@@ -93,6 +94,15 @@ Once you have the lowest total you can find, two small steps can take a little m
 
 So run two searches, one in a private window and one signed in to your Booking Genius, Expedia One Key or hotel loyalty account, and keep the lower final total. Neither search changes the country market you are shown, which is where the big gaps are: across 1,000 hotels searched from 100 countries, about 80% of countries showed a lower price than the traveller's own, with a typical gap of 20-40%. Arbitrica, a personal AI agent, searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price in the world.
 
+## Package deals and member prices: do they get hotels cheaper?
+**Short answer:** sometimes. Two tips on most lists are booking the hotel with a flight as a package and joining the member programme of a hotel chain or booking site. Both can lower the price, but neither is a fixed discount, so price the hotel on its own before you take either one.
+
+- **Flight and hotel packages can be lower, with no fixed saving.** Expedia says its Bundle & Save deals "may cover the cost of your flights or one or more nights of your stay", and also that Bundle & Save pricing "varies and is not available on all packages"; it gives no percentage ([Expedia](https://www.expedia.com/product/bundle-and-save/), checked on November 19, 2026). Price the hotel alone and the flight alone for the same dates, then take the bundle only if its final total is lower.
+- **Hotel chain member rates are small but real.** Marriott Bonvoy member rates are at least 2% off on weekdays and up to 5% off on weekends against the hotel's lowest public rate ([Marriott](https://www.marriott.com/en-gb/online-hotel-booking.mi), checked on November 19, 2026); the Hilton Honors Discount is "from 2% off" eligible rates and changes with the booking window, the country and the day of the week ([Hilton](https://www.hilton.com/en/hilton-honors/honors-discount-terms), checked on November 19, 2026). Neither can be combined with certain other offers.
+- **Booking site member prices are larger.** Booking Genius takes 10-20% off at participating hotels, Expedia Member Prices 10% or more and AgodaVIP up to 25%, as set out in [why Agoda or Booking can be lower than the hotel's own website](https://arbitrica.com/blog/book-hotel-direct-or-booking-expedia.html).
+
+All of these are prices for one country's market. The same member rate or package can have a different final total when the hotel is searched from another country: research across 1,000 hotels found a lower price in about 80% of countries, with a typical gap of 20-40%. Arbitrica, a personal AI agent, meets you once you choose your hotel room, searches the same hotel from 195 countries and prepares the booking at the lowest price in the world, so you only review and pay.
+
 ## What each way can save
 The figures below come from the sources linked in each way. They are averages or test results, not promises for your dates.
 
@@ -145,6 +155,12 @@ Often, yes. In a Which? test published on November 5, 2026, contacting five UK h
 
 ### Do cashback sites work for hotels?
 Yes, on bookings made through their partner sites. On November 12, 2026 TopCashback listed 11% back on Hotels.com hotel bookings for new customers and 2% for existing customers in November and December, paid after the stay and worked out on the price before taxes and fees. Rates change often, so check on the day you book.
+
+### Are package deals cheaper than booking the hotel on its own?
+Sometimes. Expedia says Bundle & Save deals may cover the cost of the flights or one or more nights, but pricing varies and is not available on all packages. Price the hotel alone and the flight alone for the same dates and take the bundle only if its final total is lower.
+
+### Do hotel loyalty programmes get you cheaper rooms?
+A little. Marriott Bonvoy member rates are at least 2% off on weekdays and up to 5% off on weekends, and the Hilton Honors Discount starts at 2% off eligible rates (both checked on November 19, 2026). Booking site programmes such as Booking Genius take 10-20% off. The bigger gap usually comes from searching the same hotel from other countries, which Arbitrica does from 195 countries.
 
 ### How to get hotels cheaper last minute?
 Hotels.com's 2026 index found last-minute bookers paid 23% less on average than people who booked four or more months out. For same-day stays, last-minute apps can help: in a NerdWallet test 10 of 16 hotels on HotelTonight were up to 23% lower than on Booking, but 6 were higher and most bookings are nonrefundable.
