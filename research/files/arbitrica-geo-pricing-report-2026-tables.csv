@@ -1,0 +1,53 @@
+"Source: Arbitrica (2026), Hotel Geo-Pricing Report 2026, https://arbitrica.com/research/geo-pricing-report-2026/"
+
+Table 1: headline findings
+Study,Measure,Value
+"1,000 hotels from 100 countries",Share of search countries with a lower price than the traveller's own,80%
+"1,000 hotels from 100 countries",Typical gap between the price shown and the lowest price found,20-40%
+"1,500 hotels, ~1,000,000 searches, 100 countries",Share of hotels with a lower price from a different search country (vs European or North American baseline),84%
+"1,500 hotels, ~1,000,000 searches, 100 countries",Average gap below Booking where a lower price existed,18%
+
+"Table 2: gap distribution, 1,500 hotels"
+Gap to the lower price found,Hotels,Share
+No price difference,225,14%
+1-10% lower,525,33%
+10-20% lower,450,29%
+20-30% lower,300,19%
+30-35%+ lower,75,5%
+
+Table 3: average price position by search country (vs cheapest available price across 100 search countries)
+Search country,Average price position (%),Group
+United Arab Emirates,8,Paid more
+Canada,7,Paid more
+Sweden,6,Paid more
+Denmark,6,Paid more
+France,4,Paid more
+India,-15,Found lower prices
+Vietnam,-15,Found lower prices
+Thailand,-15,Found lower prices
+New Zealand,-14,Found lower prices
+Indonesia,-14,Found lower prices
+Mexico,-13,Found lower prices
+Czech Republic,-12,Found lower prices
+Brazil,-12,Found lower prices
+China,-11,Found lower prices
+
+Table 4: average price position by search region
+Search region,Average price position (%),Note
+South East Asia,-15,"Vietnam, Thailand and Indonesia found the lowest prices of all regions"
+South Asia,-14,India among the best-priced search countries
+Oceania,-14,New Zealand found consistently low prices
+Latin America,-12,Brazil and Mexico regularly found lower prices than European searchers
+East Asia,-11,China found lower prices than most major economies
+Eastern Europe,-10,Czech Republic among the better-priced European search countries
+North America,2,Canada paid more than Mexico for the same hotels
+Middle East,4,UAE among the highest-paying search countries
+Western Europe,5,Nordic and French searchers paid more fairly consistently
+Scandinavia,7,"The region that paid the most across all 1,500 hotels"
+
+"Table 5: hotel examples (same hotel and dates, totals in USD)"
+Hotel,Locations checked,UK price,Lowest found (location),Lower than UK by
+"White House Hotel Istanbul, Turkey",3,"$1,066",$708 (India),33.6%
+"Ravel Hotel Trademark Collection by Wyndham, New York, USA",3,$948,$783 (Mexico),17.4%
+"The Taj Mahal Palace, Mumbai, India",5,"$1,210","$1,066 (New Zealand)",11.9%
+"Vibe Hotel Sydney Darling Harbour, Australia",3,$791,$779 (USA),1.5%
