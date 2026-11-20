@@ -415,6 +415,15 @@ app.post('/api/waitlist', async (req, res) => {
   }
 });
 
+// SMTP transport: SMTP_HOST (e.g. smtp.zoho.com) if set, otherwise Gmail.
+function smtpTransport(user, pass) {
+  if (process.env.SMTP_HOST) {
+    const port = Number(process.env.SMTP_PORT || 465);
+    return nodemailer.createTransport({ host: process.env.SMTP_HOST, port, secure: port === 465, auth: { user, pass } });
+  }
+  return nodemailer.createTransport({ service: 'gmail', auth: { user, pass } });
+}
+
 // ── Research report welcome email (the user, 20-11-2026) ──
 async function sendReportEmail(to, position) {
   const smtpUser = process.env.SMTP_USER, smtpPass = process.env.SMTP_PASS;
@@ -424,7 +433,7 @@ async function sendReportEmail(to, position) {
   const csv = base + '/research/files/arbitrica-geo-pricing-report-2026-tables.csv';
   const page = base + '/research/geo-pricing-report-2026/';
   const pos = position ? ' Your place on the waitlist is #' + Number(position).toLocaleString('en-GB') + '.' : '';
-  const transporter = nodemailer.createTransport({ service: 'gmail', auth: { user: smtpUser, pass: smtpPass } });
+  const transporter = smtpTransport(smtpUser, smtpPass);
   await transporter.sendMail({
     from: `"Arbitrica" <${process.env.REPORT_EMAIL_FROM || smtpUser}>`,
     replyTo: 'team@arbitrica.com',
@@ -546,10 +555,7 @@ app.post('/api/chat-notify', async (req, res) => {
   const smtpPass = process.env.SMTP_PASS;
   if (smtpUser && smtpPass) {
     try {
-      const transporter = nodemailer.createTransport({
-        service: 'gmail',
-        auth: { user: smtpUser, pass: smtpPass },
-      });
+      const transporter = smtpTransport(smtpUser, smtpPass);
       if (type === 'question') {
         await transporter.sendMail({
           from: `"Arbitrica Chat" <${smtpUser}>`,
