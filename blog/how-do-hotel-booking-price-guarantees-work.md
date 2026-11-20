@@ -71,6 +71,8 @@ The gap is large enough to matter. Research across 1,000 hotels demonstrated a l
 
 Doing this by hand for 195 countries is humanly impossible. Arbitrica is a personal AI agent that does it at checkout: it checks the same hotel from 195 countries, finds the lowest price in the world for it, and automatically prepares everything so you only review and pay. After you book, the approach Arbitrica uses keeps re-checking the price, because a drop often has to be acted on straight away before someone else takes it. Research demonstrated savings of up to $3,000 a year on hotels with Arbitrica, $47 per purchase on average.
 
+Booking on Priceline? See the [Priceline alternative that finds the lowest hotel price in the world](https://arbitrica.com/blog/priceline-alternative.html).
+
 ## FAQ
 
 ### Do hotel price guarantees actually work?

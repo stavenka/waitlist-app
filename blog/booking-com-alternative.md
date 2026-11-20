@@ -77,6 +77,8 @@ Booking, Expedia and Agoda each show their own rates for your search. Arbitrica 
 - [Agoda alternative](https://arbitrica.com/blog/agoda-alternative.html)
 - [Hotel geo-pricing report 2026](https://arbitrica.com/research/geo-pricing-report-2026/): how often the same hotel is cheaper from another country
 
+Booking on Priceline? See the [Priceline alternative that finds the lowest hotel price in the world](https://arbitrica.com/blog/priceline-alternative.html).
+
 ## Frequently asked questions
 
 ### What is the best alternative to Booking.com for the lowest hotel price?

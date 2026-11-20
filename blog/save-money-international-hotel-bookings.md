@@ -98,6 +98,8 @@ Searching from 195 countries before you pay, and again after you book, is the pa
 
 Related: [Should you pay for a hotel in local currency?](https://arbitrica.com/blog/pay-hotel-in-local-currency.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
+Booking on Trip.com? See the [Trip.com alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/trip-com-alternative.html).
+
 ## Frequently asked questions
 
 ### Is it cheaper to book an international hotel from another country?

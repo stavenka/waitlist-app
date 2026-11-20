@@ -110,6 +110,8 @@ Arbitrica's approach repeats the search after you book, from 195 countries, unti
 
 Travel managers and operations managers who relied on site guarantees to keep team hotel costs in check now need another safeguard. Booking refundable rates for trade shows and conferences, then searching again from other countries until the cancellation deadline, replaces a claim process with savings that do not depend on approval. Arbitrica also serves companies booking hotels for teams, and the same mechanisms apply to flights, event tickets and other purchases.
 
+Booking on Hotels.com? See the [Hotels.com alternative for the lowest hotel price in the world](https://arbitrica.com/blog/hotels-com-alternative.html).
+
 ## Frequently asked questions
 
 ### Does Hotels.com still have a price guarantee?

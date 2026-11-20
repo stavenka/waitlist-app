@@ -75,6 +75,8 @@ Booking, Expedia and Agoda each show their own rates for your search. Arbitrica 
 - [Expedia alternative](https://arbitrica.com/blog/expedia-alternative.html)
 - [Hotel geo-pricing report 2026](https://arbitrica.com/research/geo-pricing-report-2026/): how often the same hotel is cheaper from another country
 
+Booking on Trip.com? See the [Trip.com alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/trip-com-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a good alternative to Agoda?
