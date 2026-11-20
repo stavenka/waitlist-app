@@ -13,8 +13,10 @@ const SCHEDULE = [
   { key: 'test7', from: '2026-11-07T00:00:00Z', to: '2026-11-10T00:00:00Z' },
   // 10 Nov 2026 (the user): test5 back on the whole site, as it was on 29-31 Oct.
   { key: 'test5', from: '2026-11-10T00:00:00Z', to: '2026-11-15T00:00:00Z' },
-  // 15 Nov 2026 (the user): test7 on the whole site from midnight UK time, until further notice.
-  { key: 'test7', from: '2026-11-15T00:00:00Z', to: '2100-01-01T00:00:00Z' },
+  // 15 Nov 2026 (the user): test7 on the whole site from midnight UK time.
+  { key: 'test7', from: '2026-11-15T00:00:00Z', to: '2026-11-20T10:30:00Z' },
+  // 20 Nov 2026 (the user): test5 back on the whole site, as it was on 10-14 Nov, until further notice.
+  { key: 'test5', from: '2026-11-20T10:30:00Z', to: '2100-01-01T00:00:00Z' },
 ];
 
 function scheduledTheme(now = Date.now()) {
