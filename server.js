@@ -392,10 +392,6 @@ app.post('/api/waitlist', async (req, res) => {
     const position = appendedRow > 0 ? appendedRow + QUEUE_OFFSET : 22500;
     await ensureExtraHeaders(sheets, sheetName);
 
-    // Research report (the user, 20-11-2026): readers of /research/geo-pricing-report-2026/ who leave their email
-    // get the report as a welcome email. Sent only when REPORT_EMAIL_ENABLED=1 and SMTP is configured; never blocks the reply.
-    if (req.body.report === 'geo-pricing-2026') sendReportEmail(email, position).catch(e => console.error('Report email not sent:', e.message));
-
     return res.json({ ok: true, position, row: appendedRow || null });
   } catch (err) {
     const code = err.response && err.response.status;
@@ -414,35 +410,6 @@ app.post('/api/waitlist', async (req, res) => {
     return res.status(500).json({ ok: false, error: message });
   }
 });
-
-// SMTP transport: SMTP_HOST (e.g. smtp.zoho.com) if set, otherwise Gmail.
-function smtpTransport(user, pass) {
-  if (process.env.SMTP_HOST) {
-    const port = Number(process.env.SMTP_PORT || 465);
-    return nodemailer.createTransport({ host: process.env.SMTP_HOST, port, secure: port === 465, auth: { user, pass } });
-  }
-  return nodemailer.createTransport({ service: 'gmail', auth: { user, pass } });
-}
-
-// ── Research report welcome email (the user, 20-11-2026) ──
-async function sendReportEmail(to, position) {
-  const smtpUser = process.env.SMTP_USER, smtpPass = process.env.SMTP_PASS;
-  if (process.env.REPORT_EMAIL_ENABLED !== '1' || !smtpUser || !smtpPass) return;
-  const base = 'https://arbitrica.com';
-  const pdf = base + '/research/files/arbitrica-geo-pricing-report-2026.pdf';
-  const csv = base + '/research/files/arbitrica-geo-pricing-report-2026-tables.csv';
-  const page = base + '/research/geo-pricing-report-2026/';
-  const pos = position ? ' Your place on the waitlist is #' + Number(position).toLocaleString('en-GB') + '.' : '';
-  const transporter = smtpTransport(smtpUser, smtpPass);
-  await transporter.sendMail({
-    from: `"Arbitrica" <${process.env.REPORT_EMAIL_FROM || smtpUser}>`,
-    replyTo: 'team@arbitrica.com',
-    to,
-    subject: 'Your Hotel Geo-Pricing Report 2026',
-    text: `Hi,\n\nThank you for downloading the Hotel Geo-Pricing Report 2026.\n\nReport summary (PDF): ${pdf}\nAll tables (CSV): ${csv}\nThe report online: ${page}\n\nThe short version: across 1,000 hotels searched from 100 countries, about 80% of countries showed a lower price than the traveller's own, typically 20-40% lower.\n\nYou are also on the Arbitrica waitlist.${pos} We will let you know when your invite is ready.\n\nBest wishes,\nThe Arbitrica team`,
-    html: `<p>Hi,</p><p>Thank you for downloading the <strong>Hotel Geo-Pricing Report 2026</strong>.</p><p><a href="${pdf}">Report summary (PDF)</a><br><a href="${csv}">All tables (CSV)</a><br><a href="${page}">The report online</a></p><p>The short version: across 1,000 hotels searched from 100 countries, about 80% of countries showed a lower price than the traveller's own, typically 20-40% lower.</p><p>You are also on the Arbitrica waitlist.${pos} We will let you know when your invite is ready.</p><p>Best wishes,<br>The Arbitrica team</p>`,
-  });
-}
 
 // ── Chat widget notification endpoint ──────────────────────────────────────
 app.post('/api/chat-notify', async (req, res) => {
@@ -555,7 +522,10 @@ app.post('/api/chat-notify', async (req, res) => {
   const smtpPass = process.env.SMTP_PASS;
   if (smtpUser && smtpPass) {
     try {
-      const transporter = smtpTransport(smtpUser, smtpPass);
+      const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: { user: smtpUser, pass: smtpPass },
+      });
       if (type === 'question') {
         await transporter.sendMail({
           from: `"Arbitrica Chat" <${smtpUser}>`,
