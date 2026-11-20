@@ -81,6 +81,7 @@ Checking this by hand means searching one country at a time with a VPN, which is
 
 ## Method, definitions and limits
 
+- When: the searches for both studies were run between mid-2025 and mid-2026.
 - Study 1: 1,000 hotels, each searched from 100 countries. Measure: the share of search countries showing a lower price than the traveller's own country, and the typical gap between the price shown and the lowest price found.
 
 - Study 2: 1,500 hotels, about 1,000,000 searches from 100 countries. Measures: the share of hotels with a lower price from a different search country than a European or North American baseline; the gap distribution; the average gap to Booking where a lower price existed; and the average price position of each search country and region against the cheapest available price across the 100 search countries.
