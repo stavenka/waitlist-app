@@ -1,6 +1,6 @@
 # How to get hotels cheaper: 15 ways that work in 2026
 
-Updated 2026-11-19 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
+Updated 2026-11-20 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
 
 ## Key takeaways
 - The biggest single lever is the country you search from: the same hotel often has a different final price in different countries. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
@@ -11,6 +11,7 @@ Updated 2026-11-19 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-ge
 - Before you pay, call or email the hotel: in a Which? test published on November 5, 2026, that got a lower price than the hotel's own website and Booking at four of five hotels, by £47 to £79 for two nights.
 - Incognito mode helps only a little: research found browsing history can cost a few dollars, while signed-in members were shown lower hotel prices. Search both ways and keep the lower total.
 - Packages and member prices help only sometimes: Expedia gives no fixed bundle saving, and Marriott and Hilton member rates start at about 2%. Price the hotel on its own first.
+- App and mobile prices help only sometimes: Booking lets hotels set a discount for phone bookers and another for one country. Compare the app and the website, then check other countries.
 - Arbitrica, a personal AI agent, searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price in the world, so you only review and pay.
 
 ## Short answer: how to get hotels cheaper
@@ -103,6 +104,15 @@ So run two searches, one in a private window and one signed in to your Booking G
 
 All of these are prices for one country's market. The same member rate or package can have a different final total when the hotel is searched from another country: research across 1,000 hotels found a lower price in about 80% of countries, with a typical gap of 20-40%. Arbitrica, a personal AI agent, meets you once you choose your hotel room, searches the same hotel from 195 countries and prepares the booking at the lowest price in the world, so you only review and pay.
 
+## App and mobile prices: does booking on your phone get hotels cheaper?
+**Short answer:** sometimes, and the reason is the same one behind the biggest gaps. Booking lets a property run a Mobile rate, "a device-specific discount only available to customers booking from a mobile device (mobile web or the Booking.com app)", and also a Country rate, "a discount only available to customers booking from a specific country or region" ([Booking developer documentation, Managing promotions](https://developers.booking.com/connectivity/docs/b_xml-promotions), checked on November 20, 2026). Expedia says its app unlocks "instant savings with Member Prices" ([Expedia app page](https://www.expedia.com/app), checked on November 20, 2026). Not every hotel runs these deals, so they are a check, not a rule.
+
+- **Check the app and the website for the same hotel and dates.** Open the hotel on the booking site's app and on its website, signed in on both, and compare the final total with taxes and fees for the whole stay.
+- **Look for the mobile or member label on the rate.** A lower price that needs the app or a member account says so on the offer; if neither shows one, the two totals are usually the same.
+- **Then check the country.** A device discount is one targeted price; a country discount is another, and there are far more countries than devices. Research across 1,000 hotels found a lower price in about 80% of countries, with a typical gap of 20-40%.
+
+Switching to the app takes one tap. Checking the same hotel from 195 countries by hand is humanly impossible, which is why Arbitrica does it: a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries and prepares the booking at the lowest price in the world, so you only review and pay.
+
 ## What each way can save
 The figures below come from the sources linked in each way. They are averages or test results, not promises for your dates.
 
@@ -163,6 +173,12 @@ Sometimes. Expedia says Bundle & Save deals may cover the cost of the flights or
 
 ### Do hotel loyalty programmes get you cheaper rooms?
 A little. Marriott Bonvoy member rates are at least 2% off on weekdays and up to 5% off on weekends, and the Hilton Honors Discount starts at 2% off eligible rates (both checked on November 19, 2026). Booking site programmes such as Booking Genius take 10-20% off. The bigger gap usually comes from searching the same hotel from other countries, which Arbitrica does from 195 countries.
+
+### Is it cheaper to book a hotel on the app?
+Sometimes. Booking lets properties offer a Mobile rate only to people booking on a phone (mobile web or the app), and Expedia says its app unlocks instant savings with Member Prices (both checked on November 20, 2026). Compare the final total on the app and the website for the same dates. Booking also lets hotels set a Country rate for one country, and searching the same hotel from other countries is where the bigger gaps are, which Arbitrica does from 195 countries.
+
+### What is a Booking mobile rate?
+A Mobile rate is a discount a property can set on Booking that is only available to customers booking from a mobile device, on mobile web or the Booking app (Booking developer documentation, checked on November 20, 2026). The same documentation describes a Country rate, a discount only for customers booking from a specific country or region.
 
 ### How to get hotels cheaper last minute?
 Hotels.com's 2026 index found last-minute bookers paid 23% less on average than people who booked four or more months out. For same-day stays, last-minute apps can help: in a NerdWallet test 10 of 16 hotels on HotelTonight were up to 23% lower than on Booking, but 6 were higher and most bookings are nonrefundable.
