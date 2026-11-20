@@ -145,6 +145,8 @@ Related guides: [cheapest way to book a hotel](https://arbitrica.com/blog/cheape
 
 Booking on Agoda? See the [Agoda alternative that finds the lowest hotel price in the world](https://arbitrica.com/blog/agoda-alternative.html).
 
+Full numbers: [Hotel geo-pricing report 2026](https://arbitrica.com/research/geo-pricing-report-2026/), two studies of the same hotels searched from 100 countries, with tables by search country and region.
+
 ## Frequently asked questions
 
 ### How do I get hotels cheaper?

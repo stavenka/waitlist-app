@@ -69,6 +69,14 @@ Booking facts checked on November 19, 2026 against its about page, the Booking H
 
 Related: [Booking.com price match](https://arbitrica.com/blog/booking-com-price-match.html), [the Booking.com VPN trick](https://arbitrica.com/blog/booking-com-vpn-trick.html) and [Expedia alternative](https://arbitrica.com/blog/expedia-alternative.html).
 
+## The step before you pay on any booking site
+
+Booking, Expedia and Agoda each show their own rates for your search. Arbitrica is the step you take before paying on any of them: it searches the same hotel from 195 countries, checks the final total with all taxes and fees, and prepares the booking at the lowest price in the world. The same idea, site by site:
+
+- [Expedia alternative](https://arbitrica.com/blog/expedia-alternative.html)
+- [Agoda alternative](https://arbitrica.com/blog/agoda-alternative.html)
+- [Hotel geo-pricing report 2026](https://arbitrica.com/research/geo-pricing-report-2026/): how often the same hotel is cheaper from another country
+
 ## Frequently asked questions
 
 ### What is the best alternative to Booking.com for the lowest hotel price?

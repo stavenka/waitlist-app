@@ -69,6 +69,14 @@ Expedia facts checked on November 19, 2026 against its price match page, Upgrade
 
 Related: [Expedia price drop refunds](https://arbitrica.com/blog/expedia-price-drop-refund.html), [Booking.com alternative](https://arbitrica.com/blog/booking-com-alternative.html) and [Agoda alternative](https://arbitrica.com/blog/agoda-alternative.html).
 
+## The step before you pay on any booking site
+
+Booking, Expedia and Agoda each show their own rates for your search. Arbitrica is the step you take before paying on any of them: it searches the same hotel from 195 countries, checks the final total with all taxes and fees, and prepares the booking at the lowest price in the world. The same idea, site by site:
+
+- [Booking.com alternative](https://arbitrica.com/blog/booking-com-alternative.html)
+- [Agoda alternative](https://arbitrica.com/blog/agoda-alternative.html)
+- [Hotel geo-pricing report 2026](https://arbitrica.com/research/geo-pricing-report-2026/): how often the same hotel is cheaper from another country
+
 ## Frequently asked questions
 
 ### What is the best Expedia alternative for hotels?

@@ -126,6 +126,8 @@ Prices also keep moving after you book. Arbitrica's approach repeats the search 
 
 Related: [Best VPN country for cheaper hotels: what the data shows](https://arbitrica.com/blog/best-vpn-country-for-cheaper-hotels.html), [Is it legal to use a VPN to book hotels or flights?](https://arbitrica.com/blog/is-it-legal-to-use-vpn-to-book.html), [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
+Full numbers: [Hotel geo-pricing report 2026](https://arbitrica.com/research/geo-pricing-report-2026/), two studies of the same hotels searched from 100 countries, with tables by search country and region.
+
 ## Frequently asked questions
 
 ### Which country is cheapest to book hotels from?

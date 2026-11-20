@@ -130,6 +130,8 @@ Related: [The Booking.com VPN trick: does it work, and which location is best?](
 
 Looking for a different place to book than Booking? See the [Booking.com alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/booking-com-alternative.html).
 
+Full numbers: [Hotel geo-pricing report 2026](https://arbitrica.com/research/geo-pricing-report-2026/), two studies of the same hotels searched from 100 countries, with tables by search country and region.
+
 ## Frequently asked questions
 
 ### How to get hotels cheaper?
