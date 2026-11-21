@@ -243,6 +243,16 @@
     .prose p.lead { color: var(--fg); font-size: 1.1rem; font-weight: 500; line-height: 1.7; }
     .prose p.lead::first-letter { float: left; font-family: Georgia, 'Times New Roman', serif; font-weight: 700; font-size: 4.3em; line-height: 0.78; margin: 0.42rem 0.6rem 0 -0.02em; padding: 0 0.04em; color: hsl(300 62% 50%); text-shadow: 0 6px 18px hsl(300 70% 55% / 0.22); }
     @media (max-width: 640px) { .prose p.lead { font-size: 1.04rem; } .prose p.lead::first-letter { font-size: 3.6em; } }
+    /* Phones (21-11-2026): logo and Home on top, the two award badges underneath at a readable size. */
+    @media (max-width: 640px) {
+      .header-inner { grid-template-columns: 1fr auto; grid-template-areas: "logo right" "awards awards"; row-gap: 0.4rem; padding: 0.45rem 1rem 0.85rem; }
+      .header-left { grid-area: logo; }
+      .header-right { grid-area: right; }
+      .header-center { grid-area: awards; flex-wrap: wrap; justify-content: center; gap: 0.6rem 1rem; padding-left: 0; }
+      .header-center .ai-sign { width: min(78vw, 260px); height: auto; }
+      .logo-link img { height: 130px; margin: -26px -17px -26px -17px; }
+      .nav-about-btn { padding: 0.45rem 0.95rem; font-size: 0.82rem; }
+    }
   </style>
 </head>
 <body>
