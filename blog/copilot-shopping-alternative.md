@@ -67,6 +67,8 @@ Copilot facts checked on November 13, 2026 against Microsoft's announcement and 
 
 More on how AI agents handle price: [the AI agent that finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html) and [AI hotel booking: what AI agents actually do for price](https://arbitrica.com/blog/ai-hotel-booking.html). Other agents: [Perplexity](https://arbitrica.com/blog/perplexity-alternative.html), [ChatGPT](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html), [Google AI Mode](https://arbitrica.com/blog/google-ai-mode-hotel-booking-alternative.html) and [Meta's Muse](https://arbitrica.com/blog/muse-alternative.html).
 
+Shopping with Amazon's assistant? See [Alternative to Alexa for Shopping for finding the best price](https://arbitrica.com/blog/alexa-for-shopping-alternative.html).
+
 ## Frequently asked questions
 
 ### Can Copilot find the lowest price?

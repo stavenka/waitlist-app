@@ -65,6 +65,8 @@ More on Underbook: [Underbook alternative that checks other countries](https://a
 
 Wondering whether PriceMice itself can be trusted? See [Is PriceMice legit? PriceMice review: does it work?](https://arbitrica.com/blog/is-pricemice-legit.html)
 
+Weighing PriceMice against RatePunk? See [PriceMice vs RatePunk: which one finds the lower hotel price?](https://arbitrica.com/blog/pricemice-vs-ratepunk.html)
+
 ## Frequently asked questions
 
 ### Is there a tool that checks hotel prices from other countries on Expedia and Agoda, like PriceMice does on Booking?

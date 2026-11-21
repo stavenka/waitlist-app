@@ -124,6 +124,8 @@ Related: [Arbitrica: like Meta's Muse, built for the best price on anything](htt
 
 Buying through Microsoft Copilot? See [Alternative to Microsoft Copilot shopping for finding the best price](https://arbitrica.com/blog/copilot-shopping-alternative.html)
 
+Shopping with Amazon's assistant? See [Alternative to Alexa for Shopping for finding the best price](https://arbitrica.com/blog/alexa-for-shopping-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a personal AI shopping agent?

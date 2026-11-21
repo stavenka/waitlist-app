@@ -73,6 +73,8 @@ HotelSlash facts checked on November 13, 2026 against its site, its 2023 launch 
 
 Related: [OneAir alternative](https://arbitrica.com/blog/oneair-alternative.html), [Rate Ranger alternative](https://arbitrica.com/blog/rate-ranger-alternative.html) and [best hotel rebooking tools](https://arbitrica.com/best-hotel-rebooking-tools.html).
 
+Also considering Gondola? See the [Gondola alternative that also searches the same hotel from 195 countries](https://arbitrica.com/blog/gondola-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a good HotelSlash alternative?

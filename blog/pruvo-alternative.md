@@ -34,6 +34,8 @@ That is why Arbitrica starts at the checkout, before you pay, and searches the s
 
 Already using Rate Ranger? See the [Rate Ranger alternative that also checks the price from other countries](https://arbitrica.com/blog/rate-ranger-alternative.html).
 
+Looking at Gondola's automatic rebooking? See the [Gondola alternative that also searches the same hotel from 195 countries](https://arbitrica.com/blog/gondola-alternative.html).
+
 ## Frequently asked questions
 
 ### Is Pruvo still working?

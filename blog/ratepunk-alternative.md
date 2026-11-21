@@ -122,6 +122,8 @@ Switching from a comparison tool to Arbitrica does not change how you choose a h
 
 Comparison extensions are usually built around one or two categories. Arbitrica's mechanisms are not tied to hotels. The same geographic and time arbitrage applies to online shopping such as Amazon, event tickets, flights, car rentals and anything with a cancellation or return window. See [how it works](https://arbitrica.com/how-it-works.html) for the full picture.
 
+Weighing RatePunk against PriceMice? See [PriceMice vs RatePunk: which one finds the lower hotel price?](https://arbitrica.com/blog/pricemice-vs-ratepunk.html)
+
 ## Frequently asked questions
 
 ### What is the best RatePunk alternative?
