@@ -428,6 +428,8 @@ Related: [Arbitrica: like Meta's Muse, built for the best price on anything](htt
 
 Buying through Microsoft Copilot? See [Alternative to Microsoft Copilot shopping for finding the best price](https://arbitrica.com/blog/copilot-shopping-alternative.html)
 
+Shopping with Amazon's assistant? See [Alternative to Alexa for Shopping for finding the best price](https://arbitrica.com/blog/alexa-for-shopping-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a personal AI shopping agent?
@@ -6559,6 +6561,8 @@ Switching from a comparison tool to Arbitrica does not change how you choose a h
 
 Comparison extensions are usually built around one or two categories. Arbitrica's mechanisms are not tied to hotels. The same geographic and time arbitrage applies to online shopping such as Amazon, event tickets, flights, car rentals and anything with a cancellation or return window. See [how it works](https://arbitrica.com/how-it-works.html) for the full picture.
 
+Weighing RatePunk against PriceMice? See [PriceMice vs RatePunk: which one finds the lower hotel price?](https://arbitrica.com/blog/pricemice-vs-ratepunk.html)
+
 ## Frequently asked questions
 
 ### What is the best RatePunk alternative?
@@ -7892,6 +7896,8 @@ More on Underbook: [Underbook alternative that checks other countries](https://a
 
 Wondering whether PriceMice itself can be trusted? See [Is PriceMice legit? PriceMice review: does it work?](https://arbitrica.com/blog/is-pricemice-legit.html)
 
+Weighing PriceMice against RatePunk? See [PriceMice vs RatePunk: which one finds the lower hotel price?](https://arbitrica.com/blog/pricemice-vs-ratepunk.html)
+
 ## Frequently asked questions
 
 ### Is there a tool that checks hotel prices from other countries on Expedia and Agoda, like PriceMice does on Booking?
@@ -8528,6 +8534,8 @@ A post-booking watch only sees one price moving over time, in your own market. T
 That is why Arbitrica starts at the checkout, before you pay, and searches the same hotel from 195 countries. Its approach then repeats the search after you book, and a new booking is confirmed before the original one is cancelled. See [what happens if your hotel price goes down after booking](https://arbitrica.com/blog/hotel-price-drop-after-booking.html).
 
 Already using Rate Ranger? See the [Rate Ranger alternative that also checks the price from other countries](https://arbitrica.com/blog/rate-ranger-alternative.html).
+
+Looking at Gondola's automatic rebooking? See the [Gondola alternative that also searches the same hotel from 195 countries](https://arbitrica.com/blog/gondola-alternative.html).
 
 ## Frequently asked questions
 
@@ -10655,6 +10663,8 @@ HotelSlash facts checked on November 13, 2026 against its site, its 2023 launch 
 
 Related: [OneAir alternative](https://arbitrica.com/blog/oneair-alternative.html), [Rate Ranger alternative](https://arbitrica.com/blog/rate-ranger-alternative.html) and [best hotel rebooking tools](https://arbitrica.com/best-hotel-rebooking-tools.html).
 
+Also considering Gondola? See the [Gondola alternative that also searches the same hotel from 195 countries](https://arbitrica.com/blog/gondola-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a good HotelSlash alternative?
@@ -10748,6 +10758,8 @@ Copilot facts checked on November 13, 2026 against Microsoft's announcement and 
 - **Use Arbitrica** when you know what you want and want the lowest price in the world for it, before you pay and after you buy or book.
 
 More on how AI agents handle price: [the AI agent that finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html) and [AI hotel booking: what AI agents actually do for price](https://arbitrica.com/blog/ai-hotel-booking.html). Other agents: [Perplexity](https://arbitrica.com/blog/perplexity-alternative.html), [ChatGPT](https://arbitrica.com/blog/chatgpt-hotel-booking-alternative.html), [Google AI Mode](https://arbitrica.com/blog/google-ai-mode-hotel-booking-alternative.html) and [Meta's Muse](https://arbitrica.com/blog/muse-alternative.html).
+
+Shopping with Amazon's assistant? See [Alternative to Alexa for Shopping for finding the best price](https://arbitrica.com/blog/alexa-for-shopping-alternative.html).
 
 ## Frequently asked questions
 
@@ -11505,3 +11517,322 @@ Not always. It was the lowest in Upgraded Points' Conrad New York Downtown test,
 
 ### Does Arbitrica keep checking the price after I book?
 Yes. Its approach repeats the search after you book until the free-cancellation window ends, and a new booking is confirmed before the original one is cancelled.
+
+---
+
+# PriceMice vs RatePunk: which one finds the lower hotel price?
+
+Updated 2026-11-21 by Arbitrica. Canonical: https://arbitrica.com/blog/pricemice-vs-ratepunk.html
+
+## Key takeaways
+- PriceMice is a NordVPN browser extension, released on September 9, 2026, that checks whether the same Booking room is cheaper from other countries. NordVPN says it currently works on Booking and that its prices are AI-matched, so mistakes can happen.
+- RatePunk's hotel extension scans rates when you browse Booking, Expedia, Hotels.com, Agoda or Priceline, shows the same hotel's price on other sites and alerts you if the price drops after you book (checked on November 21, 2026).
+- On November 21, 2026 the Chrome Web Store listed PriceMice at 10,000 users and a 3.9 rating from 16 ratings, and RatePunk at 50,000 users and a 3.7 rating from 133 ratings.
+- With PriceMice you switch your location with a VPN and book yourself; RatePunk's listing says you book hotels as usual. Arbitrica, a personal AI agent, searches the same hotel from 195 countries and on other sites, and prepares the booking at the lowest price in the world.
+
+## Short answer
+They answer different questions. PriceMice, NordVPN's browser extension, checks whether the same Booking room is cheaper when browsed from another country, then shows you how to book it with a VPN. RatePunk's hotel extension shows the same hotel's price on other booking sites, such as Expedia, Agoda or Priceline, and alerts you if the price drops after you book. If you want both checks at once, the agent for that is Arbitrica: a personal AI agent that searches the same hotel from 195 countries, on the site you are booking and other sites, checks that the room and the final total with all taxes and fees match, and prepares the booking at the lowest price in the world for you to review and pay. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+| What you want | Use |
+|---|---|
+| See if the same Booking room is cheaper from another country, then book it yourself with a VPN | PriceMice |
+| See the same hotel's price on other booking sites, plus an alert if it drops after you book | RatePunk |
+| The lowest price in the world for the hotel you have chosen, from 195 countries and across sites, prepared for you | Arbitrica |
+
+## What PriceMice does
+PriceMice is a free desktop browser extension made by NordVPN. According to [NordVPN's PriceMice page](https://nordvpn.com/blog/pricemice/), published on September 9, 2026 (checked on November 21, 2026):
+
+- **The check:** it searches for the same hotel room at a lower price by checking rates in a set of other countries, then shows you how to book it.
+
+- **Sites:** it currently works with bookings on Booking, with more sites expected; at launch it supports Booking on Chromium-based browsers such as Chrome, Edge and Brave.
+
+- **Booking the lower price:** you connect to the cheaper country with NordVPN on desktop or a Saily eSIM on mobile, then book.
+
+- **Accuracy:** NordVPN says prices are AI-matched and mistakes can happen, and that taxes and fees are included if the booking platform provides them for the listing.
+
+[Upgraded Points](https://upgradedpoints.com/news/pricemice-browser-extension/) (updated October 6, 2026) adds that PriceMice cannot complete the booking for you, that the technique does not work every time, and that hotels may add fees at checkout or at check-in that PriceMice does not capture. [Android Authority](https://androidauthority.com/nordvpn-pricemice-extension-3709080) (September 9, 2026) notes it may not detect local taxes and property fees. On November 21, 2026 its [Chrome Web Store listing](https://chromewebstore.google.com/detail/pricemice-%E2%80%94-find-cheaper/pjhemfchodhepinpphcpcnpakacikihc) showed 10,000 users, a 3.9 rating from 16 ratings, version 0.2.5 and a last update on November 5, 2026.
+
+## What RatePunk does
+RatePunk's hotel product is a browser extension for Chrome, Safari and Firefox; the company's main site now leads with flight deals. According to [RatePunk's extension page](https://www.ratepunk.com/extension) (checked on November 21, 2026):
+
+- **The check:** it automatically scans for the best rates when you browse Booking, Expedia, Hotels.com, Agoda or Priceline, and shows a list of the same hotel's price on other sites for your dates.
+
+- **After booking:** it notifies you if the price drops on your booking so you can rebook it for less, and offers price monitoring.
+
+- **Rewards:** it lists cashback of up to 7% in RatePunk coins.
+
+- **Users:** the page says it is trusted by 100k+ users.
+
+Its [Chrome Web Store listing](https://chromewebstore.google.com/detail/ratepunk-hotel-booking-de/gdaioanblcnghddimngklkhgcbomfdck), "RatePunk Hotel Booking Deals", showed 50,000 users and a 3.7 rating from 133 ratings on November 21, 2026, version 1.49.8, last updated on April 21, 2026. The listing names its developer as UAB Yard Venture in Vilnius, Lithuania, tells you to book hotels as usual, and says RatePunk may earn a commission when you book through the extension. RatePunk's pages do not give a number of countries it checks; a user review quoted on the listing says it shows when another country gets a better rate.
+
+## Where each one stops
+### PriceMice
+- **One site for now.** NordVPN says it currently works on Booking, with more sites expected.
+
+- **You do the booking.** You switch your location with a VPN or eSIM and repeat the booking yourself.
+
+- **The final total.** NordVPN and two reviewers warn that matches can be wrong and that some taxes and property fees may be missed.
+
+- **After you book.** NordVPN's page does not describe watching the price after you book.
+
+### RatePunk
+- **Other sites, not a country count.** Its extension page describes the same hotel across booking sites and does not say how many countries it checks.
+
+- **You do the booking.** Its listing says you book hotels as usual, and its page describes rebooking yourself after a price-drop alert.
+
+- **Supported sites.** It names five booking sites plus "+8 more" that its page does not list.
+
+The country gap is often the biggest one. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), a 4-night stay at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates. Prices differ by country and by site, and dynamic pricing moves them through the day.
+
+## How Arbitrica differs
+Arbitrica is a personal AI agent that shows up after you choose your hotel room. For the hotel you have chosen, it:
+
+- searches the same hotel from 195 countries, on the site you are booking and other sites;
+
+- checks that the hotel, room and conditions are identical and that the final total includes all taxes and fees;
+
+- finds the lowest price in the world for it and automatically prepares everything for the booking in a new tab, so you only review and pay;
+
+- keeps searching after you book until the free-cancellation window ends, as an approach Arbitrica uses, and confirms any new booking before the original is cancelled.
+
+Searching 195 countries by hand, one location at a time, is humanly impossible; that is the job Arbitrica does. Research demonstrated an average of $47 per hotel booking with Arbitrica.
+
+## PriceMice, RatePunk and Arbitrica at a glance
+|   | PriceMice | RatePunk | Arbitrica |
+|---|---|---|---|
+| What it is | NordVPN browser extension | Hotel deals browser extension | Personal AI agent |
+| Sites | Booking for now | Booking, Expedia, Hotels.com, Agoda, Priceline and more | The site you are booking and other sites |
+| Other countries | A set of other countries, number not given | Not described on its pages | 195 |
+| Who books | You, after switching location with a VPN | You, as usual | Arbitrica prepares everything; you review and pay |
+| After you book | Not described | A price-drop alert; you rebook | Keeps searching until free cancellation ends; the new booking is confirmed before the original is cancelled |
+
+PriceMice and RatePunk facts checked on November 21, 2026 against their own pages, their Chrome Web Store listings and the reviews linked above.
+
+## Which one to use
+- **Use PriceMice** if you book on Booking, already use a VPN and are happy to repeat the booking from another country yourself.
+
+- **Use RatePunk** if you want a quick list of the same hotel on other booking sites and an alert if the price drops after you book.
+
+- **Use Arbitrica** when you want the lowest price in the world for the hotel you have chosen, searched from 195 countries and across sites before you pay, with the booking prepared for you and a watch after you book until free cancellation ends.
+
+Related: [PriceMice alternative for Expedia, Agoda and every booking site](https://arbitrica.com/blog/pricemice-alternative.html), [RatePunk alternative](https://arbitrica.com/blog/ratepunk-alternative.html) and [Is PriceMice legit?](https://arbitrica.com/blog/is-pricemice-legit.html)
+
+## Frequently asked questions
+
+### PriceMice vs RatePunk: which is better?
+They do different jobs. PriceMice checks whether the same Booking room is cheaper from other countries; RatePunk shows the same hotel's price on other booking sites and alerts you to drops after booking. Arbitrica does both checks at once: it searches the same hotel from 195 countries and across sites, and prepares the booking at the lowest price in the world.
+
+### Does PriceMice work on Expedia or Agoda?
+Not yet. NordVPN says PriceMice currently works with bookings on Booking, with more sites expected (checked on November 21, 2026).
+
+### Does RatePunk check prices from other countries?
+RatePunk's extension page describes the same hotel's price on other booking sites and does not give a number of countries (checked on November 21, 2026). A user review quoted on its store listing says it shows when another country gets a better rate.
+
+### Do PriceMice or RatePunk book the hotel for me?
+PriceMice does not: Upgraded Points notes that it cannot complete the booking for you, so you switch location with a VPN and book yourself. RatePunk's listing says you book hotels as usual. Arbitrica prepares everything for the booking, so you only review and pay.
+
+### Are PriceMice and RatePunk legit?
+Both are real products. PriceMice is published by nordvpn S.A. and listed 10,000 users and a 3.9 rating from 16 ratings; RatePunk is published by UAB Yard Venture in Vilnius and listed 50,000 users and a 3.7 rating from 133 ratings on the Chrome Web Store (checked on November 21, 2026).
+
+### Do I need a VPN to get another country's price?
+With PriceMice, yes: NordVPN tells you to connect to the cheaper country with NordVPN or a Saily eSIM before booking. With Arbitrica, no: it searches the same hotel from 195 countries itself and prepares the booking in a new tab.
+
+### Does Arbitrica keep checking the price after I book?
+Yes. Its approach repeats the search after you book until the free-cancellation window ends, and a new booking is confirmed before the original one is cancelled.
+
+---
+
+# Gondola alternative that also searches the same hotel from 195 countries
+
+Updated 2026-11-21 by Arbitrica. Canonical: https://arbitrica.com/blog/gondola-alternative.html
+
+## Key takeaways
+- Gondola searches hotel chains such as Marriott, Hilton, Hyatt, IHG and Accor at once, shows cash and points rates side by side, and says it is not an OTA: stays are booked direct with the hotel.
+- Its AutoSave reprices refundable cash bookings made through Gondola (Hilton excluded) and Hyatt, Marriott and IHG cash bookings made elsewhere, only when the room, rate and cancellation policy match exactly (checked on November 21, 2026).
+- Gondola says its travellers save an average of $413 a year from AutoSave, and it added Flight AutoSave for United, Delta, Alaska and American on April 29, 2026.
+- Arbitrica, a personal AI agent, searches the same hotel from 195 countries before you pay, checks the room and final total, prepares the booking at the lowest price in the world, and keeps searching after you book until free cancellation ends.
+
+## Short answer
+If you like Gondola's automatic repricing but want the price from other countries too, the alternative is Arbitrica. Gondola is a hotel booking app for the big chains: it shows cash and points rates side by side, books direct, pays cash back and, with AutoSave, reprices an eligible refundable stay when the same rate drops. Arbitrica is a personal AI agent that searches the same hotel from 195 countries, on the site you are booking and other sites, checks that the room and final total match, and prepares the booking at the lowest price in the world for you to review and pay. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
+
+## What Gondola does
+According to [Gondola's site](https://www.gondola.ai/about) and its [AutoSave guide](https://www.gondola.ai/help/auto-save-guide), last updated on July 13, 2026 (checked on November 21, 2026):
+
+- **Search:** it searches Marriott, Hilton, Hyatt, IHG, Accor and more at once, with cash and points rates side by side.
+
+- **Booking:** its [App Store page](https://apps.apple.com/us/app/gondola-ai/id6751292391) says Gondola is not an OTA, and Gondola says it books directly with the major hotel chains and independents.
+
+- **Rate monitoring:** its [help page](https://www.gondola.ai/help/rate-monitoring-auto-save) says it continuously monitors refundable hotel bookings in your Trips for lower rates, cash and points stays alike, and emails you when the rate drops. You add bookings by linking your email, forwarding a confirmation or adding them by hand.
+
+- **AutoSave:** with a payment card linked, it reprices an eligible refundable reservation at the new rate. The hotel issues a new reservation at the lower rate and Gondola cancels the old one, and it never moves you to a rate with different cancellation terms.
+
+- **Cash back:** Gondola Cash of 3% for members, 5% for Silver and 7% for Gold, according to the App Store page.
+
+Gondola says its travellers save an average of $413 a year from AutoSave. [NerdWallet reported](https://www.nerdwallet.com/travel/news/gondola-introduces-flight-auto-save) that Gondola launched Flight AutoSave on April 29, 2026; Gondola's help page says it covers bookings through United, Delta, Alaska and American, except basic economy. Gondola's founders are Skyler Erickson and Xan Tanner, and its about page lists Next View Ventures and Maven Ventures as backers. On November 21, 2026 its iPhone app showed a 4.9 rating from 281 ratings.
+
+[The Points Guy's guide to Gondola](https://thepointsguy.com/travel/gondola-guide), published on June 10, 2026, describes stays booked through Gondola as direct bookings and notes that the reviewer found some inaccuracies in trip tracking, such as a misread Marriott Homes and Villas stay.
+
+## Where Gondola stops
+- **Your own country.** Gondola's pages do not describe searching the same hotel from other countries (checked on November 21, 2026); it reprices against the rates the hotel shows for your search.
+
+- **Refundable stays only.** Non-refundable rates are not eligible for AutoSave, and the original booking must be refundable to move it.
+
+- **Eligible bookings.** AutoSave covers refundable cash bookings made through Gondola except Hilton stays, plus Hyatt, Marriott and IHG cash bookings made elsewhere. Points stays are monitored, not AutoSaved.
+
+- **The same rate only.** It reprices only when the room, rate and cancellation policy match exactly.
+
+- **A card on file.** Gondola says a credit card is always required to turn AutoSave on.
+
+The country gap is often the biggest one. In [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), a 4-night stay at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates. Prices differ by country and by site, and dynamic pricing moves them through the day.
+
+## How Arbitrica differs
+Arbitrica is a personal AI agent that shows up after you choose your hotel room. For the hotel you have chosen, it:
+
+- searches the same hotel from 195 countries, on the site you are booking and other sites;
+
+- checks that the hotel, room and conditions are identical and that the final total includes all taxes and fees;
+
+- finds the lowest price in the world for it and automatically prepares everything for the booking in a new tab, so you only review and pay;
+
+- keeps searching after you book until the free-cancellation window ends, as an approach Arbitrica uses, and confirms any new booking before the original is cancelled.
+
+Price drops after booking often have to be acted on at once, before someone else takes the room at that rate, which is why a personal agent that acts instantly helps. Searching 195 countries by hand is humanly impossible; that is the job Arbitrica does. Research demonstrated an average of $47 per hotel booking with Arbitrica.
+
+## Gondola and Arbitrica at a glance
+|   | Gondola | Arbitrica |
+|---|---|---|
+| What it is | Hotel booking app for the big chains, with cash back and AutoSave | Personal AI agent that shows up after you choose your hotel room |
+| Where the price comes from | The hotel's own cash and points rates for your search | The same hotel searched from 195 countries, across sites |
+| Other countries searched | Not described | 195 |
+| When it starts | When you book with it or add a booking to Trips | Before you pay, then after you book |
+| When the price drops | AutoSave reprices eligible refundable stays; otherwise an email | The new booking is confirmed before the original is cancelled |
+| What you get | Direct bookings, Gondola Cash and repricing | The booking prepared at the lowest price in the world; you review and pay |
+
+Gondola facts checked on November 21, 2026 against its site, its help pages, its App Store page and the reviews linked above.
+
+## Which one to use
+- **Use Gondola** if you book Marriott, Hyatt, IHG or other big chains direct, care about points and want a refundable stay repriced automatically when the same rate drops.
+
+- **Use Arbitrica** when you want the lowest price in the world for the hotel you have chosen, searched from 195 countries before you pay, and a watch after you book until free cancellation ends.
+
+Related: [Pruvo alternative](https://arbitrica.com/blog/pruvo-alternative.html), [HotelSlash alternative](https://arbitrica.com/blog/hotelslash-alternative.html) and [best hotel rebooking tools](https://arbitrica.com/best-hotel-rebooking-tools.html).
+
+## Frequently asked questions
+
+### What is a good Gondola alternative?
+Arbitrica, if you also want the price from other countries and before you pay: it searches the same hotel from 195 countries, checks the room and final total, and prepares the booking at the lowest price in the world. Its approach keeps searching after you book until free cancellation ends.
+
+### What does Gondola do?
+Gondola searches hotel chains such as Marriott, Hilton, Hyatt, IHG and Accor, shows cash and points rates side by side, books direct, pays Gondola Cash of 3-7% and monitors refundable bookings for lower rates.
+
+### Does Gondola rebook automatically?
+Yes, for eligible stays. With AutoSave on and a card linked, the hotel issues a new reservation at the lower rate and Gondola cancels the old one, only when the room, rate and cancellation policy match exactly (checked on November 21, 2026).
+
+### Which bookings does Gondola AutoSave cover?
+Refundable cash reservations booked through Gondola, except Hilton stays, plus Hyatt, Marriott and IHG cash rates booked elsewhere. Points stays are monitored but not AutoSaved, and non-refundable rates are not eligible.
+
+### Does Gondola check prices from other countries?
+Gondola's pages do not describe searching the same hotel from other countries (checked on November 21, 2026).
+
+### Is Gondola an OTA?
+No. Its App Store page says Gondola is not an OTA, and Gondola says it books directly with the major hotel chains and independents.
+
+### Does Arbitrica keep checking the price after I book?
+Yes. Its approach repeats the search after you book until the free-cancellation window ends, and a new booking is confirmed before the original one is cancelled.
+
+---
+
+# Alternative to Alexa for Shopping for finding the best price
+
+Updated 2026-11-21 by Arbitrica. Canonical: https://arbitrica.com/blog/alexa-for-shopping-alternative.html
+
+## Key takeaways
+- Amazon launched Alexa for Shopping on May 13, 2026 for US customers, bringing together its Rufus assistant and Alexa+; TechCrunch reported it replaces Rufus, which Amazon says helped over 300 million customers in 2025.
+- It can track prices, show up to a full year of price history, compare products side by side, and add an item to your cart or buy it at a target price you set.
+- For eligible products, Buy for Me handles the entire purchase on another store's site using your primary address and card (checked on November 21, 2026).
+- Amazon's pages do not describe searching the same product from other countries. Arbitrica, a personal AI agent, searches the same product, hotel or event ticket from 195 countries and prepares everything at the lowest price in the world.
+
+## Short answer
+If you want the lowest price for what you are buying, the alternative to Alexa for Shopping is Arbitrica. Alexa for Shopping is Amazon's AI shopping assistant: it helps you choose, shows price history, can buy when the price falls to your target and, with Buy for Me, can complete a purchase on another store's site. Arbitrica is a personal AI agent that shows up after you choose what you are buying or your hotel room, searches the same product, hotel or event ticket from 195 countries, checks that it is identical and that the final total includes all taxes and fees, and prepares everything at the lowest price in the world for you to review and pay. Research demonstrated an average of $34 per online purchase with Arbitrica.
+
+| What you want | Use |
+|---|---|
+| Product ideas, comparisons and a year of price history on Amazon (US) | Alexa for Shopping |
+| Buy on Amazon when the price reaches a number you set | Alexa for Shopping |
+| The lowest price in the world for the product or hotel you have chosen | Arbitrica |
+| Keep watching the price after you buy or book, until the return or free-cancellation window ends | Arbitrica |
+
+## What Alexa for Shopping does
+Amazon [announced Alexa for Shopping on May 13, 2026](https://www.aboutamazon.com/news/retail/alexa-for-shopping-ai-assistant), bringing together Rufus and Alexa+ for US customers in the Amazon Shopping app, on the website and on Echo Show devices. [TechCrunch reported](https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/) that it replaces Rufus, the shopping assistant Amazon launched in 2024, and Amazon says Rufus helped over 300 million customers in 2025. According to Amazon (checked on November 21, 2026), it can:
+
+- **Track prices:** set price alerts and view up to a full year of price history on hundreds of millions of products.
+
+- **Buy at a target price:** Amazon lists buying items at your target price; its example is asking it to add sunscreen to your cart if the price drops to $10.
+
+- **Compare:** select several products from search results and see them side by side, with shopping guides that cover features, prices and reviews across Amazon and the web.
+
+- **Scheduled Actions:** recurring or one-time tasks, after which it notifies you or adds items to your cart so you review and check out.
+
+- **Buy for Me:** for eligible products, it handles the entire purchase on your behalf using your primary address and credit card.
+
+When Amazon began testing Buy for Me with a subset of users, [TechCrunch reported on April 3, 2025](https://techcrunch.com/2025/04/03/amazons-new-ai-agent-will-shop-third-party-stores-for-you) that it shows products other websites sell when Amazon does not sell what you searched for, and that the agent visits the external site, selects the product and fills in your name, shipping address and payment details. Returns and exchanges go through the store the agent bought from. [eMarketer](https://www.emarketer.com/content/amazon-alexa-for-shopping-rufus-integration) describes Amazon retiring the Rufus brand as it joins the chatbot with Alexa+.
+
+## How Alexa for Shopping gets the price
+Alexa for Shopping works from Amazon's store in the US. Its price history and target-price buying follow the price Amazon shows you, and Buy for Me pays the price on the other store's site. Amazon's announcement does not describe searching the same product from other countries or other countries' Amazon stores (checked on November 21, 2026).
+
+That matters because the same product is often priced differently depending on where the search comes from. Retailers agree prices, stock and promotions market by market, and dynamic pricing moves them all day; see [why Amazon prices differ between countries](https://arbitrica.com/blog/amazon-prices-different-countries.html). Hotels show the same pattern: in [Arbitrica's own price check](https://arbitrica.com/blog/hotel-prices-by-country-data.html), a 4-night stay at White House Hotel Istanbul cost $1,066 searched from the UK and $708 searched from India, 33.6% less, for the same hotel and the same dates.
+
+## How Arbitrica handles the price
+Arbitrica is a personal AI agent that shows up after you choose what you are buying or your hotel room. For the product, hotel or event ticket you have chosen, it:
+
+- searches the same item from 195 countries, on the site you are on and other sites;
+
+- checks that it is identical (the same product, or the same hotel and room) and that the final total includes all taxes and fees;
+
+- finds the lowest price in the world for it and automatically prepares everything in a new tab, so you only review and pay;
+
+- keeps searching after you buy or book until the return or free-cancellation window ends, as an approach Arbitrica uses, and confirms any new booking before the original is cancelled.
+
+Doing the same by hand means switching your location country by country and repeating every search. Across 195 countries that is humanly impossible, which is the job Arbitrica does. Research demonstrated an average of $34 per online purchase, $47 per hotel booking and $107 per event ticket purchase with Arbitrica.
+
+## Alexa for Shopping and Arbitrica at a glance
+|   | Alexa for Shopping | Arbitrica |
+|---|---|---|
+| Built for | Shopping on Amazon, with help choosing and buying | Getting the lowest price for what you are buying |
+| Where the price comes from | Amazon's store, or the other store Buy for Me buys from | The same item searched from 195 countries, across sites |
+| Other countries searched | Not described by Amazon | 195 |
+| Where it works | US: Amazon Shopping app, website and Echo Show | After you choose what to buy or your hotel room |
+| Price watch | Price alerts, a year of price history and buying at a target price | Before you pay, then after you buy or book until the return or free-cancellation window ends |
+| Checkout | Amazon checkout, or Buy for Me on eligible products | Everything prepared for you in a new tab; you review and pay |
+
+Alexa for Shopping facts checked on November 21, 2026 against Amazon's announcement and the TechCrunch and eMarketer reports linked above.
+
+## Which one to use
+- **Use Alexa for Shopping** if you shop on Amazon in the US and want help choosing, a year of price history or a buy when the price reaches your target.
+
+- **Use Arbitrica** once you have chosen, to get the lowest price in the world for that product, hotel or event ticket, searched from 195 countries before you pay, and a watch after you buy until the return window ends.
+
+More on how AI agents handle price: [alternative to Microsoft Copilot shopping](https://arbitrica.com/blog/copilot-shopping-alternative.html), [alternative to Perplexity](https://arbitrica.com/blog/perplexity-alternative.html) and [the AI agent that finds the lowest price](https://arbitrica.com/blog/ai-shopping-agent-lowest-price.html).
+
+## Frequently asked questions
+
+### Can Alexa for Shopping find the lowest price?
+It shows up to a year of price history, sets price alerts and can buy at a target price you set, all on Amazon's store in the US. Amazon does not describe searching the same product from other countries. Arbitrica searches the same product from 195 countries and prepares everything at the lowest price in the world.
+
+### What is Amazon Buy for Me?
+An agent feature in Alexa for Shopping: for eligible products, it handles the entire purchase on another store's site using your primary address and credit card, according to Amazon (checked on November 21, 2026).
+
+### Can Alexa buy something when the price drops?
+Yes. Amazon lists buying items at your target price; its example is asking Alexa for Shopping to add sunscreen to your cart if the price drops to $10.
+
+### Where is Alexa for Shopping available?
+In the US, in the Amazon Shopping app, on the Amazon website and on Echo Show devices, since May 13, 2026. Amazon's announcement does not name other countries.
+
+### Does Alexa for Shopping check Amazon prices in other countries?
+Amazon's announcement does not describe searching the same product from other countries or other countries' Amazon stores (checked on November 21, 2026).
+
+### What happened to Rufus?
+Amazon brought Rufus and Alexa+ together as Alexa for Shopping on May 13, 2026. TechCrunch reported that it replaces Rufus, and eMarketer describes Amazon retiring the Rufus brand.
+
+### Does Arbitrica keep watching the price after I buy?
+Yes. Its approach repeats the search after you buy or book until the return or free-cancellation window ends, and a new booking is confirmed before the original one is cancelled.
