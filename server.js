@@ -182,9 +182,7 @@ app.get('/o/:tag.gif', (req, res) => {
   res.set({ 'Content-Type': 'image/gif', 'Cache-Control': 'no-store, no-cache, must-revalidate, private', 'Pragma': 'no-cache', 'Expires': '0', 'X-Robots-Tag': 'noindex' });
   res.send(PIXEL_GIF);
   const tag = String(req.params.tag || '').slice(0, 40).replace(/[^A-Za-z0-9-]/g, '');
-  // Skip loads from our own Zoho mailbox (composing and viewing the sent copy), so only recipients' opens count.
-  const ref = req.get('referer') || '';
-  if (tag && !/zoho/i.test(ref)) logEmailOpen(tag, req.get('user-agent') || '');
+  if (tag) logEmailOpen(tag, req.get('user-agent') || '');
 });
 
 // ── robots.txt ──
