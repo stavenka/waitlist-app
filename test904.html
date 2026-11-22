@@ -23,7 +23,7 @@ main{flex:1;overflow-y:auto;display:flex;flex-direction:column}
 .inl{margin:22px 0 24px}.inl .how{margin:12px 0 0}body.inline .dock{display:none}
 .msg.lgm:not(:first-child){margin-top:66px}
 .hero>*{transition:transform .2s}
-.msg.mapm{margin-top:50px;animation:mapin 1.4s cubic-bezier(.22,.61,.36,1) both}@keyframes mapin{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.card.pc{margin:36px 0 30px}.msg.mapm{margin-top:50px;animation:mapin 1.4s cubic-bezier(.22,.61,.36,1) both}@keyframes mapin{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.links a{margin-top:0;text-decoration:none}
 body.started .hero{display:none}
 .wrapc{width:100%;max-width:768px}
@@ -328,7 +328,7 @@ async function install(btn,mode){if(btn.dataset.done)return;btn.dataset.done=1;b
   busy=true;await say("Great, you added Arbitrica extension and I now have everything I need to continue");
   if(mode==='new'){busy=false;return searchLinks()}
   const b=await say("Say 'YES' and I will prepare the world's lowest price for **"+booking.hotel+"**",{logo:false});
-  const y=document.createElement('button');y.className='btn';y.id='yesbtn';y.textContent='YES';y.onclick=()=>{me('YES');yes()};const yw=document.createElement('div');yw.style.cssText='display:flex;gap:12px;flex-wrap:wrap';const yc=document.createElement('button');yc.className='btn light';yc.textContent='Close chat';yc.onclick=()=>location.reload();yw.appendChild(y);yw.appendChild(yc);b.appendChild(yw);down();state='await_yes';busy=false}
+  const y=document.createElement('button');y.className='btn';y.id='yesbtn';y.textContent='YES';y.onclick=()=>{me('YES');yes()};const yw=document.createElement('div');yw.style.cssText='display:flex;gap:12px;flex-wrap:wrap';const yc=document.createElement('button');yc.className='btn light';yc.textContent='Close chat';yc.onclick=()=>location.reload();yw.appendChild(y);yw.appendChild(yc);b.appendChild(yw);document.body.classList.add('over');down();state='await_yes';busy=false}
 async function yes(){state='done';const y=document.getElementById('yesbtn');if(y){y.disabled=true;y.style.opacity='.6'}busy=true;await say("This is a test page. In the real flow I now open the booking in a new tab with everything prepared, so you only review and pay");busy=false;document.body.classList.add('over')}
 // ---------- input ----------
 function sendText(){const t=ta.value.trim();if(!t)return;ta.value='';ta.style.height='';onText(t)}
