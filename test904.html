@@ -211,7 +211,7 @@ async function onText(t){if(busy)return;dockBar();me(t);
   if(!isHotel(t)){busy=true;await say(SORRY);busy=false;return}
   // About hotels but not about their price: say what the chat is for first (the user, 22-11-2026)
   const PRICE_RE=/\b(price|prices|pricing|priced|cheap|cheaper|cheapest|cost|costs|rate|rates|deal|deals|discount|discounts|save|saving|savings|lowest|afford|affordable|budget|expensive|overpaid|paid|pay|beat)\b|[$€£¥]/i;
-  ask(PRICE_RE.test(t)?'':"I'm here to find you the best price for the hotels you already selected")}
+  ask(PRICE_RE.test(t)?'':"I can only help when your hotel, dates and other details are already selected. Then I find the lowest possible price for exactly the same")}
 async function existing(){if(pending){const p=pending;pending=null;return readConfirmation(p)}
   busy=true;state='await_conf';await say("Great, copypaste or screenshot your existing hotel reservation below");busy=false;
   const w=document.createElement('div');w.className='inl';log.appendChild(w);w.appendChild(bar);document.body.classList.add('inline');
