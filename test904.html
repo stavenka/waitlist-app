@@ -199,7 +199,7 @@ const HOTEL_RE=/\b(hotels?|room|rooms|suite|suites|stay|staying|resort|inn|hoste
 const NON_HOTEL=/\b(flights?|fly|flying|airfares?|airlines?|plane|car|cars|rental|train|trains|bus|cruise|ferry|tickets?|concerts?|events?|amazon|phone|laptop|insurance)\b/i;
 const GENERIC=/\b(booking|booked|book|reservation|reserved|nights?|expedia|trip\.com)\b/i;
 function isHotel(t){return HOTEL_RE.test(t)||(GENERIC.test(t)&&!NON_HOTEL.test(t))}
-const SORRY="Sorry, I only work on hotels now (Amazon and events tickets are coming soon!). Ask me to find you the world's best price for any hotel";
+const SORRY="I only work on hotels now (Amazon and events tickets are coming soon!). Ask me to find you the world's best price for any hotel";
 function looksLikeConfirmation(t){return /check.?in/i.test(t)&&/check.?out/i.test(t)}
 async function ask(pre){busy=true;state='choose';if(pre)await say(pre);await say("Do you have an existing hotel reservation, so I can try to beat your paid price?",{logo:!pre});await say("Or you want to start a new hotel search?",{logo:false});busy=false;
   chips([["Existing reservation",existing],["New hotel",newHotel]])}
