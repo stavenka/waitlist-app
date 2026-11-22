@@ -14,10 +14,13 @@ body{background:rgb(255,255,255);color:var(--fg);font-family:Inter,system-ui,-ap
 .test{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:4px 10px}
 main{flex:1;overflow-y:auto;display:flex;flex-direction:column}
 .col{width:100%;max-width:768px;margin:0 auto;padding:10px 20px 30px}
-.hero{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:0 20px 12vh}
-.hero h1{font:700 clamp(32px,4.8vw,48px)/1.1 'Space Grotesk',sans-serif;text-align:center;margin:0 0 22px;letter-spacing:-.01em;max-width:720px}
+.hero{flex:1;display:flex;flex-direction:column;align-items:center;padding:4vh 20px 0}
+.hc{flex:1;width:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-bottom:16vh}
+.hero h1{font:700 clamp(32px,4.8vw,48px)/1.1 'Space Grotesk',sans-serif;text-align:center;margin:0;letter-spacing:-.01em;max-width:720px}
 .grad{background:linear-gradient(135deg,rgb(214,190,140),rgb(170,136,96));-webkit-background-clip:text;background-clip:text;color:transparent}
-.job{font:500 clamp(18px,2.4vw,22px)/1.35 Inter,sans-serif;text-align:center;margin:0 0 18px;max-width:720px}
+.job{font:500 clamp(16px,1.9vw,19px)/1.4 Inter,sans-serif;text-align:center;margin:0 0 16px;max-width:720px}
+.msg .b{white-space:pre-line}.msg .b .card,.msg .b .chips{white-space:normal}
+.inl{margin:-8px 0 24px}.inl .how{margin:12px 0 0}body.inline .dock{display:none}
 .msg.lgm:not(:first-child){margin-top:42px}
 body.started .hero{display:none}
 .wrapc{width:100%;max-width:768px}
@@ -110,9 +113,9 @@ body{padding-left:270px;transition:padding .25s ease}body.sbclosed{padding-left:
 </style></head><body>
 <aside class="side" id="side"><div class="sh"><span>Arbitrica</span><button class="sbt" id="sbClose" aria-label="Close menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="4.5" width="17" height="15" rx="3"/><path d="M9 4.5v15"/></svg></button></div><nav><a class="si" href="/"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20V8m0 7h18v5m0-5v-3a3 3 0 0 0-3-3h-7v6"/><circle cx="7" cy="11.5" r="2"/></svg><span>Hotels</span><em class="on">Active</em></a><a class="si" href="/amazon.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l-1 13H7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span>Amazon purchases</span><em>Soon</em></a><a class="si" href="/events.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 0 2-2h14a2 2 0 0 0 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 0-2 2H5a2 2 0 0 0-2-2v-2a2 2 0 0 0 0-4Z"/><path d="M13 6v12" stroke-dasharray="2 2"/></svg><span>Events tickets</span><em>Soon</em></a><a class="si" href="/how-it-works.html" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l5 3.5-5 3.5Z"/></svg><span>How it works</span><svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a class="si" href="/faq.html" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .8-1 1.5V14"/><path d="M12 17.2v.1"/></svg><span>FAQ</span><svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a class="si" href="/about.html" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8v.1"/></svg><span>About</span><svg class="ext" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a></nav></aside><div class="scrim" id="scrim"></div><div class="top"><div style="display:flex;align-items:center;gap:6px"><button class="sbt" id="sbOpen" aria-label="Open menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="4.5" width="17" height="15" rx="3"/><path d="M9 4.5v15"/></svg></button><a href="/"><svg width="26" height="26" viewBox="0 0 100 100" style="display:block;flex:none"><rect width="100" height="100" rx="22" fill="#504C5A"/><g transform="translate(14 14) scale(.72)" fill="#EEEAF3"><circle cx="50" cy="43" r="3.6"/><circle cx="55.5" cy="35.7" r="3.1"/><circle cx="62.6" cy="32.8" r="2.6"/><circle cx="69.3" cy="32.6" r="2.3"/><circle cx="75" cy="34" r="2"/><circle cx="79.7" cy="36.2" r="1.8"/><circle cx="83.6" cy="38.9" r="1.6"/><circle cx="86.7" cy="41.8" r="1.5"/><circle cx="89.2" cy="44.7" r="1.3"/><circle cx="56.7" cy="47.8" r="3.6"/><circle cx="65.3" cy="50.8" r="3.1"/><circle cx="70.3" cy="56.7" r="2.6"/><circle cx="72.5" cy="63" r="2.3"/><circle cx="73" cy="68.9" r="2"/><circle cx="72.3" cy="74" r="1.8"/><circle cx="70.9" cy="78.5" r="1.6"/><circle cx="69.2" cy="82.3" r="1.5"/><circle cx="67.1" cy="85.7" r="1.3"/><circle cx="54.1" cy="55.7" r="3.6"/><circle cx="54" cy="64.8" r="3.1"/><circle cx="49.9" cy="71.3" r="2.6"/><circle cx="44.6" cy="75.4" r="2.3"/><circle cx="39.2" cy="77.7" r="2"/><circle cx="34" cy="78.6" r="1.8"/><circle cx="29.4" cy="78.7" r="1.6"/><circle cx="25.2" cy="78.2" r="1.5"/><circle cx="21.4" cy="77.3" r="1.3"/><circle cx="45.9" cy="55.7" r="3.6"/><circle cx="37.2" cy="58.3" r="3.1"/><circle cx="29.7" cy="56.5" r="2.6"/><circle cx="24.2" cy="52.7" r="2.3"/><circle cx="20.3" cy="48.2" r="2"/><circle cx="17.8" cy="43.7" r="1.8"/><circle cx="16.3" cy="39.3" r="1.6"/><circle cx="15.5" cy="35.1" r="1.5"/><circle cx="15.2" cy="31.2" r="1.3"/><circle cx="43.3" cy="47.8" r="3.6"/><circle cx="38.1" cy="40.4" r="3.1"/><circle cx="37.5" cy="32.7" r="2.6"/><circle cx="39.4" cy="26.3" r="2.3"/><circle cx="42.5" cy="21.2" r="2"/><circle cx="46.1" cy="17.5" r="1.8"/><circle cx="49.8" cy="14.6" r="1.6"/><circle cx="53.5" cy="12.6" r="1.5"/><circle cx="57.1" cy="11.1" r="1.3"/></g></svg>ARBITRICA</a></div><div class="auth"><button class="li">Log in</button><button class="su">Sign up for free</button></div></div>
 <main id="main">
-<div class="hero"><h1>The new AI that<br>finds <span class="grad">hidden prices</span></h1><div class="job">My job is to find you the world's lowest price from 195 countries</div>
+<div class="hero"><h1>The new AI that<br>finds <span class="grad">hidden prices</span></h1><div class="hc"><div class="job">My job is to find you the world's lowest price from 195 countries</div>
 <div class="wrapc" id="slotTop"></div>
-<button class="how" id="howTop">Show me how to insert hotel reservations (15 sec)</button></div>
+<button class="how" id="howTop">Show me how to insert hotel reservations (15 sec)</button></div></div>
 <div class="col" id="col"><div id="log"></div></div>
 </main>
 <div class="dock"><div class="wrapc" id="slotBottom"></div></div>
@@ -136,11 +139,11 @@ const MAP=buildMap();
 const log=document.getElementById('log'),main=document.getElementById('main'),ta=document.getElementById('ta'),bar=document.getElementById('bar');
 document.getElementById('slotTop').appendChild(bar);
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-const SPEED=76; // twice slower than before (the user, 22-11-2026)
+const SPEED=52; // ms per character (the user, 22-11-2026: faster than 76, not too fast)
 let state='start',booking=null,busy=false,pending=null;
 function start(){if(!document.body.classList.contains('started')){document.body.classList.add('started');document.getElementById('slotBottom').appendChild(bar)}}
 const down=()=>setTimeout(()=>main.scrollTo({top:main.scrollHeight,behavior:'smooth'}),30);
-function md(t){return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\[sparkle\](.+?)\[\/sparkle\]/g,'<span class="sp">$1</span>').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\[green\](.+?)\[\/green\]/g,'<span class="g">$1</span>')}
+function md(t){return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\[sparkle\](.+?)\[\/sparkle\]/g,'<span class="sp">$1</span>').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\[green\](.+?)\[\/green\]/g,'<span class="g">$1</span>').replace(/\[u\](.+?)\[\/u\]/g,'<u>$1</u>')}
 let lastLogo=null;
 const ODO={STAGGER:38,LOOP:26,BASE:29,DECEL:2.7,TICK:41};
 function odometer(anchor,name){return new Promise(res=>{const G='ABCDEFGHIJKLMNOPQRSTUVWXYZ';anchor.textContent='';const chars=[...name];let rolling=chars.filter(c=>G.indexOf(c.toUpperCase())>=0).length;if(!rolling){anchor.textContent=name;return res()}
@@ -158,7 +161,7 @@ function burst(anchor){const r=anchor.getBoundingClientRect();if(!r.width)return
     const a=s.animate([{transform:'translate('+sx+'px,4px) scale(.3) rotate(0deg)',opacity:0},{transform:'translate('+(sx+dx*.5)+'px,'+(dy*.5)+'px) scale(1) rotate('+rot+')',opacity:1,offset:.42},{transform:'translate('+(sx+dx)+'px,'+dy+'px) scale(.55) rotate('+rot+')',opacity:0}],{duration:1200+Math.random()*500,easing:'cubic-bezier(.25,.7,.35,1)',delay:Math.random()*90});a.onfinish=()=>s.remove();setTimeout(()=>s.remove(),2200)}}
 async function typeInto(node,str){for(let i=1;i<=str.length;i++){node.textContent=str.slice(0,i);if(i%20===1)down();await sleep(SPEED)}}
 async function say(text,{html='',logo=true}={}){const m=document.createElement('div');m.className='msg'+(logo?' lgm':'');m.innerHTML=(logo?'<span class="lg">'+MARK+'</span>':'')+'<div class="b"></div>';log.appendChild(m);const b=m.querySelector('.b');
-  const strip=s=>s.replace(/\*\*/g,'').replace(/\[\/?green\]/g,'');const oi=text.indexOf('[sparkle]');
+  const strip=s=>s.replace(/\*\*/g,'').replace(/\[\/?(green|u)\]/g,'');const oi=text.indexOf('[sparkle]');
   if(oi<0)await typeInto(b,strip(text));
   else{const ci=text.indexOf('[/sparkle]');const pre=text.slice(0,oi),name=text.slice(oi+9,ci),post=text.slice(ci+10);
     await typeInto(b,strip(pre));b.innerHTML=md(pre);const a=document.createElement('span');a.className='sp';b.appendChild(a);
@@ -167,21 +170,26 @@ async function say(text,{html='',logo=true}={}){const m=document.createElement('
   b.innerHTML=md(text)+html;down();return b}
 function me(text,img){start();const m=document.createElement('div');m.className='me';m.innerHTML='<div class="u'+(img?' img':'')+'"></div>';const u=m.querySelector('.u');if(img){const i=document.createElement('img');i.src=img;u.appendChild(i)}else u.textContent=text;log.appendChild(m);down()}
 function chips(list){const b=log.lastElementChild.querySelector('.b');const w=document.createElement('div');w.className='chips';list.forEach(([t,f])=>{const c=document.createElement('button');c.className='chip';c.textContent=t;c.onclick=()=>{w.remove();me(t);f()};w.appendChild(c)});b.appendChild(w);down()}
-const HOTEL_RE=/\b(hotels?|room|rooms|suite|stay|staying|booking|booked|book|reservation|reserved|resort|inn|hostel|motel|lodge|accommodation|check.?in|check.?out|nights?|breakfast|booking\.com|expedia|agoda|hotels\.com|trip\.com|villa|price|prices|cheap|cheapest|deal|deals)\b/i;
+const HOTEL_RE=/\b(hotels?|room|rooms|suite|suites|stay|staying|resort|inn|hostel|motel|lodge|accommodation|check.?in|check.?out|breakfast|booking\.com|agoda|hotels\.com|villa|b&b|airbnb)\b/i;
+const NON_HOTEL=/\b(flights?|fly|flying|airfares?|airlines?|plane|car|cars|rental|train|trains|bus|cruise|ferry|tickets?|concerts?|events?|amazon|phone|laptop|insurance)\b/i;
+const GENERIC=/\b(booking|booked|book|reservation|reserved|nights?|expedia|trip\.com)\b/i;
+function isHotel(t){return HOTEL_RE.test(t)||(GENERIC.test(t)&&!NON_HOTEL.test(t))}
 const SORRY="Sorry, I only work on international hotels now (Amazon and events tickets are coming soon!). Ask me to find you the world's best price for any hotel";
 function looksLikeConfirmation(t){return /check.?in/i.test(t)&&/check.?out/i.test(t)}
-async function ask(){busy=true;state='choose';await say("Do you have an existing hotel reservation, so I can try to beat your paid price? Or you want to search a new hotel?");busy=false;
+async function ask(){busy=true;state='choose';await say("Do you have an existing hotel reservation, so I can try to beat your paid price?\nOr you want to search a new hotel?");busy=false;
   chips([["Existing reservation",existing],["New hotel",newHotel]])}
-async function onText(t){if(busy)return;me(t);
+async function onText(t){if(busy)return;dockBar();me(t);
   if(state==='await_yes'&&/^\s*yes\b/i.test(t))return yes();
   const conf=looksLikeConfirmation(t);
-  if(state==='await_conf'){if(conf)return readConfirmation({text:t});busy=true;await say(HOTEL_RE.test(t)?"That doesn't look like a hotel reservation yet. Paste the confirmation email text, or tap **+** to attach a screenshot of it":SORRY);busy=false;return}
+  if(state==='await_conf'){if(conf)return readConfirmation({text:t});busy=true;await say(isHotel(t)?"That doesn't look like a hotel reservation yet. Paste the confirmation email text, or tap **+** to attach a screenshot of it":SORRY);busy=false;return}
   if(conf){pending={text:t};return ask()}
-  if(!HOTEL_RE.test(t)){busy=true;await say(SORRY);busy=false;return}
+  if(!isHotel(t)){busy=true;await say(SORRY);busy=false;return}
   ask()}
 async function existing(){if(pending){const p=pending;pending=null;return readConfirmation(p)}
-  busy=true;state='await_conf';const b=await say("Great, insert your existing confirmation");busy=false;
-  const a=document.createElement('button');a.className='how';a.style.margin='10px 0 0';a.textContent='Show me how to insert hotel reservations (15 sec)';a.onclick=showVideo;b.appendChild(a);down()}
+  busy=true;state='await_conf';await say("Great, give me your existing hotel reservation");busy=false;
+  const w=document.createElement('div');w.className='inl';log.appendChild(w);w.appendChild(bar);document.body.classList.add('inline');
+  const a=document.createElement('button');a.className='how';a.textContent='Show me how to insert hotel reservations (15 sec)';a.onclick=showVideo;w.appendChild(a);down();ta.focus()}
+function dockBar(){if(document.body.classList.contains('inline')){document.body.classList.remove('inline');document.getElementById('slotBottom').appendChild(bar);const w=log.querySelector('.inl');if(w)w.remove()}}
 function newHotel(){state='start';pending=null} // next step: the user will define it
 // ---------- the how-to video ----------
 const PH="Ask me to find you the world's best price…",THUMB="<div class=\"mini\"><i class=\"mb\"></i><i></i><i style=\"width:70%\"></i><i></i><i style=\"width:55%\"></i><i></i><i style=\"width:80%\"></i></div>",RAW="Thanks! Your booking is confirmed at Lisbon Riverside Hotel\nnoreply@booking.com\nto john.doe@gmail.com\nBooking.com Confirmation: 4820113957\nThanks John! Your booking in Lisbon is confirmed.\nLisbon Riverside Hotel is expecting you on Fri 9 Oct\nReservation details\nCheck-in  Friday, 9 October 2026 (from 15:00)\nCheck-out  Sunday, 11 October 2026 (until 12:00)\nYour reservation  2 nights, Deluxe Double Room\nYou booked for  2 adults\nBreakfast  Included\nTotal price  \u20ac 412.80";
@@ -246,7 +254,7 @@ function hash(s){let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))>>>0;return h}
 const COUNTRIES=['New Zealand','India','Mexico','Thailand','Brazil','South Africa','Malaysia','Turkey','Argentina','Indonesia'];
 async function search(){busy=true;const p=booking;
   await say("I’m **preparing** the world’s lowest price from one of 195 countries");
-  await say("Top 5 countries will need simulated bookings, so the final price you see **includes all taxes & fees**",{logo:false});
+  await say("Top 5 countries will need simulated bookings, so your final price **includes all taxes & fees**",{logo:false});
   const m=document.createElement('div');m.className='msg';m.innerHTML='<div class="card">'+MAP+'<div id="wl"></div></div>';log.appendChild(m);down();
   const wl=m.querySelector('#wl');const short=p.hotel.trim().split(/\s+/).slice(0,4).join(' ');
   const A='<div class="wt">Queued<span class="hn">· '+md(short)+'</span></div><div class="wchip sw">'+CLOCK+'This will take a few minutes</div>';
@@ -259,9 +267,9 @@ async function search(){busy=true;const p=booking;
   if(total){const nights=p.checkin&&p.checkout?Math.max(1,Math.round((new Date(p.checkout)-new Date(p.checkin))/864e5)):1;
     const c=document.createElement('div');c.className='msg';c.innerHTML='<div class="card pc"><div class="h">'+md(short)+' · '+nights+' night'+(nights>1?'s':'')+'</div><div class="r"><span>The price they gave you</span><span class="was">'+cur+fmt(total)+'</span></div><div class="r"><span><b>The world’s lowest price</b></span><span class="big">'+cur+fmt(best)+'</span></div><div class="r"><span>Arbitrica makes you</span><span class="earn">'+cur+fmt(diff)+'</span></div></div>';log.appendChild(c);down();await sleep(800)}
   await say("Same hotel. Same room. Same extras you chose. **Better price.**",{logo:false});
-  if(total)await say(diff<25?"**[green]"+pct+"%[/green]** better than "+p.ota+", **[green]"+cur+fmt(diff)+"[/green]** off":"**[green]"+cur+fmt(diff)+"[/green]** better than "+p.ota+", **[green]"+pct+"%[/green]** off",{logo:false});
+  if(total)await say(diff<25?"**[green]"+pct+"%[/green]** better than your price, **[green]"+cur+fmt(diff)+"[/green]** off":"**[green]"+cur+fmt(diff)+"[/green]** better than your price, **[green]"+pct+"%[/green]** off",{logo:false});
   await sleep(900);
-  await say("To prepare your world's best price for this hotel, you'll need to install the Arbitrica extension in 2 clicks (it's free)");
+  await say("To prepare your world's best price, you'll need to install Arbitrica extension in 2 clicks ([u]it's free[/u])");
   const b=await say("This will allow me to work in a separate tab in this browser",{logo:false});
   const btn=document.createElement('button');btn.className='btn light';btn.textContent='Continue';b.appendChild(btn);down();busy=false;
   btn.onclick=()=>install(btn)}
@@ -272,14 +280,14 @@ async function install(btn){if(btn.dataset.done)return;btn.dataset.done=1;btn.di
   busy=true;await say("Great, you added Arbitrica extension and I now have everything I need to continue");
   const b=await say("Say 'YES' and I will prepare the world's lowest price for **"+booking.hotel+"**.",{logo:false});
   const y=document.createElement('button');y.className='btn';y.id='yesbtn';y.textContent='YES';y.onclick=()=>{me('YES');yes()};b.appendChild(y);down();state='await_yes';busy=false}
-async function yes(){state='done';const y=document.getElementById('yesbtn');if(y){y.disabled=true;y.style.opacity='.6'}busy=true;await say("This is a test page. In the real flow I now open the booking in a new tab with everything prepared, so you only review it and pay");busy=false}
+async function yes(){state='done';const y=document.getElementById('yesbtn');if(y){y.disabled=true;y.style.opacity='.6'}busy=true;await say("This is a test page. In the real flow I now open the booking in a new tab with everything prepared, so you only review and pay");busy=false}
 // ---------- input ----------
 function sendText(){const t=ta.value.trim();if(!t)return;ta.value='';ta.style.height='';onText(t)}
 document.getElementById('send').onclick=sendText;
 ta.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendText()}});
 ta.addEventListener('input',()=>{ta.style.height='auto';ta.style.height=Math.min(180,ta.scrollHeight)+'px'});
 const file=document.getElementById('file');document.getElementById('attach').onclick=()=>file.click();
-function takeImage(f){if(!f||!/^image\//.test(f.type)||busy)return;const r=new FileReader();r.onload=()=>{me('',r.result);if(state==='await_conf')readConfirmation({img:r.result});else{pending={img:r.result};ask()}};r.readAsDataURL(f)}
+function takeImage(f){if(!f||!/^image\//.test(f.type)||busy)return;const r=new FileReader();r.onload=()=>{dockBar();me('',r.result);if(state==='await_conf')readConfirmation({img:r.result});else{pending={img:r.result};ask()}};r.readAsDataURL(f)}
 file.onchange=()=>{takeImage(file.files[0]);file.value=''};
 document.addEventListener('paste',e=>{const it=[...((e.clipboardData||{}).items||[])].find(i=>i.type.startsWith('image/'));if(it){e.preventDefault();takeImage(it.getAsFile())}});
 document.addEventListener('dragover',e=>e.preventDefault());document.addEventListener('drop',e=>{e.preventDefault();takeImage(e.dataTransfer.files[0])});
