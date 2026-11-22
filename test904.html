@@ -38,7 +38,7 @@ body.started .ph,.ph.off{display:none}
 .ib.send{background:var(--fg);color:rgb(255,255,255)}
 .how{display:block;margin:14px auto 0;background:none;border:none;color:var(--blue);font:500 14px Inter,sans-serif;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 .dock{display:none;padding:10px 16px 16px;background:rgb(255,255,255)}
-body.started .dock{display:block}
+body.started .dock{display:block}body.over .dock{display:none}
 .dock .wrapc{margin:0 auto}
 .msg{margin:0 0 22px;animation:in .35s ease-out}
 .msg .b{font-size:16px;line-height:1.7}
@@ -222,7 +222,7 @@ async function searchLinks(){busy=true;
   await say("Just search and select your hotel as usual — on any website",{logo:false});const b=await say("Choose the exact room, and on the next page I'll find the lowest price for it from 195 countries",{logo:false});busy=false;
   const w=document.createElement('div');w.className='links';
   [['Search your hotel on Booking','https://www.booking.com/'],['Search your hotel on Expedia','https://www.expedia.com/'],['Search your own way','https://www.google.com/']].forEach(([t,u])=>{const a=document.createElement('a');a.className='btn light';a.href=u;a.target='_blank';a.rel='noopener';a.textContent=t;w.appendChild(a)});
-  b.appendChild(w);down()}
+  b.appendChild(w);document.body.classList.add('over');down()}
 // Centre the title and greeting between the ARBITRICA logo and Log in (the user, 22-11-2026)
 function centreHero(){const h=document.querySelector('.hero');if(!h)return;const lg=document.querySelector('.top a[href="/"]'),li=document.querySelector('.auth');if(!lg||!li)return;if(!lg.getBoundingClientRect().width){[...h.children].forEach(e=>e.style.transform='');return}
   const mid=(lg.getBoundingClientRect().right+li.getBoundingClientRect().left)/2,hr=h.getBoundingClientRect(),c=hr.left+hr.width/2;
@@ -328,7 +328,7 @@ async function install(btn,mode){if(btn.dataset.done)return;btn.dataset.done=1;b
   if(mode==='new'){busy=false;return searchLinks()}
   const b=await say("Say 'YES' and I will prepare the world's lowest price for **"+booking.hotel+"**",{logo:false});
   const y=document.createElement('button');y.className='btn';y.id='yesbtn';y.textContent='YES';y.onclick=()=>{me('YES');yes()};const yw=document.createElement('div');yw.style.cssText='display:flex;gap:12px;flex-wrap:wrap';const yc=document.createElement('button');yc.className='btn light';yc.textContent='Close chat';yc.onclick=()=>location.reload();yw.appendChild(y);yw.appendChild(yc);b.appendChild(yw);down();state='await_yes';busy=false}
-async function yes(){state='done';const y=document.getElementById('yesbtn');if(y){y.disabled=true;y.style.opacity='.6'}busy=true;await say("This is a test page. In the real flow I now open the booking in a new tab with everything prepared, so you only review and pay");busy=false}
+async function yes(){state='done';const y=document.getElementById('yesbtn');if(y){y.disabled=true;y.style.opacity='.6'}busy=true;await say("This is a test page. In the real flow I now open the booking in a new tab with everything prepared, so you only review and pay");busy=false;document.body.classList.add('over')}
 // ---------- input ----------
 function sendText(){const t=ta.value.trim();if(!t)return;ta.value='';ta.style.height='';onText(t)}
 document.getElementById('send').onclick=sendText;
