@@ -3,126 +3,159 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>AI that finds hidden prices – test</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<title>My job is to find you the world's lowest price – test</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:rgb(17,21,29);--panel:rgb(27,32,45);--line:rgba(214,190,145,0.2);--fg:rgb(240,236,229);--muted:rgb(165,161,176);--gold:rgb(214,190,145);--gold2:rgb(196,167,119)}
+:root{--fg:rgb(13,13,13);--muted:rgb(93,93,93);--line:rgb(229,229,229);--soft:rgb(244,244,244);--gold:rgb(184,146,74);--green:rgb(26,157,90);--blue:rgb(37,99,235)}
 *{box-sizing:border-box}html,body{margin:0;height:100%}
-body{background:var(--bg);color:var(--fg);font-family:Inter,system-ui,sans-serif;display:flex;flex-direction:column}
-.top{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;border-bottom:1px solid rgba(255,255,254,0.06)}
+body{background:rgb(255,255,255);color:var(--fg);font-family:Inter,system-ui,-apple-system,sans-serif;display:flex;flex-direction:column}
+.top{display:flex;align-items:center;justify-content:space-between;padding:12px 18px}
 .top a{color:var(--fg);text-decoration:none;font:700 15px 'Space Grotesk',sans-serif;letter-spacing:.08em;display:flex;align-items:center;gap:10px}
 .test{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:4px 10px}
-main{flex:1;overflow-y:auto}
-.col{max-width:760px;margin:0 auto;padding:28px 20px 30px}
-h1{font:700 clamp(30px,6vw,44px)/1.1 'Space Grotesk',sans-serif;text-align:center;margin:36px 0 10px}
-h1 span{color:var(--gold)}
-.sub{text-align:center;color:var(--muted);margin:0 0 34px;font-size:16px}
-.msg{display:flex;gap:12px;margin:0 0 22px;align-items:flex-start;animation:in .35s ease-out}
-.msg .av{flex:none;width:30px;height:30px}
-.msg .b{font-size:16px;line-height:1.55;max-width:100%}
-.msg .b b{color:rgb(246,240,228)}
-.me{display:flex;justify-content:flex-end;margin:0 0 22px;animation:in .3s ease-out}
-.me .u{background:rgb(38,44,60);border:1px solid rgba(255,255,254,0.07);border-radius:18px 18px 6px 18px;padding:11px 15px;font-size:15.5px;line-height:1.5;max-width:80%;white-space:pre-wrap;word-break:break-word}
-.me img{max-width:220px;max-height:260px;border-radius:12px;display:block}
+main{flex:1;overflow-y:auto;display:flex;flex-direction:column}
+.col{width:100%;max-width:768px;margin:0 auto;padding:10px 20px 30px}
+.hero{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:0 20px 12vh}
+.hero h1{font:500 clamp(24px,3.6vw,32px)/1.3 Inter,sans-serif;text-align:center;margin:0 0 30px;letter-spacing:-.01em;max-width:720px}
+body.started .hero{display:none}
+.wrapc{width:100%;max-width:768px}
+.bar{display:flex;align-items:center;gap:6px;background:rgb(255,255,255);border:1px solid rgb(227,227,227);border-radius:28px;padding:9px 9px 9px 12px;box-shadow:0 4px 18px rgba(0,0,0,.06)}
+.bar textarea{flex:1;background:transparent;border:none;outline:none;color:var(--fg);font:17px/1.4 Inter,sans-serif;resize:none;max-height:180px;padding:9px 6px}
+.bar textarea::placeholder{color:rgb(143,143,143)}
+.ib{flex:none;width:42px;height:42px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;background:transparent;color:var(--fg)}
+.ib:hover{background:var(--soft)}
+.ib.send{background:var(--fg);color:rgb(255,255,255)}
+.how{display:block;margin:14px auto 0;background:none;border:none;color:var(--blue);font:500 14px Inter,sans-serif;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.dock{display:none;padding:10px 16px 16px;background:rgb(255,255,255)}
+body.started .dock{display:block}
+.dock .wrapc{margin:0 auto}
+.msg{margin:0 0 22px;animation:in .35s ease-out}
+.msg .b{font-size:16px;line-height:1.6}
+.msg .lg{display:block;margin-bottom:8px}
+.me{display:flex;justify-content:flex-end;margin:18px 0 22px;animation:in .3s ease-out}
+.me .u{background:var(--soft);border-radius:22px;padding:10px 16px;font-size:16px;line-height:1.5;max-width:75%;white-space:pre-wrap;word-break:break-word}
+.me .u.img{padding:6px;background:transparent}
+.me img{max-width:220px;max-height:280px;border-radius:14px;display:block;border:1px solid var(--line)}
 .chips{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 0}
-.chip{border:1px solid var(--line);background:rgb(30,35,49);color:var(--fg);border-radius:12px;padding:11px 15px;font:500 15px Inter,sans-serif;cursor:pointer;text-align:left}
-.chip:hover{border-color:var(--gold)}
-.btn{display:flex;width:max-content;max-width:100%;align-items:center;justify-content:center;gap:9px;height:46px;padding:0 22px;border:none;border-radius:11px;background:linear-gradient(to right,rgb(226,207,169),rgb(196,167,119));color:rgb(17,21,28);font:600 15px Inter,sans-serif;cursor:pointer;margin-top:14px;transition:transform .12s}
+.chip{border:1px solid var(--line);background:rgb(255,255,255);color:var(--fg);border-radius:14px;padding:11px 15px;font:500 15px Inter,sans-serif;cursor:pointer;text-align:left}
+.chip:hover{background:var(--soft)}
+.btn{display:flex;width:max-content;max-width:100%;align-items:center;justify-content:center;gap:9px;height:46px;padding:0 24px;border:none;border-radius:11px;background:rgb(35,32,41);color:rgb(255,255,255);font:600 15px Inter,sans-serif;cursor:pointer;margin-top:16px;transition:transform .12s}
+.btn.light{background:rgb(255,255,255);color:var(--fg);border:1px solid rgb(210,210,210);box-shadow:0 1px 3px rgba(0,0,0,.06)}
 .btn.press{transform:scale(.96)}
-.btn.g{background:rgb(250,250,249);color:rgb(31,31,31)}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-top:12px}
-.kv{display:grid;grid-template-columns:120px 1fr;gap:7px 14px;font-size:15px}.kv div:nth-child(odd){color:var(--muted)}
-.map{margin-top:4px}.wt{font:700 18px/1.3 'Space Grotesk',sans-serif;margin-top:14px;display:flex;min-width:0;white-space:nowrap}
-.wt .hn{font-weight:400;color:rgb(190,185,200);margin-left:.3em;overflow:hidden;text-overflow:ellipsis}
-.wchip{display:inline-flex;align-items:center;gap:6px;margin-top:8px;padding:7px 12px 9px;border-radius:999px;background:rgb(37,43,58);font:600 16px/1 Inter,sans-serif;color:rgb(220,215,226)}
-.sweep{position:relative;display:inline-block;padding-bottom:6px}.sweep:after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:linear-gradient(90deg,transparent,rgb(157,34,217),transparent);background-size:40% 100%;background-repeat:no-repeat;animation:sw 2.6s ease-in-out infinite}
-.price{font:700 30px 'Space Grotesk',sans-serif;color:var(--gold)}
-.was{color:var(--muted);text-decoration:line-through;margin-left:10px;font-size:17px}
+.card{background:rgb(255,255,255);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-top:12px;box-shadow:0 4px 18px rgba(0,0,0,.04)}
+.kv{display:grid;grid-template-columns:120px 1fr;gap:8px 14px;font-size:15px}.kv div:nth-child(odd){color:var(--muted)}
+.wt{font:700 18px/1.3 'Space Grotesk',sans-serif;margin-top:14px;display:flex;min-width:0;white-space:nowrap}
+.wt .hn{font-weight:400;color:rgb(74,69,83);margin-left:.3em;overflow:hidden;text-overflow:ellipsis}
+.wchip{display:inline-flex;align-items:center;gap:6px;margin-top:8px;padding:7px 12px 9px;border-radius:999px;background:rgb(243,241,246);font:600 16px/1 Inter,sans-serif;color:rgb(63,58,74)}
+.sw{position:relative;display:inline-block;padding-bottom:6px}.sw:after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:linear-gradient(90deg,transparent,rgb(157,34,217),transparent);background-size:40% 100%;background-repeat:no-repeat;animation:sw 2.6s ease-in-out infinite}
+.pc{padding:0;overflow:hidden;max-width:440px}.pc .h{background:rgb(247,241,228);padding:11px 18px;font:600 14px Inter,sans-serif;color:rgb(107,83,32)}
+.pc .r{display:flex;justify-content:space-between;align-items:baseline;padding:10px 18px;font-size:14.5px}.pc .r+.r{border-top:1px solid rgb(240,240,240)}
+.pc .was{color:var(--muted);text-decoration:line-through}.pc .big{font:700 24px 'Space Grotesk',sans-serif}.pc .earn{color:var(--gold);font-weight:700}
+.g{color:var(--green)}
 .dots:after{content:"";animation:dots 1.2s steps(4) infinite}
-.composer{border-top:1px solid rgba(255,255,254,0.06);padding:12px 16px 16px;background:var(--bg)}
-.bar{max-width:760px;margin:0 auto;display:flex;align-items:flex-end;gap:8px;background:rgb(30,35,49);border:1px solid rgba(255,255,254,0.09);border-radius:24px;padding:8px 8px 8px 10px}
-.bar textarea{flex:1;background:transparent;border:none;outline:none;color:var(--fg);font:16px/1.45 Inter,sans-serif;resize:none;max-height:160px;padding:7px 4px}
-.ib{flex:none;width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;background:transparent;color:var(--fg)}
-.ib.send{background:var(--gold);color:rgb(17,21,28)}
-.hint{max-width:760px;margin:7px auto 0;font-size:12.5px;color:var(--muted);text-align:center}
-.drop{outline:2px dashed var(--gold);outline-offset:-10px}
 #cur{position:fixed;width:26px;height:26px;z-index:60;pointer-events:none;display:none;transition:left .9s ease,top .9s ease}
-#ov{position:fixed;inset:0;background:rgba(6,8,12,.82);z-index:50;display:none;align-items:center;justify-content:center;padding:18px}
-.win{width:min(1040px,100%);background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5);animation:in .35s ease-out}
+#ov,#vid{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:50;display:none;align-items:center;justify-content:center;padding:18px}
+.win{width:min(1000px,100%);background:rgb(255,255,255);border-radius:12px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.35);animation:in .35s ease-out}
 .urlbar{display:flex;align-items:center;gap:8px;background:rgb(223,225,229);padding:8px 12px;font:13px Inter,sans-serif;color:rgb(60,64,67)}
-.urlbar .u{flex:1;background:#fff;border-radius:999px;padding:6px 12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.shot{position:relative}.shot img{width:100%;display:block}
-.simtag{position:absolute;left:12px;bottom:12px;background:rgba(17,21,29,.85);color:#fff;font:600 12px Inter,sans-serif;padding:5px 10px;border-radius:999px}
-.toast{position:fixed;left:50%;top:22px;transform:translateX(-50%);background:rgb(30,35,49);border:1px solid var(--line);color:var(--fg);padding:12px 18px;border-radius:12px;z-index:70;font-size:15px;animation:in .3s ease-out}
-#vid{position:fixed;inset:0;background:rgba(6,8,12,.82);z-index:55;display:none;align-items:center;justify-content:center;padding:18px}
-.vbox{width:min(520px,100%);background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
-.vstep{display:flex;gap:14px;align-items:center;padding:12px 0;opacity:.25;transition:opacity .4s}.vstep.on{opacity:1}.vstep .n{flex:none;width:30px;height:30px;border-radius:50%;background:var(--gold);color:rgb(17,21,28);font-weight:700;display:flex;align-items:center;justify-content:center}
-.vbar{height:4px;background:rgb(45,51,68);border-radius:3px;overflow:hidden;margin-top:12px}.vbar i{display:block;height:100%;width:0;background:var(--gold)}
+.urlbar .u{flex:1;background:rgb(255,255,255);border-radius:999px;padding:6px 12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.simtag{position:absolute;left:12px;bottom:12px;background:rgba(17,21,29,.85);color:rgb(255,255,255);font:600 12px Inter,sans-serif;padding:5px 10px;border-radius:999px}
+.toast{position:fixed;left:50%;top:22px;transform:translateX(-50%);background:rgb(255,255,255);border:1px solid var(--line);box-shadow:0 8px 30px rgba(0,0,0,.12);padding:12px 18px;border-radius:12px;z-index:70;font-size:15px;animation:in .3s ease-out}
+/* how-to video */
+.vbox{width:min(560px,100%);background:rgb(255,255,255);border-radius:16px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.vstage{position:relative;height:340px;background:rgb(246,246,247);overflow:hidden}
+.vcap{padding:14px 18px 16px;font-size:15px;line-height:1.45;min-height:70px}
+.vprog{height:4px;background:rgb(235,235,235)}.vprog i{display:block;height:100%;width:0;background:var(--fg)}
+.mail{position:absolute;left:24px;top:20px;width:300px;height:290px;background:rgb(255,255,255);border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,.08);padding:14px;font-size:11px;transition:all .8s ease}
+.mail .t{font-weight:700;font-size:13px;margin-bottom:8px}.mail .l{height:7px;border-radius:4px;background:rgb(232,232,236);margin:7px 0}.mail .k{display:flex;justify-content:space-between;color:rgb(70,70,70);margin:6px 0}
+.sel{position:absolute;inset:0;background:rgba(37,99,235,.18);border:2px solid rgba(37,99,235,.7);border-radius:10px;opacity:0;transition:opacity .4s}
+.flash{position:absolute;inset:0;background:rgb(255,255,255);opacity:0;transition:opacity .15s}
+.mchat{position:absolute;right:20px;top:20px;width:190px;height:290px;background:rgb(255,255,255);border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,.08);padding:12px;font-size:11px;display:flex;flex-direction:column}
+.mchat .ttl{font-weight:600;font-size:11.5px;line-height:1.3}.mchat .inp{margin-top:auto;border:1px solid rgb(225,225,225);border-radius:16px;padding:7px 9px;color:rgb(150,150,150);display:flex;gap:6px;align-items:center}
+.thumb{position:absolute;width:60px;height:58px;background:rgb(255,255,255);border:1px solid rgb(210,210,210);border-radius:6px;box-shadow:0 4px 12px rgba(0,0,0,.15);opacity:0;transition:all .9s ease;padding:5px}
+.thumb .l{height:4px;border-radius:2px;background:rgb(225,225,230);margin:4px 0}
+.vcur{position:absolute;width:20px;height:20px;transition:all .7s ease;z-index:3}
 @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 @keyframes sw{from{background-position:-60% 0}to{background-position:160% 0}}
 @keyframes dots{0%{content:""}25%{content:"."}50%{content:".."}75%{content:"..."}}
 @keyframes pulse{50%{opacity:.35}}.pin{animation:pulse 1.6s ease-in-out infinite}
-@media (max-width:640px){.col{padding:18px 16px 24px}h1{margin-top:18px}.kv{grid-template-columns:96px 1fr;font-size:14.5px}.me .u{max-width:88%}}
+@media (max-width:640px){.col{padding:8px 16px 24px}.kv{grid-template-columns:96px 1fr;font-size:14.5px}.me .u{max-width:88%}.mail{width:58%;left:12px}.mchat{width:34%;right:12px}}
 </style></head><body>
 <div class="top"><a href="/"><svg width="26" height="26" viewBox="0 0 100 100" style="display:block;flex:none"><rect width="100" height="100" rx="22" fill="#504C5A"/><g transform="translate(14 14) scale(.72)" fill="#EEEAF3"><circle cx="50" cy="43" r="3.6"/><circle cx="55.5" cy="35.7" r="3.1"/><circle cx="62.6" cy="32.8" r="2.6"/><circle cx="69.3" cy="32.6" r="2.3"/><circle cx="75" cy="34" r="2"/><circle cx="79.7" cy="36.2" r="1.8"/><circle cx="83.6" cy="38.9" r="1.6"/><circle cx="86.7" cy="41.8" r="1.5"/><circle cx="89.2" cy="44.7" r="1.3"/><circle cx="56.7" cy="47.8" r="3.6"/><circle cx="65.3" cy="50.8" r="3.1"/><circle cx="70.3" cy="56.7" r="2.6"/><circle cx="72.5" cy="63" r="2.3"/><circle cx="73" cy="68.9" r="2"/><circle cx="72.3" cy="74" r="1.8"/><circle cx="70.9" cy="78.5" r="1.6"/><circle cx="69.2" cy="82.3" r="1.5"/><circle cx="67.1" cy="85.7" r="1.3"/><circle cx="54.1" cy="55.7" r="3.6"/><circle cx="54" cy="64.8" r="3.1"/><circle cx="49.9" cy="71.3" r="2.6"/><circle cx="44.6" cy="75.4" r="2.3"/><circle cx="39.2" cy="77.7" r="2"/><circle cx="34" cy="78.6" r="1.8"/><circle cx="29.4" cy="78.7" r="1.6"/><circle cx="25.2" cy="78.2" r="1.5"/><circle cx="21.4" cy="77.3" r="1.3"/><circle cx="45.9" cy="55.7" r="3.6"/><circle cx="37.2" cy="58.3" r="3.1"/><circle cx="29.7" cy="56.5" r="2.6"/><circle cx="24.2" cy="52.7" r="2.3"/><circle cx="20.3" cy="48.2" r="2"/><circle cx="17.8" cy="43.7" r="1.8"/><circle cx="16.3" cy="39.3" r="1.6"/><circle cx="15.5" cy="35.1" r="1.5"/><circle cx="15.2" cy="31.2" r="1.3"/><circle cx="43.3" cy="47.8" r="3.6"/><circle cx="38.1" cy="40.4" r="3.1"/><circle cx="37.5" cy="32.7" r="2.6"/><circle cx="39.4" cy="26.3" r="2.3"/><circle cx="42.5" cy="21.2" r="2"/><circle cx="46.1" cy="17.5" r="1.8"/><circle cx="49.8" cy="14.6" r="1.6"/><circle cx="53.5" cy="12.6" r="1.5"/><circle cx="57.1" cy="11.1" r="1.3"/></g></svg>ARBITRICA</a><span class="test">Test page</span></div>
-<main id="main"><div class="col" id="col">
-<h1>AI that finds <span>hidden prices</span></h1>
-<p class="sub">Ask me about your hotel. I search the same hotel from 195 countries.</p>
-<div id="log"></div>
-</div></main>
-<div class="composer" id="composer">
-<div class="bar">
-<button class="ib" id="attach" title="Add your booking confirmation" aria-label="Add a screenshot"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+<main id="main">
+<div class="hero"><h1>My job is to find you the world's lowest price from 195 countries</h1>
+<div class="wrapc" id="slotTop"></div>
+<button class="how" id="howTop">Show me how to insert hotel reservations (15 sec)</button></div>
+<div class="col" id="col"><div id="log"></div></div>
+</main>
+<div class="dock"><div class="wrapc" id="slotBottom"></div></div>
+<div class="bar" id="bar">
+<button class="ib" id="attach" title="Attach your hotel reservation" aria-label="Attach"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
 <input type="file" id="file" accept="image/*" hidden>
-<textarea id="ta" rows="1" placeholder="Ask about your hotel, or paste your booking confirmation"></textarea>
+<textarea id="ta" rows="1" placeholder="Insert your existing hotel reservation"></textarea>
 <button class="ib send" id="send" aria-label="Send"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 </div>
-<div class="hint">You can also paste or drop a screenshot of your confirmation email</div>
-</div>
 <svg id="cur" viewBox="0 0 24 24"><path d="M4 2l14 9-6.5 1.3L15 20l-3 1.4-3.4-7.6L4 18z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
-<div id="ov"><div class="win"><div class="urlbar"><span>&#9679; &#9679; &#9679;</span><div class="u">https://chromewebstore.google.com/detail/arbitrica/mmohljpopfbafdcmmanphdcjiimgcbap</div></div><div class="shot" id="shot" style="background:#fff;color:#1f1f1f;padding:34px 40px 46px;font-family:Inter,sans-serif"><div style="display:flex;align-items:center;gap:18px;flex-wrap:wrap"><div style="width:64px;height:64px"><svg width="64" height="64" viewBox="0 0 100 100" style="display:block;flex:none"><rect width="100" height="100" rx="22" fill="#504C5A"/><g transform="translate(14 14) scale(.72)" fill="#EEEAF3"><circle cx="50" cy="43" r="3.6"/><circle cx="55.5" cy="35.7" r="3.1"/><circle cx="62.6" cy="32.8" r="2.6"/><circle cx="69.3" cy="32.6" r="2.3"/><circle cx="75" cy="34" r="2"/><circle cx="79.7" cy="36.2" r="1.8"/><circle cx="83.6" cy="38.9" r="1.6"/><circle cx="86.7" cy="41.8" r="1.5"/><circle cx="89.2" cy="44.7" r="1.3"/><circle cx="56.7" cy="47.8" r="3.6"/><circle cx="65.3" cy="50.8" r="3.1"/><circle cx="70.3" cy="56.7" r="2.6"/><circle cx="72.5" cy="63" r="2.3"/><circle cx="73" cy="68.9" r="2"/><circle cx="72.3" cy="74" r="1.8"/><circle cx="70.9" cy="78.5" r="1.6"/><circle cx="69.2" cy="82.3" r="1.5"/><circle cx="67.1" cy="85.7" r="1.3"/><circle cx="54.1" cy="55.7" r="3.6"/><circle cx="54" cy="64.8" r="3.1"/><circle cx="49.9" cy="71.3" r="2.6"/><circle cx="44.6" cy="75.4" r="2.3"/><circle cx="39.2" cy="77.7" r="2"/><circle cx="34" cy="78.6" r="1.8"/><circle cx="29.4" cy="78.7" r="1.6"/><circle cx="25.2" cy="78.2" r="1.5"/><circle cx="21.4" cy="77.3" r="1.3"/><circle cx="45.9" cy="55.7" r="3.6"/><circle cx="37.2" cy="58.3" r="3.1"/><circle cx="29.7" cy="56.5" r="2.6"/><circle cx="24.2" cy="52.7" r="2.3"/><circle cx="20.3" cy="48.2" r="2"/><circle cx="17.8" cy="43.7" r="1.8"/><circle cx="16.3" cy="39.3" r="1.6"/><circle cx="15.5" cy="35.1" r="1.5"/><circle cx="15.2" cy="31.2" r="1.3"/><circle cx="43.3" cy="47.8" r="3.6"/><circle cx="38.1" cy="40.4" r="3.1"/><circle cx="37.5" cy="32.7" r="2.6"/><circle cx="39.4" cy="26.3" r="2.3"/><circle cx="42.5" cy="21.2" r="2"/><circle cx="46.1" cy="17.5" r="1.8"/><circle cx="49.8" cy="14.6" r="1.6"/><circle cx="53.5" cy="12.6" r="1.5"/><circle cx="57.1" cy="11.1" r="1.3"/></g></svg></div><div style="flex:1;min-width:160px"><div style="font:600 30px Inter,sans-serif">Arbitrica</div><div style="color:#0b57d0;font-size:15px;margin-top:4px">arbitrica.com</div></div><button id="addbtn" style="background:#0b57d0;color:#fff;border:none;border-radius:20px;height:42px;padding:0 24px;font:600 15px Inter,sans-serif">Add to Chrome</button></div><div style="margin-top:26px;color:#444;font-size:15px;line-height:1.5">Arbitrica's agent finds the lowest price in the world for your hotel and prepares the booking for you.</div><span class="simtag">Simulation</span></div></div></div>
-<div id="vid"><div class="vbox"><div style="font:700 18px 'Space Grotesk',sans-serif;margin-bottom:6px">How to add your confirmation (10 sec)</div>
-<div class="vstep" id="v1"><span class="n">1</span><div>Open your booking confirmation email</div></div>
-<div class="vstep" id="v2"><span class="n">2</span><div>Take a screenshot of it (or copy all the text)</div></div>
-<div class="vstep" id="v3"><span class="n">3</span><div>Tap <b>+</b> here and choose the screenshot, or paste it</div></div>
-<div class="vbar"><i id="vbar"></i></div>
-<button class="chip" style="margin-top:16px" id="vclose">Got it</button></div></div>
+<div id="ov"><div class="win"><div class="urlbar"><span>&#9679; &#9679; &#9679;</span><div class="u">https://chromewebstore.google.com/detail/arbitrica/mmohljpopfbafdcmmanphdcjiimgcbap</div></div><div style="position:relative;background:rgb(255,255,255);padding:34px 40px 50px"><div style="display:flex;align-items:center;gap:18px;flex-wrap:wrap"><div style="width:64px;height:64px"><svg width="64" height="64" viewBox="0 0 100 100" style="display:block;flex:none"><rect width="100" height="100" rx="22" fill="#504C5A"/><g transform="translate(14 14) scale(.72)" fill="#EEEAF3"><circle cx="50" cy="43" r="3.6"/><circle cx="55.5" cy="35.7" r="3.1"/><circle cx="62.6" cy="32.8" r="2.6"/><circle cx="69.3" cy="32.6" r="2.3"/><circle cx="75" cy="34" r="2"/><circle cx="79.7" cy="36.2" r="1.8"/><circle cx="83.6" cy="38.9" r="1.6"/><circle cx="86.7" cy="41.8" r="1.5"/><circle cx="89.2" cy="44.7" r="1.3"/><circle cx="56.7" cy="47.8" r="3.6"/><circle cx="65.3" cy="50.8" r="3.1"/><circle cx="70.3" cy="56.7" r="2.6"/><circle cx="72.5" cy="63" r="2.3"/><circle cx="73" cy="68.9" r="2"/><circle cx="72.3" cy="74" r="1.8"/><circle cx="70.9" cy="78.5" r="1.6"/><circle cx="69.2" cy="82.3" r="1.5"/><circle cx="67.1" cy="85.7" r="1.3"/><circle cx="54.1" cy="55.7" r="3.6"/><circle cx="54" cy="64.8" r="3.1"/><circle cx="49.9" cy="71.3" r="2.6"/><circle cx="44.6" cy="75.4" r="2.3"/><circle cx="39.2" cy="77.7" r="2"/><circle cx="34" cy="78.6" r="1.8"/><circle cx="29.4" cy="78.7" r="1.6"/><circle cx="25.2" cy="78.2" r="1.5"/><circle cx="21.4" cy="77.3" r="1.3"/><circle cx="45.9" cy="55.7" r="3.6"/><circle cx="37.2" cy="58.3" r="3.1"/><circle cx="29.7" cy="56.5" r="2.6"/><circle cx="24.2" cy="52.7" r="2.3"/><circle cx="20.3" cy="48.2" r="2"/><circle cx="17.8" cy="43.7" r="1.8"/><circle cx="16.3" cy="39.3" r="1.6"/><circle cx="15.5" cy="35.1" r="1.5"/><circle cx="15.2" cy="31.2" r="1.3"/><circle cx="43.3" cy="47.8" r="3.6"/><circle cx="38.1" cy="40.4" r="3.1"/><circle cx="37.5" cy="32.7" r="2.6"/><circle cx="39.4" cy="26.3" r="2.3"/><circle cx="42.5" cy="21.2" r="2"/><circle cx="46.1" cy="17.5" r="1.8"/><circle cx="49.8" cy="14.6" r="1.6"/><circle cx="53.5" cy="12.6" r="1.5"/><circle cx="57.1" cy="11.1" r="1.3"/></g></svg></div><div style="flex:1;min-width:160px"><div style="font:600 30px Inter,sans-serif">Arbitrica</div><div style="color:rgb(11,87,208);font-size:15px;margin-top:4px">arbitrica.com</div></div><button id="addbtn" style="background:rgb(11,87,208);color:rgb(255,255,255);border:none;border-radius:20px;height:42px;padding:0 24px;font:600 15px Inter,sans-serif">Add to Chrome</button></div><div style="margin-top:26px;color:rgb(68,68,68);font-size:15px;line-height:1.5">Arbitrica's agent finds the lowest price in the world for your hotel and prepares the booking for you.</div><span class="simtag">Simulation</span></div></div></div>
+<div id="vid"><div class="vbox"><div class="vstage" id="vstage">
+ <div class="mail" id="vmail"><div class="t">Your booking is confirmed</div><div class="l" style="width:70%"></div><div class="k"><span>Hotel</span><b>Villa Example</b></div><div class="k"><span>Check-in</span><span>Thu 8 Oct 2026</span></div><div class="k"><span>Check-out</span><span>Fri 9 Oct 2026</span></div><div class="k"><span>Room</span><span>Junior Suite</span></div><div class="k"><span>Guests</span><span>2 adults</span></div><div class="k"><span>Total price</span><b>€102.17</b></div><div class="l"></div><div class="l" style="width:80%"></div><div class="l" style="width:60%"></div><div class="sel" id="vsel"></div><div class="flash" id="vflash"></div></div>
+ <div class="mchat"><div class="ttl">My job is to find you the world's lowest price</div><div id="vsent" style="margin-top:12px;align-self:flex-end;opacity:0;transition:opacity .4s"><div class="thumb" style="position:static;opacity:1"><div class="l"></div><div class="l" style="width:70%"></div><div class="l"></div><div class="l" style="width:50%"></div></div></div><div class="inp"><b style="color:rgb(13,13,13)">+</b><span id="vinp">Insert your reservation</span></div></div>
+ <div class="thumb" id="vthumb"><div class="l"></div><div class="l" style="width:70%"></div><div class="l"></div><div class="l" style="width:50%"></div></div>
+ <svg class="vcur" id="vcur" viewBox="0 0 24 24"><path d="M4 2l14 9-6.5 1.3L15 20l-3 1.4-3.4-7.6L4 18z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+</div><div class="vprog"><i id="vprog"></i></div><div class="vcap" id="vcap"></div>
+<div style="padding:0 18px 16px;display:flex;gap:10px"><button class="chip" id="vagain">Replay</button><button class="chip" id="vclose">Got it</button></div></div></div>
 <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5.1.1/dist/tesseract.min.js"></script>
 <script>
 const MARK="<svg width=\"26\" height=\"26\" viewBox=\"0 0 100 100\" style=\"display:block;flex:none\"><rect width=\"100\" height=\"100\" rx=\"22\" fill=\"#504C5A\"/><g transform=\"translate(14 14) scale(.72)\" fill=\"#EEEAF3\"><circle cx=\"50\" cy=\"43\" r=\"3.6\"/><circle cx=\"55.5\" cy=\"35.7\" r=\"3.1\"/><circle cx=\"62.6\" cy=\"32.8\" r=\"2.6\"/><circle cx=\"69.3\" cy=\"32.6\" r=\"2.3\"/><circle cx=\"75\" cy=\"34\" r=\"2\"/><circle cx=\"79.7\" cy=\"36.2\" r=\"1.8\"/><circle cx=\"83.6\" cy=\"38.9\" r=\"1.6\"/><circle cx=\"86.7\" cy=\"41.8\" r=\"1.5\"/><circle cx=\"89.2\" cy=\"44.7\" r=\"1.3\"/><circle cx=\"56.7\" cy=\"47.8\" r=\"3.6\"/><circle cx=\"65.3\" cy=\"50.8\" r=\"3.1\"/><circle cx=\"70.3\" cy=\"56.7\" r=\"2.6\"/><circle cx=\"72.5\" cy=\"63\" r=\"2.3\"/><circle cx=\"73\" cy=\"68.9\" r=\"2\"/><circle cx=\"72.3\" cy=\"74\" r=\"1.8\"/><circle cx=\"70.9\" cy=\"78.5\" r=\"1.6\"/><circle cx=\"69.2\" cy=\"82.3\" r=\"1.5\"/><circle cx=\"67.1\" cy=\"85.7\" r=\"1.3\"/><circle cx=\"54.1\" cy=\"55.7\" r=\"3.6\"/><circle cx=\"54\" cy=\"64.8\" r=\"3.1\"/><circle cx=\"49.9\" cy=\"71.3\" r=\"2.6\"/><circle cx=\"44.6\" cy=\"75.4\" r=\"2.3\"/><circle cx=\"39.2\" cy=\"77.7\" r=\"2\"/><circle cx=\"34\" cy=\"78.6\" r=\"1.8\"/><circle cx=\"29.4\" cy=\"78.7\" r=\"1.6\"/><circle cx=\"25.2\" cy=\"78.2\" r=\"1.5\"/><circle cx=\"21.4\" cy=\"77.3\" r=\"1.3\"/><circle cx=\"45.9\" cy=\"55.7\" r=\"3.6\"/><circle cx=\"37.2\" cy=\"58.3\" r=\"3.1\"/><circle cx=\"29.7\" cy=\"56.5\" r=\"2.6\"/><circle cx=\"24.2\" cy=\"52.7\" r=\"2.3\"/><circle cx=\"20.3\" cy=\"48.2\" r=\"2\"/><circle cx=\"17.8\" cy=\"43.7\" r=\"1.8\"/><circle cx=\"16.3\" cy=\"39.3\" r=\"1.6\"/><circle cx=\"15.5\" cy=\"35.1\" r=\"1.5\"/><circle cx=\"15.2\" cy=\"31.2\" r=\"1.3\"/><circle cx=\"43.3\" cy=\"47.8\" r=\"3.6\"/><circle cx=\"38.1\" cy=\"40.4\" r=\"3.1\"/><circle cx=\"37.5\" cy=\"32.7\" r=\"2.6\"/><circle cx=\"39.4\" cy=\"26.3\" r=\"2.3\"/><circle cx=\"42.5\" cy=\"21.2\" r=\"2\"/><circle cx=\"46.1\" cy=\"17.5\" r=\"1.8\"/><circle cx=\"49.8\" cy=\"14.6\" r=\"1.6\"/><circle cx=\"53.5\" cy=\"12.6\" r=\"1.5\"/><circle cx=\"57.1\" cy=\"11.1\" r=\"1.3\"/></g></svg>", CLOCK="<svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" style=\"flex:none\"><circle cx=\"12\" cy=\"13\" r=\"8.5\" stroke=\"#4A4354\" stroke-width=\"2\"/><path d=\"M12 13V8\" stroke=\"#B8924A\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>", CWS_URL="https://chromewebstore.google.com/detail/arbitrica/mmohljpopfbafdcmmanphdcjiimgcbap";
 function buildMap(){const R=["00000008c3cfffff00034000000080000000", "0000003c2b007fff80000000c007fc01e000", "000001a5f7c01ffd00000002007fffb00000", "0070000e37f81ffc000038001fffffffff00", "c3ffffc67b1e1ff00001ff2fffffffffffff", "f7fffffffc1e0f00e0039cffffffffffffff", "01fffffff00e0f00001f7fffffffffffffff", "01fbffffe0780200001f6ffffffffffffe78", "00403fffe03f000002063fffffffffff8080", "01001ffffc3f000001087ffffffffffe0180", "000007ffff7fc000059fffffffffffffc100", "000005ffffff8000027fffffffffffffc000", "000001fffffc600001ffffffffffffff4000", "000001fffffd000000fff2fffffffffe0000", "000001fffff0000007c5f07ffffffffc6000", "000001ffffe000000783dffffffffff08000", "000001ffffc0000007065fffffffff108000", "000000ffffc0000000f801ffffffff130000", "0000003fff80000007f801ffffffff8c0000", "0000003fff00000007ffffffffffff800000", "0000000fc10000001ffffdf7ffffff800000", "00000007c00000001ffffdf8ffffff000000", "0000000b818000003ffffeff0ffffe000000", "00000003cc2000003ffffeff03e3e8000000", "00000000f84000003fffff7e03c3e0000000", "000000001e0000003fffff780380f0800000", "00000000060000003fffffe00380f0000000", "00000000023c00001fffffd8010030600000", "00000000007f80001ffffff0008080600000", "00000000007fe000071ffff0000041000000", "00000000007ff000000fffe0000147000000", "0000000000fff000000fffc00000cf400000", "0000000000fffe00000fff800000468d0000", "0000000000ffff800007ff0000002081e000", "00000000007fffe00003ff0000001c00e000", "00000000007fffc00003ff00000000a01080", "00000000003fff800003ff80000000004000", "00000000003fff800007ff880000001e4000", "00000000000fff800007ff300000007f6000", "00000000000fff800003fe300000007ff000", "00000000000fff000003fe30000003fff000", "00000000000ffc000003fe20000003fff800", "00000000000ff8000001fc00000003fffc00", "00000000000ff8000001f800000003fffc00", "00000000000ff0000000f000000001f3fc00", "00000000000fa0000000800000000101f800", "00000000001fc0000000000000000000f002", "00000000001f000000000000000000000002", "00000000000c000000000000000000001004", "00000000001c000000000000000000000008", "00000000001c000000000000000000000000", "000000000038000000000000000000000000", "000000000038800000000000000000000000", "00000000000c000000000000000000000000"],W=144;const w=760,h=300,px=(lon,lat)=>[(lon+180)/360*w,(78-lat)/133*h];let c='';
 R.forEach((hx,r)=>{const bits=BigInt('0x'+hx).toString(2).padStart(W,'0');for(let k=0;k<W;k++)if(bits[k]==='1'){const[x,y]=px(-180+k*2.5,78-r*2.5);c+='<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="1.1"/>'}});
 const L=[[150,-33,'NZ$ 612'],[139,36,'¥ 54,900'],[-98,38,'$ 402'],[10,51,'€ 431'],[78,21,'₹ 33,800'],[-47,-15,'R$ 2,240'],[134,-25,'A$ 588'],[54,24,'AED 1,410']];const[hx0,hy0]=px(-3.7,40.4);
-let lab='',arc='';L.forEach(([a,b,t],i)=>{const[x,y]=px(a,b);lab+='<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="2.4" fill="rgba(240,236,229,.55)"/><text x="'+(x+6).toFixed(1)+'" y="'+(y-6).toFixed(1)+'" font-size="11" font-weight="600" fill="rgb(200,196,210)" font-family="Inter,sans-serif">'+t+'</text>';if(i%2===0)arc+='<path d="M'+x.toFixed(1)+' '+y.toFixed(1)+' Q'+((x+hx0)/2).toFixed(1)+' '+((y+hy0)/2-40).toFixed(1)+' '+hx0.toFixed(1)+' '+hy0.toFixed(1)+'" fill="none" stroke="rgba(214,190,145,.7)" stroke-width="1.2"/>'});
-return '<svg viewBox="0 0 '+w+' '+h+'" width="100%" style="display:block"><g fill="rgba(240,236,229,.16)">'+c+'</g>'+arc+lab+'<circle class="pin" cx="'+hx0.toFixed(1)+'" cy="'+hy0.toFixed(1)+'" r="5" fill="rgb(214,190,145)"/><circle cx="'+hx0.toFixed(1)+'" cy="'+hy0.toFixed(1)+'" r="11" fill="none" stroke="rgb(214,190,145)" stroke-opacity=".4"/></svg>'}
+let lab='',arc='';L.forEach(([a,b,t],i)=>{const[x,y]=px(a,b);lab+='<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="2.4" fill="rgba(35,32,41,.6)"/><text x="'+(x+6).toFixed(1)+'" y="'+(y-6).toFixed(1)+'" font-size="11" font-weight="600" fill="rgb(63,58,74)" font-family="Inter,sans-serif">'+t+'</text>';if(i%2===0)arc+='<path d="M'+x.toFixed(1)+' '+y.toFixed(1)+' Q'+((x+hx0)/2).toFixed(1)+' '+((y+hy0)/2-40).toFixed(1)+' '+hx0.toFixed(1)+' '+hy0.toFixed(1)+'" fill="none" stroke="rgba(176,136,60,.7)" stroke-width="1.2"/>'});
+return '<svg viewBox="0 0 '+w+' '+h+'" width="100%" style="display:block"><g fill="rgba(35,32,41,.13)">'+c+'</g>'+arc+lab+'<circle class="pin" cx="'+hx0.toFixed(1)+'" cy="'+hy0.toFixed(1)+'" r="5" fill="rgb(184,146,74)"/><circle cx="'+hx0.toFixed(1)+'" cy="'+hy0.toFixed(1)+'" r="11" fill="none" stroke="rgb(184,146,74)" stroke-opacity=".4"/></svg>'}
 const MAP=buildMap();
-const log=document.getElementById('log'),main=document.getElementById('main'),ta=document.getElementById('ta');
+const log=document.getElementById('log'),main=document.getElementById('main'),ta=document.getElementById('ta'),bar=document.getElementById('bar');
+document.getElementById('slotTop').appendChild(bar);
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const SPEED=38; // ms per character, close to the extension's 40
 let state='start',booking=null,busy=false;
+function start(){if(!document.body.classList.contains('started')){document.body.classList.add('started');document.getElementById('slotBottom').appendChild(bar)}}
 const down=()=>setTimeout(()=>main.scrollTo({top:main.scrollHeight,behavior:'smooth'}),30);
-function md(t){return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')}
-async function say(text,{html='',speed=16}={}){const m=document.createElement('div');m.className='msg';m.innerHTML='<div class="av">'+MARK+'</div><div class="b"></div>';log.appendChild(m);const b=m.querySelector('.b');const plain=text.replace(/\*\*/g,'');for(let i=1;i<=plain.length;i+=2){b.textContent=plain.slice(0,i);if(i%12===1)down();await sleep(speed)}b.innerHTML=md(text)+html;down();return b}
-function me(text,img){const m=document.createElement('div');m.className='me';m.innerHTML='<div class="u"></div>';const u=m.querySelector('.u');if(img){const i=document.createElement('img');i.src=img;u.appendChild(i)}else u.textContent=text;log.appendChild(m);down()}
+function md(t){return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\[green\](.+?)\[\/green\]/g,'<span class="g">$1</span>')}
+let lastLogo=null;
+async function say(text,{html='',logo=true}={}){const m=document.createElement('div');m.className='msg';m.innerHTML=(logo?'<span class="lg">'+MARK+'</span>':'')+'<div class="b"></div>';log.appendChild(m);const b=m.querySelector('.b');const plain=text.replace(/\*\*/g,'').replace(/\[\/?green\]/g,'');for(let i=1;i<=plain.length;i++){b.textContent=plain.slice(0,i);if(i%20===1)down();await sleep(SPEED)}b.innerHTML=md(text)+html;down();return b}
+function me(text,img){start();const m=document.createElement('div');m.className='me';m.innerHTML='<div class="u'+(img?' img':'')+'"></div>';const u=m.querySelector('.u');if(img){const i=document.createElement('img');i.src=img;u.appendChild(i)}else u.textContent=text;log.appendChild(m);down()}
 function chips(list){const b=log.lastElementChild.querySelector('.b');const w=document.createElement('div');w.className='chips';list.forEach(([t,f])=>{const c=document.createElement('button');c.className='chip';c.textContent=t;c.onclick=()=>{w.remove();me(t);f()};w.appendChild(c)});b.appendChild(w);down()}
-const HOTEL_RE=/\b(hotels?|room|rooms|suite|stay|staying|booking|booked|book|reservation|resort|inn|hostel|motel|lodge|accommodation|check.?in|check.?out|nights?|breakfast|booking\.com|expedia|agoda|hotels\.com|trip\.com|villa)\b/i;
+const HOTEL_RE=/\b(hotels?|room|rooms|suite|stay|staying|booking|booked|book|reservation|reserved|resort|inn|hostel|motel|lodge|accommodation|check.?in|check.?out|nights?|breakfast|booking\.com|expedia|agoda|hotels\.com|trip\.com|villa)\b/i;
 function looksLikeConfirmation(t){return /check.?in/i.test(t)&&/check.?out/i.test(t)}
-async function onText(t){
-  if(busy)return; me(t);
-  if(looksLikeConfirmation(t)){return readConfirmation({text:t})}
-  if(state==='await_conf'){busy=true;await say("That doesn't look like a booking confirmation yet. Paste the confirmation email text, or tap **+** to add a screenshot of it");busy=false;return}
+async function onText(t){if(busy)return;me(t);
+  if(looksLikeConfirmation(t))return readConfirmation({text:t});
+  if(state==='await_conf'){busy=true;await say("That doesn't look like a hotel reservation yet. Paste the confirmation email text, or tap **+** to attach a screenshot of it");busy=false;return}
   if(!HOTEL_RE.test(t)){busy=true;await say("At the moment I find world's best prices for hotels only");busy=false;return}
   busy=true;await say("Happy to help with your hotel. Which one is it?");busy=false;
-  chips([["I already have a booking with free cancellation",alreadyBooked],["I'm booking my hotel now",bookingNow]]);
-}
-async function alreadyBooked(){busy=true;state='await_conf';await say("Great. Add your **booking confirmation** here: tap **+** to add a screenshot of the confirmation email, or paste its text. I'll read the hotel, dates and room from it");busy=false;
-  chips([["Show me how (10-second video)",showVideo]]);}
-async function bookingNow(){busy=true;await say("Then I'll meet you at the checkout. Add the Arbitrica agent to Chrome in 3 clicks, open your hotel's checkout, and I'll find the world's lowest price for that exact room");
-  const b=log.lastElementChild.querySelector('.b');const a=document.createElement('a');a.className='btn';a.href=CWS_URL;a.target='_blank';a.rel='noopener';a.textContent='Bring me to Chrome store';b.appendChild(a);busy=false;down()}
-async function showVideo(){const v=document.getElementById('vid');v.style.display='flex';const bar=document.getElementById('vbar');bar.style.transition='none';bar.style.width='0';await sleep(50);bar.style.transition='width 10s linear';bar.style.width='100%';
-  for(const [id,t] of [['v1',0],['v2',3300],['v3',3300]]){await sleep(t);document.getElementById(id).classList.add('on')}
-  await sleep(3400);}
-document.getElementById('vclose').onclick=()=>{document.getElementById('vid').style.display='none';['v1','v2','v3'].forEach(i=>document.getElementById(i).classList.remove('on'));chips([["Show me how (10-second video)",showVideo]])};
-// ---------- reading the confirmation ----------
+  chips([["I already have a booking with free cancellation",alreadyBooked],["I'm booking my hotel now",bookingNow]])}
+async function alreadyBooked(){busy=true;state='await_conf';await say("Great. Insert your **hotel reservation** here: tap **+** to attach a screenshot of the confirmation email, or paste its text");busy=false;
+  const b=log.lastElementChild.querySelector('.b');const a=document.createElement('button');a.className='how';a.style.margin='10px 0 0';a.textContent='Show me how to insert hotel reservations (15 sec)';a.onclick=showVideo;b.appendChild(a)}
+async function bookingNow(){busy=true;await say("Then I'll meet you at the checkout. Install the Arbitrica extension in 2 clicks (it's free), open your hotel's checkout, and I'll find the world's lowest price for that exact room");
+  const b=log.lastElementChild.querySelector('.b');const a=document.createElement('a');a.className='btn light';a.style.textDecoration='none';a.href=CWS_URL;a.target='_blank';a.rel='noopener';a.textContent='Continue';b.appendChild(a);busy=false;down()}
+// ---------- 15-second how-to ----------
+let vrun=0;
+async function showVideo(){const id=++vrun;const v=document.getElementById('vid');v.style.display='flex';
+  const cap=document.getElementById('vcap'),cur=document.getElementById('vcur'),sel=document.getElementById('vsel'),fl=document.getElementById('vflash'),th=document.getElementById('vthumb'),sent=document.getElementById('vsent'),inp=document.getElementById('vinp'),pr=document.getElementById('vprog'),st=document.getElementById('vstage');
+  const reset=()=>{sel.style.opacity=0;fl.style.opacity=0;th.style.transition='none';th.style.opacity=0;th.style.left='120px';th.style.top='110px';sent.style.opacity=0;inp.textContent='Insert your reservation';cur.style.transition='none';cur.style.left='200px';cur.style.top='300px'};
+  reset();pr.style.transition='none';pr.style.width='0';await sleep(60);pr.style.transition='width 15s linear';pr.style.width='100%';
+  const W=st.clientWidth;const chatX=W-120,chatY=255;
+  cap.innerHTML='<b>1.</b> Open your hotel booking confirmation email';await sleep(2500);if(id!==vrun)return;
+  cap.innerHTML='<b>2.</b> Take a screenshot of it<br><span style="color:var(--muted)">Mac: ⌘ Shift 4 · Windows: Win Shift S · Phone: side + volume up</span>';
+  cur.style.transition='all .7s ease';cur.style.left='40px';cur.style.top='34px';await sleep(900);cur.style.left='300px';cur.style.top='290px';sel.style.opacity=1;await sleep(900);
+  fl.style.opacity=.95;await sleep(160);fl.style.opacity=0;sel.style.opacity=0;await sleep(500);if(id!==vrun)return;
+  th.style.transition='none';th.style.opacity=1;await sleep(60);
+  cap.innerHTML='<b>3.</b> Tap <b>+</b> in the chat and choose the screenshot, or paste it';th.style.transition='all 1.1s ease';th.style.left=(chatX)+'px';th.style.top=(chatY-10)+'px';cur.style.left=(chatX+20)+'px';cur.style.top=(chatY+30)+'px';await sleep(1400);
+  th.style.opacity=0;sent.style.opacity=1;inp.textContent='Sent';await sleep(1800);if(id!==vrun)return;
+  cap.innerHTML='<b>Or:</b> select all the text in the email (⌘A / Ctrl A), copy it and paste it into the chat';sent.style.opacity=0;inp.textContent='Insert your reservation';cur.style.left='60px';cur.style.top='60px';await sleep(800);sel.style.opacity=1;await sleep(1300);
+  inp.textContent='Check-in Thu 8 Oct…';sel.style.opacity=0;await sleep(1500);if(id!==vrun)return;
+  cap.innerHTML='That\'s it. I read the hotel, dates, room and price from it and start the search'}
+document.getElementById('howTop').onclick=showVideo;
+document.getElementById('vagain').onclick=showVideo;
+document.getElementById('vclose').onclick=()=>{vrun++;document.getElementById('vid').style.display='none'};
+// ---------- reading the reservation ----------
 const MONTHS='january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec';
 function parse(t){const T=t.replace(/[ \t]+/g,' ');const L=T.split(/\n+/).map(s=>s.trim()).filter(Boolean);const out={};
   let m=T.match(/(?:^|\n)[^A-Za-z\n]*([A-Z][^\n]{2,70}?) is expecting you/i);if(m)out.hotel=m[1].trim();if(out.hotel)out.hotel=out.hotel.replace(/^./,c=>c.toUpperCase());
@@ -143,60 +176,59 @@ function parse(t){const T=t.replace(/[ \t]+/g,' ');const L=T.split(/\n+/).map(s=
   return out}
 async function ocr(src){const img=new Image();img.src=src;await img.decode();const s=Math.max(1,Math.min(4,2000/img.width));const c=document.createElement('canvas');c.width=img.width*s;c.height=img.height*s;const x=c.getContext('2d');x.imageSmoothingQuality='high';x.drawImage(img,0,0,c.width,c.height);
   const {data}=await Tesseract.recognize(c,'eng');return data.text}
-async function readConfirmation({text,img}){if(busy&&!img&&!text)return;busy=true;state='reading';
-  const b=await say("Reading your confirmation");b.innerHTML='Reading your confirmation<span class="dots"></span>';
+
+async function readConfirmation({text,img}){busy=true;state='reading';
+  const m=document.createElement('div');m.className='msg';m.innerHTML='<span class="lg">'+MARK+'</span><div class="b">Reading your reservation<span class="dots"></span></div>';log.appendChild(m);down();
   let t=text||'';try{if(img)t=await ocr(img)}catch(e){t=''}
-  const p=parse(t);booking=p;b.innerHTML='Reading your confirmation';
+  const p=parse(t);p.ota=/booking\.com/i.test(t)?'Booking':/expedia/i.test(t)?'Expedia':/agoda/i.test(t)?'Agoda':/hotels\.com/i.test(t)?'Hotels.com':'your booking';booking=p;m.remove();
   if(!p.hotel||!p.checkin){state='await_conf';busy=false;await say("I couldn't read the hotel name and dates from that. Could you try a clearer screenshot, or paste the confirmation text?");return}
   const rows=[['Hotel',p.hotel],['Check-in',p.checkin],['Check-out',p.checkout||'–'],['Guests',(p.adults||'?')+' adult'+((p.adults||2)>1?'s':'')+(p.children?', '+p.children+' children':'')]];
-  if(p.room)rows.push(['Room',p.room]);if(p.breakfast)rows.push(['Breakfast',p.breakfast]);if(p.total)rows.push(['You paid',p.cur+fmt(p.total)]);
-  await say("Here is what you booked",{html:'<div class="card kv">'+rows.map(([k,v])=>'<div>'+k+'</div><div>'+md(String(v))+'</div>').join('')+'</div>'});
-  await sleep(500);await say("One quick step so I can run the search for you");
-  const bb=log.lastElementChild.querySelector('.b');const g=document.createElement('button');g.className='btn g';g.innerHTML='<svg width="18" height="18" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9 3.6l6.7-6.7C35.6 2.4 30.2 0 24 0 14.6 0 6.6 5.4 2.6 13.3l7.8 6C12.3 13.5 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.1 24.6c0-1.6-.1-3.1-.4-4.6H24v9h12.4c-.5 2.9-2.2 5.3-4.6 6.9l7.4 5.7c4.3-4 6.9-9.9 6.9-17z"/><path fill="#FBBC05" d="M10.4 28.7c-.5-1.4-.8-3-.8-4.7s.3-3.2.8-4.7l-7.8-6C1 16.5 0 20.1 0 24s1 7.5 2.6 10.7l7.8-6z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.4-5.7c-2.1 1.4-4.8 2.3-8.5 2.3-6.3 0-11.7-4-13.6-9.5l-7.8 6C6.6 42.6 14.6 48 24 48z"/></svg>Continue with Google';
-  g.onclick=async()=>{g.disabled=true;g.innerHTML='&#10003; Signed in';g.style.opacity='.7';await sleep(600);search()};bb.appendChild(g);down();busy=false}
+  if(p.room)rows.push(['Room',p.room]);if(p.breakfast)rows.push(['Breakfast',p.breakfast]);if(p.total)rows.push(['Total',p.cur+fmt(p.total)]);
+  await say("Here is what you were booking",{html:'<div class="card kv">'+rows.map(([k,v])=>'<div>'+k+'</div><div>'+md(String(v))+'</div>').join('')+'</div>'});
+  await sleep(1000);search()}
 function fmt(n){return n.toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2})}
 function hash(s){let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))>>>0;return h}
 const COUNTRIES=['New Zealand','India','Mexico','Thailand','Brazil','South Africa','Malaysia','Turkey','Argentina','Indonesia'];
 async function search(){busy=true;const p=booking;
-  await say("I'm **preparing** the world's lowest price from one of 195 countries");
-  await say("Top 5 countries will need simulated bookings, so the final price you see **includes all taxes & fees**");
-  const m=document.createElement('div');m.className='msg';m.innerHTML='<div class="av"></div><div class="b" style="flex:1;min-width:0"><div class="card"><div class="map">'+MAP+'</div><div id="wl"></div></div></div>';log.appendChild(m);down();
+  await say("I’m **preparing** the world’s lowest price from one of 195 countries");
+  await say("Top 5 countries will need simulated bookings, so the final price you see **includes all taxes & fees**",{logo:false});
+  const m=document.createElement('div');m.className='msg';m.innerHTML='<div class="card">'+MAP+'<div id="wl"></div></div>';log.appendChild(m);down();
   const wl=m.querySelector('#wl');const short=p.hotel.trim().split(/\s+/).slice(0,4).join(' ');
-  const A='<div class="wt">Queued<span class="hn">· '+md(short)+'</span></div><div class="wchip">'+CLOCK+'This will take a few minutes</div>';
-  const B='<div class="wt">Feel free to do other things</div><div class="wchip">I’ll notify you when all is ready</div>';
-  for(const [h,ms] of [[A,4000],[B,4000],[A,4000]]){wl.innerHTML=h;down();await sleep(ms)}
-  wl.innerHTML='<div class="wt">Done</div><div class="wchip">&#10003; All checked</div>';
-  const country=COUNTRIES[hash(p.hotel)%COUNTRIES.length];const pct=12+hash(p.hotel+'x')%13;const cur=p.cur||'€';const total=p.total||0;
-  const best=total?Math.round(total*(100-pct))/100:0;
-  await sleep(600);
-  if(total)await say("Good news! The search is done. The world's lowest price for **"+p.hotel+"** is in **"+country+"**",{html:'<div class="card"><div class="price">'+cur+fmt(best)+'<span class="was">'+cur+fmt(total)+'</span></div><div style="margin-top:6px;color:var(--muted)">'+cur+fmt(total-best)+' less than you paid · '+pct+'% off · includes all taxes & fees</div></div>'});
-  else await say("Good news! The search is done. The world's lowest price for **"+p.hotel+"** is in **"+country+"**, "+pct+"% below your booking");
-  await sleep(500);
-  const b=await say("To let me prepare this booking for you at that price, add the Arbitrica agent to Chrome. It takes 3 clicks, and you'll come straight back here");
-  const btn=document.createElement('button');btn.className='btn';btn.textContent='Bring me to Chrome store';b.appendChild(btn);down();
+  const A='<div class="wt">Queued<span class="hn">· '+md(short)+'</span></div><div class="wchip sw">'+CLOCK+'This will take a few minutes</div>';
+  const B='<div class="wt">Feel free to do other things</div><div class="wchip sw">I’ll notify you when all is ready</div>';
+  for(const [h,ms] of [[A,5000],[B,6000],[A,4000]]){wl.innerHTML=h;down();await sleep(ms)}
+  m.remove();
+  const country=COUNTRIES[hash(p.hotel)%COUNTRIES.length];const pct=12+hash(p.hotel+'x')%13;const cur=p.cur||'€';const total=p.total||0;const best=total?Math.round(total*(100-pct))/100:0;const diff=total-best;
+  await say("All done");
+  await say("**The world’s lowest price** is found in **"+country+"** from a Google-approved provider",{logo:false});
+  if(total){const nights=p.checkin&&p.checkout?Math.max(1,Math.round((new Date(p.checkout)-new Date(p.checkin))/864e5)):1;
+    const c=document.createElement('div');c.className='msg';c.innerHTML='<div class="card pc"><div class="h">'+md(short)+' · '+nights+' night'+(nights>1?'s':'')+'</div><div class="r"><span>The price they gave you</span><span class="was">'+cur+fmt(total)+'</span></div><div class="r"><span><b>The world’s lowest price</b></span><span class="big">'+cur+fmt(best)+'</span></div><div class="r"><span>Arbitrica makes you</span><span class="earn">'+cur+fmt(diff)+'</span></div></div>';log.appendChild(c);down();await sleep(800)}
+  await say("Same hotel. Same room. Same extras you chose. **Better price.**",{logo:false});
+  if(total)await say(diff<25?"**[green]"+pct+"%[/green]** better than "+p.ota+", **[green]"+cur+fmt(diff)+"[/green]** off":"**[green]"+cur+fmt(diff)+"[/green]** better than "+p.ota+", **[green]"+pct+"%[/green]** off",{logo:false});
+  await sleep(900);
+  const b=await say("Install the Arbitrica extension in 2 clicks (it's free). This will allow me to prepare your world's best price in a separate tab");
+  const btn=document.createElement('button');btn.className='btn light';btn.textContent='Continue';b.appendChild(btn);down();
   btn.onclick=()=>installSim(btn);await sleep(3000);if(!btn.dataset.done)installSim(btn,true)}
-async function moveCursorTo(el){const c=document.getElementById('cur');const r=el.getBoundingClientRect();if(c.style.display!=='block'){c.style.transition='none';c.style.left=(innerWidth*0.55)+'px';c.style.top=(innerHeight*0.8)+'px';c.style.display='block';await sleep(40);c.style.transition='left .9s ease,top .9s ease'}
+async function moveCursorTo(el){const c=document.getElementById('cur');const r=el.getBoundingClientRect();if(c.style.display!=='block'){c.style.transition='none';c.style.left=(innerWidth*0.55)+'px';c.style.top=(innerHeight*0.85)+'px';c.style.display='block';await sleep(40);c.style.transition='left .9s ease,top .9s ease'}
   c.style.left=(r.left+r.width/2)+'px';c.style.top=(r.top+r.height/2-4)+'px';await sleep(1000)}
 async function installSim(btn,auto){if(btn.dataset.done)return;btn.dataset.done=1;
-  if(auto){await moveCursorTo(btn)}btn.classList.add('press');await sleep(150);btn.classList.remove('press');document.getElementById('cur').style.display='none';
+  if(auto)await moveCursorTo(btn);btn.classList.add('press');await sleep(150);btn.classList.remove('press');document.getElementById('cur').style.display='none';
   const ov=document.getElementById('ov');ov.style.display='flex';await sleep(1400);
-  const fake=document.getElementById('addbtn');await moveCursorTo(fake);const ring=document.createElement('div');const fr=fake.getBoundingClientRect();ring.style.cssText='position:fixed;left:'+fr.left+'px;top:'+fr.top+'px;width:'+fr.width+'px;height:'+fr.height+'px;border-radius:20px;box-shadow:0 0 0 4px rgba(11,87,208,.45);z-index:56;pointer-events:none';document.body.appendChild(ring);await sleep(700);ring.remove();
+  const add=document.getElementById('addbtn');await moveCursorTo(add);const fr=add.getBoundingClientRect();const ring=document.createElement('div');ring.style.cssText='position:fixed;left:'+fr.left+'px;top:'+fr.top+'px;width:'+fr.width+'px;height:'+fr.height+'px;border-radius:20px;box-shadow:0 0 0 4px rgba(11,87,208,.45);z-index:56;pointer-events:none';document.body.appendChild(ring);await sleep(700);ring.remove();
   document.getElementById('cur').style.display='none';
   const t=document.createElement('div');t.className='toast';t.innerHTML='&#10003; Arbitrica added to Chrome';document.body.appendChild(t);await sleep(1500);ov.style.display='none';t.remove();
-  await say("Welcome back! The Arbitrica agent is installed and you're signed in");
-  const b=await say("Your booking at **"+booking.hotel+"** is ready to be prepared at the world's lowest price");
+  await say("Welcome back");
+  const b=await say("Want me to prepare this booking for you? You’ll only **review** & **complete** payment",{logo:false});
   const p=document.createElement('button');p.className='btn';p.textContent='Prepare the booking for me';b.appendChild(p);down();
-  p.onclick=async()=>{p.disabled=true;p.style.opacity='.7';await say("This is a test page. In the real flow I now open the booking in a new tab with everything prepared, so you only review it and pay");};busy=false}
+  p.onclick=async()=>{p.disabled=true;p.style.opacity='.6';await say("This is a test page. In the real flow I now open the booking in a new tab with everything prepared, so you only review it and pay")};busy=false}
 // ---------- input ----------
 function sendText(){const t=ta.value.trim();if(!t)return;ta.value='';ta.style.height='';onText(t)}
 document.getElementById('send').onclick=sendText;
 ta.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendText()}});
-ta.addEventListener('input',()=>{ta.style.height='auto';ta.style.height=Math.min(160,ta.scrollHeight)+'px'});
+ta.addEventListener('input',()=>{ta.style.height='auto';ta.style.height=Math.min(180,ta.scrollHeight)+'px'});
 const file=document.getElementById('file');document.getElementById('attach').onclick=()=>file.click();
 function takeImage(f){if(!f||!/^image\//.test(f.type)||busy)return;const r=new FileReader();r.onload=()=>{me('',r.result);readConfirmation({img:r.result})};r.readAsDataURL(f)}
 file.onchange=()=>{takeImage(file.files[0]);file.value=''};
-document.addEventListener('paste',e=>{const it=[...(e.clipboardData||{}).items||[]].find(i=>i.type.startsWith('image/'));if(it){e.preventDefault();takeImage(it.getAsFile())}});
-document.addEventListener('dragover',e=>{e.preventDefault();document.body.classList.add('drop')});document.addEventListener('dragleave',e=>{if(!e.relatedTarget)document.body.classList.remove('drop')});
-document.addEventListener('drop',e=>{e.preventDefault();document.body.classList.remove('drop');takeImage(e.dataTransfer.files[0])});
-say("Hello, your agent here. Tell me about your hotel and I'll find the world's lowest price for it");
+document.addEventListener('paste',e=>{const it=[...((e.clipboardData||{}).items||[])].find(i=>i.type.startsWith('image/'));if(it){e.preventDefault();takeImage(it.getAsFile())}});
+document.addEventListener('dragover',e=>e.preventDefault());document.addEventListener('drop',e=>{e.preventDefault();takeImage(e.dataTransfer.files[0])});
 </script></body></html>
