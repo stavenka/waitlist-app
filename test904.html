@@ -219,7 +219,7 @@ async function existing(){if(pending){const p=pending;pending=null;return readCo
 function dockBar(){if(document.body.classList.contains('inline')){document.body.classList.remove('inline');document.getElementById('slotBottom').appendChild(bar);const w=log.querySelector('.inl');if(w)w.remove()}}
 async function newHotel(){state='start';pending=null;await installPrompt("To find you the **world's lowest price** in a new search, you'll need to have Arbitrica extension",'new')}
 async function searchLinks(){busy=true;
-  await say("You can now start searching for your hotel as usual - on any website",{logo:false});const b=await say("I'll start working on your screen **after you choose the room** — to find the world's lowest price",{logo:false});busy=false;
+  await say("Just search and select your hotel as usual — on any website",{logo:false});const b=await say("**Choose the exact room**, and on the next page I'll find the world's lowest price for it",{logo:false});busy=false;
   const w=document.createElement('div');w.className='links';
   [['Search your hotel on Booking','https://www.booking.com/'],['Search your hotel on Expedia','https://www.expedia.com/'],['Search your own way','https://www.google.com/']].forEach(([t,u])=>{const a=document.createElement('a');a.className='btn light';a.href=u;a.target='_blank';a.rel='noopener';a.textContent=t;w.appendChild(a)});
   b.appendChild(w);down()}
