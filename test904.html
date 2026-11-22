@@ -23,7 +23,7 @@ main{flex:1;overflow-y:auto;display:flex;flex-direction:column}
 .inl{margin:22px 0 24px}.inl .how{margin:12px 0 0}body.inline .dock{display:none}
 .msg.lgm:not(:first-child){margin-top:66px}
 .hero>*{transition:transform .2s}
-.msg.mapm{margin-top:50px}
+.msg.mapm{margin-top:50px;animation:mapin 1.4s cubic-bezier(.22,.61,.36,1) both}@keyframes mapin{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.links a{margin-top:0;text-decoration:none}
 body.started .hero{display:none}
 .wrapc{width:100%;max-width:768px}
@@ -298,6 +298,7 @@ function hash(s){let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))>>>0;return h}
 const COUNTRIES=['New Zealand','India','Mexico','Thailand','Brazil','South Africa','Malaysia','Turkey','Argentina','Indonesia'];
 async function search(){busy=true;const p=booking;
   await say("I’m **preparing** the world’s lowest price from one of 195 countries");
+  await sleep(1500);
   const m=document.createElement('div');m.className='msg mapm';m.innerHTML='<div class="card">'+MAP+'<div id="wl"></div></div>';log.appendChild(m);down();
   const wl=m.querySelector('#wl');const short=p.hotel.trim().split(/\s+/).slice(0,4).join(' ');
   const A='<div class="wt">Queued<span class="hn">· '+md(short)+'</span></div><div class="wchip sw">'+CLOCK+'This will take a few minutes</div>';
