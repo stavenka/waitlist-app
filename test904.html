@@ -201,7 +201,7 @@ const GENERIC=/\b(booking|booked|book|reservation|reserved|nights?|expedia|trip\
 function isHotel(t){return HOTEL_RE.test(t)||(GENERIC.test(t)&&!NON_HOTEL.test(t))}
 const SORRY="Sorry, I only work on international hotels now (Amazon and events tickets are coming soon!). Ask me to find you the world's best price for any hotel";
 function looksLikeConfirmation(t){return /check.?in/i.test(t)&&/check.?out/i.test(t)}
-async function ask(){busy=true;state='choose';await say("Do you have an existing hotel reservation, so I can try to beat your paid price?");await say("Or you want to start a new hotel search?",{logo:false});busy=false;
+async function ask(pre){busy=true;state='choose';if(pre)await say(pre);await say("Do you have an existing hotel reservation, so I can try to beat your paid price?",{logo:!pre});await say("Or you want to start a new hotel search?",{logo:false});busy=false;
   chips([["Existing reservation",existing],["New hotel",newHotel]])}
 async function onText(t){if(busy)return;dockBar();me(t);
   if(state==='await_yes'&&/^\s*yes\b/i.test(t))return yes();
@@ -209,7 +209,9 @@ async function onText(t){if(busy)return;dockBar();me(t);
   if(state==='await_conf'){if(conf)return readConfirmation({text:t});busy=true;await say(isHotel(t)?"That doesn't look like a hotel reservation yet. Paste the confirmation email text, or tap **+** to attach a screenshot of it":SORRY);busy=false;return}
   if(conf){pending={text:t};return ask()}
   if(!isHotel(t)){busy=true;await say(SORRY);busy=false;return}
-  ask()}
+  // About hotels but not about their price: say what the chat is for first (the user, 22-11-2026)
+  const PRICE_RE=/\b(price|prices|pricing|priced|cheap|cheaper|cheapest|cost|costs|rate|rates|deal|deals|discount|discounts|save|saving|savings|lowest|afford|affordable|budget|expensive|overpaid|paid|pay|beat)\b|[$€£¥]/i;
+  ask(PRICE_RE.test(t)?'':"I'm here to find you the best price for the hotels you already know")}
 async function existing(){if(pending){const p=pending;pending=null;return readConfirmation(p)}
   busy=true;state='await_conf';await say("Great, copypaste or screenshot your existing hotel reservation below");busy=false;
   const w=document.createElement('div');w.className='inl';log.appendChild(w);w.appendChild(bar);document.body.classList.add('inline');
