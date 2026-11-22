@@ -293,8 +293,6 @@ function hash(s){let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))>>>0;return h}
 const COUNTRIES=['New Zealand','India','Mexico','Thailand','Brazil','South Africa','Malaysia','Turkey','Argentina','Indonesia'];
 async function search(){busy=true;const p=booking;
   await say("I’m **preparing** the world’s lowest price from one of 195 countries");
-  await say("Top 5 countries will need simulated bookings, so your final price **includes all taxes & fees**",{logo:false});
-  await sleep(2000);
   const m=document.createElement('div');m.className='msg mapm';m.innerHTML='<div class="card">'+MAP+'<div id="wl"></div></div>';log.appendChild(m);down();
   const wl=m.querySelector('#wl');const short=p.hotel.trim().split(/\s+/).slice(0,4).join(' ');
   const A='<div class="wt">Queued<span class="hn">· '+md(short)+'</span></div><div class="wchip sw">'+CLOCK+'This will take a few minutes</div>';
