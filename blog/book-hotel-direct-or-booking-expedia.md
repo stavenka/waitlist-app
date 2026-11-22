@@ -1,12 +1,13 @@
 # Is it cheaper to book a hotel direct or through Booking or Expedia?
 
-Updated 2026-11-04 by Arbitrica. Canonical: https://arbitrica.com/blog/book-hotel-direct-or-booking-expedia.html
+Updated 2026-11-22 by Arbitrica. Canonical: https://arbitrica.com/blog/book-hotel-direct-or-booking-expedia.html
 
 ## Key takeaways
 - Neither the hotel's own website nor booking sites like Booking, Expedia and Agoda are always lower; it changes by hotel, date and country.
 - In Arbitrica's checks, the hotel's own website was higher than the booking-site price for 2 of 4 hotels and lower for the other 2.
 - Booking sites are often lower because they pay for member discounts themselves (Booking Genius 10-20%, Expedia Member Prices 10% or more, AgodaVIP up to 25%) or sell app-only, package or wholesale rates.
 - Compare the final total with the same room and cancellation conditions, and check the same room from other countries.
+- A 2023 study of 90 hotels in 10 destinations found Booking 31% below the hotels' own websites on average, Agoda 8.9% and Expedia 1%, and booking through a third-party site means no Hilton Honors points or stay credits.
 
 ## Short answer
 Neither is always lower. The same room can carry a lower total on the hotel's own website one day and on Booking, Expedia or Agoda the next, and the country you search from changes the answer again. The only reliable way to know is to check the same room, with the same conditions, on both, and from more than one country. To check this without doing every search by hand, Arbitrica, a personal AI agent, searches the same hotel from 195 countries at checkout and prepares the booking at the lowest price it finds, whoever sells it.
@@ -37,6 +38,21 @@ Checked on each booking site's own pages on November 4, 2026:
 | Taxes and fees shown differently | Nightly rate before taxes on one site, full total on the other. | The final total at the payment step. |
 
 It also works the other way: in Arbitrica's checks the hotel's own website was lower for 2 of 4 hotels, and in Europe Booking can no longer require hotels to keep their own price at or above Booking's. Arbitrica's agent searches the same hotel from 195 countries, whoever sells it, and checks that the room, the conditions and the total match before it prepares the booking.
+
+## Direct vs Booking vs Expedia vs Agoda: what studies found and when each wins
+Outside studies point the same way as Arbitrica's checks: the gap depends on the site. Self collected quotes on 1 July 2023 for 90 hotels, the lowest-priced four-star option in each of 10 destinations from Amsterdam and London to Bangkok and Tokyo, for stays of 21-28 August 2023, with no loyalty schemes, discount codes or member discounts on either side. Booking averaged $115.81 against $158.69 on the hotels' own websites, 31% less. Agoda was 8.9% below direct and Expedia 1% below, a gap of $1.03. Across the booking sites, the average was $18.43 a night less than booking direct. Source: [Self, cost analysis of online travel agencies vs direct](https://www.self.inc/info/cost-analysis-online-travel-agencies-vs-direct/), checked on November 22, 2026.
+
+Points change the sum. Hilton says members who book through a third-party website such as Expedia or Booking won't earn Hilton Honors Points, stay or night credits, or any additional Hilton Honors member benefits, and that changes and cancellations go through the site you booked with (checked on November 22, 2026). Source: [Hilton Help Center](https://www.hilton.com/en/help-center/reservations/third-party-website-booking).
+
+| Factor | Hotel direct | Booking | Expedia | Agoda |
+|---|---|---|---|---|
+| Member discount | Chain member rates, for example Marriott Bonvoy at least 2% lower on weekdays and up to 5% at weekends | Genius 10-20% | Member Prices 10% or more | AgodaVIP up to 25% |
+| Hilton Honors points and stay credits | Yes | No | No | No |
+| Who handles changes and cancellations | The hotel | Booking | Expedia | Agoda |
+| Average gap in the 2023 Self study (no member discounts) | Baseline | 31% below direct | 1% below direct | 8.9% below direct |
+| When it often wins | You collect hotel points, want status benefits, or the hotel matches a lower public price | You have Genius Level 2 or 3 at a participating hotel | Member Prices apply, or you book flight and hotel together with Bundle & Save | An AgodaVIP tier or an app-only rate applies |
+
+No single site wins for every hotel, and the same hotel is often priced differently by country as well: research across 1,000 hotels demonstrated a lower price in 80% of countries, with a typical gap of 20-40%. That is why Arbitrica, a personal AI agent, searches the same hotel from 195 countries, whoever sells it, and checks that the room, the conditions and the final total match before it prepares the booking at the lowest price in the world. For more ways to bring the total down, see [how to get hotels cheaper](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
 ## How to check before you book
 1. Compare the final total with taxes and fees. What each site puts in the first price is explained in [which booking sites guarantee the final price upfront](https://arbitrica.com/blog/which-booking-sites-guarantee-final-price-upfront.html).
@@ -92,4 +108,12 @@ Some hotels and chains match or beat a lower public price for direct bookings, e
 ### Does the country I search from change the price?
 
 Often. Booking sites sell rates agreed for specific markets, so the same room can carry a different total from another country. In Arbitrica's checks, 4 of 10 hotels had a lower total from another country than from the UK.
+
+### Is Booking.com 31% cheaper than booking direct?
+
+On average in one study. Self compared 90 hotels in 10 destinations for stays of 21-28 August 2023 and found Booking averaged 31% below the hotels' own websites, Agoda 8.9% and Expedia 1%, with no member discounts on either side. In Arbitrica's own checks the hotel's website was lower for 2 of 4 hotels, so check the final total for your hotel and dates.
+
+### Do you earn hotel loyalty points when you book through Booking or Expedia?
+
+Usually not. Hilton says members who book through a third-party website such as Expedia or Booking won't earn Hilton Honors Points, stay or night credits, or other member benefits (checked on November 22, 2026). Count the lost points when you weigh a lower booking-site price.
 
