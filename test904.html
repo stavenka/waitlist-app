@@ -212,7 +212,7 @@ async function existing(){if(pending){const p=pending;pending=null;return readCo
   const w=document.createElement('div');w.className='inl';log.appendChild(w);w.appendChild(bar);document.body.classList.add('inline');
   const a=document.createElement('button');a.className='how';a.textContent='How to copypaste or screenshot hotel reservations (15 sec)';a.onclick=showVideo;w.appendChild(a);down();ta.focus()}
 function dockBar(){if(document.body.classList.contains('inline')){document.body.classList.remove('inline');document.getElementById('slotBottom').appendChild(bar);const w=log.querySelector('.inl');if(w)w.remove()}}
-async function newHotel(){state='start';pending=null;await installPrompt("To find you the **world's lowest price** for a new search, you'll need to have Arbitrica extension",'new')}
+async function newHotel(){state='start';pending=null;await installPrompt("To find you the **world's lowest price** in a new search, you'll need to have Arbitrica extension",'new')}
 async function searchLinks(){busy=true;
   await say("You can now start searching for your hotel as usual - on any website",{logo:false});const b=await say("I'll start working on your screen **after you choose the room** — to find the world's lowest price",{logo:false});busy=false;
   const w=document.createElement('div');w.className='links';
