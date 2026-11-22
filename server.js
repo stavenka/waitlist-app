@@ -151,6 +151,40 @@ async function flushAiBotHits() {
 setInterval(flushAiBotHits, 60 * 60 * 1000).unref();
 process.once('SIGTERM', () => { flushAiBotHits().finally(() => process.exit(0)); });
 
+// ── Email open pixel (waitlist interview emails, 22-11-2026) ──
+// /o/<tag>.gif returns a 1x1 transparent GIF and logs the open to the "Email opens" tab of the
+// sign-up sheet: time (UTC), tag (queue number + variant, e.g. 22946-A), mail client hint.
+// No IP is stored. Never blocks or slows the response.
+const PIXEL_GIF = Buffer.from('R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'base64');
+async function logEmailOpen(tag, ua) {
+  try {
+    let credentials = null;
+    if (process.env.GOOGLE_CREDENTIALS_JSON) credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS_JSON);
+    else if (fs.existsSync(getCredentialsPath())) credentials = JSON.parse(fs.readFileSync(getCredentialsPath(), 'utf8'));
+    if (!credentials) return;
+    const auth = new google.auth.GoogleAuth({ credentials, scopes: ['https://www.googleapis.com/auth/spreadsheets'] });
+    const sheets = google.sheets({ version: 'v4', auth });
+    const TAB = 'Email opens';
+    const meta = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
+    const tabs = (meta.data.sheets || []).map(x => x.properties && x.properties.title);
+    if (!tabs.includes(TAB)) {
+      await sheets.spreadsheets.batchUpdate({ spreadsheetId: SPREADSHEET_ID, requestBody: { requests: [{ addSheet: { properties: { title: TAB } } }] } });
+      await sheets.spreadsheets.values.update({ spreadsheetId: SPREADSHEET_ID, range: `'${TAB}'!A1:E1`, valueInputOption: 'RAW', requestBody: { values: [['Opened at (UTC)', 'Queue number', 'Variant', 'Mail client', 'Tag']] } });
+    }
+    const m = /^(\d{4,6})-?([A-Za-z]*)$/.exec(tag) || [];
+    const client = /GoogleImageProxy/i.test(ua) ? 'Gmail' : /YahooMailProxy/i.test(ua) ? 'Yahoo' : /Outlook|Microsoft Office/i.test(ua) ? 'Outlook' : /iPhone|iPad|Macintosh/i.test(ua) ? 'Apple' : (ua ? 'Other' : 'Unknown');
+    await sheets.spreadsheets.values.append({ spreadsheetId: SPREADSHEET_ID, range: `'${TAB}'!A:E`, valueInputOption: 'RAW', insertDataOption: 'INSERT_ROWS', requestBody: { values: [[new Date().toISOString().replace('T', ' ').slice(0, 19), m[1] || '', m[2] || '', client, tag]] } });
+  } catch (e) {
+    console.error('[email-open] log failed:', e.message);
+  }
+}
+app.get('/o/:tag.gif', (req, res) => {
+  res.set({ 'Content-Type': 'image/gif', 'Cache-Control': 'no-store, no-cache, must-revalidate, private', 'Pragma': 'no-cache', 'Expires': '0', 'X-Robots-Tag': 'noindex' });
+  res.send(PIXEL_GIF);
+  const tag = String(req.params.tag || '').slice(0, 40).replace(/[^A-Za-z0-9-]/g, '');
+  if (tag) logEmailOpen(tag, req.get('user-agent') || '');
+});
+
 // ── robots.txt ──
 app.get('/robots.txt', (req, res) => {
   res.type('text/plain');
