@@ -114,6 +114,8 @@ RoomHawk is a reasonable choice for travelers who want to catch drops over time 
 
 For anyone who wants the lowest price on a hotel, in their own country or abroad, Arbitrica finds a larger kind of saving. The search from 195 countries reaches prices a single-country tracker never checks, and covering both the checkout and the time after booking means the lowest price can be found before you pay and again before the free-cancellation window closes. The same mechanisms also apply beyond hotels, to flights, event tickets and online shopping, and they serve companies as well as individual travelers: teams heading to trade shows and conferences, operations managers and travel managers. More on the after-booking side is in [hotel price drops after booking](https://arbitrica.com/blog/hotel-price-drop-after-booking.html) and [what geographic price arbitrage is](https://arbitrica.com/blog/what-is-geographic-price-arbitrage.html).
 
+Looking for a RoomHawk alternative rather than a side-by-side? See [RoomHawk alternative that also checks the price from 195 countries](https://arbitrica.com/blog/roomhawk-alternative.html)
+
 ## Frequently asked questions
 
 ### What does RoomHawk do?

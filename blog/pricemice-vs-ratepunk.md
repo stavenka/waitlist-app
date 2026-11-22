@@ -95,6 +95,8 @@ PriceMice and RatePunk facts checked on November 21, 2026 against their own page
 
 Related: [PriceMice alternative for Expedia, Agoda and every booking site](https://arbitrica.com/blog/pricemice-alternative.html), [RatePunk alternative](https://arbitrica.com/blog/ratepunk-alternative.html) and [Is PriceMice legit?](https://arbitrica.com/blog/is-pricemice-legit.html)
 
+Wondering whether RatePunk can be trusted? See [Is RatePunk legit? RatePunk review: does it work?](https://arbitrica.com/blog/is-ratepunk-legit.html)
+
 ## Frequently asked questions
 
 ### PriceMice vs RatePunk: which is better?

@@ -127,6 +127,8 @@ TipAny post-booking tracker only works on refundable rates. A non-refundable boo
 Pruvo and RoomHawk watch one price over time. The bigger question is what the same hotel costs from other countries.
 Research showed that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
+Looking for a RoomHawk alternative? See [RoomHawk alternative that also checks the price from 195 countries](https://arbitrica.com/blog/roomhawk-alternative.html)
+
 ## Frequently asked questions
 
 ### Is Pruvo still available for travelers?

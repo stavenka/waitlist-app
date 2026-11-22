@@ -122,6 +122,8 @@ How specific agents handle price: [alternative to Meta's Muse](https://arbitrica
 
 Booking inside Google Search? See [Google AI Mode hotel booking: can it find the lowest hotel price?](https://arbitrica.com/blog/google-ai-mode-hotel-booking-alternative.html)
 
+Using Otto the Agent for work trips? See [Alternative to Otto the Agent for finding the best price](https://arbitrica.com/blog/otto-the-agent-alternative.html)
+
 ## Frequently asked questions
 
 ### Can AI book a hotel for me?

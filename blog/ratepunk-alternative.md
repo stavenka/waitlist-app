@@ -124,6 +124,8 @@ Comparison extensions are usually built around one or two categories. Arbitrica'
 
 Weighing RatePunk against PriceMice? See [PriceMice vs RatePunk: which one finds the lower hotel price?](https://arbitrica.com/blog/pricemice-vs-ratepunk.html)
 
+Wondering whether RatePunk itself can be trusted? See [Is RatePunk legit? RatePunk review: does it work?](https://arbitrica.com/blog/is-ratepunk-legit.html)
+
 ## Frequently asked questions
 
 ### What is the best RatePunk alternative?

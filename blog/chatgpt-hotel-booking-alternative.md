@@ -45,6 +45,8 @@ Booking in Google's chat instead? See [Google AI Mode hotel booking: can it find
 
 Asking Perplexity to book or buy instead? See [Alternative to Perplexity for finding the best price](https://arbitrica.com/blog/perplexity-alternative.html)
 
+Booking through Otto the Agent inside ChatGPT? See [Alternative to Otto the Agent for finding the best price](https://arbitrica.com/blog/otto-the-agent-alternative.html)
+
 ## Frequently asked questions
 
 ### Can ChatGPT find cheaper hotels?
