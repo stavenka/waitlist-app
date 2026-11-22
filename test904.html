@@ -18,7 +18,7 @@ main{flex:1;overflow-y:auto;display:flex;flex-direction:column}
 .hc{flex:1;width:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-bottom:16vh}
 .hero h1{font:700 clamp(32px,4.8vw,48px)/1.1 'Space Grotesk',sans-serif;text-align:center;margin:0;letter-spacing:-.01em;max-width:720px}
 .grad{background:linear-gradient(135deg,rgb(214,190,140),rgb(170,136,96));-webkit-background-clip:text;background-clip:text;color:transparent}
-.job{font:500 clamp(16px,1.9vw,19px)/1.4 Inter,sans-serif;text-align:center;margin:0 0 16px;max-width:720px}
+.job{font:400 clamp(15px,1.6vw,17px)/1.4 Inter,sans-serif;text-align:center;margin:0 0 16px;max-width:720px}
 .msg .b{white-space:pre-line}.msg .b .card,.msg .b .chips{white-space:normal}
 .inl{margin:-8px 0 24px}.inl .how{margin:12px 0 0}body.inline .dock{display:none}
 .msg.lgm:not(:first-child){margin-top:66px}
@@ -104,7 +104,7 @@ body.started .dock{display:block}
 @keyframes pulse{50%{opacity:.35}}.pin{animation:pulse 1.6s ease-in-out infinite}
 @media (max-width:640px){.col{padding:8px 16px 24px}.kv{grid-template-columns:96px 1fr;font-size:14.5px}.me .u{max-width:88%}.mail{width:58%;left:12px}.mchat{width:34%;right:12px}}
 .auth{display:flex;gap:8px}.auth button{height:40px;padding:0 18px;border-radius:999px;font:600 15px Inter,sans-serif;cursor:pointer}.auth .li{background:rgb(13,13,13);color:rgb(255,255,255);border:none}.auth .su{background:rgb(255,255,255);color:rgb(13,13,13);border:1px solid rgb(204,204,204)}@media (max-width:420px){.auth button{height:36px;padding:0 13px;font-size:14px}}
-.side{display:flex;flex-direction:column}.svids{margin:auto 0 18px;padding:18px 4px 0;display:flex;flex-direction:column;gap:26px}body.started .svids{display:none}
+.side{display:flex;flex-direction:column}.svids{margin:24px 0 18px;padding:0 4px;display:flex;flex-direction:column;gap:20px}body.started .svids{display:none}
 .svc{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:rgb(0,0,0) center/cover no-repeat;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.1);flex:none}
 .svc .ov{position:absolute;inset:0;background:rgba(6,8,12,.6);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px}
 .svc .lb{font:700 15px/1.25 'Space Grotesk',sans-serif;color:rgba(255,255,255,.94);text-align:center}
@@ -173,14 +173,20 @@ function burst(anchor){const r=anchor.getBoundingClientRect();if(!r.width)return
   for(let i=0;i<13;i++){const s=document.createElement('div');const sz=7+Math.random()*7;s.style.cssText='position:fixed;left:'+ox+'px;top:'+oy+'px;width:'+sz+'px;height:'+sz+'px;pointer-events:none;z-index:99;opacity:0;background:linear-gradient(135deg,rgb(255,215,106),rgb(245,179,1));clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%)';
     const sx=(Math.random()*r.width-r.width/2)*.5,dx=(Math.random()*2-1)*46,dy=-(20+Math.random()*40),rot=(Math.random()*140-70)+'deg';document.body.appendChild(s);
     const a=s.animate([{transform:'translate('+sx+'px,4px) scale(.3) rotate(0deg)',opacity:0},{transform:'translate('+(sx+dx*.5)+'px,'+(dy*.5)+'px) scale(1) rotate('+rot+')',opacity:1,offset:.42},{transform:'translate('+(sx+dx)+'px,'+dy+'px) scale(.55) rotate('+rot+')',opacity:0}],{duration:1200+Math.random()*500,easing:'cubic-bezier(.25,.7,.35,1)',delay:Math.random()*90});a.onfinish=()=>s.remove();setTimeout(()=>s.remove(),2200)}}
-async function typeInto(node,str){for(let i=1;i<=str.length;i++){node.textContent=str.slice(0,i);if(i%20===1)down();await sleep(SPEED)}}
+// Bold, underline and green show while typing, not after (the user, 22-11-2026)
+function richChars(t){const out=[];let f={b:0,u:0,g:0},i=0;while(i<t.length){
+  if(t.startsWith('**',i)){f={...f,b:!f.b};i+=2;continue}if(t.startsWith('[u]',i)){f={...f,u:1};i+=3;continue}if(t.startsWith('[/u]',i)){f={...f,u:0};i+=4;continue}
+  if(t.startsWith('[green]',i)){f={...f,g:1};i+=7;continue}if(t.startsWith('[/green]',i)){f={...f,g:0};i+=8;continue}out.push([t[i],f]);i++}return out}
+function richHtml(cs,n){const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');const wrap=(f,s)=>{let x=esc(s);if(f.u)x='<u>'+x+'</u>';if(f.g)x='<span class="g">'+x+'</span>';if(f.b)x='<b>'+x+'</b>';return x};
+  let h='',cur=null,buf='';for(let i=0;i<n;i++){const [c,f]=cs[i];if(cur&&cur!==f){h+=wrap(cur,buf);buf=''}cur=f;buf+=c}if(cur)h+=wrap(cur,buf);return h}
+async function typeInto(node,str){const cs=richChars(str);for(let i=1;i<=cs.length;i++){node.innerHTML=richHtml(cs,i);if(i%20===1)down();await sleep(SPEED)}}
 async function say(text,{html='',logo=true}={}){const m=document.createElement('div');m.className='msg'+(logo?' lgm':'');m.innerHTML=(logo?'<span class="lg">'+MARK+'</span>':'')+'<div class="b"></div>';log.appendChild(m);const b=m.querySelector('.b');
   const strip=s=>s.replace(/\*\*/g,'').replace(/\[\/?(green|u)\]/g,'');const oi=text.indexOf('[sparkle]');
-  if(oi<0)await typeInto(b,strip(text));
+  if(oi<0)await typeInto(b,text);
   else{const ci=text.indexOf('[/sparkle]');const pre=text.slice(0,oi),name=text.slice(oi+9,ci),post=text.slice(ci+10);
-    await typeInto(b,strip(pre));b.innerHTML=md(pre);const a=document.createElement('span');a.className='sp';b.appendChild(a);
+    await typeInto(b,pre);b.innerHTML=md(pre);const a=document.createElement('span');a.className='sp';b.appendChild(a);
     if(matchMedia('(prefers-reduced-motion: reduce)').matches)a.textContent=name;else{await odometer(a,name);burst(a);await sleep(550)}
-    const t=document.createTextNode('');b.appendChild(t);await typeInto(t,strip(post))}
+    const t=document.createElement('span');b.appendChild(t);await typeInto(t,post)}
   b.innerHTML=md(text)+html;down();return b}
 function me(text,img){start();const m=document.createElement('div');m.className='me';m.innerHTML='<div class="u'+(img?' img':'')+'"></div>';const u=m.querySelector('.u');if(img){const i=document.createElement('img');i.src=img;u.appendChild(i)}else u.textContent=text;log.appendChild(m);down()}
 function chips(list){const b=log.lastElementChild.querySelector('.b');const w=document.createElement('div');w.className='chips';list.forEach(([t,f])=>{const c=document.createElement('button');c.className='chip';c.textContent=t;c.onclick=()=>{w.remove();me(t);f()};w.appendChild(c)});b.appendChild(w);down()}
@@ -206,7 +212,7 @@ async function existing(){if(pending){const p=pending;pending=null;return readCo
 function dockBar(){if(document.body.classList.contains('inline')){document.body.classList.remove('inline');document.getElementById('slotBottom').appendChild(bar);const w=log.querySelector('.inl');if(w)w.remove()}}
 async function newHotel(){state='start';pending=null;await installPrompt("To find you the world's lowest price for a new search, you'll need to have Arbitrica extension",'new')}
 async function searchLinks(){busy=true;
-  const b=await say("You can now start searching for your hotel as usual - on any website.\n**I'll wake up after you choose your room** — to find you the world's lowest price",{logo:false});busy=false;
+  await say("You can now start searching for your hotel as usual - on any website",{logo:false});const b=await say("**I'll wake up after you choose your room** — to find you the **world's lowest price**",{logo:false});busy=false;
   const w=document.createElement('div');w.className='links';
   [['Search your hotel on Booking','https://www.booking.com/'],['Search your hotel on Expedia','https://www.expedia.com/'],['Search your own way','https://www.google.com/']].forEach(([t,u])=>{const a=document.createElement('a');a.className='btn light';a.href=u;a.target='_blank';a.rel='noopener';a.textContent=t;w.appendChild(a)});
   b.appendChild(w);down()}
@@ -295,7 +301,7 @@ async function search(){busy=true;const p=booking;
   await sleep(900);
   await installPrompt("To prepare your world's best price, you'll need to have Arbitrica extension in 2 clicks ([u]it's free[/u])",'existing')}
 async function installPrompt(line,mode){busy=true;await say(line);
-  let b;if(mode==='new'){await say("This will allow me to prepare the booking for you in this browser",{logo:false});b=await say("It takes 3 clicks and is free",{logo:false})}
+  let b;if(mode==='new'){await say("This will allow me to prepare the booking for you in this browser",{logo:false});b=await say("It takes [u]3 clicks and is free[/u]",{logo:false})}
   else b=await say("This will allow me to work in a separate tab in this browser",{logo:false});
   const btn=document.createElement('button');btn.className='btn light';btn.textContent='Continue';b.appendChild(btn);down();busy=false;
   btn.onclick=()=>install(btn,mode)}
@@ -318,6 +324,9 @@ function takeImage(f){if(!f||!/^image\//.test(f.type)||busy)return;const r=new F
 file.onchange=()=>{takeImage(file.files[0]);file.value=''};
 document.addEventListener('paste',e=>{const it=[...((e.clipboardData||{}).items||[])].find(i=>i.type.startsWith('image/'));if(it){e.preventDefault();takeImage(it.getAsFile())}});
 document.addEventListener('dragover',e=>e.preventDefault());document.addEventListener('drop',e=>{e.preventDefault();takeImage(e.dataTransfer.files[0])});
+// Hotel video starts just below the search field (the user, 22-11-2026)
+function placeVids(){const v=document.querySelector('.svids'),bar=document.getElementById('bar');if(!v||!bar||document.body.classList.contains('started'))return;v.style.marginTop='0px';const top=v.getBoundingClientRect().top,want=bar.getBoundingClientRect().bottom+22;v.style.marginTop=Math.max(20,Math.round(want-top))+'px'}
+addEventListener('resize',placeVids);addEventListener('load',placeVids);setTimeout(placeVids,60);
 document.querySelectorAll('.svc').forEach(c=>c.onclick=()=>{if(document.getElementById('arbTheater'))return;const w=document.createElement('div');w.id='arbTheater';w.setAttribute('role','dialog');
   w.innerHTML='<div class="bx"><video controls playsinline preload="auto"></video></div><button class="x" aria-label="Close video"><svg viewBox="0 0 24 24" width="22" height="22" fill="none"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>';
   const v=w.querySelector('video');v.src=c.dataset.v;v.poster=c.dataset.p;document.body.appendChild(w);
