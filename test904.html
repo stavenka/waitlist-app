@@ -104,13 +104,13 @@ body.started .dock{display:block}
 @keyframes pulse{50%{opacity:.35}}.pin{animation:pulse 1.6s ease-in-out infinite}
 @media (max-width:640px){.col{padding:8px 16px 24px}.kv{grid-template-columns:96px 1fr;font-size:14.5px}.me .u{max-width:88%}.mail{width:58%;left:12px}.mchat{width:34%;right:12px}}
 .auth{display:flex;gap:8px}.auth button{height:40px;padding:0 18px;border-radius:999px;font:600 15px Inter,sans-serif;cursor:pointer}.auth .li{background:rgb(13,13,13);color:rgb(255,255,255);border:none}.auth .su{background:rgb(255,255,255);color:rgb(13,13,13);border:1px solid rgb(204,204,204)}@media (max-width:420px){.auth button{height:36px;padding:0 13px;font-size:14px}}
-.svids{margin:22px 0 10px;padding:16px 4px 0;border-top:1px solid rgb(232,232,232);display:flex;flex-direction:column;gap:14px}
-.svc{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:rgb(0,0,0) center/cover no-repeat;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.1)}
+.side{display:flex;flex-direction:column}.svids{margin:auto 0 18px;padding:18px 4px 0;display:flex;flex-direction:column;gap:26px}body.started .svids{display:none}
+.svc{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:rgb(0,0,0) center/cover no-repeat;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.1);flex:none}
 .svc .ov{position:absolute;inset:0;background:rgba(6,8,12,.6);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px}
 .svc .lb{font:700 15px/1.25 'Space Grotesk',sans-serif;color:rgba(255,255,255,.94);text-align:center}
 .svc .pb{width:40px;height:40px;border-radius:50%;background:rgb(255,255,255);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.3)}
 .svc .pb i{width:0;height:0;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:12px solid rgb(168,135,82);margin-left:3px}
-.svc .cs~.ov{padding-top:24px;gap:8px}.svc .cs{position:absolute;left:8px;top:8px;font:600 11px Inter,sans-serif;color:rgb(146,112,12);background:rgb(254,243,199);border-radius:999px;padding:3px 9px;z-index:2}
+.svc .cs~.ov{padding-top:12px}.svc .cs{position:absolute;left:6px;top:6px;font:600 9px/1.2 Inter,sans-serif;color:rgb(146,112,12);background:rgb(254,243,199);border-radius:999px;padding:2px 6px;z-index:2}
 #arbTheater{position:fixed;inset:0;z-index:2147483000;display:flex;align-items:center;justify-content:center;padding:64px 24px 24px;background:rgba(6,8,12,.88);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);animation:in .22s ease-out both}
 #arbTheater .bx{width:min(100%,calc((100vh - 96px)*16/9),1600px);aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:rgb(0,0,0);box-shadow:0 30px 90px rgba(0,0,0,.55)}
 #arbTheater video{width:100%;height:100%;display:block;object-fit:contain;background:rgb(0,0,0)}
@@ -190,7 +190,7 @@ const GENERIC=/\b(booking|booked|book|reservation|reserved|nights?|expedia|trip\
 function isHotel(t){return HOTEL_RE.test(t)||(GENERIC.test(t)&&!NON_HOTEL.test(t))}
 const SORRY="Sorry, I only work on international hotels now (Amazon and events tickets are coming soon!). Ask me to find you the world's best price for any hotel";
 function looksLikeConfirmation(t){return /check.?in/i.test(t)&&/check.?out/i.test(t)}
-async function ask(){busy=true;state='choose';await say("Do you have an existing hotel reservation, so I can try to beat your paid price?\nOr you want to start a new hotel search?");busy=false;
+async function ask(){busy=true;state='choose';await say("Do you have an existing hotel reservation, so I can try to beat your paid price?");await say("Or you want to start a new hotel search?",{logo:false});busy=false;
   chips([["Existing reservation",existing],["New hotel",newHotel]])}
 async function onText(t){if(busy)return;dockBar();me(t);
   if(state==='await_yes'&&/^\s*yes\b/i.test(t))return yes();
@@ -204,9 +204,9 @@ async function existing(){if(pending){const p=pending;pending=null;return readCo
   const w=document.createElement('div');w.className='inl';log.appendChild(w);w.appendChild(bar);document.body.classList.add('inline');
   const a=document.createElement('button');a.className='how';a.textContent='Show me how to insert hotel reservations (15 sec)';a.onclick=showVideo;w.appendChild(a);down();ta.focus()}
 function dockBar(){if(document.body.classList.contains('inline')){document.body.classList.remove('inline');document.getElementById('slotBottom').appendChild(bar);const w=log.querySelector('.inl');if(w)w.remove()}}
-async function newHotel(){state='start';pending=null;await installPrompt("To find you the world's lowest price for a new search, you'll need to install the Arbitrica extension",'new')}
+async function newHotel(){state='start';pending=null;await installPrompt("To find you the world's lowest price for a new search, you'll need to have Arbitrica extension",'new')}
 async function searchLinks(){busy=true;
-  const b=await say("You can now start searching for your hotel as usual - on any website. I'll wake up after you choose your room - to find you the world's lowest price",{logo:false});busy=false;
+  const b=await say("You can now start searching for your hotel as usual - on any website.\n**I'll wake up after you choose your room** — to find you the world's lowest price",{logo:false});busy=false;
   const w=document.createElement('div');w.className='links';
   [['Search your hotel on Booking','https://www.booking.com/'],['Search your hotel on Expedia','https://www.expedia.com/'],['Search your own way','https://www.google.com/']].forEach(([t,u])=>{const a=document.createElement('a');a.className='btn light';a.href=u;a.target='_blank';a.rel='noopener';a.textContent=t;w.appendChild(a)});
   b.appendChild(w);down()}
@@ -293,9 +293,10 @@ async function search(){busy=true;const p=booking;
   await say("Same hotel. Same room. Same extras you chose. **Better price.**",{logo:false});
   if(total)await say(diff<25?"**[green]"+pct+"%[/green]** better than your price, **[green]"+cur+fmt(diff)+"[/green]** off":"**[green]"+cur+fmt(diff)+"[/green]** better than your price, **[green]"+pct+"%[/green]** off",{logo:false});
   await sleep(900);
-  await installPrompt("To prepare your world's best price, you'll need to install Arbitrica extension in 2 clicks ([u]it's free[/u])",'existing')}
+  await installPrompt("To prepare your world's best price, you'll need to have Arbitrica extension in 2 clicks ([u]it's free[/u])",'existing')}
 async function installPrompt(line,mode){busy=true;await say(line);
-  const b=await say("This will allow me to work in a separate tab in this browser",{logo:false});
+  let b;if(mode==='new'){await say("This will allow me to prepare the booking for you in this browser",{logo:false});b=await say("It takes 3 clicks and is free",{logo:false})}
+  else b=await say("This will allow me to work in a separate tab in this browser",{logo:false});
   const btn=document.createElement('button');btn.className='btn light';btn.textContent='Continue';b.appendChild(btn);down();busy=false;
   btn.onclick=()=>install(btn,mode)}
 async function install(btn,mode){if(btn.dataset.done)return;btn.dataset.done=1;btn.disabled=true;btn.style.opacity='.6';
