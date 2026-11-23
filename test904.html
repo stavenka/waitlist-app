@@ -213,7 +213,7 @@ async function onText(t){if(busy)return;dockBar();me(t);
   const PRICE_RE=/\b(price|prices|pricing|priced|cheap|cheaper|cheapest|cost|costs|rate|rates|deal|deals|discount|discounts|save|saving|savings|lowest|afford|affordable|budget|expensive|overpaid|paid|pay|beat)\b|[$€£¥]/i;
   ask(PRICE_RE.test(t)?'':"I can only help when your hotel, dates and other details are already selected. Then I find the lowest possible price for exactly the same")}
 async function existing(){if(pending){const p=pending;pending=null;return readConfirmation(p)}
-  busy=true;state='await_conf';await say("Great, copypaste or screenshot your existing hotel reservation below");busy=false;
+  busy=true;state='await_conf';await say("Great, copypaste or screenshot your existing hotel reservation below");await say("Please ensure all details of your reservations are included",{logo:false});busy=false;
   const w=document.createElement('div');w.className='inl';log.appendChild(w);w.appendChild(bar);document.body.classList.add('inline');
   const a=document.createElement('button');a.className='how';a.textContent='How to copypaste or screenshot hotel reservations (15 sec)';a.onclick=showVideo;w.appendChild(a);down();ta.focus()}
 function dockBar(){if(document.body.classList.contains('inline')){document.body.classList.remove('inline');document.getElementById('slotBottom').appendChild(bar);const w=log.querySelector('.inl');if(w)w.remove()}}
