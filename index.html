@@ -821,6 +821,11 @@
        The variant script removes this rule by setting [data-arbitrica-variant] on <html>. */
     html:not([data-arbitrica-variant]) h1.hero-h1,
     html:not([data-arbitrica-variant]) p.hero-p { visibility: hidden; }
+    .cws-btn { display: flex; align-items: center; justify-content: center; text-decoration: none; padding: 1.05rem 1rem; font-size: 1.1rem; border-radius: 999px !important; box-sizing: border-box; }
+    .cws-rate { display: flex; align-items: center; justify-content: center; gap: 0.7rem; margin-top: 0.9rem; font-size: 0.95rem; font-weight: 600; color: hsl(220 10% 82%); }
+    .cws-stars { display: inline-flex; gap: 3px; }
+    .cws-rate span:last-child { white-space: nowrap; }
+    @media (max-width: 480px) { .cws-rate { font-size: 0.82rem; gap: 0.5rem; } .cws-stars svg { width: 15px; height: 15px; } }
   </style>
 </head>
 <body>
@@ -868,24 +873,8 @@
         <!-- #11: new sub-message -->
         <p class="hero-p">There&rsquo;re hidden prices for everything online.<br>This AI searches from <span class="hero-highlight">195 countries</span> and<br class="br-desk"> finds the <span class="hero-highlight">lowest price that exists on Earth</span></p>
 
-        <!-- #6: unified pill CTA, #5: placeholder is just "Enter your email" -->
-        <form class="cta-pill" id="waitlistForm" action="javascript:void(0)" onsubmit="arbitricaClaim(); return false;">
-          <input class="cta-email" type="email" name="email" id="waitlistEmail"
-                 placeholder="Enter email for waitlist"
-                 required aria-label="Email address">
-          <!-- Honeypot anti-spam field — invisible to humans, irresistible to bots.
-               If filled in, arbitricaClaim() silently fakes success without saving. -->
-          <input type="text" name="company_website" id="waitlistHoney"
-                 tabindex="-1" autocomplete="off" aria-hidden="true"
-                 style="position:absolute; left:-9999px; top:-9999px; height:0; width:0; opacity:0; pointer-events:none;">
-          <button type="button" class="btn-claim" id="waitlistSubmitBtn" onclick="arbitricaClaim()">
-            Claim for free
-          </button>
-        </form>
-
-        <!-- #3: only one trust item remains, #4: renamed -->
-        <!-- "Free for the first 25,000 people" (the user, 28-10-2026), replacing the two stats -->
-        <div class="free-pill"><span class="free-tag"><span class="free-dot"></span><span class="free-tag-t">Limited</span></span><span class="free-txt">Free for the first <b class="free-num">25,000 people</b></span></div>
+        <!-- "Add to Chrome - it's free" replaces the waitlist form and the 25,000 pill (the user, 23-11-2026) -->
+        <div class="cta-pill cws-wrap"><a class="btn-claim cws-btn" href="https://chromewebstore.google.com/detail/arbitrica/mmohljpopfbafdcmmanphdcjiimgcbap" target="_blank" rel="noopener">Add to Chrome - It's free</a><div class="cws-rate"><span class="cws-stars"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z" fill="#D9C49D"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z" fill="#D9C49D"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z" fill="#D9C49D"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z" fill="#D9C49D"/></svg><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z" fill="#D9C49D"/></svg></span><span>5-star rated on Google Chrome Store</span></div></div>
 
       </div>
 
