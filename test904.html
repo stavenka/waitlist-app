@@ -219,7 +219,7 @@ async function existing(){if(pending){const p=pending;pending=null;return readCo
 function dockBar(){if(document.body.classList.contains('inline')){document.body.classList.remove('inline');document.getElementById('slotBottom').appendChild(bar);const w=log.querySelector('.inl');if(w)w.remove()}}
 async function newHotel(){state='start';pending=null;await installPrompt("To find you the **world's lowest price** in a new search, you'll need to have Arbitrica extension",'new')}
 async function searchLinks(){busy=true;
-  await say("Just search and select your hotel as usual — on any website",{logo:false});const b=await say("Choose the exact room, and on the next page I'll find the lowest price for it from 195 countries",{logo:false});busy=false;
+  await say("Just search and select your hotel as usual — on any website",{logo:false});const b=await say("[u]Choose the exact room[/u], and on the next page I'll find the lowest price from 195 countries",{logo:false});busy=false;
   const w=document.createElement('div');w.className='links';
   [['Search your hotel on Booking','https://www.booking.com/'],['Search your hotel on Expedia','https://www.expedia.com/'],['Search your own way','https://www.google.com/']].forEach(([t,u])=>{const a=document.createElement('a');a.className='btn light';a.href=u;a.target='_blank';a.rel='noopener';a.textContent=t;w.appendChild(a)});
   b.appendChild(w);document.body.classList.add('over');down()}
@@ -325,7 +325,7 @@ async function install(btn,mode){if(btn.dataset.done)return;btn.dataset.done=1;b
   const t0=Date.now();window.open(CWS_URL,'_blank');await sleep(300);
   // The store page sends Cross-Origin-Opener-Policy, so this page cannot close it: the chat goes on when the user is back on this tab, 5 s or more after it opened.
   await new Promise(r=>{const iv=setInterval(()=>{if(document.visibilityState==='visible'&&Date.now()-t0>=5000){clearInterval(iv);r()}},400)});
-  busy=true;await say("Great, you added Arbitrica extension and I now have everything I need to continue");
+  busy=true;await say("Great, you added Arbitrica extension and I now have everything I need");
   if(mode==='new'){busy=false;return searchLinks()}
   const b=await say("Say 'YES' and I will prepare the world's lowest price for **"+booking.hotel+"**",{logo:false});
   const y=document.createElement('button');y.className='btn';y.id='yesbtn';y.textContent='YES';y.onclick=()=>{me('YES');yes()};const yw=document.createElement('div');yw.style.cssText='display:flex;gap:12px;flex-wrap:wrap';const yc=document.createElement('button');yc.className='btn light';yc.textContent='Close chat';yc.onclick=()=>location.reload();yw.appendChild(y);yw.appendChild(yc);b.appendChild(yw);document.body.classList.add('over');down();state='await_yes';busy=false}
