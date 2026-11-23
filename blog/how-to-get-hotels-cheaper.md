@@ -158,6 +158,8 @@ Booking on Agoda? See the [Agoda alternative that finds the lowest hotel price i
 
 Full numbers: [Hotel geo-pricing report 2026](https://arbitrica.com/research/geo-pricing-report-2026/), two studies of the same hotels searched from 100 countries, with tables by search country and region.
 
+Starting your search on trivago? See the [Trivago alternative for the lowest hotel price in the world](https://arbitrica.com/blog/trivago-alternative.html).
+
 ## Frequently asked questions
 
 ### How do I get hotels cheaper?

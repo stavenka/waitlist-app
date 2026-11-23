@@ -69,6 +69,8 @@ RoomHawk facts checked on November 22, 2026 against its site and Trustpilot, lin
 
 Related: [Arbitrica vs. RoomHawk](https://arbitrica.com/blog/arbitrica-vs-roomhawk.html), [Pruvo vs RoomHawk](https://arbitrica.com/blog/pruvo-vs-roomhawk.html) and [Gondola alternative](https://arbitrica.com/blog/gondola-alternative.html).
 
+Want the rebooking done for you? See the [StaySaavy alternative that also searches the same hotel from 195 countries](https://arbitrica.com/blog/staysaavy-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a good RoomHawk alternative?

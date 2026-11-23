@@ -69,6 +69,8 @@ Related: [Underbook alternative](https://arbitrica.com/blog/underbook-alternativ
 
 Weighing a membership service instead? See the [HotelSlash alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/hotelslash-alternative.html).
 
+Using a web-based tracker instead? See the [HotelPriceTracker alternative that also checks the price from 195 countries](https://arbitrica.com/blog/hotelpricetracker-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a good Rate Ranger alternative?

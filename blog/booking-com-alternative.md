@@ -79,6 +79,8 @@ Booking, Expedia and Agoda each show their own rates for your search. Arbitrica 
 
 Booking on Priceline? See the [Priceline alternative that finds the lowest hotel price in the world](https://arbitrica.com/blog/priceline-alternative.html).
 
+Searching on trivago first? See the [Trivago alternative for the lowest hotel price in the world](https://arbitrica.com/blog/trivago-alternative.html).
+
 ## Frequently asked questions
 
 ### What is the best alternative to Booking.com for the lowest hotel price?

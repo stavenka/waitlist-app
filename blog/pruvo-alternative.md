@@ -36,6 +36,8 @@ Already using Rate Ranger? See the [Rate Ranger alternative that also checks the
 
 Looking at Gondola's automatic rebooking? See the [Gondola alternative that also searches the same hotel from 195 countries](https://arbitrica.com/blog/gondola-alternative.html).
 
+Comparing automatic rebooking services? See the [StaySaavy alternative that also searches the same hotel from 195 countries](https://arbitrica.com/blog/staysaavy-alternative.html).
+
 ## Frequently asked questions
 
 ### Is Pruvo still working?
