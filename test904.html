@@ -38,7 +38,7 @@ body.started .ph,.ph.off{display:none}
 .ib.send{background:var(--fg);color:rgb(255,255,255)}
 .how{display:block;margin:14px auto 0;background:none;border:none;color:var(--blue);font:500 14px Inter,sans-serif;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 .dock{display:none;padding:10px 16px 16px;background:rgb(255,255,255)}
-body.started .dock{display:block}body.over .dock{display:none}
+body.started .dock{display:block}body.over .dock,body.nofield .dock{display:none}
 .dock .wrapc{margin:0 auto}
 .msg{margin:0 0 22px;animation:in .35s ease-out}
 .msg .b{font-size:16px;line-height:1.7}
@@ -202,7 +202,7 @@ function isHotel(t){return HOTEL_RE.test(t)||(GENERIC.test(t)&&!NON_HOTEL.test(t
 const SORRY="I only work on hotels now (Amazon and events tickets are coming soon!). Ask me to find you the world's best price for any hotel";
 function looksLikeConfirmation(t){return /check.?in/i.test(t)&&/check.?out/i.test(t)}
 async function ask(pre){busy=true;state='choose';if(pre)await say(pre);await say("Do you have an existing hotel reservation, so I can try to beat your paid price?",{logo:!pre});await say("Or you want to start a new hotel search?",{logo:false});busy=false;
-  chips([["Existing reservation",existing],["New hotel",newHotel]])}
+  document.body.classList.add('nofield');chips([["Existing reservation",()=>{document.body.classList.remove('nofield');existing()}],["New hotel",()=>{document.body.classList.remove('nofield');newHotel()}]])}
 async function onText(t){if(busy)return;dockBar();me(t);
   if(state==='await_yes'&&/^\s*yes\b/i.test(t))return yes();
   const conf=looksLikeConfirmation(t);
