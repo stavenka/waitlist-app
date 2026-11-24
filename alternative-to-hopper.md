@@ -98,6 +98,8 @@ We are not aware of another product that combines a search from 195 countries at
 
 **Short answer:** There is nothing to migrate. Hopper is an app with its own booking flow; Arbitrica is a personal AI agent that lives in your browser and appears as soon as you choose a hotel room on the web. Keep Hopper on your phone for flight predictions if you like them. The two do not conflict.
 
+Thinking of a hotel Price Freeze? Read [Is Hopper Price Freeze worth it for hotels?](https://arbitrica.com/blog/is-hopper-price-freeze-worth-it.html)
+
 ## Frequently asked questions
 
 ### Will I lose my Hopper Carrot Cash if I use Arbitrica?
