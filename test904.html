@@ -329,7 +329,7 @@ async function mobilePrompt(){busy=true;document.body.classList.add('nofield');
 const NO_CHROME=!IS_MOBILE&&!/Chrome\/|Chromium\//.test(navigator.userAgent);
 const BROWSER_NAME=/Firefox\//.test(navigator.userAgent)?'Firefox':/Safari\//.test(navigator.userAgent)?'Safari':'';
 async function browserPrompt(){busy=true;document.body.classList.add('nofield');
-  await say(BROWSER_NAME?"I noticed you're talking to me from "+BROWSER_NAME+" browser":"I noticed you're talking to me from a browser other than Google Chrome");
+  await say(BROWSER_NAME?"I noticed you're talking to me from "+BROWSER_NAME+" browser":"I noticed you're talking to me from a browser I don't recognise");
   await say("To receive your world's best price, you'll need me in Google Chrome ([u]it's free[/u])",{logo:false});
   const b=await say("Here's the [u]link to Google Chrome store[/u] to install me. Just open it in Chrome",{logo:false});
   b.querySelectorAll('u').forEach(u=>{if(u.textContent==='link to Google Chrome store'){const a=document.createElement('a');a.href=CWS_URL;a.target='_blank';a.rel='noopener';a.style.color='inherit';u.replaceWith(a);a.appendChild(u)}});
