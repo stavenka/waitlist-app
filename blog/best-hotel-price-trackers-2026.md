@@ -198,6 +198,8 @@ Related: [Best VPN for hotel booking and Booking.com: what actually matters](htt
 
 Looking at hotelpricetracker.io? See the [HotelPriceTracker alternative that also checks the price from 195 countries](https://arbitrica.com/blog/hotelpricetracker-alternative.html).
 
+Using Google Hotels price tracking? See the [Google Hotels price tracking alternative that also checks 195 countries](https://arbitrica.com/blog/google-hotels-price-tracking-alternative.html).
+
 ## Frequently asked questions
 
 ### Is there something like PriceMice that works for Expedia, Agoda and every other booking site?

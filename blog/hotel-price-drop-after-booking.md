@@ -153,6 +153,8 @@ Using an alert tool? See the [Rate Ranger alternative that also checks the price
 
 Related: [How to get hotels cheaper: 15 ways that work in 2026](https://arbitrica.com/blog/how-to-get-hotels-cheaper.html).
 
+Thinking of freezing a hotel price instead? Read [Is Hopper Price Freeze worth it for hotels?](https://arbitrica.com/blog/is-hopper-price-freeze-worth-it.html)
+
 ## Frequently asked questions
 
 ### Is there a tool that rebooks my hotel when the price drops after booking?

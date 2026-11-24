@@ -68,6 +68,8 @@ More on how AI agents handle price: [AI hotel booking: what AI agents actually d
 
 Booking or shopping in Perplexity instead? See [Alternative to Perplexity for finding the best price](https://arbitrica.com/blog/perplexity-alternative.html)
 
+Tracking a hotel in Google Hotels instead? See the [Google Hotels price tracking alternative that also checks 195 countries](https://arbitrica.com/blog/google-hotels-price-tracking-alternative.html).
+
 ## Frequently asked questions
 
 ### Can Google AI Mode find the lowest hotel price?

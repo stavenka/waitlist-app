@@ -112,6 +112,8 @@ Companies get the same benefit at scale. Travel managers and operations managers
 
 Research demonstrated that people earn on average $47 per hotel booking with Arbitrica, and up to $3,000 a year.
 
+Tracking hotels with KAYAK? See the [Kayak hotel price alerts alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/kayak-hotel-price-alerts-alternative.html).
+
 ## Frequently asked questions
 
 ### Can I track a Booking.com hotel price?

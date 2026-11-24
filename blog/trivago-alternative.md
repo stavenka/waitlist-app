@@ -67,6 +67,8 @@ trivago facts checked on November 23, 2026 against its site and its third-quarte
 
 Related: [Booking.com alternative](https://arbitrica.com/blog/booking-com-alternative.html), [Expedia alternative](https://arbitrica.com/blog/expedia-alternative.html) and [Priceline alternative](https://arbitrica.com/blog/priceline-alternative.html).
 
+Using KAYAK price alerts? See the [Kayak hotel price alerts alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/kayak-hotel-price-alerts-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a good trivago alternative?
