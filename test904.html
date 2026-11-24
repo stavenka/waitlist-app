@@ -314,7 +314,17 @@ async function search(){busy=true;const p=booking;
   if(total)await say(diff<25?"**[green]"+pct+"%[/green]** better than your price, **[green]"+cur+fmt(diff)+"[/green]** off":"**[green]"+cur+fmt(diff)+"[/green]** better than your price, **[green]"+pct+"%[/green]** off",{logo:false});
   await sleep(900);
   await installPrompt("To prepare your world's best price, you'll need to have Arbitrica extension in 2 clicks ([u]it's free[/u])",'existing')}
-async function installPrompt(line,mode){busy=true;document.body.classList.add('nofield');const m1=await say(line);
+// Phones and tablets (the user, 24-11-2026): the extension can't be installed there, so the chat offers the store link and to
+// email it for later. "Email me the link" does nothing for now: the sending (to the email the user signed up with, from
+// server.js) comes later (the user, 24-11-2026).
+const IS_MOBILE=!!(navigator.userAgentData&&navigator.userAgentData.mobile)||/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent)||(/Macintosh/.test(navigator.userAgent)&&navigator.maxTouchPoints>1);
+async function mobilePrompt(){busy=true;document.body.classList.add('nofield');
+  await say("I noticed you're talking to me from your mobile phone");
+  await say("To prepare your world's best price, you'll need me on **your computer** ([u]it's free[/u])",{logo:false});
+  const b=await say("Here's the [u]link to Google Chrome store[/u] to install me. I can also email it to you, so you conveniently continue from your computer later",{logo:false});
+  b.querySelectorAll('u').forEach(u=>{if(u.textContent==='link to Google Chrome store'){const a=document.createElement('a');a.href=CWS_URL;a.target='_blank';a.rel='noopener';a.style.color='inherit';u.replaceWith(a);a.appendChild(u)}});
+  const btn=document.createElement('button');btn.className='btn light';btn.textContent='Email me the link';b.appendChild(btn);down();busy=false}
+async function installPrompt(line,mode){if(IS_MOBILE)return mobilePrompt();busy=true;document.body.classList.add('nofield');const m1=await say(line);
   let b;if(mode==='new'){await say("This will allow me to prepare the booking for you in this browser",{logo:false});b=await say("It takes [u]3 clicks[/u] and [u]is free[/u]",{logo:false})}
   else b=await say("This will allow me to work in a separate tab in this browser",{logo:false});
   const btn=document.createElement('button');btn.className='btn light';btn.textContent='Continue';b.appendChild(btn);down();busy=false;
