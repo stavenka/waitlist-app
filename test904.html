@@ -314,7 +314,7 @@ async function search(){busy=true;const p=booking;
   if(total)await say(diff<25?"**[green]"+pct+"%[/green]** better than your price, **[green]"+cur+fmt(diff)+"[/green]** off":"**[green]"+cur+fmt(diff)+"[/green]** better than your price, **[green]"+pct+"%[/green]** off",{logo:false});
   await sleep(900);
   await installPrompt("To prepare your world's best price, you'll need to have Arbitrica extension in 2 clicks ([u]it's free[/u])",'existing')}
-async function installPrompt(line,mode){busy=true;const m1=await say(line);
+async function installPrompt(line,mode){busy=true;document.body.classList.add('nofield');const m1=await say(line);
   let b;if(mode==='new'){await say("This will allow me to prepare the booking for you in this browser",{logo:false});b=await say("It takes [u]3 clicks[/u] and [u]is free[/u]",{logo:false})}
   else b=await say("This will allow me to work in a separate tab in this browser",{logo:false});
   const btn=document.createElement('button');btn.className='btn light';btn.textContent='Continue';b.appendChild(btn);down();busy=false;
