@@ -320,11 +320,21 @@ async function search(){busy=true;const p=booking;
 const IS_MOBILE=!!(navigator.userAgentData&&navigator.userAgentData.mobile)||/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent)||(/Macintosh/.test(navigator.userAgent)&&navigator.maxTouchPoints>1);
 async function mobilePrompt(){busy=true;document.body.classList.add('nofield');
   await say("I noticed you're talking to me from your mobile");
-  await say("To prepare your world's best price, you'll need me on **your computer** ([u]it's free[/u])",{logo:false});
+  await say("To receive your world's best price, you'll need me on **your computer** ([u]it's free[/u])",{logo:false});
   const b=await say("Here's the [u]link to Google Chrome store[/u] to install me. I can also email it to you - to conveniently continue from your computer later",{logo:false});
   b.querySelectorAll('u').forEach(u=>{if(u.textContent==='link to Google Chrome store'){const a=document.createElement('a');a.href=CWS_URL;a.target='_blank';a.rel='noopener';a.style.color='inherit';u.replaceWith(a);a.appendChild(u)}});
   const btn=document.createElement('button');btn.className='btn light';btn.textContent='Email me the link';b.appendChild(btn);down();busy=false}
-async function installPrompt(line,mode){if(IS_MOBILE)return mobilePrompt();busy=true;document.body.classList.add('nofield');const m1=await say(line);
+// Desktop browsers that can't install Chrome extensions (the user, 24-11-2026): Safari, Firefox and others. Chrome, Edge,
+// Brave and Opera all carry "Chrome/" in their user agent and keep the usual install step; phones get mobilePrompt.
+const NO_CHROME=!IS_MOBILE&&!/Chrome\/|Chromium\//.test(navigator.userAgent);
+const BROWSER_NAME=/Firefox\//.test(navigator.userAgent)?'Firefox':/Safari\//.test(navigator.userAgent)?'Safari':'';
+async function browserPrompt(){busy=true;document.body.classList.add('nofield');
+  await say(BROWSER_NAME?"I noticed you're talking to me from "+BROWSER_NAME+" browser":"I noticed you're talking to me from a browser other than Google Chrome");
+  await say("To receive your world's best price, you'll need me in Google Chrome ([u]it's free[/u])",{logo:false});
+  const b=await say("Here's the [u]link to Google Chrome store[/u] to install me. Just open it in Chrome",{logo:false});
+  b.querySelectorAll('u').forEach(u=>{if(u.textContent==='link to Google Chrome store'){const a=document.createElement('a');a.href=CWS_URL;a.target='_blank';a.rel='noopener';a.style.color='inherit';u.replaceWith(a);a.appendChild(u)}});
+  down();busy=false}
+async function installPrompt(line,mode){if(IS_MOBILE)return mobilePrompt();if(NO_CHROME)return browserPrompt();busy=true;document.body.classList.add('nofield');const m1=await say(line);
   let b;if(mode==='new'){await say("This will allow me to prepare the booking for you in this browser",{logo:false});b=await say("It takes [u]3 clicks[/u] and [u]is free[/u]",{logo:false})}
   else b=await say("This will allow me to work in a separate tab in this browser",{logo:false});
   const btn=document.createElement('button');btn.className='btn light';btn.textContent='Continue';b.appendChild(btn);down();busy=false;
