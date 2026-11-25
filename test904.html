@@ -326,7 +326,7 @@ async function readConfirmation({text,img}){busy=true;state='reading';
   await say("Here is what you were booking",{html:'<div class="card kv">'+rows.map(([k,v])=>'<div>'+k+'</div><div>'+md(String(v))+'</div>').join('')+'</div>'});
   // Non-refundable reservation: warn and ask before searching (the user, 22-11-2026)
   if(/non[\s-]?refundable|not refundable|no refunds?\b|non[\s-]?cancell?able|cannot be cancell?ed|no free cancellation/i.test(t)){
-    busy=true;await sleep(600);await say("Your reservation is non-refundable. This means that, when I find you the world's lowest price, you might be unable to re-book for free\nStill want to continue?");busy=false;
+    busy=true;await sleep(600);await say("Your reservation looks non-refundable. This means that, when I find you the world's lowest price, you might be unable to re-book for free");await say("Do you want to continue anyway?",{logo:false});busy=false;
     chips([["Yes",()=>{search()}],["End chat",()=>{location.reload()}]]);return}
   await sleep(1000);search()}
 function fmt(n){return n.toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2})}
