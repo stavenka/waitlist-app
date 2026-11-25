@@ -205,11 +205,36 @@ async function saySorry(){await say(SORRY);await say("Give me a job to find you 
 function looksLikeConfirmation(t){return /check.?in/i.test(t)&&/check.?out/i.test(t)}
 async function ask(pre){busy=true;state='choose';if(pre)await say(pre);await say("Do you have an existing hotel reservation, so I can try to beat your paid price?",{logo:!pre});await say("Or you want to start a new hotel search?",{logo:false});busy=false;
   document.body.classList.add('nofield');chips([["Existing reservation",()=>{document.body.classList.remove('nofield');existing()}],["New hotel",()=>{document.body.classList.remove('nofield');newHotel()}]])}
+// Hotel names (the user, 24-11-2026): ~1.6M names from the user's database, split into /hotel-db/h00-h99.txt by a hash of the
+// whole name, with a Bloom filter (bloom.bin) over all of them so a message's word runs can be checked without loading the lists.
+const HDB='/hotel-db/',HGEN=new Set('hotel hotels motel inn hostel guest house guesthouse guests apartment apartments apartamento room rooms suite suites resort lodge villa villas the a and b bed breakfast bnb homestay home stay cabin cabins cottage chalet camping camp hut'.split(' '));
+let HBLOOM=null,HCOMMON=null,hLoading=null;const HSHARD={};
+const hkey=s=>s.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}_]+/gu,' ').trim().replace(/\s+/g,' ');
+const hfnv=(s,h)=>{for(const b of new TextEncoder().encode(s)){h^=b;h=Math.imul(h,0x01000193)>>>0}return h};
+function loadHdb(){return hLoading||(hLoading=Promise.all([fetch(HDB+'bloom.bin').then(r=>{if(!r.ok)throw 0;return r.arrayBuffer()}),fetch(HDB+'common.txt').then(r=>r.text())]).then(([b,c])=>{HBLOOM=new Uint8Array(b);HCOMMON=new Set(c.split('\n'))}).catch(()=>{hLoading=null}))}
+function inBloom(k){const m=BigInt(HBLOOM.length*8),h1=BigInt(hfnv(k,0x811c9dc5)),h2=BigInt((hfnv(k,0x9747b28c)|1)>>>0);for(let i=0n;i<10n;i++){const j=Number((h1+i*h2)%m);if(!(HBLOOM[j>>3]&(1<<(j&7))))return false}return true}
+async function hShard(k){const i=String(hfnv(k,0x811c9dc5)%100).padStart(2,'0');if(!HSHARD[i])HSHARD[i]=fetch(HDB+'h'+i+'.txt').then(r=>r.text()).then(t=>{const m=new Map();t.split('\n').forEach(n=>{if(n)m.set(hkey(n),n)});return m}).catch(()=>new Map());return (await HSHARD[i]).get(k)}
+// The longest run of up to 6 words that is a hotel name. A run made only of common English words (e.g. "my hotel",
+// "best price") counts only when every word is capitalised, as in "Double Tree".
+async function findHotel(t){await loadHdb();if(!HBLOOM)return null;
+  const w=t.normalize('NFKC').split(/[^\p{L}\p{N}_]+/u).filter(Boolean);
+  for(let n=Math.min(6,w.length);n>=1;n--)for(let i=0;i+n<=w.length;i++){const run=w.slice(i,i+n),low=run.map(x=>x.toLowerCase());
+    if(low.every(x=>HGEN.has(x)))continue;
+    if(low.every(x=>HCOMMON.has(x)||HGEN.has(x))&&!run.every(x=>/^\p{Lu}/u.test(x)))continue;
+    const k=low.join(' ');if(!inBloom(k))continue;const name=await hShard(k);if(name)return name}
+  return null}
+async function askHotel(h){busy=true;state='choose';
+  await say("I can only help with **"+h+"** when your dates, number of guests and other details are already selected");
+  await say("Then I find the lowest possible price for exactly the same",{logo:false});
+  await say("Do you have an existing reservation for **"+h+"**, so I can try to beat your paid price?",{logo:false});
+  await say("Or you want to start a new search for other dates at **"+h+"**?",{logo:false});busy=false;
+  document.body.classList.add('nofield');chips([["Existing reservation",()=>{document.body.classList.remove('nofield');existing()}],["New hotel",()=>{document.body.classList.remove('nofield');newHotel()}]])}
 async function onText(t){if(busy)return;dockBar();me(t);
   if(state==='await_yes'&&/^\s*yes\b/i.test(t))return yes();
   const conf=looksLikeConfirmation(t);
   if(state==='await_conf'){if(conf)return readConfirmation({text:t});busy=true;if(isHotel(t))await say("That doesn't look like a hotel reservation yet. Paste the confirmation email text, or tap **+** to attach a screenshot of it");else await saySorry();busy=false;return}
   if(conf){pending={text:t};return ask()}
+  busy=true;const hn=await findHotel(t);busy=false;if(hn)return askHotel(hn);
   if(!isHotel(t)){busy=true;await saySorry();busy=false;return}
   // About hotels but not about their price: say what the chat is for first (the user, 22-11-2026)
   const PRICE_RE=/\b(price|prices|pricing|priced|cheap|cheaper|cheapest|cost|costs|rate|rates|deal|deals|discount|discounts|save|saving|savings|lowest|afford|affordable|budget|expensive|overpaid|paid|pay|beat)\b|[$€£¥]/i;
@@ -358,6 +383,8 @@ document.getElementById('send').onclick=sendText;
 ta.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendText()}});
 // Placeholder with the underlined words (the user, 22-11-2026)
 ta.addEventListener('input',()=>document.getElementById('ph').classList.toggle('off',!!ta.value));
+// The hotel-name filter (2.9 MB) loads once the user starts on the field, not with the page.
+ta.addEventListener('focus',()=>{loadHdb()},{once:true});
 ta.addEventListener('input',()=>{ta.style.height='auto';ta.style.height=Math.min(180,ta.scrollHeight)+'px'});
 const file=document.getElementById('file');document.getElementById('attach').onclick=()=>file.click();
 function takeImage(f){if(!f||!/^image\//.test(f.type)||busy)return;const r=new FileReader();r.onload=()=>{dockBar();me('',r.result);if(state==='await_conf')readConfirmation({img:r.result});else{pending={img:r.result};ask()}};r.readAsDataURL(f)}
