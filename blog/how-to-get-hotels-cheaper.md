@@ -1,6 +1,6 @@
 # How to get hotels cheaper: 15 ways that work in 2026
 
-Updated 2026-11-23 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
+Updated 2026-11-25 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-get-hotels-cheaper.html
 
 ## Key takeaways
 - The biggest single lever is the country you search from: the same hotel often has a different final price in different countries. Research across 1,000 hotels searched from 100 countries found a lower price than the traveller's own in about 80% of countries, with a typical gap of 20-40%.
@@ -13,6 +13,7 @@ Updated 2026-11-23 by Arbitrica. Canonical: https://arbitrica.com/blog/how-to-ge
 - Packages and member prices help only sometimes: Expedia gives no fixed bundle saving, and Marriott and Hilton member rates start at about 2%. Price the hotel on its own first.
 - App and mobile prices help only sometimes: Booking lets hotels set a discount for phone bookers and another for one country. Compare the app and the website, then check other countries.
 - Long stays can unlock weekly and monthly rates: Booking and Airbnb both use 7-night and 28-night thresholds. Search the whole stay in one go, then check other countries.
+- Flash sales and mystery hotels can be lower, but they trade choice for price: Secret Escapes runs time-limited member sales, and Hotwire and Priceline reveal the hotel only after you book. For a hotel you already picked, check other countries instead.
 - Arbitrica, a personal AI agent, searches the same hotel from 195 countries at the checkout and prepares the booking at the lowest price in the world, so you only review and pay.
 
 ## Short answer: how to get hotels cheaper
@@ -124,6 +125,16 @@ Switching to the app takes one tap. Checking the same hotel from 195 countries b
 
 A long stay turns a 20-40% country gap into a large sum, and checking the same hotel from 195 countries by hand is humanly impossible. Arbitrica is a personal AI agent that meets you once you choose your hotel room, searches the same hotel from 195 countries and prepares the booking at the lowest price in the world, so you only review and pay.
 
+## Flash sales and mystery hotels: do Secret Escapes, Hotwire and Priceline get hotels cheaper?
+**Short answer:** sometimes, if you are flexible about which hotel you get. Secret Escapes is a members-only flash-sale site: membership is free, it lists over 200 sales each week and many offers are time limited ([secretescapes.com](https://www.secretescapes.com/), checked on November 25, 2026). Hotwire calls its Hot Rates mystery hotels: you book first and the hotel is revealed after ([hotwire.com](https://www.hotwire.com/), checked on November 25, 2026). Priceline says the hotel name in its Express Deals is only revealed after you book and calls them its biggest deals, up to 60% off retail rates ([Priceline hotel deals page](https://www.priceline.com/hotel-deals), checked on November 25, 2026). The saving comes from giving up the choice of hotel, or from waiting for a sale on the one you want.
+
+- **Use flash sales for a hotel you would pick anyway.** Membership is free, so sign up, filter by destination and dates, and compare the sale's final total with the same hotel on Booking, Expedia and the hotel's own website. A sale package can bundle breakfast or extras, so compare like for like.
+- **Use mystery deals only when any hotel in the area will do.** You choose the neighbourhood, star rating and amenities, not the hotel. Read the cancellation terms and the final total with taxes and fees before you pay.
+- **Watch the sale clock, not just the discount.** Time-limited offers end on a set date. Book a refundable rate on the hotel you like and keep checking; if a sale on it appears before the cancellation deadline, compare and rebook.
+- **Then check the country.** If you already know which hotel you want, a mystery deal cannot help and a flash sale may not cover it. Research across 1,000 hotels found a lower price for the same hotel in about 80% of countries, with a typical gap of 20-40%.
+
+Flash sales and mystery hotels trade choice for price. Arbitrica keeps the choice: a personal AI agent that meets you once you choose your hotel room, searches that same hotel from 195 countries and prepares the booking at the lowest price in the world, so you only review and pay.
+
 ## What each way can save
 The figures below come from the sources linked in each way. They are averages or test results, not promises for your dates.
 
@@ -200,6 +211,12 @@ Often, per night. Booking lets properties set weekly rate plans with a minimum s
 
 ### Do hotels give discounts for long stays?
 Many do. Booking added weekly and monthly rate plans for its partners in 2020, with minimum stays of 7 and 28 nights, and Airbnb adds its own monthly stay savings automatically to stays of 28 or more nights on top of any host discount (checked on November 23, 2026). For a week or more, also email the hotel and ask for a long-stay rate.
+
+### Is Secret Escapes worth it for hotels?
+It can be, for a hotel you would pick anyway. Membership is free, Secret Escapes lists over 200 sales each week and many offers are time limited (checked on November 25, 2026). Compare the sale's final total with the same hotel on other sites and from other countries before you book, since it may be lower elsewhere.
+
+### Are Hotwire and Priceline mystery hotels cheaper?
+Often, because you give up the choice of hotel. Hotwire's Hot Rates are mystery hotels revealed after you book, and Priceline says its Express Deals hotels are revealed only after booking, at up to 60% off retail rates (both checked on November 25, 2026). Use them only if any hotel in the area will do; for a hotel you already chose, searching it from other countries is the bigger lever, which Arbitrica does from 195 countries.
 
 ### How to get hotels cheaper last minute?
 Hotels.com's 2026 index found last-minute bookers paid 23% less on average than people who booked four or more months out. For same-day stays, last-minute apps can help: in a NerdWallet test 10 of 16 hotels on HotelTonight were up to 23% lower than on Booking, but 6 were higher and most bookings are nonrefundable.
