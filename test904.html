@@ -141,7 +141,7 @@ body{padding-left:270px;transition:padding .25s ease}body.sbclosed{padding-left:
 <div class="bar" id="bar">
 <button class="ib" id="attach" title="Attach your hotel reservation" aria-label="Attach"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
 <input type="file" id="file" accept="image/*" hidden>
-<div class="taw"><div class="ph" id="ph">Give me <u>any hotel</u> and I'll find the lowest price on Earth for it</div><textarea id="ta" rows="1" aria-label="Give me any hotel and I'll find the lowest price on Earth for it"></textarea></div>
+<div class="taw"><div class="ph" id="ph">Give me <u>any</u> hotel with dates - and I'll find the lowest price on Earth for it</div><textarea id="ta" rows="1" aria-label="Give me any hotel with dates - and I'll find the lowest price on Earth for it"></textarea></div>
 <button class="ib send" id="send" aria-label="Send"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 </div>
 <svg id="cur" viewBox="0 0 24 24"><path d="M4 2l14 9-6.5 1.3L15 20l-3 1.4-3.4-7.6L4 18z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
@@ -204,7 +204,7 @@ const SORRY="Right now I only work on hotels worldwide (Amazon purchases and eve
 async function saySorry(){await say(SORRY);await say("Give me a job to find you the world's best price for any hotel",{logo:false})}
 function looksLikeConfirmation(t){return /check.?in/i.test(t)&&/check.?out/i.test(t)}
 async function ask(pre){busy=true;state='choose';if(pre)await say(pre);await say("Do you have an existing hotel reservation, so I can try to beat your paid price?",{logo:!pre});await say("Or you want to start a new hotel search?",{logo:false});busy=false;
-  document.body.classList.add('nofield');chips([["Existing reservation",()=>{document.body.classList.remove('nofield');existing()}],["New hotel",()=>{document.body.classList.remove('nofield');newHotel()}]])}
+  document.body.classList.add('nofield');chips([["Existing reservation",()=>{document.body.classList.remove('nofield');existing()}],["New hotel search",()=>{document.body.classList.remove('nofield');newHotel()}]])}
 // Hotel names (the user, 24-11-2026): ~1.6M names from the user's database, split into /hotel-db/h00-h99.txt by a hash of the
 // whole name, with a Bloom filter (bloom.bin) over all of them so a message's word runs can be checked without loading the lists.
 const HDB='/hotel-db/',HGEN=new Set('hotel hotels motel inn hostel guest house guesthouse guests apartment apartments apartamento room rooms suite suites resort lodge villa villas the a and b bed breakfast bnb homestay home stay cabin cabins cottage chalet camping camp hut'.split(' '));
@@ -223,12 +223,14 @@ async function findHotel(t){await loadHdb();if(!HBLOOM)return null;
     if(low.every(x=>HCOMMON.has(x)||HGEN.has(x))&&!run.every(x=>/^\p{Lu}/u.test(x)))continue;
     const k=low.join(' ');if(!inBloom(k))continue;const name=await hShard(k);if(name)return name}
   return null}
-async function askHotel(h){busy=true;state='choose';
-  await say("I can only help with **"+h+"** when your dates, number of guests and other details are already selected");
+// Dates in the message (the user, 25-11-2026): "12 January", "Jan 12", "12/01", "3 nights", "tomorrow"...
+const DATES_RE=/\b\d{1,2}(?:st|nd|rd|th)?\s*(?:of\s+)?(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\b|\b(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\.?\s*\d{1,2}(?:st|nd|rd|th)?\b|\b\d{1,2}[\/.\-]\d{1,2}(?:[\/.\-]\d{2,4})?\b|\b\d+\s*nights?\b|\b(?:tonight|tomorrow|this weekend|next weekend|next week)\b/i;
+async function askHotel(h,dated){busy=true;state='choose';
+  await say(dated?"I can help with **"+h+"** when all other details are already selected":"I can only help with **"+h+"** when your dates, number of guests and other details are already selected");
   await say("Then I find the lowest possible price for exactly the same",{logo:false});
   await say("Do you have an existing reservation for **"+h+"**, so I can try to beat your paid price?",{logo:false});
-  await say("Or you want to start a new search for other dates at **"+h+"**?",{logo:false});busy=false;
-  document.body.classList.add('nofield');chips([["Existing reservation",()=>{document.body.classList.remove('nofield');existing()}],["New hotel",()=>{document.body.classList.remove('nofield');newHotel()}]])}
+  await say("Or you want to start a new search for "+(dated?"these":"other")+" dates at **"+h+"**?",{logo:false});busy=false;
+  document.body.classList.add('nofield');chips([["Existing reservation",()=>{document.body.classList.remove('nofield');existing()}],["New hotel search",()=>{document.body.classList.remove('nofield');newHotel()}]])}
 // Hotel brands (the user, 25-11-2026): any of these in a message, even as one lowercase word, gets the hotel lines with the
 // brand's name, never the "only hotels" reply. A name from the hotel lists (e.g. "Hilton Paris Opera") wins over the brand;
 // among brands the longest match wins ("Holiday Inn Express" over "Holiday Inn").
@@ -241,7 +243,7 @@ async function onText(t){if(busy)return;dockBar();me(t);
   const conf=looksLikeConfirmation(t);
   if(state==='await_conf'){if(conf)return readConfirmation({text:t});busy=true;if(isHotel(t))await say("That doesn't look like a hotel reservation yet. Paste the confirmation email text, or tap **+** to attach a screenshot of it");else await saySorry();busy=false;return}
   if(conf){pending={text:t};return ask()}
-  busy=true;const hn=(await findHotel(t))||findBrand(t);busy=false;if(hn)return askHotel(hn);
+  busy=true;const hn=(await findHotel(t))||findBrand(t);busy=false;if(hn)return askHotel(hn,DATES_RE.test(t));
   if(!isHotel(t)){busy=true;await saySorry();busy=false;return}
   // About hotels but not about their price: say what the chat is for first (the user, 22-11-2026)
   const PRICE_RE=/\b(price|prices|pricing|priced|cheap|cheaper|cheapest|cost|costs|rate|rates|deal|deals|discount|discounts|save|saving|savings|lowest|afford|affordable|budget|expensive|overpaid|paid|pay|beat)\b|[$€£¥]/i;
