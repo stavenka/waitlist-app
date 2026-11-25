@@ -330,7 +330,7 @@ let readFails=0;
 const CUR_TOP=[['USD','US dollar','$'],['EUR','Euro','€'],['GBP','British pound','£'],['CAD','Canadian dollar','C$'],['CHF','Swiss franc','CHF '],['AUD','Australian dollar','A$']];
 const CUR_REST=[['AED','UAE dirham'],['BRL','Brazilian real'],['CNY','Chinese yuan'],['CZK','Czech koruna'],['DKK','Danish krone'],['HKD','Hong Kong dollar'],['HUF','Hungarian forint'],['IDR','Indonesian rupiah'],['ILS','Israeli shekel'],['INR','Indian rupee'],['JPY','Japanese yen'],['KRW','South Korean won'],['MXN','Mexican peso'],['MYR','Malaysian ringgit'],['NOK','Norwegian krone'],['NZD','New Zealand dollar'],['PHP','Philippine peso'],['PLN','Polish złoty'],['SAR','Saudi riyal'],['SEK','Swedish krona'],['SGD','Singapore dollar'],['THB','Thai baht'],['TRY','Turkish lira'],['ZAR','South African rand']];
 async function failRead(){readFails++;busy=true;state='await_conf';
-  if(readFails===1){await say("Hmm, I can't detect a hotel reservation in that. Could you try again?");await say("Please make sure all details are included: breakfast, free cancellation & so on",{logo:false});busy=false;
+  if(readFails===1){await say("Hmm, I can't detect a hotel reservation in that. Could you try again?");busy=false;
     const w=document.createElement('div');w.className='inl';log.appendChild(w);w.appendChild(bar);document.body.classList.add('inline');
     const a=document.createElement('button');a.className='how';a.textContent='How to copypaste or screenshot hotel reservations (15 sec)';a.onclick=showVideo;w.appendChild(a);down();ta.focus();return}
   state='manual';document.body.classList.add('nofield');
