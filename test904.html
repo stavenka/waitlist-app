@@ -356,7 +356,9 @@ async function failRead(){readFails++;busy=true;state='await_conf';
     f.querySelectorAll('input,select,button').forEach(x=>x.disabled=true);f.style.opacity='.6';
     const p={hotel:v('hotel'),checkin:day(v('in')),checkout:day(v('out')),adults:+v('guests'),room:v('room')||'',breakfast:segv('breakfast'),total,cur:sym,ota:'your booking'};
     me(p.hotel+', '+p.checkin+' – '+p.checkout);afterBooking(p,segv('cancel')==='Not included')};
-  (m.querySelector('.b')||m).appendChild(f);down();busy=false}
+  // The line stays on its own for 2.5 s, then the form comes in and the chat scrolls to the line, not to the form's end (the user, 25-11-2026).
+  await sleep(2500);f.style.animation='in .5s ease-out';(m.querySelector('.b')||m).appendChild(f);
+  const mm=(m.closest&&m.closest('.msg'))||m;mm.style.scrollMarginTop='90px';setTimeout(()=>mm.scrollIntoView({behavior:'smooth',block:'start'}),60);busy=false}
 async function readConfirmation({text,img}){busy=true;state='reading';
   const m=document.createElement('div');m.className='msg';m.innerHTML='<span class="lg">'+MARK+'</span><div class="b">Reading your reservation<span class="dots"></span></div>';log.appendChild(m);down();
   let t=text||'';try{if(img)t=await ocr(img)}catch(e){t=''}
