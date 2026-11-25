@@ -60,7 +60,7 @@ Six tools work on Expedia, Agoda and other booking sites. Only Arbitrica does th
 - Borderbasket: you enter a hotel, dates and guests and it lists offers from Booking.com, Expedia, Agoda, Trip.com, Hotels.com, Priceline and others by total price, after a sign-in. Source: https://borderbasket.com/
 - Google Hotels: lists the prices booking sites send to Google for your dates and can email you when the price changes. Source: https://www.google.com/travel/hotels
 
-So of these six, only Arbitrica does the PriceMice check on every booking site. The other five line up booking sites' prices for your hotel and dates, none of their websites says it checks the same hotel from other countries, and you still book, and rebook, by hand. Arbitrica searches the same hotel from 195 countries at checkout, prepares the booking at the lowest total it finds, and its approach keeps searching after you book until the free-cancellation window ends.
+So of these six, only Arbitrica does the PriceMice check on every booking site. The other five line up booking sites' prices for your hotel and dates, only Borderbasket's privacy policy mentions opening Booking pages from several countries, none says it checks the same hotel from other countries on every site, and you still book, and rebook, by hand. Arbitrica searches the same hotel from 195 countries at checkout, prepares the booking at the lowest total it finds, and its approach keeps searching after you book until the free-cancellation window ends.
 
 More on Underbook: [Underbook alternative that checks other countries](https://arbitrica.com/blog/underbook-alternative.html).
 
@@ -81,6 +81,8 @@ People who ask for something like PriceMice for every booking site usually want 
 | A lower price after you book | HotelMonitor, Rate Ranger, Arbitrica | HotelMonitor re-checks the same stay up to every 4 hours across the major booking sites and emails you; Rate Ranger checks every few days, more often as check-in gets closer, and emails you a link to the lower rate. With both you rebook and cancel yourself. Arbitrica's approach repeats its 195-country search until the free-cancellation window ends, and the new booking is confirmed before the original is cancelled. |
 
 Trackers such as HotelMonitor and Rate Ranger watch the price you already have; PriceMice and Arbitrica look for another country's price for the same hotel. Only Arbitrica does both, on every booking site, before and after you book.
+
+Want a tool that checks one hotel link on other sites? See the [Tripdify alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/tripdify-alternative.html) and the [Borderbasket alternative that finds the lowest hotel price in the world](https://arbitrica.com/blog/borderbasket-alternative.html).
 
 ## Frequently asked questions
 

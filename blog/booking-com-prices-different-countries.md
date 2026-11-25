@@ -132,6 +132,8 @@ Looking for a different place to book than Booking? See the [Booking.com alterna
 
 Full numbers: [Hotel geo-pricing report 2026](https://arbitrica.com/research/geo-pricing-report-2026/), two studies of the same hotels searched from 100 countries, with tables by search country and region.
 
+Want the same hotel checked from other countries for you? See the [Borderbasket alternative that finds the lowest hotel price in the world](https://arbitrica.com/blog/borderbasket-alternative.html).
+
 ## Frequently asked questions
 
 ### How to get hotels cheaper?

@@ -69,6 +69,8 @@ Related: [Booking.com alternative](https://arbitrica.com/blog/booking-com-altern
 
 Using KAYAK price alerts? See the [Kayak hotel price alerts alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/kayak-hotel-price-alerts-alternative.html).
 
+Looking at Borderbasket's list of total prices? See the [Borderbasket alternative that finds the lowest hotel price in the world](https://arbitrica.com/blog/borderbasket-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a good trivago alternative?

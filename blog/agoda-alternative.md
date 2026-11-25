@@ -77,6 +77,8 @@ Booking, Expedia and Agoda each show their own rates for your search. Arbitrica 
 
 Booking on Trip.com? See the [Trip.com alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/trip-com-alternative.html).
 
+Checking Agoda prices with Tripdify? See the [Tripdify alternative that searches the same hotel from 195 countries](https://arbitrica.com/blog/tripdify-alternative.html).
+
 ## Frequently asked questions
 
 ### What is a good alternative to Agoda?
