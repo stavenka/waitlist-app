@@ -39,6 +39,8 @@ body.started .ph,.ph.off{display:none}
 .bar textarea::placeholder{color:rgb(143,143,143)}
 .ib{flex:none;width:42px;height:42px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;background:transparent;color:var(--fg)}
 .ib:hover{background:var(--soft)}
+/* Dictation (the user, 27-11-2026): shown only in browsers that can turn speech into text; red and pulsing while it listens */
+#mic{display:none}#mic.on{background:rgb(253,236,236);color:rgb(214,48,49)}#mic.on svg{animation:pulse 1.4s ease-in-out infinite}
 .ib.send{background:var(--fg);color:rgb(255,255,255)}
 .how{display:block;margin:14px auto 0;background:none;border:none;color:var(--blue);font:500 14px Inter,sans-serif;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 .dock{display:none;padding:10px 16px 16px;background:rgb(255,255,255)}
@@ -155,6 +157,7 @@ body{padding-left:270px;transition:padding .25s ease}body.sbclosed{padding-left:
 <button class="ib" id="attach" title="Attach your hotel reservation" aria-label="Attach"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
 <input type="file" id="file" accept="image/*" hidden>
 <div class="taw"><div class="ph" id="ph">Give me any hotel - and I'll find the lowest price on Earth</div><textarea id="ta" rows="1" aria-label="Give me any hotel - and I'll find the lowest price on Earth"></textarea></div>
+<button class="ib" id="mic" title="Dictate" aria-label="Dictate"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="9" y="3" width="6" height="11" rx="3" stroke="currentColor" stroke-width="2"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
 <button class="ib send" id="send" aria-label="Send"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 </div>
 <svg id="cur" viewBox="0 0 24 24"><path d="M4 2l14 9-6.5 1.3L15 20l-3 1.4-3.4-7.6L4 18z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
@@ -273,7 +276,7 @@ async function onText(t){if(busy)return;dockBar();me(t);
   if(!isHotel(t)&&!(city&&!NON_HOTEL.test(t))){busy=true;await saySorry();busy=false;return}
   // About hotels but not about their price: say what the chat is for first (the user, 22-11-2026)
   const PRICE_RE=/\b(price|prices|pricing|priced|cheap|cheaper|cheapest|cost|costs|rate|rates|deal|deals|discount|discounts|save|saving|savings|lowest|afford|affordable|budget|expensive|overpaid|paid|pay|beat)\b|[$€£¥]/i;
-  ask(PRICE_RE.test(t)?'':"I can only help when your hotel, dates and other details are already selected. Then I find the lowest possible price for exactly the same",city)}
+  ask(PRICE_RE.test(t)?'':"To find you the world's lowest price for a hotel, I'd need other details like dates, room name - otherwise I might find you an amazing price for the room you don't need",city)}
 async function existing(){if(pending){const p=pending;pending=null;return readConfirmation(p)}
   busy=true;state='await_conf';await say("Great, copypaste or screenshot your existing hotel reservation below");await say("Please make sure all details are included: breakfast, free cancellation & so on",{logo:false});busy=false;
   const w=document.createElement('div');w.className='inl';log.appendChild(w);w.appendChild(bar);document.body.classList.add('inline');
@@ -464,6 +467,16 @@ ta.addEventListener('input',()=>{ta.style.height='auto';ta.style.height=Math.min
 const file=document.getElementById('file');document.getElementById('attach').onclick=()=>file.click();
 function takeImage(f){if(!f||!/^image\//.test(f.type)||busy)return;const r=new FileReader();r.onload=()=>{dockBar();me('',r.result);if(state==='await_conf')readConfirmation({img:r.result});else{pending={img:r.result};ask()}};r.readAsDataURL(f)}
 file.onchange=()=>{takeImage(file.files[0]);file.value=''};
+// Dictation (the user, 27-11-2026): the mic writes what you say into the field, in the browser's language, as you speak;
+// you send it as if typed, so every rule applies the same. A second tap stops it; it also stops when you pause.
+(function(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition,mic=document.getElementById('mic');if(!SR||!mic)return;mic.style.display='flex';
+  let rec=null;
+  mic.onclick=()=>{if(rec){try{rec.stop()}catch(e){}return}
+    rec=new SR();rec.lang=navigator.language||'en-US';rec.interimResults=true;rec.continuous=false;const base=ta.value.trim()?ta.value.trim()+' ':'';
+    mic.classList.add('on');mic.setAttribute('aria-label','Stop dictation');
+    rec.onresult=e=>{let x='';for(let i=0;i<e.results.length;i++)x+=e.results[i][0].transcript;ta.value=base+x;ta.dispatchEvent(new Event('input'))};
+    rec.onend=()=>{rec=null;mic.classList.remove('on');mic.setAttribute('aria-label','Dictate');ta.focus()};
+    try{rec.start()}catch(e){rec=null;mic.classList.remove('on')}}})();
 document.addEventListener('paste',e=>{const it=[...((e.clipboardData||{}).items||[])].find(i=>i.type.startsWith('image/'));if(it){e.preventDefault();takeImage(it.getAsFile())}});
 document.addEventListener('dragover',e=>e.preventDefault());document.addEventListener('drop',e=>{e.preventDefault();takeImage(e.dataTransfer.files[0])});
 // Hotel video starts just below the search field (the user, 22-11-2026)
