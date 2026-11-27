@@ -47,7 +47,12 @@ body.started .ph,.ph.off{display:none}
 .mvpc:before{bottom:-17px;border-top-color:rgb(200,204,209)}.mvpc:after{bottom:-16px;border-top-color:rgb(255,255,255)}
 .mvp:hover .mvpc,.mvp:focus .mvpc{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease .35s,transform .2s ease .35s,visibility 0s linear .35s}
 /* Dictation (the user, 27-11-2026): shown only in browsers that can turn speech into text; red and pulsing while it listens */
-#mic{display:none}#mic.on{background:rgb(253,236,236);color:rgb(214,48,49)}#mic.on svg{animation:pulse 1.4s ease-in-out infinite}
+#mic{display:none}#recx,#recok,#wave{display:none}
+/* While it listens, as on ChatGPT: a live waveform fills the field, with Cancel and Done in place of the mic and Send */
+body.rec #wave{display:block;position:absolute;left:6px;right:6px;top:50%;height:34px;transform:translateY(-50%);width:calc(100% - 12px)}
+body.rec #ta,body.rec .ph{visibility:hidden}body.rec #mic,body.rec #send{display:none!important}body.rec #recx,body.rec #recok{display:flex}
+#recmsg{position:absolute;left:6px;right:0;top:50%;transform:translateY(-50%);font:15px/1.35 Inter,sans-serif;color:rgb(180,40,40);display:none;pointer-events:none}
+body.recmsg #recmsg{display:block}body.recmsg #ta,body.recmsg .ph{visibility:hidden}
 .ib.send{background:var(--fg);color:rgb(255,255,255)}
 .how{display:block;margin:14px auto 0;background:none;border:none;color:var(--blue);font:500 14px Inter,sans-serif;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 .dock{display:none;padding:10px 16px 16px;background:rgb(255,255,255)}
@@ -163,8 +168,10 @@ body{padding-left:270px;transition:padding .25s ease}body.sbclosed{padding-left:
 <div class="bar" id="bar">
 <button class="ib" id="attach" title="Attach your hotel reservation" aria-label="Attach"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
 <input type="file" id="file" accept="image/*" hidden>
-<div class="taw"><div class="ph" id="ph">Give me any hotel - and I'll find the lowest price on Earth</div><textarea id="ta" rows="1" aria-label="Give me any hotel - and I'll find the lowest price on Earth"></textarea></div>
+<div class="taw"><div class="ph" id="ph">Give me any hotel - and I'll find the lowest price on Earth</div><canvas id="wave" aria-hidden="true"></canvas><div id="recmsg" role="status"></div><textarea id="ta" rows="1" aria-label="Give me any hotel - and I'll find the lowest price on Earth"></textarea></div>
 <button class="ib" id="mic" title="Dictate" aria-label="Dictate"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="9" y="3" width="6" height="11" rx="3" stroke="currentColor" stroke-width="2"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+<button class="ib" id="recx" title="Cancel" aria-label="Cancel voice input"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+<button class="ib send" id="recok" title="Done" aria-label="Done"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 <button class="ib send" id="send" aria-label="Send"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 </div>
 <svg id="cur" viewBox="0 0 24 24"><path d="M4 2l14 9-6.5 1.3L15 20l-3 1.4-3.4-7.6L4 18z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
@@ -504,16 +511,32 @@ ta.addEventListener('input',()=>{ta.style.height='auto';ta.style.height=Math.min
 const file=document.getElementById('file');document.getElementById('attach').onclick=()=>file.click();
 function takeImage(f){if(!f||!/^image\//.test(f.type)||busy)return;const r=new FileReader();r.onload=()=>{dockBar();me('',r.result);if(state==='await_conf')readConfirmation({img:r.result});else{pending={img:r.result};ask()}};r.readAsDataURL(f)}
 file.onchange=()=>{takeImage(file.files[0]);file.value=''};
-// Dictation (the user, 27-11-2026): the mic writes what you say into the field, in the browser's language, as you speak;
-// you send it as if typed, so every rule applies the same. A second tap stops it; it also stops when you pause.
-(function(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition,mic=document.getElementById('mic');if(!SR||!mic)return;mic.style.display='flex';
-  let rec=null;
-  mic.onclick=()=>{if(rec){try{rec.stop()}catch(e){}return}
-    rec=new SR();rec.lang=navigator.language||'en-US';rec.interimResults=true;rec.continuous=false;const base=ta.value.trim()?ta.value.trim()+' ':'';
-    mic.classList.add('on');mic.setAttribute('aria-label','Stop dictation');
-    rec.onresult=e=>{let x='';for(let i=0;i<e.results.length;i++)x+=e.results[i][0].transcript;ta.value=base+x;ta.dispatchEvent(new Event('input'))};
-    rec.onend=()=>{rec=null;mic.classList.remove('on');mic.setAttribute('aria-label','Dictate');ta.focus()};
-    try{rec.start()}catch(e){rec=null;mic.classList.remove('on')}}})();
+// Voice input, as on ChatGPT (the user, 27-11-2026): the mic asks for the microphone, then a live waveform fills the field
+// with Cancel (x) and Done (tick). Done puts what was said into the field, in the browser's language, to send as if typed,
+// so every rule applies the same. If the browser can't turn speech into text, a short line in the field says why.
+(function(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition,mic=document.getElementById('mic');if(!mic||!navigator.mediaDevices)return;mic.style.display='flex';
+  const cv=document.getElementById('wave'),msg=document.getElementById('recmsg'),B=document.body;
+  let stream=null,ac=null,an=null,raf=0,rec=null,on=false,said='',live='',fatal='',levels=[];
+  function note(t){msg.textContent=t;B.classList.add('recmsg');clearTimeout(note.t);note.t=setTimeout(()=>B.classList.remove('recmsg'),4500)}
+  function draw(){const r=cv.getBoundingClientRect(),dpr=devicePixelRatio||1;if(cv.width!==Math.round(r.width*dpr)){cv.width=Math.round(r.width*dpr);cv.height=Math.round(r.height*dpr)}
+    const g=cv.getContext('2d'),W=cv.width,H=cv.height,d=new Uint8Array(an.fftSize);an.getByteTimeDomainData(d);let sum=0;for(const v of d)sum+=(v-128)*(v-128);
+    levels.push(Math.min(1,Math.sqrt(sum/d.length)/40));const step=6*dpr,n=Math.floor(W/step);while(levels.length>n)levels.shift();
+    g.clearRect(0,0,W,H);g.fillStyle='rgb(13,13,13)';levels.forEach((l,i)=>{const h=Math.max(2*dpr,l*H);g.fillRect(W-(levels.length-i)*step,(H-h)/2,3*dpr,h)});raf=requestAnimationFrame(draw)}
+  function startSR(){if(!SR)return;rec=new SR();rec.lang=navigator.language||'en-US';rec.interimResults=true;rec.continuous=true;
+    rec.onresult=e=>{live='';for(let i=e.resultIndex;i<e.results.length;i++){if(e.results[i].isFinal)said+=e.results[i][0].transcript+' ';else live+=e.results[i][0].transcript}};
+    rec.onerror=e=>{console.warn('[voice] speech recognition error:',e.error);if(e.error!=='no-speech'&&e.error!=='aborted')fatal=e.error};
+    rec.onend=()=>{rec=null;if(on&&!fatal)try{startSR()}catch(e){}};
+    try{rec.start()}catch(e){console.warn('[voice]',e)}}
+  function stop(keep){on=false;cancelAnimationFrame(raf);B.classList.remove('rec');if(rec){try{rec.stop()}catch(e){}}if(stream)stream.getTracks().forEach(t=>t.stop());if(ac)ac.close().catch(()=>{});stream=ac=an=null;
+    if(!keep)return;setTimeout(()=>{const t=(said+live).trim();
+      if(t){const base=ta.value.trim()?ta.value.trim()+' ':'';ta.value=base+t;ta.dispatchEvent(new Event('input'));ta.focus()}
+      else note(fatal==='not-allowed'||fatal==='service-not-allowed'?"Please allow the microphone for this site to talk to me":fatal==='network'||!SR?"Voice input isn't available in this browser yet - please type, or try Google Chrome":"I didn't catch that - please try again")},350)}
+  mic.onclick=async()=>{if(on)return;said='';live='';fatal='';levels=[];
+    try{stream=await navigator.mediaDevices.getUserMedia({audio:true})}catch(e){console.warn('[voice] microphone:',e);note("Please allow the microphone for this site to talk to me");return}
+    ac=new (window.AudioContext||window.webkitAudioContext)();an=ac.createAnalyser();an.fftSize=1024;ac.createMediaStreamSource(stream).connect(an);
+    on=true;B.classList.add('rec');B.classList.remove('recmsg');draw();startSR()};
+  document.getElementById('recx').onclick=()=>stop(false);document.getElementById('recok').onclick=()=>stop(true);
+  addEventListener('keydown',e=>{if(!on)return;if(e.key==='Escape'){e.preventDefault();stop(false)}else if(e.key==='Enter'){e.preventDefault();stop(true)}},true)})();
 document.addEventListener('paste',e=>{const it=[...((e.clipboardData||{}).items||[])].find(i=>i.type.startsWith('image/'));if(it){e.preventDefault();takeImage(it.getAsFile())}});
 document.addEventListener('dragover',e=>e.preventDefault());document.addEventListener('drop',e=>{e.preventDefault();takeImage(e.dataTransfer.files[0])});
 // Hotel video starts just below the search field (the user, 22-11-2026)
