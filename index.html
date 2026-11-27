@@ -637,14 +637,7 @@
     .step-head .step-soon { align-self: center; }
     .step-soon::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #d4a20f; }
     .step-desc { font-size: 1rem; color: var(--muted); line-height: 1.7; }
-    .step-video-wrap {
-      border-radius: var(--radius);
-      overflow: hidden;
-      background: #0c0c0c;
-      box-shadow: var(--shadow-md);
-      line-height: 0;
-    }
-    .step-video-wrap video { width: 100%; height: auto; display: block; }
+    .step-video-wrap { min-width: 0; }
 
     /* ── FOOTER ──────────────────────────────────────────────────────────── */
     .footer { background: var(--fg); color: hsl(0 0% 88%); padding: 3.5rem 2rem 2rem; }
@@ -991,9 +984,15 @@
             <p class="step-desc">Then it prepares your whole booking.<br>You only review &amp; make the payment <a href="https://www.hospitalitynet.org/viewpoint/125000235.html" target="_blank" rel="noopener" style="color:var(--primary);font-size:0.85rem;">Check out research on geo-pricing &rarr;</a></p>
           </div>
           <div class="step-video-wrap">
-            <video src="videos/Step 1.mp4?v=4" controls playsinline muted preload="none" loop>
-              <track kind="captions" srclang="en" label="English">
-            </video>
+            <div class="video-card video-card-16x9">
+              <video class="hero-video" src="videos/Step 1.mp4?v=4" width="1920" height="1080" playsinline preload="none" poster="videos/Step 1-poster.jpg" muted controls aria-label="See how Arbitrica finds the world&rsquo;s best price">
+                <track kind="captions" srclang="en" label="English">
+              </video>
+              <div class="video-overlay">
+                <p class="overlay-label">See real-time discovery<br>in action</p>
+                <button type="button" class="play-btn" aria-label="Play video"><span class="play-tri"></span></button>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -1007,9 +1006,15 @@
             <p class="step-desc">When the price drops, it emails you &amp; prepares re-booking at a better price <a href="/blog/how-to-get-hotels-cheaper.html" style="color:var(--primary);font-size:0.85rem;display:block;">How to get hotels cheaper: 15 ways &rarr;</a></p>
           </div>
           <div class="step-video-wrap">
-            <video src="videos/Step 2.mp4?v=3" controls playsinline muted preload="none" loop>
-              <track kind="captions" srclang="en" label="English">
-            </video>
+            <div class="video-card video-card-16x9">
+              <video class="hero-video" src="videos/Step 2.mp4?v=3" width="1920" height="1080" playsinline preload="none" poster="videos/Step 2-poster.jpg" muted controls aria-label="See how Arbitrica watches your booking after you pay">
+                <track kind="captions" srclang="en" label="English">
+              </video>
+              <div class="video-overlay">
+                <p class="overlay-label">See post-booking searches<br>in action</p>
+                <button type="button" class="play-btn" aria-label="Play video"><span class="play-tri"></span></button>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -1203,9 +1208,11 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    var playBtn = document.getElementById('heroVideoPlayBtn');
-    var video   = document.getElementById('heroVideo');
-    var overlay = document.getElementById('heroVideoOverlay');
+    // Every video card (the hero and the two steps, the user, 27-11-2026) has the same cover, play button and large player.
+    Array.prototype.forEach.call(document.querySelectorAll('.video-card'), function (card) {
+    var playBtn = card.querySelector('.play-btn');
+    var video   = card.querySelector('video');
+    var overlay = card.querySelector('.video-overlay');
     if (playBtn && video && overlay) {
       var idleTimer = null;
       function hide() { overlay.classList.add('hidden'); }
@@ -1263,6 +1270,7 @@
         show();
       });
     }
+    });
     document.addEventListener('click', function(e) {
       if (e.target && (e.target.id === 'queueModalClose' || e.target.id === 'queueModalOverlay')) arbitricaCloseModal();
     });
