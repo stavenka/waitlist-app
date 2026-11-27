@@ -267,8 +267,10 @@ async function searchLinks(){busy=true;
   const w=document.createElement('div');w.className='links';
   [['Search your hotel on Booking','https://www.booking.com/'],['Search your hotel on Expedia','https://www.expedia.com/'],['Search your own way','https://www.google.com/']].forEach(([t,u])=>{const a=document.createElement('a');a.className='btn light';a.href=u;a.target='_blank';a.rel='noopener';a.textContent=t;w.appendChild(a)});
   b.appendChild(w);document.body.classList.add('over');down()}
-// Centre the title and greeting between the ARBITRICA logo and Log in (the user, 22-11-2026)
-function centreHero(){const h=document.querySelector('.hero');if(!h)return;const lg=document.querySelector('.top a[href="/"]'),li=document.querySelector('.auth');if(!lg||!li)return;if(!lg.getBoundingClientRect().width){[...h.children].forEach(e=>e.style.transform='');return}
+// The title and greeting are centred in the area right of the sidebar, as on ChatGPT (the user, 27-11-2026), so no shift:
+// the earlier centring between the ARBITRICA logo and Log in (22-11-2026) is switched off.
+const CENTRE_ON_HEADER=false;
+function centreHero(){if(!CENTRE_ON_HEADER){const h=document.querySelector('.hero');if(h)[...h.children].forEach(e=>e.style.transform='');return}const h=document.querySelector('.hero');if(!h)return;const lg=document.querySelector('.top a[href="/"]'),li=document.querySelector('.auth');if(!lg||!li)return;if(!lg.getBoundingClientRect().width){[...h.children].forEach(e=>e.style.transform='');return}
   const mid=(lg.getBoundingClientRect().right+li.getBoundingClientRect().left)/2,hr=h.getBoundingClientRect(),c=hr.left+hr.width/2;
   const dx=Math.round(mid-c);[...h.children].forEach(e=>e.style.transform=dx?'translateX('+dx+'px)':'')}
 addEventListener('resize',centreHero);addEventListener('load',centreHero);setTimeout(centreHero,50);
