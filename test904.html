@@ -215,7 +215,7 @@ const HOTEL_RE=/\b(hotels?|room|rooms|suite|suites|stay|staying|resort|inn|hoste
 const NON_HOTEL=/\b(flights?|fly|flying|airfares?|airlines?|plane|car|cars|rental|train|trains|bus|cruise|ferry|tickets?|concerts?|events?|amazon|phone|laptop|insurance)\b/i;
 const GENERIC=/\b(booking|booked|book|reservation|reserved|nights?|expedia|trip\.com)\b/i;
 function isHotel(t){return HOTEL_RE.test(t)||(GENERIC.test(t)&&!NON_HOTEL.test(t))}
-const SORRY="I can find the world's best price for anything online, but right now I work only on hotels worldwide (online shopping and events tickets are coming!)";
+const SORRY="I can find the world's best price for anything online, but right now I work only on hotels worldwide (online shopping and events tickets are next!)";
 // The second line comes as its own paragraph (the user, 25-11-2026).
 async function saySorry(){await say(SORRY);await say("Give me any hotel, and I'll find you its best price on Earth",{logo:false})}
 function looksLikeConfirmation(t){return /check.?in/i.test(t)&&/check.?out/i.test(t)}
@@ -224,7 +224,7 @@ async function ask(pre,city){busy=true;state='choose';if(pre)await say(pre);awai
   document.body.classList.add('nofield');chips([["Existing reservation",()=>{document.body.classList.remove('nofield');existing()}],[city?"Search a new hotel in "+city:"Search a new hotel",()=>{document.body.classList.remove('nofield');newHotel()}]])}
 // Hotel names (the user, 24-11-2026): ~1.6M names from the user's database, split into /hotel-db/h00-h99.txt by a hash of the
 // whole name, with a Bloom filter (bloom.bin) over all of them so a message's word runs can be checked without loading the lists.
-const HDB='/hotel-db/',HGEN=new Set('hotel hotels motel inn hostel guest house guesthouse guests apartment apartments apartamento room rooms suite suites resort lodge villa villas the a and b bed breakfast bnb homestay home stay cabin cabins cottage chalet camping camp hut'.split(' '));
+const HDB='/hotel-db/',HGEN=new Set('hotel hotels motel inn hostel guest house guesthouse guests apartment apartments apartamento room rooms suite suites resort lodge villa villas the a and b bed breakfast bnb homestay home stay cabin cabins cottage chalet camping camp hut отель отели отеле отелей гостиница гостиницы гостинице гостиниц хостел хостела хостелы апартаменты номер номера номере курорт вилла виллы'.split(' '));
 let HBLOOM=null,HCOMMON=null,hLoading=null;const HSHARD={};
 const hkey=s=>s.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}_]+/gu,' ').trim().replace(/\s+/g,' ');
 const hfnv=(s,h)=>{for(const b of new TextEncoder().encode(s)){h^=b;h=Math.imul(h,0x01000193)>>>0}return h};
@@ -241,13 +241,16 @@ async function findHotel(t){await loadHdb();if(!HBLOOM)return null;
     const k=low.join(' ');if(!inBloom(k))continue;const name=await hShard(k);if(name)return name}
   return null}
 // Cities and towns (the user, 27-11-2026): /hotel-db/cities.txt, from GeoNames (places of 50,000+ people and capitals, plus
-// resort towns), one "key<tab>name" per line. The longest run of up to 4 words wins; a city that is also an everyday word
+// resort towns, and the Russian names of places of 100,000+), one "key<tab>name" per line. The longest run of up to 4 words wins; a city that is also an everyday word
 // ("nice", "split", "reading") counts only when capitalised.
 let CITIES=null,cLoading=null;const CWORD=new Set('nice split bath reading mobile sale orange temple normal enterprise mission surprise liberty independence flint sandy hull wells march deal best union worthing gary troy jackson victoria florence lancaster providence concord phoenix salem dover york mesa pueblo eugene'.split(' '));
 function loadCities(){return cLoading||(cLoading=fetch(HDB+'cities.txt').then(r=>{if(!r.ok)throw 0;return r.text()}).then(x=>{const m=new Map();x.split('\n').forEach(l=>{const i=l.indexOf('\t');if(i>0)m.set(l.slice(0,i),l.slice(i+1))});CITIES=m}).catch(()=>{cLoading=null}))}
 async function findCity(t){await loadCities();if(!CITIES)return null;
   const w=t.normalize('NFKC').split(/[^\p{L}\p{N}_]+/u).filter(Boolean);
-  for(let n=Math.min(4,w.length);n>=1;n--)for(let i=0;i+n<=w.length;i++){const run=w.slice(i,i+n),c=CITIES.get(bkey(run.join(' ')));if(!c)continue;
+  for(let n=Math.min(4,w.length);n>=1;n--)for(let i=0;i+n<=w.length;i++){const run=w.slice(i,i+n),k=bkey(run.join(' '));let c=CITIES.get(k);
+    // Russian city names change their ending after "в" ("в Париже", "в Москве"): also try the usual dictionary forms
+    if(!c&&/[\u0400-\u04FF]$/.test(k)&&/[еиуюяы]$/.test(k)){const st=k.slice(0,-1);c=CITIES.get(st)||CITIES.get(st+'а')||CITIES.get(st+'я')||CITIES.get(st+'ь')}
+    if(!c)continue;
     if(n===1&&CWORD.has(run[0].toLowerCase())&&!/^\p{Lu}/u.test(run[0]))continue;return c}
   return null}
 // Dates in the message (the user, 25-11-2026): "12 January", "Jan 12", "12/01", "3 nights", "tomorrow"...
