@@ -212,7 +212,7 @@ const HOTEL_RE=/\b(hotels?|room|rooms|suite|suites|stay|staying|resort|inn|hoste
 const NON_HOTEL=/\b(flights?|fly|flying|airfares?|airlines?|plane|car|cars|rental|train|trains|bus|cruise|ferry|tickets?|concerts?|events?|amazon|phone|laptop|insurance)\b/i;
 const GENERIC=/\b(booking|booked|book|reservation|reserved|nights?|expedia|trip\.com)\b/i;
 function isHotel(t){return HOTEL_RE.test(t)||(GENERIC.test(t)&&!NON_HOTEL.test(t))}
-const SORRY="I can find the world's best price for anything online, but right now I work only on hotels worldwide";
+const SORRY="I can find the world's best price for anything online, but right now I work only on hotels worldwide (online shopping and events tickets are coming!)";
 // The second line comes as its own paragraph (the user, 25-11-2026).
 async function saySorry(){await say(SORRY);await say("Give me a job to find you the world's best price for any hotel",{logo:false})}
 function looksLikeConfirmation(t){return /check.?in/i.test(t)&&/check.?out/i.test(t)}
