@@ -373,6 +373,8 @@ async function manualNew(){busy=true;state='manual';document.body.classList.add(
     const segv=k=>f.querySelector('.seg[data-k="'+k+'"]').dataset.v||'';
     if(!segv('roomtype')){err.textContent='Please choose the room';return}
     if(segv('roomtype')==='exact'&&!v('room')){err.textContent='Please add the room name';f.elements.room.focus();return}
+    if(!segv('breakfast')){err.textContent='Please choose whether breakfast is included';return}
+    if(!segv('cancel')){err.textContent='Please choose whether free cancellation is included';return}
     const day=d=>new Date(d+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
     const c=v('cur'),sym=(CUR_TOP.find(x=>x[0]===c)||[0,0,c+' '])[2];
     f.querySelectorAll('input,select,button').forEach(x=>x.disabled=true);f.style.opacity='.6';
@@ -475,6 +477,8 @@ async function failRead(){readFails++;busy=true;state='await_conf';
     if(!v('hotel')||!v('in')||!v('out')||!(total>0)){err.textContent='Please add the hotel name, both dates and the price you paid';return}
     if(v('out')<=v('in')){err.textContent='Check-out should be after check-in';return}
     const segv=k=>f.querySelector('.seg[data-k="'+k+'"]').dataset.v||'';
+    if(!segv('breakfast')){err.textContent='Please choose whether breakfast is included';return}
+    if(!segv('cancel')){err.textContent='Please choose whether free cancellation is included';return}
     const day=d=>new Date(d+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
     const c=v('cur'),sym=(CUR_TOP.find(x=>x[0]===c)||[0,0,c+' '])[2];
     f.querySelectorAll('input,select,button').forEach(x=>x.disabled=true);f.style.opacity='.6';
