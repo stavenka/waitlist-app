@@ -409,12 +409,15 @@ async function showVideo(){const id=++vrun;const $=x=>document.getElementById(x)
   cur.style.transition='none';cur.style.left='380px';cur.style.top='330px';drag.style.transition='none';drag.style.display='none';fl.style.opacity=0;th.style.transition='none';th.style.opacity=0;cm.innerHTML='';inp.textContent=PH;inp.classList.remove('full');tx.forEach(e=>e.classList.remove('hl'));key.style.opacity=0;
   let mk=$('vmark');if(!mk){mk=document.createElement('div');mk.id='vmark';mk.className='vmark';$('vin').appendChild(mk)}mk.style.opacity=0;
   const mark=async t=>{mk.textContent=t;mk.style.opacity=1;await sleep(1700);mk.style.opacity=0;await sleep(300)};
-  pr.style.transition='none';pr.style.width='0';await sleep(60);pr.style.transition='width 22s linear';pr.style.width='100%';
-  cap.innerHTML='<b>1.</b> Open your hotel confirmation email';mv(240,120,1200);await sleep(2200);if(!ok())return;
+  pr.style.transition='none';pr.style.width='0';await sleep(60);pr.style.transition='width 24s linear';pr.style.width='100%';
+  // The title comes first, before anything moves on screen (the user, 28-11-2026)
   cap.innerHTML='';await mark('Copypaste your reservation');if(!ok())return;
+  cap.innerHTML='<b>1.</b> Open your hotel confirmation email';mv(240,120,1200);await sleep(2200);if(!ok())return;
   cap.innerHTML='<b>2.</b> Select all of the email (⌘A / Ctrl A) and copy it (⌘C / Ctrl C)';
   mv(200,210,700);await sleep(800);showKey('⌘A');for(const e of tx){e.classList.add('hl');await sleep(40)}await sleep(600);showKey('⌘C');await sleep(1000);if(!ok())return;
-  key.style.opacity=0;cap.innerHTML='<b>3.</b> Paste it into the chat (⌘V / Ctrl V) and send it';mv(560,356,900);await sleep(1000);key.style.left='588px';showKey('⌘V');inp.textContent=RAW;inp.classList.add('full');await sleep(1600);if(!ok())return;
+  key.style.opacity=0;cap.innerHTML='<b>3.</b> Paste it into the chat (⌘V / Ctrl V) and send it';mv(560,356,900);await sleep(1000);key.style.left='588px';showKey('⌘V');inp.textContent=RAW;inp.classList.add('full');await sleep(1000);if(!ok())return;
+  // Right after the paste (the user, 28-11-2026)
+  key.style.opacity=0;await mark('Paste it all, I\'ll sort it out');if(!ok())return;
   inp.textContent=PH;inp.classList.remove('full');key.style.opacity=0;key.style.left='';cm.innerHTML='<div class="vb"></div>';cm.firstChild.textContent=RAW;tx.forEach(e=>e.classList.remove('hl'));await sleep(1600);if(!ok())return;
   cm.innerHTML='';cap.innerHTML='';await mark('...or screenshot it');if(!ok())return;
   cap.innerHTML='Take a screenshot of the email<br><span style="color:var(--muted)">Mac: ⌘ Shift 4 · Windows: Win Shift S · Phone: side + volume up</span>';
