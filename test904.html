@@ -158,6 +158,7 @@ body{padding-left:270px;transition:padding .25s ease}body.sbclosed{padding-left:
 .mform .row{display:flex;gap:10px}.mform .row>*{flex:1;min-width:0}.mform .seg{display:flex;border:1px solid rgb(217,214,222);border-radius:10px;overflow:hidden}
 .mform .seg button{flex:1;height:40px;border:0;background:rgb(255,255,255);font:500 14px Inter,sans-serif;color:rgb(63,58,74);cursor:pointer}.mform .seg button+button{border-left:1px solid rgb(217,214,222)}
 .mform .seg button.on{background:rgb(35,32,41);color:rgb(255,255,255)}.mform .price{display:flex;gap:10px}.mform .price select{flex:0 0 230px}
+.mform .rexact{margin-top:10px}
 .mform .err{color:rgb(180,40,40);font-size:13px;min-height:18px;margin-top:10px}.mform .go{margin-top:6px;width:100%;height:46px;border:0;border-radius:12px;background:rgb(35,32,41);color:rgb(255,255,255);font:600 15px Inter,sans-serif;cursor:pointer}
 @media (max-width:560px){.mform .price{flex-direction:column}.mform .price select{flex:none}}
 </style></head><body>
@@ -355,20 +356,26 @@ async function manualNew(){busy=true;state='manual';document.body.classList.add(
   f.innerHTML='<label>Hotel name</label><input name="hotel" placeholder="e.g. Hilton '+(searchCity?searchCity.replace(/[<"&]/g,''):'Paris Opera')+'">'+
     '<div class="row"><div><label>Check-in</label><input name="in" type="date"></div><div><label>Check-out</label><input name="out" type="date"></div></div>'+
     '<label>Number of guests</label><select name="guests">'+[1,2,3,4,5,6,7,8].map(n=>'<option value="'+n+'"'+(n===2?' selected':'')+'>'+n+' guest'+(n>1?'s':'')+'</option>').join('')+'</select>'+
-    '<label>Name of the room</label><input name="room" placeholder="e.g. Deluxe Double Room">'+
+    // Room (the user, 28-11-2026): one of two, required - the lowest-priced room for the guests chosen above, or a specific
+    // room, which opens a field for its name
+    '<label>Room</label><div class="seg rseg" data-k="roomtype"><button type="button" data-v="any"></button><button type="button" data-v="exact">A specific room</button></div><div class="rexact" style="display:none"><input name="room" placeholder="Room name, e.g. Deluxe Double Room"></div>'+
     '<label>Breakfast</label>'+seg('breakfast')+'<label>Free cancellation</label>'+seg('cancel')+
     '<label>'+L('Your currency')+'</label><select name="cur">'+opt(CUR_TOP)+'<option disabled>──────────</option>'+opt(CUR_REST)+'</select>'+
     '<div class="err"></div><button class="go" type="button">'+L("Get me the world's lowest price")+'</button>';
   f.elements.cur.value=myCurrency();
+  {const lp=f.querySelector('.rseg button[data-v=any]'),gs=f.elements.guests,upd=()=>{const n=+gs.value;lp.textContent='Lowest-priced for\u00a0'+n+'\u00a0guest'+(n>1?'s':'')};gs.addEventListener('change',upd);upd();
+   f.querySelectorAll('.rseg button').forEach(x=>x.addEventListener('click',()=>{const ex=f.querySelector('.rexact');ex.style.display=x.dataset.v==='exact'?'block':'none';if(x.dataset.v==='exact')f.elements.room.focus()}))}
   f.querySelectorAll('.seg').forEach(g=>g.querySelectorAll('button').forEach(x=>x.onclick=()=>{g.querySelectorAll('button').forEach(y=>y.classList.toggle('on',y===x));g.dataset.v=x.dataset.v}));
   f.querySelector('.go').onclick=()=>{const v=n=>f.elements[n].value.trim(),err=f.querySelector('.err');
     if(!v('hotel')||!v('in')||!v('out')){err.textContent='Please add the hotel name and both dates';return}
     if(v('out')<=v('in')){err.textContent='Check-out should be after check-in';return}
     const segv=k=>f.querySelector('.seg[data-k="'+k+'"]').dataset.v||'';
+    if(!segv('roomtype')){err.textContent='Please choose the room';return}
+    if(segv('roomtype')==='exact'&&!v('room')){err.textContent='Please add the room name';f.elements.room.focus();return}
     const day=d=>new Date(d+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
     const c=v('cur'),sym=(CUR_TOP.find(x=>x[0]===c)||[0,0,c+' '])[2];
     f.querySelectorAll('input,select,button').forEach(x=>x.disabled=true);f.style.opacity='.6';
-    const p={hotel:v('hotel'),checkin:day(v('in')),checkout:day(v('out')),adults:+v('guests'),room:v('room')||'',breakfast:segv('breakfast'),total:0,cur:sym,ota:'a new search'};
+    const p={hotel:v('hotel'),checkin:day(v('in')),checkout:day(v('out')),adults:+v('guests'),room:segv('roomtype')==='exact'?v('room'):'Lowest-priced room',breakfast:segv('breakfast'),total:0,cur:sym,ota:'a new search'};
     me(p.hotel+', '+p.checkin+' – '+p.checkout);newManual=true;afterBooking(p,false)};
   (m.querySelector('.b')||m).appendChild(f);m.scrollIntoView({behavior:'smooth',block:'start'});busy=false}
 async function searchLinks(){busy=true;
