@@ -270,6 +270,9 @@ aedeulleideu	Adelaide
 aemona	Ljubljana
 aemstelredamme	Amsterdam
 aemsterdam	Amsterdam
+afeganistao	Afghanistan
+afganistan	Afghanistan
+afghanistan	Afghanistan
 afgooye	Afgooye
 afikpo	Afikpo
 afina	Athens
@@ -278,6 +281,8 @@ afiny	Athens
 aflao	Aflao
 aflou	Aflou
 afragola	Afragola
+africa do sul	South Africa
+afrique du sud	South Africa
 afula	Afula
 afumadabado	Ahmedabad
 afyonkarahisar	Afyonkarahisar
@@ -564,6 +569,7 @@ alamar	Alamar
 alamata	Alamata
 alamati	Almaty
 alameda	Alameda
+aland islands	Åland Islands
 alandur	Alandur
 alanya	Alanya
 alaphi	Alofi
@@ -572,6 +578,8 @@ alasia	Alasia
 alaskndryt	Alexandria
 alba iulia	Alba Iulia
 albacete	Albacete
+albania	Albania
+albanie	Albania
 albany	Albany
 albany park	Albany Park
 alberton	Alberton
@@ -611,6 +619,8 @@ aleksandryja	Alexandria
 aleksandryjo	Alexandria
 alekseyevka	Alekseyevka
 aleksin	Aleksin
+alemanha	Germany
+alemania	Germany
 alemaya	‘Alemaya
 alenquer	Alenquer
 alep	Aleppo
@@ -639,6 +649,8 @@ algeciras	Algeciras
 algeirsborg	Algiers
 alger	Algiers
 algeri	Algiers
+algeria	Algeria
+algerie	Algeria
 algero	Algiers
 algier	Algiers
 algiers	Algiers
@@ -676,6 +688,7 @@ allahabad ilahabada	Prayagraj
 allakhabad	Prayagraj
 allapattah	Allapattah
 allegsandeulia	Alexandria
+allemagne	Germany
 allen	Allen
 allentown	Allentown
 allepo	Aleppo
@@ -811,6 +824,8 @@ amdavada	Ahmedabad
 amed	Diyarbakır
 amedabato	Ahmedabad
 amedebatum	Ahmedabad
+america	United States
+american samoa	American Samoa
 americana	Americana
 amersfoort	Amersfoort
 ames	Ames
@@ -972,6 +987,7 @@ andorra la vella	Andorra la Vella
 andorra la vielha	Andorra la Vella
 andorra la vielye	Andorra la Vella
 andorra tuan	Andorra la Vella
+andorre	Andorra
 andorre la vieille	Andorra la Vella
 andradas	Andradas
 andradina	Andradina
@@ -992,10 +1008,13 @@ angers	Angers
 angkala	Ankara
 angkara	Ankara
 angoche	Angoche
+angola	Angola
 angono	Angono
 angora	Ankara
 angra dos reis	Angra dos Reis
 angren	Angren
+anguila	Anguilla
+anguilla	Anguilla
 anguo	Anguo
 anguriyah	Ankara
 angyalfoeld	Angyalföld
@@ -1084,6 +1103,10 @@ anten	Aden
 antenenerivo	Antananarivo
 antep	Gaziantep
 antibes	Antibes
+antigua barbuda	Antigua & Barbuda
+antigua e barbuda	Antigua & Barbuda
+antigua et barbuda	Antigua & Barbuda
+antigua y barbuda	Antigua & Barbuda
 antioch	Antioch
 antioch on sarus	Adana
 antiocheia	Adana
@@ -1165,6 +1188,9 @@ ar rumaylah	Ar Rumaylah
 ar rumaythiyah	Ar Rumaythīyah
 ara damansara	Ara Damansara
 arabi	Ārabī
+arabia saudi	Saudi Arabia
+arabia saudita	Saudi Arabia
+arabie saoudite	Saudi Arabia
 arabkir	Arabkir
 aracaju	Aracaju
 aracatuba	Araçatuba
@@ -1232,7 +1258,10 @@ arezzo	Arezzo
 arganda	Arganda
 arganzuela	Arganzuela
 argel	Algiers
+argelia	Algeria
 argenteuil	Argenteuil
+argentina	Argentina
+argentine	Argentina
 argier	Algiers
 arhel	Algiers
 arhus	Århus
@@ -1256,6 +1285,7 @@ arlit	Arlit
 armant	Armant
 armavir	Armavir
 armenia	Armenia
+armenie	Armenia
 arnavutkoey	Arnavutköy
 arnavutkoy	Arnavutköy
 arnhem	Arnhem
@@ -1277,6 +1307,7 @@ artur alvim	Artur Alvim
 artur nogueira	Artur Nogueira
 artux	Artux
 arua	Arua
+aruba	Aruba
 arubiru xian	Erbil
 aruja	Arujá
 aruje	Algiers
@@ -1537,6 +1568,10 @@ aurangabadas	Aurangabad
 aurangabado	Aurangabad
 aurora	Aurora
 austin	Austin
+australia	Australia
+australie	Australia
+austria	Austria
+autriche	Austria
 avadi	Avadi
 avan	Avan
 avana	Havana
@@ -1608,6 +1643,11 @@ az zulfi	Az Zulfī
 azamgarh	Azamgarh
 azare	Azare
 azcapotzalco	Azcapotzalco
+azerbaidjan	Azerbaijan
+azerbaigian	Azerbaijan
+azerbaijan	Azerbaijan
+azerbaijao	Azerbaijan
+azerbaiyan	Azerbaijan
 azimabad	Patna
 azimpur	Azimpur
 azmir	İzmir
@@ -1734,6 +1774,7 @@ bagu	Baku
 bagudado	Baghdad
 baguio	Baguio
 bahadurgarh	Bahadurgarh
+bahamas	Bahamas
 baharampur	Baharampur
 baharestan	Bahārestān
 baharkah	Baḥarkah
@@ -1747,6 +1788,8 @@ bahir dar	Bahir Dar
 bahla	Bahlā’
 bahliz	Paris
 bahraigh	Bahraigh
+bahrain	Bahrain
+bahrein	Bahrain
 bahri	Khartoum North
 bahsihleihya	Brasília
 bai anba	Bai’anba
@@ -2008,6 +2051,8 @@ bangkok noi	Bangkok Noi
 bangkok yai	Bangkok Yai
 bangkoka	Bangkok
 bangkwk	Bangkok
+banglades	Bangladesh
+bangladesh	Bangladesh
 bangor	Bangor
 banguecoque	Bangkok
 bangui	Bangui
@@ -2118,6 +2163,8 @@ baratislawa	Bratislava
 barauni	Barauni
 baraut	Baraut
 barbacena	Barbacena
+barbade	Barbados
+barbados	Barbados
 barbalha	Barbalha
 barberton	Barberton
 barbil	Barbil
@@ -2135,6 +2182,7 @@ barddhaman	Barddhamān
 bardoli	Bārdoli
 bare	The Valley
 bareilly	Bareilly
+barein	Bahrain
 barenshia	Valencia
 baretta	Valletta
 bargarh	Bargarh
@@ -2463,6 +2511,7 @@ bela bela	Bela Bela
 bela vista	Bela Vista
 belagavi	Belagavi
 belagreda	Belgrade
+belarus	Belarus
 belawan	Belawan
 belchatow	Bełchatów
 belebey	Belebey
@@ -2484,6 +2533,10 @@ beleun	Bern
 belfast	Belfast
 belford roxo	Belford Roxo
 belfort	Belfort
+belgica	Belgium
+belgio	Belgium
+belgique	Belgium
+belgium	Belgium
 belgorod	Belgorod
 belgrad	Belgrade
 belgrada	Belgrade
@@ -2496,8 +2549,10 @@ belgrano	Belgrano
 belgrau	Belgrade
 belgrað	Belgrade
 beliatta	Beliatta
+belice	Belize
 beligradi	Belgrade
 belin	Berlin
+belize	Belize
 belize city	Belize City
 bella vista	Bella Vista
 bellampalli	Bellampalli
@@ -2640,6 +2695,9 @@ berlini	Berlin
 berlino	Berlin
 berlyn	Berlin
 berlynas	Berlin
+bermuda	Bermuda
+bermudas	Bermuda
+bermudes	Bermuda
 bern	Bern
 bern osh	Bern
 berna	Bern
@@ -2752,11 +2810,13 @@ bhopal	Bhopal
 bhopala	Bhopal
 bhopalas	Bhopal
 bhopalo	Bhopal
+bhoutan	Bhutan
 bhry	Khartoum North
 bhte	Belo Horizonte
 bhubaneswar	Bhubaneswar
 bhuj	Bhuj
 bhusawal	Bhusawal
+bhutan	Bhutan
 bhyalensiya	Valencia
 bi ena ho a	Biên Hòa
 bi jie	Bijie
@@ -2786,6 +2846,10 @@ bidar	Bidar
 biel bienne	Biel/Bienne
 bielany	Bielany
 bielefeld	Bielefeld
+bielorrusia	Belarus
+bielorrussia	Belarus
+bielorussia	Belarus
+bielorussie	Belarus
 bielsko biala	Bielsko-Biala
 bien hoa	Biên Hòa
 bien hoa city	Biên Hòa
@@ -3056,6 +3120,8 @@ bolgatanga	Bolgatanga
 bolgogeuladeu	Volgograd
 boli	Boli
 bolingbrook	Bolingbrook
+bolivia	Bolivia
+bolivie	Bolivia
 bologna	Bologna
 bolonesi	Voronezh
 bolpur	Bolpur
@@ -3122,6 +3188,12 @@ bos aires	Buenos Aires
 bosaso	Bosaso
 boshan	Boshan
 bosna sarai	Sarajevo
+bosnia	Bosnia & Herzegovina
+bosnia e herzegovina	Bosnia & Herzegovina
+bosnia ed erzegovina	Bosnia & Herzegovina
+bosnia herzegovina	Bosnia & Herzegovina
+bosnia y herzegovina	Bosnia & Herzegovina
+bosnie herzegovine	Bosnia & Herzegovina
 bosque saude	Bosque Saúde
 bossangoa	Bossangoa
 bosse	Bosse
@@ -3133,6 +3205,8 @@ bothaville	Bothaville
 botosani	Botoşani
 botou	Botou
 botshabelo	Botshabelo
+botsuana	Botswana
+botswana	Botswana
 bottrop	Bottrop
 botucatu	Botucatu
 bou saada	Bou Saâda
@@ -3193,7 +3267,9 @@ brantford	Brantford
 braselasa	Brussels
 brasels	Brussels
 braselsa	Brussels
+brasil	Brazil
 brasilandia	Brasilandia
+brasile	Brazil
 brasili a	Brasília
 brasilia	Brasília
 brasiliopolis	Brasília
@@ -3228,6 +3304,7 @@ brazavil	Brazzaville
 brazavilis	Brazzaville
 brazavilo	Brazzaville
 brazawyl	Brazzaville
+brazil	Brazil
 brazileje	Brasília
 brazili a	Brasília
 brazilia	Brasília
@@ -3251,6 +3328,7 @@ brentwood	Brentwood
 bresbens	Brisbane
 brescia	Brescia
 breselya	Brasília
+bresil	Brazil
 bresiliya	Brasília
 brest	Brest
 breu branco	Breu Branco
@@ -3283,6 +3361,9 @@ brisel	Brussels
 brisele	Brussels
 brismpein	Brisbane
 bristol	Bristol
+britain	United Kingdom
+british indian ocean territory	British Indian Ocean Territory
+british virgin islands	British Virgin Islands
 brits	Brits
 briuseli	Brussels
 briuselis	Brussels
@@ -3540,6 +3621,8 @@ bulaq abu al ila	Būlāq Abū al ‘Ilā
 bulawayo	Bulawayo
 buldana	Buldāna
 buleusa	Bursa
+bulgaria	Bulgaria
+bulgarie	Bulgaria
 buluan	Buluan
 bulungu	Bulungu
 bumahen	Būmahen
@@ -3585,17 +3668,20 @@ burijjitaun	Bridgetown
 burisa	Bursa
 burisuben	Brisbane
 buriticupu	Buriticupu
+burkina faso	Burkina Faso
 burleigh school	Zamboanga
 burlington	Burlington
 burnaby	Burnaby
 burnley	Burnley
 burnsville	Burnsville
+burquina faso	Burkina Faso
 burs	Bursa
 bursa	Bursa
 bursae	Bursa
 burso	Bursa
 burton upon trent	Burton upon Trent
 burukkurin qu	Brooklyn
+burundi	Burundi
 burusa	Bursa
 bury	Bury
 buryusseru	Brussels
@@ -3619,7 +3705,9 @@ busto arsizio	Busto Arsizio
 bustos	Bustos
 buta	Buta
 butajira	Butajīra
+butan	Bhutan
 butanta	Butanta
+butao	Bhutan
 butare	Butare
 butembo	Butembo
 buthidaung town	Buthidaung Town
@@ -3736,6 +3824,7 @@ cabinda	Cabinda
 cabo de santo agostinho	Cabo de Santo Agostinho
 cabo frio	Cabo Frio
 cabo san lucas	Cabo San Lucas
+cabo verde	Cape Verde
 cabool	Kabul
 caboul	Kabul
 cabudare	Cabudare
@@ -3838,13 +3927,22 @@ camama	Camama
 camaqua	Camaquã
 camaragibe	Camaragibe
 camarillo	Camarillo
+camaroes	Cameroon
 camayen	Camayenne
 camayenne	Camayenne
 cambe	Cambé
 camberra	Canberra
+cambodge	Cambodia
+cambodia	Cambodia
+cambogia	Cambodia
+camboja	Cambodia
 camboriu	Camboriú
+camboya	Cambodia
 cambridge	Cambridge
 camden	Camden
+cameroon	Cameroon
+cameroun	Cameroon
+camerun	Cameroon
 cameta	Cametá
 camocim	Camocim
 camoyana	Changwon
@@ -3881,6 +3979,7 @@ can tiyeko	San Diego
 can van	San Juan
 can đuoc	Cần Đước
 canaco	Zhengzhou
+canada	Canada
 canakkale	Çanakkale
 canarsie	Canarsie
 canary wharf	Canary Wharf
@@ -3946,6 +4045,7 @@ caotun	Caotun
 caozhou	Heze
 cap haitien	Cap-Haïtien
 cap nhi tan	Harbin
+cap vert	Cape Verde
 capanema	Capanema
 capao da canoa	Capão da Canoa
 capao redondo	Capao Redondo
@@ -3955,10 +4055,12 @@ cape coast	Cape Coast
 cape coral	Cape Coral
 cape toun	Cape Town
 cape town	Cape Town
+cape verde	Cape Verde
 capelle aan den ijssel	Capelle aan den IJssel
 capiata	Capiatá
 capitao poco	Capitão Poço
 capivari	Capivari
+capo verde	Cape Verde
 capporo	Sapporo
 capri	Capri
 carabanchel	Carabanchel
@@ -3966,6 +4068,7 @@ caracae	Caracas
 caracas	Caracas
 carachi	Karachi
 caraguatatuba	Caraguatatuba
+caraibi olandesi	Caribbean Netherlands
 carapicuiba	Carapicuíba
 caraques	Caracas
 caratinga	Caratinga
@@ -3976,6 +4079,8 @@ cardenas	Cárdenas
 cardiff	Cardiff
 cardona	Cardona
 cariacica	Cariacica
+caribbean netherlands	Caribbean Netherlands
+caribe neerlandes	Caribbean Netherlands
 caricin	Volgograd
 caricyn	Volgograd
 carigrad	Istanbul
@@ -4047,6 +4152,7 @@ catamarca	Catamarca
 catanduva	Catanduva
 catania	Catania
 catanzaro	Catanzaro
+catar	Qatar
 catarman	Catarman
 catbalogan	Catbalogan
 catchiungo	Catchiungo
@@ -4082,8 +4188,10 @@ caxito	Caxito
 cayena	Cayenne
 cayene	Cayenne
 cayenne	Cayenne
+cayman islands	Cayman Islands
 caypur	Jaipur
 caza	Kazan
+cazaquistao	Kazakhstan
 cazenga	Cazenga
 cchang c	Changzhi
 cchang cchun	Changchun
@@ -4106,6 +4214,7 @@ ceara mirim	Ceará-Mirim
 cearee	Kayseri
 cebelitarik	Gibraltar
 cebu city	Cebu City
+cechia	Czechia
 cedar park	Cedar Park
 cedar rapids	Cedar Rapids
 ceety o san marino	San Marino
@@ -4155,6 +4264,7 @@ cennai	Chennai
 cennaj	Chennai
 centennial	Centennial
 center city	Center City
+central african republic	Central African Republic
 central city	Central City
 central coast	Central Coast
 centralniy	Centralniy
@@ -4237,6 +4347,8 @@ ch uan chou shih	Quanzhou
 ch ung ch ing	Chongqing
 ch ung ch ing shih	Chongqing
 chacao	Chacao
+chad	Chad
+chade	Chad
 chaeryong ni	Chaeryŏng-ni
 chaeryong up	Chaeryŏng-ŭp
 chagni	Chagni
@@ -4527,6 +4639,7 @@ cheonan	Cheonan
 cheongdu si	Chengdu
 cheongju si	Cheongju-si
 cheonjin	Tianjin
+chequia	Czechia
 cheras	Cheras
 cheremkhovo	Cheremkhovo
 cheremushki	Cherëmushki
@@ -4639,6 +4752,8 @@ chilakalurupet	Chilakalūrupet
 chilanga township	Chilanga Township
 chilanzar	Chilanzar
 chilca	Chilca
+chile	Chile
+chili	Chile
 chililabombwe	Chililabombwe
 chilla soroda bangar	Chilla Soroda Bāngar
 chillan	Chillán
@@ -4662,6 +4777,7 @@ chin hua hsien	Jinhua
 chin hua hsien ch eng	Jinhua
 chin hua shih	Jinhua
 chin kang chhi	Jinjiang
+china	China
 chinandega	Chinandega
 chinatown	Chinatown
 chinautla	Chinautla
@@ -4672,6 +4788,7 @@ chinchina	Chinchiná
 chinchow	Qinzhou
 chinchu	Quanzhou
 chindao	Qingdao
+chine	China
 ching chou	Jingzhou
 ching do	Qingdao
 ching tea	Qingdao
@@ -4696,6 +4813,7 @@ chiouston	Houston
 chiovia	Kyiv
 chipata	Chipata
 chiplun	Chiplūn
+chipre	Cyprus
 chiquimula	Chiquimula
 chirala	Chīrāla
 chiraz	Shiraz
@@ -4782,6 +4900,7 @@ choudwar	Choudwar
 choue	Huế
 christchurch	Christchurch
 christiania	Oslo
+christmas island	Christmas Island
 chu	Chũ
 chu chau	Zhuzhou
 chu chiu chhi	Zhuzhou
@@ -4852,6 +4971,7 @@ chynayy	Chennai
 chyngdaw	Qingdao
 chyngdw	Chengdu
 chyngywan	Qingyuan
+chypre	Cyprus
 chystyakove	Chystyakove
 chytagong	Chattogram
 chytagwng	Chattogram
@@ -4871,6 +4991,7 @@ ci buti	Djibouti
 ci hnan	Jinan
 ci xi	Cixi
 ci xi shi	Cixi
+ciad	Chad
 ciamis	Ciamis
 ciampea	Ciampea
 cianjur	Cianjur
@@ -4893,6 +5014,7 @@ cidade do cabo	Cape Town
 cidade do mexico	Mexico City
 cidade do santo nome de deus de macau	Macau
 cidade do sao salvador da bahia de todos os santos	Salvador
+cidade do vaticano	Vatican City
 cidade dutra	Cidade Dutra
 cidade lider	Cidade Lider
 cidade ocidental	Cidade Ocidental
@@ -4914,6 +5036,7 @@ cikaqo	Chicago
 cikarang	Cikarang
 cikupa	Cikupa
 cilacap	Cilacap
+cile	Chile
 cilegon	Cilegon
 ciles santjagas	Santiago
 cileungsir	Cileungsir
@@ -4923,6 +5046,7 @@ cimahi	Cimahi
 cimitarra	Cimitarra
 cimkent	Shymkent
 cin chzhou	Qinzhou
+cina	China
 cinana	Jinan
 cinanum	Jinan
 cincinnati	Cincinnati
@@ -4937,6 +5061,7 @@ cinujuan	Qingyuan
 cio hai	Zhuhai
 ciong ciu	Quanzhou
 cipolletti	Cipolletti
+cipro	Cyprus
 ciputat	Ciputat
 ciputti	Djibouti
 ciranjang hilir	Ciranjang-hilir
@@ -5121,6 +5246,8 @@ cochabamba	Cochabamba
 cockburn town	Cockburn Town
 coconut creek	Coconut Creek
 cocorote	Cocorote
+cocos islands	Cocos (Keeling) Islands
+cocos keeling islands	Cocos (Keeling) Islands
 codo	Codó
 codpur	Jodhpur
 coffs harbour	Coffs Harbour
@@ -5141,6 +5268,8 @@ colmar	Colmar
 cologna	Köln
 cologne	Cologne
 colombes	Colombes
+colombia	Colombia
+colombie	Colombia
 colombo	Colombo
 colon	Colón
 colonha	Köln
@@ -5166,6 +5295,10 @@ comitatus bruclinum	Brooklyn
 commerce city	Commerce City
 commonwealth	Commonwealth
 comodoro rivadavia	Comodoro Rivadavia
+comoras	Comoros
+comore	Comoros
+comores	Comoros
+comoros	Comoros
 compton	Compton
 comte de queens	Queens
 con minh	Kunming
@@ -5187,6 +5320,9 @@ congcing	Chongqing
 congcingas	Chongqing
 congcingo	Chongqing
 congkinga	Chongqing
+congo	Congo - Brazzaville
+congo brazzaville	Congo - Brazzaville
+congo kinshasa	Congo - Kinshasa
 congonhas	Congonhas
 conia	Konya
 conkin	Chongqing
@@ -5206,6 +5342,7 @@ contagem	Contagem
 contai	Contai
 contramaestre	Contramaestre
 conway	Conway
+cook islands	Cook Islands
 coomassie	Kumasi
 coon rapids	Coon Rapids
 copacabana	Copacabana
@@ -5227,6 +5364,14 @@ cordoba	Córdoba
 cordoba i argentina	Córdoba
 cordova	Córdoba
 corduba	Córdoba
+corea del nord	North Korea
+corea del norte	North Korea
+corea del sud	South Korea
+corea del sur	South Korea
+coree du nord	North Korea
+coree du sud	South Korea
+coreia do norte	North Korea
+coreia do sul	South Korea
 corityba	Curitiba
 cork	Cork
 corlu	Çorlu
@@ -5249,9 +5394,13 @@ corvallis	Corvallis
 cosenza	Cosenza
 coslada	Coslada
 cosmopolis	Cosmópolis
+costa d avorio	Côte d’Ivoire
+costa do marfim	Côte d’Ivoire
 costa mesa	Costa Mesa
+costa rica	Costa Rica
 costantinopoli	Istanbul
 cotabato	Cotabato
+cote d ivoire	Côte d’Ivoire
 cotia	Cotia
 cotonou	Cotonou
 cotpur	Jodhpur
@@ -5283,6 +5432,10 @@ criciuma	Criciúma
 cricklewood	Cricklewood
 cristalina	Cristalina
 cristo rey	Cristo Rey
+croacia	Croatia
+croatia	Croatia
+croatie	Croatia
+croazia	Croatia
 croix des bouquets	Croix-des-Bouquets
 crotone	Crotone
 croydon	Croydon
@@ -5316,6 +5469,7 @@ cuauhtemoc	Cuauhtémoc
 cuautitlan	Cuautitlán
 cuautitlan izcalli	Cuautitlán Izcalli
 cuautla	Cuautla
+cuba	Cuba
 cubal	Cubal
 cubatao	Cubatão
 cubuk	Çubuk
@@ -5345,7 +5499,9 @@ cunji	Zunyi
 cunkinq	Chongqing
 cupang	Cupang
 cupertino	Cupertino
+curacao	Curaçao
 curat	Surat
+curazao	Curaçao
 curepipe	Curepipe
 curico	Curicó
 curitiba	Curitiba
@@ -5366,9 +5522,12 @@ cxrc thawn	Georgetown
 cyberjaya	Cyberjaya
 cypress	Cypress
 cypress hills	Cypress Hills
+cyprus	Cyprus
 cysi	Cixi
 cyu cou	Zhuzhou
 czaochzhuan	Zaozhuang
+czech republic	Czechia
+czechia	Czechia
 czejan	Jieyang
 czelabinsk	Chelyabinsk
 czengczou	Zhengzhou
@@ -5616,10 +5775,12 @@ danbury	Danbury
 dancheng	Dancheng
 dandeli	Dandeli
 dandong	Dandong
+danemark	Denmark
 dang ciu	Zhengzhou
 dang ge lang	Tangerang
 dangila	Dangila
 dangkao	Dangkao
+danimarca	Denmark
 danjiangkou	Danjiangkou
 danli	Danlí
 danmamu	Dammam
@@ -5829,6 +5990,7 @@ dengbu	Dengbu
 dengtalu	Anyang
 dengzhou	Dengzhou
 denizli	Denizli
+denmark	Denmark
 denov	Denov
 denpasar	Denpasar
 denton	Denton
@@ -5996,6 +6158,7 @@ din daeng	Din Daeng
 dinaig	Dinaig
 dinajpur	Dinajpur
 dinalupihan	Dinalupihan
+dinamarca	Denmark
 dinapore	Dinapore
 dinapur nizamat	Dinapur Nizamat
 dinas jibwti	Djibouti
@@ -6104,6 +6267,9 @@ domas	Damascus
 dombibali	Dombivali
 dombivali	Dombivali
 dombivli	Dombivali
+dominica	Dominica
+dominican republic	Dominican Republic
+dominique	Dominica
 domodedovo	Domodedovo
 dompu	Dompu
 don carlos	Don Carlos
@@ -6488,6 +6654,7 @@ ecatepec de morelos	Ecatepec de Morelos
 ecatepec morelos	Ecatepec de Morelos
 ech chettia	Ech Chettia
 echizen	Echizen
+ecuador	Ecuador
 ecunna	Ecunna
 ed dammam	Dammam
 ed dar el baida	Casablanca
@@ -6523,7 +6690,12 @@ effium	Effium
 efon alaaye	Efon-Alaaye
 efrog newydd	New York City
 eger	Eger
+egipto	Egypt
+egito	Egypt
+egitto	Egypt
 egoli	Johannesburg
+egypt	Egypt
+egypte	Egypt
 eha amufu	Eha Amufu
 ehdmantan	Edmonton
 ehdmonton	Edmonton
@@ -6605,6 +6777,7 @@ el pueblo de nuestra senora la reina de los angeles de porcivncula	Los Angeles
 el pueblo del rio de nuestra senora	Los Angeles
 el puerto de santa maria	El Puerto de Santa María
 el qahira	Cairo
+el salvador	El Salvador
 el shorouk	El Shorouk
 el tigre	El Tigre
 el tocuyo	El Tocuyo
@@ -6657,6 +6830,11 @@ emin	Emin
 eminabad	Eminabad
 eminoenue	Eminönü
 eminonu	Eminönü
+emirados arabes unidos	United Arab Emirates
+emirates	United Arab Emirates
+emirati arabi uniti	United Arab Emirates
+emiratos arabes unidos	United Arab Emirates
+emirats arabes unis	United Arab Emirates
 emmen	Emmen
 emmiganur	Emmiganūr
 emstaradyama	Amsterdam
@@ -6673,6 +6851,7 @@ ende	Ende
 enerhodar	Enerhodar
 enfield town	Enfield Town
 engels	Engels
+england	England
 enguri	Ankara
 enid	Enid
 eniwa	Eniwa
@@ -6693,6 +6872,9 @@ epe	Epe
 ephu	Ufa
 epworth	Epworth
 eqbaliyeh	Eqbāliyeh
+equador	Ecuador
+equateur	Ecuador
+equatorial guinea	Equatorial Guinea
 er riadi	Riyadh
 er rijad	Riyadh
 er riyad	Riyadh
@@ -6722,6 +6904,8 @@ erftstadt	Erftstadt
 erfurt	Erfurt
 ergani	Ergani
 erie	Erie
+eritrea	Eritrea
+eritreia	Eritrea
 erivan	Yerevan
 eriwan	Yerevan
 erlangen	Erlangen
@@ -6733,6 +6917,7 @@ errachidia	Errachidia
 erroma	Rome
 eruandawan	Yerevan
 ervandavan	Yerevan
+erythree	Eritrea
 erywan	Yerevan
 erzincan	Erzincan
 erzsebetvaros	Erzsébetváros
@@ -6757,15 +6942,22 @@ eskilstuna	Eskilstuna
 eskisehir	Eskişehir
 eslamabad e gharb	Eslāmābād-e Gharb
 eslamshahr	Eslamshahr
+eslovaquia	Slovakia
+eslovenia	Slovenia
 esmeraldas	Esmeraldas
 esmirna	İzmir
 esna	Esna
+espagne	Spain
 espahan	Isfahan
+espana	Spain
+espanha	Spain
 espinal	Espinal
 espoo	Espoo
 essaouira	Essaouira
 essen	Essen
 esslingen	Esslingen
+essuatini	Eswatini
+estados unidos	United States
 estalingrado	Volgograd
 estambul	Istanbul
 estancia	Estância
@@ -6780,14 +6972,22 @@ estocolmo	Stockholm
 estocolmu	Stockholm
 estokolma	Stockholm
 estokolmo	Stockholm
+estonia	Estonia
+estonie	Estonia
+esuatini	Eswatini
 esufahan	Isfahan
 esuk oron	Esuk Oron
+eswatini	Eswatini
 etah	Etah
 etat de la cite du vatican	Vatican City
+etats unis	United States
 etawa	Etāwa
 etawah	Etāwah
 etens	Athens
 ethekwini	Durban
+ethiopia	Ethiopia
+ethiopie	Ethiopia
+etiopia	Ethiopia
 etmantan	Edmonton
 etobicoke	Etobicoke
 ettadhamen	Ettadhamen
@@ -6838,6 +7038,7 @@ faisarabado	Faisalabad
 fajsalabad	Faisalabad
 fak san	Foshan
 fala iga fisa kova	Flying Fish Cove
+falkland islands	Falkland Islands
 fall river	Fall River
 falyta	Valletta
 fan cheng	Xiangyang
@@ -6870,6 +7071,7 @@ faritani delhi	Delhi
 farmington hills	Farmington Hills
 farnborough	Farnborough
 faro	Faro
+faroe islands	Faroe Islands
 farroupilha	Farroupilha
 farrukhabad	Farrukhābād
 farshut	Farshūţ
@@ -6952,9 +7154,12 @@ fi sang	Philadelphia
 fianarantsoa	Fianarantsoa
 fiche	Fichē
 fiditi	Fiditi
+fidji	Fiji
 fiena	Vienna
 fier	Fier
 fier cifci	Fier-Çifçi
+figi	Fiji
+fiji	Fiji
 fiktoria	Victoria
 fila	Port-Vila
 filadailafi a	Philadelphia
@@ -6974,6 +7179,8 @@ filadelfiya	Philadelphia
 filadelfiye	Philadelphia
 fili	Fili
 filip smpournk	Philipsburg
+filipinas	Philippines
+filippine	Philippines
 filipsburg	Philipsburg
 filipsburga	Philipsburg
 filipsburgas	Philipsburg
@@ -6986,6 +7193,9 @@ finiks	Phoenix
 finiksa	Phoenix
 finiksas	Phoenix
 finiksos	Phoenix
+finland	Finland
+finlande	Finland
+finlandia	Finland
 finlyandskiy	Finlyandskiy
 finote selam	Finote Selam
 firaderufia	Philadelphia
@@ -6996,6 +7206,7 @@ firozpur	Firozpur
 firuzabad	Fīrūzābād
 fishers	Fishers
 fiumicino	Fiumicino
+fiyi	Fiji
 fjayawada	Vijayawada
 flagami	Flagami
 flagstaff	Flagstaff
@@ -7119,7 +7330,9 @@ fraijanes	Fraijanes
 framingham	Framingham
 framingham center	Framingham Center
 franca	Franca
+france	France
 franceville	Franceville
+francia	France
 francisco beltrao	Francisco Beltrão
 francisco morato	Francisco Morato
 francistown	Francistown
@@ -7137,6 +7350,9 @@ freguesia do o	Freguesia do Ó
 freiburg	Freiburg
 frejus	Fréjus
 fremont	Fremont
+french guiana	French Guiana
+french polynesia	French Polynesia
+french southern territories	French Southern Territories
 fresnillo	Fresnillo
 fresno	Fresno
 fri thawn	Freetown
@@ -7324,6 +7540,7 @@ gaa ding	Shanghai
 gaalkacyo	Gaalkacyo
 gabai	Isfahan
 gabalpuro	Jabalpur
+gabao	Gabon
 gabaroneh	Gaborone
 gabela	Gabela
 gaberones	Gaborone
@@ -7331,6 +7548,7 @@ gaberones village	Gaborone
 gaberono	Gaborone
 gabes	Gabès
 gabolone	Gaborone
+gabon	Gabon
 gaboron	Gaborone
 gaboronas	Gaborone
 gaborone	Gaborone
@@ -7373,6 +7591,8 @@ gama	Gama
 gamagori	Gamagōri
 gambat	Gambat
 gambela	Gambēla
+gambia	Gambia
+gambie	Gambia
 gamboru	Gamboru
 gamburg	Hamburg
 gamil tan	Hamilton
@@ -7383,6 +7603,7 @@ gamsedpur	Jamshedpur
 gan chzhou	Ganzhou
 gan zhou	Ganzhou
 gan zhou shi	Ganzhou
+gana	Ghana
 ganda	Ganda
 gandajika	Gandajika
 gandakha	Gandakha
@@ -7534,12 +7755,18 @@ george town pa caymanoyane	George Town
 george town pa caymanøyane	George Town
 georgetown	Georgetown
 georgetown i guyana	Georgetown
+georgia	Georgia
+georgia del sud e sandwich australi	South Georgia & South Sandwich Islands
+georgie	Georgia
+georgie du sud et les iles sandwich du sud	South Georgia & South Sandwich Islands
 georgiopolis	Georgetown
 georgiyevsk	Georgiyevsk
 georgurbo	Georgetown
 gera	Gera
 gereida	Gereida
+germania	Germany
 germantown	Germantown
+germany	Germany
 germiston	Germiston
 gesundbrunnen	Gesundbrunnen
 getafe	Getafe
@@ -7549,6 +7776,7 @@ geylang	Geylang
 ghaji abada	Ghāziābād
 ghajiyabad	Ghāziābād
 ghajiyabada	Ghāziābād
+ghana	Ghana
 ghardaia	Ghardaïa
 gharroli	Gharroli
 ghatal	Ghātāl
@@ -7578,11 +7806,13 @@ gia lam	Gia Lâm
 gia nghia	Gia Nghĩa
 gia rai	Giá Rai
 giacarta	Jakarta
+giamaica	Jamaica
 giamoussoukro	Yamoussoukro
 gian nkon	Yangon
 giang mon	Jiangmen
 giang vo	Giảng Võ
 giaounte	Yaoundé
+giappone	Japan
 giaren	Yaren
 giashkuabad	Ashgabat
 gibbilterra	Gibraltar
@@ -7623,6 +7853,7 @@ ginowan	Ginowan
 giochanesmpournk	Johannesburg
 giok lim chhi	Yulin
 gion	Gion
+giordania	Jordan
 girardot city	Girardot City
 giresun	Giresun
 girga	Girga
@@ -7818,18 +8049,25 @@ graytown	San Diego
 graz	Graz
 grazhdanka	Grazhdanka
 great bay	Philipsburg
+great britain	United Kingdom
 great falls	Great Falls
 great yarmouth	Great Yarmouth
 greater melbourne	Melbourne
 greater noida	Greater Noida
 greater sudbury	Greater Sudbury
+grece	Greece
+grecia	Greece
+greece	Greece
 greeley	Greeley
 green bay	Green Bay
 greenburgh	Greenburgh
+greenland	Greenland
 greensboro	Greensboro
 greenville	Greenville
 greenwood	Greenwood
+grenada	Grenada
 grenada city	Saint George's
+grenade	Grenada
 grenoble	Grenoble
 gresham	Gresham
 gresik	Gresik
@@ -7840,6 +8078,8 @@ gritavikena	Grytviken
 gritviken	Grytviken
 griutvikenas	Grytviken
 grjutviken	Grytviken
+groenland	Greenland
+groenlandia	Greenland
 grogol	Grogol
 gronau	Gronau
 groningen	Groningen
@@ -7875,15 +8115,18 @@ guadalajara de buga	Guadalajara de Buga
 guadalajara i jalisco	Guadalajara
 guadalakhara	Guadalajara
 guadalaxara	Guadalajara
+guadalupa	Guadeloupe
 guadalupe	Gustavo Adolfo Madero
 guadalupe hidalgo	Gustavo Adolfo Madero
 guadarahara	Guadalajara
+guadeloupe	Guadeloupe
 guaianases	Guaianases
 guaiaquil	Guayaquil
 guaiaquilum	Guayaquil
 guaiba	Guaíba
 guajakil	Guayaquil
 gualeguaychu	Gualeguaychú
+guam	Guam
 guamuchil	Guamúchil
 guan kou	Guankou
 guanabacoa	Guanabacoa
@@ -7943,6 +8186,7 @@ guatemarashiti	Guatemala City
 guatire	Guatire
 guaxupe	Guaxupé
 guayakiru	Guayaquil
+guayana francesa	French Guiana
 guayaquil	Guayaquil
 guaynabo	Guaynabo
 guaziantep	Gaziantep
@@ -7971,6 +8215,8 @@ guelph	Guelph
 guengoeren merter	Güngören Merter
 guerara	Guerara
 guercif	Guercif
+guernesey	Guernsey
+guernsey	Guernsey
 guetersloh	Gütersloh
 gugou	Zhuzhou
 guhaj	Zhuhai
@@ -7980,6 +8226,8 @@ gui lin	Guilin
 gui lin shi	Guilin
 gui yang	Guiyang
 gui yang shi	Guiyang
+guiana	Guyana
+guiana francesa	French Guiana
 guicheng	Guigang
 guider	Guider
 guidonia montecelio	Guidonia Montecelio
@@ -7993,6 +8241,17 @@ guijango	Guiyang
 guildford	Guildford
 guilin	Guilin
 guilin shi	Guilin
+guine	Guinea
+guine bissau	Guinea-Bissau
+guine equatorial	Equatorial Guinea
+guinea	Guinea
+guinea bisau	Guinea-Bissau
+guinea bissau	Guinea-Bissau
+guinea ecuatorial	Equatorial Guinea
+guinea equatoriale	Equatorial Guinea
+guinee	Guinea
+guinee bissau	Guinea-Bissau
+guinee equatoriale	Equatorial Guinea
 guines	Güines
 guiping	Guiping
 guira de melena	Güira de Melena
@@ -8062,6 +8321,9 @@ guthavia	Gustavia
 guwahati	Guwahati
 guyadalahara	Guadalajara
 guyan	Guiyang
+guyana	Guyana
+guyana francese	French Guiana
+guyane francaise	French Guiana
 guyanjho	Guangzhou
 guyong	Guyong
 guyuan	Guyuan
@@ -8250,6 +8512,7 @@ haimen	Haimen
 haining	Haining
 haiphong	Haiphong
 haitarapat	Hyderabad
+haiti	Haiti
 haizhou	Haizhou
 hajdarabad	Hyderabad
 hajderabad	Hyderabad
@@ -8843,6 +9106,7 @@ hojjimin	Ho Chi Minh City
 hok chiu chhi	Fuzhou
 hok ciu	Fuzhou
 holguin	Holguín
+holland	Netherlands
 hollywood	Hollywood
 holmia	Stockholm
 holon	H̱olon
@@ -8855,10 +9119,13 @@ honan	Luoyang
 honanfu	Luoyang
 honcho	Honchō
 hondlon	Hondlon
+honduras	Honduras
 hong chu su	Hangzhou
 hong ciu	Hangzhou
 hong kong	Hong Kong
 hong kong island	Hong Kong Island
+hong kong rae da china	Hong Kong SAR China
+hong kong sar china	Hong Kong SAR China
 hong ngu	Hồng Ngự
 hongakonga	Hong Kong
 hongch on	Hongch’ŏn
@@ -8868,6 +9135,7 @@ hongjiang	Hongjiang
 hongkong	Hong Kong
 hongkou	Hongkou
 hongqiao	Hongqiao
+hongrie	Hungary
 hongseong	Hongseong
 hongwon	Hongwŏn
 honiala	Honiara
@@ -9121,7 +9389,9 @@ hunchun	Hunchun
 hunedoara	Hunedoara
 hung pu	Yunfu
 hung yen	Hưng Yên
+hungary	Hungary
 hungnam	Hŭngnam
+hungria	Hungary
 hunsur	Hunsūr
 huntersville	Huntersville
 huntington beach	Huntington Beach
@@ -9259,6 +9529,7 @@ ibshaway	Ibshawāy
 ica	Ica
 ican	Yichang
 icara	Içara
+iceland	Iceland
 ichalkaranji	Ichalkaranji
 ichan	Yichang
 ichang	Yichang
@@ -9289,6 +9560,7 @@ idku	Idkū
 idlib	Idlib
 idodoma	Dodoma
 iedda	Jeddah
+iemen	Yemen
 ieng dai	Yantai
 ierevan	Yerevan
 ifakara	Ifakara
@@ -9349,10 +9621,44 @@ ilahabada	Prayagraj
 ilakno	Lucknow
 ilam	Īlām
 ilantan	London
+ile christmas	Christmas Island
+ile de man	Isle of Man
 ile ife	Ile-Ife
+ile norfolk	Norfolk Island
 ilebo	Ilebo
+iles aland	Åland Islands
+iles caimans	Cayman Islands
+iles cocos	Cocos (Keeling) Islands
+iles cook	Cook Islands
+iles feroe	Faroe Islands
+iles malouines	Falkland Islands
+iles mariannes du nord	Northern Mariana Islands
+iles marshall	Marshall Islands
+iles pitcairn	Pitcairn Islands
+iles salomon	Solomon Islands
+iles turques et caiques	Turks & Caicos Islands
+iles vierges britanniques	British Virgin Islands
+iles vierges des etats unis	U.S. Virgin Islands
 ilesa	Ilesa
 ilford	Ilford
+ilha christmas	Christmas Island
+ilha de man	Isle of Man
+ilha norfolk	Norfolk Island
+ilhas aland	Åland Islands
+ilhas cayman	Cayman Islands
+ilhas cocos	Cocos (Keeling) Islands
+ilhas cocos keeling	Cocos (Keeling) Islands
+ilhas cook	Cook Islands
+ilhas faroe	Faroe Islands
+ilhas georgia do sul e sandwich do sul	South Georgia & South Sandwich Islands
+ilhas malvinas	Falkland Islands
+ilhas marianas do norte	Northern Mariana Islands
+ilhas marshall	Marshall Islands
+ilhas pitcairn	Pitcairn Islands
+ilhas salomao	Solomon Islands
+ilhas turcas e caicos	Turks & Caicos Islands
+ilhas virgens americanas	U.S. Virgin Islands
+ilhas virgens britanicas	British Virgin Islands
 ilheus	Ilhéus
 ilidza	Ilidža
 iligan	Iligan
@@ -9424,11 +9730,15 @@ indaiatuba	Indaiatuba
 indang	Indang
 indaur	Indore
 indaura	Indore
+inde	India
 independence	Independence
 indhur	Indore
+india	India
 indianapolis	Indianapolis
 indio	Indio
 indoleu	Indore
+indonesia	Indonesia
+indonesie	Indonesia
 indor	Indore
 indora	Indore
 indore	Indore
@@ -9486,21 +9796,29 @@ ipoti	Ipoti
 ipswich	Ipswich
 iquique	Iquique
 iquitos	Iquitos
+ira	Iran
 irahabado	Prayagraj
+irak	Iraq
 irakleion	Irákleion
+iran	Iran
 iranshahr	Iranshahr
 irapuato	Irapuato
+iraq	Iraq
+iraque	Iraq
 irati	Irati
 iravalpinti	Rawalpindi
 iravan	Yerevan
 irbid	Irbid
 irbil	Erbil
 irece	Irecê
+ireland	Ireland
 irewe	Irewe
 iriga city	Iriga City
 iringa	Iringa
 iriyo ti ceniro	Rio de Janeiro
 irkutsk	Irkutsk
+irlanda	Ireland
+irlande	Ireland
 irondequoit	Irondequoit
 irorin	Ilorin
 irpin	Irpin
@@ -9554,6 +9872,9 @@ iskenderiye	Alexandria
 iskenderun	İskenderun
 iskindiriya	Alexandria
 iskitim	Iskitim
+isla de man	Isle of Man
+isla de navidad	Christmas Island
+isla norfolk	Norfolk Island
 isla oeste	West Island
 islamabad	Chattogram
 islamabada	Islamabad
@@ -9565,12 +9886,49 @@ islamahbad	Islamabad
 islamampant	Islamabad
 islamapat	Islamabad
 islampur	Islāmpur
+islanda	Iceland
+islande	Iceland
+islandia	Iceland
+islas aland	Åland Islands
+islas caiman	Cayman Islands
+islas cocos	Cocos (Keeling) Islands
+islas cook	Cook Islands
+islas feroe	Faroe Islands
+islas georgia del sur y sandwich del sur	South Georgia & South Sandwich Islands
+islas malvinas	Falkland Islands
+islas marianas del norte	Northern Mariana Islands
+islas marshall	Marshall Islands
+islas pitcairn	Pitcairn Islands
+islas salomon	Solomon Islands
+islas turcas y caicos	Turks & Caicos Islands
+islas virgenes britanicas	British Virgin Islands
+islas virgenes de ee uu	U.S. Virgin Islands
+isle of man	Isle of Man
 islington	Islington
 ismailia	Ismailia
 ismir	İzmir
+isola christmas	Christmas Island
+isola di man	Isle of Man
+isola norfolk	Norfolk Island
+isole aland	Åland Islands
+isole cayman	Cayman Islands
+isole cocos	Cocos (Keeling) Islands
+isole cocos keeling	Cocos (Keeling) Islands
+isole cook	Cook Islands
+isole falkland	Falkland Islands
+isole fær øer	Faroe Islands
+isole marianne settentrionali	Northern Mariana Islands
+isole marshall	Marshall Islands
+isole pitcairn	Pitcairn Islands
+isole salomone	Solomon Islands
+isole turks e caicos	Turks & Caicos Islands
+isole vergini americane	U.S. Virgin Islands
+isole vergini britanniche	British Virgin Islands
 ispahan	Isfahan
 isparta	Isparta
 isphahana	Isfahan
+israel	Israel
+israele	Israel
 issia	Issia
 issy les moulineaux	Issy-les-Moulineaux
 istamboul	Istanbul
@@ -9603,6 +9961,9 @@ itaim paulista	Itaim Paulista
 itaituba	Itaituba
 itajai	Itajaí
 itajuba	Itajubá
+italia	Italy
+italie	Italy
+italy	Italy
 itamaraju	Itamaraju
 itami	Itami
 itanagar	Itanagar
@@ -9643,6 +10004,7 @@ ivanovskoye	Ivanovskoye
 ivanteyevka	Ivanteyevka
 ivato	Ivato
 ivilnyusi	Vilnius
+ivory coast	Côte d’Ivoire
 ivory park	Ivory Park
 ivry sur seine	Ivry-sur-Seine
 iwade	Iwade
@@ -9764,6 +10126,7 @@ jalna	Jālna
 jalor	Jalor
 jalpaiguri	Jalpāiguri
 jamaica	Jamaica
+jamaique	Jamaica
 jamalpur	Jamālpur
 jamasedapura	Jamshedpur
 jambi city	Jambi City
@@ -9823,9 +10186,12 @@ janzur	Janzūr
 jaoching si	Zhaoqing
 jaora	Jaora
 japalpur	Jabalpur
+japan	Japan
+japao	Japan
 japara	Jepara
 japekrom	Japekrom
 japeri	Japeri
+japon	Japan
 jaragua	Jaraguá
 jaragua do sul	Jaraguá do Sul
 jarajata una	Georgetown
@@ -9920,6 +10286,7 @@ jerevani	Yerevan
 jerewan	Yerevan
 jerez de la frontera	Jerez de la Frontera
 jerjewan	Yerevan
+jersey	Jersey
 jersey city	Jersey City
 jerusalem	Jerusalem
 jessore	Jessore
@@ -10208,6 +10575,9 @@ jongshen shehiri	Zhongshan
 jonkoping	Jönköping
 jonquiere	Jonquière
 joplin	Joplin
+jordan	Jordan
+jordania	Jordan
+jordanie	Jordan
 jorhat	Jorhat
 jorjata una	Georgetown
 jorjtavun	Georgetown
@@ -11017,6 +11387,9 @@ kaywhsywng	Kaohsiung
 kayyn	Cayenne
 kazablanka	Casablanca
 kazablanko	Casablanca
+kazajistan	Kazakhstan
+kazakhstan	Kazakhstan
+kazakistan	Kazakhstan
 kazamplan ka	Casablanca
 kazan	Kazan
 kazan osh	Kazan
@@ -11094,6 +11467,7 @@ kenema	Kenema
 keng chiu chhi	Jingzhou
 keng tung	Kēng Tung
 kenge	Kenge
+kenia	Kenya
 keningau	Keningau
 kenitra	Kenitra
 kennedy	Kennedy
@@ -11104,6 +11478,7 @@ kent	Kent
 kentau	Kentau
 kentron	Kentron
 kentwood	Kentwood
+kenya	Kenya
 keonjhargarh	Keonjhargarh
 kep taun	Cape Town
 kep tavun	Cape Town
@@ -11513,6 +11888,10 @@ kirari sulemannagar	Kirāri Sulemānnagar
 kirasinoyarisiki	Krasnoyarsk
 kiratpur	Kīratpur
 kirdasah	Kirdāsah
+kirghizistan	Kyrgyzstan
+kirghizstan	Kyrgyzstan
+kirguistan	Kyrgyzstan
+kiribati	Kiribati
 kirikhan	Kırıkhan
 kirikkale	Kırıkkale
 kirin	Jilin
@@ -11849,6 +12228,7 @@ kordov	Córdoba
 kordova	Córdoba
 kordova khot	Córdoba
 kordovae	Córdoba
+korea	South Korea
 koreatown	Koreatown
 korfez	Körfez
 korhogo	Korhogo
@@ -11874,6 +12254,7 @@ kosmichnyi	Kosmichnyi
 koson	Koson
 kosong	Kosong
 kosonsoy	Kosonsoy
+kosovo	Kosovo
 kostanay	Kostanay
 kostandnupolis	Istanbul
 kosti	Kosti
@@ -12419,6 +12800,7 @@ kyotu	Kyoto
 kyotum	Kyoto
 kyouto	Kyoto
 kyoutoshi	Kyoto
+kyrgyzstan	Kyrgyzstan
 kyrkwk	Kirkuk
 kysangany	Kisangani
 kysanjany	Kisangani
@@ -12490,6 +12872,7 @@ la piedad de cabadas	La Piedad de Cabadas
 la pintana	La Pintana
 la plata	La Plata
 la reina de los angeles de porciuncula	Los Angeles
+la reunion	Réunion
 la rioja	La Rioja
 la roche sur yon	La Roche-sur-Yon
 la rochelle	La Rochelle
@@ -12711,6 +13094,7 @@ lao cai	Lào Cai
 laoag	Laoag
 laohekou	Laohekou
 laojunmiao	Laojunmiao
+laos	Laos
 lapa	Lapa
 lapaja	La Paz
 lapas	La Paz
@@ -12755,6 +13139,7 @@ lathrippa	Madinah
 latina	Latina
 latkrabang	Latkrabang
 latur	Latur
+latvia	Latvia
 lauderhill	Lauderhill
 launceston	Launceston
 lauro de freitas	Lauro de Freitas
@@ -12788,6 +13173,7 @@ le vieux longueuil	Le Vieux-Longueuil
 league city	League City
 leander	Leander
 leas anceles	Los Angeles
+lebanon	Lebanon
 lecce	Lecce
 lecheng	Lecheng
 lee s summit	Lee's Summit
@@ -12861,8 +13247,13 @@ leshan	Leshan
 leskovac	Leskovac
 lesnoy	Lesnoy
 lesosibirsk	Lesosibirsk
+lesotho	Lesotho
+lesoto	Lesotho
 leszno	Leszno
 lethbridge	Lethbridge
+letonia	Latvia
+lettonia	Latvia
+lettonie	Latvia
 letzebuerg	Luxembourg
 letzeburg	Luxembourg
 leucosia	Nicosia
@@ -12928,14 +13319,18 @@ liaocheng	Liaocheng
 liaolan	Liaolan
 liaoyang	Liaoyang
 liaozhong	Liaozhong
+liban	Lebanon
+libano	Lebanon
 libaravila	Libreville
 libarevile	Libreville
 libarwil	Libreville
 liberdade	Liberdade
 liberec	Liberec
+liberia	Liberia
 liberopolis	Libreville
 libertad	Libertad
 libeuleubil	Libreville
+libia	Libya
 libon	Libon
 librefille	Libreville
 librehvil	Libreville
@@ -12948,6 +13343,8 @@ libreville	Libreville
 librevilo	Libreville
 librvil	Libreville
 libvil	Libreville
+libya	Libya
+libye	Libya
 licha	Licha
 licheng	Licheng
 lichinga	Lichinga
@@ -12958,6 +13355,7 @@ lichuan	Lichuan
 lida	Lida
 lido di ostia	Lido di Ostia
 lidu	Lidu
+liechtenstein	Liechtenstein
 liege	Liège
 lien chiang	Lianjiang
 lien chiang hsien	Lianjiang
@@ -13102,10 +13500,13 @@ lisovyi masyv	Lisovyi Masyv
 lissabon	Lisbon
 lisszabon	Lisbon
 lithopolis	Tashkent
+lithuania	Lithuania
 little havana	Little Havana
 little red dot	Singapore
 little rock	Little Rock
 littlehampton	Littlehampton
+lituania	Lithuania
+lituanie	Lithuania
 liu an	Lu’an
 liu an hsien	Lu’an
 liu an shi	Lu’an
@@ -13751,13 +14152,19 @@ mabwtw	Maputo
 macae	Macaé
 macaiba	Macaíba
 macao	Macau
+macao sar china	Macao SAR China
 macapa	Macapá
 macassar	Makassar
 macau	Macau
+macau rae da china	Macao SAR China
 macaubas	Macaúbas
 macaum	Macau
 macayo	Maceió
 macclesfield	Macclesfield
+macedoine du nord	North Macedonia
+macedonia del nord	North Macedonia
+macedonia del norte	North Macedonia
+macedonia do norte	North Macedonia
 maceio	Maceió
 macejo	Maceió
 macelo	Maceió
@@ -13777,6 +14184,7 @@ macon	Macon
 macoraba	Makkah
 macukat	Mashhad
 madaba	Mādabā
+madagascar	Madagascar
 madale	Mandalay
 madanapalle	Madanapalle
 madarida	Madrid
@@ -13968,6 +14376,7 @@ malacatan	Malacatán
 malacca	Malacca
 maladziecna	Maladziečna
 malaga	Málaga
+malaisie	Malaysia
 malakaibo	Maracaibo
 malakal	Malakal
 malambo	Malambo
@@ -13977,10 +14386,14 @@ malanville	Malanville
 malapatan	Malapatan
 malappuram	Malappuram
 malard	Malārd
+malasia	Malaysia
 malatia sebastia	Malatia-Sebastia
 malatya	Malatya
+malaui	Malawi
+malawi	Malawi
 malaybalay	Malaybalay
 malayer	Malāyer
+malaysia	Malaysia
 malda	Malda
 malden	Malden
 maldivas	Maldives
@@ -13990,6 +14403,7 @@ maldonado	Maldonado
 male	Male
 malegaon	Malegaon
 maler kotla	Māler Kotla
+mali	Mali
 malieham	Mariehamn
 maligas	Marigot
 maligo	Marigot
@@ -14007,6 +14421,8 @@ malmo	Malmö
 malmoe	Malmö
 malolos	Malolos
 malout	Malout
+malta	Malta
+malte	Malta
 maltepe	Maltepe
 malumfashi	Malumfashi
 malungun	Maluñgun
@@ -14270,6 +14686,8 @@ markapur	Mārkāpur
 markham	Markham
 marl	Marl
 marne la vallee	Marne La Vallée
+maroc	Morocco
+marocco	Morocco
 marondera	Marondera
 maroni	Moroni
 maroua	Maroua
@@ -14278,6 +14696,8 @@ marrakech	Marrakech
 marrakesh	Marrakech
 marraquexe	Marrakech
 marrianhamina	Mariehamn
+marrocos	Morocco
+marruecos	Morocco
 marsa matruh	Marsá Maţrūḩ
 marsala	Marsala
 marseille	Marseille
@@ -14289,10 +14709,13 @@ marseille 12	Marseille 12
 marseille 13	Marseille 13
 marseille 14	Marseille 14
 marseille 15	Marseille 15
+marshall islands	Marshall Islands
 martapura	Martapura
 martil	Martil
 martin	Martin
 martinez de la torre	Martínez de la Torre
+martinica	Martinique
+martinique	Martinique
 marudi	Marudi
 marugame	Marugame
 marvdasht	Marvdasht
@@ -14416,7 +14839,12 @@ maui	Maui
 maulavi bazar	Maulavi Bāzār
 maumere	Maumere
 maun	Maun
+maurice	Mauritius
 mauricea	Recife
+mauricio	Mauritius
+mauritania	Mauritania
+mauritanie	Mauritania
+mauritius	Mauritius
 mausilium	Mosul
 mawana	Mawāna
 mawlai mawiong	Mawlai-Mawïong
@@ -14437,6 +14865,7 @@ mayiladuthurai	Mayiladuthurai
 maykop	Maykop
 maymana	Maymana
 maynila	Manila
+mayotte	Mayotte
 mayshan	Meishan
 mayydwgry	Maiduguri
 mazabuka	Mazabuka
@@ -14689,6 +15118,7 @@ meshkhed	Mashhad
 meshkin dasht	Meshkīn Dasht
 mesquite	Mesquite
 messaad	Messaad
+messico	Mexico
 messina	Messina
 mestre	Mestre
 meszhed	Mashhad
@@ -14712,6 +15142,7 @@ mexed	Mashhad
 mexicali	Mexicali
 mexicali i baja california	Mexicali
 mexicalo	Mexicali
+mexico	Mexico
 mexico by	Mexico City
 mexico city	Mexico City
 mexico df	Mexico City
@@ -14724,6 +15155,7 @@ mexiko	Mexico City
 mexiko hiria	Mexico City
 mexiko stadt	Mexico City
 mexikoborg	Mexico City
+mexique	Mexico
 meybod	Meybod
 meycauayan	Meycauayan
 meyshan	Meishan
@@ -14747,6 +15179,8 @@ mian yang	Mianyang
 mian yang shi	Mianyang
 miandoab	Mīāndoāb
 mianeh	Mīāneh
+mianmar	Myanmar (Burma)
+mianmar birmania	Myanmar (Burma)
 mianwali	Mianwali
 mianyang	Mianyang
 mianyang shi	Mianyang
@@ -14758,6 +15192,8 @@ miass	Miass
 micheng	Micheng
 michurinsk	Michurinsk
 micklagard	Istanbul
+micronesia	Micronesia
+micronesie	Micronesia
 mid city	Mid-City
 middelburg	Middelburg
 middlesbrough	Middlesbrough
@@ -14978,6 +15414,7 @@ mobara	Mobara
 mobarakeh	Mobārakeh
 mobile	Mobile
 moca	Moca
+mocambique	Mozambique
 mochudi	Mochudi
 mocoa	Mocoa
 mococa	Mococa
@@ -15050,6 +15487,9 @@ mokum	Amsterdam
 mokum aleph	Amsterdam
 molarband	Molārband
 moldavanka	Moldavanka
+moldavia	Moldova
+moldavie	Moldova
+moldova	Moldova
 molenbeek saint jean	Molenbeek-Saint-Jean
 molepolole	Molepolole
 molfetta	Molfetta
@@ -15090,6 +15530,8 @@ mong kok	Mong Kok
 mong yang	Möng Yang
 mongagua	Mongaguá
 mongo	Mongo
+mongolia	Mongolia
+mongolie	Mongolia
 mongu	Mongu
 monitere	Monterrey
 monkantisou	Mogadishu
@@ -15167,6 +15609,7 @@ montreal nord	Montréal-Nord
 montreali	Montréal
 montrealo	Montréal
 montreuil	Montreuil
+montserrat	Montserrat
 monywa	Monywa
 monza	Monza
 monze	Monze
@@ -15199,6 +15642,7 @@ morley	Morley
 mormugao	Mormugao
 morningside heights	Morningside Heights
 moro	Moro
+morocco	Morocco
 morogoro	Morogoro
 moron	Morón
 morondava	Morondava
@@ -15283,6 +15727,7 @@ mousl	Mosul
 moussoul	Mosul
 moyanaja	Mwanza
 moyobamba	Moyobamba
+mozambico	Mozambique
 mozambique	Mozambique
 mpakou	Baku
 mpamako	Bamako
@@ -15512,6 +15957,10 @@ my tho	Mỹ Tho
 myadrida	Madrid
 myan yan	Mianyang
 myanila	Manila
+myanmar	Myanmar (Burma)
+myanmar birmania	Myanmar (Burma)
+myanmar birmanie	Myanmar (Burma)
+myanmar burma	Myanmar (Burma)
 myanyang	Mianyang
 myasi o	Maceió
 myaungmya	Myaungmya
@@ -15714,6 +16163,8 @@ namapenha	Phnom Penh
 nametil	Nametil
 namgyeong	Nanjing
 namhoi	Foshan
+namibia	Namibia
+namibie	Namibia
 namkin	Nanjing
 namp o	Namp’o
 nampa	Nampa
@@ -15951,6 +16402,7 @@ natitingou	Natitingou
 natore	Natore
 natori shi	Natori-shi
 naucalpan de juarez	Naucalpan de Juárez
+nauru	Nauru
 navadwip	Navadwīp
 navakasuta	Nouakchott
 navakjut	Nouakchott
@@ -16056,6 +16508,7 @@ nenjiang	Nenjiang
 nentung shehiri	Nantong
 nenyang shehiri	Nanyang
 neo delchi	New Delhi
+nepal	Nepal
 nepalgunj	Nepalgunj
 nepean	Nepean
 nepido	Nay Pyi Taw
@@ -16067,6 +16520,7 @@ nesahualkojotlis	Ciudad Nezahualcoyotl
 nesaual kojotl	Ciudad Nezahualcoyotl
 ness ziona	Ness Ziona
 netanya	Netanya
+netherlands	Netherlands
 netivot	Netivot
 netrakona	Netrakona
 netzahualcoyotl	Ciudad Nezahualcoyotl
@@ -16101,6 +16555,7 @@ new braunfels	New Braunfels
 new britain	New Britain
 new brunswick	New Brunswick
 new cairo	New Cairo
+new caledonia	New Caledonia
 new delhi	New Delhi
 new dilli	New Delhi
 new guatemala	Guatemala City
@@ -16129,6 +16584,7 @@ new york stad	New York City
 new york van java	Jakarta
 new yorke	New York City
 new yorku	New York City
+new zealand	New Zealand
 newark	Newark
 newcastle	Newcastle
 newcastle under lyme	Newcastle under Lyme
@@ -16192,6 +16648,7 @@ niamey	Niamey
 nianbo	Nianbo
 nianzhuang	Nianzhuang
 nianzishan	Nianzishan
+nicaragua	Nicaragua
 nice	Nice
 nichinan	Nichinan
 nicosea	Nicosia
@@ -16203,6 +16660,8 @@ nieuwegein	Nieuwegein
 nigamina	N'Djamena
 nigde	Niğde
 nigel	Nigel
+niger	Niger
+nigeria	Nigeria
 nihommatsu	Nihommatsu
 niigata	Niigata
 niihama	Niihama
@@ -16291,6 +16750,7 @@ nitra	Nitra
 niu deli	New Delhi
 niu yue	New York City
 niu yue shi	New York City
+niue	Niue
 niujorkas	New York City
 niukalofa	Nuku‘alofa
 niw telhi	New Delhi
@@ -16370,6 +16830,7 @@ norderstedt	Norderstedt
 nordhorn	Nordhorn
 norfolk	Norfolk
 norfolk county	Norfolk County
+norfolk island	Norfolk Island
 norilsk	Norilsk
 normal	Normal
 norman	Norman
@@ -16382,10 +16843,12 @@ north chicopee	North Chicopee
 north delta	North Delta
 north hills	North Hills
 north hollywood	North Hollywood
+north korea	North Korea
 north la crosse	North La Crosse
 north lakhimpur	North Lakhimpur
 north las vegas	North Las Vegas
 north little rock	North Little Rock
+north macedonia	North Macedonia
 north miami	North Miami
 north peoria	North Peoria
 north port	North Port
@@ -16394,9 +16857,14 @@ north shore	North Shore
 north stamford	North Stamford
 north vancouver	North Vancouver
 northampton	Northampton
+northern mariana islands	Northern Mariana Islands
 northridge	Northridge
 norton	Norton
+noruega	Norway
+norvege	Norway
+norvegia	Norway
 norwalk	Norwalk
+norway	Norway
 norwich	Norwich
 norzagaray	Norzagaray
 noshiro	Noshiro
@@ -16417,12 +16885,15 @@ noumea	Nouméa
 nououk	Nuuk
 nour soultan	Astana
 nouveau taipei	New Taipei City
+nouvelle caledonie	New Caledonia
 nouvelle yorck	New York City
+nouvelle zelande	New Zealand
 nouvieau york	New York City
 nov delhio	New Delhi
 nov jorko	New York City
 nova amsterda	New York City
 nova bombaim	Navi Mumbai
+nova caledonia	New Caledonia
 nova delhi	New Delhi
 nova deli	New Delhi
 nova deli na i dilli	New Delhi
@@ -16438,6 +16909,7 @@ nova tchaj pej	New Taipei City
 nova venecia	Nova Venécia
 nova vida	Nova Vida
 nova york	New York
+nova zelandia	New Zealand
 novara	Novara
 novasibirsk	Novosibirsk
 novato	Novato
@@ -16555,12 +17027,14 @@ nucualofa	Nuku‘alofa
 nueba deli	New Delhi
 nuestra senora de la paz	La Paz
 nuestra senora santa maria de la asuncion	Asunción
+nueva caledonia	New Caledonia
 nueva delhi	New Delhi
 nueva guatemala	Guatemala City
 nueva guatemala de la asuncion	Guatemala City
 nueva guinea	Nueva Guinea
 nueva taipei	New Taipei City
 nueva york	New York
+nueva zelanda	New Zealand
 nuevitas	Nuevitas
 nuevo casas grandes	Nuevo Casas Grandes
 nuevo laredo	Nuevo Laredo
@@ -16591,9 +17065,11 @@ nuneaton	Nuneaton
 nungua	Nungua
 nunoa	Ñuñoa
 nunukan	Nunukan
+nuova caledonia	New Caledonia
 nuova delhi	New Delhi
 nuova taipei	New Taipei City
 nuova york	New York City
+nuova zelanda	New Zealand
 nur soltan	Astana
 nur sultan	Astana
 nur sultano	Astana
@@ -16769,7 +17245,9 @@ oltinko l	Oltinko‘l
 olupona	Olupona
 olympia	Olympia
 om sku	Omsk
+oma	Oman
 omaha	Omaha
+oman	Oman
 omasaka	Omsk
 omaska	Omsk
 omby	Omsk
@@ -16945,6 +17423,7 @@ ouezzane	Ouezzane
 oufa	Ufa
 ouffa	Ufa
 ougadougou	Ouagadougou
+ouganda	Uganda
 ouhu	Wuhu
 ouislane	Ouislane
 oujda	Oujda
@@ -16962,6 +17441,7 @@ ourinhos	Ourinhos
 ouro preto	Ouro Preto
 ouroumtchi	Ürümqi
 ouroumtsi	Ürümqi
+ouzbekistan	Uzbekistan
 ovalle	Ovalle
 overland park	Overland Park
 oviedo	Oviedo
@@ -17038,6 +17518,7 @@ padua	Padua
 paducheu	Vaduz
 paech on up	Paech’ŏn-ŭp
 paek ak	Paek'ak
+paesi bassi	Netherlands
 paga paga	Pago Pago
 pagadian	Pagadian
 pagar alam	Pagar Alam
@@ -17051,6 +17532,9 @@ paignton	Paignton
 pailou	Pailou
 paine	Paine
 pairisa	Paris
+paises baixos	Netherlands
+paises baixos caribenhos	Caribbean Netherlands
+paises bajos	Netherlands
 paisley	Paisley
 paita	Paita
 paiu iong	Fuyang
@@ -17062,6 +17546,7 @@ pakanbaru	Pekanbaru
 pakdasht	Pākdasht
 pakenham	Pakenham
 pakhai	Jiangmen
+pakistan	Pakistan
 pakking	Beijing
 pakku	Baku
 pako pako	Pago Pago
@@ -17079,9 +17564,11 @@ palang	Pālang
 palangkaraya	Palangkaraya
 palani	Palani
 palanpur	Pālanpur
+palaos	Palau
 palapye	Palapye
 palasa	Palāsa
 palatine	Palatine
+palau	Palau
 palembang	Palembang
 palembanga	Palembang
 palembangas	Palembang
@@ -17089,6 +17576,7 @@ palembanq	Palembang
 palempan nk	Palembang
 palencia	Palencia
 palermo	Palermo
+palestinian territories	Palestinian Territories
 palghar	Pālghar
 palhoca	Palhoça
 pali	Paris
@@ -17219,8 +17707,14 @@ papete	Papeete
 papiete	Papeete
 papiti	Papeete
 papito	Papeete
+papouasie nouvelle guinee	Papua New Guinea
+papua new guinea	Papua New Guinea
+papua nova guine	Papua New Guinea
+papua nueva guinea	Papua New Guinea
+papua nuova guinea	Papua New Guinea
 papyth	Papeete
 paqo paqo	Pago Pago
+paquistao	Pakistan
 par naogaon	Pār Naogaon
 para	Belém
 para de minas	Pará de Minas
@@ -17229,6 +17723,7 @@ paradip garh	Parādīp Garh
 paradise	Paradise
 paraeis	Paris
 paragominas	Paragominas
+paraguai	Paraguay
 paraguay	Asunción
 parais	Paris
 paraiso	Paraiso
@@ -17393,6 +17888,8 @@ pavlovskiy posad	Pavlovskiy Posad
 pawtucket	Pawtucket
 paya terubong	Paya Terubong
 payakumbuh	Payakumbuh
+pays bas	Netherlands
+pays bas caribeens	Caribbean Netherlands
 paysandu	Paysandú
 payyanur	Payyanur
 pazardzhik	Pazardzhik
@@ -17485,6 +17982,7 @@ perm	Perm
 pern	Bern
 pernambuco	Recife
 pernik	Pernik
+perou	Peru
 perpignan	Perpignan
 perris	Perris
 pert	Perth
@@ -17495,6 +17993,7 @@ perth amboy	Perth Amboy
 perth city	Perth
 perthia	Perth
 perto	Perth
+peru	Peru
 perugia	Perugia
 peruibe	Peruíbe
 perus	Perus
@@ -17605,6 +18104,7 @@ philadelpheia	Philadelphia
 philadelphia	Philadelphia
 philadelphie	Philadelphia
 philadelphiya	Philadelphia
+philippines	Philippines
 philippoburgum	Philipsburg
 philipsburg	Philipsburg
 philly	Philadelphia
@@ -17801,6 +18301,7 @@ pistoia	Pistoia
 pit chiat chhi	Bijie
 pita kotte	Pita Kotte
 pitalito	Pitalito
+pitcairn islands	Pitcairn Islands
 piter	Saint Petersburg
 pitesti	Piteşti
 pithampur	Pithampur
@@ -17912,6 +18413,7 @@ pokotta	Bogotá
 pokrovsk	Pokrovsk
 pokrovskoye streshnevo	Pokrovskoye-Streshnëvo
 polanco	Polanco
+poland	Poland
 polangui	Polangui
 polatli	Polatlı
 polatlı	Polatlı
@@ -17927,12 +18429,17 @@ poleutopeulangsye	Port-aux-Français
 poleutuallegeuli	Porto Alegre
 polevskoy	Polevskoy
 polewali	Polewali
+polinesia francesa	French Polynesia
+polinesia francese	French Polynesia
 pollachi	Pollachi
+pologne	Poland
 polokwane	Polokwane
 polomolok	Polomolok
+polonia	Poland
 polotsk	Polotsk
 poltava	Poltava
 poltoratsk	Ashgabat
+polynesie francaise	French Polynesia
 pom prap sattru phai	Pom Prap Sattru Phai
 pomona	Pomona
 pompano beach	Pompano Beach
@@ -18086,10 +18593,12 @@ porto novas	Porto-Novo
 porto novho	Porto-Novo
 porto novo	Porto-Novo
 porto principe	Port-au-Prince
+porto rico	Puerto Rico
 porto seguro	Porto Seguro
 porto velho	Porto Velho
 portofranse	Port-aux-Français
 portofspeina	Port of Spain
+portogallo	Portugal
 portonovo	Porto-Novo
 portoprensa	Port-au-Prince
 portoprinco	Port-au-Prince
@@ -18103,6 +18612,7 @@ portu alegri	Porto Alegre
 portu alegry	Porto Alegre
 portu de spania	Port of Spain
 portualegri	Porto Alegre
+portugal	Portugal
 portus alacer	Porto Alegre
 portus elisabethae	Gqeberha
 portus ludovici	Port Louis
@@ -18499,6 +19009,7 @@ qarshi	Qarshi
 qasabeh e karaj	Karaj
 qasabihi karaj	Karaj
 qasr bin ghashir	Qaşr Bin Ghashīr
+qatar	Qatar
 qayseri	Kayseri
 qazan	Kazan
 qazianteb	Gaziantep
@@ -18615,6 +19126,7 @@ queimados	Queimados
 queiyanga	Guiyang
 quelimane	Quelimane
 queluz	Queluz
+quenia	Kenya
 quequenakee	Philadelphia
 queretaro	Santiago de Querétaro
 queretaro city	Santiago de Querétaro
@@ -18639,6 +19151,8 @@ quimper	Quimper
 quincy	Quincy
 quinxassa	Kinshasa
 quioto	Kyoto
+quirguistao	Kyrgyzstan
+quiribati	Kiribati
 quissecula	Quissecula
 quito	Quito
 quitu	Quito
@@ -18680,6 +19194,8 @@ qywtw	Kyoto
 qyyb	Kyiv
 qyysry	Kayseri
 qzblnqh	Casablanca
+r a s chinoise de hong kong	Hong Kong SAR China
+r a s chinoise de macao	Macao SAR China
 ra anana	Ra'anana
 ra ipura	Raipur
 ra oyalapindi	Rawalpindi
@@ -18713,6 +19229,10 @@ radom	Radom
 radzhkot	Rājkot
 radzkot	Rājkot
 radzkotas	Rājkot
+rae de hong kong	Hong Kong SAR China
+rae de hong kong china	Hong Kong SAR China
+rae de macao	Macao SAR China
+rae de macao china	Macao SAR China
 raeaeveli	Tallinn
 raebareli	Raebareli
 raelintana	Wellington
@@ -18829,6 +19349,8 @@ rapid city	Rapid City
 raposo tavares	Raposo Tavares
 ras al khaimah	Ras Al Khaimah
 ras bejrut	Ra’s Bayrūt
+ras di hong kong	Hong Kong SAR China
+ras di macao	Macao SAR China
 ras tanura	Ras Tanura
 rasapudipalem	Rasapūdipalem
 rasht	Rasht
@@ -18909,6 +19431,7 @@ regiao de campinas	Campinas
 regina	Regina
 regio de callao	Callao
 registro	Registro
+regno unito	United Kingdom
 rehjkjavik	Reykjavík
 rehovot	Reẖovot
 rehsifi	Recife
@@ -18924,6 +19447,7 @@ reikjavikas	Reykjavík
 reikyavuiku	Reykjavík
 reims	Reims
 reinickendorf	Reinickendorf
+reino unido	United Kingdom
 reiquiavik	Reykjavík
 reiquiavique	Reykjavík
 rejk javik	Reykjavík
@@ -18954,7 +19478,16 @@ renzhao	Renzhao
 reon	León de los Aldama
 repalle	Repalle
 repentigny	Repentigny
+repubblica centrafricana	Central African Republic
+repubblica dominicana	Dominican Republic
 republica	Republica
+republica centro africana	Central African Republic
+republica centroafricana	Central African Republic
+republica democratica del congo	Congo - Kinshasa
+republica do congo	Congo - Brazzaville
+republica dominicana	Dominican Republic
+republique centrafricaine	Central African Republic
+republique dominicaine	Dominican Republic
 reseda	Reseda
 resende	Resende
 reservoir	Reservoir
@@ -18969,6 +19502,8 @@ ressano garcia	Ressano Garcia
 reston	Reston
 retalhuleu	Retalhuleu
 retiro	Retiro
+reuniao	Réunion
+reunion	Réunion
 reus	Reus
 reutlingen	Reutlingen
 reutov	Reutov
@@ -19086,6 +19621,7 @@ risubon	Lisbon
 ritto	Rittō
 riu de janeiro	Rio de Janeiro
 riu de janeiru	Rio de Janeiro
+riunione	Réunion
 rivas vaciamadrid	Rivas-Vaciamadrid
 rivera	Rivera
 riverside	Riverside
@@ -19141,7 +19677,9 @@ rolandia	Rolândia
 rolim de moura	Rolim de Moura
 roma	Rome
 roman	Roman
+romania	Romania
 rome	Rome
+romenia	Romania
 romford	Romford
 romi	Rome
 romma	Rome
@@ -19228,6 +19766,7 @@ rouen	Rouen
 rouiba	Rouiba
 rouissat	Rouissat
 roum	Rome
+roumanie	Romania
 round rock	Round Rock
 rourkela	Rourkela
 rovaniemi	Rovaniemi
@@ -19237,6 +19776,7 @@ roxas city	Roxas City
 royal leamington spa	Royal Leamington Spa
 royal oak	Royal Oak
 royal tunbridge wells	Royal Tunbridge Wells
+royaume uni	United Kingdom
 rozo	Roseau
 rsyph	Recife
 ruanda	Luanda
@@ -19260,6 +19800,7 @@ rui an	Rui’an
 ruiru	Ruiru
 rukban	Rukban
 rukusenburuku	Luxembourg
+rumania	Romania
 rumonge	Rumonge
 runan	Runan
 runcorn	Runcorn
@@ -19269,9 +19810,12 @@ ruropolis	Rurópolis
 rusa u	Roseau
 rusaka	Lusaka
 ruse	Ruse
+rusia	Russia
 russas	Russas
 russeifa	Russeifa
 russelsheim am main	Rüsselsheim am Main
+russia	Russia
+russie	Russia
 rustaq	Rustaq
 rustavi	Rustavi
 rustenburg	Rustenburg
@@ -19280,6 +19824,7 @@ rutoma	Rutoma
 rutshuru	Rutshuru
 ruwa	Ruwa
 ruyin	Fuyang
+rwanda	Rwanda
 rwd tawn	Road Town
 rwma	Rome
 rwstwf na dwnw	Rostov-on-Don
@@ -19339,6 +19884,7 @@ sa o paulo	São Paulo
 sa o tome	São Tomé
 saaba	Saaba
 saanich	Saanich
+saara ocidental	Western Sahara
 saarayego	Sarajevo
 saarbrucken	Saarbrücken
 saarbruecken	Saarbrücken
@@ -19392,6 +19938,8 @@ sagwzlwgbouh	Zagreb
 sahagun	Sahagún
 saham	Şaḩam
 sahand	Sahand
+sahara occidental	Western Sahara
+sahara occidentale	Western Sahara
 saharanpur	Sahāranpur
 saharsa	Saharsa
 sahaswan	Sahaswān
@@ -19413,8 +19961,10 @@ saina entoniyo	San Antonio
 sainazaina	Shenzhen
 saint andre	Saint-André
 saint anna de chaves	São Tomé
+saint barthelemy	St. Barthélemy
 saint brieuc	Saint-Brieuc
 saint charles	Saint Charles
+saint christophe et nieves	St. Kitts & Nevis
 saint clair shores	Saint Clair Shores
 saint cloud	Saint Cloud
 saint croix	Saint Croix
@@ -19436,13 +19986,17 @@ saint john	Saint John
 saint john de porto rico	San Juan
 saint john s	Saint John’s
 saint joseph	Saint Joseph
+saint kitts e nevis	St. Kitts & Nevis
 saint laurent	Saint-Laurent
 saint leonard	Saint-Léonard
 saint louis	Saint-Louis
 saint louis de terrebonne	Saint-Louis-de-Terrebonne
+saint lucia	St. Lucia
 saint malo	Saint-Malo
 saint marc	Saint-Marc
 saint marin	San Marino
+saint martin	Sint Maarten
+saint martin partie neerlandaise	Sint Maarten
 saint maur des fosses	Saint-Maur-des-Fossés
 saint michel	Saint-Michel
 saint michel de l atalaye	Saint-Michel de l'Atalaye
@@ -19454,15 +20008,21 @@ saint peters	Saint Peters
 saint petersbourg	Saint Petersburg
 saint petersburg	Saint Petersburg
 saint pierre	Saint-Pierre
+saint pierre e miquelon	St. Pierre & Miquelon
+saint pierre et miquelon	St. Pierre & Miquelon
 saint pierre port	Saint Peter Port
 saint quentin	Saint-Quentin
 saint quentin en yvelines	Saint-Quentin-en-Yvelines
 saint thomas	Charlotte Amalie
 saint thomas city	Charlotte Amalie
 saint tropez	Saint-Tropez
+saint vincent e grenadine	St. Vincent & Grenadines
+saint vincent et les grenadines	St. Vincent & Grenadines
 sainte foy	Sainte-Foy
 sainte foy sillery cap rouge	Sainte-Foy–Sillery–Cap-Rouge
+sainte helene	St. Helena
 sainte jean de porto rico	San Juan
+sainte lucie	St. Lucia
 sainti ago de kveretaro	Santiago de Querétaro
 sainti ago de losa kaibalerosa	Santiago de los Caballeros
 saintiyago de kveretaro	Santiago de Querétaro
@@ -19575,6 +20135,10 @@ sambrial	Sambrial
 samch on	Samch’ŏn
 samfya	Samfya
 sammamish	Sammamish
+samoa	Samoa
+samoa americaines	American Samoa
+samoa americana	American Samoa
+samoa americane	American Samoa
 sampa	São Paulo
 sampang	Sampang
 sampit	Sampit
@@ -19598,6 +20162,7 @@ san antoniyo	San Antonio
 san antwnyw	San Antonio
 san bao long	Semarang
 san bao yan	Zamboanga
+san bartolome	St. Barthélemy
 san bartolome de tirajana	San Bartolomé de Tirajana
 san bernardino	San Bernardino
 san bernardino tlaxcalancingo	San Bernardino Tlaxcalancingo
@@ -19617,6 +20182,7 @@ san cristobal	San Cristóbal
 san cristobal de las casas	San Cristóbal de las Casas
 san cristobal ecatepec	Ecatepec de Morelos
 san cristobal ecatepec de morelos	Ecatepec de Morelos
+san cristobal y nieves	St. Kitts & Nevis
 san diegas	San Diego
 san diego	San Diego
 san diegu	San Diego
@@ -19734,6 +20300,7 @@ san pedro de la paz	San Pedro de la Paz
 san pedro de macoris	San Pedro de Macorís
 san pedro garza garcia	San Pedro Garza García
 san pedro sula	San Pedro Sula
+san pedro y miquelon	St. Pierre & Miquelon
 san petersburgo	Saint Petersburg
 san pietroburgo	Saint Petersburg
 san pietruburgu	Saint Petersburg
@@ -19769,6 +20336,7 @@ san tome	São Tomé
 san tung chung hang	San Tung Chung Hang
 san vicent del raspeig	San Vicent del Raspeig
 san vicente	San Vicente
+san vicente y las granadinas	St. Vincent & Grenadines
 san xoan	San Juan
 san xose	San José
 san xuan	Saint John’s
@@ -19902,6 +20470,7 @@ sant andreu	Sant Andreu
 sant boi de llobregat	Sant Boi de Llobregat
 sant btrsbrgh	Saint Petersburg
 sant cugat del valles	Sant Cugat del Vallès
+sant elena	St. Helena
 sant jago	Santiago
 sant jago de keretaro	Santiago de Querétaro
 sant jago de los kabal eros	Santiago de los Caballeros
@@ -19934,8 +20503,10 @@ santa cruz do capibaribe	Santa Cruz do Capibaribe
 santa cruz do sul	Santa Cruz do Sul
 santa cruz xoxocotlan	Santa Cruz Xoxocotlán
 santa daminga	Santo Domingo
+santa elena	St. Helena
 santa fe	Santa Fe
 santa fe de bogota	Bogotá
+santa helena	St. Helena
 santa ines	Santa Inês
 santa isabel	Santa Isabel
 santa isabel do para	Santa Isabel do Pará
@@ -20025,6 +20596,7 @@ santo estevao	Santo Estêvão
 santo ntomin nko	Santo Domingo
 santo tomas	Santo Tomas
 santo tome	Santo Tomé
+santo tome y principe	São Tomé & Príncipe
 santodoming go	Santo Domingo
 santol	Santol
 santome	São Tomé
@@ -20047,12 +20619,14 @@ sanxia	Sanxia
 sanya	Sanya
 sanyoonoda	Sanyōonoda
 sanzhuang	Sanzhuang
+sao bartolomeu	St. Barthélemy
 sao bento do sul	São Bento do Sul
 sao bernardo do campo	São Bernardo do Campo
 sao borja	São Borja
 sao caetano do sul	São Caetano do Sul
 sao carlos	São Carlos
 sao cristovao	São Cristóvão
+sao cristovao e nevis	St. Kitts & Nevis
 sao domingos	Sao Domingos
 sao felix do xingu	São Félix do Xingu
 sao francisco	São Francisco
@@ -20078,6 +20652,7 @@ sao lourenco da mata	São Lourenço da Mata
 sao lucas	Sao Lucas
 sao luis	São Luís
 sao marino	San Marino
+sao martinho	St. Martin
 sao mateus	São Mateus
 sao miguel	São Miguel
 sao miguel do guama	São Miguel do Guamá
@@ -20090,6 +20665,7 @@ sao paulo da assuncao de luanda	Luanda
 sao paulo de loanda	Luanda
 sao paulo de luanda	Luanda
 sao pedro da aldeia	São Pedro da Aldeia
+sao pedro e miquelao	St. Pierre & Miquelon
 sao petersburgo	Saint Petersburg
 sao rafael	Sao Rafael
 sao roque	São Roque
@@ -20100,9 +20676,13 @@ sao sebastiao do rio de janeiro	Rio de Janeiro
 sao sing	Shaoxing
 sao thome	São Tomé
 sao tome	São Tomé
+sao tome e principe	São Tomé & Príncipe
+sao tome et principe	São Tomé & Príncipe
+sao tome principe	São Tomé & Príncipe
 sao tomee	São Tomé
 sao tomeo	São Tomé
 sao vicente	São Vicente
+sao vicente e granadinas	St. Vincent & Grenadines
 saoguan	Shaoguan
 saogwan si	Shaoguan
 saosing	Shaoxing
@@ -20216,6 +20796,7 @@ sau eto	Soweto
 sau khin su	Zhaoqing
 sau mau ping	Sau Mau Ping
 saubadoleu	Salvador
+saudi arabia	Saudi Arabia
 saugor	Saugor
 saul	Seoul
 sault ste marie	Sault Ste. Marie
@@ -20269,6 +20850,7 @@ schwerin	Schwerin
 schwerte	Schwerte
 schymkent	Shymkent
 scopia	Skopje
+scotland	Scotland
 scottsdale	Scottsdale
 scranton	Scranton
 scunthorpe	Scunthorpe
@@ -20297,6 +20879,7 @@ segou	Ségou
 segovia	Segovia
 seguela	Séguéla
 sehore	Sehore
+seicheles	Seychelles
 sein cein	Shenzhen
 sein hyang	Shenyang
 seinaejoki	Seinäjoki
@@ -20354,6 +20937,7 @@ sendaishi	Sendai
 sendaj	Sendai
 sendhwa	Sendhwa
 sendzenas	Shenzhen
+senegal	Senegal
 seng to chhi	Chengdu
 sengerema	Sengerema
 sengkang	Sengkang
@@ -20411,6 +20995,8 @@ serang	Serang
 serangoon	Serangoon
 serangoon new town	Serangoon New Town
 serayevo	Sarajevo
+serbia	Serbia
+serbie	Serbia
 serdica	Sofia
 serekunda	Serekunda
 seremban	Seremban
@@ -20428,10 +21014,12 @@ serowe	Serowe
 serpong	Serpong
 serpukhov	Serpukhov
 serra	Serra
+serra leoa	Sierra Leone
 serra talhada	Serra Talhada
 serres	Sérres
 serrinha	Serrinha
 sertaozinho	Sertãozinho
+servia	Serbia
 sesto san giovanni	Sesto San Giovanni
 sesvete	Sesvete
 set ka lay	Set Ka Lay
@@ -20472,6 +21060,7 @@ sevilha	Seville
 sevilla	Seville
 seville	Seville
 sewon	Sewon
+seychelles	Seychelles
 seydisehir	Seydişehir
 seyhan	Adana
 sfantu gheorghe	Sfântu Gheorghe
@@ -20977,6 +21566,8 @@ siena	Siena
 sieng siang	Yancheng
 sienjan	Xianyang
 sienyanghsien	Xianyang
+sierra leona	Sierra Leone
+sierra leone	Sierra Leone
 sieu guang	Shaoguan
 sieu hing	Shaoxing
 sig	Sig
@@ -21081,6 +21672,7 @@ sino singapore tianjin eco city	Sino-Singapore Tianjin Eco-city
 sinop	Sinop
 sinp o	Sinp’o
 sinsiang hsien	Xinxiang
+sint maarten	Sint Maarten
 sint niklaas	Sint-Niklaas
 sint petersbork	Saint Petersburg
 sint petersburch	Saint Petersburg
@@ -21111,6 +21703,7 @@ siraza	Shiraz
 sirazas	Shiraz
 sirazo	Shiraz
 sirhind	Sirhind
+siria	Syria
 sirinagara	Srinagar
 sirjan	Sirjan
 sirnak	Şırnak
@@ -21211,6 +21804,11 @@ sleman	Sleman
 sliven	Sliven
 slobidskyi	Slobidskyi
 slough	Slough
+slovacchia	Slovakia
+slovakia	Slovakia
+slovaquie	Slovakia
+slovenia	Slovenia
+slovenie	Slovenia
 slupsk	Słupsk
 slutsk	Slutsk
 slwadwr	Salvador
@@ -21319,8 +21917,11 @@ solna	Solna
 solnechnogorsk	Solnechnogorsk
 solntsevo	Solntsevo
 solok	Solok
+solomon islands	Solomon Islands
 solwezi	Solwezi
 soma	Soma
+somalia	Somalia
+somalie	Somalia
 somaroboro	Somaroboro
 somerset west	Somerset West
 somerville	Somerville
@@ -21373,6 +21974,8 @@ soteropolis	Salvador
 sotsmisto	Sotsmisto
 souba	Suva
 soubre	Soubré
+soudan	Sudan
+soudan du sud	South Sudan
 souehto	Soweto
 soueto	Soweto
 sougueur	Sougueur
@@ -21387,20 +21990,24 @@ souru	Seoul
 souru te bie shi	Seoul
 sousa	Sousa
 sousse	Sousse
+south africa	South Africa
 south bend	South Bend
 south boston	South Boston
 south croydon	South Croydon
 south dublin	South Dublin
 south fulton	South Fulton
 south gate	South Gate
+south georgia south sandwich islands	South Georgia & South Sandwich Islands
 south hill	South Hill
 south jordan	South Jordan
+south korea	South Korea
 south lawndale	South Lawndale
 south ozone park	South Ozone Park
 south peabody	South Peabody
 south san francisco	South San Francisco
 south shields	South Shields
 south shore	South Shore
+south sudan	South Sudan
 south suffolk	South Suffolk
 south surrey	South Surrey
 south tangerang	South Tangerang
@@ -21424,7 +22031,9 @@ soyapango	Soyapango
 soyeto	Soweto
 soyibug	Soyībug
 soyo	Soyo
+spagna	Spain
 spahan	Isfahan
+spain	Spain
 spanish town	Spanish Town
 sparks	Sparks
 speyer	Speyer
@@ -21446,6 +22055,7 @@ sredets	Sofia
 sri dungargarh	Sri Dūngargarh
 sri ganganagar	Sri Ganganagar
 sri jayewardenepura kotte	Sri Jayewardenepura Kotte
+sri lanka	Sri Lanka
 sri petaling	Sri Petaling
 srikakulam	Srikakulam
 srikalahasti	Srikalahasti
@@ -21474,18 +22084,25 @@ ssu ming hsien	Xiamen
 ssujeou si	Suzhou
 st albans	St Albans
 st albert	St. Albert
+st barthelemy	St. Barthélemy
 st catharines	St. Catharines
 st georges	Saint George's
+st helena	St. Helena
 st helens	St Helens
 st helier	Saint Helier
 st john s	St. John's
 st johns	Saint John’s
+st kitts nevis	St. Kitts & Nevis
 st louis	St. Louis
+st lucia	St. Lucia
+st martin	St. Martin
 st paul de loanda	Luanda
 st peter port	Saint Peter Port
 st petersburg	Saint Petersburg
 st pierre	Saint-Pierre
+st pierre miquelon	St. Pierre & Miquelon
 st tropez	Saint-Tropez
+st vincent grenadines	St. Vincent & Grenadines
 staat der vatikanstadt	Vatican City
 staat vatikanstadt	Vatican City
 stad letzebuerg	Luxembourg
@@ -21522,6 +22139,7 @@ stare deli	Delhi
 stargard	Stargard
 staryy oskol	Staryy Oskol
 staten island	Staten Island
+stati uniti	United States
 stavanger	Stavanger
 stavropol	Stavropol
 steglitz	Steglitz
@@ -21617,10 +22235,18 @@ sucjan	Suqian
 sucre	Sucre
 sucre toertenelmi ovarosa	Sucre
 sucre tortenelmi ovarosa	Sucre
+sud sudan	South Sudan
 sud tarawa	Tarawa
+sudafrica	South Africa
+sudan	Sudan
+sudan del sur	South Sudan
+sudao	Sudan
+sudao do sul	South Sudan
 sudzhou	Suzhou
 sudzou	Suzhou
+suecia	Sweden
 sued tarawa	Tarawa
+suede	Sweden
 suez	Suez
 sufa	Suva
 suffolk	Suffolk
@@ -21631,15 +22257,18 @@ suhum	Suhum
 sui hsi shih	Huaibei
 sui ting	Dazhou
 sui ting fu	Dazhou
+suica	Switzerland
 suicheng	Suicheng
 suifenhe	Suifenhe
 suigen	Suwon
 suihua	Suihua
 suiling	Suiling
 suining	Suining
+suisse	Switzerland
 suita	Suita
 suixi	Suixi
 suiyuan	Hohhot
+suiza	Switzerland
 suizhou	Suizhou
 sujangarh	Sūjāngarh
 sujho u	Suzhou
@@ -21742,6 +22371,8 @@ surendranagar	Surendranagar
 surgut	Surgut
 suriapet	Suriāpet
 surigao	Surigao
+surinam	Suriname
+suriname	Suriname
 surman	Şurmān
 surprise	Surprise
 surrey	Surrey
@@ -21787,11 +22418,17 @@ suzhou shi	Suzhou
 suzu	Suzhou
 suzuka	Suzuka
 svaety tomas	São Tomé
+svalbard e jan mayen	Svalbard & Jan Mayen
+svalbard et jan mayen	Svalbard & Jan Mayen
+svalbard jan mayen	Svalbard & Jan Mayen
+svalbard y jan mayen	Svalbard & Jan Mayen
 sverdlovsk	Yekaterinburg
 sverolovsk	Yekaterinburg
 svetlanovskiy	Svetlanovskiy
 svetlogorsk	Svetlogorsk
+svezia	Sweden
 sviblovo	Sviblovo
+svizzera	Switzerland
 svobodnyy	Svobodnyy
 svyatoshyn	Svyatoshyn
 swabi	Swabi
@@ -21799,6 +22436,7 @@ swakopmund	Swakopmund
 swansea	Swansea
 swatow	Shantou
 swbh	Suva
+sweden	Sweden
 swedru	Swedru
 swfa	Suva
 swfya	Sofia
@@ -21809,6 +22447,7 @@ swietochłowice	Świętochłowice
 swijeou si	Xuzhou
 swimkenteu	Shymkent
 swindon	Swindon
+switzerland	Switzerland
 swjw	Suzhou
 swkrh	Sucre
 swkry	Sucre
@@ -21857,6 +22496,8 @@ syou ouen	Seoul
 sypwrw	Sapporo
 syqgw	Chicago
 syracuse	Syracuse
+syria	Syria
+syrie	Syria
 syudad de la pas	Ciudad de la Paz
 syudad han davao	Davao
 syudad han djibouti	Djibouti
@@ -21969,6 +22610,8 @@ tacuarembo	Tacuarembó
 tacurong	Tacurong
 tadepalle	Tādepalle
 tadepalligudem	Tadepalligudem
+tadjikistan	Tajikistan
+tadjiquistao	Tajikistan
 tadmur	Tadmur
 tadpatri	Tadpatri
 taebris	Tabriz
@@ -21984,6 +22627,7 @@ tagawa	Tagawa
 tagaytay	Tagaytay
 tagbilaran city	Tagbilaran City
 tagig	Taguig
+tagikistan	Tajikistan
 tagu	Daegu
 taguatinga	Taguatinga
 taguig	Taguig
@@ -22057,6 +22701,7 @@ taito	Taito
 taitou	Taitou
 taitsjou	Taizhou
 taitung	Taitung
+taiwan	Taiwan
 taiwian si	Taiyuan
 taixing	Taixing
 taixkent	Tashkent
@@ -22081,6 +22726,7 @@ tajcungo	Taichung
 tajdzhou	Taizhou
 tajdzou	Taizhou
 tajgou	Taizhou
+tajikistan	Tajikistan
 tajimi	Tajimi
 tajjuan	Taiyuan
 tajjuean	Taiyuan
@@ -22268,6 +22914,8 @@ tantou	Tantou
 tanuku	Tanuku
 tany	Thāne
 tanza	Tanza
+tanzania	Tanzania
+tanzanie	Tanzania
 tanzha	Tangier
 tanzher	Tangier
 tanzhou	Tanzhou
@@ -22396,6 +23044,7 @@ tay ywan	Taiyuan
 tayabas	Tayabas
 taybyh	Taipei
 taychun	Taichung
+tayikistan	Tajikistan
 tayipeh	Taipei
 tayiwani	Taiyuan
 taylor	Taylor
@@ -22424,6 +23073,7 @@ tblys	Tbilisi
 tblysy	Tbilisi
 tbryz	Tabriz
 tbylysy	Tbilisi
+tchad	Chad
 tchaj cou	Taizhou
 tchaj cung	Taichung
 tchaj juan	Taiyuan
@@ -22433,6 +23083,8 @@ tchaj pej	Taipei
 tchang san	Tangshan
 tcheliabinsk	Chelyabinsk
 tchelyabinsk	Chelyabinsk
+tchequia	Czechia
+tchequie	Czechia
 tchien tin	Tianjin
 tczew	Tczew
 te gu xi jia er ba	Tegucigalpa
@@ -22548,8 +23200,19 @@ ternate	Ternate
 terni	Terni
 ternopil	Ternopil
 terrassa	Terrassa
+terre australi francesi	French Southern Territories
 terre haute	Terre Haute
 terrebonne	Terrebonne
+terres australes francaises	French Southern Territories
+territoire britannique de l ocean indien	British Indian Ocean Territory
+territoires palestiniens	Palestinian Territories
+territori palestinesi	Palestinian Territories
+territorio britanico del oceano indico	British Indian Ocean Territory
+territorio britanico do oceano indico	British Indian Ocean Territory
+territorio britannico dell oceano indiano	British Indian Ocean Territory
+territorios australes franceses	French Southern Territories
+territorios franceses do sul	French Southern Territories
+territorios palestinos	Palestinian Territories
 territory of columbia	Washington
 teshi old town	Teshi Old Town
 tessaoua	Tessaoua
@@ -22585,6 +23248,9 @@ thai goan chhi	Taiyuan
 thai hoa	Thái Hòa
 thai nguyen	Taiyuan
 thai tyen	Daejeon
+thailand	Thailand
+thailande	Thailand
+thailandia	Thailand
 thaka	Dhaka
 thakhek	Thakhèk
 thakurgaon	Thākurgaon
@@ -22806,6 +23472,9 @@ timika	Timika
 timisku	Damascus
 timisoara	Timişoara
 timon	Timon
+timor est	Timor-Leste
+timor leste	Timor-Leste
+timor oriental	Timor-Leste
 timoteo	Timóteo
 timphu	Thimphu
 timpu	Thimphu
@@ -22932,6 +23601,7 @@ tocoa	Tocoa
 tocumen	Tocumen
 toewriz	Tabriz
 togane	Tōgane
+togo	Togo
 tohana	Tohāna
 toka	Doha
 tokai	Tōkai
@@ -22939,6 +23609,7 @@ tokamachi	Tōkamachi
 tokat	Tokat
 tokch on	Tŏkch’ŏn
 tokeiyw	Tokyo
+tokelau	Tokelau
 toki	Toki
 toki o	Tokyo
 tokija	Tokyo
@@ -22973,6 +23644,7 @@ tomsk	Tomsk
 tonala	Tonalá
 tondabayashicho	Tondabayashichō
 tong koan chhi	Dongguan
+tonga	Tonga
 tongaat	Tongaat
 tongchuan	Tongchuan
 tongchuanshi	Tongchuanshi
@@ -23109,6 +23781,10 @@ trincomalee	Trincomalee
 trindade	Trindade
 trinh chau	Zhengzhou
 trinidad	Trinidad
+trinidad e tobago	Trinidad & Tobago
+trinidad tobago	Trinidad & Tobago
+trinidad y tobago	Trinidad & Tobago
+trinite et tobago	Trinidad & Tobago
 triphelis	Tbilisi
 tripili	Tripoli
 tripol	Tripoli
@@ -23327,6 +24003,8 @@ tunis ville	Tunis
 tunisa	Tunis
 tunisas	Tunis
 tunisi	Tunis
+tunisia	Tunisia
+tunisie	Tunisia
 tunisin orn	Tunis
 tunisz	Tunis
 tunixi	Tunis
@@ -23346,21 +24024,30 @@ turayf	Ţurayf
 turbaco	Turbaco
 turbat	Turbat
 turbo	Turbo
+turchia	Turkey
+turcomenistao	Turkmenistan
 turgalium	Trujillo
 turgutlu	Turgutlu
 turhal	Turhal
 turin	Turin
+turkey	Turkey
 turkistan	Turkistan
+turkiye	Turkey
 turkmenabat	Türkmenabat
 turkmenbasy	Türkmenbaşy
+turkmenistan	Turkmenistan
+turks caicos islands	Turks & Caicos Islands
 turku	Turku
 turlock	Turlock
 turmero	Turmero
 turpan	Turpan
+turquia	Turkey
+turquie	Turkey
 tuscaloosa	Tuscaloosa
 tustin	Tustin
 tutoia	Tutóia
 tuubaa	Touba
+tuvalu	Tuvalu
 tuxpam de rodriguez cano	Túxpam de Rodríguez Cano
 tuxtepec	Tuxtepec
 tuxtla	Tuxtla
@@ -23445,8 +24132,10 @@ tønsberg	Tønsberg
 u ciu	Fuzhou
 u hang	Wuhan
 u hu	Wuhu
+u s virgin islands	U.S. Virgin Islands
 u sek	Wuxi
 u song	Fushun
+uae	United Arab Emirates
 uagadougou	Ouagadougou
 uagadugu	Ouagadougou
 uagaduguo	Ouagadougou
@@ -23464,6 +24153,8 @@ uccle	Uccle
 uchan	Wuchang
 uchzhun	Wuzhong
 uchzhunpu	Wuzhong
+ucraina	Ukraine
+ucrania	Ukraine
 udaipur	Udaipur
 udgir	Udgīr
 udhampur	Udhampur
@@ -23489,6 +24180,7 @@ ueskuep	Skopje
 ufa	Ufa
 uffa	Ufa
 uga	Uga
+uganda	Uganda
 ugep	Ugep
 ughelli	Ughelli
 ugwu ocha	Port Harcourt
@@ -23509,11 +24201,13 @@ uji	Uji
 ujjain	Ujjain
 ujpest	Újpest
 ujungpandang	Makassar
+uk	United Kingdom
 ukhan	Wuhan
 ukhani	Wuhan
 ukhta	Ukhta
 ukhu	Wuhu
 uki	Uki
+ukraine	Ukraine
 ukunda	Ukunda
 ul san	Ulsan
 ula bator	Ulan Bator
@@ -23574,10 +24268,14 @@ unch on up	Ŭnch’ŏn-ŭp
 undok	Ŭndŏk
 ung ciu	Wenzhou
 ungaran	Ungaran
+ungheria	Hungary
 ungsang	Ungsang
 uniao da vitoria	União da Vitória
 uniao dos palmares	União dos Palmares
 union city	Union City
+united arab emirates	United Arab Emirates
+united kingdom	United Kingdom
+united states	United States
 universal city	Universal City
 universitats und hansestadt greifswald	Universitäts- und Hansestadt Greifswald
 university heights	University Heights
@@ -23621,7 +24319,9 @@ uromi	Uromi
 ursynow	Ursynów
 uruapan	Uruapan
 uruga	Ulan Bator
+uruguai	Uruguay
 uruguaiana	Uruguaiana
+uruguay	Uruguay
 uruma	Uruma
 urumaci	Ürümqi
 urumaki	Ürümqi
@@ -23644,6 +24344,7 @@ urumutsi	Ürümqi
 urun islampur	Urun-Islāmpur
 urunchi	Ürümqi
 urusan	Ulsan
+usa	United States
 usak	Uşak
 usera	Usera
 ushiku	Ushiku
@@ -23677,6 +24378,8 @@ uxan	Wuhan
 uxbridge	Uxbridge
 uyo	Uyo
 uyovu	Uyovu
+uzbekistan	Uzbekistan
+uzbequistao	Uzbekistan
 uzhhorod	Uzhhorod
 uzice	Užice
 uzlovaya	Uzlovaya
@@ -23764,6 +24467,7 @@ vaniyambadi	Vaniyambadi
 vannes	Vannes
 vantaa	Vantaa
 vantontara	Vadodara
+vanuatu	Vanuatu
 vanzhou	Wanzhou
 vapadedara	Vadodara
 vapi	Vapi
@@ -23872,6 +24576,7 @@ vendzou	Wenzhou
 venecia	Venice
 veneza	Venice
 venezia	Venice
+venezuela	Venezuela
 vengou	Wenzhou
 venice	Venice
 venise	Venice
@@ -23957,8 +24662,11 @@ vientijan	Vientiane
 vientjan	Vientiane
 vientyan	Vientiane
 viersen	Viersen
+viet nam	Vietnam
 viet tri	Việt Trì
 viet yen	Việt Yên
+vietna	Vietnam
+vietnam	Vietnam
 vigevano	Vigevano
 vigia	Vigia
 vigo	Vigo
@@ -24284,9 +24992,14 @@ wako	Wako
 wal let ta	Valletta
 walbrzych	Wałbrzych
 waldorf	Waldorf
+wales	Wales
 waleta	Valletta
 waliso	Waliso
 wallasey	Wallasey
+wallis e futuna	Wallis & Futuna
+wallis et futuna	Wallis & Futuna
+wallis futuna	Wallis & Futuna
+wallis y futuna	Wallis & Futuna
 walnsya	Valencia
 walnsya wnzwyla	Valencia
 walnut creek	Walnut Creek
@@ -24472,6 +25185,7 @@ west ridge	West Ridge
 west sacramento	West Sacramento
 west town	West Town
 west valley city	West Valley City
+western sahara	Western Sahara
 westland	Westland
 westminster	Westminster
 weston	Weston
@@ -25135,6 +25849,7 @@ yelahanka	Yelahanka
 yeleban	Yerevan
 yelets	Yelets
 yem jilla	Kathmandu
+yemen	Yemen
 yen bai	Yên Bái
 yen ch eng	Yancheng
 yen ch eng chen	Yancheng
@@ -25456,6 +26171,8 @@ zajryb	Zagreb
 zalaegerszeg	Zalaegerszeg
 zalau	Zalău
 zama	Zama
+zambia	Zambia
+zambie	Zambia
 zamboanga	Zamboanga
 zamboanga city	Zamboanga
 zamboanga lakanbalen	Zamboanga
@@ -25657,6 +26374,8 @@ zigong	Zigong
 ziguinchor	Ziguinchor
 zile	Zile
 zilina	Žilina
+zimbabue	Zimbabwe
+zimbabwe	Zimbabwe
 zinder	Zinder
 zipaquira	Zipaquirá
 zitong	Zitong
@@ -25791,7 +26510,9 @@ zzayer	Algiers
 авка	Awka
 авр	Le Havre
 аврора	Aurora
+австралия	Australia
 австралын ньюкасл	Newcastle
+австрия	Austria
 агадез	Agadez
 агадес	Agadez
 агадир	Agadir
@@ -25858,6 +26579,7 @@ zzayer	Algiers
 аз зухур	Az-Zuhūr
 азамгарх	Azamgarh
 азаре	Azare
+азербаиджан	Azerbaijan
 азкапотзалко	Azcapotzalco
 аиджал	Aizawl
 аидзувакамацу	Aizu-Wakamatsu
@@ -25926,6 +26648,7 @@ zzayer	Algiers
 алагоиньяс	Alagoinhas
 алаих	Aley
 аламар	Alamar
+аландские о ва	Åland Islands
 аландур	Alandur
 алания	Alanya
 аланија	Alanya
@@ -26054,7 +26777,9 @@ zzayer	Algiers
 амбон	Ambon
 амбур	Ambur
 амен	Amiens
+америка	United States
 американа	Americana
+американское самоа	American Samoa
 амерсфорт	Amersfoort
 амидпер ист	Ahmadpur East
 амиен	Amiens
@@ -26100,6 +26825,9 @@ zzayer	Algiers
 ангарск	Angarsk
 ангарськ	Angarsk
 ангелес	Angeles City
+ангилья	Anguilla
+англия	England
+ангола	Angola
 ангоно	Angono
 ангоче	Angoche
 ангра дус реис	Angra dos Reis
@@ -26116,6 +26844,7 @@ zzayer	Algiers
 андора ла веля	Andorra la Vella
 андора ла веља	Andorra la Vella
 андора ля вэлья	Andorra la Vella
+андорра	Andorra
 андорра ла велья	Andorra la Vella
 анже	Angers
 анжи	Makhachkala
@@ -26145,6 +26874,7 @@ zzayer	Algiers
 антананаріву	Antananarivo
 антафагаста	Antofagasta
 антверпен	Antwerp
+антигуа и барбуда	Antigua & Barbuda
 антиок	Antioch
 антиохия	Antakya
 антиохија	Antakya
@@ -26228,6 +26958,7 @@ zzayer	Algiers
 арведа	Arvada
 арвәде	Arvada
 аргансуэла	Arganzuela
+аргентина	Argentina
 ардабел	Ardabīl
 арекипа	Arequipa
 арекіпа	Arequipa
@@ -26265,6 +26996,7 @@ zzayer	Algiers
 артемівськии раион	Vilkhivskyi
 артур алвим	Artur Alvim
 артуш	Artux
+аруба	Aruba
 аруша	Arusha
 архангельск	Arkhangel’sk
 архангельськ	Arkhangel’sk
@@ -26330,6 +27062,7 @@ zzayer	Algiers
 аумын	Macau
 аурангабад	Aurangabad
 аурора	Aurora
+афганистан	Afghanistan
 афен	Afyonkarahisar
 афины	Athens
 афионкарахисар	Afyonkarahisar
@@ -26412,6 +27145,7 @@ zzayer	Algiers
 бабрујск	Bobruysk
 баг	Bagé
 багалкот	Bagalkot
+багамы	Bahamas
 багата	Bogotá
 багаха	Bagaha
 багдад	Baghdad
@@ -26520,6 +27254,7 @@ zzayer	Algiers
 банги	Bangui
 бангкок	Bangkok
 бангкок нои	Bangkok Noi
+бангладеш	Bangladesh
 бангі	Bangui
 банда ачех	Banda Aceh
 бандар аббос	Bandar Abbas
@@ -26582,6 +27317,7 @@ zzayer	Algiers
 баранкілья	Barranquilla
 барановичи	Baranovichi
 барасат	Bārāsat
+барбадос	Barbados
 барбакена	Barbacena
 бардо	Bordeaux
 бардхаман	Barddhamān
@@ -26681,6 +27417,7 @@ zzayer	Algiers
 бахир дар	Bahir Dar
 бахр дар	Bahir Dar
 бахраич	Bahraigh
+бахреин	Bahrain
 бахчелиэвлер	Bahçelievler
 бачжун	Bazhong
 бачуань	Bachuan
@@ -26732,6 +27469,7 @@ zzayer	Algiers
 бексли	Bexley
 белаван	Belawan
 белари	Ballari
+беларусь	Belarus
 беласток	Białystok
 беластоқ	Białystok
 белая царква	Bila Tserkva
@@ -26749,6 +27487,7 @@ zzayer	Algiers
 белграно	Belgrano
 белем	Belém
 белен	Belém
+белиз	Belize
 белла	Bello
 беллари	Ballari
 белмопан	Belmopan
@@ -26765,6 +27504,7 @@ zzayer	Algiers
 белфорд рошо	Belford Roxo
 белфорд рошу	Belford Roxo
 белци	Bălţi
+бельгия	Belgium
 бельмапан	Belmopan
 бельмопан	Belmopan
 бельо	Bello
@@ -26846,6 +27586,7 @@ zzayer	Algiers
 берлін	Berlin
 берлінгтон	Burlington
 бермингхам	Birmingham
+бермудские о ва	Bermuda
 берн	Bern
 берн ош	Bern
 бернаби	Burnaby
@@ -26996,7 +27737,9 @@ zzayer	Algiers
 бокоио	Bocoio
 боксбург	Boksburg
 боку	Baku
+болгария	Bulgaria
 болдер	Boulder
+боливия	Bolivia
 болонья	Bologna
 болоня	Bologna
 болоња	Bologna
@@ -27016,6 +27759,7 @@ zzayer	Algiers
 бонн	Bonn
 бонон	Bonon
 бонтанг	Bontang
+бонэир синт эстатиус и саба	Caribbean Netherlands
 бопал	Bhopal
 боразджан	Borāzjān
 борама	Borama
@@ -27032,11 +27776,13 @@ zzayer	Algiers
 борщаговка	Borshchahivka
 борщагівка	Borshchahivka
 боске сауде	Bosque Saúde
+босния и герцеговина	Bosnia & Herzegovina
 бостан	Boston
 бостон	Boston
 бостън	Boston
 ботад	Botad
 ботроп	Bottrop
+ботсвана	Botswana
 боттроп	Bottrop
 ботукату	Botucatu
 ботшабело	Botshabelo
@@ -27121,6 +27867,7 @@ zzayer	Algiers
 бристол	Bristol
 бристоль	Bristol
 бристъл	Bristol
+британская территория в индииском океане	British Indian Ocean Territory
 британцы	Brits
 бритс	Brits
 бриџпорт	Bridgeport
@@ -27139,6 +27886,7 @@ zzayer	Algiers
 бругэ	Brugge
 бруклин	Brooklyn
 бруклін	Brooklyn
+брунеи	Brunei
 бруски	Brusque
 брусэль	Brussels
 брыджпарт	Bridgeport
@@ -27237,13 +27985,16 @@ zzayer	Algiers
 бургас хот	Burgas
 бургос	Burgos
 бурдж эль киффан	Bordj el Kiffan
+буркина фасо	Burkina Faso
 буро гӏала	Vladikavkaz
 бурса	Bursa
 бурсо	Bursa
+бурунди	Burundi
 бурханпур	Burhānpur
 бурьюала	Burewala
 бусан	Busan
 бусинесс баи	Business Bay
+бутан	Bhutan
 бутанта	Butanta
 бутвал	Butwāl
 бутембо	Butembo
@@ -27425,6 +28176,7 @@ zzayer	Algiers
 вансянь	Wanxian
 ванта	Vantaa
 вантаа	Vantaa
+вануату	Vanuatu
 ваншэн	Wansheng
 ваньнин	Wanning
 ваньчаи	Wan Chai
@@ -27468,6 +28220,7 @@ zzayer	Algiers
 велики садбери	Greater Sudbury
 великие луки	Velikiye Luki
 великии новгород	Velikiy Novgorod
+великобритания	United Kingdom
 велингтон	Wellington
 велком	Welkom
 веллингтон	Wellington
@@ -27477,6 +28230,8 @@ zzayer	Algiers
 велуру	Vellore
 велінгтан	Wellington
 вена	Vienna
+венгрия	Hungary
+венесуэла	Venezuela
 венеция	Venice
 венло	Venlo
 вентян	Vientiane
@@ -27621,6 +28376,9 @@ zzayer	Algiers
 вираншехире	Viranşehir
 вирар	Virār
 виргиния бич	Virginia Beach
+виргинские о ва	U.S. Virgin Islands
+виргинские о ва великобритания	British Virgin Islands
+виргинские о ва сша	U.S. Virgin Islands
 вирджини бич	Virginia Beach
 вирджиния	Virginia
 вирджиния биич	Virginia Beach
@@ -27692,6 +28450,7 @@ zzayer	Algiers
 вортинг	Worthing
 восточныи гарлем	East Harlem
 восточныи иерусалим	East Jerusalem
+восточныи тимор	Timor-Leste
 вотербери	Waterbury
 вотербері	Waterbury
 вотерлу	Waterloo
@@ -27722,6 +28481,7 @@ zzayer	Algiers
 вьентьян	Vientiane
 вьет три	Việt Trì
 вьетиен	Việt Yên
+вьетнам	Vietnam
 вэинань	Weinan
 вэифан	Weifang
 вэихаи	Weihai
@@ -27777,6 +28537,7 @@ zzayer	Algiers
 габаронэ	Gaborone
 габела	Gabela
 габес	Gabès
+габон	Gabon
 габороне	Gaborone
 гавана	Havana
 гаване	Havana
@@ -27798,21 +28559,25 @@ zzayer	Algiers
 газіпур	Gazipur
 газіябад	Ghāziābād
 газіянтэп	Gaziantep
+гаиана	Guyana
 гаидельберг	Heidelberg
 гаильбронн	Heilbronn
 гаиранвала	Gujranwala
+гаити	Haiti
 галатс	Galaţi
 галац	Galaţi
 галифакс	Halifax
 галле	Halle (Saale)
 галівуд	Hollywood
 гама	Ḩamāh
+гамбия	Gambia
 гамбург	Hamburg
 гамбурґ	Hamburg
 гамильтон	Hamilton
 гамм	Hamm
 гамільтан	Hamilton
 гамільтон	Hamilton
+гана	Ghana
 ганалулу	Honolulu
 гангавати	Gangavati
 ганганагар	Sri Ganganagar
@@ -27877,6 +28642,7 @@ zzayer	Algiers
 гбонган	Gbongan
 гвадалахара	Guadalajara
 гвадалупе	Guadalupe
+гваделупа	Guadeloupe
 гвалиор	Gwalior
 гваліер	Gwalior
 гвангмеонг	Gwangmyeong
@@ -27887,6 +28653,8 @@ zzayer	Algiers
 гвајакил	Guayaquil
 гвелф	Guelph
 гверу	Gweru
+гвинея	Guinea
+гвинея бисау	Guinea-Bissau
 гвру	Gweru
 гданск	Gdańsk
 гданськ	Gdańsk
@@ -27927,9 +28695,11 @@ zzayer	Algiers
 гера	Gera
 герат	Herāt
 гереида	Gereida
+германия	Germany
 гермистон	Germiston
 гермосильо	Hermosillo
 герне	Herne
+гернси	Guernsey
 герот	Herāt
 герцлия	Herzliya
 герю	Gurúè
@@ -28010,8 +28780,10 @@ zzayer	Algiers
 гондал	Gondal
 гондар	Gonder
 гондия	Gondiā
+гондурас	Honduras
 гондэр	Gonder
 гонконг	Hong Kong
+гонконг сар	Hong Kong SAR China
 гонолулу	Honolulu
 горакпур	Gorakhpur
 горакпура	Gorakhpur
@@ -28046,9 +28818,11 @@ zzayer	Algiers
 граяу	Grajaú
 гренада	Granada
 гренд репідс	Grand Rapids
+гренландия	Greenland
 гренобл	Grenoble
 гренобль	Grenoble
 гренобъл	Grenoble
+греция	Greece
 грешам	Gresham
 грешем	Gresham
 гриили	Greeley
@@ -28068,6 +28842,7 @@ zzayer	Algiers
 грозныи	Grozny
 гронинген	Groningen
 гронінген	Groningen
+грузия	Georgia
 грутвикен	Grytviken
 грутвікен	Grytviken
 грынсбара	Greensboro
@@ -28080,6 +28855,7 @@ zzayer	Algiers
 гуаианасес	Guaianases
 гуаимас	Heroica Guaymas
 гуакара	Guacara
+гуам	Guam
 гуанабакоа	Guanabacoa
 гуанаре	Guanare
 гуангјуен	Guangyuan
@@ -28238,6 +29014,7 @@ zzayer	Algiers
 данецк	Donetsk
 данидин	Dunedin
 данидн	Dunedin
+дания	Denmark
 данкастэр	Doncaster
 данли	Danlí
 даньдун	Dandong
@@ -28422,6 +29199,7 @@ zzayer	Algiers
 джермистон	Germiston
 джермістон	Germiston
 джерсеи сити	Jersey City
+джерси	Jersey
 джерси сити	Jersey City
 джерсі сіті	Jersey City
 джессор	Jessore
@@ -28566,6 +29344,8 @@ zzayer	Algiers
 долиси	Dolisie
 домбивли	Dombivali
 домброва гурнича	Dąbrowa Górnicza
+доминика	Dominica
+доминиканская республика	Dominican Republic
 дон тӏера ростов	Rostov-on-Don
 дон умбалне ростов	Rostov-on-Don
 донаустадт	Donaustadt
@@ -28729,6 +29509,7 @@ zzayer	Algiers
 евпатория	Yevpatoriya
 евърет	Everett
 еганесбург	Johannesburg
+египет	Egypt
 ед дамазин	Ad-Damazin
 ед дамазін	Ad-Damazin
 ед дамер	Ad-Damir
@@ -28994,6 +29775,7 @@ zzayer	Algiers
 зальцгіттер	Salzgitter
 зальцгітэр	Salzgitter
 зама	Zama
+замбия	Zambia
 замбоанга	Zamboanga
 занго	Zango
 зангулдак	Zonguldak
@@ -29003,6 +29785,7 @@ zzayer	Algiers
 западен джордан	West Jordan
 западна ковина	West Covina
 западная ковина	West Covina
+западная сахара	Western Sahara
 западныи иерусалим	West Jerusalem
 запарожжа	Zaporizhzhya
 запопан	Zapopan
@@ -29030,6 +29813,7 @@ zzayer	Algiers
 зиген	Siegen
 зигиншор	Ziguinchor
 зиен бан	Điện Bàn
+зимбабве	Zimbabwe
 зиндер	Zinder
 зиновьевск	Kropyvnytskyi
 зитун	Zitong
@@ -29096,6 +29880,7 @@ zzayer	Algiers
 иелати залтсбург	Salzburg
 иелоти баринас	Barinas
 иелоти сукре	Sucre
+иемен	Yemen
 иена	Jena
 иенагоа	Yenagoa
 иенбаи	Yên Bái
@@ -29112,6 +29897,7 @@ zzayer	Algiers
 измир	İzmir
 измит	İzmit
 измір	İzmir
+израиль	Israel
 изтакалко	Iztacalco
 източен иерусалим	East Jerusalem
 източен лондон	East London
@@ -29168,7 +29954,9 @@ zzayer	Algiers
 индзаи	Inzai
 индианаполис	Indianapolis
 индипендънс	Independence
+индия	India
 индијанаполис	Indianapolis
+индонезия	Indonesia
 индор	Indore
 индрамаю	Indramayu
 индустриальнии	Industrialnyi
@@ -29206,6 +29994,7 @@ zzayer	Algiers
 ионкърс	Yonkers
 ионшьопинг	Jönköping
 иопаль	Yopal
+иордания	Jordan
 иоребру	Örebro
 иорк	York
 иос	Jos
@@ -29220,8 +30009,10 @@ zzayer	Algiers
 ипох	Ipoh
 ипсвич	Ipswich
 ипсуич	Ipswich
+ирак	Iraq
 ираклио	Irákleion
 ираклион	Irákleion
+иран	Iran
 ираншехр	Iranshahr
 ирапуато	Irapuato
 ирбид	Irbid
@@ -29234,6 +30025,7 @@ zzayer	Algiers
 иринга	Iringa
 иркутск	Irkutsk
 иркутскаи	Irkutsk
+ирландия	Ireland
 ироду	Erode
 ирума	Iruma
 ирьюе	Irewe
@@ -29256,9 +30048,11 @@ zzayer	Algiers
 искәндәриә	Alexandria
 исламабад	Islamabad
 исламшехр	Eslamshahr
+исландия	Iceland
 ислингтон	Islington
 исмаилия	Ismailia
 исмаилија	Ismailia
+испания	Spain
 испарта	Isparta
 ист индепенденсе	East Independence
 ист кхаттануга	East Chattanooga
@@ -29298,6 +30092,7 @@ zzayer	Algiers
 итакакекетуба	Itaquaquecetuba
 итакера	Itaquera
 итакоатиара	Itacoatiara
+италия	Italy
 итами	Itami
 итаньяэн	Itanhaém
 итапеви	Itapevi
@@ -29346,6 +30141,7 @@ zzayer	Algiers
 кабимас	Cabimas
 кабин бури	Kabin Buri
 кабинда	Cabinda
+кабо верде	Cape Verde
 кабо де санто агостинье	Cabo de Santo Agostinho
 кабо сан лукас	Cabo San Lucas
 кабу фриу	Cabo Frio
@@ -29385,6 +30181,7 @@ zzayer	Algiers
 казан	Kazan
 казань	Kazan
 казань ош	Kazan
+казахстан	Kazakhstan
 казањ	Kazan
 казвин	Qazvin
 казвін	Qazvin
@@ -29499,12 +30296,14 @@ zzayer	Algiers
 камасари	Camaçari
 камау	Cà Mau
 камбе	Cambé
+камбоджа	Cambodia
 камбориу	Camboriú
 каменец подолски	Kamyanets-Podilskyi
 каменец подольскии	Kamyanets-Podilskyi
 каменск	Kamensk-Ural’skiy
 каменск уральскии	Kamensk-Ural’skiy
 каменское	Kamyanske
+камерун	Cameroon
 камета	Cametá
 камина	Kamina
 камины	Kamina
@@ -29548,6 +30347,7 @@ zzayer	Algiers
 кан гиуок	Cần Giuộc
 кан тхо	Cần Thơ
 канага	Kananga
+канада	Canada
 канадзава	Kanazawa
 кананга	Kananga
 канаяннур	Kanayannur
@@ -29721,6 +30521,7 @@ zzayer	Algiers
 катания	Catania
 катанија	Catania
 катану	Cotonou
+катар	Qatar
 катбалоган	Catbalogan
 катеринослав	Dnipro
 кати	Kati
@@ -29845,6 +30646,7 @@ zzayer	Algiers
 кенигзберг	Kaliningrad
 кенитра	Kenitra
 кенитра қаласы	Kenitra
+кения	Kenya
 кеннедии	Kennedy
 кенсан	Gyeongsan-si
 кент	Kent
@@ -29937,12 +30739,15 @@ zzayer	Algiers
 киншаса	Kinshasa
 киншасе	Kinshasa
 киото	Kyoto
+кипр	Cyprus
 кипутат	Ciputat
 кипуши	Kipushi
 кира	Kira
 кирари сулеманнагар	Kirāri Sulemānnagar
+киргизия	Kyrgyzstan
 кирдаса	Kirdāsah
 кири	Kiryū
+кирибати	Kiribati
 кирикале	Kırıkkale
 кириккале	Kırıkkale
 киришима	Kirishima
@@ -29971,6 +30776,7 @@ zzayer	Algiers
 кисмаио	Kismayo
 кисуму	Kisumu
 кита	Kita
+китаи	China
 китаискии квартал в сан франциско	Chinatown
 китакюсю	Kitakyushu
 китакюшу	Kitakyushu
@@ -30030,6 +30836,7 @@ zzayer	Algiers
 клівленд	Cleveland
 клірвотер	Clearwater
 кліуленд	Cleveland
+кндр	North Korea
 ко зо	Cờ Đỏ
 коакалко	San Francisco Coacalco
 коатепеке	Coatepeque
@@ -30070,6 +30877,7 @@ zzayer	Algiers
 коквітлам	Coquitlam
 кокимбо	Coquimbo
 кокон	Qo‘qon
+кокосовые о ва	Cocos (Keeling) Islands
 кокс базар	Cox’s Bāzār
 кокубундзи	Kokubunji
 кокубундзі	Kokubunji
@@ -30132,11 +30940,14 @@ zzayer	Algiers
 комодоро ривадавия	Comodoro Rivadavia
 комодоро ривадавија	Comodoro Rivadavia
 комодоро рівадавія	Comodoro Rivadavia
+коморы	Comoros
 комсар	Kamsar
 комсомольск на амуре	Komsomolsk-on-Amur
 комсомольськ на амурі	Komsomolsk-on-Amur
 конак	Konak
 конакри	Conakry
+конго браззавиль	Congo - Brazzaville
+конго киншаса	Congo - Kinshasa
 конибодом	Konibodom
 кония	Konya
 конија	Konya
@@ -30205,12 +31016,15 @@ zzayer	Algiers
 корхого	Korhogo
 коріяма	Kōriyama
 косигая	Koshigaya
+косово	Kosovo
 косовска митровица	Mitrovicë
 коста меса	Costa Mesa
+коста рика	Costa Rica
 костанаи	Kostanay
 кострома	Kostroma
 косіґая	Koshigaya
 кот адду	Kot Addu
+кот д ивуар	Côte d’Ivoire
 кот радха кишан	Kot Radha Kishan
 кота	Kota
 кота бару	Kota Bharu
@@ -30329,8 +31143,10 @@ zzayer	Algiers
 куаутитлан искальи	Cuautitlán Izcalli
 куаутла	Cuautla
 куаухтемок	Cuauhtémoc
+куба	Cuba
 кубатао	Cubatão
 кувана	Kuwana
+кувеит	Kuwait
 куддалор	Cuddalore
 куддалоре	Cuddalore
 кудугу	Koudougou
@@ -30492,6 +31308,7 @@ zzayer	Algiers
 кэсон	Kaesŏng
 кэчхон	Kaech’ŏn
 кюнес	Xinyuan
+кюрасао	Curaçao
 кюстенджа	Constanţa
 кютахия	Kütahya
 кютахья	Kütahya
@@ -30636,6 +31453,7 @@ zzayer	Algiers
 лао кај	Lào Cai
 лаоаг	Laoag
 лаокаи	Lào Cai
+лаос	Laos
 лаохэкоу	Laohekou
 лапу лапу	Lapu-Lapu City
 лараш	Larache
@@ -30663,6 +31481,7 @@ zzayer	Algiers
 латакунга	Latacunga
 латакія	Latakia
 латақия	Latakia
+латвия	Latvia
 латина	Latina
 латкрабанг	Latkrabang
 латур	Latur
@@ -30729,6 +31548,7 @@ zzayer	Algiers
 леон	León
 леон де лос альдама	León de los Aldama
 лерида	Lleida
+лесото	Lesotho
 лестер	Leicester
 лестър	Leicester
 лестэр	Leicester
@@ -30746,16 +31566,19 @@ zzayer	Algiers
 либек	Lübeck
 либеретс	Liberec
 либерец	Liberec
+либерия	Liberia
 либертад	Libertad
 либрвил	Libreville
 либревил	Libreville
 либревиль	Libreville
+ливан	Lebanon
 ливерпул	Liverpool
 ливерпуль	Liverpool
 ливерпүүл	Liverpool
 ливингстон	Livingstone
 ливингстон шаары	Livingstone
 ливингстън	Livingstone
+ливия	Libya
 ливобережнии	Livoberezhnyi
 ливорно	Livorno
 ливърпул	Liverpool
@@ -30810,10 +31633,12 @@ zzayer	Algiers
 лисабон	Lisbon
 лисале	Lisala
 лиссабон	Lisbon
+литва	Lithuania
 литл рок	Little Rock
 литъл рок	Little Rock
 лиужи	Liuzhi
 лиуянг	Guankou
+лихтенштеин	Liechtenstein
 лицзян	Lijiang
 лицзян шаары	Lijiang
 личинга	Lichinga
@@ -31054,6 +31879,8 @@ zzayer	Algiers
 маба	Maba
 мабалакат	Mabalacat City
 мабопане	Mabopane
+маврикии	Mauritius
+мавритания	Mauritania
 магага	Maghāghah
 магадыша	Mogadishu
 маганге	Magangué
@@ -31066,6 +31893,7 @@ zzayer	Algiers
 магнітогорськ	Magnitogorsk
 магьачкъала	Makhachkala
 магілеу	Mahilioŭ
+мадагаскар	Madagascar
 маданапалле	Madanapalle
 маджуро	Majuro
 мадина	Madinah
@@ -31106,6 +31934,7 @@ zzayer	Algiers
 маименсингх	Mymensingh
 маинц	Mainz
 маиорка	Mallorca
+маиотта	Mayotte
 маипу	Maipú
 маирипоран	Mairiporã
 маисур	Mysuru
@@ -31117,6 +31946,7 @@ zzayer	Algiers
 макален	McAllen
 макамбако	Makumbako
 макао	Macau
+макао сар	Macao SAR China
 макапа	Macapá
 макассар	Makassar
 макати	Makati City
@@ -31130,7 +31960,9 @@ zzayer	Algiers
 малаба	Malabo
 малабо	Malabo
 малабон	Malabon
+малави	Malawi
 малага	Málaga
+малаизия	Malaysia
 малакал	Malakal
 малакаль	Malakal
 малакка	Malacca
@@ -31149,6 +31981,7 @@ zzayer	Algiers
 мале	Male
 малегаон	Malegaon
 малеркотла	Māler Kotla
+мали	Mali
 малингао	Malingao
 малинди	Malindi
 малир кантонмент	Malir Cantonment
@@ -31163,6 +31996,7 @@ zzayer	Algiers
 мальдивы	Maldives
 мальдонадо	Maldonado
 мальме	Malmö
+мальта	Malta
 малінді	Malindi
 мамбаса	Mombasa
 мамудзу	Mamoudzou
@@ -31292,6 +32126,7 @@ zzayer	Algiers
 маркъм	Markham
 мармагао	Mormugao
 марне ла валлее	Marne La Vallée
+марокко	Morocco
 мароні	Moroni
 марракеш	Marrakech
 маррокеш	Marrakesh
@@ -31301,10 +32136,12 @@ zzayer	Algiers
 марсељ	Marseille
 марсилия	Marseille
 мартапура	Martapura
+мартиника	Martinique
 маруа	Maroua
 маругаме	Marugame
 маруґаме	Marugame
 марцан	Marzahn
+маршалловы о ва	Marshall Islands
 мары	Mary
 мары шаары	Mary
 марыго	Marigot
@@ -31450,6 +32287,7 @@ zzayer	Algiers
 мекка	Makkah
 мекке	Makkah
 мекнес	Meknes
+мексика	Mexico
 мексикали	Mexicali
 мексико	Mexico City
 мексико сити	Mexico City
@@ -31633,6 +32471,7 @@ zzayer	Algiers
 модинагар	Modīnagar
 моенг янг	Möng Yang
 можи гуасу	Mogi Guaçu
+мозамбик	Mozambique
 мозир	Mazyr
 мозырь	Mazyr
 мокопане	Mokopane
@@ -31641,12 +32480,14 @@ zzayer	Algiers
 моламьин	Mawlamyine
 моламьяин	Mawlamyine
 моламяин	Mawlamyine
+молдова	Moldova
 молотов	Perm
 молотовськии	Tsentralnyi
 молотовськии раион	Tsentralnyi
 момбаса	Mombasa
 монако	Monaco
 монгкаи	Móng Cái
+монголия	Mongolia
 монгу	Mongu
 монива	Monywa
 монклоа аравака	Moncloa-Aravaca
@@ -31678,6 +32519,7 @@ zzayer	Algiers
 монтис кларус	Montes Claros
 монтреал	Montréal
 монтреи	Montreuil
+монтсеррат	Montserrat
 монца	Monza
 мопти	Mopti
 мопті	Mopti
@@ -31796,6 +32638,8 @@ zzayer	Algiers
 мьинджан	Myingyan
 мьонхенгладбах	Mönchengladbach
 мьорс	Moers
+мьянма	Myanmar (Burma)
+мьянма бирма	Myanmar (Burma)
 мэдисон	Madison
 мэичжоу	Meizhou
 мэишань	Meishan
@@ -31928,6 +32772,7 @@ zzayer	Algiers
 намбо	Namp’o
 намдинь	Nam Định
 намибе	Mossamedes
+намибия	Namibia
 намир	Namur
 нампула	Nampula
 нампхо	Namp’o
@@ -32004,6 +32849,7 @@ zzayer	Algiers
 наукалпан де хуарез	Naucalpan de Juárez
 наукальпан	Naucalpan de Juárez
 наукальпан де хуарес	Naucalpan de Juárez
+науру	Nauru
 наха	Naha
 находка	Nakhodka
 находко	Nakhodka
@@ -32058,6 +32904,7 @@ zzayer	Algiers
 нельспрюит	Mbombela
 немишлянськии	Nemyshlyanskyi
 немишлянськии раион	Nemyshlyanskyi
+непал	Nepal
 непалгун	Nepalgunj
 непервілл	Naperville
 непин	Nepean
@@ -32083,6 +32930,9 @@ zzayer	Algiers
 нзега	Nzega
 нзерекоре	Nzérékoré
 ниамеи	Niamey
+нигер	Niger
+нигерия	Nigeria
+нидерланды	Netherlands
 нижневартовск	Nizhnevartovsk
 нижнеднепровск	Nyzhnodniprovsk
 нижнекамск	Nizhnekamsk
@@ -32102,6 +32952,7 @@ zzayer	Algiers
 нииза	Niiza
 ниихама	Niihama
 нииҳама	Niihama
+никарагуа	Nicaragua
 никозия	Nicosia
 никозија	Nicosia
 николаев	Mykolayiv
@@ -32129,6 +32980,7 @@ zzayer	Algiers
 нисио	Nishio
 ниситоке	Nishi-Tokyo-shi
 нитерои	Niterói
+ниуэ	Niue
 нихама	Niihama
 ница	Nice
 ницца	Nice
@@ -32154,6 +33006,8 @@ zzayer	Algiers
 новара	Novara
 новасібірск	Novosibirsk
 новачаркаск	Novocherkassk
+новая зеландия	New Zealand
+новая каледония	New Caledonia
 новгород	Velikiy Novgorod
 нови белград	Novi Beograd
 нови београд	Novi Beograd
@@ -32231,6 +33085,7 @@ zzayer	Algiers
 нонтхабури	Mueang Nonthaburi
 нор норк	Nor Nork
 нор харперт	Elazığ
+норвегия	Norway
 норвок	Norwalk
 норволк	Norwalk
 норвіч	Norwich
@@ -32350,10 +33205,18 @@ zzayer	Algiers
 нүмазү	Numazu
 нұр сұлтан	Astana
 нәнҗиң	Nanjing
+о в мэн	Isle of Man
+о в норфолк	Norfolk Island
+о в рождества	Christmas Island
+о в св елены	St. Helena
+о ва каиман	Cayman Islands
+о ва кука	Cook Islands
+о ва питкэрн	Pitcairn Islands
 о мон	Ô Môn
 оаксака де хуарез	Oaxaca
 оахака	Oaxaca
 оахака де хуарес	Oaxaca
+оаэ	United Arab Emirates
 обаленде	Obalende
 обергаузен	Oberhausen
 оберхаузен	Oberhausen
@@ -32453,6 +33316,7 @@ zzayer	Algiers
 ольштин	Olsztyn
 ольштын	Olsztyn
 олінда	Olinda
+оман	Oman
 омаха	Omaha
 омбы	Omsk
 омва	Omsk
@@ -32608,6 +33472,7 @@ zzayer	Algiers
 паинтаун	Pinetown
 пак крет	Pak Kret
 пакдашт	Pākdasht
+пакистан	Pakistan
 пако до лумиар	Paço do Lumiar
 пакокку	Pakokku
 пакпаттан	Pakpattan
@@ -32618,10 +33483,12 @@ zzayer	Algiers
 палаккад	Palakkad
 паланкарая	Palangkaraya
 паланпур	Pālanpur
+палау	Palau
 палвал	Palwal
 палембанг	Palembang
 палерма	Palermo
 палермо	Palermo
+палестинские территории	Palestinian Territories
 пали	Pāli
 паликир	Palikir
 паллаби	Pallabi
@@ -32665,8 +33532,10 @@ zzayer	Algiers
 папете	Papeete
 папеэте	Papeete
 папеэтэ	Papeete
+папуа новая гвинея	Papua New Guinea
 пар наогаон	Pār Naogaon
 паравапебас	Parauapebas
+парагваи	Paraguay
 парагоминас	Paragominas
 парадаиз	Paradise
 парадаис	Paradise
@@ -32794,6 +33663,7 @@ zzayer	Algiers
 перпіньян	Perpignan
 перт	Perth
 пертһ	Perth
+перу	Peru
 перуджа	Perugia
 перуђа	Perugia
 перым	Perm
@@ -32944,6 +33814,7 @@ zzayer	Algiers
 полтава	Poltava
 полтаве	Poltava
 польтова	Poltava
+польша	Poland
 помона	Pomona
 помпано бич	Pompano Beach
 помпано біч	Pompano Beach
@@ -33015,6 +33886,7 @@ zzayer	Algiers
 порту велью	Porto Velho
 порту велю	Porto Velho
 порту сегуру	Porto Seguro
+португалия	Portugal
 порц	Porz am Rhein
 поса рика де идальго	Poza Rica de Hidalgo
 посадас	Posadas
@@ -33143,6 +34015,7 @@ zzayer	Algiers
 пуэрто монт	Puerto Montt
 пуэрто плата	Puerto Plata
 пуэрто принсеса	Puerto Princesa
+пуэрто рико	Puerto Rico
 пуян	Puyang
 пуянг чэнгуаньжен	Puyang Chengguanzhen
 пујанг	Puyang
@@ -33322,6 +34195,7 @@ zzayer	Algiers
 ресистенсија	Resistencia
 ресифе	Recife
 ресифи	Recife
+республика корея	South Korea
 рессано гаркиа	Ressano Garcia
 ресістенсія	Resistencia
 ресіфі	Recife
@@ -33330,6 +34204,7 @@ zzayer	Algiers
 реховот	Reẖovot
 решт	Rasht
 рещ	Rasht
+реюньон	Réunion
 рејкјавик	Reykjavík
 рејноса	Reynosa
 реџајна	Regina
@@ -33419,6 +34294,7 @@ zzayer	Algiers
 росарито	Rosarito
 росаріо	Rosario
 росемонт ла петите патрие	Rosemont–La Petite-Patrie
+россия	Russia
 ростак	Rostock
 ростов	Rostov-on-Don
 ростов доныл	Rostov-on-Don
@@ -33446,6 +34322,7 @@ zzayer	Algiers
 рощок	Rostock
 ројтлинген	Reutlingen
 руан	Rouen
+руанда	Rwanda
 рубцовск	Rubtsovsk
 рубцовськ	Rubtsovsk
 рубцоуск	Rubtsovsk
@@ -33460,6 +34337,7 @@ zzayer	Algiers
 рудэпурт	Roodepoort
 руиру	Ruiru
 руки	Ruqi
+румыния	Romania
 рупцовск	Rubtsovsk
 руркела	Rourkela
 рурки	Roorkee
@@ -33632,6 +34510,7 @@ zzayer	Algiers
 самбизанга	Sambizanga
 самбриал	Sambrial
 самбізанга	Sambizanga
+самоа	Samoa
 самора де идальго	Zamora de Hidalgo
 сампит	Sampit
 самсун	Samsun
@@ -33733,6 +34612,7 @@ zzayer	Algiers
 сан себастьян	Donostia / San Sebastián
 сан тамэ	São Tomé
 сан томе	São Tomé
+сан томе и принсипи	São Tomé & Príncipe
 сан тунг чунг ханг	San Tung Chung Hang
 сан фелипе	San Felipe
 сан фелипе де пуэрто плата	Puerto Plata
@@ -33958,6 +34838,7 @@ zzayer	Algiers
 саттон колдфілд	Sutton Coldfield
 сату маре	Satu Mare
 сату марэ	Satu Mare
+саудовская аравия	Saudi Arabia
 сауримо	Saurimo
 саут бенд	South Bend
 саут бостон	South Boston
@@ -33998,8 +34879,10 @@ zzayer	Algiers
 севастопољ	Sevastopol
 северадзвінск	Severodvinsk
 северен лас вегас	North Las Vegas
+северная македония	North Macedonia
 северни картум	Khartoum North
 северни лас вегас	North Las Vegas
+северные марианские о ва	Northern Mariana Islands
 северныи	Severnyy
 северныи хартум	Khartoum North
 северодвинск	Severodvinsk
@@ -34023,6 +34906,7 @@ zzayer	Algiers
 сеинт луис	St. Louis
 сеинт питър порт	Saint Peter Port
 сеинт пол	Saint Paul
+сеишельские о ва	Seychelles
 секанды такарады	Sekondi-Takoradi
 секешфегервар	Székesfehérvár
 секешфехервар	Székesfehérvár
@@ -34042,22 +34926,27 @@ zzayer	Algiers
 семеј	Semey
 семипалатинск	Semey
 семнан	Semnan
+сен бартелеми	St. Barthélemy
 сен дени	Saint-Denis
 сен кантен ан ивелин	Saint-Quentin-en-Yvelines
 сен луи	Saint-Louis
 сен луі	Saint-Louis
 сен марк	Saint-Marc
+сен мартен	St. Martin
 сен поль	Saint-Paul
+сен пьер и микелон	St. Pierre & Miquelon
 сенадор канедо	Senador Canedo
 сенар	Sennar
 сенгерема	Sengerema
 сенгканг новыи город	Sengkang New Town
 сендаи	Sendai
 сенди спрингс	Sandy Springs
+сенегал	Senegal
 сенегалын сен луи	Saint-Louis
 сенендедж	Sanandaj
 сенендэдж	Sanandaj
 сеннар	Sennar
+сент винсент и гренадины	St. Vincent & Grenadines
 сент джонс	St. John's
 сент джоржес	Saint George's
 сент етиен	Saint-Étienne
@@ -34067,8 +34956,10 @@ zzayer	Algiers
 сент катарынс	St. Catharines
 сент кетерінс	St. Catharines
 сент кетринс	St. Catharines
+сент китс и невис	St. Kitts & Nevis
 сент луис	St. Louis
 сент луіс	St. Louis
+сент люсия	St. Lucia
 сент питер порт	Saint Peter Port
 сент питерсберг	St. Petersburg
 сент пол	Saint Paul
@@ -34094,6 +34985,7 @@ zzayer	Algiers
 серанг	Serang
 серангун	Serangoon
 серангун новыи город	Serangoon New Town
+сербия	Serbia
 сергиев посад	Sergiyev Posad
 сергијев посад	Sergiyev Posad
 серекунда	Serekunda
@@ -34213,6 +35105,7 @@ zzayer	Algiers
 синселехо	Sincelejo
 синсинати	Cincinnati
 синсинатти	Cincinnati
+синт мартен	Sint Maarten
 синтаи	Xingtai
 синфра	Sinfra
 синхуа	Xinghua
@@ -34239,6 +35132,7 @@ zzayer	Algiers
 сиракюз	Syracuse
 сиракјус	Syracuse
 сирджан	Sirjan
+сирия	Syria
 сирса	Sirsa
 сирт	Sirte
 ситапур	Sītāpur
@@ -34293,6 +35187,8 @@ zzayer	Algiers
 слобидскии	Slobidskyi
 слобідськии	Slobidskyi
 слобідськии раион	Slobidskyi
+словакия	Slovakia
+словения	Slovenia
 смаленск	Smolensk
 смирна	İzmir
 смоленск	Smolensk
@@ -34313,6 +35209,7 @@ zzayer	Algiers
 согвипхо	Seogwipo
 содо	Sodo
 соедермалм	Södermalm
+соединенные штаты	United States
 соибуг	Soyībug
 соио	Soyo
 сок	Sōka
@@ -34329,6 +35226,7 @@ zzayer	Algiers
 солихалл	Solihull
 соллентуна	Sollentuna
 солнцево	Solntsevo
+соломоновы о ва	Solomon Islands
 солт леик сити	Salt Lake City
 солт леик сіті	Salt Lake City
 солт лејк сити	Salt Lake City
@@ -34338,6 +35236,7 @@ zzayer	Algiers
 солфард	Salford
 солфорд	Salford
 соль камская	Solikamsk
+сомали	Somalia
 сомароборо	Somaroboro
 сомерсет вест	Somerset West
 сомерсет уэст	Somerset West
@@ -34478,6 +35377,7 @@ zzayer	Algiers
 сувон	Suwon
 сугерт	Siirt
 сугинами	Suginami
+судан	Sudan
 суджангарх	Sūjāngarh
 суджоу	Suzhou
 судзука	Suzuka
@@ -34554,6 +35454,7 @@ zzayer	Algiers
 сургут	Surgut
 сурендранагар	Surendranagar
 суриапет	Suriāpet
+суринам	Suriname
 сурпрајз	Surprise
 сурреи	Surrey
 сурт	Sirte
@@ -34577,6 +35478,7 @@ zzayer	Algiers
 схід	Skhidni Kvartaly
 східнии єрусалим	East Jerusalem
 східні квартали	Skhidni Kvartaly
+сша	United States
 съкопиѥ	Skopje
 съндърланд	Sunderland
 сънивеил	Sunnyvale
@@ -34593,6 +35495,7 @@ zzayer	Algiers
 сьего де авила	Ciego de Ávila
 сьенфуэгас	Cienfuegos
 сьенфуэгос	Cienfuegos
+сьерра леоне	Sierra Leone
 сьюдад акунья	Ciudad Acuña
 сьюдад балівар	Ciudad Bolívar
 сьюдад боливар	Ciudad Bolívar
@@ -34694,6 +35597,7 @@ zzayer	Algiers
 тагиг	Taguig
 тагум	Magugpo Poblacion
 тадепаллигудем	Tadepalligudem
+таджикистан	Tajikistan
 таджура	Tājūrā’
 тадзими	Tajimi
 тадзімі	Tajimi
@@ -34708,9 +35612,11 @@ zzayer	Algiers
 таибаи	Taibai
 таибеи	Taipei
 таибэи	Taipei
+таивань	Taiwan
 таиджоу	Taizhou
 таижун	Taichung
 таиз	Taiz
+таиланд	Thailand
 таилер	Tyler
 таинань	Tainan
 таипа	Taipa
@@ -34820,6 +35726,7 @@ zzayer	Algiers
 танжер	Tangier
 танжоу	Tanzhou
 танза	Tanza
+танзания	Tanzania
 таннасар	Thānesar
 танта	Tanta
 тантоу	Tantou
@@ -34950,6 +35857,7 @@ zzayer	Algiers
 терезина	Teresina
 терезополис	Teresópolis
 терезіна	Teresina
+теркс и каикос	Turks & Caicos Islands
 термез	Tirmiz
 термиз	Tirmiz
 терміз	Tirmiz
@@ -35026,6 +35934,7 @@ zzayer	Algiers
 тоба тек сингх	Toba Tek Singh
 тобольск	Tobolsk
 тобрук	Tobruk
+того	Togo
 тода	Shimotoda
 тоекава	Toyokawa
 тоенака	Toyonaka
@@ -35041,6 +35950,7 @@ zzayer	Algiers
 тоиф	Ta’if
 токаи	Tōkai
 токат	Tokat
+токелау	Tokelau
 токио	Tokyo
 токоа	Tocoa
 токоза	Tokoza
@@ -35070,6 +35980,7 @@ zzayer	Algiers
 томьскъ	Tomsk
 тон бури	Thon Buri
 тонала	Tonalá
+тонга	Tonga
 тонги	Tungi
 тонгипара	Tungipara
 тондабаяшичо	Tondabayashichō
@@ -35132,6 +36043,7 @@ zzayer	Algiers
 триест	Trieste
 трикомали	Trincomalee
 триндади	Trindade
+тринидад и тобаго	Trinidad & Tobago
 тринкомале	Trincomalee
 тринкомали	Trincomalee
 триполи	Tripoli
@@ -35175,6 +36087,7 @@ zzayer	Algiers
 туан танх	Thuận Thanh
 туба	Touba
 тубаран	Tubarão
+тувалу	Tuvalu
 тувумба	Toowoomba
 туггурт	Touggourt
 туггурт қаласы	Touggourt
@@ -35228,11 +36141,13 @@ zzayer	Algiers
 туркистон	Turkistan
 туркменабад	Türkmenabat
 туркменабат	Türkmenabat
+туркменистан	Turkmenistan
 турку	Turku
 турмеро	Turmero
 турпан	Turpan
 турфан	Turpan
 турхал	Turhal
+турция	Turkey
 турын	Turin
 тусан	Tucson
 тусон	Tucson
@@ -35349,6 +36264,7 @@ zzayer	Algiers
 увира	Uvira
 увэи	Wuwei
 уган	Wugang
+уганда	Uganda
 угеп	Ugep
 уда	Wuda
 удаипур	Udaipur
@@ -35377,6 +36293,7 @@ zzayer	Algiers
 ужгарад	Uzhhorod
 ужгород	Uzhhorod
 ужда	Oujda
+узбекистан	Uzbekistan
 уибуда	Budapest XI. kerület
 уиган	Wigan
 уиге	Uíge
@@ -35399,6 +36316,7 @@ zzayer	Algiers
 уичито фолс	Wichita Falls
 уишань	Wuyishan
 уква	Ukhta
+украина	Ukraine
 улаан удэ	Ulan-Ude
 улаан үдэ	Ulan-Ude
 улаанбаатар	Ulan Bator
@@ -35444,6 +36362,7 @@ zzayer	Algiers
 уннао	Unnāo
 уокинг	Woking
 уокинге	Woking
+уоллис и футуна	Wallis & Futuna
 уолсол	Walsall
 уолсолл	Walsall
 уолтемстоу	Walthamstow
@@ -35481,6 +36400,7 @@ zzayer	Algiers
 урсынов	Ursynów
 уруапан	Uruapan
 уруапан дел прогресо	Uruapan
+уругваи	Uruguay
 уругваяна	Uruguaiana
 уругуаяна	Uruguaiana
 урума	Uruma
@@ -35567,6 +36487,7 @@ zzayer	Algiers
 фарга	Fargo
 фарго	Fargo
 фардис	Fardīs
+фарерские о ва	Faroe Islands
 фаридабад	Faridabad
 фаридпур	Farīdpur
 фаррухабад	Farrukhābād
@@ -35577,6 +36498,7 @@ zzayer	Algiers
 фаси чароен	Phasi Charoen
 фатехпур	Fatehpur
 фатиих	Fatih
+федеративные штаты микронезии	Micronesia
 феиетвилл	Fayetteville
 феира де сантана	Feira de Santana
 феира ди сантана	Feira de Santana
@@ -35600,14 +36522,17 @@ zzayer	Algiers
 фејетвил	Fayetteville
 фејсалабад	Faisalabad
 фианаранцуа	Fianarantsoa
+фиджи	Fiji
 филаделфиа	Philadelphia
 филаделфия	Philadelphia
 филаделфија	Philadelphia
 филадельфи	Philadelphia
 филадельфии	Philadelphia
 филадельфия	Philadelphia
+филиппины	Philippines
 филипсбург	Philipsburg
 финикс	Phoenix
+финляндия	Finland
 фиренца	Florence
 фирозабад	Fīrozābād
 фирозпур	Firozpur
@@ -35631,6 +36556,7 @@ zzayer	Algiers
 фо ен	Phổ Yên
 фоджа	Foggia
 фоз до игуасу	Foz do Iguaçu
+фолклендские о ва	Falkland Islands
 фонг зиен	Phong Điền
 фонтана	Fontana
 фонтанар	Fontanar
@@ -35681,6 +36607,10 @@ zzayer	Algiers
 франсистаун	Francistown
 франсістаун	Francistown
 францистаун	Francistown
+франция	France
+французская гвиана	French Guiana
+французская полинезия	French Polynesia
+французские южные территории	French Southern Territories
 фрајбург	Freiburg
 фрегуесиа до о	Freguesia do Ó
 фрезно	Fresno
@@ -36095,6 +37025,7 @@ zzayer	Algiers
 хонконг	Hong Kong
 хонолулу	Honolulu
 хоніара	Honiara
+хорватия	Croatia
 хорол хот	Korla
 хорошево	Khoroshëvo-Mnevniki
 хорошево мневники	Khoroshëvo-Mnevniki
@@ -36245,6 +37176,7 @@ zzayer	Algiers
 централно мискии	Tsentralno-Miskyi
 центральнии	Tsentralnyi
 центральнии раион	Tsentralnyi
+центрально африканская республика	Central African Republic
 центрально міськии	Tsentralno-Miskyi
 центрально міськии раион	Tsentralno-Miskyi
 центральныи	Centralniy
@@ -36364,6 +37296,7 @@ zzayer	Algiers
 ціраспаль	Tiraspol
 ціцікар	Qiqihar
 чабаксар	Cheboksary
+чад	Chad
 чаеренг ни	Chaeryŏng-ni
 чаквал	Chakwal
 чалус	Chālūs
@@ -36482,6 +37415,7 @@ zzayer	Algiers
 чернигов	Chernihiv
 черновци	Chernivtsi
 черновцы	Chernivtsi
+черногория	Montenegro
 чернівці	Chernivtsi
 чернігів	Chernihiv
 чертаново второе	Chertanovo Yuzhnoye
@@ -36492,6 +37426,7 @@ zzayer	Algiers
 честърфиилд	Chesterfield
 четумал	Chetumal
 четумаль	Chetumal
+чехия	Czechia
 чељабинск	Chelyabinsk
 чжалаинор	Jalai Nur
 чжаланьтунь	Zhalantun
@@ -36545,6 +37480,7 @@ zzayer	Algiers
 чикусеи	Chikusei
 чикусеј	Chikusei
 чилегон	Cilegon
+чили	Chile
 чилилабомбве	Chililabombwe
 чилливак	Chilliwack
 чилобинск	Chelyabinsk
@@ -36744,6 +37680,8 @@ zzayer	Algiers
 шаі шаі	Xai-Xai
 шаҳрисабз	Shahrisabz
 шванлунху	Shuanglonghu
+швеицария	Switzerland
+швеция	Sweden
 шевченкивскии	Shevchenkivskyi
 шевченко	Shevchenko
 шевченківськии	Shevchenkivskyi
@@ -36809,11 +37747,14 @@ zzayer	Algiers
 шокчанг	Sóc Trăng
 шолжа гӏала	Grozny
 шомолу	Shomolu
+шотландия	Scotland
 шоугуан	Shouguang
 шоупашкаръ	Cheboksary
 шочжоу	Shuozhou
+шпицберген и ян маиен	Svalbard & Jan Mayen
 шревепорт	Shreveport
 шри джаяварденепура котте	Sri Jayewardenepura Kotte
+шри ланка	Sri Lanka
 шри муктсар сахиб	Muktsar
 шривпорт	Shreveport
 шрикакулам	Srikakulam
@@ -36903,6 +37844,8 @@ zzayer	Algiers
 эитенхахе	Kariega
 экатепек де морелос	Ecatepec de Morelos
 экатэпек дэ марэлас	Ecatepec de Morelos
+эквадор	Ecuador
+экваториальная гвинея	Equatorial Guinea
 экибастуз	Ekibastuz
 экрон	Akron
 экс ан прованс	Aix-en-Provence
@@ -37018,6 +37961,7 @@ zzayer	Algiers
 эрзорум	Erzurum
 эрзурум	Erzurum
 эривань	Yerevan
+эритрея	Eritrea
 эрланген	Erlangen
 эрмело	Ermelo
 эрмосильо	Hermosillo
@@ -37028,6 +37972,7 @@ zzayer	Algiers
 эрэбру	Örebro
 эс сиб	Seeb
 эс синбиллавеин	As Sinbillāwayn
+эсватини	Eswatini
 эсеиса	Ezeiza
 эсенлер	Esenler
 эскандыда	Escondido
@@ -37039,11 +37984,13 @@ zzayer	Algiers
 эсна	Esna
 эспоо	Espoo
 эссен	Essen
+эстония	Estonia
 эсэн	Essen
 эт таиф	Ta’if
 эт тукба	Thuqbah
 этавах	Etāwah
 этах	Etah
+эфиопия	Ethiopia
 эхидо	Ejido
 эчэн	Ezhou
 эш шатра	Ash Shaţrah
@@ -37061,12 +38008,15 @@ zzayer	Algiers
 юен лонг сан хуи	Yuen Long San Hui
 юепу	Yuepu
 южна сахалінск	Yuzhno-Sakhalinsk
+южная георгия и южные сандвичевы о ва	South Georgia & South Sandwich Islands
 южная столица	Odesa
 южная тарава	Tarawa
+южно африканская республика	South Africa
 южно сахалинск	Yuzhno-Sakhalinsk
 южно сахалінськ	Yuzhno-Sakhalinsk
 южносахалинск	Yuzhno-Sakhalinsk
 южныи дублин	South Dublin
+южныи судан	South Sudan
 юзове	Donetsk
 юзовка	Donetsk
 юзів	Donetsk
@@ -37098,6 +38048,7 @@ zzayer	Algiers
 ялец	Yelets
 ямагата	Yamagata
 ямагути	Yamaguchi
+ямаика	Jamaica
 ямато	Yamato
 ямунанагар	Yamuna Nagar
 ямусукра	Yamoussoukro
@@ -37124,6 +38075,7 @@ zzayer	Algiers
 яньцзи	Yanji
 яньчжоу	Yanzhou
 яньчэн	Yancheng
+япония	Japan
 яр чаллы	Naberezhnyye Chelny
 яраслауль	Yaroslavl
 ярен	Yaren

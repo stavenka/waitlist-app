@@ -298,7 +298,7 @@ async function findHotel(t){await loadHdb();if(!HBLOOM)return null;
 // resort towns, the Russian names of places of 100,000+, and other spellings of places of 1,000,000+ and capitals,
 // e.g. Londres, Roma, Nueva York), one "key<tab>name" per line. The longest run of up to 4 words wins; a city that is also an everyday word
 // ("nice", "split", "reading") counts only when capitalised.
-let CITIES=null,cLoading=null;const CWORD=new Set('nice split bath reading mobile sale orange temple normal enterprise mission surprise liberty independence flint sandy hull wells march deal best union worthing gary troy jackson victoria florence lancaster providence concord phoenix salem dover york mesa pueblo eugene'.split(' '));
+let CITIES=null,cLoading=null;const CWORD=new Set('chad jordan georgia turkey guinea niger nice split bath reading mobile sale orange temple normal enterprise mission surprise liberty independence flint sandy hull wells march deal best union worthing gary troy jackson victoria florence lancaster providence concord phoenix salem dover york mesa pueblo eugene'.split(' '));
 function loadCities(){return cLoading||(cLoading=fetch(HDB+'cities.txt').then(r=>{if(!r.ok)throw 0;return r.text()}).then(x=>{const m=new Map();x.split('\n').forEach(l=>{const i=l.indexOf('\t');if(i>0)m.set(l.slice(0,i),l.slice(i+1))});CITIES=m}).catch(()=>{cLoading=null}))}
 async function findCity(t){await loadCities();if(!CITIES)return null;
   const w=t.normalize('NFKC').split(/[^\p{L}\p{N}_]+/u).filter(Boolean);
