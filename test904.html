@@ -417,7 +417,7 @@ async function showVideo(){const id=++vrun;const $=x=>document.getElementById(x)
   mv(200,210,700);await sleep(800);showKey('⌘A');for(const e of tx){e.classList.add('hl');await sleep(40)}await sleep(600);showKey('⌘C');await sleep(1000);if(!ok())return;
   key.style.opacity=0;cap.innerHTML='<b>3.</b> Paste it into the chat (⌘V / Ctrl V) and send it';mv(560,356,900);await sleep(1000);key.style.left='588px';showKey('⌘V');inp.textContent=RAW;inp.classList.add('full');await sleep(1000);if(!ok())return;
   // Right after the paste (the user, 28-11-2026)
-  key.style.opacity=0;await mark('Just dump it all in, I\'ll sort it out myself');if(!ok())return;
+  key.style.opacity=0;await mark('Just dump it all, I\'ll sort it out');if(!ok())return;
   inp.textContent=PH;inp.classList.remove('full');key.style.opacity=0;key.style.left='';cm.innerHTML='<div class="vb"></div>';cm.firstChild.textContent=RAW;tx.forEach(e=>e.classList.remove('hl'));await sleep(1600);if(!ok())return;
   cm.innerHTML='';cap.innerHTML='';await mark('...or screenshot it');if(!ok())return;
   cap.innerHTML='Take a screenshot of the email<br><span style="color:var(--muted)">Mac: ⌘ Shift 4 · Windows: Win Shift S · Phone: side + volume up</span>';
