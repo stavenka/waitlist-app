@@ -315,7 +315,7 @@ async function askHotel(h,dated){busy=true;state='choose';
   // A hotel or brand by name (the user, 28-11-2026): the same wording as the other hotel replies, with MVP-195
   await say(L(dated?"To find you the **world's lowest price** for **{0}**, I'd need other details like [i]room name, guests[/i] — otherwise I might find you [mvp]MVP-195[/mvp] price for the room you don't need":"To find you the **world's lowest price** for **{0}**, I'd need other details like [i]dates, room name[/i] — otherwise I might find you [mvp]MVP-195[/mvp] price for the room you don't need",h));
   await say("Do you have an existing reservation for **"+h+"**, so I can try to beat your paid price?",{logo:false});busy=false;
-  document.body.classList.add('nofield');chips([["Existing reservation",()=>{document.body.classList.remove('nofield');existing()}],[L("Search a new {0}",h),()=>{document.body.classList.remove('nofield');newHotel()}]])}
+  document.body.classList.add('nofield');chips([["Existing reservation",()=>{document.body.classList.remove('nofield');existing()}],[L("New search for {0}",h),()=>{document.body.classList.remove('nofield');newHotel()}]])}
 // Hotel brands (the user, 25-11-2026): any of these in a message, even as one lowercase word, gets the hotel lines with the
 // brand's name, never the "only hotels" reply. A name from the hotel lists (e.g. "Hilton Paris Opera") wins over the brand;
 // among brands the longest match wins ("Holiday Inn Express" over "Holiday Inn").
